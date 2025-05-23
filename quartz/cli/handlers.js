@@ -538,10 +538,39 @@ export async function handleRestore(argv) {
  */
 export async function handleSync(argv) {
   const contentFolder = resolveContentPath(argv.directory)
+  const assetsFolder = path.join(contentFolder, "Assets")
   console.log(chalk.bgGreen.black(`\n Quartz v${version} \n`))
   console.log("Backing up your content")
 
+  let assetsWasSymlink = false
+  let assetsSymlinkTarget = ''
+
   if (argv.commit) {
+    // Handle Assets symlink
+    try {
+      const assetsStat = await fs.promises.lstat(assetsFolder)
+      if (assetsStat.isSymbolicLink()) {
+        assetsWasSymlink = true
+        assetsSymlinkTarget = await fs.promises.readlink(assetsFolder)
+        console.log(chalk.yellow(`Detected symlink for ${assetsFolder}, trying to dereference before committing`))
+
+        // Remove symlink
+        await fs.promises.unlink(assetsFolder)
+
+        // Follow symlink and copy content
+        await fs.promises.cp(assetsSymlinkTarget, assetsFolder, {
+          recursive: true,
+          preserveTimestamps: true,
+        })
+      }
+    } catch (e) {
+      // Ignore error if Assets folder doesn't exist or is not a symlink
+      if (e.code !== 'ENOENT') {
+        console.error(chalk.red(`Error checking/handling symlink for ${assetsFolder}: ${e.message}`));
+        // Depending on desired strictness, you might want to exit here
+      }
+    }
+
     const contentStat = await fs.promises.lstat(contentFolder)
     if (contentStat.isSymbolicLink()) {
       const linkTarg = await fs.promises.readlink(contentFolder)
@@ -568,6 +597,21 @@ export async function handleSync(argv) {
     if (contentStat.isSymbolicLink()) {
       // put symlink back
       await popContentFolder(contentFolder)
+    }
+
+    // Restore Assets symlink if it was originally a symlink
+    if (assetsWasSymlink) {
+      try {
+        // Remove the copied content
+        await rimraf(assetsFolder)
+
+        // Recreate the symlink
+        await fs.promises.symlink(assetsSymlinkTarget, assetsFolder, 'dir')
+        console.log(chalk.yellow(`Restored symlink for ${assetsFolder}`))        
+      } catch (e) {
+        console.error(chalk.red(`Error restoring symlink for ${assetsFolder}: ${e.message}`));
+        // Depending on desired strictness, you might want to exit here
+      }
     }
   }
 
