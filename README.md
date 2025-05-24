@@ -2,6 +2,6 @@
 
 Based on Quartz
 
-Install dependencies: npm i
+Install dependencies: **npm i**
 
-Run locally npx quartz build --serve
+Run locally: **npx quartz build --serve**
