@@ -1,4 +1,4 @@
-# Developing Quartz v4
+# Developing w/ Northeast Larder
 
 Based on Quartz
 
