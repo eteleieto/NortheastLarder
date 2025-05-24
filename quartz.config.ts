@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "NOREAL",
+    pageTitle: "Northeast Larder",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -33,7 +33,7 @@ const config: QuartzConfig = {
           lightgray: "#f0e7db",
           gray: "#d8cbb8",
           darkgray: "#7a6c5d",
-          dark: "#3a332b",
+          dark: "#2a2620", // Made body text darker
           secondary: "#5c4f42",
           tertiary: "#a1887f",
           highlight: "rgba(188, 174, 153, 0.3)",
@@ -44,7 +44,7 @@ const config: QuartzConfig = {
           lightgray: "#4a3f34",
           gray: "#68594a",
           darkgray: "#bcae99",
-          dark: "#f5f0e6",
+          dark: "#e5e0d6", // Made body text darker (less bright)
           secondary: "#a1887f",
           tertiary: "#bcae99",
           highlight: "rgba(122, 108, 93, 0.3)",
