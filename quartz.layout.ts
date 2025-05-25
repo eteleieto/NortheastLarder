@@ -36,8 +36,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Flex({
       components: [
         { 
-          Component: Component.Darkmode(),
-          justify: "start"
+          Component: Component.Darkmode()
         },
         { 
           Component: Component.HamburgerMenu({
@@ -72,12 +71,11 @@ export const defaultContentPageLayout: PageLayout = {
                 }
               }),
             ]
-          }),
-          justify: "end"
+          })
         },
       ],
       direction: "row",
-      gap: "0",
+      gap: "1rem",
     })),
     // Desktop layout: search with dark mode and reader mode
     Component.DesktopOnly(Component.Flex({
@@ -146,20 +144,18 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Flex({
       components: [
         { 
-          Component: Component.Darkmode(),
-          justify: "start"
+          Component: Component.Darkmode()
         },
         { 
           Component: Component.HamburgerMenu({
             children: [
               Component.Explorer(),
             ]
-          }),
-          justify: "end"
+          })
         },
       ],
       direction: "row",
-      gap: "0",
+      gap: "1rem",
     })),
     // Desktop layout: search with dark mode
     Component.DesktopOnly(Component.Flex({
