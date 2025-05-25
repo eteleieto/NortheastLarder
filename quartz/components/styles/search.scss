@@ -6,14 +6,6 @@
   @media all and ($mobile) {
     flex-grow: 1;
     max-width: none;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    
-    & > .search-button {
-      max-width: 400px;
-      width: 100%;
-    }
   }
 
   & > .search-button {

@@ -214,46 +214,25 @@ a {
       grid-area: grid-sidebar-left;
       flex-direction: column;
       @media all and ($mobile) {
-        gap: 0.5rem;
+        gap: 1rem;
         align-items: center;
         position: initial;
         display: flex;
         height: unset;
-        flex-direction: column;
+        flex-direction: row;
         padding: 0;
         padding-top: 1rem;
+        justify-content: flex-start;
         
-        // Search bar should be centered and full width
+        // Hamburger menu should be last (rightmost)
+        & .hamburger-toggle {
+          order: 1;
+          margin-left: 1rem;
+        }
+        
+        // Search takes up remaining space
         & .search {
-          width: 100%;
-          max-width: none;
-          order: 1;
-        }
-        
-        // Flex container for dark mode and hamburger should be at the end
-        & > div[style*="display: flex"] {
-          order: 2;
-          width: 100%;
-          justify-content: space-between !important;
-          align-items: center;
-          
-          & > div:first-child {
-            margin-left: 0;
-          }
-          
-          & > div:last-child {
-            margin-left: auto;
-          }
-        }
-        
-        // Page title should be first
-        & .page-title {
-          order: 0;
-        }
-        
-        // Spacers should maintain their order
-        & .spacer {
-          order: 1;
+          flex-grow: 1;
         }
       }
     }
