@@ -29,7 +29,10 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
+    // Mobile layout: only search, no dark mode or reader mode
+    Component.MobileOnly(Component.Search()),
+    // Desktop layout: search with dark mode and reader mode
+    Component.DesktopOnly(Component.Flex({
       components: [
         {
           Component: Component.Search(),
@@ -38,8 +41,38 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
       ],
-    }),
-    Component.RecentNotes({ 
+    })),
+    // Mobile: Recent notes under the title/search
+    Component.MobileOnly(Component.RecentNotes({ 
+      title: "Recent Blog Posts",
+      showTags: false,
+      limit: 3,
+      filter: (page) => {
+        const tags = page.frontmatter?.tags
+        if (!tags) return false
+        if (typeof tags === 'string') return tags === "BLOG"
+        if (Array.isArray(tags)) return tags.includes("BLOG")
+        return false
+      }
+    })),
+    Component.MobileOnly(Component.RecentNotes({
+      title: "Recent Notes",
+      showTags: false,
+      limit: 3,
+      filter: (page) => {
+        const tags = page.frontmatter?.tags;
+        if (!tags) return false;
+        if (typeof tags === 'string') {
+          return tags !== "BLOG";
+        }
+        if (Array.isArray(tags)) {
+          return !tags.includes("BLOG");
+        }
+        return false;
+      }
+    })),
+    // Desktop: Recent notes in sidebar
+    Component.DesktopOnly(Component.RecentNotes({ 
       title: "Recent Blog Posts",
       showTags: false,
       filter: (page) => {
@@ -49,21 +82,15 @@ export const defaultContentPageLayout: PageLayout = {
         if (Array.isArray(tags)) return tags.includes("BLOG")
         return false
       }
-    }),
-    Component.RecentNotes({
+    })),
+    Component.DesktopOnly(Component.RecentNotes({
       showTags: false,
       filter: (page) => {
         const tags = page.frontmatter?.tags;
         if (!tags) return false;
-        if (typeof tags === 'string') {
-          return tags.length > 0;
-        }
-        if (Array.isArray(tags)) {
-          return tags.length > 0;
-        }
-        return false;
+        return true;
       }
-    }),
+    })),
   ],
   right: [
     Component.Graph(),
@@ -85,7 +112,10 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
+    // Mobile layout: only search, no dark mode
+    Component.MobileOnly(Component.Search()),
+    // Desktop layout: search with dark mode
+    Component.DesktopOnly(Component.Flex({
       components: [
         {
           Component: Component.Search(),
@@ -93,7 +123,7 @@ export const defaultListPageLayout: PageLayout = {
         },
         { Component: Component.Darkmode() },
       ],
-    }),
+    })),
     Component.Explorer(),
   ],
   right: [],

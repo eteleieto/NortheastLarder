@@ -219,9 +219,15 @@ a {
         position: initial;
         display: flex;
         height: unset;
-        flex-direction: row;
+        flex-direction: column;
         padding: 0;
         padding-top: 2rem;
+        
+        // Ensure recent notes display properly on mobile
+        & .recent-notes {
+          width: 100%;
+          max-width: none;
+        }
       }
     }
 
