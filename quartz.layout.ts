@@ -16,8 +16,14 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
     }),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
+    Component.ConditionalRender({
+      component: Component.ArticleTitle(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    Component.ConditionalRender({
+      component: Component.ContentMeta(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
     Component.TagList(),
   ],
   left: [
@@ -33,11 +39,42 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.RecentNotes({ 
+      title: "Recent Blog Posts",
+      showTags: false,
+      filter: (page) => {
+        const tags = page.frontmatter?.tags
+        if (!tags) return false
+        if (typeof tags === 'string') return tags === "BLOG"
+        if (Array.isArray(tags)) return tags.includes("BLOG")
+        return false
+      }
+    }),
+    Component.RecentNotes({
+      showTags: false,
+      filter: (page) => {
+        const tags = page.frontmatter?.tags;
+        if (!tags) return false;
+        if (typeof tags === 'string') {
+          return tags.length > 0;
+        }
+        if (Array.isArray(tags)) {
+          return tags.length > 0;
+        }
+        return false;
+      }
+    }),
   ],
   right: [
     Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
+    Component.ConditionalRender({
+      component: Component.CategoryLinks(),
+      condition: (page) => page.fileData.slug === "index",
+    }),
+    Component.ConditionalRender({
+      component: Component.DesktopOnly(Component.TableOfContents()),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
     Component.Backlinks(),
   ],
 }

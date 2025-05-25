@@ -16,6 +16,9 @@ section {
   margin: 0;
   box-sizing: border-box;
   background-color: var(--light);
+  background-image: url("/static/parchment-texture.png");
+  background-repeat: repeat;
+  background-blend-mode: multiply;
   font-family: var(--bodyFont);
   color: var(--darkgray);
 }

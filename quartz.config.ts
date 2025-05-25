@@ -24,12 +24,12 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "JetBrains Mono",
-        body: "Inconsolata",
+        body: "Roboto",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#fff8ed",
+          light: "#fbf3e6",
           lightgray: "#f0e7db",
           gray: "#d8cbb8",
           darkgray: "#7a6c5d",
@@ -86,7 +86,6 @@ const config: QuartzConfig = {
       }),
       Plugin.Assets(),
       Plugin.Static(),
-      Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
       Plugin.CustomOgImages(),

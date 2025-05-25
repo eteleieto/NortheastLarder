@@ -1,0 +1,47 @@
+.category-links {
+  & > h3 {
+    margin: 0.5rem 0 0 0;
+    font-size: 1rem;
+  }
+
+  & > ul.category-list {
+    list-style: none;
+    margin-top: 1rem;
+    padding-left: 0;
+
+    & > li {
+      margin: 1rem 0;
+      
+      .section > .desc > h3 {
+        margin: 0;
+        
+        & > a.category-link {
+          background-color: transparent;
+          text-decoration: none;
+          color: var(--dark);
+          display: flex;
+          align-items: center;
+          transition: color 0.2s ease;
+
+          &:hover {
+            color: var(--secondary);
+          }
+
+          .category-icon {
+            width: 18px;
+            height: 18px;
+            margin-right: 0.5rem;
+            display: flex;
+            align-items: center;
+
+            svg {
+              width: 100%;
+              height: 100%;
+              stroke: currentColor;
+            }
+          }
+        }
+      }
+    }
+  }
+} 
