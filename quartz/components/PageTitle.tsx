@@ -34,11 +34,16 @@ PageTitle.css = `
   }
 
   @media all and (max-width: 800px) {
-    font-size: 1.4rem;
+    font-size: 0;
     
-    & > a > svg {
-      height: 1.6em !important;
-      margin-right: 8px !important;
+    & > a {
+      display: flex;
+      align-items: center;
+      
+      & > svg {
+        height: 2.5em !important;
+        margin-right: 0 !important;
+      }
     }
   }
 }
