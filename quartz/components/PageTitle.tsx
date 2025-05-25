@@ -35,6 +35,9 @@ PageTitle.css = `
 
   @media all and (max-width: 800px) {
     font-size: 0;
+    margin: 0;
+    order: -1;
+    flex-shrink: 0;
     
     & > a {
       display: flex;

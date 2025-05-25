@@ -15,8 +15,7 @@ Our work involves several key areas:
 
 This site serves as a living record of our journey – documenting experiments, sharing recipes, exploring techniques, and highlighting the ingredients and sources that make this project possible. It's an invitation to explore the possibilities of a cuisine built from the ground up, right here in the Northeast.
 
-Our work is informed by ongoing research and reading. You can find a list of influential and relevant books here:
-[[Booklist]]
+Our work is informed by ongoing research and reading. You can find a list of influential and relevant books here: [[Bookshelf]]
 
 For more detailed documentation on the project structure, content types, and site navigation, please see the [[Documentation]] page.
 
