@@ -32,6 +32,15 @@ PageTitle.css = `
       color: var(--secondary);
     }
   }
+
+  @media all and (max-width: 800px) {
+    font-size: 1.4rem;
+    
+    & > a > svg {
+      height: 1.6em !important;
+      margin-right: 8px !important;
+    }
+  }
 }
 `
 
