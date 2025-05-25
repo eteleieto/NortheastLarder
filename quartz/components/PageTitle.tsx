@@ -39,10 +39,16 @@ PageTitle.css = `
     & > a {
       display: flex;
       align-items: center;
+      justify-content: center;
       
       & > svg {
         height: 2.5em !important;
         margin-right: 0 !important;
+      }
+      
+      // Hide the text content on mobile
+      & > *:not(svg) {
+        display: none;
       }
     }
   }
