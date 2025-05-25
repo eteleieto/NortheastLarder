@@ -43,11 +43,13 @@ export default ((opts: HamburgerMenuOptions) => {
         hamburgerOverlay.classList.remove('open');
         hamburgerToggle.classList.remove('open');
         document.body.style.overflow = '';
+        document.documentElement.classList.remove('mobile-no-scroll');
       } else {
         hamburgerMenu.classList.add('open');
         hamburgerOverlay.classList.add('open');
         hamburgerToggle.classList.add('open');
         document.body.style.overflow = 'hidden';
+        document.documentElement.classList.add('mobile-no-scroll');
       }
     }
     
@@ -56,6 +58,7 @@ export default ((opts: HamburgerMenuOptions) => {
       hamburgerOverlay.classList.remove('open');
       hamburgerToggle.classList.remove('open');
       document.body.style.overflow = '';
+      document.documentElement.classList.remove('mobile-no-scroll');
     }
     
     hamburgerToggle?.addEventListener('click', toggleMenu);
