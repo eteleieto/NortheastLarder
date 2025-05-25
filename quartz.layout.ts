@@ -29,8 +29,50 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    // Mobile layout: only search, no dark mode or reader mode
-    Component.MobileOnly(Component.Search()),
+    // Mobile layout: hamburger menu with recent notes, and search only
+    Component.MobileOnly(Component.HamburgerMenu({
+      children: [
+        Component.RecentNotes({ 
+          title: "Recent Blog Posts",
+          showTags: false,
+          limit: 5,
+          filter: (page) => {
+            const tags = page.frontmatter?.tags
+            if (!tags) return false
+            if (typeof tags === 'string') return tags === "BLOG"
+            if (Array.isArray(tags)) return tags.includes("BLOG")
+            return false
+          }
+        }),
+        Component.RecentNotes({
+          title: "Recent Notes",
+          showTags: false,
+          limit: 5,
+          filter: (page) => {
+            const tags = page.frontmatter?.tags;
+            // Show pages that have any tags at all (exclude pages with no tags)
+            if (!tags) return false; // Exclude pages without tags
+            if (typeof tags === 'string') {
+              return true; // Has a tag (any non-empty string)
+            }
+            if (Array.isArray(tags)) {
+              return tags.length > 0; // Has at least one tag
+            }
+            return false; // Default to exclude
+          }
+        }),
+      ]
+    })),
+    // Mobile layout: search and dark mode toggle
+    Component.MobileOnly(Component.Flex({
+      components: [
+        {
+          Component: Component.Search(),
+          grow: true,
+        },
+        { Component: Component.Darkmode() },
+      ],
+    })),
     // Desktop layout: search with dark mode and reader mode
     Component.DesktopOnly(Component.Flex({
       components: [
@@ -41,35 +83,6 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
       ],
-    })),
-    // Mobile: Recent notes under the title/search
-    Component.MobileOnly(Component.RecentNotes({ 
-      title: "Recent Blog Posts",
-      showTags: false,
-      limit: 3,
-      filter: (page) => {
-        const tags = page.frontmatter?.tags
-        if (!tags) return false
-        if (typeof tags === 'string') return tags === "BLOG"
-        if (Array.isArray(tags)) return tags.includes("BLOG")
-        return false
-      }
-    })),
-    Component.MobileOnly(Component.RecentNotes({
-      title: "Recent Notes",
-      showTags: false,
-      limit: 3,
-      filter: (page) => {
-        const tags = page.frontmatter?.tags;
-        if (!tags) return false;
-        if (typeof tags === 'string') {
-          return tags !== "BLOG";
-        }
-        if (Array.isArray(tags)) {
-          return !tags.includes("BLOG");
-        }
-        return false;
-      }
     })),
     // Desktop: Recent notes in sidebar
     Component.DesktopOnly(Component.RecentNotes({ 
@@ -84,11 +97,19 @@ export const defaultContentPageLayout: PageLayout = {
       }
     })),
     Component.DesktopOnly(Component.RecentNotes({
+      title: "Recent Notes",
       showTags: false,
       filter: (page) => {
         const tags = page.frontmatter?.tags;
-        if (!tags) return false;
-        return true;
+        // Show pages that have any tags at all (exclude pages with no tags)
+        if (!tags) return false; // Exclude pages without tags
+        if (typeof tags === 'string') {
+          return true; // Has a tag (any non-empty string)
+        }
+        if (Array.isArray(tags)) {
+          return tags.length > 0; // Has at least one tag
+        }
+        return false; // Default to exclude
       }
     })),
   ],
@@ -112,7 +133,12 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    // Mobile layout: only search, no dark mode
+    // Mobile layout: hamburger menu and search only, no dark mode
+    Component.MobileOnly(Component.HamburgerMenu({
+      children: [
+        Component.Explorer(),
+      ]
+    })),
     Component.MobileOnly(Component.Search()),
     // Desktop layout: search with dark mode
     Component.DesktopOnly(Component.Flex({
@@ -124,7 +150,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     })),
-    Component.Explorer(),
+    Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],
 }

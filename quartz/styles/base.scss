@@ -214,19 +214,25 @@ a {
       grid-area: grid-sidebar-left;
       flex-direction: column;
       @media all and ($mobile) {
-        gap: 0;
+        gap: 1rem;
         align-items: center;
         position: initial;
         display: flex;
         height: unset;
-        flex-direction: column;
+        flex-direction: row;
         padding: 0;
         padding-top: 2rem;
+        justify-content: flex-start;
         
-        // Ensure recent notes display properly on mobile
-        & .recent-notes {
-          width: 100%;
-          max-width: none;
+        // Hamburger menu should be first (leftmost)
+        & .hamburger-toggle {
+          order: -1;
+          margin-right: 1rem;
+        }
+        
+        // Search takes up remaining space
+        & .search {
+          flex-grow: 1;
         }
       }
     }
