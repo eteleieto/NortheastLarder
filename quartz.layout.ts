@@ -127,10 +127,38 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    // Mobile layout: hamburger menu and search only, no dark mode
+    // Mobile layout: hamburger menu with recent notes, and search only
     Component.MobileOnly(Component.HamburgerMenu({
       children: [
-        Component.Explorer(),
+        Component.RecentNotes({ 
+          title: "Recent Blog Posts",
+          showTags: false,
+          limit: 5,
+          filter: (page) => {
+            const tags = page.frontmatter?.tags
+            if (!tags) return false
+            if (typeof tags === 'string') return tags === "BLOG"
+            if (Array.isArray(tags)) return tags.includes("BLOG")
+            return false
+          }
+        }),
+        Component.RecentNotes({
+          title: "Recent Notes",
+          showTags: false,
+          limit: 5,
+          filter: (page) => {
+            const tags = page.frontmatter?.tags;
+            // Show pages that have any tags at all (exclude pages with no tags)
+            if (!tags) return false; // Exclude pages without tags
+            if (typeof tags === 'string') {
+              return true; // Has a tag (any non-empty string)
+            }
+            if (Array.isArray(tags)) {
+              return tags.length > 0; // Has at least one tag
+            }
+            return false; // Default to exclude
+          }
+        }),
       ]
     })),
     Component.MobileOnly(Component.Search()),
@@ -144,7 +172,34 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     })),
-    Component.DesktopOnly(Component.Explorer()),
+    // Desktop: Recent notes in sidebar
+    Component.DesktopOnly(Component.RecentNotes({ 
+      title: "Recent Blog Posts",
+      showTags: false,
+      filter: (page) => {
+        const tags = page.frontmatter?.tags
+        if (!tags) return false
+        if (typeof tags === 'string') return tags === "BLOG"
+        if (Array.isArray(tags)) return tags.includes("BLOG")
+        return false
+      }
+    })),
+    Component.DesktopOnly(Component.RecentNotes({
+      title: "Recent Notes",
+      showTags: false,
+      filter: (page) => {
+        const tags = page.frontmatter?.tags;
+        // Show pages that have any tags at all (exclude pages with no tags)
+        if (!tags) return false; // Exclude pages without tags
+        if (typeof tags === 'string') {
+          return true; // Has a tag (any non-empty string)
+        }
+        if (Array.isArray(tags)) {
+          return tags.length > 0; // Has at least one tag
+        }
+        return false; // Default to exclude
+      }
+    })),
   ],
   right: [],
 }
