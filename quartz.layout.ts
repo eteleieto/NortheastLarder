@@ -63,16 +63,10 @@ export const defaultContentPageLayout: PageLayout = {
         }),
       ]
     })),
-    // Mobile layout: search and dark mode toggle
-    Component.MobileOnly(Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-      ],
-    })),
+    // Mobile layout: search (center)
+    Component.MobileOnly(Component.Search()),
+    // Mobile layout: dark mode toggle (before hamburger)
+    Component.MobileOnly(Component.Darkmode()),
     // Desktop layout: search with dark mode and reader mode
     Component.DesktopOnly(Component.Flex({
       components: [

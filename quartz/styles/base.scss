@@ -222,6 +222,7 @@ a {
         flex-direction: row;
         padding: 0;
         padding-top: 1rem;
+        padding-left: 0;
         justify-content: flex-start;
         
         // Hamburger menu should be last (rightmost)
@@ -233,6 +234,13 @@ a {
         // Search takes up remaining space
         & .search {
           flex-grow: 1;
+          margin-left: 2rem;
+        }
+        
+        // Dark mode toggle positioning on mobile
+        & .darkmode {
+          margin-left: 0rem;
+          margin-right: -4.5rem;
         }
       }
     }

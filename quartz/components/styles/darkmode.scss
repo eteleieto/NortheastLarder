@@ -18,6 +18,11 @@
     fill: var(--darkgray);
     transition: opacity 0.1s ease;
   }
+
+  @media all and (max-width: 800px) {
+    order: 0.5;
+    margin-left: 0.5rem;
+  }
 }
 
 :root[saved-theme="dark"] {

@@ -34,18 +34,24 @@ PageTitle.css = `
   }
 
   @media all and (max-width: 800px) {
-    font-size: 0;
     margin: 0;
     order: -1;
     flex-shrink: 0;
+    display: block !important;
+    min-width: 40px;
     
     & > a {
       display: flex;
       align-items: center;
+      font-size: 0;
+      padding: 0.5rem;
       
       & > svg {
-        height: 2.5em !important;
+        height: 40px !important;
+        width: auto !important;
         margin-right: 0 !important;
+        display: block;
+        fill: var(--dark);
       }
     }
   }
