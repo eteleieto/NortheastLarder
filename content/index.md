@@ -8,7 +8,7 @@ The Northeast Larder Project is an ongoing exploration into the rich potential o
 
 This project is driven by a desire to connect more intimately with our local food landscape. We focus intensely on sourcing ingredients directly from farms, foragers, and producers within the Northeast, striving to minimize reliance on products from outside this geographical area. This constraint isn't just a limitation; it's a creative catalyst that encourages innovation and a deeper understanding of what the region truly offers throughout the year.
 
-Our work involves several key areas:
+Our work involves several key area:
 *   **Embracing Seasonality:** Working directly with the natural cycles of the land, adapting our cooking and preservation methods to the ingredients available each season.
 *   **Mastering Preservation:** Utilizing traditional and modern techniques, with a particular emphasis on fermentation, to extend the life and transform the flavors of seasonal produce, building a true "larder" for year-round use.
 *   **Developing a Regional Cuisine:** Through experimentation and documentation, we are working towards defining a culinary identity that is authentic to the Northeast, showcasing its specific ingredients, flavors, and history.
