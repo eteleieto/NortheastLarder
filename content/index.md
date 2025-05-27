@@ -8,8 +8,6 @@ The Northeast Larder Project is an ongoing exploration into the rich potential o
 
 This project is driven by a desire to connect more intimately with our local food landscape. We focus intensely on sourcing ingredients directly from farms, foragers, and producers within the Northeast, striving to minimize reliance on products from outside this geographical area. This constraint isn't just a limitation; it's a creative catalyst that encourages innovation and a deeper understanding of what the region truly offers throughout the year.
 
-
-![Amazon.com: Cabilock Glass Fermenting Jar Traditional Chinese Fermentation  Crock with Water Seal Lid 2500ml for Pickling Kimchi Sauerkraut Honey ... | 200](https://m.media-amazon.com/images/I/61H96XY4NgL.jpg)
 Our work involves several key areas:
 *   **Embracing Seasonality:** Working directly with the natural cycles of the land, adapting our cooking and preservation methods to the ingredients available each season.
 *   **Mastering Preservation:** Utilizing traditional and modern techniques, with a particular emphasis on fermentation, to extend the life and transform the flavors of seasonal produce, building a true "larder" for year-round use.
