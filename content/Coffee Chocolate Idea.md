@@ -2,8 +2,8 @@
 title: Coffee Chocolate Idea
 tags:
   - BLOG
-Author: 
-Date:
+author: 
+date:
 ---
 **Coffee Macronutrients**: Carbs (50%), Proteins (13%), Lipid (15%)
 
