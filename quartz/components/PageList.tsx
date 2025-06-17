@@ -290,7 +290,7 @@ GridPageList.css = `
 }
 
 .grid-item {
-  border-radius: 8px;
+  border-radius: 8px 8px 0 0;
   overflow: hidden;
   background-color: var(--light);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -326,8 +326,6 @@ GridPageList.css = `
   vertical-align: top;
   transition: transform 0.2s ease;
 }
-
-
 
 .image-placeholder {
   width: 100%;
