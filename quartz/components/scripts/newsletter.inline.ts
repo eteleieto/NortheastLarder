@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Google Apps Script Web App URL - this will need to be updated with your actual URL
-  const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec';
+  const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxGI3sEM5XOFQNJ8OnrLDEF4m9GHgzleEoH9EzlXtiZhzzxthjAUdAuQgzBMQMfyN9zYA/exec';
 
   function showMessage(text: string, type: 'success' | 'error') {
     messageDiv.textContent = text;
