@@ -1,16 +1,10 @@
----
-tags:
-  - BLOG
-created: 2025-01-04
-modified: 2025-01-04
----
-## Restaurants
+
 1. Holy Carrot, London
 2. Folke, Vancouver
 3. Bellies, Norway
 4. Ark, Copenhagen
 5. Bonvivant, Germany
-6. Silo, London
+6. Silo, London[]()
 7. Noma, Copenhagen
 8. Kajitsu (Closed)
 9. Ark, Copenhagen

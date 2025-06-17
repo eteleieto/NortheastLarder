@@ -1,7 +1,5 @@
 ---
 title: Northeast Larder
-created: 2025-01-01
-modified: 2025-01-07
 ---
 
 ## Welcome
