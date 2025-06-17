@@ -8,6 +8,9 @@ export default (() => {
         <div class="social-links">
           <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
           <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+          <br />
+          <br />
+          <a href="mailto:info@northeastlarder.com">Email: info@northeastlarder.com</a>
         </div>
         <p>
           Created with <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noopener noreferrer">Quartz v4</a>,

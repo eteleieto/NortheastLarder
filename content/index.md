@@ -4,48 +4,85 @@ title: Northeast Larder
 
 ## Welcome
 
-The Northeast Larder Project is an ongoing exploration into the rich potential of ingredients cultivated within the Northeastern United States. Our core aim is to develop and document a self-contained culinary ecosystem, deeply rooted in the unique bounty and seasonality of this region.
+The Northeastern Larder Project is an independent, interdisciplinary food lab and research center. We’re not backed by commercial or institutional funding, which means our work is guided entirely by curiosity, rigor, and a desire to serve the public good. 
 
-This project is driven by a desire to connect more intimately with our local food landscape. We focus intensely on sourcing ingredients directly from farms, foragers, and producers within the Northeast, striving to minimize reliance on products from outside this geographical area. This constraint isn't just a limitation; it's a creative catalyst that encourages innovation and a deeper understanding of what the region truly offers throughout the year.
+Drawing from fields like gastronomy, ecology, anthropology, and sociology, we work toward a more delicious, local, and nourishing food system rooted in the Northeast.
 
-Our work involves several key areas:
-*   **Embracing Seasonality:** Working directly with the natural cycles of the land, adapting our cooking and preservation methods to the ingredients available each season.
-*   **Mastering Preservation:** Utilizing traditional and modern techniques, with a particular emphasis on fermentation, to extend the life and transform the flavors of seasonal produce, building a true "larder" for year-round use.
-*   **Developing a Regional Cuisine:** Through experimentation and documentation, we are working towards defining a culinary identity that is authentic to the Northeast, showcasing its specific ingredients, flavors, and history.
+We believe that great food cultures are born not from abundance, but from constraints—regional limitations that spark creativity. Garum, the fermented fish sauce of the Roman Empire, ingeniously transformed fish guts into a shelf-stable source of umami. In the Alps, milk couldn't travel down into the valleys before it spoiled, so it was fermented into hard, long-aged cheeses like Comté and Gruyère. In the same spirit, we explore what becomes possible when we commit to the ingredients, waste streams, climates, and communities of the Northeast.
 
-This site serves as a living record of our journey – documenting experiments, sharing recipes, exploring techniques, and highlighting the ingredients and sources that make this project possible. It's an invitation to explore the possibilities of a cuisine built from the ground up, right here in the Northeast.
+Our work focuses on three key areas:
 
-Our work is informed by ongoing research and reading. You can find a list of influential and relevant books here: [[Bookshelf]]
+1. **Regional Ingredients** – We explore how Northeastern vegetables, fruits, grains, legumes, and wild foods can form the backbone of a vibrant larder. We focus on crops that matter to farmers, rebuild soil health, and offer untapped culinary potential.
+    
+2. **Upcycling Waste** – We develop processes to turn industry byproducts—like spent grain, vegetable trim, or fruit pulp—into useful and delicous ingredients.
+    
+3. **Preservation and Fermentation** – We play with ancient and modern preservation and fermentation techniques, both native to this region and adapted from elsewhere, to stretch the growing season and concentrate flavor.
+    
 
-For more detailed documentation on the project structure, content types, and site navigation, please see the [[Documentation]] page.
+Why do we do this? Because we believe that building a strong regional food culture—one that’s seasonal, diverse, and deeply rooted—leads to better health, greater sustainability, and a richer sense of place. When our diets align with what grows here, we support the land, reduce dependency on long supply chains, and build resilience—nutritional, ecological, and cultural.
 
-## Currently Working On
+We see our work as both continuation and contribution. We’re trying to contribute to what is already here, and to extend it. When we borrow from other traditions, we do so with respect and curiosity, integrating those techniques into a local ecological logic.
 
-Here's a glimpse into what we're currently exploring and documenting:
+## Our Philosophy
 
-*   [[New Blog]] - A recent write-up on a specific topic.
-*   [[Experiment on Lacto-Fermented Radishes]] - Documenting a recent preservation trial.
-*   [[Developing a Recipe for Foraged Greens]] - Working on integrating seasonal wild ingredients.
-*   [[Researching Historic Northeast Preservation Methods]] - Diving into the history of the region's foodways.
+The supermarket is the dominant interface between people and food in the U.S., but it’s a distorted one: shaped by shelf stability, scale, and profit margins. What ends up on the shelves is often trucked from thousands of miles away, nutritionally hollow, flavorless, and aggressively processed. This interface contrinbuted to a logic of convenience over care.
 
-## Content Overview
+This broken system has real consequences:
 
-The content is organized into nine main types of pages:
+- A narrowing of culinary, botanical, and cultural diversity
+	
+- Poor health outcomes, driven by caloric density and nutrient poverty.
+    
+- A disconnection from land, season, and community.
+    
+- Food waste at every touchpoint
+    
 
-*   **Recipes:** More complete dishes designed to stand on their own, showcasing the integration of local ingredients and techniques.
-*   **Experiments:** Documentation of trials with specific ingredients or techniques, sometimes with a clear culinary goal and sometimes exploring possibilities.
-*   **Blogs:** More public-facing polished write-ups about experiments, thoughts, theories, and other project-related topics.
-*   **Ideas:** Concepts or potential projects that are being considered but have not yet been documented as experiments.
-*   **Ingredients:** Pages dedicated to individual ingredients or derived products (e.g., a specific vegetable, a lactofermented item).
-*   **Techniques:** Explanations and explorations of culinary and fermentative methods relevant to the project.
-*   **Sources:** Information about the farms, producers, or locations where ingredients are sourced.
-*   **Larder:** Items that are used as ingredients (e.g., home-made vinegar, amazake) but that need to be made.
-*   **Project:** An overarching project, like 'amazakes' or 'grain vinegars', within which can be many experiments.
+What we eat directly shapes our environment. Our collective choices determine how soil is treated, what kinds of farms are viable, and what our landscapes become. When we upcycle waste, when we celebrate what grows here, when we cook with care, we change the system from the plate up.
+
+We’re interested in reversing these loops that abstract us from place and community. Can we build a food system that contributes to, rather than ignores, our region? That diversifies rather than monocultures? That makes it easy—_and joyful_—to eat food that’s good for us and good for the Northeast?
+
+We also believe that food doesn’t exist in isolation. Fermentation is a conversation with microbes, but also with sustainability, time, memory, and joy. Deliciousness is a cultural expression. A well-made dish can be a system intervention. That’s why we explore the links between food and everything else, because food *is* everything else.
+
+## Open Sourcing Knowledge
+
+Everything we do is shared—ideas, prototypes, flops, breakthroughs—in the same structure and language we use internally. This website _is_ our lab notebook. You can explore the full network of our research through the knowledge and flavor graph. We add new notes regularly,sometimes daily or hourly.
+
+## What We Do
+
+We organize our work into three domains:
+
+1. **Develop**  
+    We draw from sociology, anthropology, agroecology, history, and systems design to explore how food ideas interact with people, land, economy, and identity.
+    
+2. **R&D**  
+    We conduct rigorous, gastronomically minded experimentation to develop techniques, recipes, and products that showcase what's possible using ingredients from the Northeast.
+    
+3. **Share**  
+    Our research is meant to be used. We collaborate with chefs, restaurants, and producers. We share our knowledge openly and accessibly, and we run workshops to support culinary literacy for everyone.
+    
+
+## Current Explorations
+
+Some of our active lines of inquiry include:
+
+- [[Exploring coffee-like substances]] – Developing coffee and chocolate _analogs_ using Northeastern ingredients.
+    
+- [[Amazake]] Investigating the potential of amazake and other koji-based methods to create new sugars, syrups, and sweet ferments.
+    
 
 ## Navigating the Site
 
-*   **Left Sidebar (Explorer):** Use this panel to browse the entire site structure, organized by folders and files.
-*   **Right Sidebar (Table of Contents):** This panel provides an outline of the current page, allowing you to quickly jump to different sections.
-*   **Graph View:** The interactive graph on the right visualizes the connections between different pages, helping you discover related content and explore the network of ideas within the project.
+- **Left Sidebar (Explorer):** Browse recent blogs and notes, and search accross our whole site. 
+    
+- **Right Sidebar (Table of Contents):** Quickly jump to post-types – recipes, ingredients, and more – and move between sections on the current page.
+    
+- **Graph View:** Visualize how different topics, experiments, and ingredients dynamically relate
 
-New content is added regularly as research and experiments progress.
+## Interested in Working With Us?
+
+Many restaurants don’t have the time, space, or resources to pursue speculative culinary R&D. We act as an extension of your kitchen – developing  early-stage ideas that could become foundational parts of your menu and larder. We also work with restaurants and food-organizations to build out intelligent internal knowledge hubs to track and connect ideas. 
+
+We’re currently working with a NYC plant-based restaurant set to open in 2026.
+
+If you’re building something thoughtful, ambitious and regionally-minded, we’d love to hear from you.

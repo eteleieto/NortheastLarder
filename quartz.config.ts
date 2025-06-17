@@ -23,6 +23,7 @@ const config: QuartzConfig = {
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
+      // Font hierarchy: header ("JetBrains Mono"), body ("Roboto"), and code ("IBM Plex Mono")
       typography: {
         header: "JetBrains Mono",
         body: "Roboto",
