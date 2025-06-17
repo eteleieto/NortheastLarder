@@ -4,7 +4,7 @@ title: Northeast Larder
 
 ## Welcome
 
-The Northeastern Larder Project is an independent, interdisciplinary food lab and research center. We’re not backed by commercial or institutional funding, which means our work is guided entirely by curiosity, rigor, and a desire to serve the public good. 
+The Northeastern Larder Project is an **independent, interdisciplinary food lab and research center**. We’re not backed by commercial or institutional funding, which means our work is guided entirely by curiosity, rigor, and a desire to serve the public good. 
 
 Drawing from fields like gastronomy, ecology, anthropology, and sociology, we work toward a more delicious, local, and nourishing food system rooted in the Northeast.
 
@@ -68,7 +68,7 @@ Some of our active lines of inquiry include:
 
 - [[Exploring coffee-like substances]] – Developing coffee and chocolate _analogs_ using Northeastern ingredients.
     
-- [[Amazake]] Investigating the potential of amazake and other koji-based methods to create new sugars, syrups, and sweet ferments.
+- [[Amazake]] – Investigating the potential of amazake and other koji-based methods to create new sugars, syrups, and sweet ferments.
     
 
 ## Navigating the Site

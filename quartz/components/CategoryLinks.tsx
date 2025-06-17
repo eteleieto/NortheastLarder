@@ -20,27 +20,23 @@ const defaultOptions = (cfg: GlobalConfiguration): Options => ({
   categories: [
     { 
       name: "Recipes", 
-      slug: "recipes" as SimpleSlug,
-    },
-    { 
-      name: "Experiments", 
-      slug: "experiments" as SimpleSlug,
+      slug: "tags/RECIPE" as SimpleSlug,
     },
     { 
       name: "Blogs", 
-      slug: "blogs" as SimpleSlug,
+      slug: "tags/BLOG" as SimpleSlug,
     },
     { 
       name: "Ideas", 
-      slug: "ideas" as SimpleSlug,
+      slug: "tags/IDEA" as SimpleSlug,
     },
     { 
       name: "Larders", 
-      slug: "larders" as SimpleSlug,
+      slug: "tags/LARDER" as SimpleSlug,
     },
     { 
       name: "Projects", 
-      slug: "projects" as SimpleSlug,
+      slug: "tags/PROJECT" as SimpleSlug,
     },
   ],
 })

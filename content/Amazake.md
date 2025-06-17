@@ -2,6 +2,7 @@
 title: Amazake
 tags:
   - PROJECT
+date: 2025-06-12
 ---
 #### [[Spelt Amazake]]
 
