@@ -3,7 +3,7 @@ tags: BLOG
 date: 2025-01-07
 ---
 
-# New Blog Post
+# New Blog Post (Test)
 
 Welcome to my new blog! Here's a sample of the multi-column layout feature.
 
