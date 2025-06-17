@@ -21,13 +21,20 @@ interface RenderComponents {
   footer: QuartzComponent
 }
 
+
+
 const headerRegex = new RegExp(/h[1-6]/)
 export function pageResources(
   baseDir: FullSlug | RelativeURL,
   staticResources: StaticResources,
 ): StaticResources {
-  const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
-  const contentIndexScript = `const fetchData = fetch("${contentIndexPath}").then(data => data.json())`
+  // Use an absolute path so that it works on pretty URLs like `/New-Blog` (which resolve to
+  // `/New-Blog/index.html`) as well as direct `.html` files. A leading slash ensures we
+  // always fetch from the site root regardless of current page depth.
+  const contentIndexPath = "/static/contentIndex.json"
+  // Expose the promise on the global object so inline client scripts (e.g., card list)
+  // can access it via `window.fetchData`.
+  const contentIndexScript = `const fetchData = window.fetchData = fetch("${contentIndexPath}").then(data => data.json())`
 
   const resources: StaticResources = {
     css: [

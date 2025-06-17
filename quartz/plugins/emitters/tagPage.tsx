@@ -118,7 +118,7 @@ export const TagPage: QuartzEmitterPlugin<Partial<TagPageOptions>> = (userOpts) 
     ...defaultListPageLayout,
     // Override the left sidebar to include ReaderMode like content pages
     left: [
-      ...defaultListPageLayout.left.slice(0, 4), // Keep PageTitle, MobileOnly(Spacer), MobileOnly(HamburgerMenu), MobileOnly(Search)
+      ...defaultListPageLayout.left.slice(0, 5), // Keep PageTitle, MobileOnly(Spacer), MobileOnly(HamburgerMenu), MobileOnly(Search), MobileOnly(Darkmode)
       // Desktop layout: search with dark mode and reader mode (like content pages)
       Component.DesktopOnly(Component.Flex({
         components: [
@@ -131,7 +131,7 @@ export const TagPage: QuartzEmitterPlugin<Partial<TagPageOptions>> = (userOpts) 
         ],
       })),
       // Keep the rest of the desktop components
-      ...defaultListPageLayout.left.slice(5), // Desktop RecentNotes components
+      ...defaultListPageLayout.left.slice(6), // Desktop RecentNotes components
     ],
     // Override the right sidebar to include Graph and CategoryLinks like content pages
     right: [

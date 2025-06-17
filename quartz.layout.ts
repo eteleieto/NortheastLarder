@@ -117,7 +117,10 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.DesktopOnly(Component.TableOfContents()),
       condition: (page) => page.fileData.slug !== "index",
     }),
-    Component.Backlinks(),
+    Component.ConditionalRender({
+      component: Component.Backlinks(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
   ],
 }
 
@@ -162,6 +165,8 @@ export const defaultListPageLayout: PageLayout = {
       ]
     })),
     Component.MobileOnly(Component.Search()),
+    // Mobile layout: dark mode toggle
+    Component.MobileOnly(Component.Darkmode()),
     // Desktop layout: search with dark mode
     Component.DesktopOnly(Component.Flex({
       components: [

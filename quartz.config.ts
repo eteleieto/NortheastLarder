@@ -74,6 +74,7 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.CardListTransformer(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

@@ -28,3 +28,5 @@ So, in order to recreate this two step process, you must recreate the fermentati
 **Potential Substrates**: fava beans (Rich in vicilin (7S globulin), legumin (11S globulin)), lentils, barley, buckwheat
 
 **Others**: soybeans, rye, spelt, stale Bread
+
+![[Coffee Chocolate Idea.jpg]]

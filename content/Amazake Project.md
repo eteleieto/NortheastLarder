@@ -7,6 +7,8 @@ date: 2025-06-12
 ---
 ## Active Explorations
 
+||| 
+
 ##### [[Spelt Amazake]]
 
 ##### [[Rye Amazake]]
@@ -14,6 +16,8 @@ date: 2025-06-12
 ##### [[Peanut Amazake]]
 
 ##### [[Toasted Buckwheat Amazake]]
+
+|||
 
 ---
 
@@ -25,7 +29,7 @@ We're exploring a few possiblities with amazake
 
 1. What substrates, other than rice, rice koji, and water can we use? 
 2. What waste products can be upcycled through amazake?
-3. Can amazake be used in the secondary or tertiary fermentations?
+3. Can amazake be used in secondary or tertiary fermentations?
 4. What larder items can be developed with amazake?
 
 ![[Screenshot 2025-06-16 at 9.18.07 PM.png.png | 500]]

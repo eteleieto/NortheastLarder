@@ -2,11 +2,23 @@
 title: Northeast Larder
 ---
 
-## Welcome
+# Welcome
 
 The Northeastern Larder Project is an **independent, interdisciplinary food lab and research center**. We’re not backed by commercial or institutional funding, which means our work is guided entirely by curiosity, rigor, and a desire to serve the public good. 
 
 Drawing from fields like gastronomy, ecology, anthropology, and sociology, we work toward a more delicious, local, and nourishing food system rooted in the Northeast.
+
+## Here are some of our current projects:
+
+||
+
+[[Amazake Project]]
+
+[[Coffee Chocolate Idea]]
+
+||
+
+---
 
 We believe that great food cultures are born not from abundance, but from constraints—regional limitations that spark creativity. Garum, the fermented fish sauce of the Roman Empire, ingeniously transformed fish guts into a shelf-stable source of umami. In the Alps, milk couldn't travel down into the valleys before it spoiled, so it was fermented into hard, long-aged cheeses like Comté and Gruyère. In the same spirit, we explore what becomes possible when we commit to the ingredients, waste streams, climates, and communities of the Northeast.
 
@@ -60,15 +72,6 @@ We organize our work into three domains:
     
 3. **Share**  
     Our research is meant to be used. We collaborate with chefs, restaurants, and producers. We share our knowledge openly and accessibly, and we run workshops to support culinary literacy for everyone.
-    
-
-## Current Explorations
-
-Some of our active lines of inquiry include:
-
-- [[Exploring coffee-like substances]] – Developing coffee and chocolate _analogs_ using Northeastern ingredients.
-    
-- [[Amazake Project]] – Investigating the potential of amazake and other koji-based methods to create new sugars, syrups, and sweet ferments.
     
 
 ## Navigating the Site
