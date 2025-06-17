@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
     return; // Elements not found, exit early
   }
 
-  // Google Apps Script Web App URL - this will need to be updated with your actual URL
-  const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxGI3sEM5XOFQNJ8OnrLDEF4m9GHgzleEoH9EzlXtiZhzzxthjAUdAuQgzBMQMfyN9zYA/exec';
+  // Google Apps Script Web App URL - replace with your new deployment URL
+  const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycby21sdi3K9dkshMimhcOVdnxoJi9TwihcMu52aM-1gbyfdVAcvfXI7WoheA2GYxbqUs/exec';
 
   function showMessage(text: string, type: 'success' | 'error') {
     messageDiv.textContent = text;
@@ -48,13 +48,17 @@ document.addEventListener('DOMContentLoaded', function() {
     submitBtn.textContent = 'Subscribing...';
 
     try {
-      const formData = new FormData();
-      formData.append('email', email);
-      formData.append('timestamp', new Date().toISOString());
+      // Use URLSearchParams instead of FormData for better compatibility
+      const params = new URLSearchParams();
+      params.append('email', email);
+      params.append('timestamp', new Date().toISOString());
 
       const response = await fetch(GOOGLE_SCRIPT_URL, {
         method: 'POST',
-        body: formData
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: params.toString()
       });
 
       if (response.ok) {
