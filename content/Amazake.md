@@ -4,6 +4,21 @@ tags:
   - PROJECT
 date: 2025-06-12
 ---
+Amazake (甘酒) is a traditional japanese beverage typically made from rice and rice koji. Rice is cooked, cooled, and then mixed with equal parts of koji, by weight, and water. The koji enzymatically breaks down the carbohydrates – i.e. the starches in the rice –  into sugars. The result is a sweet, non-alcoholical liquid that has no exogenous forms of sugar. The amazake can then be modified – strained, clarified, blended, etc... – and added as the base of an ice cream, incporated into a dressing, cooked down into caramel, or used to make a vinegar. 
+
+Why does Amazake, and amazake-variants, excite us?
+1. Amazake is a natural, and generally healthier, sweetening agent. In the United States, we rely heavily on refined cane sugar, 
+
+
+
+
+
+
+The rice koji, 
+
+
+
+
 #### [[Spelt Amazake]]
 
 #### Rye Amazake

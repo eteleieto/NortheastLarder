@@ -13,7 +13,17 @@ const defaultOptions: Options = {
 }
 
 function coerceDate(fp: string, d: any): Date {
-  const dt = new Date(d)
+  let dt: Date
+  
+  // Handle date-only strings (YYYY-MM-DD) to avoid timezone issues
+  if (typeof d === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(d)) {
+    // Parse as local date instead of UTC
+    const [year, month, day] = d.split('-').map(Number)
+    dt = new Date(year, month - 1, day, 12, 0, 0) // Set to noon local time
+  } else {
+    dt = new Date(d)
+  }
+  
   const invalidDate = isNaN(dt.getTime()) || dt.getTime() === 0
   if (invalidDate && d !== undefined) {
     console.log(

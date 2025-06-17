@@ -1,6 +1,5 @@
 ---
-tags:
-  - BLOG
+tags: []
 ---
 ## Books
 ###### Fermentation

@@ -1,5 +1,7 @@
 ---
 title: Northeast Larder
+created: 2025-01-01
+modified: 2025-01-07
 ---
 
 ## Welcome
@@ -75,13 +77,13 @@ Some of our active lines of inquiry include:
 
 - **Left Sidebar (Explorer):** Browse recent blogs and notes, and search accross our whole site. 
     
-- **Right Sidebar (Table of Contents):** Quickly jump to post-types – recipes, ingredients, and more – and move between sections on the current page.
+- **Right Sidebar (Table of Contents):** Quickly jump to post-types—recipes, ingredients, and more—and move between sections on the current page.
     
 - **Graph View:** Visualize how different topics, experiments, and ingredients dynamically relate
 
 ## Interested in Working With Us?
 
-Many restaurants don’t have the time, space, or resources to pursue speculative culinary R&D. We act as an extension of your kitchen – developing  early-stage ideas that could become foundational parts of your menu and larder. We also work with restaurants and food-organizations to build out intelligent internal knowledge hubs to track and connect ideas. 
+Many restaurants don’t have the time, space, or resources to pursue speculative culinary R&D. We act as an extension of your kitchen—developing  early-stage ideas that could become foundational parts of your menu and larder. We also work with restaurants and food-organizations to build out intelligent internal knowledge hubs to track and connect ideas. 
 
 We’re currently working with a NYC plant-based restaurant set to open in 2026.
 

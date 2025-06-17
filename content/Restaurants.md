@@ -1,6 +1,8 @@
 ---
 tags:
   - BLOG
+created: 2025-01-04
+modified: 2025-01-04
 ---
 ## Restaurants
 1. Holy Carrot, London
