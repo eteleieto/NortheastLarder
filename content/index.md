@@ -20,6 +20,8 @@ Drawing from fields like gastronomy, ecology, anthropology, and sociology, we wo
 
 ---
 
+## Our Philosophy
+
 We believe that great food cultures are born not from abundance, but from constraints—regional limitations that spark creativity. Garum, the fermented fish sauce of the Roman Empire, ingeniously transformed fish guts into a shelf-stable source of umami. In the Alps, milk couldn't travel down into the valleys before it spoiled, so it was fermented into hard, long-aged cheeses like Comté and Gruyère. In the same spirit, we explore what becomes possible when we commit to the ingredients, waste streams, climates, and communities of the Northeast.
 
 Our work focuses on three key areas:
@@ -34,8 +36,6 @@ Our work focuses on three key areas:
 Why do we do this? Because we believe that building a strong regional food culture—one that’s seasonal, diverse, and deeply rooted—leads to better health, greater sustainability, and a richer sense of place. When our diets align with what grows here, we support the land, reduce dependency on long supply chains, and build resilience—nutritional, ecological, and cultural.
 
 We see our work as both continuation and contribution. We’re trying to contribute to what is already here, and to extend it. When we borrow from other traditions, we do so with respect and curiosity, integrating those techniques into a local ecological logic.
-
-## Our Philosophy
 
 The supermarket is the dominant interface between people and food in the U.S., but it’s a distorted one: shaped by shelf stability, scale, and profit margins. What ends up on the shelves is often trucked from thousands of miles away, nutritionally hollow, flavorless, and aggressively processed. This interface contrinbuted to a logic of convenience over care.
 

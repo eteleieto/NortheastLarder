@@ -355,6 +355,7 @@ GridPageList.css = `
   cursor: pointer;
   height: 100%;
   box-shadow: -4px 4px 6px rgba(0, 0, 0, 0.05);
+  border: .25px solid var(--darkgray);
 }
 
 .grid-item-link:hover .grid-item {
@@ -432,5 +433,15 @@ GridPageList.css = `
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+}
+
+.grid-item-link.internal {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+.grid-item-link.internal:hover {
+  background-color: transparent;
 }
 `

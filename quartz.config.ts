@@ -61,6 +61,7 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
       }),
+      Plugin.MultiColumnTransformer(),
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",

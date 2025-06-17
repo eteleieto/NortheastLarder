@@ -1,12 +1,31 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/footer.scss"
+// @ts-ignore
+import script from "./scripts/newsletter.inline"
 
 export default (() => {
   const Footer: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
+        <div class="newsletter-signup">
+          <h3>Stay Connected</h3>
+          <p>Subscribe to get updates on new recipes and food experiments!</p>
+          <form id="newsletter-form" class="email-form">
+            <div class="form-group">
+              <input 
+                type="email" 
+                id="email-input" 
+                placeholder="Enter your email" 
+                required 
+                aria-label="Email address"
+              />
+              <button type="submit" id="submit-btn">Subscribe</button>
+            </div>
+            <div id="form-message" class="form-message"></div>
+          </form>
+        </div>
         <div class="social-links">
-          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.instagram.com/northeastlarder/" target="_blank" rel="noopener noreferrer">Instagram</a>
           <br />
           <br />
           <span>Email: </span><a href="mailto:info@northeastlarder.com">info@northeastlarder.com</a>
@@ -19,6 +38,7 @@ export default (() => {
     )
   }
 
+  Footer.afterDOMLoaded = script
   Footer.css = style
   return Footer
 }) satisfies QuartzComponentConstructor

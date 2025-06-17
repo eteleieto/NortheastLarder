@@ -89,6 +89,7 @@ export const CardListTransformer: QuartzTransformerPlugin<Partial<Options>> = (u
                 cursor: pointer;
                 height: 100%;
                 box-shadow: -4px 4px 6px rgba(0, 0, 0, 0.05);
+                border: 1px solid var(--darkgray);
               }
               
               .grid-item-link:hover .grid-item {
@@ -175,6 +176,16 @@ export const CardListTransformer: QuartzTransformerPlugin<Partial<Options>> = (u
                 grid-column: 1 / -1;
               }
               
+              .grid-item-link.internal {
+                background-color: transparent;
+                padding: 0;
+                border-radius: 0;
+              }
+              
+              .grid-item-link.internal:hover {
+                background-color: transparent;
+              }
+              
               .card-list-error {
                 text-align: center;
                 padding: 2rem;
@@ -187,6 +198,7 @@ export const CardListTransformer: QuartzTransformerPlugin<Partial<Options>> = (u
               /* No-images layout styles */
               .grid-container[data-no-images="true"] .grid-item {
                 border-radius: 8px;
+                border: 1px solid var(--darkgray);
               }
               
               .grid-container[data-no-images="true"] .grid-item-image-placeholder {
