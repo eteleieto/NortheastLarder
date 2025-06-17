@@ -115,7 +115,7 @@ function extractFirstImageFromAST(htmlAst: any): string | null {
     if (node.type === 'element' && node.tagName === 'img') {
       const src = node.properties?.src
       if (src) {
-        // Fix the path to be absolute from site root and match actual file structure
+        // Fix the path to be absolute from site root, preserving original case
         let fixedSrc = src
         
         // Remove leading ./ if present
@@ -123,10 +123,8 @@ function extractFirstImageFromAST(htmlAst: any): string | null {
           fixedSrc = fixedSrc.substring(2)
         }
         
-        // Convert to proper case and structure: Assets/Attachments -> assets/attachments
-        if (fixedSrc.startsWith('Assets/Attachments/')) {
-          fixedSrc = fixedSrc.replace('Assets/Attachments/', 'assets/attachments/')
-        }
+        // Keep the original case structure (Assets/Attachments) to match actual file location
+        // Don't convert case - the files are actually stored as Assets/Attachments
         
         // Ensure it starts with / for absolute path from site root
         if (!fixedSrc.startsWith('/')) {
@@ -157,14 +155,30 @@ function extractFirstImageFromText(content: string): string | null {
   const markdownImageRegex = /!\[.*?\]\(([^)]+)\)/
   const markdownMatch = content.match(markdownImageRegex)
   if (markdownMatch) {
-    return markdownMatch[1]
+    let src = markdownMatch[1]
+    // Normalize path like in extractFirstImageFromAST
+    if (src.startsWith('./')) {
+      src = src.substring(2)
+    }
+    if (!src.startsWith('/')) {
+      src = '/' + src
+    }
+    return src
   }
 
   // Try to find HTML img tags: <img src="...">
   const htmlImageRegex = /<img[^>]+src=["']([^"']+)["'][^>]*>/i
   const htmlMatch = content.match(htmlImageRegex)
   if (htmlMatch) {
-    return htmlMatch[1]
+    let src = htmlMatch[1]
+    // Normalize path like in extractFirstImageFromAST
+    if (src.startsWith('./')) {
+      src = src.substring(2)
+    }
+    if (!src.startsWith('/')) {
+      src = '/' + src
+    }
+    return src
   }
 
   return null
