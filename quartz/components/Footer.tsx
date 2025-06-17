@@ -11,22 +11,6 @@ export default (() => {
           <a href="https://www.instagram.com/northeastlarder/" target="_blank" rel="noopener noreferrer">Instagram</a>
           <span>Email: </span><a href="mailto:info@northeastlarder.com">info@northeastlarder.com</a>
         </div>
-        <div class="newsletter-signup">
-          <h3>Join the Larder</h3>
-          <form id="newsletter-form" class="email-form">
-            <div class="form-group">
-              <input 
-                type="email" 
-                id="email-input" 
-                placeholder="Enter your email" 
-                required 
-                aria-label="Email address"
-              />
-              <button type="submit" id="submit-btn">Subscribe</button>
-            </div>
-            <div id="form-message" class="form-message"></div>
-          </form>
-        </div>
         <p>
           Created with <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noopener noreferrer">Quartz v4</a>,
           © {new Date().getFullYear()}

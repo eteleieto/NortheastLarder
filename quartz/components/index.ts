@@ -25,6 +25,7 @@ import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import HamburgerMenu from "./HamburgerMenu"
+import Newsletter from "./Newsletter"
 import { CardList } from "./CardList"
 
 export {
@@ -55,5 +56,6 @@ export {
   Flex,
   ConditionalRender,
   HamburgerMenu,
+  Newsletter,
   CardList,
 }

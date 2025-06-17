@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Show loading state
     submitBtn.disabled = true;
-    submitBtn.textContent = 'Subscribing...';
+    submitBtn.textContent = '...';
 
     try {
       // Use URLSearchParams instead of FormData for better compatibility
@@ -62,18 +62,25 @@ document.addEventListener('DOMContentLoaded', function() {
       });
 
       if (response.ok) {
-        showMessage('Thank you for subscribing! 🎉', 'success');
-        emailInput.value = '';
+        // Replace input content with thank you message and make it non-editable
+        emailInput.value = 'Thank you!';
+        emailInput.disabled = true;
+        emailInput.style.color = 'var(--secondary)';
+        emailInput.style.fontWeight = 'bold';
+        emailInput.style.textAlign = 'center';
+        
+        // Hide the submit button or disable it permanently
+        submitBtn.style.display = 'none';
       } else {
         throw new Error('Subscription failed');
       }
     } catch (error) {
       console.error('Newsletter subscription error:', error);
       showMessage('Something went wrong. Please try again later.', 'error');
-    } finally {
-      // Reset button state
+      
+      // Reset button state on error
       submitBtn.disabled = false;
-      submitBtn.textContent = 'Subscribe';
+      submitBtn.textContent = '→';
     }
   });
 
