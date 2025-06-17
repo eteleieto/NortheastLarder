@@ -68,7 +68,7 @@ Some of our active lines of inquiry include:
 
 - [[Exploring coffee-like substances]] – Developing coffee and chocolate _analogs_ using Northeastern ingredients.
     
-- [[Amazake]] – Investigating the potential of amazake and other koji-based methods to create new sugars, syrups, and sweet ferments.
+- [[Amazake Project]] – Investigating the potential of amazake and other koji-based methods to create new sugars, syrups, and sweet ferments.
     
 
 ## Navigating the Site

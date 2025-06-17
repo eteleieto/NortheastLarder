@@ -86,19 +86,6 @@ export default ((opts?: Partial<TagContentOptions>) => {
                   </h2>
                   {content && <p>{content}</p>}
                   <div class="page-listing">
-                    <p>
-                      {i18n(cfg.locale).pages.tagContent.itemsUnderTag({ count: pages.length })}
-                      {pages.length > options.numPages && (
-                        <>
-                          {" "}
-                          <span>
-                            {i18n(cfg.locale).pages.tagContent.showingFirst({
-                              count: options.numPages,
-                            })}
-                          </span>
-                        </>
-                      )}
-                    </p>
                     <GridPageList limit={options.numPages} {...listProps} sort={options?.sort} />
                   </div>
                 </div>
@@ -118,7 +105,6 @@ export default ((opts?: Partial<TagContentOptions>) => {
         <div class="popover-hint">
           <article class={classes}>{content}</article>
           <div class="page-listing">
-            <p>{i18n(cfg.locale).pages.tagContent.itemsUnderTag({ count: pages.length })}</p>
             <div>
               <GridPageList {...listProps} sort={options?.sort} />
             </div>

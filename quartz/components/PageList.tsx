@@ -103,6 +103,73 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
   )
 }
 
+// Helper function to extract first image from HTML AST
+function extractFirstImageFromAST(htmlAst: any): string | null {
+  if (!htmlAst || !htmlAst.children) return null
+  
+  // Recursively search for img elements in the AST
+  function findImageInNode(node: any): string | null {
+    if (!node) return null
+    
+    // Check if this node is an img element
+    if (node.type === 'element' && node.tagName === 'img') {
+      const src = node.properties?.src
+      if (src) {
+        // Fix the path to be absolute from site root and match actual file structure
+        let fixedSrc = src
+        
+        // Remove leading ./ if present
+        if (fixedSrc.startsWith('./')) {
+          fixedSrc = fixedSrc.substring(2)
+        }
+        
+        // Convert to proper case and structure: Assets/Attachments -> assets/attachments
+        if (fixedSrc.startsWith('Assets/Attachments/')) {
+          fixedSrc = fixedSrc.replace('Assets/Attachments/', 'assets/attachments/')
+        }
+        
+        // Ensure it starts with / for absolute path from site root
+        if (!fixedSrc.startsWith('/')) {
+          fixedSrc = '/' + fixedSrc
+        }
+        
+        return fixedSrc
+      }
+    }
+    
+    // Recursively check children
+    if (node.children) {
+      for (const child of node.children) {
+        const result = findImageInNode(child)
+        if (result) return result
+      }
+    }
+    
+    return null
+  }
+  
+  return findImageInNode(htmlAst)
+}
+
+// Helper function to extract first image from content (fallback)
+function extractFirstImageFromText(content: string): string | null {
+  // Try to find markdown images: ![alt](src)
+  const markdownImageRegex = /!\[.*?\]\(([^)]+)\)/
+  const markdownMatch = content.match(markdownImageRegex)
+  if (markdownMatch) {
+    return markdownMatch[1]
+  }
+
+  // Try to find HTML img tags: <img src="...">
+  const htmlImageRegex = /<img[^>]+src=["']([^"']+)["'][^>]*>/i
+  const htmlMatch = content.match(htmlImageRegex)
+  if (htmlMatch) {
+    return htmlMatch[1]
+  }
+
+  return null
+}
+
 // New Grid PageList component for tag pages
 export const GridPageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort }: Props) => {
   const sorter = sort ?? byDateAndAlphabeticalFolderFirst(cfg)
@@ -116,13 +183,39 @@ export const GridPageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, 
       {list.map((page) => {
         const title = page.frontmatter?.title
         const description = page.frontmatter?.description || page.description || ""
+        
+        // Extract first image from page content
+        // First try to get image from HTML AST (processed content)
+        const firstImageFromAST = extractFirstImageFromAST((page as any).htmlAst)
+        
+        // Fallback to searching raw text content
+        const rawContent = (page as any).text || 
+                          (page as any).content || 
+                          page.description || 
+                          ""
+        const firstImageFromText = firstImageFromAST ? null : extractFirstImageFromText(rawContent)
+        
+        const firstImage = firstImageFromAST || firstImageFromText
 
         return (
           <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal grid-item-link" data-no-popover="true">
             <div class="grid-item">
               <div class="grid-item-image-placeholder">
-                {/* Placeholder for future image support */}
-                <div class="image-placeholder"></div>
+                {firstImage ? (
+                  <img 
+                    src={firstImage} 
+                    alt={title || "Post image"} 
+                    class="grid-item-image"
+                    loading="lazy"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement
+                      target.style.display = 'none'
+                      const placeholder = target.nextElementSibling as HTMLElement
+                      if (placeholder) placeholder.style.display = 'flex'
+                    }}
+                  />
+                ) : null}
+                <div class="image-placeholder" style={firstImage ? "display: none;" : ""}></div>
               </div>
               <div class="grid-item-content">
                 <div class="grid-item-meta">
@@ -183,18 +276,18 @@ GridPageList.css = `
 }
 
 .grid-item {
-  border: 1px solid var(--lightgray);
   border-radius: 8px;
   overflow: hidden;
   background-color: var(--light);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
   height: 100%;
+  box-shadow: -4px 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 .grid-item-link:hover .grid-item {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: -4px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .grid-item-image-placeholder {
@@ -202,7 +295,25 @@ GridPageList.css = `
   background-color: var(--lightgray);
   position: relative;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
 }
+
+.grid-item-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  vertical-align: top;
+  transition: transform 0.2s ease;
+}
+
+
 
 .image-placeholder {
   width: 100%;

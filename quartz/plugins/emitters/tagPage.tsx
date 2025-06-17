@@ -8,6 +8,7 @@ import { FullPageLayout } from "../../cfg"
 import { FullSlug, getAllSegmentPrefixes, joinSegments, pathToRoot } from "../../util/path"
 import { defaultListPageLayout, sharedPageComponents } from "../../../quartz.layout"
 import { TagContent } from "../../components"
+import * as Component from "../../components"
 import { write } from "./helpers"
 import { i18n, TRANSLATIONS } from "../../i18n"
 import { BuildCtx } from "../../util/ctx"
@@ -15,6 +16,22 @@ import { StaticResources } from "../../util/resources"
 
 interface TagPageOptions extends FullPageLayout {
   sort?: (f1: QuartzPluginData, f2: QuartzPluginData) => number
+}
+
+// Custom titles for specific tags
+// Keeping the capitalized version as it's used for page titles
+const getCustomTitle = (tag: string): string => {
+  const customTitles: Record<string, string> = {
+    'PROJECT': 'Projects',
+    'LARDER': 'Larders',
+    'INGREDIENT': 'Ingredients',
+    'TECHNIQUE': 'Techniques',
+    'BLOG': 'Blogs',
+    'RECIPE': 'Recipes',
+    'IDEA': 'Ideas',
+    'SOURCE': 'Sources'
+  }
+  return customTitles[tag] || tag
 }
 
 function computeTagInfo(
@@ -31,10 +48,11 @@ function computeTagInfo(
 
   const tagDescriptions: Record<string, ProcessedContent> = Object.fromEntries(
     [...tags].map((tag) => {
+      // Using the top-level getCustomTitle function
       const title =
         tag === "index"
           ? i18n(locale).pages.tagContent.tagIndex
-          : `${i18n(locale).pages.tagContent.tag}: ${tag}`
+          : getCustomTitle(tag)
       return [
         tag,
         defaultProcessedContent({
@@ -53,7 +71,8 @@ function computeTagInfo(
       if (tags.has(tag)) {
         tagDescriptions[tag] = [tree, file]
         if (file.data.frontmatter?.title === tag) {
-          file.data.frontmatter.title = `${i18n(locale).pages.tagContent.tag}: ${tag}`
+          // Using the top-level getCustomTitle function
+          file.data.frontmatter.title = getCustomTitle(tag)
         }
       }
     }
@@ -97,6 +116,29 @@ export const TagPage: QuartzEmitterPlugin<Partial<TagPageOptions>> = (userOpts) 
   const opts: FullPageLayout = {
     ...sharedPageComponents,
     ...defaultListPageLayout,
+    // Override the left sidebar to include ReaderMode like content pages
+    left: [
+      ...defaultListPageLayout.left.slice(0, 4), // Keep PageTitle, MobileOnly(Spacer), MobileOnly(HamburgerMenu), MobileOnly(Search)
+      // Desktop layout: search with dark mode and reader mode (like content pages)
+      Component.DesktopOnly(Component.Flex({
+        components: [
+          {
+            Component: Component.Search(),
+            grow: true,
+          },
+          { Component: Component.Darkmode() },
+          { Component: Component.ReaderMode() },
+        ],
+      })),
+      // Keep the rest of the desktop components
+      ...defaultListPageLayout.left.slice(5), // Desktop RecentNotes components
+    ],
+    // Override the right sidebar to include Graph and CategoryLinks like content pages
+    right: [
+      Component.Graph(),
+      Component.CategoryLinks(),
+      Component.Backlinks(),
+    ],
     pageBody: TagContent({ sort: userOpts?.sort }),
     ...userOpts,
   }
