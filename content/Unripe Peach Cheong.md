@@ -12,12 +12,28 @@ This experiment, started on June 17, is a variation on traditional Korean [[cheo
 ---
 ## Recipe
 
-### Ingredients and Equipment
 
-| **Ingredients**            | **Equipment**   |     |
-| -------------------------- | --------------- | --- |
-| - 275 g unripe peaches     | - Mason jar     |     |
-| - 276 g organic cane sugar | - Kitchen scale |     |
+--- start-multi-column: ID_2qnt
+```column-settings
+Number of Columns: 2
+Largest Column: standard
+```
+
+### Ingredients 
+
+275 Unripe Peaches
+
+275g Cane Sugar
+
+--- column-break ---
+
+### Equipment
+
+Mason Jar
+
+Kitchen Scale
+
+--- end-multi-column
 
 ![[Unripe Peach Cheong.jpeg |300]]
 
@@ -47,8 +63,3 @@ This experiment, started on June 17, is a variation on traditional Korean [[cheo
 - The sugar is expected to draw moisture from the peaches via osmosis, slowly creating a syrup. This process will likely be slower than with more porous fruits like [[raspberry | raspberries]].
 - Due to their density, the peaches required a surprisingly large volume of sugar to achieve a 1:1 weight ratio.
 - The process will be monitored over the coming weeks, first for syrup formation and the dissolution of all sugar. Following that, we will monitor for signs of slight [[lacto-fermentation]].
-
----
-
-**Note:**  
-For more information on the fermentation process, see notes on [[lactobacillus]] bacteria.
