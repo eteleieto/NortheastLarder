@@ -2,9 +2,9 @@
 title: Northeast Larder
 ---
 
-# Welcome
+# Welcome to the Northeast Larder Project
 
-The Northeastern Larder Project is an **independent, interdisciplinary food lab and research center**. We’re not backed by commercial or institutional funding, which means our work is guided entirely by curiosity, rigor, and a desire to serve the public good. 
+We're an **independent, interdisciplinary food lab and research center**. We’re not backed by commercial or institutional funding, which means our work is guided entirely by curiosity, rigor, and a desire to serve the public good. 
 
 Drawing from fields like gastronomy, ecology, anthropology, and sociology, we work toward a more delicious, local, and nourishing food system rooted in the Northeast.
 
