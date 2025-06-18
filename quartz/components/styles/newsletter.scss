@@ -7,6 +7,11 @@
   background: var(--light);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
+  // Hide when right sidebar is not in desktop mode (below 1200px)
+  @media all and (max-width: 1199px) {
+    display: none;
+  }
+
   h3 {
     margin: 0 0 0.5rem 0;
     color: var(--dark);
