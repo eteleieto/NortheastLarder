@@ -50,15 +50,19 @@ export const defaultContentPageLayout: PageLayout = {
           limit: 5,
           filter: (page) => {
             const tags = page.frontmatter?.tags;
-            // Show pages that have any tags at all (exclude pages with no tags)
-            if (!tags) return false; // Exclude pages without tags
+            const allowedTags = ["PROJECT", "LARDER", "RECIPE", "BLOG", "IDEA"];
+            
+            if (!tags) return false;
+            
             if (typeof tags === 'string') {
-              return true; // Has a tag (any non-empty string)
+              return allowedTags.includes(tags);
             }
+            
             if (Array.isArray(tags)) {
-              return tags.length > 0; // Has at least one tag
+              return tags.some(tag => allowedTags.includes(tag));
             }
-            return false; // Default to exclude
+            
+            return false;
           }
         }),
       ]
@@ -95,15 +99,19 @@ export const defaultContentPageLayout: PageLayout = {
       showTags: false,
       filter: (page) => {
         const tags = page.frontmatter?.tags;
-        // Show pages that have any tags at all (exclude pages with no tags)
-        if (!tags) return false; // Exclude pages without tags
+        const allowedTags = ["PROJECT", "LARDER", "RECIPE", "BLOG", "IDEA"];
+        
+        if (!tags) return false;
+        
         if (typeof tags === 'string') {
-          return true; // Has a tag (any non-empty string)
+          return allowedTags.includes(tags);
         }
+        
         if (Array.isArray(tags)) {
-          return tags.length > 0; // Has at least one tag
+          return tags.some(tag => allowedTags.includes(tag));
         }
-        return false; // Default to exclude
+        
+        return false;
       }
     })),
   ],
@@ -155,15 +163,19 @@ export const defaultListPageLayout: PageLayout = {
           limit: 5,
           filter: (page) => {
             const tags = page.frontmatter?.tags;
-            // Show pages that have any tags at all (exclude pages with no tags)
-            if (!tags) return false; // Exclude pages without tags
+            const allowedTags = ["PROJECT", "LARDER", "RECIPE", "BLOG", "IDEA"];
+            
+            if (!tags) return false;
+            
             if (typeof tags === 'string') {
-              return true; // Has a tag (any non-empty string)
+              return allowedTags.includes(tags);
             }
+            
             if (Array.isArray(tags)) {
-              return tags.length > 0; // Has at least one tag
+              return tags.some(tag => allowedTags.includes(tag));
             }
-            return false; // Default to exclude
+            
+            return false;
           }
         }),
       ]
@@ -198,15 +210,19 @@ export const defaultListPageLayout: PageLayout = {
       showTags: false,
       filter: (page) => {
         const tags = page.frontmatter?.tags;
-        // Show pages that have any tags at all (exclude pages with no tags)
-        if (!tags) return false; // Exclude pages without tags
+        const allowedTags = ["PROJECT", "LARDER", "RECIPE", "BLOG", "IDEA"];
+        
+        if (!tags) return false;
+        
         if (typeof tags === 'string') {
-          return true; // Has a tag (any non-empty string)
+          return allowedTags.includes(tags);
         }
+        
         if (Array.isArray(tags)) {
-          return tags.length > 0; // Has at least one tag
+          return tags.some(tag => allowedTags.includes(tag));
         }
-        return false; // Default to exclude
+        
+        return false;
       }
     })),
   ],

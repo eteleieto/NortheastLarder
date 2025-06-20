@@ -2,20 +2,19 @@
 title: Amazake
 tags:
   - PROJECT
-  - "#Fermentation"
+  - IN-PROGRESS
+  - Fermentation
 date: 2025-06-12
 ---
 ## Active Explorations
 
 ||| 
 
-##### [[Spelt Amazake]]
+[[Rye Amazake]]
 
-##### [[Rye Amazake]]
+[[Buckwheat Amazake]]
 
-##### [[Peanut Amazake]]
-
-##### [[Toasted Buckwheat Amazake]]
+[[Clarified Amazake]]
 
 |||
 
@@ -32,8 +31,6 @@ We're exploring a few possiblities with amazake
 3. Can amazake be used in secondary or tertiary fermentations?
 4. What larder items can be developed with amazake?
 
-![[Screenshot 2025-06-16 at 9.18.07 PM.png.png | 500]]
-
 Why does amazake, and amazake-variants, excite us?
 1. **Amazake is a natural, and generally healthier, sweetening agent.** In the United States, we rely heavily on refined cane sugar (or beet sugar), a pure white and heavily processeced form of mostly sucrose. The sugarcane is mostly grown in the southern US, trucked to various east coast refineries, and then shipped again globally. Amazake has a more diverse nutrient profile with several types of B vitamins, is easier to digest, has low glycemic induex (which minimizes bood sugar spikes) and probiotically contributes to gut health. 
    
@@ -45,49 +42,8 @@ Why does amazake, and amazake-variants, excite us?
 
 ---
 
-## A Few Sample Recipes
-1. [[Rhubarb Amazake]]
-
-
 ## Future Explorations
 
-**Ideas:** charred, caramel
+**Ideas:** charred amazake, amazkae caramel
 
-
-## Unprocessed Notes
-
-
-toasting the grains before making amazake resulted in a more [[caramel]]-like flavor; adding the grain cooking liquid enhances the flavor.
-
-Rice Amazake 
-		
-* made with grocery store rice
-* tastes like a mix between a light caramel, [[rice pudding]], a dash of rice wine and orange juice, with a somewhat funky background taste and potent smell
-* broke down almost entirely, no blending needed
-
-Spelt Amazake
-
-*
-* tastes like a mix between a caramel (more so than rice amazake), rice pudding w/ [[oats]] and [[honey]], a dash of rice wine and orange juice, with a somewhat funky background taste and potent smell
-
-* blended and strained, smooth custard texture, like blended rice pudding
-
-* biproduct: amazake bran
-
-Rye Amazake
-
-* tastes like a mix between a caramel (more so than rice amazake), rice pudding w/ subtle rye flavor and nuttiness, a dash of rice wine and orange juice, with a somewhat funky background taste and potent smell
-
-* blended and strained, smooth custard texture, like blended rice pudding
-
-* biproduct: amazake bran, drying in dehydrator
-
-
-
-
-
-
-Amazake with lacto berries
-- make into ice cream?
-
-Peanut amazake -> peanut mousse
+![[Amazake Project.webp|1]]

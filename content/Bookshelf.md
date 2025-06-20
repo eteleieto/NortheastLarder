@@ -26,6 +26,3 @@ tags: []
 
 ## Other Resources
 1. Off the Chains Koji Facebook
-
-
-Elzelinde van Doleweerd

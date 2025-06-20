@@ -14,7 +14,7 @@ Drawing from fields like gastronomy, ecology, anthropology, and sociology, we wo
 
 [[Amazake Project]]
 
-[[Coffee Chocolate Idea]]
+[[Coffee & Chocolate Substitutes]]
 
 ||
 
