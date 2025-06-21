@@ -1,3 +1,10 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+
+// Increase body text and paragraph font size
+body, p, li, td, th, .popover-hint, article {
+  font-size: 1.1rem; // Slightly larger than default
+  line-height: 1.8rem; // Increase line height for better readability
+}

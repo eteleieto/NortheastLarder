@@ -8,7 +8,7 @@ date: 2025-06-12
 ---
 ## Active Explorations
 
-||| 
+||
 
 [[Rye Amazake]]
 
@@ -16,7 +16,7 @@ date: 2025-06-12
 
 [[Clarified Amazake]]
 
-|||
+||
 
 ---
 
