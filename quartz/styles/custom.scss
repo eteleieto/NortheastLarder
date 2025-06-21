@@ -2,6 +2,19 @@
 
 // put your custom CSS here!
 
+// Make the IN-PROGRESS tag display in red
+a.tag-link[href*="IN-PROGRESS"] {
+  color: #d63384 !important; // Bootstrap danger red
+  background-color: rgba(214, 51, 132, 0.1) !important; // Light red background
+  border: 1px solid #d63384 !important;
+}
+
+// Also target if it appears in tag lists
+.tags a[href*="IN-PROGRESS"] {
+  color: #d63384 !important;
+  background-color: rgba(214, 51, 132, 0.1) !important;
+  border: 1px solid #d63384 !important;
+}
 
 // Increase body text and paragraph font size
 body, p, li, td, th, .popover-hint, article {
