@@ -7,7 +7,7 @@ pairing:
 date: 2025-06-20
 project:
 ---
-
+This is part of the [[Amazake Project|Amazake]] project.
 ## Background
 
 This experiment explores a variation on traditional [[Amazake Project|amazake]], a fermented rice drink, by using [[Buckwheat|buckwheat]] and [[Koji|koji]] from [[Rhapsody Foods]].
@@ -52,4 +52,3 @@ Fermentation Chamber
 - The resulting liquid has a quite neutral sweetness, accompanied by a slight rice wine funk and a slight aftertaste of buckwehat.
 
 ![[Buckwheat Amazake.webp|200x267]]
-```

@@ -4,16 +4,16 @@
 
 // Make the IN-PROGRESS tag display in red
 a.tag-link[href*="IN-PROGRESS"] {
-  color: #d63384 !important; // Bootstrap danger red
-  background-color: rgba(214, 51, 132, 0.1) !important; // Light red background
-  border: 1px solid #d63384 !important;
+  color: #c47a7a !important; // Muted red
+  background-color: rgba(196, 122, 122, 0.1) !important; // Light muted red background
+  border: 1px solid #c47a7a !important;
 }
 
 // Also target if it appears in tag lists
 .tags a[href*="IN-PROGRESS"] {
-  color: #d63384 !important;
-  background-color: rgba(214, 51, 132, 0.1) !important;
-  border: 1px solid #d63384 !important;
+  color: #c47a7a !important;
+  background-color: rgba(196, 122, 122, 0.1) !important;
+  border: 1px solid #c47a7a !important;
 }
 
 // Increase body text and paragraph font size

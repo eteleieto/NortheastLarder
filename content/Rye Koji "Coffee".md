@@ -7,6 +7,7 @@ pairing:
 date: 2025-06-19
 project: Coffee & Chocolate Substitution
 ---
+This is part of the [[Coffee & Chocolate Substitutes]] project. 
 ## Background
 
 This is a test to create alternative coffee and chocolate-like varieties using a combination of [[Koji|koji]] and slow [[blackening]] at 140°F. This approach leverages the similarity between Koji enzymes and the enzymes that develop during coffee and chocolate fermentation. For this initial test, a small amount of dried [[rye berry | rye berries]] from [[Castle Valley Mill]] will be used.

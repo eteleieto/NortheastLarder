@@ -13,16 +13,12 @@ export const sharedPageComponents: SharedLayout = {
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
-    Component.ConditionalRender({
       component: Component.ArticleTitle(),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => !["index", "About", "Contact", "Documentation"].includes(page.fileData.slug!),
     }),
     Component.ConditionalRender({
       component: Component.ContentMeta(),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => !["index", "About", "Contact", "Documentation"].includes(page.fileData.slug!),
     }),
     Component.TagList(),
   ],
@@ -119,26 +115,26 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
     Component.ConditionalRender({
       component: Component.CategoryLinks(),
-      condition: (page) => page.fileData.slug === "index",
+      condition: (page) => ["index", "About", "Contact", "Documentation"].includes(page.fileData.slug!),
     }),
     Component.ConditionalRender({
       component: Component.Newsletter(),
-      condition: (page) => page.fileData.slug === "index",
+      condition: (page) => ["index", "About", "Contact", "Documentation"].includes(page.fileData.slug!),
     }),
     Component.ConditionalRender({
       component: Component.DesktopOnly(Component.TableOfContents()),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => !["index", "About", "Contact", "Documentation"].includes(page.fileData.slug!),
     }),
     Component.ConditionalRender({
       component: Component.Backlinks(),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => !["index", "About", "Contact", "Documentation"].includes(page.fileData.slug!),
     }),
   ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [Component.ArticleTitle(), Component.ContentMeta()],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
