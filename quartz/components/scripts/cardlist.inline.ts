@@ -9,9 +9,17 @@ window.addEventListener("DOMContentLoaded", () => {
 function renderCardLists() {
   const cardListContainers = document.querySelectorAll(".grid-container[data-pages]")
   
+  // Detect if we are on the site index page (/, /index, or /index.html)
+  const isIndexPage =
+    window.location.pathname === "/" ||
+    window.location.pathname.endsWith("/index") ||
+    window.location.pathname.endsWith("/index.html")
+  
   cardListContainers.forEach(container => {
     const pagesData = container.getAttribute("data-pages")
     const noImages = container.getAttribute("data-no-images") === "true"
+    // New: hide dates for no‐image card lists that appear on the index page only
+    const hideDate = noImages && isIndexPage
     if (!pagesData) return
 
     try {
@@ -170,7 +178,7 @@ function renderCardLists() {
             </div>
           ` : ''
           
-          const dateHtml = date ? `<div class="grid-item-meta">${date}</div>` : ""
+          const dateHtml = (hideDate || !date) ? "" : `<div class="grid-item-meta">${date}</div>`
           const descriptionHtml = description ? `<p class="grid-item-description">${description}</p>` : ""
           
           return `
