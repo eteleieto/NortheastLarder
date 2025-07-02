@@ -28,7 +28,7 @@ Largest Column: standard
 
 500g Water
 
-Koji
+15g Koji
 
 --- column-break ---
 
@@ -48,7 +48,7 @@ Kitchen Scale
     Boil the rye berries in water over medium-high heat until they are soft enough to be easily crushed between two fingers.
 
 2.  **Incubation**  
-    Combine the cooked rye with Koji and hold at approximately 140°F (60°C).
+    Combine the cooked rye with a small amount of Koji and hold at approximately 140°F (60°C).
 
 3.  **Roasting**  
     Once the desired level of blackening is achieved, roast the rye.
