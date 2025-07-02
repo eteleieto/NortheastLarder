@@ -1,6 +1,6 @@
 ## Background
 
-This is a first attempt at making [[Tempeh]] from scratch. The goal is to compare the flavor and texture of a homemade version with commercial products and to establish a baseline process for future experiments with other substrates.
+This is a first attempt at making [[Tempeh]] from scratch. The goal is to compare the flavor and texture of a homemade version with commercial products and to establish a baseline process for future experiments with other substrates. This is a traditional version using [[Soybean|soybeans]].
 
 ![[Soybean Tempeh.webp|200x150]]
 
@@ -14,9 +14,9 @@ Largest Column: standard
 
 ### Ingredients 
 
-900g [[Soy Bean| soy beans]]
+900g Soy Beans
 
-3g [[Tempeh Starter|tempeh starter]]
+3g Tempeh Start
 
 --- column-break ---
 

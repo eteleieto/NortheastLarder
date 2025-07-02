@@ -28,15 +28,24 @@ function renderCardLists() {
       if (!(window as any).fetchData) return
       
       (window as any).fetchData.then((contentIndex: any) => {
+        // Create a lowercase-keyed version of contentIndex for case-insensitive lookup
+        const lowercaseIndex: any = {}
+        Object.entries(contentIndex).forEach(([slug, data]: [string, any]) => {
+          lowercaseIndex[slug.toLowerCase()] = { slug, data }
+        })
+        
         // Convert page names to slugs and find matching pages
         const matchingPages = pageLinks
           .map((pageName: string) => {
             // Convert page name to slug format (spaces to hyphens, lowercase)
             const slug = pageName.replace(/\s+/g, '-').toLowerCase()
             
-            // Try direct slug lookup first
-            let data = contentIndex[slug]
+            // Try direct slug lookup first (case-insensitive)
             let matchedSlug = slug
+            let data = lowercaseIndex[slug]?.data
+            if (data) {
+              matchedSlug = lowercaseIndex[slug].slug
+            }
             
             // If not found, try to find by title matching
             if (!data) {
