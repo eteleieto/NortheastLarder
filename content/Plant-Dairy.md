@@ -20,3 +20,10 @@ date: 2025-05-30
 	* labneh
 * ricotta
 * ice cream base
+* aged cheeses
+* fetas
+
+
+notes
+- shio koji
+- koji aged cheeses

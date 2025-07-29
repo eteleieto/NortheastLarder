@@ -14,7 +14,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "google",
+      tagId: "G-2SG4LGTEHC",
     },
     locale: "en-US",
     baseUrl: "northeastlarder.com",

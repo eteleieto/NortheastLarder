@@ -10,7 +10,7 @@ project: "[[Malt-Umami]]"
 ![[Screenshot 2025-07-22 at 3.18.26 PM.png|200]]
 ## Background
 
-This experiment is an enzymatic ferment using [[Light Munich Malt]] and [[Koji|koji]]. The malt is ground to a relatively fine consistency, coarser than flour, to break down the hulls and make the starches more accessible to the enzymes in the koji. The mixture is held at a high temperature to encourage enzymatic digestion, distinguishing it from a typical [[Lacto-Fermentation|lacto-fermentation]].
+This experiment is an enzymatic ferment using [[Light Munich Malt]] (from [[Valley Malts]]) and [[Koji|koji]] (from [[Rhapsody Foods]]). The malt is ground to a relatively fine consistency, coarser than flour, to break down the hulls and make the starches more accessible to the enzymes in the koji. The mixture is held at a high temperature to encourage enzymatic digestion, distinguishing it from a typical [[Lacto-Fermentation|lacto-fermentation]].
 
 Using malt in a process similar to a [[Garum|garum]] or [[Miso|miso]] is interesting because it introduces a second source of enzymes. In addition to the enzymes from the koji, the malt's own enzymes will break down starches into maltose. This should result in a final product that caramelizes and darkens more readily, but is ultimately less sweet than a glucose-dominant ferment. The hope is that this dual enzymatic action will create a uniquely rich and malty flavor profile. This experiment also explores a broader goal: developing the complex, savory flavors typically associated with cooked meats from grains and other plant-based sources, which can significantly enhance plant-based cuisine.
 
@@ -59,7 +59,4 @@ Dehydrator
 
 ## Notes and Observations
 
-- The final salt percentage is 5% of the total weight of all ingredients. Non-iodized kosher salt was used.
-- The malt is from [[Valley Malt]].
-- The koji used is a red miso variety from [[Rhapsody Natural Foods]].
 - The process will be monitored over the coming days, with updates on timing to follow.

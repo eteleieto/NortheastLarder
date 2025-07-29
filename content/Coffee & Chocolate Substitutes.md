@@ -10,6 +10,10 @@ date: 2025-06-18
 
 [[Rye Koji "Coffee"]]
 
+[[Blackened Tempeh "Chocolate"]]
+
+[[Soybean Koji "Coffee"]]
+
 |||
 
 ## Background
@@ -106,7 +110,7 @@ Largest Column: standard
     
 - Dry / Blacken → Roast → Grind / Steep
     
-- Dry / Blacken (with koji enzymes or Flavourzyme) → Roast → Grind / Steep
+- Dry / Blacken (with koji enzymes) → Roast → Grind / Steep
     
 - Dry / Blacken (with raw honey or fruit) → Roast → Grind / Steep
     
@@ -138,12 +142,11 @@ Largest Column: standard
 
 - Fava beans
         
-- Lentils
-    
 - Barley
     
 - Buckwheat
     
+* Seeds
 
 --- column-break ---
 
@@ -151,15 +154,36 @@ Largest Column: standard
 
 - Soybeans
     
-- Rye
-    
-- Spelt
-    
 - Stale Bread
-	
-* Roasted Malt
+- Spent Waste Product
 
 --- end-multi-column
 
 
 ![[Coffee & Chocolate Substitutes.webp|1]]
+
+## Comparables:
+
+[Voyage Foods](https://voyagefoods.com/our-process)
+
+[Planet A](https://planet-a-foods.com/)
+
+[Win-Win](https://www.eatwinwin.com/)
+
+[Endless](https://endlesscph.com/)
+
+[Nukoko](https://nukoko.co.uk/)
+
+[Article](https://phys.org/news/2025-02-koji-flour-product-reliance-cocoa.html)
+
+
+
+## Notes
+
+1. Growing koji and then blackening
+2. Growing Tempeh and then blackening
+3. Koji-blackening
+4. Fat and sugar sources
+5. To roast or not?
+
+
