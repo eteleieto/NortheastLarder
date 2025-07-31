@@ -17,4 +17,4 @@ Finding non-obtrusive forms of sweetness is a key challenge. Our options include
 - [[Maple Syrup]] and other tree syrups.
 
 
-![[Content/Assets/Attachments/Sweeteners.webp|1x1]]
+![[Sweeteners.webp|1x1]]
