@@ -23,10 +23,10 @@ title: Northeast Larder
 
 ||
 
-[[Amazake Project]]
-
 [[Coffee & Chocolate Substitutes]]
 
-[[Tempeh]]
+[[Sweeteners]]
+
+[[Umami]]
 
 ||

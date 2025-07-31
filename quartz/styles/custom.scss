@@ -21,3 +21,9 @@ body, p, li, td, th, .popover-hint, article {
   font-size: 1.1rem; // Slightly larger than default
   line-height: 1.8rem; // Increase line height for better readability
 }
+
+// Ensure videos with custom dimensions are responsive on smaller screens
+video[style*="width"] {
+  max-width: 100%;
+  height: auto;
+}

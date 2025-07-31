@@ -146,6 +146,11 @@ const wikilinkImageEmbedRegex = new RegExp(
   /^(?<alt>(?!^\d*x?\d*$).*?)?(\|?\s*?(?<width>\d+)(x(?<height>\d+))?)?$/,
 )
 
+// Enhanced regex for video embeds that supports aspect ratios
+const wikilinkVideoEmbedRegex = new RegExp(
+  /^(?<alt>(?!^\d*(?:x\d*)?(?:\|\d+:\d+)?$).*?)?(\|?\s*?(?<width>\d+)(?:x(?<height>\d+))?)?(\|?\s*?(?<aspectRatio>\d+:\d+))?$/,
+)
+
 export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>> = (userOpts) => {
   const opts = { ...defaultOptions, ...userOpts }
 
@@ -245,9 +250,33 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                       },
                     }
                   } else if ([".mp4", ".webm", ".ogv", ".mov", ".mkv"].includes(ext)) {
+                    const match = wikilinkVideoEmbedRegex.exec(alias ?? "")
+                    const alt = match?.groups?.alt ?? ""
+                    const width = match?.groups?.width
+                    const height = match?.groups?.height
+                    const aspectRatio = match?.groups?.aspectRatio
+                    
+                    let videoStyle = ""
+                    let videoAttributes = `controls`
+                    
+                    if (width) {
+                      if (height) {
+                        // Explicit width and height
+                        videoStyle = `width: ${width}px; height: ${height}px;`
+                      } else if (aspectRatio) {
+                        // Width with aspect ratio
+                        const [ratioW, ratioH] = aspectRatio.split(':').map(Number)
+                        const calculatedHeight = Math.round((parseInt(width) * ratioH) / ratioW)
+                        videoStyle = `width: ${width}px; height: ${calculatedHeight}px; object-fit: cover;`
+                      } else {
+                        // Width only, maintain aspect ratio
+                        videoStyle = `width: ${width}px;`
+                      }
+                    }
+                    
                     return {
                       type: "html",
-                      value: `<video src="${url}" controls></video>`,
+                      value: `<video src="${url}" ${videoAttributes}${videoStyle ? ` style="${videoStyle}"` : ''}${alt ? ` title="${alt}"` : ''}></video>`,
                     }
                   } else if (
                     [".mp3", ".webm", ".wav", ".m4a", ".ogg", ".3gp", ".flac"].includes(ext)

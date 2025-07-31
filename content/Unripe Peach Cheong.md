@@ -8,7 +8,7 @@ date: 2025-06-17
 ---
 ## Background
 
-This experiment, started on June 17, is a variation on traditional Korean [[cheong]], which is typically made with [[unripe plum]]. This version uses [[unripe peach |unripe peaches]], another type of stone fruit, to explore if they produce a similarly interesting syrup. The peaches were harvested from a backyard tree, providing a way to utilize fruit that might otherwise be eaten by deer before ripening.
+This experiment, started on June 17, is a variation on traditional Korean [[Cheong]], which is typically made with [[unripe plum]]. This version uses [[unripe peach |unripe peaches]], another type of stone fruit, to explore if they produce a similarly interesting syrup. The peaches were harvested from a backyard tree, providing a way to utilize fruit that might otherwise be eaten by deer before ripening.
 
 ---
 ## Recipe

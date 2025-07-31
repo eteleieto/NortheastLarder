@@ -1,5 +1,5 @@
 ---
-title: blackened Tomato
+title: Blackened Tomato
 tags:
   - LARDER
   - IN-PROGRESS

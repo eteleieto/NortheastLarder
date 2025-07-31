@@ -18,6 +18,8 @@ date: 2025-06-12
 
 [[Frozen Amazakes]]
 
+[[Malted Oat Amazake]]
+
 ||
 
 ---

@@ -63,6 +63,19 @@ Kitchen Scale
 - Simultaneously, the proteases in the Koji will break down the rye proteins into their amino acid constituents.
 - The goal is to develop amino acid flavor precursors in the rye, similar to how they are developed during the coffee fermentation process. These flavors will be expressed after roasting.
 
-
 ---
-We took the Rye Koji coffee, which had been at this point dehydrated no we just took the aged rye the black and dry and we roasted it in the oven at about 350 to 375 mixing often for about 20 minutes and then put it through a spice grinder and now we're doing a few different methods one as we're doing one like a classic with like a mocha pot to make like a espresso of a certain kind and then another one is treating it like an instant coffee and just boiling it with water and then we might try another method of making an ice cream with it and typing it in milk or something fruity, bitter, not exactly coffee like this is describing the one that was made as if it were an instant coffee has a bitterness of a coffee. I honestly think it tastes quite like coffee. It went from raisins to developing some of the bitters of coffee, fruit trophy this is now we're trying the one that was made in the mocha pot, which is much cle taste quite similar but a little bit cleaner less fruit could be less fruity like round or mouth feel noticeably different though similar though to this one I need more coffee I think more coffee because this was a pretty light and sugar. It's fine yeah a little sugar I mean, I could drink, but it doesn't scream to me. It's fine. It doesn't taste just like coffee but it's not far. Try the other one try that one time or something, but I do think it's suggest that a few things or rather a few roast matters. I think this directionally probably can be promising like doing the Koji Rye GG plus do you wanna do the let's do this one?
+![[Rye Koji "Coffee"-2.webp|200x267]]![[Rye Koji "Coffee"-3.webp|200x267]]
+### Post-Blackening: Roasting & Brewing
+
+- After blackening, the aged rye was roasted in an oven at 350-375°F for approximately 20 minutes, with frequent mixing. The roasted rye was then ground and prepared in two ways for tasting:
+    - **Instant Coffee-Style:** Boiling the grounds directly with water produced a beverage with a coffee-like bitterness. The flavor profile evolved from [[Raisin|raisin]] notes to something more akin to coffee.
+    - **Mocha Pot:** This method yielded a cleaner, less fruity taste with a rounder mouthfeel.
+- While not identical to coffee, the results are promising and suggest that the roasting process is a critical variable.
+
+### Post-Blackening: Chocolate-Style Preparation
+
+- A separate preparation was made by blending the dried, blackened rye with sugar and fat.
+- The result was not like chocolate but was delicious and intensely fruity, with strong notes of [[Prune|prune]], raisin, and [[Dried Currant|dried currents]]. There were also subtle chocolate notes and hints of a stone fruit like [[Cherry|cherry]], with very little bitterness.
+- When blended with milk, the mixture tasted remarkably like Ovaltine or a mild chocolate milk with blended raisins. It was very satisfying and comforting.
+- This base would be excellent as a warm drink or as an ice cream, perhaps with the addition of something punchy like dried, [[Lacto-Fermentation|lacto]]-fermented fruit.
+
