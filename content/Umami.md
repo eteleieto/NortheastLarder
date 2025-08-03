@@ -26,4 +26,5 @@ This project focuses on creating umami-rich foods like [[Garum|garums]], [[Miso|
 [[Tops Garum]]
 
 |||
+
  ![[IMG_6307.webp|1x1]]
