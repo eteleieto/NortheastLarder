@@ -9,7 +9,7 @@ project:
 ---
 ## Background
 
-This experiment is an attempt to create a [[Garum|garum]], a type of amino sauce, from what would otherwise be a waste product. This version uses [[Carrot Green|carrot greens]] and [[Koji]] to produce a savory, fish sauce-style condiment.
+This experiment is an attempt to create a [[Garum|garum]], a type of amino sauce, from what would otherwise be a waste product. This version uses [[Carrot Green|carrot greens]] and [[Koji|koji]] to produce a savory, fish sauce-style condiment.
 
 ---
 ## Recipe
