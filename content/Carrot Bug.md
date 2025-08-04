@@ -46,7 +46,7 @@ Kitchen Scale
     Leave at room temperature for 24 hours before the first feeding.
 
 4.  **Feed**  
-    Feed the starter daily for one week.
+    Feed the starter daily for one week with 10g carrot peels and 10g sugar.
 
 ## Notes and Observations
 
