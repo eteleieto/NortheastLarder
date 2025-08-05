@@ -8,7 +8,7 @@ tags:
 
 This experiment is an attempt to create a yeast starter, or "bug," by capturing the natural yeast on [[Carrot|carrot]] peels. The starter will be fed sugar and water over the course of a week to cultivate a population strong enough for [[Carbonation|carbonation]].
 
-![[IMG_6470.webp|200x267]]
+![[Carrot Bug.webp|200x267]]
 
 ---
 ## Recipe

@@ -20,11 +20,11 @@ Largest Column: standard
 
 ### Ingredients 
 
-100g [[Unripe Peach Cheong]]
+75g Unripe Peach Cheong
 
-50g [[Carrot Bug]] starter
+50g Carrot Bug starter
 
-450g Water
+400g Water
 
 --- column-break ---
 
