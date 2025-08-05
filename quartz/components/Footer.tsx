@@ -12,6 +12,7 @@ export default (() => {
           <a href={resolveRelative(fileData.slug!, "About")} class="internal">About</a>
           <a href={resolveRelative(fileData.slug!, "Contact")} class="internal">Contact</a>
           <a href={resolveRelative(fileData.slug!, "Documentation")} class="internal">Documentation</a>
+          <a href={resolveRelative(fileData.slug!, "Bookshelf")} class="internal">Bookshelf</a>
         </div>
         <div class="social-links">
           <a href="https://www.instagram.com/northeastlarder/" target="_blank" rel="noopener noreferrer">Instagram</a>

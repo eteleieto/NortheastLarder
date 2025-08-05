@@ -3,6 +3,10 @@ tags: []
 ---
 
 Here is some of our inspiration for the project:
+
+## Blogs
+1. [Crock of TIme](crockoftime.com)
+2. [Wild Fermentation](https://www.wildfermentation.com/)
 ## Books
 
 ###### Fermentation
@@ -16,6 +20,3 @@ Here is some of our inspiration for the project:
 2. [SFIG](https://www.sfig.dk/)
 3. [Noma Projects](https://nomaprojects.com/)
 4. [Nordic Food Lab](https://nordicfoodlab.org/)
-## Blogs
-1. [Crock of TIme](crockoftime.com)
-2. [Wild Fermentation](https://www.wildfermentation.com/)
