@@ -61,3 +61,7 @@ Kitchen Scale
 - The sugar is expected to draw moisture from the peaches via osmosis, slowly creating a syrup. This process will likely be slower than with more porous fruits like [[raspberry |raspberries]].
 - Due to their density, the peaches required a surprisingly large volume of sugar to achieve a 1:1 weight ratio.
 - The process will be monitored over the coming weeks, first for syrup formation and the dissolution of all sugar. Following that, we will monitor for signs of slight [[Lacto-Fermentation]].
+- After 2 months the syrup has concentrated, the peaches have shriveled up completely, and some lactofermentation has occured. The resulting flavor is sweet, sour, candy-like, and slightly funky.
+
+
+ ![[Unripe Peach Cheong.webp|200x267]]
