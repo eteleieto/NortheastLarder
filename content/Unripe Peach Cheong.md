@@ -64,4 +64,4 @@ Kitchen Scale
 - After 2 months the syrup has concentrated, the peaches have shriveled up completely, and some lactofermentation has occured. The resulting flavor is sweet, sour, candy-like, and slightly funky.
 
 
- ![[Unripe Peach Cheong.webp|200x267]]
+ ![[Unripe Peach Cheong.webp | 300]]

@@ -34,4 +34,4 @@ Working with infusions, such as herbal and grain-based [[Tea|teas]].
 
 
 
-![[IMG_6426.webp|1x1]]
+![[Drinks.webp|1x1]]

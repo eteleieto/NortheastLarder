@@ -251,8 +251,15 @@ CardList.css = `
 }
 
 .image-placeholder::before {
-  content: "🖼️";
-  font-size: 2rem;
+  content: "";
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: url('/static/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
 }
 
 .card-item-content {
