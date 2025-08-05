@@ -51,3 +51,4 @@ We organize our work into three domains:
 3. **Share**  
     Our research is meant to be used. We collaborate with chefs, restaurants, and producers. We share our knowledge openly and accessibly, and we run workshops to support culinary literacy for everyone.
     
+If you're interested in some books and people who inspire us, please check out our [[Bookshelf|bookshelf]].
