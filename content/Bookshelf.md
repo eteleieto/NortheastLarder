@@ -1,10 +1,10 @@
 ---
 tags: []
 ---
-
 Here is some of our inspiration for the project:
 
 ## Blogs
+
 1. [Crock of TIme](https://crockoftime.com/)
 2. [Wild Fermentation](https://www.wildfermentation.com/)
 ## Books
