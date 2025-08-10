@@ -107,6 +107,15 @@ a {
     border-radius: 6px;
     background-clip: padding-box;
     -webkit-font-smoothing: antialiased;
+    /* Prevent mobile line-wrap/hyphenation which causes line-box seams */
+    white-space: nowrap;
+    hyphens: none;
+    overflow-wrap: normal;
+    /* Create its own compositing layer for Safari rounding issues */
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 
     &:has(> img) {
       background-color: transparent;
