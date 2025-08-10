@@ -355,7 +355,7 @@ GridPageList.css = `
   cursor: pointer;
   height: 100%;
   box-shadow: -4px 4px 6px rgba(0, 0, 0, 0.05);
-  border: .25px solid var(--darkgray);
+  border: .5px solid var(--darkgray);
 }
 
 .grid-item-link:hover .grid-item {

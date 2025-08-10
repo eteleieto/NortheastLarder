@@ -1,3 +1,5 @@
+@use "../../styles/variables.scss" as *;
+
 .category-links {
   & > h3 {
     margin: 0.5rem 0 0 0;
@@ -35,6 +37,35 @@
             align-items: center;
             fill: currentColor;
             transition: fill 0.2s ease;
+          }
+        }
+      }
+    }
+  }
+
+  // Mobile-specific size adjustments
+  @media all and ($mobile) {
+    & > h3 {
+      font-size: 0.9rem;
+    }
+
+    & > ul.category-list {
+      margin-top: 0.5rem;
+
+      & > li {
+        margin: 0.5rem 0;
+
+        .section > .desc > h3 {
+          font-size: 1rem;
+
+          & > a.category-link {
+            gap: 0.3rem;
+
+            .category-icon {
+              width: 16px;
+              height: 16px;
+              margin-right: 0.4rem;
+            }
           }
         }
       }
