@@ -566,6 +566,13 @@ img {
   img + img {
     margin-left: 0.5rem;
   }
+  // Also handle inline images within a paragraph
+  p > img {
+    margin-right: 0.5rem;
+  }
+  p > img:last-child {
+    margin-right: 0;
+  }
 }
 
 // Hide CategoryLinks title when placed in the right sidebar

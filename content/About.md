@@ -4,7 +4,7 @@ We believe that great food cultures are born not from abundance, but from constr
 
 Our work focuses on three key areas:
 
-1. **Regional Ingredients** – We explore how Northeastern vegetables, fruits, grains, legumes, and wild foods can form the backbone of a vibrant larder. We focus on crops that matter to farmers, rebuild soil health, and offer untapped culinary potential.
+1. **Regional Ingredients** – We explore how Northeastern vegetables, fruits, grains, legumes and wild foods can form the backbone of a vibrant larder. We focus on crops that matter to farmers, rebuild soil health, and offer untapped culinary potential.
     
 2. **Upcycling Waste** – We develop processes to turn industry byproducts—like spent grain, vegetable trim, or fruit pulp—into useful and delicous ingredients.
     
