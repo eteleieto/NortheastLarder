@@ -100,9 +100,13 @@ a {
   &.internal {
     text-decoration: none;
     background-color: var(--highlight);
-    padding: 0 0.1rem;
-    border-radius: 5px;
-    line-height: 1.4rem;
+    /* Make pills stable boxes to avoid top-edge clipping/flicker */
+    display: inline-block;
+    padding: 0.2rem 0.4rem;
+    line-height: 1.2;
+    border-radius: 6px;
+    background-clip: padding-box;
+    -webkit-font-smoothing: antialiased;
 
     &:has(> img) {
       background-color: transparent;
