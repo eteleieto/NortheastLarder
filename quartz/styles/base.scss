@@ -561,6 +561,18 @@ img {
   content-visibility: auto;
 }
 
+// Desktop: add horizontal spacing between adjacent inline images
+@media all and ($desktop) {
+  img + img {
+    margin-left: 0.5rem;
+  }
+}
+
+// Hide CategoryLinks title when placed in the right sidebar
+.sidebar.right .category-links > h3 {
+  display: none;
+}
+
 p > img + em {
   display: block;
   transform: translateY(-1rem);
