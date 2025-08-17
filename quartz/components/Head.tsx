@@ -13,10 +13,41 @@ export default (() => {
     ctx,
   }: QuartzComponentProps) => {
     const titleSuffix = cfg.pageTitleSuffix ?? ""
-    const title =
-      fileData.slug === "index"
-        ? cfg.pageTitle
-        : (fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title) + titleSuffix
+    
+    // Create SEO-optimized titles
+    const baseTitle = fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
+    const tags = fileData.frontmatter?.tags || []
+    
+    let title: string
+    if (fileData.slug === "index") {
+      title = "Northeast Larder - Open Source Food Research Notebook"
+    } else {
+      // Create descriptive titles based on content type and tags
+      let titleContext = ""
+      
+      if (tags.includes('RECIPE')) {
+        titleContext = "Recipe"
+      } else if (tags.includes('PROJECT')) {
+        titleContext = "Project"
+      } else if (tags.includes('LARDER')) {
+        titleContext = "Ingredient Guide"
+      } else if (tags.includes('TECHNIQUE')) {
+        titleContext = "Technique"
+      } else if (tags.includes('BLOG')) {
+        titleContext = "Blog"
+      }
+      
+      if (titleContext) {
+        title = `${baseTitle} ${titleContext}${titleSuffix}`
+      } else {
+        title = `${baseTitle}${titleSuffix}`
+      }
+      
+      // Ensure title is within optimal SEO length (50-60 chars) while being descriptive
+      if (title.length > 60) {
+        title = baseTitle + titleSuffix
+      }
+    }
     const description =
       fileData.frontmatter?.socialDescription ??
       fileData.frontmatter?.description ??
@@ -100,7 +131,7 @@ export default (() => {
           
           if (!isRecipe) return null
 
-          const frontmatter = fileData.frontmatter || {}
+          const frontmatter = fileData.frontmatter || {} as any
           const recipeData = {
             "@context": "https://schema.org/",
             "@type": "Recipe",

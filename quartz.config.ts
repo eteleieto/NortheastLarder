@@ -10,7 +10,7 @@ import { CustomOgImages } from "./quartz/plugins/emitters/ogImage"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Northeast Larder",
-    pageTitleSuffix: "",
+    pageTitleSuffix: " | Northeast Larder - Fermentation & Regional Food Lab",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
