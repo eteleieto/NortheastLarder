@@ -18,8 +18,7 @@ interface TagPageOptions extends FullPageLayout {
   sort?: (f1: QuartzPluginData, f2: QuartzPluginData) => number
 }
 
-// Custom titles for specific tags
-// Keeping the capitalized version as it's used for page titles
+// Custom titles and descriptions for specific tags
 const getCustomTitle = (tag: string): string => {
   const customTitles: Record<string, string> = {
     'PROJECT': 'Projects',
@@ -32,6 +31,22 @@ const getCustomTitle = (tag: string): string => {
     'SOURCE': 'Sources'
   }
   return customTitles[tag] || tag
+}
+
+const getCustomDescription = (tag: string): string => {
+  const descriptions: Record<string, string> = {
+    'PROJECT': 'Explore our ongoing food research projects focusing on Northeast ingredients, fermentation, and sustainable practices.',
+    'LARDER': 'Discover preserved foods and ingredients that form the backbone of Northeast regional cuisine.',
+    'INGREDIENT': 'Learn about unique ingredients sourced from the Northeast region and their culinary applications.',
+    'TECHNIQUE': 'Master traditional and modern food preservation and fermentation techniques.',
+    'BLOG': 'Read our latest thoughts on food culture, sustainability, and regional cuisine development.',
+    'RECIPE': 'Try our tested recipes featuring Northeast ingredients and fermentation techniques.',
+    'IDEA': 'Explore experimental concepts and early-stage food research ideas.',
+    'SOURCE': 'Find trusted sources for Northeast ingredients, equipment, and further learning.',
+    'FERMENTATION': 'Dive deep into fermentation science and traditional preservation methods.',
+    'IN-PROGRESS': 'Follow along with our current experiments and works in development.'
+  }
+  return descriptions[tag] || `Explore content related to ${tag.toLowerCase()} in Northeast regional cuisine.`
 }
 
 function computeTagInfo(
@@ -57,7 +72,11 @@ function computeTagInfo(
         tag,
         defaultProcessedContent({
           slug: joinSegments("tags", tag) as FullSlug,
-          frontmatter: { title, tags: [] },
+          frontmatter: { 
+            title, 
+            tags: [],
+            description: getCustomDescription(tag)
+          },
         }),
       ]
     }),

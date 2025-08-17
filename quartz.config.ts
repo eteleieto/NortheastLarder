@@ -77,6 +77,7 @@ const config: QuartzConfig = {
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.CardListTransformer(),
+      Plugin.ImageSEO(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
@@ -93,6 +94,7 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.NotFoundPage(),
       Plugin.Favicon(),
+
       // Comment out CustomOgImages to speed up build time
       CustomOgImages({
         colorScheme: "lightMode",

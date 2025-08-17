@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /.obsidian/
+
+Sitemap: https://northeastlarder.com/sitemap.xml

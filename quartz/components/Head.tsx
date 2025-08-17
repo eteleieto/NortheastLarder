@@ -84,6 +84,7 @@ export default (() => {
             <meta property="twitter:domain" content={cfg.baseUrl}></meta>
             <meta property="og:url" content={socialUrl}></meta>
             <meta property="twitter:url" content={socialUrl}></meta>
+            <link rel="canonical" href={socialUrl} />
           </>
         )}
 
@@ -91,6 +92,46 @@ export default (() => {
         <link rel="icon" href={svgFavicon} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
+
+        {/* Structured Data for Recipes */}
+        {(() => {
+          const tags = fileData.frontmatter?.tags || []
+          const isRecipe = tags.includes('RECIPE')
+          
+          if (!isRecipe) return null
+
+          const frontmatter = fileData.frontmatter || {}
+          const recipeData = {
+            "@context": "https://schema.org/",
+            "@type": "Recipe",
+            "name": title,
+            "description": description,
+            "author": {
+              "@type": "Organization",
+              "name": "Northeast Larder",
+              "url": "https://northeastlarder.com"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Northeast Larder",
+              "url": "https://northeastlarder.com"
+            },
+            "datePublished": frontmatter.date || new Date().toISOString().split('T')[0],
+            "recipeCategory": frontmatter.category || "Fermentation",
+            "keywords": frontmatter.keywords || tags.join(', '),
+            ...(frontmatter.prep_time && { "prepTime": `PT${frontmatter.prep_time}` }),
+            ...(frontmatter.cook_time && { "cookTime": `PT${frontmatter.cook_time}` }),
+            ...(frontmatter.servings && { "recipeYield": frontmatter.servings }),
+            ...(frontmatter.difficulty && { "difficulty": frontmatter.difficulty })
+          }
+
+          return (
+            <script 
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{ __html: JSON.stringify(recipeData, null, 2) }}
+            />
+          )
+        })()}
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js

@@ -10,8 +10,8 @@ export interface Options {
 }
 
 const defaultOptions: Options = {
-  descriptionLength: 150,
-  maxDescriptionLength: 300,
+  descriptionLength: 155, // Optimal for Google snippets
+  maxDescriptionLength: 160, // Hard limit for SEO
   replaceExternalLinks: true,
 }
 
