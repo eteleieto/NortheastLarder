@@ -21,6 +21,7 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => !["index", "About", "Contact", "Documentation"].includes(page.fileData.slug!),
     }),
     Component.TagList(),
+    Component.ProjectLink(),
   ],
   left: [
     Component.PageTitle(),

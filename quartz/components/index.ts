@@ -27,6 +27,7 @@ import ConditionalRender from "./ConditionalRender"
 import HamburgerMenu from "./HamburgerMenu"
 import Newsletter from "./Newsletter"
 import { CardList } from "./CardList"
+import ProjectLink from "./ProjectLink"
 
 export {
   ArticleTitle,
@@ -58,4 +59,5 @@ export {
   HamburgerMenu,
   Newsletter,
   CardList,
+  ProjectLink,
 }
