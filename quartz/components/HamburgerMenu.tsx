@@ -27,53 +27,70 @@ export default ((opts: HamburgerMenuOptions) => {
   }
 
   HamburgerMenu.afterDOMLoaded = `
-    const hamburgerToggle = document.getElementById('hamburger-toggle');
-    const hamburgerMenu = document.getElementById('hamburger-menu');
-    const hamburgerOverlay = document.getElementById('hamburger-overlay');
-    
-    function toggleMenu(event) {
-      if (event) {
-        event.stopPropagation();
+    // Initialize hamburger behavior on each SPA navigation
+    document.addEventListener('nav', () => {
+      const hamburgerToggle = document.getElementById('hamburger-toggle');
+      const hamburgerMenu = document.getElementById('hamburger-menu');
+      const hamburgerOverlay = document.getElementById('hamburger-overlay');
+
+      // On pages like 404, the hamburger may not be present
+      if (!hamburgerToggle || !hamburgerMenu || !hamburgerOverlay) {
+        return;
       }
-      
-      const isOpen = hamburgerMenu.classList.contains('open');
-      
-      if (isOpen) {
+
+      function toggleMenu(event) {
+        if (event) {
+          event.stopPropagation();
+        }
+        const isOpen = hamburgerMenu.classList.contains('open');
+        if (isOpen) {
+          hamburgerMenu.classList.remove('open');
+          hamburgerOverlay.classList.remove('open');
+          hamburgerToggle.classList.remove('open');
+          document.body.style.overflow = '';
+          document.documentElement.classList.remove('mobile-no-scroll');
+        } else {
+          hamburgerMenu.classList.add('open');
+          hamburgerOverlay.classList.add('open');
+          hamburgerToggle.classList.add('open');
+          document.body.style.overflow = 'hidden';
+          document.documentElement.classList.add('mobile-no-scroll');
+        }
+      }
+
+      function closeMenu() {
         hamburgerMenu.classList.remove('open');
         hamburgerOverlay.classList.remove('open');
         hamburgerToggle.classList.remove('open');
         document.body.style.overflow = '';
         document.documentElement.classList.remove('mobile-no-scroll');
-      } else {
-        hamburgerMenu.classList.add('open');
-        hamburgerOverlay.classList.add('open');
-        hamburgerToggle.classList.add('open');
-        document.body.style.overflow = 'hidden';
-        document.documentElement.classList.add('mobile-no-scroll');
       }
-    }
-    
-    function closeMenu() {
-      hamburgerMenu.classList.remove('open');
-      hamburgerOverlay.classList.remove('open');
-      hamburgerToggle.classList.remove('open');
-      document.body.style.overflow = '';
-      document.documentElement.classList.remove('mobile-no-scroll');
-    }
-    
-    hamburgerToggle?.addEventListener('click', toggleMenu);
-    hamburgerOverlay?.addEventListener('click', closeMenu);
-    
-    // Prevent menu content clicks from closing the menu
-    hamburgerMenu?.addEventListener('click', (e) => {
-      e.stopPropagation();
-    });
-    
-    // Close menu on escape key
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && hamburgerMenu.classList.contains('open')) {
-        closeMenu();
-      }
+
+      // Ensure menu is closed on nav
+      closeMenu();
+
+      const onToggleClick = (e) => toggleMenu(e);
+      const onOverlayClick = () => closeMenu();
+      const onMenuClick = (e) => { e.stopPropagation(); };
+      const onKeydown = (e) => {
+        if (e.key === 'Escape' && hamburgerMenu.classList.contains('open')) {
+          closeMenu();
+        }
+      };
+
+      hamburgerToggle.addEventListener('click', onToggleClick);
+      hamburgerOverlay.addEventListener('click', onOverlayClick);
+      // Prevent menu content clicks from closing the menu
+      hamburgerMenu.addEventListener('click', onMenuClick);
+      document.addEventListener('keydown', onKeydown);
+
+      // Cleanup listeners before the next SPA navigation
+      window.addCleanup(() => {
+        hamburgerToggle.removeEventListener('click', onToggleClick);
+        hamburgerOverlay.removeEventListener('click', onOverlayClick);
+        hamburgerMenu.removeEventListener('click', onMenuClick);
+        document.removeEventListener('keydown', onKeydown);
+      });
     });
   `
 
