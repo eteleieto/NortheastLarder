@@ -5,9 +5,8 @@ tags:
   - IN-PROGRESS
 pairing: 
 date: 2025-06-20
-project:
+project: "[[Amazake Project]]"
 ---
-This is part of the [[Amazake Project|Amazake]] project.
 ## Background
 
 This experiment explores a variation on traditional [[Amazake Project|amazake]], a fermented rice drink, by using [[Buckwheat|buckwheat]] and [[Koji|koji]] from [[Rhapsody Foods]].

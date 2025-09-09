@@ -5,7 +5,7 @@ tags:
   - IN-PROGRESS
 pairing: 
 date: 2025-06-20
-project: Amazake Project
+project: "[[Amazake Project]]"
 ---
 ## Notes and Observations
 

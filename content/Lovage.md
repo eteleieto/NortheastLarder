@@ -5,5 +5,5 @@ tags:
 source: 
 season: 
 pairing:
+  - "[[Fava Bean]]"
 ---
-Goes super well with [[Fava Bean|fava bean]] according to Pietramala.

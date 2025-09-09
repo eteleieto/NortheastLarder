@@ -6,7 +6,6 @@ source: "[[Furnace Creek Farm]]"
 season: 
 pairing:
 ---
-
 ### Notes:
 
 Two kinds of shiso: green (more sturdy and spinach-like) and purple (more flimsy and slightly more acidic - somewhat like sorrel). 

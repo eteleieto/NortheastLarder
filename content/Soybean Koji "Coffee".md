@@ -5,7 +5,7 @@ tags:
   - IN-PROGRESS
 pairing: 
 date: 2025-07-30
-project: Coffee & Chocolate Substitution
+project: "[[Coffee & Chocolate Substitutes]]"
 ---
 ## Background
 

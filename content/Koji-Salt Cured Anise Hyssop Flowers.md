@@ -9,7 +9,7 @@ project:
 ---
 ## Background
 
-This experiment is an attempt to create a salt cure using [[Anisse Hyssop| anisse hyssop]] flowers from [[Furnace Creek Farm]]. By combining the flowers with [[Koji]] and a high concentration of salt, the goal is to preserve them and develop a unique flavor. The final product is intended to be stored in oil.
+This experiment is an attempt to create a salt cure using [[Anisse Hyssop| anisse hyssop]] flowers from [[Furnace Creek Farm]]. By combining the flowers with [[Koji|koji]] and a high concentration of salt, the goal is to preserve them and develop a unique flavor. The final product is intended to be stored in oil.
 
 ---
 ## Recipe

@@ -161,7 +161,6 @@ Largest Column: standard
 
 
 ![[Coffee & Chocolate Substitutes.webp|1]]
-
 ## Comparables:
 
 [Voyage Foods](https://voyagefoods.com/our-process)
@@ -175,8 +174,6 @@ Largest Column: standard
 [Nukoko](https://nukoko.co.uk/)
 
 [Article](https://phys.org/news/2025-02-koji-flour-product-reliance-cocoa.html)
-
-
 
 ## Notes
 

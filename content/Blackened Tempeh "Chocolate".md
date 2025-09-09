@@ -9,7 +9,7 @@ project:
 ---
 ## Dried
 
-The [[Blackened Tempeh]] was dehydrated for approximately four hours and then ground into a powder. This powder was mixed with vegetable oil and sugar to create a paste with a texture comparable to chocolate paste.
+The [[Blackened Tempeh|blackened tempeh]] was dehydrated for approximately four hours and then ground into a powder. This powder was mixed with vegetable oil and sugar to create a paste with a texture comparable to chocolate paste.
 
 ### Notes and Observations
 

@@ -14,7 +14,7 @@ date: 05-26-25
 
 * [[Rye Berry|Rye berries]] were toasted on low-medium heat.
 * The toasted berries were gently broken up using a mortar and pestle, aiming to create several small chunks from each berry.
-* The crushed berries were then added to [[Distilled Vinegar|distilled vinegar]].
+* The crushed berries were then added to distilled vinegar.
 * The mixture was covered and left to steep for a minimum of 24 hours.
 
 ## Notes

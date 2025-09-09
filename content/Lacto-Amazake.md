@@ -48,6 +48,6 @@ Flip-top Jar
 - This process could also be done using a non-yogurt lactobacillus starter.
 - The end result is equally sweet and tangy, with an aftertaste of rice wine and buckwheat and a yogurt-like funk up front. It is overall refreshing.
 - Future experiments could involve using different liquids, such as [[Tea|tea]], in place of water during the amazake process to create flavored lacto-amazakes.
-- It could also be carbonated naturally using a [[Yeast Bug|yeast bug]] to create a refreshing and funky soda.
+- It could also be carbonated naturally using a yeast bug to create a refreshing and funky soda.
 - Besides drinks, the liquid may be interesting to incorporate into sauces or baked goods. It tasted delicious in [[Amazake Sorbet|amazake sorbet]].
 - All of this warrants further testing.

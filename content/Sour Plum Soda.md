@@ -4,6 +4,7 @@ tags:
   - RECIPE
   - IN-PROGRESS
 date: 2025-08-04
+project: "[[Drinks]]"
 ---
 ## Background
 

@@ -13,7 +13,6 @@ At high sugar concentrations, enzymatic hydrolysis dominates:
     
 - **Amylases** (if added via koji or malt) convert starches into **sugars**
     
-
 If water activity drops slowly, **lactic acid bacteria** may proliferate, creating a **subtle tang** and increased complexity.
 
 ---
@@ -36,7 +35,7 @@ If water activity drops slowly, **lactic acid bacteria** may proliferate, creati
     
 - Try dried or underripe fruit for concentrated syrups
     
-- Observe for spontaneous **lactofermentation** (common if syrup isn’t fully saturated with sugar)
+- Observe for spontaneous [[Lacto-Fermentation|lacto-fermentation]] (common if syrup isn’t fully saturated with sugar)
     
 - Experiment with different **ratios of sugar to fruit** (1:1 vs 2:1) for texture and preservation
     

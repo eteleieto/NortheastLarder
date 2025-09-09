@@ -23,7 +23,6 @@ date: 2025-05-30
 * aged cheeses
 * fetas
 
-
 notes
 - shio koji
 - koji aged cheeses

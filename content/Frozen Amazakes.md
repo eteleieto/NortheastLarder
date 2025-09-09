@@ -3,10 +3,8 @@ tags:
   - LARDER
 date: 2025-02-25
 title: Frozen Amazake
-project: Amazake Project
+project: "[[Amazake Project]]"
 ---
-This is part of the [[Amazake Project|Amazake]] project.
-
 ## Background
 
 Amazake has high levels of glucose, which make it a compelling candidate for frozen desserts like sorbet or ice cream. Additionally, the sweetness and funk of amazake gets mellowed and drawn out when frozen, contributing to a more surprising and gradual sensory experience. 

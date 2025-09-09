@@ -6,8 +6,6 @@ source: "[[Furnace Creek Farm]]"
 season: 
 pairing:
 ---
-
-
 ### Ideas:
 
 *   Toss the flowers into [[Miso|miso]] at the last minute.

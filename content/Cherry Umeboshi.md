@@ -11,6 +11,7 @@ project:
 
 This experiment is a variation on traditional Japanese [[Umeboshi|umeboshi]], which is made with [[Plum|plums]]. This version uses [[Cherry|cherries]], subjecting them to a [[Lacto-Fermentation|lacto-fermentation]] before partially dehydrating them to create a comparable product.
 
+![[Cherry Umeboshi.webp|200x267]]
 ---
 ## Recipe
 --- start-multi-column: ID_4vby
@@ -48,3 +49,4 @@ Dehydrator
 ## Notes and Observations
 
 - The goal is to dehydrate the cherries until they are slightly tacky while still retaining some moisture.
+- The end result, while not using the exact typical process of umeboshi, closely resembles a traditional umeboshi. It's salty, sour, a bit sweet, and overall delicious.

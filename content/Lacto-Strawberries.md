@@ -7,8 +7,6 @@ pairing:
 date: 2025-07-31
 project:
 ---
-
-
 ## Background
 
 This is an experiment in [[Lacto-Fermentation|lacto-fermentation]], using [[Strawberry|strawberries]] with a 2% salt brine created from their own juices.

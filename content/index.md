@@ -1,5 +1,5 @@
 ---
-title: The Northeast Larder Project
+title: Northeast Larder
 ---
 
 <h1 class="desktop-only">Welcome to the Northeast Larder Project</h1>

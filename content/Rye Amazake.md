@@ -5,9 +5,8 @@ tags:
   - IN-PROGRESS
 pairing: 
 date: 2025-06-19
-project: Amazake Project
+project: "[[Amazake Project]]"
 ---
-This is part of the [[Amazake Project|Amazake]] project.
 ## Background
 
 This experiment focuses on making [[Amazake Project |amazake]] using [[rye berry | rye berries]]. The process involves boiling the rye berries and then adding dried [[Koji|koji]]. The mixture will be left overnight in a fermentation chamber, held at a constant temperature.

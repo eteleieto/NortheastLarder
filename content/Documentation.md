@@ -28,7 +28,6 @@ More complete dishes designed to stand on their own, showcasing the integration 
 More public-facing polished write-ups about experiments, thoughts, theories, and other project-related topics.
 
 --- end-multi-column
-
 --- start-multi-column: ID_ContentTypes2
 ```column-settings
 Number of Columns: 2
@@ -44,7 +43,6 @@ Concepts or potential projects that are being considered but have not yet been d
 Pages dedicated to individual ingredients or derived products (e.g., a specific vegetable, a lactofermented item).
 
 --- end-multi-column
-
 --- start-multi-column: ID_ContentTypes3
 ```column-settings
 Number of Columns: 2
@@ -60,7 +58,6 @@ Explanations and explorations of culinary and fermentative methods relevant to t
 Information about the farms, producers, or locations where ingredients are sourced.
 
 --- end-multi-column
-
 --- start-multi-column: ID_ContentTypes4
 ```column-settings
 Number of Columns: 2

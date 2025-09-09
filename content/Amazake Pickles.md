@@ -5,11 +5,11 @@ tags:
   - IN-PROGRESS
 pairing: 
 date: 2025-06-23
-project: Amazake Project
+project: "[[Amazake Project]]"
 ---
 ## Background
 
-This experiment uses [[Amazake Project|amazake]] as a sweetener for a pickling liquid, creating an alternative to traditional sugar-based brines. The pickling liquid is a simple mixture of [[Distilled White Vinegar|distilled white vinegar]], amazake, and salt, which will be used to pickle vegetables.
+This experiment uses [[Amazake Project|amazake]] as a sweetener for a pickling liquid, creating an alternative to traditional sugar-based brines. The pickling liquid is a simple mixture of distilled white vinegar, amazake, and salt, which will be used to pickle vegetables.
 
  ![[Amazake Pickles.webp|200x267]]
 
