@@ -52,12 +52,15 @@ Nope! We’ll have everything you need. If you have a journal or notebook you en
 ### About Us
 
 **Benjamin**
+
 Benjamin is the owner of Garnet, a restaurant opening in Brooklyn in 2026. He is exploring forms of commensality – the act of eating together – as the basis for urban civic and social revival. 
 
 **Joe**
+
 Joe is a founder of Northeast Larder Project, a food lab and research center based in the Northeast of the US. A recent classics graduate from Yale, Joe has studied ancient eating cultures and foodways, and has translated some of the first known cookbooks. 
 
 **Jaclyn**
+
 Jaclyn is a software engineer at Ambrook, a company that support American farms, and the creator of rabbitholeathon, a roaming multi-day learning retreat for curious individuals. 
 
 
