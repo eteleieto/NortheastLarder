@@ -12,7 +12,7 @@ pairing:
 
 This is a [[Lacto-Fermentation|lacto-fermentation]] of foraged [[White Berry|white berries]] and [[Wine Berry|wine berries]]. The berries are combined directly with 2% salt by weight, which will draw out their juices to create a brine.
 
-![[IMG_6347.webp|200x267]]
+![[Lacto-Wineberries.webp|200x267]]
 
 ---
 ## Recipe
