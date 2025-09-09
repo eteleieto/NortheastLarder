@@ -47,7 +47,7 @@ export const defaultContentPageLayout: PageLayout = {
           limit: 5,
           filter: (page) => {
             const tags = page.frontmatter?.tags;
-            const allowedTags = ["PROJECT", "LARDER", "RECIPE", "BLOG", "IDEA"];
+            const allowedTags = ["PROJECT", "LARDER", "RECIPE", "IDEA"]; // exclude BLOG from Recent Notes
             
             if (!tags) return false;
             
@@ -96,7 +96,7 @@ export const defaultContentPageLayout: PageLayout = {
       showTags: false,
       filter: (page) => {
         const tags = page.frontmatter?.tags;
-        const allowedTags = ["PROJECT", "LARDER", "RECIPE", "BLOG", "IDEA"];
+        const allowedTags = ["PROJECT", "LARDER", "RECIPE", "IDEA"]; // exclude BLOG from Recent Notes
         
         if (!tags) return false;
         
@@ -160,7 +160,7 @@ export const defaultListPageLayout: PageLayout = {
           limit: 5,
           filter: (page) => {
             const tags = page.frontmatter?.tags;
-            const allowedTags = ["PROJECT", "LARDER", "RECIPE", "BLOG", "IDEA"];
+            const allowedTags = ["PROJECT", "LARDER", "RECIPE", "IDEA"]; // exclude BLOG from Recent Notes
             
             if (!tags) return false;
             
@@ -207,7 +207,7 @@ export const defaultListPageLayout: PageLayout = {
       showTags: false,
       filter: (page) => {
         const tags = page.frontmatter?.tags;
-        const allowedTags = ["PROJECT", "LARDER", "RECIPE", "BLOG", "IDEA"];
+        const allowedTags = ["PROJECT", "LARDER", "RECIPE", "IDEA"]; // exclude BLOG from Recent Notes
         
         if (!tags) return false;
         
