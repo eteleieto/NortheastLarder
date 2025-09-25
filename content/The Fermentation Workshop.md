@@ -19,7 +19,6 @@ Of course, we will make sure all ferments are done properly and safe to consume.
 
 [Here](https://airtable.com/appxtM5HGIyf4DSF4/pagpfERt5v7iO08c5/form) is the signup form.
 
-![[The Fermentation Workshop-1.webp|100]]
 ## More Information
 
 
