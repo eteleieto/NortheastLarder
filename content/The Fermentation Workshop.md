@@ -63,8 +63,8 @@ Joe is a founder of Northeast Larder Project, a food lab and research center bas
 
 Jaclyn is a software engineer at Ambrook, a company that support American farms, and the creator of rabbitholeathon, a roaming multi-day learning retreat for curious individuals. 
 
+---
 
+Thank you everyone for coming! Here are some photos from the event:
 
-
-
-
+![[The Fermentation Workshop-2.webp|200x267]]![[The Fermentation Workshop-3.webp|200x267]]![[The Fermentation Workshop-4.webp|200]]![[The Fermentation Workshop-5.webp|200]]![[The Fermentation Workshop-6.webp|200]]![[The Fermentation Workshop-7.webp|200x133]]![[The Fermentation Workshop-8.webp|200]]
