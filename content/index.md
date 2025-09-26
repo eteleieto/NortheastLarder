@@ -11,9 +11,9 @@ title: Northeast Larder
 
 |||
 
-[[About]]
+[[About Us]]
 
-[[Contact]]
+[[For Restaurants]]
 
 [[Documentation]]
 
