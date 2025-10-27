@@ -8,9 +8,9 @@ pairing:
   - "[[Honey]]"
 ---
 
-## Background
+## Backgrou
 
-This is a [[Lacto-Fermentation|lacto-fermentation]] of foraged [[White Berry|white berries]] and [[Wine Berry|wine berries]]. The berries are combined directly with 2% salt by weight, which will draw out their juices to create a brine.
+This is a [[Lacto-Fermentation|lacto-fermentation]] of foraged [[Wine Berry|wine berries]]. The berries are combined directly with 2% salt by weight, which will draw out their juices to create a brine.
 
 ![[Lacto-Wineberries.webp|200]]
 
@@ -23,8 +23,6 @@ Largest Column: standard
 ```
 
 ### Ingredients 
-
-Foraged White Berries
 
 Foraged Wine Berries
 

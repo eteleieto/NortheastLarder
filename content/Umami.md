@@ -21,9 +21,13 @@ This project focuses on creating umami-rich foods like [[Garum|garums]], [[Miso|
 
 |||
 
-[[Oat Malt Garum]]
+[[Malt-Umami]]
 
 [[Tops Garum]]
+
+[[Mushroom Garum]]
+
+[[Mushroom Seasoning]]
 
 |||
 
