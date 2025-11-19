@@ -195,15 +195,43 @@ function processMultiColumnRegions(src: string): string {
   })
 }
 
+// Convert wikilinks to markdown links
+function convertWikilinksToMarkdown(md: string): string {
+  // Match wikilinks like [[Koji]], [[Koji#Section]], [[Koji|Display Text]], or [[Koji#Section|Display Text]]
+  // This regex matches the same pattern as ObsidianFlavoredMarkdown
+  const wikilinkRegex = /!?\[\[([^\[\]\|\#\\]+)?(#+[^\[\]\|\#\\]+)?(\\?\|[^\[\]\#]*)?\]\]/g
+  return md.replace(wikilinkRegex, (match, rawFp, rawHeader, rawAlias) => {
+    // Skip embeds (starting with !)
+    if (match.startsWith('!')) {
+      return match
+    }
+    
+    const fp = (rawFp ?? '').trim()
+    const anchor = (rawHeader ?? '').trim()
+    const alias = rawAlias ? rawAlias.replace(/^\\?\|/, '').trim() : null
+    
+    // Build the link target (file path + anchor)
+    const linkTarget = fp + anchor
+    
+    // Use alias if provided, otherwise use the file path
+    const displayText = alias ?? fp
+    
+    return `[${displayText}](${linkTarget})`
+  })
+}
+
 // Convert raw Markdown string into HTML (synchronously)
 function mdToHtml(md: string): string {
+  // Convert wikilinks to markdown links first
+  const processedMd = convertWikilinksToMarkdown(md)
+  
   return String(
     unified()
       .use(remarkParse)
       .use(remarkGfm)
       .use(remarkRehype, { allowDangerousHtml: true })
       .use(rehypeStringify, { allowDangerousHtml: true })
-      .processSync(md)
+      .processSync(processedMd)
   )
 }
 
