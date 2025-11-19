@@ -182,4 +182,4 @@ Largest Column: standard
 5. To roast or not?
 
 
-![[iiif-public_gdcmassbookdig_coffeeteachocol00sain_coffeeteachocol00sain_0003-full-pct_12.5-0-default.webp|1]]
+![[Content/Assets/Attachments/Coffee & Chocolate Substitutes-1.webp|1]]

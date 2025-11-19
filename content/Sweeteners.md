@@ -16,5 +16,4 @@ Finding non-obtrusive forms of sweetness is a key challenge. Our options include
 - [[Amazake]]
 - [[Maple Syrup]] and other tree syrups.
 
-
-![[Sweeteners.webp|1x1]]
+![[Sweeteners-1.webp|1]]
