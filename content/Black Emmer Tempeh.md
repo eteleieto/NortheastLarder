@@ -21,7 +21,7 @@ Largest Column: standard
 
 ### Ingredients 
 
-[[Emmer Tempeh]]
+Emmer Tempeh
 
 --- column-break ---
 
