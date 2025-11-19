@@ -1,3 +1,4 @@
+import { FullSlug, resolveRelative, slugTag } from "../util/path"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 const ProjectLink: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
@@ -6,10 +7,14 @@ const ProjectLink: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
 
   // Remove any braces (e.g., [[Tempeh]] -> Tempeh)
   const cleanProject = project.replace(/[\[\]]/g, '')
+  
+  // Use original project value (with braces) to generate the link
+  const projectSlug = slugTag(project) as FullSlug
+  const href = resolveRelative(fileData.slug!, projectSlug)
 
   return (
     <p class="project-ref">
-      This is part of Project {cleanProject}
+      This is part of Project <a href={href} class="internal">{cleanProject}</a>
     </p>
   )
 }

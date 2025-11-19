@@ -5,7 +5,7 @@ tags:
   - IN-PROGRESS
 pairing:
 date: 2025-10-27
-project:
+project: "[[Tempeh]]"
 ---
 ## Background
 
