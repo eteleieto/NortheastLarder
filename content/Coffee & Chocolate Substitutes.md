@@ -159,8 +159,6 @@ Largest Column: standard
 
 --- end-multi-column
 
-
-![[Coffee & Chocolate Substitutes.webp|1]]
 ## Comparables:
 
 [Voyage Foods](https://voyagefoods.com/our-process)
@@ -184,3 +182,4 @@ Largest Column: standard
 5. To roast or not?
 
 
+![[iiif-public_gdcmassbookdig_coffeeteachocol00sain_coffeeteachocol00sain_0003-full-pct_12.5-0-default.webp|1]]
