@@ -8,8 +8,8 @@ const ProjectLink: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   // Remove any braces (e.g., [[Tempeh]] -> Tempeh)
   const cleanProject = project.replace(/[\[\]]/g, '')
   
-  // Use original project value (with braces) to generate the link
-  const projectSlug = slugTag(project) as FullSlug
+  // Use cleaned project name (without braces) to generate the link
+  const projectSlug = slugTag(cleanProject) as FullSlug
   const href = resolveRelative(fileData.slug!, projectSlug)
 
   return (
