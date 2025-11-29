@@ -9,8 +9,8 @@ export default (() => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <div class="footer-navigation">
-          <a href={resolveRelative(fileData.slug!, "About")} class="internal">About</a>
-          <a href={resolveRelative(fileData.slug!, "Contact")} class="internal">Contact</a>
+          <a href="https://northeastlarder.com/About-Us" class="internal">About</a>
+          <a href={resolveRelative(fileData.slug!, "For-Restaurants")} class="internal">Contact</a>
           <a href={resolveRelative(fileData.slug!, "Documentation")} class="internal">Documentation</a>
         </div>
         <div class="social-links">
