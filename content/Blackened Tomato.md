@@ -3,7 +3,8 @@ title: Blackened Tomato
 tags:
   - LARDER
   - IN-PROGRESS
-pairing: 
+  - BLACKENED
+pairing:
 date: 2025-07-22
 project: "[[Blackening (Enzymatic)]]"
 ---

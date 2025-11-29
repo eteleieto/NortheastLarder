@@ -3,6 +3,7 @@ title: Toasted Rye Tea
 tags:
   - RECIPE/DRINK
   - IN-PROGRESS
+  - TEA
 ingredients:
   - "[[Rye]]"
 ---

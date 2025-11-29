@@ -3,7 +3,8 @@ title: Unripe Peach Cheong
 tags:
   - LARDER
   - IN-PROGRESS
-pairing: 
+  - SYRUP
+pairing:
 date: 2025-06-17
 ---
 ## Background

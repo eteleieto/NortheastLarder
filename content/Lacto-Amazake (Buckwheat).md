@@ -3,7 +3,9 @@ title: Lacto-Amazake
 tags:
   - LARDER
   - IN-PROGRESS
-pairing: 
+  - LACTO-FERMENT
+  - AMAZAKE
+pairing:
 date: 2025-06-23
 project:
 ---

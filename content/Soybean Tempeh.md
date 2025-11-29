@@ -1,3 +1,13 @@
+---
+title: Soybean Tempeh
+tags:
+  - LARDER
+  - IN-PROGRESS
+  - TEMPEH
+pairing:
+date: 2025-11-28
+project: "[[Tempeh]]"
+---
 ## Background
 
 This is a first attempt at making [[Tempeh|tempeh]] from scratch. The goal is to compare the flavor and texture of a homemade version with commercial products and to establish a baseline process for future experiments with other substrates. This is a traditional version using [[Soybean|soybeans]].
@@ -32,7 +42,7 @@ Incubation Chamber
     Soak the beans overnight, then boil them until cooked through but still firm.
 
 2.  **Inoculation**  
-    Drain the beans and allow them to cool to at least as low as incubation temperature before mixing in the tempeh starter.
+    Drain the beans and allow them to cool to at least as low as incubation temperature before mixing in the tempeh starter and vinegar. Use about 1-2 teaspoons of tempeh starter per 500g of beans and 1-2 tablespoons of vinegar.
 
 3.  **Incubation**  
     Place the inoculated beans in an incubation chamber at 88°F for 48 hours.

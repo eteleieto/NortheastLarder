@@ -3,7 +3,8 @@ title: Oat Malt Garum
 tags:
   - LARDER
   - IN-PROGRESS
-pairing: 
+  - GARUM
+pairing:
 date: 2025-07-21
 project: "[[Malt-Umami]]"
 ---

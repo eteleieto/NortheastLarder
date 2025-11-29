@@ -3,7 +3,8 @@ title: Cherry Umeboshi
 tags:
   - LARDER
   - IN-PROGRESS
-pairing: 
+  - LACTO-FERMENT
+pairing:
 date: 2025-08-04
 project:
 ---

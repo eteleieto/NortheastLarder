@@ -3,6 +3,7 @@ title: Black Emmer Tempeh
 tags:
   - LARDER
   - IN-PROGRESS
+  - TEMPEH
 pairing:
 date: 2025-10-27
 project: "[[Tempeh]]"

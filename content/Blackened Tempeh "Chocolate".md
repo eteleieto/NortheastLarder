@@ -3,7 +3,8 @@ title: Blackened Tempeh "Chocolate"
 tags:
   - LARDER
   - IN-PROGRESS
-pairing: 
+  - BLACKENED
+pairing:
 date: 2025-07-31
 project:
 ---

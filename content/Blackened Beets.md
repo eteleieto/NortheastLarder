@@ -3,7 +3,8 @@ title: Blackened Beets
 tags:
   - LARDER
   - IN-PROGRESS
-pairing: 
+  - BLACKENED
+pairing:
 date: 2025-07-23
 project: "[[Blackening (Enzymatic)]]"
 ---

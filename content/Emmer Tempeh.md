@@ -3,6 +3,7 @@ title: Emmer Tempeh
 tags:
   - LARDER
   - IN-PROGRESS
+  - TEMPEH
 pairing:
   - "[[Soy Sauce]]"
 date: 2025-08-08

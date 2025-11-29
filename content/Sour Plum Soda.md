@@ -3,6 +3,7 @@ title: Sour Plum Soda
 tags:
   - RECIPE
   - IN-PROGRESS
+  - SODA
 date: 2025-08-04
 project: "[[Drinks]]"
 ---

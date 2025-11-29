@@ -3,7 +3,8 @@ title: Resinous Polypore Garum
 tags:
   - LARDER
   - IN-PROGRESS
-pairing: 
+  - GARUM
+pairing:
 date: 2025-10-02
 project:
 ---
@@ -56,3 +57,11 @@ Fermentation Chamber
 ## Notes and Observations
 
 - The fermentation is being conducted at 140°F with an 8% salt concentration.
+
+
+
+
+
+UPDATES:
+
+ so at this point, the Garham has been going at 1:40 for I would say about a month and a week or so month in 10 days 40 days I am taking out all the contents which have relatively significantly darkened and then I'm just gonna strain out any of the solids and squeeze out any of the remaining moisture in the garden and at which point I'm going to stick in the freezer I'm gonna freeze it and then I'm gonna let it thaw slowly over a cheese cloth into another container a process called free clarification, which will help care of any of the solids and turn into more pleasant, clear and clean tasting liquid

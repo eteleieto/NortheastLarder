@@ -3,7 +3,8 @@ title: Rye Amazake
 tags:
   - LARDER
   - IN-PROGRESS
-pairing: 
+  - AMAZAKE
+pairing:
 date: 2025-06-19
 project: "[[Amazake Project]]"
 ---

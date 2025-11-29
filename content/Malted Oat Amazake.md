@@ -3,7 +3,8 @@ title: Malted Oat Amazake
 tags:
   - LARDER
   - IN-PROGRESS
-pairing: 
+  - AMAZAKE
+pairing:
 date: 2025-07-31
 project:
 ---

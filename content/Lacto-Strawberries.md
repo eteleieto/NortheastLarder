@@ -3,7 +3,8 @@ title: Lacto-Strawberries
 tags:
   - LARDER
   - IN-PROGRESS
-pairing: 
+  - LACTO-FERMENT
+pairing:
 date: 2025-07-31
 project:
 ---

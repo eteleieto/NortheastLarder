@@ -3,7 +3,8 @@ title: Lacto Cherries
 tags:
   - LARDER
   - IN-PROGRESS
-pairing: 
+  - LACTO-FERMENT
+pairing:
 date: 2025-07-28
 project:
 ---
