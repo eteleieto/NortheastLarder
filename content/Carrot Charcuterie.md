@@ -29,6 +29,8 @@ Largest Column: standard
 
 1g Salt
 
+Koji Spores
+
 --- column-break ---
 
 ### Equipment
@@ -48,10 +50,10 @@ Vacuum Sealer
     Vacuum seal the salted carrots.
 
 3.  **Chilling**  
-    Store the sealed bag in the fridge for approximately two days.
+    Store the sealed bag in the fridge overnight.
 
 4.  **Inoculation**  
-    After two days, proceed with inoculation.
+    After they've lost some moisture, proceed with inoculation using [[Koji Spores|koji spores]]. Make sure the spores are evenly dusted on all sides.
 
 ![[Carrot Charcuterie-1.webp|200x267]]
 ## Notes and Observations
@@ -59,3 +61,6 @@ Vacuum Sealer
 - After being inoculated and left for 40 hours, an even, matte layer of mold had formed on the surface of the carrots.
 - The taste still is strongly of carrot, but with a neutral 'cheese' funk, similar to a brie or camembert rind but without their characteristic flavor. It is umami and slightly floral, with some of the characteristic aromas of koji.
 - The carrot charcuterie when cooked has the taste of a carrot which has been rendered in the fat of pork or chicken with quite a full-bodied roasted meat flavor in a way that's quite distinct from it just after it was inoculated.
+
+
+![[Carrot Charcuterie-3.webp|200x267]]![[Carrot Charcuterie-2.webp|200x267]]
