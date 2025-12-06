@@ -1,3 +1,12 @@
+---
+title: Shio Koji Grain Cheese
+tags:
+  - LARDER
+  - IN-PROGRESS
+pairing: 
+date: 2025-12-06
+project:
+---
 ## Background
 
 This experiment aims to mimic the lactic, cheesy qualities of [[Mozzarella|mozzarella]] by fermenting grains, a koji-fied variation on the Lebanese 'poor man's cheese' keshek el fouqara. The general theory is that fermenting grains on their own produces a liquid reminiscent of mozzarella whey. By introducing [[Koji]], we hope to replicate the umami and sweetness of cheese through the breakdown of proteins and starches. Additionally, processing the grains into a paste should result in a texture that is creamy rather than grainy, similar to how cheese softens as it matures.
