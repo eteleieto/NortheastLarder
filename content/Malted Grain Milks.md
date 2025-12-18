@@ -1,3 +1,12 @@
+---
+title: Malted Grain Milks
+tags:
+  - LARDER
+  - IN-PROGRESS
+pairing: 
+date: 2025-12-18
+project:
+---
 ## Background
 
 This experiment utilizes [[Malt|malt]], similar to how it is used to provide amylase in industrial [[Oat Milk|oat milk]] production, to break down starches in grains into sugars. This technique allows for the creation of a variety of plant-based milk alternatives using almost any grain, such as [[Emmer|emmer]], [[Rye|rye]], or [[Spelt|spelt]]. While protein and fat content vary by substrate, the milk can be enriched or emulsified with added fat to achieve parity with store-bought options.
