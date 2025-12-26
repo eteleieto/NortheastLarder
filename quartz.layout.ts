@@ -120,7 +120,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ConditionalRender({
       component: Component.Newsletter(),
-      condition: (page) => ["index", "About", "Contact", "Documentation"].includes(page.fileData.slug!),
+      condition: (page) => false, // Temporarily hidden
     }),
     Component.ConditionalRender({
       component: Component.DesktopOnly(Component.TableOfContents()),
