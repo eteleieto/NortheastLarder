@@ -20,6 +20,6 @@ Serve warm or cold over ice.
 ## Notes
 
 There are a few other possible preparations and techniques for Rye Tea. 
-1. Toasted rye tea with [[Rye Amazake|rye amazake]]. Use just the liquid of the amazake, for a clear drink that is both nutty and sweet. 
+1. Toasted rye tea with [[Content/Rye Amazake|rye amazake]]. Use just the liquid of the amazake, for a clear drink that is both nutty and sweet. 
 2. Treating therRye berries like the rice in [[genmaicha]]. Boil, dried, roasted, and then steeped.
 3. There are a few different methods for toasting the rye berries. Toasting them in the oven, at around 300, for 30 minutes will likely result in a more consistnet toa
