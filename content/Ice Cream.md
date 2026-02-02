@@ -13,6 +13,8 @@ We normally use a Ninja Creami (or a Pacojet) on ice cream or sorbet setting to 
 
 [[Soy Ice Cream Base]]
 
+[[Peanut Ice Cream Base]]
+
 |||
 
 **Items**:

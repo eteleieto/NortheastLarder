@@ -32,6 +32,8 @@ Koji
 
 Water
 
+Salt
+
 --- column-break ---
 
 ### Equipment
@@ -50,7 +52,7 @@ Cheesecloth
     Lightly blend the oats and malt to allow for easier breakdown by the koji.
 
 2.  **Mixing**  
-    Combine the ingredients in a fermentation vessel. The ratio used was two parts oats, one part malt, one part koji, and four parts water.
+    Combine the ingredients in a fermentation vessel. The ratio used was two parts oats, one part malt, one part koji, and four parts water, with 8% salt.
 
 3.  **Fermentation**  
     Maintain the mixture at 140°F for 34 days.
