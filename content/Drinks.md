@@ -18,8 +18,8 @@ Developing warm and hearty beverages and drink-centered substitutes for coffee a
 Exploring acidity through various methods:
 - Lacto-fermented [[Amazake Project|amazakes]]
 - Naturally carbonated sodas
-- [[Kombucha]]
-- [[Shrub|Shrubs]]
+- [[Kombucha|kombucha]]
+- [[Shrub|shrubs]]
 - Fermented [[Juice|juices]]
 - Carbonation using yeast bugs
 

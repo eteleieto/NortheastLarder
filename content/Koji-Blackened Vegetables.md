@@ -9,7 +9,7 @@ project:
 ---
 ## Background
 
-We have been experimenting with the effects of [[Koji|koji]] enzymes and inoculation on flavor during the [[Blackening|blackening]] process for various substrates. This experiment involved taking a number of vegetables—including [[Carrot|carrot]], [[Sweet Potato|sweet potato]], [[Squash|squash]], and [[Radish|radish]]—and inoculating them with koji.
+We have been experimenting with the effects of [[Koji|koji]] enzymes and inoculation on flavor during the [[Blackening (Enzymatic)|blackening]] process for various substrates. This experiment involved taking a number of vegetables—including [[Carrot|carrot]], [[Sweet Potato|sweet potato]], [[Squash|squash]], and [[Radish|radish]]—and inoculating them with koji.
 
 ---
 ## Recipe

@@ -1,15 +1,15 @@
 ---
-title: Koji-Salt Cured Anise Hyssop
+title: Koji-Salt Cured Anise Hyssop Flowers
 tags:
   - LARDER
   - IN-PROGRESS
-pairing: 
+pairing:
 date: 2025-07-31
 project:
 ---
 ## Background
 
-This experiment is an attempt to create a salt cure using [[Anisse Hyssop| anisse hyssop]] flowers from [[Furnace Creek Farm]]. By combining the flowers with [[Koji|koji]] and a high concentration of salt, the goal is to preserve them and develop a unique flavor. The final product is intended to be stored in oil.
+This experiment is an attempt to create a salt cure using [[Anise Hyssop|anise hyssop]] flowers from [[Furnace Creek Farm]]. By combining the flowers with [[Koji|koji]] and a high concentration of salt, the goal is to preserve them and develop a unique flavor. The final product is intended to be stored in oil.
 
 ---
 ## Recipe

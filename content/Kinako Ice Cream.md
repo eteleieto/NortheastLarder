@@ -1,5 +1,5 @@
 ---
-title: Kinaco Ice Cream
+title: Kinako Ice Cream
 tags:
   - RECIPE
   - IN-PROGRESS
@@ -8,7 +8,7 @@ project: "[[Ice Cream]]"
 ---
 ## Background
 
-This iteration builds upon the previous [[Soy Ice Cream Base|soy base]] but introduces a reduction step and the addition of [[Kinaco|kinaco]] (roasted soybean flour). Starting with 559 g of the base mixture, we cooked it down to 415 g—removing approximately 144 g of water—before incorporating the kinako. This test explores how lower water content and the addition of roasted flour affect the texture and flavor profile when processed on the "Sorbet" setting.
+This iteration builds upon the previous [[Soy Ice Cream Base|soy base]] but introduces a reduction step and the addition of [[Kinako|kinako]] (roasted soybean flour). Starting with 559 g of the base mixture, we cooked it down to 415 g—removing approximately 144 g of water—before incorporating the kinako. This test explores how lower water content and the addition of roasted flour affect the texture and flavor profile when processed on the "Sorbet" setting.
 
 ---
 ## Recipe
@@ -22,7 +22,7 @@ Largest Column: standard
 
 559g Soy Base (Reduced to 415g)
 
-13g [[Kinako]]
+13g [[Kinako|kinako]]
 
 --- column-break ---
 
@@ -50,8 +50,8 @@ Saucepan
 
 ## Notes and Observations
 
-- The end result was delicious, tasting like a cross between [[Black Sesame]] and peanut butter, despite being practically 100% soy-based.
-- The texture was significantly approved; it was super creamy with a nice body and mouthfeel.
+- The end result was delicious, tasting like a cross between [[Black Sesame|black sesame]] and peanut butter, despite being practically 100% soy-based.
+- The texture was significantly improved; it was super creamy with a nice body and mouthfeel.
 - The only critique is that it could be slightly thicker.
 - Next time, we might use an even more concentrated soy base or combine it with peanut to test different base interactions.
-- We may also consider using a stabilizer like [[Carrageenan]] (derived from Irish sea moss) if applicable to further improve the consistency.
+- We may also consider using a stabilizer like [[Carrageenan|carrageenan]] (derived from Irish sea moss) if applicable to further improve the consistency.

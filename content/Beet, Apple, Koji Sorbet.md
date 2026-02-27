@@ -8,7 +8,7 @@ project:
 ---
 ## Background
 
-This recipe involves juicing [[Golden Beet|golden beets]] alongside [[Apple|apple]], incorporating [[Rice Koji|medium grain rice koji]], and cooking the mixture down on the stovetop. We use [[Maple Syrup|maple syrup]] as the sweetener, along with the natural sugar from the beets concentrated during reduction - as a result.
+This recipe involves juicing [[Golden Beet|golden beets]] alongside [[Apple|apple]], incorporating [[Rice Koji|rice koji]], and cooking the mixture down on the stovetop. We use [[Maple Syrup|maple syrup]] as the sweetener, along with the natural sugars from the beets, which concentrate during reduction.
 
 ---
 ## Recipe
@@ -75,5 +75,4 @@ Ice Cream Machine
 - The byproduct of the beet pulp can be utilized for baking, crackers, or a "koji beet pulp."
 - Future iterations might involve adding [[Kombu|kombu]], using different koji substrates (such as oats), or experimenting with sweeteners like [[Amazake|amazake]], malt, or [[Beet Molasses|beet molasses]].
 - It may be interesting to use [[Lacto-Fermentation|lacto-fermented]] beets for 25% of the mixture to add complexity.
-- Emulsifying [[Soy Milk|soy milk]] or oil into the mixture could improve the texture and add a fatty mouthfeel.
-- 
+- Emulsifying [[Soy Milk|soy milk]] or oil into the mixture could improve the texture and add a fatty mouthfeel to more closely mimic gelato.

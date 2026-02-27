@@ -2,7 +2,7 @@
 tags:
   - LARDER
 date: 2025-02-25
-title: Frozen Amazake
+title: Frozen Amazakes
 project: "[[Amazake Project]]"
 ---
 ## Background
@@ -11,13 +11,13 @@ Amazake has high levels of glucose, which make it a compelling candidate for fro
 
 ## Trials
 
-[[Cucumber, Lime and Amazake Granita]]
+Cucumber, Lime and Amazake Granita
 
-In our first trial of a frozen amazake, we test a granita, which can be part of a dessert or a intermezzo. 
+In our first trial of a frozen amazake, we test a granita, which can be part of a dessert or an intermezzo. 
 
-Take a base amazake (liquids and solids), blend with cucmber juice, lemon verbena, and mint. Freeze. Scrape. Top with lime zest and a healthy amount of lime juice. 
+Take a base amazake (liquids and solids), blend with cucumber juice, lemon verbena, and mint. Freeze. Scrape. Top with lime zest and a healthy amount of lime juice.
 
-The acidity of the lime, with the buttermilk-y and cold amazake, and the light flavor of cucumber and mint makes a fantastic trasnition between courses
+The acidity of the lime, with the buttermilk-y and cold amazake, and the light flavor of cucumber and mint makes a fantastic transition between courses
 
 ## Notes and Observations
 1. Lacto fermented amazake may also make a great granita. 

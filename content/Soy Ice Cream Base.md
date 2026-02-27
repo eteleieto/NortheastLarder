@@ -1,5 +1,5 @@
 ---
-title: Soy Ice Cream
+title: Soy Ice Cream Base
 tags:
   - LARDER
   - IN-PROGRESS

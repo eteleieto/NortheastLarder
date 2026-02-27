@@ -1,4 +1,5 @@
 ---
+title: Mushroom Garum
 tags:
   - PROJECT
   - IN-PROGRESS

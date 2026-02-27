@@ -53,4 +53,4 @@ Kitchen Scale
 
 - The goal is to create a yeast starter from the carrot peels for future carbonation projects.
 - The mixture will be covered lightly and left for 24 hours, after which it will be fed daily.
-- After 5 days, this was VERY active. Leaving it overnight, the popping sound from the jar hurt my eardrums.
+- After 5 days, this was very active. Leaving it overnight, the popping sound from the jar hurt my eardrums.

@@ -22,11 +22,11 @@ Number of Columns: 2
 Largest Column: standard
 ```
 
-### Ingredients 
+### Ingredients
 
 900g Soy Beans
 
-3g Tempeh Start
+3g Tempeh Starter
 
 --- column-break ---
 

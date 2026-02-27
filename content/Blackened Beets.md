@@ -10,7 +10,7 @@ project: "[[Blackening (Enzymatic)]]"
 ---
 ## Background
 
-This experiment explores two variations of [[Blackening (Enzymatic)|blackened]] [[Beet|beets]]. Beets are a compelling candidate for this process due to their high sugar content. Much like roasting develops their flavor, blackening may extend that transformation to create new, complex results. Two trials are being run concurrently to compare the effects: one with 10% [[Koji|koji]] and one with plain beets. This experiment also seeks to find a novel use for beets, which are an abundant and inexpensive crop in the Northeast0
+This experiment explores two variations of [[Blackening (Enzymatic)|blackened]] [[Beet|beets]]. Beets are a compelling candidate for this process due to their high sugar content. Much like roasting develops their flavor, blackening may extend that transformation to create new, complex results. Two trials are being run concurrently to compare the effects: one with 10% [[Koji|koji]] and one with plain beets. This experiment also seeks to find a novel use for beets, which are an abundant and inexpensive crop in the Northeast.
 
 ---
 ## Recipe

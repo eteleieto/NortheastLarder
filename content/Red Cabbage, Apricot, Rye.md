@@ -15,8 +15,8 @@ The dish is composed of several elements:
 
 *   Roasted [[Red Cabbage|red cabbage]]
 *   A puree made from roasted [[Lacto-Apricot|lacto-apricot]], [[Apple|apple]], [[Mustard|mustard]], vinegar, and [[Agar|agar]]
-*   [[Rye]] breadcrumbs
-*   [[Hazelnut|Hazelnuts]]
+*   [[Rye|rye]] breadcrumbs
+*   [[Hazelnut|hazelnuts]]
 *   Stewed beans
 
 ## Notes and Observations

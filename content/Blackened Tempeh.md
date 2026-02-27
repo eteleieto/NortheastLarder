@@ -8,7 +8,6 @@ pairing:
 date: 2025-07-31
 project:
 ---
-
 ## Background
 
 This project is an attempt to create a savory, chocolate-like product from [[Tempeh|tempeh]] using [[Blackening (Enzymatic)|blackening]]. By holding the tempeh at a constant high temperature for an extended period, the goal is to develop deep, complex flavors through Maillard reactions, caramelization, and the breakdown of proteins from the enzymes present from the tempeh fermentation.
@@ -45,3 +44,4 @@ Incubator or Dehydrator
 
 - The tempeh will be held at 140°F for about a month.
 - This process is expected to transform the tempeh, creating a product with notes reminiscent of dark chocolate or molasses.
+- See also [[Black Emmer Tempeh]]

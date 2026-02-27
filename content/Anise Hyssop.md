@@ -1,9 +1,9 @@
 ---
-title: Anisse Hyssop
+title: Anise Hyssop
 tags:
   - INGREDIENT
 source: "[[Furnace Creek Farm]]"
-season: 
+season:
 pairing:
 ---
 ### Ideas:

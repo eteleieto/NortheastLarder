@@ -6,11 +6,11 @@ tags:
   - MISO
 pairing:
 date: 2025-11-28
-project:
+project: "[[Umami]]"
 ---
 ## Background
 
-This is an [[Awase Miso|awase]]-style [[Miso]], using a mix of [[Barley]] from [[River Valley Community Grains]] and [[Soybean|soybeans]] as the substrate. The process involves cooking the grains and beans, combining them with [[Koji]], and allowing the mixture to ferment.
+This is an [[Awase Miso|awase]]-style [[Miso|miso]], using a mix of [[Barley|barley]] from [[River Valley Community Grains]] and [[Soybean|soybeans]] as the substrate. The process involves cooking the grains and beans, combining them with [[Koji|koji]], and allowing the mixture to ferment. We want to develop a miso with additional depth and nutiness, with a characteristically grain-based flavor.
 
 ![[Barley Soy Miso.webp|200x267]]
 
@@ -65,4 +65,6 @@ Fermentation Vessel
 
 - This recipe uses a 1:1 ratio of koji to substrate, which is typical for an awase, or mixed, miso.
 - The salt is calculated at 5% of the total weight of the substrate and koji combined.
+- The final flavor is great, miso-like but distinctively nutty. Preditably, it shares many characteristics with a Doenjang.
+- It is sweeter than a traditional miso owing to the digestion of starches from the amylase enzymes - you can dial in the sweetness and nutiness by adusting the ratio of soybean (for more umami) and barley (for more sweetness).
 

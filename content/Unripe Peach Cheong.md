@@ -9,7 +9,7 @@ date: 2025-06-17
 ---
 ## Background
 
-This experiment, started on June 17, is a variation on traditional Korean [[Cheong]], which is typically made with [[unripe plum]]. This version uses [[unripe peach |unripe peaches]], another type of stone fruit, to explore if they produce a similarly interesting syrup. The peaches were harvested from a backyard tree, providing a way to utilize fruit that might otherwise be eaten by deer before ripening.
+This experiment, started on June 17, is a variation on traditional Korean [[Cheong|cheong]], which is typically made with [[Unripe Plum|unripe plum]]. This version uses [[Unripe Peach|unripe peaches]], another type of stone fruit, to explore if they produce a similarly interesting syrup. The peaches were harvested from a backyard tree, providing a way to utilize fruit that might otherwise be eaten by deer before ripening.
 
 ---
 ## Recipe
@@ -18,9 +18,9 @@ This experiment, started on June 17, is a variation on traditional Korean [[Cheo
 Number of Columns: 2
 Largest Column: standard
 ```
-### Ingredients 
+### Ingredients
 
-275 Unripe Peaches
+275g Unripe Peaches
 
 275g Cane Sugar
 
@@ -59,10 +59,10 @@ Kitchen Scale
 
 - The peaches used were small, about the size of a golf ball. Some had a dried, gum-like substance on the skin, likely from stink bugs.
 - The jar will be left at room temperature (approx. 70°F / 21°C).
-- The sugar is expected to draw moisture from the peaches via osmosis, slowly creating a syrup. This process will likely be slower than with more porous fruits like [[raspberry |raspberries]].
+- The sugar is expected to draw moisture from the peaches via osmosis, slowly creating a syrup. This process will likely be slower than with more porous fruits like [[Raspberry|raspberries]].
 - Due to their density, the peaches required a surprisingly large volume of sugar to achieve a 1:1 weight ratio.
-- The process will be monitored over the coming weeks, first for syrup formation and the dissolution of all sugar. Following that, we will monitor for signs of slight [[Lacto-Fermentation]].
-- After 2 months the syrup has concentrated, the peaches have shriveled up completely, and some lactofermentation has occured. The resulting flavor is sweet, sour, candy-like, and slightly funky.
+- The process will be monitored over the coming weeks, first for syrup formation and the dissolution of all sugar. Following that, we will monitor for signs of slight [[Lacto-Fermentation|lacto-fermentation]].
+- After 2 months the syrup has concentrated, the peaches have shriveled up completely, and some lacto-fermentation has occurred. The resulting flavor is sweet, sour, candy-like, and slightly funky.
 
 
  ![[Unripe Peach Cheong.webp | 300]]

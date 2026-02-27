@@ -10,7 +10,7 @@ project:
 ---
 ## Background
 
-Approximately 3-5 pounds of [[Resinous Polypore]] were foraged in Connecticut. After harvesting, the mushroom was trimmed and separated into its tender flesh and woodier parts for two different applications. This recipe details the process for the woodier sections.
+Approximately 3-5 pounds of [[Resinous Polypore|resinous polypore]] were foraged in Connecticut. After harvesting, the mushroom was trimmed and separated into its tender flesh and woodier parts for two different applications. This recipe details the process for the woodier sections.
 
 ---
 ## Recipe
@@ -24,7 +24,7 @@ Largest Column: standard
 
 Woody parts of Resinous Polypore
 
-[[Koji]]
+[[Koji|koji]]
 
 Water
 
@@ -62,6 +62,6 @@ Fermentation Chamber
 
 
 
-UPDATES:
+## Updates
 
- so at this point, the Garham has been going at 1:40 for I would say about a month and a week or so month in 10 days 40 days I am taking out all the contents which have relatively significantly darkened and then I'm just gonna strain out any of the solids and squeeze out any of the remaining moisture in the garden and at which point I'm going to stick in the freezer I'm gonna freeze it and then I'm gonna let it thaw slowly over a cheese cloth into another container a process called free clarification, which will help care of any of the solids and turn into more pleasant, clear and clean tasting liquid
+After approximately 40-50 days of fermentation at 140°F, the garum has significantly darkened. The contents were strained to remove solids, and the liquid was squeezed out. The mixture was then frozen and thawed slowly over cheesecloth in another container using a process called freeze clarification, which helps remove remaining solids and creates a more pleasant, clear, and clean-tasting liquid.

@@ -23,7 +23,7 @@ Largest Column: standard
 
 Stale Bread
 
-[[Diastatic Malt]]
+[[Diastatic Malt|diastatic malt]]
 
 Water
 
@@ -61,7 +61,7 @@ Blender (Optional)
 ## Notes and Observations
 
 - The malt used for this batch was sourced from [[Ground Up Grains]].
-- It is crucial to use diastatic malt, which contains the active enzymes required for catalysis, rather than sweet, non-diastatic malt. Brewers malt is a cost-effective alternative to bakers malt.
+- It is crucial to use diastatic malt, which contains the active enzymes required for catalysis, rather than sweet, non-diastatic malt. Brewer's malt is a cost-effective alternative to baker's malt.
 - Precise measurements are not abundantly useful here, as they depend heavily on the type of bread used and how much it has staled or dried. Use your best discretion.
 - The presence of fats, salt, and proteins in the bread helps the mixture emulsify into a consistency resembling caramel sauce. This results in a completely dairy-free product.
 - This experiment can be extended to other leftover or [[Retrograded Starch|retrograded starches]].

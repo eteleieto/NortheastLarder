@@ -10,7 +10,7 @@ project: "[[Malt-Umami]]"
 ---
 ## Background
 
-This is a garum using [[Oat|oats]], [[Light Munich Malt]] from Valley Malt, and [[Koji|koji]]. The oats and malt were lightly blended before being combined with the other ingredients and held at a high temperature for an extended period to break down.
+This is a garum using [[Oat|oats]], [[Light Munich Malt|Light Munich malt]] from Valley Malt, and [[Koji|koji]]. The oats and malt were lightly blended before being combined with the other ingredients and held at a high temperature for an extended period to break down.
 
 ![[Oat Malt Garum.webp|200x267]]
 

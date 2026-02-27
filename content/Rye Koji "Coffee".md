@@ -9,7 +9,7 @@ project: "[[Coffee & Chocolate Substitutes]]"
 ---
 ## Background
 
-This is a test to create alternative coffee and chocolate-like varieties using a combination of [[Koji|koji]] and slow [[blackening]] at 140°F. This approach leverages the similarity between Koji enzymes and the enzymes that develop during coffee and chocolate fermentation. For this initial test, a small amount of dried [[rye berry | rye berries]] from [[Castle Valley Mill]] will be used.
+This is a test to create alternative coffee and chocolate-like varieties using a combination of [[Koji|koji]] and slow [[Blackening (Enzymatic)|blackening]] at 140°F. This approach leverages the similarity between Koji enzymes and the enzymes that develop during coffee and chocolate fermentation. For this initial test, a small amount of dried [[Rye Berry|rye berries]] from [[Castle Valley Mill]] will be used.
 
 ![[Rye Koji "Coffee"-1.webp|200x267]]
 
@@ -74,7 +74,7 @@ Kitchen Scale
 ### Post-Blackening: Chocolate-Style Preparation
 
 - A separate preparation was made by blending the dried, blackened rye with sugar and fat.
-- The result was not like chocolate but was delicious and intensely fruity, with strong notes of [[Prune|prune]], raisin, and [[Dried Currant|dried currents]]. There were also subtle chocolate notes and hints of a stone fruit like [[Cherry|cherry]], with very little bitterness.
+- The result was not like chocolate but was delicious and intensely fruity, with strong notes of [[Prune|prune]], raisin, and [[Dried Currant|dried currants]]. There were also subtle chocolate notes and hints of a stone fruit like [[Cherry|cherry]], with very little bitterness.
 - When blended with milk, the mixture tasted remarkably like Ovaltine or a mild chocolate milk with blended raisins. It was very satisfying and comforting.
 - This base would be excellent as a warm drink or as an ice cream, perhaps with the addition of something punchy like dried, [[Lacto-Fermentation|lacto]]-fermented fruit.
 

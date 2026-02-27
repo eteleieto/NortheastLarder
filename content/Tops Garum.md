@@ -56,5 +56,5 @@ Kitchen Scale
 
 ## Notes and Observations
 
-- The koji was sourced from [[Rhapsody Natural Foods]].
+- The koji was sourced from [[Rhapsody Foods]].
 - The salt was calculated at 10% of the total weight of the mixture (greens + koji + water + salt).

@@ -5,5 +5,5 @@ tags:
 source: 
 season: 
 pairing:
-  - "[[matcha]]"
+  - "[[Matcha]]"
 ---

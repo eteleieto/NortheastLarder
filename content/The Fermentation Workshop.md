@@ -11,7 +11,7 @@ date: 2025-09-09
 
 Together with the [Garnet](http://www.garnet.nyc) and with the generous support of [Ambrook](http://www.ambrook.com), we will be hosting lacto-fermentation workshops Saturday, Sept 13th at 10:00am and 1:00pm in SoHo, NYC.
 
-Everyone will receive their own bell jar, fermentation, weight, abountiful table of fruits and vegetables to play with, along with all the necessary equipment to make their ferments. We'll taste, discuss, and document all of our ferments jointly, considering practically and philosophically the many variables which impact the qualities of fermented food. Everyone will take home their ferments and tend to them for the week.
+Everyone will receive their own bell jar, fermentation weight, an abountiful table of fruits and vegetables to play with, along with all the necessary equipment to make their ferments. We'll taste, discuss, and document all of our ferments jointly, considering practically and philosophically the many variables which impact the qualities of fermented food. Everyone will take home their ferments and tend to them for the week.
 
 We will then gather again (optionally) the following Saturday for a lunch. Everyone will bring their ferments and we'll savor our collective efforts through a lunch consisting of rice, fresh tofu from Fong On, some garums and misos that we've been crafting, hot tea from regional grains, and of course: everyone's ferments.
 
@@ -26,7 +26,7 @@ The workshop is designed to be a 2-part workshop, where participants make, take-
 
 We understand that two consecutive weekends might not be possible for everyone, so for the first weekend, we’re offering a limited number of standalone tickets. These tickets will be just for the workshop, and not include the gathering the following weekend.
   
-The second session is not offered standalone, It is only available to those who partook in Part 1.
+The second session is not offered standalone; it is only available to those who partook in Part 1.
 
 ## FAQ
 
@@ -40,7 +40,7 @@ No! This gathering is designed for those with limited existing knowledge on ferm
 
 **If I can no longer attend, can I get a refund?**
 
-Sadly, we cannot offer refunds if you can longer attend. You can absolutely give/transfer your ticket to someone else.
+Sadly, we cannot offer refunds if you can no longer attend. You can absolutely give/transfer your ticket to someone else.
 
 If you need financial assistance for the ticket, please send us a note. We want this gathering to be accessible, though it does come at a cost to us.
 
@@ -60,7 +60,7 @@ Joe is a founder of Northeast Larder Project, a food lab and research center bas
 
 **Jaclyn**
 
-Jaclyn is a software engineer at Ambrook, a company that support American farms, and the creator of rabbitholeathon, a roaming multi-day learning retreat for curious individuals. 
+Jaclyn is a software engineer at Ambrook, a company that supports American farms, and the creator of rabbitholeathon, a roaming multi-day learning retreat for curious individuals. 
 
 ---
 

@@ -10,7 +10,7 @@ project:
 ---
 ## Background
 
-This is a trial run using peeled [[Carrot|carrots]] leftover from the [[Ginger Bug]] project. A small amount of salt was added to have them release a little bit of moisture before being vacuum-sealed and chilled in preparation for inoculation.
+This is a trial run using peeled [[Carrot|carrots]] leftover from the [[Carrot Bug]] project. A small amount of salt was added to have them release a little bit of moisture before being vacuum-sealed and chilled in preparation for inoculation.
 
 ![[Carrot Charcuterie.webp|200x267]]
 
@@ -61,10 +61,7 @@ Vacuum Sealer
 - After being inoculated and left for 40 hours, an even, matte layer of mold had formed on the surface of the carrots.
 - The taste still is strongly of carrot, but with a neutral 'cheese' funk, similar to a brie or camembert rind but without their characteristic flavor. It is umami and slightly floral, with some of the characteristic aromas of koji.
 - The carrot charcuterie when cooked has the taste of a carrot which has been rendered in the fat of pork or chicken with quite a full-bodied roasted meat flavor in a way that's quite distinct from it just after it was inoculated.
-- Afterwards, I dried them at 95 degrees farenheit in a dehydrator for 6 hours, after which the flavor become conentrated and the texture improved.
+- Afterwards, I dried them at 95 degrees Fahrenheit in a dehydrator for 6 hours, after which the flavor became concentrated and the texture improved.
 
 
 ![[Carrot Charcuterie-3.webp|200x267]]![[Carrot Charcuterie-2.webp|200x267]]
-
-
-When further dehydrated after and then boiled in water, the water taste as flavor and the carrots themselves taste like Annie's white mac & cheese powder on a slightly dehydrated, carrot. New report only tastes like Annie's when boiled for about five minutes once it hits six or seven minute mark and now there's a slightly kind of much more hollowed out. It still taste like somewhat like Anna's but it has less of the sharp notes around the edges that give you like that cheesy kind of thing. bv

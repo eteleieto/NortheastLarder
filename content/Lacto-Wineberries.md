@@ -10,7 +10,7 @@ project:
 ---
 ## Background
 
-This is a [[Lacto-Fermentation|lacto-fermentation]] of foraged [[Wine Berry|wine berries]]. The berries are combined directly with 2% salt by weight, which will draw out their juices to create a brine.
+This is a [[Lacto-Fermentation|lacto-fermentation]] of foraged [[Wineberry|wineberries]]. The berries are combined directly with 2% salt by weight, which will draw out their juices to create a brine.
 
 ![[Lacto-Wineberries.webp|200]]
 

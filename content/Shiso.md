@@ -18,7 +18,7 @@ Red shiso (akajiso) is used as a coloring agent for umeboshi.
 
 [Here](https://www.culturedpickleshop.com/blog/2018/4/15/shibazuke ) is a version where they make **Shibazuke**, which is traditional ferment of eggplant, shiso, and ginger. 
 
-To preserve, they can be salt edthem and leave in fridge, then washed off when needed. 
+To preserve, they can be salted and left in the fridge, then washed off when needed. 
 
 It can also be dried, and made into a seasoning powder, like furikake, with seaweed and sesame seed and such. 
 
@@ -32,7 +32,7 @@ Could make an umeboshi with peach or cherry or other stone fruit, preserving in 
 
 ### Preparations:
 
-1. nectarine shiso lato -> chutney with chilis
+1. nectarine shiso lacto -> chutney with chilis
 	* 147g nectarine
 	* 8g shiso
 	* 90g water
@@ -44,5 +44,5 @@ Could make an umeboshi with peach or cherry or other stone fruit, preserving in 
 	* 4g black pepper
 	* 862g total
 	* 26g salt
-3. Dried Shisho
+3. Dried Shiso
 	- Question - to wash or not?

@@ -49,6 +49,6 @@ Fermentation Chamber
 ## Notes and Observations
 
 - After 12 hours, the mixture was almost completely broken down, with only a slight starch layer remaining.
-- The resulting liquid has a quite neutral sweetness, accompanied by a slight rice wine funk and a slight aftertaste of buckwehat.
+- The resulting liquid has a quite neutral sweetness, accompanied by a slight rice wine funk and a slight aftertaste of buckwheat.
 
 ![[Buckwheat Amazake.webp|200x267]]

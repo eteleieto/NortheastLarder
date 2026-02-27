@@ -1,5 +1,0 @@
----
-title: Mayonaisse
-tags:
-  - TECHNIQUE
----

@@ -4,7 +4,7 @@
 Our entire site is built upon a content graph. Whenever one page links out to another, that is a connection on the graph. You can explore the content graph by clicking through the miniature version in the top right of the page or expanding it browsing full screen.
 	
 ## Left Sidebar (Explorer)
-Browse recent blogs and notes, and search accross our whole site. 
+Browse recent blogs and notes, and search across our whole site. 
 	
 ## Right Sidebar (Table of Contents)
 Quickly jump to post-types—recipes, ingredients, and more—and move between sections on the current page.
@@ -74,7 +74,7 @@ An overarching project, like 'amazakes' or 'grain vinegars', within which can be
 
 --- end-multi-column
 
-**For larder, recipe, and project, they can either be tagged as either in-progress or complete.**
+**For larder, recipe, and project pages, they can be tagged as either in-progress or complete.**
 
 
 
