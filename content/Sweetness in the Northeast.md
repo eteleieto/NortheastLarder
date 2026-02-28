@@ -11,7 +11,7 @@ About 13% of U.S. caloric intake is added sugar[^1]. Of that, about half is tabl
 
 But highly-refined sugars and corn syrup are recent inventions – most cuisines began developing far earlier. So, how did cuisines sweeten before? It was varied. In Korea, rice was malted to create syrup, *ssal-jocheong*; a similar malted syrup, *mizuame*, was used in Japan; the Incas boiled down sugar from the root of a tuber, the *yacón*; for much of North Africa, molasses was made from the sugary stalks of sorghum; in the Middle East, there was date syrup and pomegranate molasses; in the Mediterranean, there was honey – pick up an Ancient Roman cookbook, Apicius’ *De Re Coquinaria*, and you’ll realize quickly that honey was the sweetener; in Southeast Asia, there was palm jaggery and coconut sugar; in New Guinea, then India, then Persia, there was cane sugar, which Christopher Columbus later introduced to the Caribbean and South America; in Biblical accounts, there was manna – some sort of tree syrup, perhaps – a sweetener of even more ancient times.
 
-![[Screenshot 2026-02-27 at 8.36.02 AM.png]]
+![[Screenshot 2026-02-27 at 8.36.02 AM.png|600|600]]
 *U.S. per capita caloric sweetener availablity, 1970-2021, USDA.*
 
 Sweetness may be one of the only – or the only – universally enjoyable tastes[^2]. When sweetness comes with flavors – the malty richness of *ssal-jocheong*, the acidity of pomegranate molasses – cuisines develop to accommodate these flavors; they become characteristic. Even in an age of abundance, these historical limitations persist. While Pad Thai was invented long after the introduction of refined sugars, its taste is defined by its use of palm sugar. Try to make Pad Thai with refined sugar, and see how much of the taste is lost – not just in flavor, but familiarity.
@@ -26,14 +26,14 @@ Cane sugar was not without competition. Around the mid 19th century, two primary
 
 All the meanwhile, sugar refineries become of increasing economic and political importance. At this time, New York, the nucleus of sugar production, had ten refineries and had achieved relative independence from foreign refined sugar producers[^12]. Techniques for refinement continued to improve – a far cry from sugar refinement using ox blood, the primary method, in the decades and centuries prior.
 
-![[unnamed 1.png]]
+![[unnamed 1.png|400|400]]
 *A look inside the Domino (Havemeyer) sugar refinery, Scientific American.*
 
 ## Present Sweeteners in the Northeast
 
 While the sugar industry is no longer the dominant chunk of the economy – and tax revenue – as in the 19th century and early 20th century, sugar production is alive in the Northeast. Domino (previously, W. & F.C. Havemeyer Company) still produces sugar out of Yonkers, though its refineries are now further distributed. Some corn syrup may be produced in the Northeast; Karo, the largest corn syrup manufacturer in the United States, used to have refineries in New York, but now exclusively produces out of Chicago. But neither corn syrup nor granulated sugars – though they may be refined in the Northeast – are made from Northeastern produce. Sugarcane comes largely from the Southern states, Florida and Louisiana, as well as Mexico, the Caribbean, and Central and South America. Sugarbeets are grown primarily in the midwest. Corn, though a longstanding and important crop for the Northeast – is also produced primarily in the Midwest. Due to cost, it seems to me unlikely these industries will ever thrive in the Northeast.
 
-![[Historic_Domino_Sugar_Refinery.jpg]]
+![[Historic_Domino_Sugar_Refinery.jpg|600|600]]
 *The Domino (Havemeyer) sugar refinery in Williamsburg, Brooklyn in the present day*
 
 So – in our unique place and time – what do sweeteners of the Northeast look like? I’ll give an introduction to the types we think about without going into too much depth:
@@ -67,8 +67,13 @@ _If you have corrections, comments, or additions to the above information, pleas
 [^12]: Mintz, S. W. (1985). Page 6.
 
 ### Bibliography
+
 **Breslin, Paul A. S.** "An Evolutionary Perspective on Food and Human Taste." *Current Biology* 23, no. 9 (2013): R409-R418. [https://doi.org/10.1016/j.cub.2013.04.010](https://doi.org/10.1016/j.cub.2013.04.010).
+
 **Empire Syrups**. "Empire Syrups: New York Sorghum." Accessed 2026. [https://empiresyrups.com/](https://empiresyrups.com/).
+
 **Mintz, Sidney W.** *Sweetness and Power: The Place of Sugar in Modern History*. New York: Viking, 1985.
+
 **Warner, Deborah Jean.** *Sweet Stuff: An American History of Sweeteners from Sugar to Sucralose*. Baltimore: Johns Hopkins University Press, 2011.
+
 **Welsh, Jean A., Andrea J. Sharma, Bethene Grellinger, and Miriam E. Vos.** "Consumption of Added Sugars is High in the United States, 2005–2008." *NCHS Data Brief*, no. 87. Hyattsville, MD: National Center for Health Statistics, 2011. [https://www.cdc.gov/nchs/products/databriefs/db87.htm](https://www.cdc.gov/nchs/products/databriefs/db87.htm).

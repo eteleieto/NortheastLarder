@@ -32,7 +32,7 @@ export const defaultContentPageLayout: PageLayout = {
         Component.RecentNotes({ 
           title: "Recent Blog Posts",
           showTags: false,
-          limit: 5,
+          limit: 2,
           filter: (page) => {
             const tags = page.frontmatter?.tags
             if (!tags) return false
@@ -44,7 +44,7 @@ export const defaultContentPageLayout: PageLayout = {
         Component.RecentNotes({
           title: "Recent Notes",
           showTags: false,
-          limit: 5,
+          limit: 2,
           filter: (page) => {
             const tags = page.frontmatter?.tags;
             const allowedTags = ["PROJECT", "LARDER", "RECIPE", "IDEA"]; // exclude BLOG from Recent Notes
@@ -83,6 +83,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.RecentNotes({ 
       title: "Recent Blog Posts",
       showTags: false,
+      limit: 2,
       filter: (page) => {
         const tags = page.frontmatter?.tags
         if (!tags) return false
@@ -94,6 +95,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.RecentNotes({
       title: "Recent Notes",
       showTags: false,
+      limit: 2,
       filter: (page) => {
         const tags = page.frontmatter?.tags;
         const allowedTags = ["PROJECT", "LARDER", "RECIPE", "IDEA"]; // exclude BLOG from Recent Notes
@@ -145,7 +147,7 @@ export const defaultListPageLayout: PageLayout = {
         Component.RecentNotes({ 
           title: "Recent Blog Posts",
           showTags: false,
-          limit: 5,
+          limit: 2,
           filter: (page) => {
             const tags = page.frontmatter?.tags
             if (!tags) return false
@@ -157,7 +159,7 @@ export const defaultListPageLayout: PageLayout = {
         Component.RecentNotes({
           title: "Recent Notes",
           showTags: false,
-          limit: 5,
+          limit: 2,
           filter: (page) => {
             const tags = page.frontmatter?.tags;
             const allowedTags = ["PROJECT", "LARDER", "RECIPE", "IDEA"]; // exclude BLOG from Recent Notes
@@ -194,6 +196,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.DesktopOnly(Component.RecentNotes({ 
       title: "Recent Blog Posts",
       showTags: false,
+      limit: 2,
       filter: (page) => {
         const tags = page.frontmatter?.tags
         if (!tags) return false
@@ -205,6 +208,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.DesktopOnly(Component.RecentNotes({
       title: "Recent Notes",
       showTags: false,
+      limit: 2,
       filter: (page) => {
         const tags = page.frontmatter?.tags;
         const allowedTags = ["PROJECT", "LARDER", "RECIPE", "IDEA"]; // exclude BLOG from Recent Notes

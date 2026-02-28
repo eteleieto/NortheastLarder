@@ -27,10 +27,6 @@ const defaultOptions = (cfg: GlobalConfiguration): Options => ({
       slug: "tags/BLOG" as SimpleSlug,
     },
     { 
-      name: "Ideas", 
-      slug: "tags/IDEA" as SimpleSlug,
-    },
-    { 
       name: "Larders", 
       slug: "tags/LARDER" as SimpleSlug,
     },

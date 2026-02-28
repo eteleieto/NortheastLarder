@@ -18,12 +18,80 @@ a.tag-link[href*="IN-PROGRESS"] {
 
 // Increase body text and paragraph font size
 body, p, li, td, th, .popover-hint, article {
-  font-size: 1.1rem; // Slightly larger than default
-  line-height: 1.8rem; // Increase line height for better readability
+  font-size: 1.1rem;
+  line-height: 1.7; // Unitless ratio — scales with font size and avoids sup interference
+}
+
+// Prevent the unitless line-height above from creating large gaps in the
+// page title when it wraps (1.7 × 1.75rem font-size = ~3rem gap otherwise).
+.page-title {
+  line-height: 1.15;
+}
+
+// Prevent inline footnote superscripts from pushing lines apart.
+// line-height: 0 removes the sup from line-box height calculations entirely.
+sup {
+  line-height: 0;
+  font-size: 0.75em;
+  vertical-align: super;
 }
 
 // Ensure videos with custom dimensions are responsive on smaller screens
 video[style*="width"] {
   max-width: 100%;
   height: auto;
+}
+
+// Footnotes / bibliography section typography
+.footnotes {
+  font-size: 0.95rem;
+  color: var(--darkgray);
+
+  ol {
+    padding-left: 1.75rem;
+
+    li {
+      font-size: 0.95rem;
+      line-height: 1.65;
+      margin-bottom: 0.6rem;
+
+      p {
+        font-size: inherit;
+        line-height: inherit;
+        margin: 0; // prevent <p>-wrapped footnotes from spacing differently than bare-text footnotes
+      }
+    }
+  }
+}
+
+// Footnote back-reference links: icon on hover only, matching heading anchor behavior.
+// Hides the default ↩ character (which renders as an emoji on some systems).
+.footnotes ol li {
+  a.data-footnote-backref {
+    font-size: 0; // hide the ↩ emoji text
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    margin-left: 0.25rem;
+    text-decoration: none !important;
+    user-select: none;
+    display: inline-block;
+    vertical-align: middle;
+    color: var(--dark);
+
+    // Show a return-arrow icon via mask so it inherits currentColor
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      vertical-align: middle;
+      background-color: currentColor;
+      -webkit-mask: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 14L4 9l5-5'/%3E%3Cpath d='M20 20v-7a4 4 0 0 0-4-4H4'/%3E%3C/svg%3E") no-repeat center / 14px;
+      mask: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 14L4 9l5-5'/%3E%3Cpath d='M20 20v-7a4 4 0 0 0-4-4H4'/%3E%3C/svg%3E") no-repeat center / 14px;
+    }
+  }
+
+  &:hover a.data-footnote-backref {
+    opacity: 1;
+  }
 }
