@@ -33,6 +33,12 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
       }
 
+      // Display author if present
+      const author = fileData.frontmatter?.author
+      if (author && typeof author === "string") {
+        segments.push(<span>by {author}</span>)
+      }
+
       // Display reading time if enabled
       if (options.showReadingTime) {
         const { minutes, words: _words } = readingTime(text)
