@@ -122,14 +122,16 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   const links: SimpleLinkData[] = []
   const tags: SimpleSlug[] = []
   const validLinks = new Set(data.keys())
+  const unresolvedNodes = new Set<SimpleSlug>()
 
   const tweens = new Map<string, TweenNode>()
   for (const [source, details] of data.entries()) {
     const outgoing = details.links ?? []
 
     for (const dest of outgoing) {
-      if (validLinks.has(dest)) {
-        links.push({ source: source, target: dest })
+      links.push({ source: source, target: dest })
+      if (!validLinks.has(dest)) {
+        unresolvedNodes.add(dest)
       }
     }
 
@@ -164,6 +166,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     }
   } else {
     validLinks.forEach((id) => neighbourhood.add(id))
+    unresolvedNodes.forEach((id) => neighbourhood.add(id))
     if (showTags) tags.forEach((tag) => neighbourhood.add(tag))
   }
 
@@ -233,11 +236,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const numLinks = graphData.links.filter(
       (l) => l.source.id === d.id || l.target.id === d.id,
     ).length
-    return 2 + Math.sqrt(numLinks)
+    return 2 + Math.sqrt(numLinks) + (d.id === slug ? 4 : 0)
   }
 
   let hoveredNodeId: string | null = null
   let hoveredNeighbours: Set<string> = new Set()
+  let currentScaleOpacity = 0
   const linkRenderData: LinkRenderData[] = []
   const nodeRenderData: NodeRenderData[] = []
   function updateHoverInfo(newHoveredId: string | null) {
@@ -311,20 +315,28 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       if (hoveredNodeId === nodeId) {
         tweenGroup.add(
           new Tweened<Text>(n.label).to(
-            {
-              alpha: 1,
-              scale: { x: activeScale, y: activeScale },
-            },
+            { alpha: 1, scale: { x: activeScale, y: activeScale } },
+            100,
+          ),
+        )
+      } else if (hoveredNeighbours.has(nodeId)) {
+        tweenGroup.add(
+          new Tweened<Text>(n.label).to(
+            { alpha: 1, scale: { x: defaultScale, y: defaultScale } },
+            100,
+          ),
+        )
+      } else if (hoveredNodeId !== null) {
+        tweenGroup.add(
+          new Tweened<Text>(n.label).to(
+            { alpha: 0, scale: { x: defaultScale, y: defaultScale } },
             100,
           ),
         )
       } else {
         tweenGroup.add(
           new Tweened<Text>(n.label).to(
-            {
-              alpha: n.label.alpha,
-              scale: { x: defaultScale, y: defaultScale },
-            },
+            { alpha: currentScaleOpacity, scale: { x: defaultScale, y: defaultScale } },
             100,
           ),
         )
@@ -416,6 +428,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
     let oldLabelOpacity = 0
     const isTagNode = nodeId.startsWith("tags/")
+    const isUnresolved = unresolvedNodes.has(nodeId)
     const gfx = new Graphics({
       interactive: true,
       label: nodeId,
@@ -424,7 +437,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       cursor: "pointer",
     })
       .circle(0, 0, nodeRadius(n))
-      .fill({ color: isTagNode ? computedStyleMap["--light"] : color(n) })
+      .fill({ color: isTagNode ? computedStyleMap["--light"] : color(n), alpha: isUnresolved ? 0 : 1 })
       .on("pointerover", (e) => {
         updateHoverInfo(e.target.label)
         oldLabelOpacity = label.alpha
@@ -442,6 +455,10 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
     if (isTagNode) {
       gfx.stroke({ width: 2, color: computedStyleMap["--tertiary"] })
+    } else if (n.id === slug) {
+      gfx.stroke({ width: 3, color: computedStyleMap["--secondary"] })
+    } else if (isUnresolved) {
+      gfx.stroke({ width: 1.5, color: computedStyleMap["--gray"] })
     }
 
     nodesContainer.addChild(gfx)
@@ -536,12 +553,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
           // zoom adjusts opacity of labels too
           const scale = transform.k * opacityScale
-          let scaleOpacity = Math.max((scale - 1) / 3.75, 0)
+          currentScaleOpacity = Math.max((scale - 1) / 3.75, 0)
           const activeNodes = nodeRenderData.filter((n) => n.active).flatMap((n) => n.label)
 
           for (const label of labelsContainer.children) {
             if (!activeNodes.includes(label)) {
-              label.alpha = scaleOpacity
+              label.alpha = currentScaleOpacity
             }
           }
         }),
@@ -623,6 +640,8 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   const containers = [...document.getElementsByClassName("global-graph-outer")] as HTMLElement[]
   async function renderGlobalGraph() {
     const slug = getFullSlug(window)
+    document.body.classList.add("global-graph-active")
+    globalGraphCleanups.push(() => document.body.classList.remove("global-graph-active"))
     for (const container of containers) {
       container.classList.add("active")
       const sidebar = container.closest(".sidebar") as HTMLElement
@@ -631,7 +650,12 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
       }
 
       const graphContainer = container.querySelector(".global-graph-container") as HTMLElement
+      const closeButton = container.querySelector(".global-graph-close") as HTMLElement
       registerEscapeHandler(container, hideGlobalGraph)
+      if (closeButton) {
+        closeButton.addEventListener("click", hideGlobalGraph)
+        globalGraphCleanups.push(() => closeButton.removeEventListener("click", hideGlobalGraph))
+      }
       if (graphContainer) {
         globalGraphCleanups.push(await renderGraph(graphContainer, slug))
       }

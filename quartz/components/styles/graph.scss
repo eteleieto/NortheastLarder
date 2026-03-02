@@ -1,5 +1,12 @@
 @use "../../styles/variables.scss" as *;
 
+body.global-graph-active {
+  .darkmode,
+  .readermode {
+    display: none;
+  }
+}
+
 .graph {
   & > h3 {
     font-size: 1rem;
@@ -44,30 +51,124 @@
     left: 0;
     top: 0;
     width: 100vw;
-    height: 100%;
-    backdrop-filter: blur(4px);
+    height: 100vh;
+    background-color: var(--light);
     display: none;
     overflow: hidden;
 
     &.active {
-      display: inline-block;
+      display: block;
+    }
+
+    & > .global-graph-close {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      z-index: 10000;
+      cursor: pointer;
+      background: var(--lightgray);
+      border: none;
+      border-radius: 4px;
+      padding: 0.4rem;
+      width: 2rem;
+      height: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--dark);
+      transition:
+        background-color 0.2s ease,
+        color 0.2s ease;
+
+      &:hover {
+        background-color: var(--darkgray);
+        color: var(--light);
+      }
+    }
+
+    & > .global-graph-help {
+      position: absolute;
+      bottom: 1rem;
+      left: 1rem;
+      z-index: 10000;
+
+      & > summary {
+        list-style: none;
+        cursor: pointer;
+        background: var(--lightgray);
+        border: none;
+        border-radius: 4px;
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--dark);
+        transition:
+          background-color 0.2s ease,
+          color 0.2s ease;
+
+        &::-webkit-details-marker {
+          display: none;
+        }
+
+        &:hover {
+          background-color: var(--darkgray);
+          color: var(--light);
+        }
+      }
+
+      & > .global-graph-help-popup {
+        position: absolute;
+        bottom: calc(100% + 0.6rem);
+        left: 0;
+        width: 260px;
+        background-color: var(--light);
+        border: 1px solid var(--lightgray);
+        border-radius: 8px;
+        padding: 1rem 1.1rem;
+        box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+
+        .global-graph-help-title {
+          font-weight: 600;
+          font-size: 0.9rem;
+          margin: 0 0 0.5rem;
+          color: var(--dark);
+        }
+
+        p {
+          margin: 0 0 0.6rem;
+          font-size: 0.8rem;
+          line-height: 1.55;
+          color: var(--darkgray);
+        }
+
+        ul {
+          margin: 0;
+          padding-left: 1.1rem;
+          font-size: 0.8rem;
+          line-height: 1.8;
+          color: var(--darkgray);
+        }
+
+        kbd {
+          display: inline-block;
+          padding: 0.05em 0.35em;
+          font-size: 0.75rem;
+          font-family: var(--codeFont);
+          background: var(--lightgray);
+          border: 1px solid var(--gray);
+          border-radius: 3px;
+          color: var(--dark);
+        }
+      }
     }
 
     & > .global-graph-container {
-      border: 1px solid var(--lightgray);
       background-color: var(--light);
-      border-radius: 5px;
       box-sizing: border-box;
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      height: 80vh;
-      width: 80vw;
-
-      @media all and not ($desktop) {
-        width: 90%;
-      }
+      width: 100%;
+      height: 100%;
     }
   }
 }

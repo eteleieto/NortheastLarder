@@ -20,6 +20,11 @@ const urlRegex = new RegExp(
   "g",
 )
 
+// Strip card list loading placeholder - appears when card lists are on the page
+// and would otherwise pollute the meta description (og:description, twitter:description)
+// Match anywhere in text (e.g. "Active Explorations Loading cards.. Background...")
+const loadingCardsRegex = /\s*Loading cards\.*\s*/gi
+
 export const Description: QuartzTransformerPlugin<Partial<Options>> = (userOpts) => {
   const opts = { ...defaultOptions, ...userOpts }
   return {
@@ -45,8 +50,13 @@ export const Description: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
               return
             }
 
-            // otherwise, use the text content
-            const desc = text
+            // Strip "Loading cards..." placeholder wherever it appears
+            const desc = text.replace(loadingCardsRegex, " ").replace(/\s+/g, " ").trim()
+            if (!desc) {
+              file.data.text = text
+              return
+              // Leave description unset so Head uses i18n default
+            }
             const sentences = desc.replace(/\s+/g, " ").split(/\.\s/)
             let finalDesc = ""
             let sentenceIdx = 0

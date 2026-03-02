@@ -5,7 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [Component.Darkmode(), Component.ReaderMode()],
   footer: Component.Footer(),
 }
 
@@ -66,19 +66,8 @@ export const defaultContentPageLayout: PageLayout = {
     })),
     // Mobile layout: search (center)
     Component.MobileOnly(Component.Search()),
-    // Mobile layout: dark mode toggle (before hamburger)
-    Component.MobileOnly(Component.Darkmode()),
-    // Desktop layout: search with dark mode and reader mode
-    Component.DesktopOnly(Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
-      ],
-    })),
+    // Desktop layout: search only
+    Component.DesktopOnly(Component.Search()),
     // Desktop: Recent notes in sidebar
     Component.DesktopOnly(Component.RecentNotes({ 
       title: "Recent Blog Posts",
@@ -180,18 +169,8 @@ export const defaultListPageLayout: PageLayout = {
       ]
     })),
     Component.MobileOnly(Component.Search()),
-    // Mobile layout: dark mode toggle
-    Component.MobileOnly(Component.Darkmode()),
-    // Desktop layout: search with dark mode
-    Component.DesktopOnly(Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-      ],
-    })),
+    // Desktop layout: search only
+    Component.DesktopOnly(Component.Search()),
     // Desktop: Recent notes in sidebar
     Component.DesktopOnly(Component.RecentNotes({ 
       title: "Recent Blog Posts",

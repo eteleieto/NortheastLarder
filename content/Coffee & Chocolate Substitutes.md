@@ -181,4 +181,6 @@ Largest Column: standard
 4. Fat and sugar sources
 5. To roast or not?
 
-![[Coffee & Chocolate Substitutes-2.webp|1]]
+
+![[Coffee & Chocolate Substitutes-3.webp|1]]
+_Cover image courtesy of [Faenum](https://faenum.com)_

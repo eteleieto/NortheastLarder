@@ -95,6 +95,54 @@ export default ((opts?: Partial<GraphOptions>) => {
           </button>
         </div>
         <div class="global-graph-outer">
+          <button class="global-graph-close" aria-label="Close Global Graph">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="18" y1="6" x2="6" y2="18" />
+              <line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </button>
+          <details class="global-graph-help">
+            <summary aria-label="About this view">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+                <line x1="12" y1="17" x2="12.01" y2="17" />
+              </svg>
+            </summary>
+            <div class="global-graph-help-popup">
+              <p class="global-graph-help-title">Graph View</p>
+              <p>
+                Every note, experiment, and idea on this site — mapped by the threads that connect them.
+                Use this to navigate intuitively and discover hidden relationships between experiments, writing, and ideas.
+              </p>
+              <ul>
+                <li><strong>Click</strong> a node to navigate to that page</li>
+                <li><strong>Hover</strong> to reveal its connections</li>
+                <li><strong>Scroll</strong> to zoom, <strong>drag</strong> to pan</li>
+                <li>Press <kbd>Esc</kbd> or <kbd>⌘G</kbd> to close</li>
+              </ul>
+            </div>
+          </details>
           <div class="global-graph-container" data-cfg={JSON.stringify(globalGraph)}></div>
         </div>
       </div>

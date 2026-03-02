@@ -23,7 +23,7 @@ export default ((config: FlexConfig) => {
     const gap = config.gap ?? "1rem"
 
     return (
-      <div style={`display: flex; flex-direction: ${direction}; flex-wrap: ${wrap}; gap: ${gap};`}>
+      <div style={`display: flex; flex-direction: ${direction}; flex-wrap: ${wrap}; gap: ${gap}; align-items: center;`}>
         {config.components.map((c) => {
           const grow = c.grow ? 1 : 0
           const shrink = (c.shrink ?? true) ? 1 : 0
