@@ -13,7 +13,7 @@ That's the purpose of the project: to build techniques and larder items around t
 
 Toward that end, we research, experiment, and collaborate with restaurants.
 
-The question is not only how to build a Northeast cuisine, but how cuisine can be built intentionally to benefit farmers, the economy, the environment, and importantly: our tastebuds. For example: how can we make important cover crops — like rye — delicious? How can we find uses for efficient, nutricious crops like kelp? How can we turn wasetstreams like oil presscakes and stale bread into delicious and economically viable food products?
+The question is not only how to build a Northeast cuisine, but how cuisine can be built intentionally to benefit farmers, the economy, the environment, and importantly: our tastebuds. For example: how can we make important cover crops — like rye — delicious? How can we find uses for efficient, nutricious crops like kelp? How can we turn wastestreams like oil presscakes and stale bread into delicious and economically viable food products?
 
 ## Independent Research
 
@@ -23,13 +23,13 @@ Private CPG companies research to develop highly palatable, cost-effective, and 
 
 Just like physics, biology, or history, we believe that food research needs shared infrastructure to improve. It's easy to track the advancements in physics— our understanding improves, as does our technology. Can we say the same — or to a similar extent — about taste? 
 
-Beyond food, we hope this serves as a node in an ever-growing network of independent researchers. Not everything gets funded in academia, venture, or public markets. Therefore, is important that we dedicate time to building infrastructure for independent research.
+Beyond food, we hope this serves as a node in an ever-growing network of independent research projects. Not everything gets funded in academia, venture, or public markets. Therefore, is important that we dedicate time to building infrastructure for independent research.
 
 ## Open Sourcing Knowledge
 
 Everything we do is shared — ideas, prototypes, flops, breakthroughs — in the same structure and language we use internally. This website _is_ our lab notebook. You can explore the full network of our research through the knowledge and flavor graph. We add new notes regularly, sometimes daily or hourly. There will be a _lot_ more coming soon.
 
-The [website](https://github.com/eteleieto/NortheastLarder) and all of the technologies we use are open-source. If you want more information about anything, just send us an email. We will update the website and Github regularly with notes on how we maintain this notebook and the project.
+The [website](https://github.com/eteleieto/NortheastLarder) and all of the technologies we use are open-source. If you want more information about anything, just send us an email. We will update the website and Github regularly with notes on how we maintain this notebook and the project, as well as new technologies.
 
 ## Inspirations
 
