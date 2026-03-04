@@ -58,7 +58,7 @@ export default (() => {
     const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
     const path = url.pathname as FullSlug
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
-    const iconPath = joinSegments(baseDir, "static/logo.png")
+    const iconPath = joinSegments(baseDir, "favicon.ico")
 
     // Url of current page
     const socialUrl =
@@ -119,7 +119,7 @@ export default (() => {
         )}
 
         {/* Favicon file (external SVG) */}
-        <link rel="icon" href={iconPath} type="image/png" />
+        <link rel="icon" href={iconPath} type="image/x-icon" />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 
