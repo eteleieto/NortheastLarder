@@ -31,9 +31,12 @@ PageTitle.css = `
   }
 
   .site-logo {
-    height: 6.25rem;
-    width: auto;
     display: block;
+    height: 2.6em;
+    width: auto;
+    max-height: 2.6em;
+    max-width: 2.6em;
+    margin: 0;
     object-fit: contain;
   }
 
@@ -50,7 +53,9 @@ PageTitle.css = `
       padding: 0.25rem;
       
       .site-logo {
-        height: 3.25rem;
+        height: 2.25rem;
+        max-height: 2.25rem;
+        max-width: 2.25rem;
         width: auto;
       }
     }
