@@ -1,16 +1,23 @@
 @use "../../styles/variables.scss" as *;
 
 footer {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
   text-align: left;
-  margin: 1.5rem 0 3rem 0;
+  margin: 2rem 0 3rem 0;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--lightgray);
   opacity: 0.75;
   font-size: 0.95rem;
   line-height: 1.6;
+  box-sizing: border-box;
 
   .footer-row {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
+    align-items: center;
     justify-content: flex-start;
     gap: 0.5rem;
 
@@ -39,6 +46,18 @@ footer {
         text-decoration: none;
       }
     }
+
+    a.footer-icon-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      svg {
+        display: block;
+        width: 1em;
+        height: 1em;
+      }
+    }
   }
 
   .footer-sep {
@@ -52,7 +71,8 @@ footer {
   }
 
   @media all and ($mobile) {
-    margin: 1rem 0 2rem 0;
+    margin: 1.5rem 0 2rem 0;
+    padding: 1.25rem 0;
     font-size: 0.9rem;
 
     .footer-row {

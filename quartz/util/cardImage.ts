@@ -63,18 +63,10 @@ export function getCardImage(source: {
   text?: string
   content?: string
   description?: string
-  slug?: string
 }): string | null {
   const fromAst = extractFirstImageFromAST(source.htmlAst)
   if (fromAst) return fromAst
 
   const rawContent = source.text ?? source.content ?? source.description ?? ""
-  const fromText = extractFirstImageFromText(rawContent)
-  if (fromText) return fromText
-
-  if (source.slug) {
-    return `/${source.slug}-og-image.webp`
-  }
-
-  return null
+  return extractFirstImageFromText(rawContent)
 }

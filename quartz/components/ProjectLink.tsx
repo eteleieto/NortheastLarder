@@ -22,7 +22,7 @@ const ProjectLink: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
 ProjectLink.css = `
 .project-ref {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 `
 

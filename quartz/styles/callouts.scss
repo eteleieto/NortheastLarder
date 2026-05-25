@@ -4,7 +4,7 @@
 .callout {
   border: 1px solid var(--border);
   background-color: var(--bg);
-  border-radius: 4px;
+  border-radius: $radius-sm;
   padding: 0 1rem;
   overflow-y: hidden;
   box-sizing: border-box;
@@ -165,6 +165,6 @@
   }
 
   .callout-title-inner {
-    font-weight: $semiBoldWeight;
+    font-weight: 500;
   }
 }

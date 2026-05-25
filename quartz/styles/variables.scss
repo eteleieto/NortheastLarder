@@ -18,17 +18,17 @@ $desktop: "(min-width: #{map.get($breakpoints, desktop)})";
 
 $pageWidth: #{map.get($breakpoints, mobile)};
 $sidePanelWidth: 240px;
-$topSpacing: 2rem;
+$topSpacing: 2.5rem;
 $boldWeight: 700;
 $semiBoldWeight: 600;
 $normalWeight: 400;
-$radius-sm: 4px;
-$radius-md: 6px;
+$radius-sm: 3px;
+$radius-md: 4px;
 
 $mobileGrid: (
   templateRows: "auto auto auto auto auto",
   templateColumns: "auto",
-  rowGap: "5px",
+  rowGap: "2rem",
   columnGap: "5px",
   templateAreas:
     '"grid-sidebar-left"\

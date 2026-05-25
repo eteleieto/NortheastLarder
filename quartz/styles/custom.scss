@@ -5,8 +5,7 @@
 
 // put your custom CSS here!
 
-// Footer links: base.scss `a { font-weight: 600 }` loads after footer.scss in the
-// bundle, so anchors look bolder than the Graph button (same font-size, different weight).
+// Footer links: base.scss loads in the bundle before component styles.
 footer .footer-row {
   a,
   button.footer-link {
@@ -85,10 +84,125 @@ a.tag-link[href*="IN-PROGRESS"],
   }
 }
 
-// Increase body text and paragraph font size
+// Body copy — serif for reading
 body, p, li, td, th, .popover-hint, article {
-  font-size: 1.1rem;
-  line-height: 1.7; // Unitless ratio — scales with font size and avoids sup interference
+  font-size: 1.0625rem;
+  line-height: 1.72;
+  font-family: var(--bodyFont);
+}
+
+// Headings and UI labels — sans for structure
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+thead,
+.page-title,
+.sidebar button.category-links-header h3,
+.sidebar button.toc-header h3,
+.sidebar .recent-notes > h3,
+.sidebar .graph.graph--preview > h3,
+.sidebar .backlinks > h3 {
+  font-family: var(--headerFont);
+  font-weight: 500;
+}
+
+// Center column top inset — only when the title lives inside <article> (landing pages),
+// not when title/meta are in .page-header (articles, tag listings).
+.page .center > article {
+  @media all and not ($mobile) {
+    padding-top: $topSpacing;
+
+    > :is(h1, h2, h3, h4, h5, h6):first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+.page .center:has(.page-header .article-title) > article {
+  padding-top: 0;
+
+  > :is(h1, h2, h3, h4, h5, h6):first-child {
+    margin-top: 0;
+  }
+}
+
+// Empty header shell (landing pages) — no ghost top margin
+.page .center .page-header:not(:has(.article-title, .content-meta, .project-ref)) {
+  display: none;
+}
+
+// Tag/list pages: drop empty article wrapper before the grid
+.page .center .popover-hint > article:empty {
+  display: none;
+}
+
+// Homepage top area — two sizes only: title + intro
+body[data-slug="index"] {
+  .page-header {
+    display: none;
+  }
+
+  article {
+    margin-top: 0;
+
+    @media all and ($mobile) {
+      padding-top: 0.65rem;
+    }
+
+    // Start in the header row so the title aligns with the logo, not below the search bar row
+    @media all and not ($mobile) {
+      grid-row: 1 / span 2;
+      grid-column: 2;
+    }
+
+    > h1 {
+      font-size: 1.875rem;
+      font-weight: 600;
+      line-height: 1.25;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    @media all and not ($mobile) {
+      > h1 + .home-intro {
+        padding-top: 2rem;
+        margin-top: 0;
+      }
+    }
+
+    @media all and ($mobile) {
+      > h1 + .home-intro {
+        padding-top: 1rem;
+        margin-top: 0;
+      }
+    }
+
+    .home-intro {
+      font-size: 1.35rem;
+      line-height: 1.65;
+      color: var(--dark);
+      margin: 0;
+
+      @media all and ($mobile) {
+        font-size: 1.25rem;
+      }
+
+      &:first-of-type {
+        margin-bottom: 1.25rem;
+      }
+
+      &:last-of-type {
+        margin-bottom: 2.75rem;
+      }
+    }
+
+    > .grid-container:first-of-type {
+      margin-top: 0;
+    }
+  }
 }
 
 // Prevent the unitless line-height above from creating large gaps in the

@@ -26,10 +26,21 @@ const config: QuartzConfig = {
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
-      // Font hierarchy: header ("JetBrains Mono"), body ("Roboto"), and code ("IBM Plex Mono")
+      // Lora for reading; Source Sans 3 for headings and UI; mono for code
       typography: {
-        header: "JetBrains Mono",
-        body: "Roboto",
+        title: {
+          name: "Source Sans 3",
+          weights: [500, 600],
+        },
+        header: {
+          name: "Source Sans 3",
+          weights: [400, 500, 600, 700],
+        },
+        body: {
+          name: "Lora",
+          weights: [400, 500, 600],
+          includeItalic: true,
+        },
         code: "IBM Plex Mono",
       },
       colors: {

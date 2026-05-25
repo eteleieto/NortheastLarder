@@ -107,6 +107,8 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
 // Helper function to clean description text by removing titles, wikilinks, and unwanted elements
 function cleanDescriptionText(content: string): string {
   if (!content) return ""
+
+  const loadingCardsRegex = /\s*Loading cards\.*\s*/gi
   
   // Split into lines
   const lines = content.split('\n')
@@ -117,6 +119,8 @@ function cleanDescriptionText(content: string): string {
       const trimmed = line.trim()
       // Skip empty lines
       if (!trimmed) return false
+      // Skip card list loading placeholder
+      if (/^Loading cards\.*$/i.test(trimmed)) return false
       // Skip markdown headers
       if (trimmed.startsWith('#')) return false
       // Skip lines that are just wikilinks or tables
@@ -132,11 +136,13 @@ function cleanDescriptionText(content: string): string {
       cleaned = cleaned.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
       // Remove markdown images ![alt](src)
       cleaned = cleaned.replace(/!\[.*?\]\([^)]+\)/g, '')
+      // Strip any remaining loading placeholder fragments
+      cleaned = cleaned.replace(loadingCardsRegex, ' ')
       // Clean up extra whitespace
       cleaned = cleaned.replace(/\s+/g, ' ').trim()
       return cleaned
     })
-    .filter(line => line.length > 0)
+    .filter(line => line.length > 0 && !/^Loading cards\.*$/i.test(line))
   
   // Find the first substantial paragraph (not just short fragments)
   for (const line of cleanedLines) {
@@ -150,11 +156,12 @@ function cleanDescriptionText(content: string): string {
   }
   
   // Fallback: join first few lines if no single substantial paragraph found
-  const joined = cleanedLines.slice(0, 3).join(' ')
+  const joined = cleanedLines.slice(0, 3).join(' ').replace(loadingCardsRegex, ' ').replace(/\s+/g, ' ').trim()
+  if (!joined || /^Loading cards\.*$/i.test(joined)) return ""
   if (joined.length > 200) {
     return joined.substring(0, 200).trim() + '...'
   }
-  return joined
+  return joined.length > 20 ? joined : ""
 }
 
 // New Grid PageList component for tag pages
@@ -171,14 +178,14 @@ export const GridPageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, 
         const title = page.frontmatter?.title
         const description = page.frontmatter?.description || page.description || ""
         
-        // Get raw content for processing
-        const rawContent = (page as any).text || 
+        // Prefer frontmatter/SEO description, then fall back to page text
+        const rawContent = description ||
+                          (page as any).text || 
                           (page as any).content || 
-                          page.description || 
                           ""
         
         // Create cleaned description for display (removing titles, wikilinks, etc.)
-        const cleanedDescription = cleanDescriptionText(rawContent) || description
+        const cleanedDescription = cleanDescriptionText(rawContent)
         
         const firstImage = getCardImage({ ...(page as QuartzPluginData), slug: page.slug })
 

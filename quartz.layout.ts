@@ -13,15 +13,21 @@ const isHomePage = (slug: string | undefined) => slug === "index"
 
 const graphPreview = Component.Graph({ preview: true })
 
-const primaryNav = Component.CategoryLinks({
+const browseCategories = [
+  { name: "Recipes", slug: "tags/RECIPE" as SimpleSlug },
+  { name: "Blogs", slug: "tags/BLOG" as SimpleSlug },
+  { name: "Larders", slug: "tags/LARDER" as SimpleSlug },
+  { name: "Projects", slug: "tags/PROJECT" as SimpleSlug },
+]
+
+const browseNav = Component.CategoryLinks({
   title: "Browse",
-  categories: [
-    { name: "Recipes", slug: "tags/RECIPE" as SimpleSlug },
-    { name: "Blogs", slug: "tags/BLOG" as SimpleSlug },
-    { name: "Larders", slug: "tags/LARDER" as SimpleSlug },
-    { name: "Projects", slug: "tags/PROJECT" as SimpleSlug },
-    { name: "Graph", action: "graph" },
-  ],
+  categories: [...browseCategories, { name: "Graph", action: "graph" }],
+})
+
+const browseNavHome = Component.CategoryLinks({
+  title: "Browse",
+  categories: browseCategories,
 })
 
 const recentBlogPosts = Component.RecentNotes({
@@ -67,7 +73,14 @@ const leftSidebar = [
 // Right rail: browse and page-contextual tools.
 const rightSidebar = [
   Component.DesktopOnly(Component.Search()),
-  primaryNav,
+  Component.ConditionalRender({
+    component: browseNavHome,
+    condition: (page) => isHomePage(page.fileData.slug),
+  }),
+  Component.ConditionalRender({
+    component: browseNav,
+    condition: (page) => !isHomePage(page.fileData.slug),
+  }),
   Component.ConditionalRender({
     component: Component.DesktopOnly(Component.TableOfContents()),
     condition: (page) => !isLandingPage(page.fileData.slug),
@@ -108,5 +121,5 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.ContentMeta()],
   left: leftSidebar,
-  right: [Component.DesktopOnly(Component.Search()), primaryNav],
+  right: [Component.DesktopOnly(Component.Search()), browseNav],
 }

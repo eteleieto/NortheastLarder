@@ -23,7 +23,7 @@ section {
 .text-highlight {
   background-color: var(--textHighlight);
   padding: 0 0.1rem;
-  border-radius: 4px;
+  border-radius: $radius-sm;
 }
 ::selection {
   background: color-mix(in srgb, var(--tertiary) 60%, rgba(255, 255, 255, 0));
@@ -81,11 +81,11 @@ article {
 }
 
 strong {
-  font-weight: $semiBoldWeight;
+  font-weight: 500;
 }
 
 a {
-  font-weight: $semiBoldWeight;
+  font-weight: $normalWeight;
   text-decoration: none;
   transition: color 0.2s ease;
   color: var(--secondary);
@@ -158,7 +158,7 @@ a {
   }
   & article {
     & > h1 {
-      font-size: 2rem;
+      font-size: 1.875rem;
     }
 
     & li:has(> input[type="checkbox"]) {
@@ -250,7 +250,7 @@ a {
         display: flex;
         height: unset;
         flex-direction: row;
-        padding: 0.5rem 0.25rem 0 0.25rem;
+        padding: 0.65rem 0.25rem 0 0.25rem;
         justify-content: flex-start;
 
         & .page-title {
@@ -300,10 +300,6 @@ a {
         }
       }
     }
-    & .page-header {
-      margin-top: 1rem;
-    }
-
     & .page-footer {
       position: fixed;
       bottom: 1.5rem;
@@ -325,6 +321,10 @@ a {
 
     & .center > article {
       grid-area: grid-center;
+
+      @media all and ($mobile) {
+        margin-bottom: 1.5rem;
+      }
     }
 
     & .center {
@@ -369,7 +369,7 @@ input[type="checkbox"] {
   transform: translateY(2px);
   color: var(--secondary);
   border: 1px solid var(--lightgray);
-  border-radius: 4px;
+  border-radius: $radius-sm;
   background-color: var(--light);
   position: relative;
   margin-inline-end: 0.2rem;
@@ -413,7 +413,7 @@ h6,
 thead {
   font-family: var(--headerFont);
   color: var(--dark);
-  font-weight: revert;
+  font-weight: 500;
   margin-bottom: 0;
 
   article > & > a[role="anchor"] {
@@ -448,21 +448,22 @@ h6 {
 
 // typography improvements
 h1 {
-  font-size: 1.75rem;
+  font-size: 1.875rem;
+  font-weight: 600;
   margin-top: 2.25rem;
   margin-bottom: 1rem;
 }
 
 h2 {
-  font-size: 1.4rem;
-  margin-top: 1.9rem;
-  margin-bottom: 1rem;
+  font-size: 1.375rem;
+  margin-top: 1.875rem;
+  margin-bottom: 0.85rem;
 }
 
 h3 {
-  font-size: 1.12rem;
-  margin-top: 1.62rem;
-  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  margin-top: 1.625rem;
+  margin-bottom: 0.75rem;
 }
 
 h4,
@@ -470,7 +471,7 @@ h5,
 h6 {
   font-size: 1rem;
   margin-top: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 figure[data-rehype-pretty-code-figure] {
@@ -485,7 +486,7 @@ figure[data-rehype-pretty-code-figure] {
     padding: 0.1rem 0.5rem;
     border: 1px solid var(--lightgray);
     width: fit-content;
-    border-radius: 4px;
+    border-radius: $radius-sm;
     margin-bottom: -0.5rem;
     color: var(--darkgray);
   }
@@ -498,7 +499,7 @@ figure[data-rehype-pretty-code-figure] {
 pre {
   font-family: var(--codeFont);
   padding: 0 0.5rem;
-  border-radius: 4px;
+  border-radius: $radius-sm;
   overflow-x: auto;
   border: 1px solid var(--lightgray);
   position: relative;
@@ -519,7 +520,7 @@ pre {
 
     & [data-highlighted-chars] {
       background-color: var(--highlight);
-      border-radius: 4px;
+      border-radius: $radius-sm;
     }
 
     & > [data-line] {
@@ -557,7 +558,7 @@ code {
   font-size: 0.9em;
   color: var(--dark);
   font-family: var(--codeFont);
-  border-radius: 4px;
+  border-radius: $radius-sm;
   padding: 0.1rem 0.2rem;
   background: var(--lightgray);
 }
@@ -606,7 +607,7 @@ tr {
 
 img {
   max-width: 100%;
-  border-radius: 4px;
+  border-radius: $radius-sm;
   margin: 1rem 0;
   content-visibility: auto;
 }
@@ -641,7 +642,7 @@ hr {
 audio,
 video {
   width: 100%;
-  border-radius: 4px;
+  border-radius: $radius-sm;
 }
 
 .spacer {
@@ -690,7 +691,7 @@ iframe.pdf {
   aspect-ratio: 16 / 9;
   height: 100%;
   width: 100%;
-  border-radius: 4px;
+  border-radius: $radius-sm;
 }
 
 .navigation-progress {

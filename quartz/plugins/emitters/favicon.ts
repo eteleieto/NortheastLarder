@@ -10,7 +10,7 @@ export const Favicon: QuartzEmitterPlugin = () => ({
     const iconPath = joinSegments(QUARTZ, "static", "logo.png")
 
     const faviconContent = sharp(iconPath)
-      .resize(48, 48, { fit: "contain", background: { r: 0, g: 0, b: 0, alpha: 0 } })
+      .resize(48, 48, { fit: "contain", background: { r: 255, g: 254, b: 250, alpha: 1 } })
       .toFormat("png")
 
     yield write({

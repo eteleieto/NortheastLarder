@@ -25,11 +25,26 @@ export default (() => {
           </button>
           <span class="footer-sep" aria-hidden="true">·</span>
           <a
+            class="footer-icon-link"
             href="https://www.instagram.com/northeastlarder/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Instagram"
           >
-            Instagram
+            <svg
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
+            </svg>
           </a>
           <span class="footer-sep" aria-hidden="true">·</span>
           <a href="mailto:info@northeastlarder.com">info@northeastlarder.com</a>
