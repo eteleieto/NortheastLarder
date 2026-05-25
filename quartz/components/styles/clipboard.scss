@@ -9,9 +9,11 @@
   border-color: var(--dark);
   background-color: var(--light);
   border: 1px solid;
-  border-radius: 5px;
+  border-radius: 4px;
   opacity: 0;
-  transition: 0.2s;
+  transition:
+    border-color 0.2s ease,
+    opacity 0.2s ease;
 
   & > svg {
     fill: var(--light);
@@ -31,6 +33,5 @@
 pre {
   &:hover > .clipboard-button {
     opacity: 1;
-    transition: 0.2s;
   }
 }

@@ -1,174 +1,140 @@
 @use "../../styles/variables.scss" as *;
 
 body.global-graph-active {
-  .darkmode,
-  .readermode {
-    display: none;
-  }
+  overflow: hidden;
 }
 
 .graph {
-  & > h3 {
-    font-size: 1rem;
-    margin: 0;
-  }
+  &.graph--preview {
+    > .graph-outer {
+      border-radius: $radius-md;
+      border: 1px solid var(--gray);
+      box-sizing: border-box;
+      height: 200px;
+      margin: 0;
+      position: relative;
+      overflow: hidden;
+      flex-shrink: 0;
+      background-color: var(--light);
 
-  & > .graph-outer {
-    border-radius: 5px;
-    border: 1px solid var(--lightgray);
-    box-sizing: border-box;
-    height: 250px;
-    margin: 0.5em 0;
-    position: relative;
-    overflow: hidden;
-
-    & > .global-graph-icon {
-      cursor: pointer;
-      background: none;
-      border: none;
-      color: var(--dark);
-      opacity: 0.5;
-      width: 24px;
-      height: 24px;
-      position: absolute;
-      padding: 0.2rem;
-      margin: 0.3rem;
-      top: 0;
-      right: 0;
-      border-radius: 4px;
-      background-color: transparent;
-      transition: background-color 0.5s ease;
-      cursor: pointer;
-      &:hover {
-        background-color: var(--lightgray);
-      }
-    }
-  }
-
-  & > .global-graph-outer {
-    position: fixed;
-    z-index: 9999;
-    left: 0;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: var(--light);
-    display: none;
-    overflow: hidden;
-
-    &.active {
-      display: block;
-    }
-
-    & > .global-graph-close {
-      position: absolute;
-      top: 1rem;
-      right: 1rem;
-      z-index: 10000;
-      cursor: pointer;
-      background: var(--lightgray);
-      border: none;
-      border-radius: 4px;
-      padding: 0.4rem;
-      width: 2rem;
-      height: 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--dark);
-      transition:
-        background-color 0.2s ease,
-        color 0.2s ease;
-
-      &:hover {
-        background-color: var(--darkgray);
-        color: var(--light);
-      }
-    }
-
-    & > .global-graph-help {
-      position: absolute;
-      bottom: 1rem;
-      left: 1rem;
-      z-index: 10000;
-
-      & > summary {
-        list-style: none;
+      > .global-graph-icon {
         cursor: pointer;
-        background: var(--lightgray);
-        border: none;
-        border-radius: 4px;
-        width: 2rem;
-        height: 2rem;
+        background: color-mix(in srgb, var(--light) 82%, var(--lightgray));
+        border: 1px solid var(--lightgray);
+        color: var(--secondary);
+        width: 1.75rem;
+        height: 1.75rem;
+        position: absolute;
+        padding: 0;
+        margin: 0.45rem;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        border-radius: $radius-sm;
         display: flex;
         align-items: center;
         justify-content: center;
-        color: var(--dark);
         transition:
           background-color 0.2s ease,
+          border-color 0.2s ease,
           color 0.2s ease;
 
-        &::-webkit-details-marker {
-          display: none;
-        }
-
         &:hover {
-          background-color: var(--darkgray);
-          color: var(--light);
+          background-color: var(--light);
+          border-color: var(--gray);
+          color: var(--dark);
         }
       }
 
-      & > .global-graph-help-popup {
-        position: absolute;
-        bottom: calc(100% + 0.6rem);
-        left: 0;
-        width: 260px;
-        background-color: var(--light);
-        border: 1px solid var(--lightgray);
-        border-radius: 8px;
-        padding: 1rem 1.1rem;
-        box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
-
-        .global-graph-help-title {
-          font-weight: 600;
-          font-size: 0.9rem;
-          margin: 0 0 0.5rem;
-          color: var(--dark);
-        }
-
-        p {
-          margin: 0 0 0.6rem;
-          font-size: 0.8rem;
-          line-height: 1.55;
-          color: var(--darkgray);
-        }
-
-        ul {
-          margin: 0;
-          padding-left: 1.1rem;
-          font-size: 0.8rem;
-          line-height: 1.8;
-          color: var(--darkgray);
-        }
-
-        kbd {
-          display: inline-block;
-          padding: 0.05em 0.35em;
-          font-size: 0.75rem;
-          font-family: var(--codeFont);
-          background: var(--lightgray);
-          border: 1px solid var(--gray);
-          border-radius: 3px;
-          color: var(--dark);
-        }
+      > .graph-container {
+        width: 100%;
+        height: 100%;
       }
     }
+  }
 
-    & > .global-graph-container {
+  &:not(.graph--preview) {
+    display: contents;
+  }
+}
+
+.global-graph-outer {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+
+  &.active {
+    display: block;
+  }
+
+  .global-graph-space {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .global-graph-panel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--lightgray);
+    border-radius: $radius-md;
+    background: var(--light);
+    box-shadow:
+      0 14px 50px rgba(27, 33, 48, 0.12),
+      0 10px 30px rgba(27, 33, 48, 0.16);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .global-graph-close {
+    position: absolute;
+    top: 0.65rem;
+    right: 0.65rem;
+    z-index: 2;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    background: color-mix(in srgb, var(--light) 82%, var(--lightgray));
+    border: 1px solid var(--lightgray);
+    border-radius: $radius-sm;
+    font-family: var(--bodyFont);
+    font-size: 1.35rem;
+    line-height: 1;
+    font-weight: $normalWeight;
+    color: var(--secondary);
+    transition:
+      background-color 0.2s ease,
+      border-color 0.2s ease,
+      color 0.2s ease;
+
+    &:hover {
       background-color: var(--light);
-      box-sizing: border-box;
-      width: 100%;
-      height: 100%;
+      border-color: var(--gray);
+      color: var(--dark);
     }
+  }
+
+  .global-graph-container {
+    flex: 1;
+    min-height: 0;
+    background-color: var(--light);
+    box-sizing: border-box;
+    width: 100%;
   }
 }

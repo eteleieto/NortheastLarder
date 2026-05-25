@@ -3,6 +3,7 @@ import { QuartzPluginData } from "../plugins/vfile"
 import { Date, getDate } from "./Date"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import { GlobalConfiguration } from "../cfg"
+import { getCardImage } from "../util/cardImage"
 
 export type SortFn = (f1: QuartzPluginData, f2: QuartzPluginData) => number
 
@@ -103,87 +104,6 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
   )
 }
 
-// Helper function to extract first image from HTML AST
-function extractFirstImageFromAST(htmlAst: any): string | null {
-  if (!htmlAst || !htmlAst.children) return null
-  
-  // Recursively search for img elements in the AST
-  function findImageInNode(node: any): string | null {
-    if (!node) return null
-    
-    // Check if this node is an img element
-    if (node.type === 'element' && node.tagName === 'img') {
-      const src = node.properties?.src
-      if (src) {
-        // Fix the path to be absolute from site root, preserving original case
-        let fixedSrc = src
-        
-        // Remove leading ./ if present
-        if (fixedSrc.startsWith('./')) {
-          fixedSrc = fixedSrc.substring(2)
-        }
-        
-        // Keep the original case structure (Assets/Attachments) to match actual file location
-        // Don't convert case - the files are actually stored as Assets/Attachments
-        
-        // Ensure it starts with / for absolute path from site root
-        if (!fixedSrc.startsWith('/')) {
-          fixedSrc = '/' + fixedSrc
-        }
-        
-        return fixedSrc
-      }
-    }
-    
-    // Recursively check children
-    if (node.children) {
-      for (const child of node.children) {
-        const result = findImageInNode(child)
-        if (result) return result
-      }
-    }
-    
-    return null
-  }
-  
-  return findImageInNode(htmlAst)
-}
-
-// Helper function to extract first image from content (fallback)
-function extractFirstImageFromText(content: string): string | null {
-  // Try to find markdown images: ![alt](src)
-  const markdownImageRegex = /!\[.*?\]\(([^)]+)\)/
-  const markdownMatch = content.match(markdownImageRegex)
-  if (markdownMatch) {
-    let src = markdownMatch[1]
-    // Normalize path like in extractFirstImageFromAST
-    if (src.startsWith('./')) {
-      src = src.substring(2)
-    }
-    if (!src.startsWith('/')) {
-      src = '/' + src
-    }
-    return src
-  }
-
-  // Try to find HTML img tags: <img src="...">
-  const htmlImageRegex = /<img[^>]+src=["']([^"']+)["'][^>]*>/i
-  const htmlMatch = content.match(htmlImageRegex)
-  if (htmlMatch) {
-    let src = htmlMatch[1]
-    // Normalize path like in extractFirstImageFromAST
-    if (src.startsWith('./')) {
-      src = src.substring(2)
-    }
-    if (!src.startsWith('/')) {
-      src = '/' + src
-    }
-    return src
-  }
-
-  return null
-}
-
 // Helper function to clean description text by removing titles, wikilinks, and unwanted elements
 function cleanDescriptionText(content: string): string {
   if (!content) return ""
@@ -260,35 +180,18 @@ export const GridPageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, 
         // Create cleaned description for display (removing titles, wikilinks, etc.)
         const cleanedDescription = cleanDescriptionText(rawContent) || description
         
-        // Extract first image from page content
-        // First try to get image from HTML AST (processed content)
-        const firstImageFromAST = extractFirstImageFromAST((page as any).htmlAst)
-        
-        // Fallback to searching raw text content
-        const firstImageFromText = firstImageFromAST ? null : extractFirstImageFromText(rawContent)
-        
-        const firstImage = firstImageFromAST || firstImageFromText
+        const firstImage = getCardImage({ ...(page as QuartzPluginData), slug: page.slug })
 
         return (
           <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal grid-item-link" data-no-popover="true">
-            <div class="grid-item">
-              <div class="grid-item-image-placeholder">
-                {firstImage ? (
-                  <img 
-                    src={firstImage} 
-                    alt={title || "Post image"} 
-                    class="grid-item-image"
-                    loading="lazy"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement
-                      target.style.display = 'none'
-                      const placeholder = target.nextElementSibling as HTMLElement
-                      if (placeholder) placeholder.style.display = 'flex'
-                    }}
-                  />
-                ) : null}
-                <div class="image-placeholder" style={firstImage ? "display: none;" : ""}></div>
-              </div>
+            <div class={firstImage ? "grid-item has-bg" : "grid-item"}>
+              {firstImage && (
+                <div
+                  class="grid-item-bg"
+                  style={{ backgroundImage: `url('${firstImage}')` }}
+                  aria-hidden="true"
+                />
+              )}
               <div class="grid-item-content">
                 <div class="grid-item-meta">
                   {page.dates && <Date date={getDate(cfg, page)!} locale={cfg.locale} />}
@@ -318,137 +221,3 @@ PageList.css = `
 }
 `
 
-GridPageList.css = `
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-@media all and (max-width: 1200px) {
-  .grid-container {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-  }
-}
-
-@media all and (max-width: 800px) {
-  .grid-container {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-}
-
-.grid-item-link {
-  text-decoration: none;
-  color: inherit;
-  background-color: transparent;
-  display: block;
-}
-
-.grid-item {
-  border-radius: 8px;
-  overflow: hidden;
-  background-color: var(--light);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  cursor: pointer;
-  height: 100%;
-  box-shadow: -4px 4px 6px rgba(0, 0, 0, 0.05);
-  border: 1px solid var(--darkgray);
-}
-
-.grid-item-link:hover .grid-item {
-  transform: translateY(-2px);
-  box-shadow: -4px 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.grid-item-image-placeholder {
-  height: 200px;
-  background-color: var(--lightgray);
-  position: relative;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  line-height: 0;
-}
-
-.grid-item-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-  margin: 0;
-  padding: 0;
-  border: none;
-  vertical-align: top;
-  transition: transform 0.2s ease;
-}
-
-.image-placeholder {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(135deg, var(--lightgray) 0%, var(--gray) 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--dark);
-  font-size: 0.9rem;
-  opacity: 0.6;
-}
-
-.image-placeholder::before {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 60px;
-  background-image: url('/static/logo.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: auto;
-}
-
-.grid-item-content {
-  padding: 1.5rem;
-}
-
-.grid-item-meta {
-  color: var(--gray);
-  font-size: 0.85rem;
-  margin-bottom: 0.5rem;
-}
-
-.grid-item-title {
-  margin: 0 0 1rem 0;
-  font-size: 1.1rem;
-  line-height: 1.3;
-  color: var(--dark);
-}
-
-.grid-item-link:hover .grid-item-title {
-  color: var(--secondary);
-}
-
-.grid-item-description {
-  color: var(--darkgray);
-  font-size: 0.9rem;
-  line-height: 1.4;
-  margin: 0;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-}
-
-.grid-item-link.internal {
-  background-color: transparent;
-  padding: 0;
-  border-radius: 0;
-}
-
-.grid-item-link.internal:hover {
-  background-color: transparent;
-}
-`

@@ -1,74 +1,18 @@
 @use "../../styles/variables.scss" as *;
 
 .category-links {
-  & > h3 {
-    margin: 0.5rem 0 0 0;
-    font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  min-height: 1.4rem;
+  flex: 0 0 auto;
+  width: 100%;
+
+  &:has(button.category-links-header.collapsed) {
+    flex: 0 1 1.4rem;
   }
 
-  & > ul.category-list {
-    list-style: none;
-    margin-top: 1rem;
-    padding-left: 0;
-
-    & > li {
-      margin: 1rem 0;
-      
-      .section > .desc > h3 {
-        margin: 0;
-        
-        & > a.category-link {
-          background-color: transparent;
-          text-decoration: none;
-          color: var(--dark);
-          display: flex;
-          align-items: center;
-          transition: color 0.2s ease;
-
-          &:hover {
-            color: var(--secondary);
-          }
-
-          .category-icon {
-            width: 18px;
-            height: 18px;
-            margin-right: 0.5rem;
-            display: flex;
-            align-items: center;
-            fill: currentColor;
-            transition: fill 0.2s ease;
-          }
-        }
-      }
-    }
+  .category-list.collapsed {
+    display: none;
   }
-
-  // Mobile-specific size adjustments
-  @media all and ($mobile) {
-    & > h3 {
-      font-size: 0.9rem;
-    }
-
-    & > ul.category-list {
-      margin-top: 0.5rem;
-
-      & > li {
-        margin: 0.5rem 0;
-
-        .section > .desc > h3 {
-          font-size: 1rem;
-
-          & > a.category-link {
-            gap: 0.3rem;
-
-            .category-icon {
-              width: 16px;
-              height: 16px;
-              margin-right: 0.4rem;
-            }
-          }
-        }
-      }
-    }
-  }
-} 
+}

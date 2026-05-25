@@ -111,6 +111,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     showTags,
     focusOnHover,
     enableRadial,
+    fitView,
   } = JSON.parse(graph.dataset["cfg"]!) as D3Config
 
   const data: Map<SimpleSlug, ContentDetails> = new Map(
@@ -189,7 +190,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
 
   const width = graph.offsetWidth
-  const height = Math.max(graph.offsetHeight, 250)
+  const height = fitView ? graph.offsetHeight : Math.max(graph.offsetHeight, 250)
 
   // we virtualize the simulation and use pixi to actually render it
   const simulation: Simulation<NodeData, LinkData> = forceSimulation<NodeData>(graphData.nodes)
@@ -492,6 +493,50 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
 
   let currentTransform = zoomIdentity
+  let zoomBehavior: ReturnType<typeof zoom<HTMLCanvasElement, NodeData>> | null = null
+
+  function applyFitView() {
+    if (!fitView || nodeRenderData.length === 0) return
+
+    let minX = Infinity
+    let minY = Infinity
+    let maxX = -Infinity
+    let maxY = -Infinity
+
+    for (const n of nodeRenderData) {
+      const { x, y } = n.simulationData
+      if (x === undefined || y === undefined) continue
+      const screenX = x + width / 2
+      const screenY = y + height / 2
+      const r = nodeRadius(n.simulationData) + 4
+      minX = Math.min(minX, screenX - r)
+      minY = Math.min(minY, screenY - r)
+      maxX = Math.max(maxX, screenX + r)
+      maxY = Math.max(maxY, screenY + r)
+    }
+
+    if (!Number.isFinite(minX)) return
+
+    const graphWidth = Math.max(maxX - minX, 1)
+    const graphHeight = Math.max(maxY - minY, 1)
+    const midX = (minX + maxX) / 2
+    const midY = (minY + maxY) / 2
+    const padding = 12
+    const k = Math.min((width - padding * 2) / graphWidth, (height - padding * 2) / graphHeight)
+    const clampedK = Math.max(0.08, Math.min(k, 1))
+    const tx = width / 2 - clampedK * midX
+    const ty = height / 2 - clampedK * midY
+    const transform = zoomIdentity.translate(tx, ty).scale(clampedK)
+
+    if (zoomBehavior) {
+      select<HTMLCanvasElement, NodeData>(app.canvas).call(zoomBehavior.transform, transform)
+    } else {
+      currentTransform = transform
+      stage.scale.set(clampedK, clampedK)
+      stage.position.set(tx, ty)
+    }
+  }
+
   if (enableDrag) {
     select<HTMLCanvasElement, NodeData | undefined>(app.canvas).call(
       drag<HTMLCanvasElement, NodeData | undefined>()
@@ -539,35 +584,39 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
 
   if (enableZoom) {
-    select<HTMLCanvasElement, NodeData>(app.canvas).call(
-      zoom<HTMLCanvasElement, NodeData>()
-        .extent([
-          [0, 0],
-          [width, height],
-        ])
-        .scaleExtent([0.25, 4])
-        .on("zoom", ({ transform }) => {
-          currentTransform = transform
-          stage.scale.set(transform.k, transform.k)
-          stage.position.set(transform.x, transform.y)
+    zoomBehavior = zoom<HTMLCanvasElement, NodeData>()
+      .extent([
+        [0, 0],
+        [width, height],
+      ])
+      .scaleExtent([0.08, 4])
+      .on("zoom", ({ transform }) => {
+        currentTransform = transform
+        stage.scale.set(transform.k, transform.k)
+        stage.position.set(transform.x, transform.y)
 
-          // zoom adjusts opacity of labels too
-          const scale = transform.k * opacityScale
-          currentScaleOpacity = Math.max((scale - 1) / 3.75, 0)
-          const activeNodes = nodeRenderData.filter((n) => n.active).flatMap((n) => n.label)
+        // zoom adjusts opacity of labels too
+        const scale = transform.k * opacityScale
+        currentScaleOpacity = Math.max((scale - 1) / 3.75, 0)
+        const activeNodes = nodeRenderData.filter((n) => n.active).flatMap((n) => n.label)
 
-          for (const label of labelsContainer.children) {
-            if (!activeNodes.includes(label)) {
-              label.alpha = currentScaleOpacity
-            }
+        for (const label of labelsContainer.children) {
+          if (!activeNodes.includes(label)) {
+            label.alpha = currentScaleOpacity
           }
-        }),
-    )
+        }
+      })
+
+    select<HTMLCanvasElement, NodeData>(app.canvas).call(zoomBehavior)
+  }
+
+  if (fitView) {
+    app.canvas.style.visibility = "hidden"
   }
 
   let stopAnimation = false
-  function animate(time: number) {
-    if (stopAnimation) return
+
+  function syncGraphPositions() {
     for (const n of nodeRenderData) {
       const { x, y } = n.simulationData
       if (!x || !y) continue
@@ -585,10 +634,26 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
         .lineTo(linkData.target.x! + width / 2, linkData.target.y! + height / 2)
         .stroke({ alpha: l.alpha, width: 1, color: l.color })
     }
+  }
+
+  function animate(time: number) {
+    if (stopAnimation) return
+    syncGraphPositions()
 
     tweens.forEach((t) => t.update(time))
     app.renderer.render(stage)
     requestAnimationFrame(animate)
+  }
+
+  if (fitView) {
+    simulation.stop()
+    while (simulation.alpha() > simulation.alphaMin()) {
+      simulation.tick()
+    }
+    syncGraphPositions()
+    applyFitView()
+    app.renderer.render(stage)
+    app.canvas.style.visibility = "visible"
   }
 
   requestAnimationFrame(animate)
@@ -628,37 +693,39 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   }
 
   await renderLocalGraph()
-  const handleThemeChange = () => {
-    void renderLocalGraph()
-  }
-
-  document.addEventListener("themechange", handleThemeChange)
-  window.addCleanup(() => {
-    document.removeEventListener("themechange", handleThemeChange)
-  })
 
   const containers = [...document.getElementsByClassName("global-graph-outer")] as HTMLElement[]
+
   async function renderGlobalGraph() {
-    const slug = getFullSlug(window)
+    const currentSlug = getFullSlug(window)
     document.body.classList.add("global-graph-active")
     globalGraphCleanups.push(() => document.body.classList.remove("global-graph-active"))
+
     for (const container of containers) {
       container.classList.add("active")
-      const sidebar = container.closest(".sidebar") as HTMLElement
-      if (sidebar) {
-        sidebar.style.zIndex = "1"
-      }
+      container.setAttribute("aria-hidden", "false")
 
       const graphContainer = container.querySelector(".global-graph-container") as HTMLElement
       const closeButton = container.querySelector(".global-graph-close") as HTMLElement
       registerEscapeHandler(container, hideGlobalGraph)
+
       if (closeButton) {
         closeButton.addEventListener("click", hideGlobalGraph)
         globalGraphCleanups.push(() => closeButton.removeEventListener("click", hideGlobalGraph))
       }
+
+      container.addEventListener("click", onBackdropClick)
+      globalGraphCleanups.push(() => container.removeEventListener("click", onBackdropClick))
+
       if (graphContainer) {
-        globalGraphCleanups.push(await renderGraph(graphContainer, slug))
+        globalGraphCleanups.push(await renderGraph(graphContainer, currentSlug))
       }
+    }
+  }
+
+  function onBackdropClick(e: MouseEvent) {
+    if (e.target === e.currentTarget) {
+      hideGlobalGraph()
     }
   }
 
@@ -666,10 +733,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     cleanupGlobalGraphs()
     for (const container of containers) {
       container.classList.remove("active")
-      const sidebar = container.closest(".sidebar") as HTMLElement
-      if (sidebar) {
-        sidebar.style.zIndex = ""
-      }
+      container.setAttribute("aria-hidden", "true")
     }
   }
 
@@ -683,10 +747,29 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     }
   }
 
-  const containerIcons = document.getElementsByClassName("global-graph-icon")
-  Array.from(containerIcons).forEach((icon) => {
-    icon.addEventListener("click", renderGlobalGraph)
-    window.addCleanup(() => icon.removeEventListener("click", renderGlobalGraph))
+  const graphTriggers = document.getElementsByClassName("graph-open")
+  Array.from(graphTriggers).forEach((trigger) => {
+    const onOpen = (e: Event) => {
+      e.preventDefault()
+      void renderGlobalGraph()
+    }
+    trigger.addEventListener("click", onOpen)
+    window.addCleanup(() => trigger.removeEventListener("click", onOpen))
+  })
+
+  const handleThemeChange = () => {
+    const anyOpen = containers.some((container) => container.classList.contains("active"))
+    if (anyOpen) {
+      hideGlobalGraph()
+      void renderGlobalGraph()
+    } else {
+      void renderLocalGraph()
+    }
+  }
+
+  document.addEventListener("themechange", handleThemeChange)
+  window.addCleanup(() => {
+    document.removeEventListener("themechange", handleThemeChange)
   })
 
   document.addEventListener("keydown", shortcutHandler)

@@ -9,9 +9,11 @@
   border-color: var(--dark);
   background-color: var(--light);
   border: 1px solid;
-  border-radius: 5px;
+  border-radius: 4px;
   opacity: 0;
-  transition: 0.2s;
+  transition:
+    border-color 0.2s ease,
+    opacity 0.2s ease;
 
   & > svg {
     fill: var(--light);
@@ -31,7 +33,6 @@
 pre {
   &:hover > .expand-button {
     opacity: 1;
-    transition: 0.2s;
   }
 }
 
@@ -55,7 +56,7 @@ pre {
   & > #mermaid-space {
     border: 1px solid var(--lightgray);
     background-color: var(--light);
-    border-radius: 5px;
+    border-radius: 4px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -93,7 +94,7 @@ pre {
       padding: 8px;
       background: var(--light);
       border: 1px solid var(--lightgray);
-      border-radius: 6px;
+      border-radius: 4px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       z-index: 2;
 
@@ -111,14 +112,13 @@ pre {
         cursor: pointer;
         font-size: 16px;
         font-family: var(--bodyFont);
-        transition: all 0.2s ease;
+        transition:
+          background-color 0.2s ease,
+          border-color 0.2s ease,
+          color 0.2s ease;
 
         &:hover {
           background: var(--lightgray);
-        }
-
-        &:active {
-          transform: translateY(1px);
         }
 
         // Style the reset button differently

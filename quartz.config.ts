@@ -2,6 +2,8 @@ import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 import { CustomOgImages } from "./quartz/plugins/emitters/ogImage"
 
+const isDev = process.env.QUARTZ_DEV === "1"
+
 /**
  * Quartz 4 Configuration
  *
@@ -32,12 +34,12 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#fbf3e6",
-          lightgray: "#f0e7db",
+          light: "#fffefa",
+          lightgray: "#f8f5ef",
           gray: "#d8cbb8",
-          darkgray: "#7a6c5d",
-          dark: "#2a2620", // Made body text darker
-          secondary: "#5c4f42",
+          darkgray: "#3f3a33",
+          dark: "#171512",
+          secondary: "#473d33",
           tertiary: "#a1887f",
           highlight: "rgba(188, 174, 153, 0.3)",
           textHighlight: "#fffacd88",
@@ -95,13 +97,17 @@ const config: QuartzConfig = {
       Plugin.NotFoundPage(),
       Plugin.Favicon(),
 
-      // Comment out CustomOgImages to speed up build time
-      CustomOgImages({
-        colorScheme: "lightMode",
-        width: 1200,
-        height: 630,
-        excludeRoot: false,
-      }),
+      // OG images are slow to generate (~12s for this site). Skip in local dev.
+      ...(isDev
+        ? []
+        : [
+            CustomOgImages({
+              colorScheme: "lightMode",
+              width: 1200,
+              height: 630,
+              excludeRoot: false,
+            }),
+          ]),
     ],
   },
 }

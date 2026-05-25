@@ -8,7 +8,6 @@ import { FullPageLayout } from "../../cfg"
 import { FullSlug, getAllSegmentPrefixes, joinSegments, pathToRoot } from "../../util/path"
 import { defaultListPageLayout, sharedPageComponents } from "../../../quartz.layout"
 import { TagContent } from "../../components"
-import * as Component from "../../components"
 import { write } from "./helpers"
 import { i18n, TRANSLATIONS } from "../../i18n"
 import { BuildCtx } from "../../util/ctx"
@@ -135,21 +134,7 @@ export const TagPage: QuartzEmitterPlugin<Partial<TagPageOptions>> = (userOpts) 
   const opts: FullPageLayout = {
     ...sharedPageComponents,
     ...defaultListPageLayout,
-    // Tags pages: no search, darkmode, or readermode (they already exist elsewhere on the page)
     afterBody: [],
-    left: [
-      defaultListPageLayout.left[0], // PageTitle
-      defaultListPageLayout.left[1], // MobileOnly(Spacer)
-      defaultListPageLayout.left[2], // MobileOnly(HamburgerMenu)
-      // Skip index 3 (MobileOnly Search) and index 4 (DesktopOnly Search)
-      ...defaultListPageLayout.left.slice(5), // Both DesktopOnly RecentNotes
-    ],
-    // Override the right sidebar to include Graph and CategoryLinks like content pages
-    right: [
-      Component.Graph(),
-      Component.CategoryLinks(),
-      Component.Backlinks(),
-    ],
     pageBody: TagContent({ sort: userOpts?.sort }),
     ...userOpts,
   }

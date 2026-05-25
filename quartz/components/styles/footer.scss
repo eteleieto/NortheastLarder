@@ -1,38 +1,72 @@
+@use "../../styles/variables.scss" as *;
+
 footer {
   text-align: left;
-  margin-bottom: 4rem;
-  opacity: 0.7;
+  margin: 1.5rem 0 3rem 0;
+  opacity: 0.75;
+  font-size: 0.95rem;
+  line-height: 1.6;
 
-  .footer-navigation {
-    margin-bottom: 1rem;
+  .footer-row {
     display: flex;
-    gap: 1rem;
-    
-    a {
-      font-weight: 500;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 0.5rem;
+
+    a,
+    button.footer-link {
+      font-size: 1em;
+      font-family: var(--bodyFont);
+      font-weight: $normalWeight;
       text-decoration: none;
-      
+      color: var(--dark);
+      background-color: transparent;
+      padding: 0;
+      border: none;
+      border-radius: 0;
+      line-height: inherit;
+      letter-spacing: normal;
+      text-transform: none;
+      cursor: pointer;
+      transition: color 0.15s ease;
+      -webkit-appearance: none;
+      appearance: none;
+
       &:hover {
-        text-decoration: underline;
+        color: var(--secondary) !important;
+        background-color: transparent !important;
+        text-decoration: none;
       }
     }
   }
 
-  .social-links {
-    margin-bottom: 1rem;
-    
-    a {
-      margin-right: 10px;
-    }
+  .footer-sep {
+    color: var(--gray);
+    user-select: none;
   }
 
-  & ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    margin-top: -1rem;
+  .footer-meta {
+    color: var(--darkgray);
+    font-size: 0.9rem;
+  }
+
+  @media all and ($mobile) {
+    margin: 1rem 0 2rem 0;
+    font-size: 0.9rem;
+
+    .footer-row {
+      gap: 0.4rem;
+    }
+
+    // On narrow screens collapse the copyright onto its own line for breathing room
+    .footer-sep-copy {
+      display: none;
+    }
+
+    .footer-meta {
+      flex-basis: 100%;
+      margin-top: 0.5rem;
+    }
   }
 }

@@ -1,59 +1,7 @@
 @use "../../styles/variables.scss" as *;
 
 .recent-notes {
-  & > h3 {
-    margin: 0.5rem 0 0 0;
-    font-size: 1rem;
-  }
-
-  & > ul.recent-ul {
-    list-style: none;
-    margin-top: 1rem;
-    padding-left: 0;
-
-    & > li {
-      margin: 1rem 0;
-      .section > .desc > h3 > a {
-        background-color: transparent;
-      }
-
-      .section > .meta {
-        margin: 0 0 0.5rem 0;
-        opacity: 0.6;
-      }
-    }
-  }
-
-  // Mobile-specific styles
   @media all and ($mobile) {
-    margin-bottom: 1.5rem;
-    
-    & > h3 {
-      margin: 1rem 0 0.5rem 0;
-      font-size: 0.9rem;
-      font-weight: 600;
-    }
-
-    & > ul.recent-ul {
-      margin-top: 0.5rem;
-      
-      & > li {
-        margin: 0.75rem 0;
-        
-        .section > .desc > h3 {
-          font-size: 0.85rem;
-          margin: 0;
-          
-          & > a {
-            font-weight: 500;
-          }
-        }
-
-        .section > .meta {
-          font-size: 0.75rem;
-          margin: 0.25rem 0 0 0;
-        }
-      }
-    }
+    margin-bottom: 1.25rem;
   }
 }

@@ -1,19 +1,88 @@
 @use "./base.scss";
+@use "./sidebar.scss";
+@use "../components/styles/cards.scss";
+@use "./variables.scss" as *;
 
 // put your custom CSS here!
 
-// Make the IN-PROGRESS tag display in red
-a.tag-link[href*="IN-PROGRESS"] {
-  color: #c47a7a !important; // Muted red
-  background-color: rgba(196, 122, 122, 0.1) !important; // Light muted red background
-  border: 1px solid #c47a7a !important;
+// Footer links: base.scss `a { font-weight: 600 }` loads after footer.scss in the
+// bundle, so anchors look bolder than the Graph button (same font-size, different weight).
+footer .footer-row {
+  a,
+  button.footer-link {
+    font-size: 1em;
+    font-family: var(--bodyFont);
+    font-weight: $normalWeight;
+    color: var(--dark);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--secondary) !important;
+      text-decoration: none;
+    }
+  }
 }
 
-// Also target if it appears in tag lists
+// Article wikilinks: underline only, no highlight pill or bold weight
+article a.internal:not(.card-item-link):not(.grid-item-link),
+.popover-inner a.internal {
+  color: var(--darkgray);
+  font-weight: $normalWeight;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 1px;
+  text-decoration-color: color-mix(in srgb, var(--darkgray) 45%, transparent);
+  background-color: transparent !important;
+  background: none !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+
+  &:hover {
+    color: var(--secondary) !important;
+    text-decoration-color: var(--secondary);
+    background-color: transparent !important;
+  }
+
+  &:has(> img) {
+    text-decoration: none !important;
+  }
+}
+
+// Card links: no underline — the card itself is the affordance
+.card-item-link,
+.grid-item-link,
+.card-item,
+.grid-item,
+.card-list-container,
+.grid-container,
+.mcm-col {
+  a.internal {
+    text-decoration: none !important;
+
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
+}
+
+// IN-PROGRESS tag: red text only, no pill or outline
+a.tag-link[href*="IN-PROGRESS"],
 .tags a[href*="IN-PROGRESS"] {
   color: #c47a7a !important;
-  background-color: rgba(196, 122, 122, 0.1) !important;
-  border: 1px solid #c47a7a !important;
+  text-decoration-color: #c47a7a !important;
+  background-color: transparent !important;
+  background: none !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+
+  &:hover {
+    color: #a85f5f !important;
+    text-decoration-color: #a85f5f !important;
+    background-color: transparent !important;
+  }
 }
 
 // Increase body text and paragraph font size
