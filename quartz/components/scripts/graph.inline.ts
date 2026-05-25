@@ -680,6 +680,61 @@ function cleanupGlobalGraphs() {
   globalGraphCleanups = []
 }
 
+function getGlobalGraphContainers() {
+  return [...document.getElementsByClassName("global-graph-outer")] as HTMLElement[]
+}
+
+function hideGlobalGraph() {
+  cleanupGlobalGraphs()
+  for (const container of getGlobalGraphContainers()) {
+    container.classList.remove("active")
+    container.setAttribute("aria-hidden", "true")
+  }
+}
+
+async function renderGlobalGraph() {
+  const containers = getGlobalGraphContainers()
+  if (containers.length === 0) return
+
+  const currentSlug = getFullSlug(window)
+  document.body.classList.add("global-graph-active")
+  globalGraphCleanups.push(() => document.body.classList.remove("global-graph-active"))
+
+  for (const container of containers) {
+    container.classList.add("active")
+    container.setAttribute("aria-hidden", "false")
+
+    const graphContainer = container.querySelector(".global-graph-container") as HTMLElement
+    const closeButton = container.querySelector(".global-graph-close") as HTMLElement
+    registerEscapeHandler(container, hideGlobalGraph)
+
+    if (closeButton) {
+      closeButton.addEventListener("click", hideGlobalGraph)
+      globalGraphCleanups.push(() => closeButton.removeEventListener("click", hideGlobalGraph))
+    }
+
+    const onBackdropClick = (e: MouseEvent) => {
+      if (e.target === e.currentTarget) {
+        hideGlobalGraph()
+      }
+    }
+
+    container.addEventListener("click", onBackdropClick)
+    globalGraphCleanups.push(() => container.removeEventListener("click", onBackdropClick))
+
+    if (graphContainer) {
+      globalGraphCleanups.push(await renderGraph(graphContainer, currentSlug))
+    }
+  }
+}
+
+document.addEventListener("click", (e) => {
+  const trigger = (e.target as Element | null)?.closest(".graph-open")
+  if (!trigger) return
+  e.preventDefault()
+  void renderGlobalGraph()
+})
+
 document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   const slug = e.detail.url
   addToVisited(simplifySlug(slug))
@@ -694,71 +749,20 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
 
   await renderLocalGraph()
 
-  const containers = [...document.getElementsByClassName("global-graph-outer")] as HTMLElement[]
-
-  async function renderGlobalGraph() {
-    const currentSlug = getFullSlug(window)
-    document.body.classList.add("global-graph-active")
-    globalGraphCleanups.push(() => document.body.classList.remove("global-graph-active"))
-
-    for (const container of containers) {
-      container.classList.add("active")
-      container.setAttribute("aria-hidden", "false")
-
-      const graphContainer = container.querySelector(".global-graph-container") as HTMLElement
-      const closeButton = container.querySelector(".global-graph-close") as HTMLElement
-      registerEscapeHandler(container, hideGlobalGraph)
-
-      if (closeButton) {
-        closeButton.addEventListener("click", hideGlobalGraph)
-        globalGraphCleanups.push(() => closeButton.removeEventListener("click", hideGlobalGraph))
-      }
-
-      container.addEventListener("click", onBackdropClick)
-      globalGraphCleanups.push(() => container.removeEventListener("click", onBackdropClick))
-
-      if (graphContainer) {
-        globalGraphCleanups.push(await renderGraph(graphContainer, currentSlug))
-      }
-    }
-  }
-
-  function onBackdropClick(e: MouseEvent) {
-    if (e.target === e.currentTarget) {
-      hideGlobalGraph()
-    }
-  }
-
-  function hideGlobalGraph() {
-    cleanupGlobalGraphs()
-    for (const container of containers) {
-      container.classList.remove("active")
-      container.setAttribute("aria-hidden", "true")
-    }
-  }
-
   async function shortcutHandler(e: HTMLElementEventMap["keydown"]) {
     if (e.key === "g" && (e.ctrlKey || e.metaKey) && !e.shiftKey) {
       e.preventDefault()
-      const anyGlobalGraphOpen = containers.some((container) =>
+      const anyGlobalGraphOpen = getGlobalGraphContainers().some((container) =>
         container.classList.contains("active"),
       )
       anyGlobalGraphOpen ? hideGlobalGraph() : renderGlobalGraph()
     }
   }
 
-  const graphTriggers = document.getElementsByClassName("graph-open")
-  Array.from(graphTriggers).forEach((trigger) => {
-    const onOpen = (e: Event) => {
-      e.preventDefault()
-      void renderGlobalGraph()
-    }
-    trigger.addEventListener("click", onOpen)
-    window.addCleanup(() => trigger.removeEventListener("click", onOpen))
-  })
-
   const handleThemeChange = () => {
-    const anyOpen = containers.some((container) => container.classList.contains("active"))
+    const anyOpen = getGlobalGraphContainers().some((container) =>
+      container.classList.contains("active"),
+    )
     if (anyOpen) {
       hideGlobalGraph()
       void renderGlobalGraph()

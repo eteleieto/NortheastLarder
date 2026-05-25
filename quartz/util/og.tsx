@@ -225,6 +225,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
             height={56}
             style={{
               borderRadius: "50%",
+              objectFit: "contain",
             }}
           />
         )}
