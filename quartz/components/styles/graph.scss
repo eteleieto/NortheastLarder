@@ -69,6 +69,7 @@ body.global-graph-active {
   box-sizing: border-box;
   overflow: hidden;
   display: none;
+  background-color: color-mix(in srgb, var(--dark) 36%, transparent);
   backdrop-filter: blur(4px);
 
   &.active {
@@ -87,9 +88,9 @@ body.global-graph-active {
     position: relative;
     width: 100%;
     height: 100%;
-    border: 1px solid var(--lightgray);
+    border: 1px solid var(--gray);
     border-radius: $radius-md;
-    background: var(--light);
+    background: var(--lightgray);
     box-shadow:
       0 14px 50px rgba(27, 33, 48, 0.12),
       0 10px 30px rgba(27, 33, 48, 0.16);
@@ -110,9 +111,9 @@ body.global-graph-active {
     width: 2rem;
     height: 2rem;
     padding: 0;
-    background: color-mix(in srgb, var(--light) 82%, var(--lightgray));
-    border: 1px solid var(--lightgray);
-    border-radius: $radius-sm;
+    background: var(--light);
+    border: 1px solid var(--gray);
+    border-radius: $radius-md;
     font-family: var(--bodyFont);
     font-size: 1.35rem;
     line-height: 1;
@@ -133,7 +134,7 @@ body.global-graph-active {
   .global-graph-container {
     flex: 1;
     min-height: 0;
-    background-color: var(--light);
+    background-color: var(--lightgray);
     box-sizing: border-box;
     width: 100%;
   }

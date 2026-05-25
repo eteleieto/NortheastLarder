@@ -8,9 +8,9 @@
   max-width: 100%;
 
   & > .search-button {
-    background-color: color-mix(in srgb, var(--light) 82%, var(--lightgray));
-    border: 1px solid var(--lightgray);
-    border-radius: $radius-sm;
+    background-color: var(--light);
+    border: 1px solid var(--gray);
+    border-radius: $radius-md;
     color: var(--secondary);
     font-family: inherit;
     font-size: 0.95rem;
@@ -96,6 +96,7 @@
     height: 100vh;
     overflow-y: auto;
     display: none;
+    background-color: color-mix(in srgb, var(--dark) 36%, transparent);
     backdrop-filter: blur(4px);
 
     &.active {
@@ -107,6 +108,13 @@
       margin-top: 12vh;
       margin-left: auto;
       margin-right: auto;
+      border: 1px solid var(--gray);
+      border-radius: $radius-md;
+      background: var(--lightgray);
+      box-shadow:
+        0 14px 50px rgba(27, 33, 48, 0.12),
+        0 10px 30px rgba(27, 33, 48, 0.16);
+      overflow: hidden;
 
       @media all and not ($desktop) {
         width: 90%;
@@ -114,12 +122,11 @@
 
       & > * {
         width: 100%;
-        border-radius: $radius-sm;
-        background: var(--light);
-        box-shadow:
-          0 14px 50px rgba(27, 33, 48, 0.12),
-          0 10px 30px rgba(27, 33, 48, 0.16);
-        margin-bottom: 2em;
+        background: transparent;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        margin-bottom: 0;
       }
 
       & > input {
@@ -128,7 +135,8 @@
         font-family: var(--bodyFont);
         color: var(--dark);
         font-size: 1.1em;
-        border: 1px solid var(--lightgray);
+        background: var(--lightgray);
+        border-bottom: 1px solid var(--gray);
 
         &:focus {
           outline: none;
@@ -138,9 +146,9 @@
       & > .search-layout {
         display: none;
         flex-direction: row;
-        border: 1px solid var(--lightgray);
         flex: 0 0 100%;
         box-sizing: border-box;
+        background: var(--lightgray);
 
         &.display-results {
           display: flex;
@@ -158,7 +166,7 @@
 
             & > div {
               &:first-child {
-                border-right: 1px solid var(--lightgray);
+                border-right: 1px solid var(--gray);
                 border-top-right-radius: unset;
                 border-bottom-right-radius: unset;
               }
@@ -173,7 +181,7 @@
 
         & > div {
           height: calc(75vh - 12vh);
-          border-radius: $radius-sm;
+          border-radius: 0;
         }
 
         @media all and ($mobile) {
@@ -225,7 +233,7 @@
             padding: 1em;
             cursor: pointer;
             transition: background 0.2s ease;
-            border-bottom: 1px solid var(--lightgray);
+            border-bottom: 1px solid var(--gray);
             width: 100%;
             display: block;
             box-sizing: border-box;
@@ -243,7 +251,7 @@
             &:hover,
             &:focus,
             &.focus {
-              background: var(--lightgray);
+              background: color-mix(in srgb, var(--gray) 22%, var(--lightgray));
             }
 
             & > h3 {

@@ -3,7 +3,7 @@
 // Shared sidebar chrome — applied to desktop rails and the mobile drawer.
 .sidebar,
 .hamburger-content {
-  --sidebar-item-gap: 0.4rem;
+  --sidebar-item-gap: 0.55rem;
 
   // Override global link styling (semiBold, highlight pills, tertiary hover).
   a,
@@ -162,7 +162,7 @@
   }
 
   .recent-notes .meta {
-    margin: 0.1rem 0 0;
+    margin: 0.2rem 0 0;
     font-size: var(--sidebar-meta-size);
     line-height: 1.4;
     color: var(--darkgray);
