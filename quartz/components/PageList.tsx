@@ -4,6 +4,7 @@ import { Date, getDate } from "./Date"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import { GlobalConfiguration } from "../cfg"
 import { getCardImage } from "../util/cardImage"
+import { cleanDescriptionText } from "../util/descriptionText"
 
 export type SortFn = (f1: QuartzPluginData, f2: QuartzPluginData) => number
 
@@ -104,66 +105,6 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
   )
 }
 
-// Helper function to clean description text by removing titles, wikilinks, and unwanted elements
-function cleanDescriptionText(content: string): string {
-  if (!content) return ""
-
-  const loadingCardsRegex = /\s*Loading cards\.*\s*/gi
-  
-  // Split into lines
-  const lines = content.split('\n')
-  
-  // Filter out unwanted lines and clean content
-  const cleanedLines = lines
-    .filter(line => {
-      const trimmed = line.trim()
-      // Skip empty lines
-      if (!trimmed) return false
-      // Skip card list loading placeholder
-      if (/^Loading cards\.*$/i.test(trimmed)) return false
-      // Skip markdown headers
-      if (trimmed.startsWith('#')) return false
-      // Skip lines that are just wikilinks or tables
-      if (trimmed.match(/^[\|\s]*\[\[.*?\]\][\|\s]*$/) || trimmed.match(/^\|+$/)) return false
-      // Skip frontmatter separators
-      if (trimmed === '---') return false
-      return true
-    })
-    .map(line => {
-      // Remove wikilinks [[text]]
-      let cleaned = line.replace(/\[\[.*?\]\]/g, '')
-      // Remove markdown links [text](url)
-      cleaned = cleaned.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-      // Remove markdown images ![alt](src)
-      cleaned = cleaned.replace(/!\[.*?\]\([^)]+\)/g, '')
-      // Strip any remaining loading placeholder fragments
-      cleaned = cleaned.replace(loadingCardsRegex, ' ')
-      // Clean up extra whitespace
-      cleaned = cleaned.replace(/\s+/g, ' ').trim()
-      return cleaned
-    })
-    .filter(line => line.length > 0 && !/^Loading cards\.*$/i.test(line))
-  
-  // Find the first substantial paragraph (not just short fragments)
-  for (const line of cleanedLines) {
-    if (line.length > 50) {
-      // Truncate to reasonable length for display
-      if (line.length > 200) {
-        return line.substring(0, 200).trim() + '...'
-      }
-      return line
-    }
-  }
-  
-  // Fallback: join first few lines if no single substantial paragraph found
-  const joined = cleanedLines.slice(0, 3).join(' ').replace(loadingCardsRegex, ' ').replace(/\s+/g, ' ').trim()
-  if (!joined || /^Loading cards\.*$/i.test(joined)) return ""
-  if (joined.length > 200) {
-    return joined.substring(0, 200).trim() + '...'
-  }
-  return joined.length > 20 ? joined : ""
-}
-
 // New Grid PageList component for tag pages
 export const GridPageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort }: Props) => {
   const sorter = sort ?? byDateAndAlphabeticalFolderFirst(cfg)
@@ -176,16 +117,16 @@ export const GridPageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, 
     <div class="grid-container">
       {list.map((page) => {
         const title = page.frontmatter?.title
-        const description = page.frontmatter?.description || page.description || ""
-        
-        // Prefer frontmatter/SEO description, then fall back to page text
-        const rawContent = description ||
-                          (page as any).text || 
-                          (page as any).content || 
-                          ""
-        
-        // Create cleaned description for display (removing titles, wikilinks, etc.)
-        const cleanedDescription = cleanDescriptionText(rawContent)
+        const frontmatterDescription = page.frontmatter?.description
+        const rawContent =
+          frontmatterDescription ||
+          (page as any).text ||
+          page.description ||
+          (page as any).content ||
+          ""
+
+        const cleanedDescription =
+          frontmatterDescription || cleanDescriptionText(rawContent, title)
         
         const firstImage = getCardImage({ ...(page as QuartzPluginData), slug: page.slug })
 

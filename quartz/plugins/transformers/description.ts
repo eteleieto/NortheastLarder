@@ -1,7 +1,7 @@
 import { Root as HTMLRoot } from "hast"
-import { toString } from "hast-util-to-string"
 import { QuartzTransformerPlugin } from "../types"
 import { escapeHTML } from "../../util/escape"
+import { cleanDescriptionText, extractBodyText } from "../../util/descriptionText"
 
 export interface Options {
   descriptionLength: number
@@ -20,11 +20,6 @@ const urlRegex = new RegExp(
   "g",
 )
 
-// Strip card list loading placeholder - appears when card lists are on the page
-// and would otherwise pollute the meta description (og:description, twitter:description)
-// Match anywhere in text (e.g. "Active Explorations Loading cards.. Background...")
-const loadingCardsRegex = /\s*Loading cards\.*\s*/gi
-
 export const Description: QuartzTransformerPlugin<Partial<Options>> = (userOpts) => {
   const opts = { ...defaultOptions, ...userOpts }
   return {
@@ -34,7 +29,8 @@ export const Description: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
         () => {
           return async (tree: HTMLRoot, file) => {
             let frontMatterDescription = file.data.frontmatter?.description
-            let text = escapeHTML(toString(tree))
+            const pageTitle = file.data.frontmatter?.title as string | undefined
+            let text = escapeHTML(extractBodyText(tree))
 
             if (opts.replaceExternalLinks) {
               frontMatterDescription = frontMatterDescription?.replace(
@@ -50,40 +46,14 @@ export const Description: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
               return
             }
 
-            // Strip "Loading cards..." placeholder wherever it appears
-            const desc = text.replace(loadingCardsRegex, " ").replace(/\s+/g, " ").trim()
+            const desc = cleanDescriptionText(text, pageTitle, opts.maxDescriptionLength)
             if (!desc) {
               file.data.text = text
               return
               // Leave description unset so Head uses i18n default
             }
-            const sentences = desc.replace(/\s+/g, " ").split(/\.\s/)
-            let finalDesc = ""
-            let sentenceIdx = 0
 
-            // Add full sentences until we exceed the guideline length
-            while (sentenceIdx < sentences.length) {
-              const sentence = sentences[sentenceIdx]
-              if (!sentence) break
-
-              const currentSentence = sentence.endsWith(".") ? sentence : sentence + "."
-              const nextLength = finalDesc.length + currentSentence.length + (finalDesc ? 1 : 0)
-
-              // Add the sentence if we're under the guideline length
-              // or if this is the first sentence (always include at least one)
-              if (nextLength <= opts.descriptionLength || sentenceIdx === 0) {
-                finalDesc += (finalDesc ? " " : "") + currentSentence
-                sentenceIdx++
-              } else {
-                break
-              }
-            }
-
-            // truncate to max length if necessary
-            file.data.description =
-              finalDesc.length > opts.maxDescriptionLength
-                ? finalDesc.slice(0, opts.maxDescriptionLength) + "..."
-                : finalDesc
+            file.data.description = desc
             file.data.text = text
           }
         },
