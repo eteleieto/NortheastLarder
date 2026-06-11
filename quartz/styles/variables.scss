@@ -21,9 +21,30 @@ $sidePanelWidth: 240px;
 $topSpacing: 3.5rem;
 $boldWeight: 700;
 $semiBoldWeight: 600;
+$mediumWeight: 500;
 $normalWeight: 400;
 $radius-sm: 3px;
 $radius-md: 4px;
+
+// Shadows disabled site-wide
+$shadow-sm: none;
+$shadow-md: none;
+$shadow-overlay: none;
+$shadow-popover: none;
+
+// Motion
+$transition-fast: 0.15s ease;
+$transition-base: 0.2s ease;
+$transition-panel: 0.25s ease;
+
+// Meta / secondary text scale (3 sizes)
+$meta-sm: 0.875rem;
+$meta-md: 0.9rem;
+
+// Readable muted metadata (~3.5:1 on white vs ~1.7:1 for raw --gray)
+@mixin meta-muted {
+  color: color-mix(in srgb, var(--gray) 35%, var(--darkgray));
+}
 
 $mobileGrid: (
   templateRows: "auto auto auto auto auto",

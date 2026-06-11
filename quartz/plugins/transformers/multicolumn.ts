@@ -364,7 +364,7 @@ export const MultiColumnTransformer: QuartzTransformerPlugin<Partial<MultiColumn
                 border: 1px solid var(--gray);
                 border-radius: 4px;
                 padding: 1.5rem;
-                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+                box-shadow: none;
                 min-width: 0; /* Allow content to wrap properly */
                 overflow-wrap: break-word;
               }

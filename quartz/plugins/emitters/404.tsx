@@ -4,7 +4,7 @@ import BodyConstructor from "../../components/Body"
 import { pageResources, renderPage } from "../../components/renderPage"
 import { FullPageLayout } from "../../cfg"
 import { FullSlug } from "../../util/path"
-import { sharedPageComponents } from "../../../quartz.layout"
+import { sharedPageComponents, defaultContentPageLayout } from "../../../quartz.layout"
 import { NotFound } from "../../components"
 import { defaultProcessedContent } from "../vfile"
 import { write } from "./helpers"
@@ -13,21 +13,32 @@ import { i18n } from "../../i18n"
 export const NotFoundPage: QuartzEmitterPlugin = () => {
   const opts: FullPageLayout = {
     ...sharedPageComponents,
+    ...defaultContentPageLayout,
     pageBody: NotFound(),
+    // 404 body includes its own heading — skip the auto title/meta header
     beforeBody: [],
-    left: [],
-    right: [],
   }
 
-  const { head: Head, pageBody, footer: Footer } = opts
+  const { head: Head, header, beforeBody, pageBody, afterBody, left, right, footer: Footer } = opts
   const Body = BodyConstructor()
 
   return {
     name: "404Page",
     getQuartzComponents() {
-      return [Head, Body, pageBody, Footer]
+      return [
+        Head,
+        Body,
+        ...header,
+        ...beforeBody,
+        pageBody,
+        ...afterBody,
+        ...left,
+        ...right,
+        Footer,
+      ]
     },
-    async *emit(ctx, _content, resources) {
+    async *emit(ctx, content, resources) {
+      const allFiles = content.map((c) => c[1].data)
       const cfg = ctx.cfg.configuration
       const slug = "404" as FullSlug
 
@@ -48,7 +59,7 @@ export const NotFoundPage: QuartzEmitterPlugin = () => {
         cfg,
         children: [],
         tree,
-        allFiles: [],
+        allFiles,
       }
 
       yield write({

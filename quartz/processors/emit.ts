@@ -4,6 +4,7 @@ import { ProcessedContent } from "../plugins/vfile"
 import { QuartzLogger } from "../util/log"
 import { trace } from "../util/trace"
 import { BuildCtx } from "../util/ctx"
+import { prepareCardThumbnails } from "../util/prepareCardThumbnails"
 import chalk from "chalk"
 
 export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
@@ -12,6 +13,7 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
   const log = new QuartzLogger(ctx.argv.verbose)
 
   log.start(`Emitting files`)
+  await prepareCardThumbnails(ctx, content)
 
   let emittedFiles = 0
   const staticResources = getStaticResourcesFromPlugins(ctx)

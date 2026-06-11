@@ -1,6 +1,4 @@
 @use "variables.scss" as *;
-
-// Shared sidebar chrome — applied to desktop rails and the mobile drawer.
 .sidebar,
 .hamburger-content {
   --sidebar-item-gap: 0.55rem;
@@ -40,25 +38,21 @@
     cursor: pointer;
   }
 
-  // Section headings — same treatment everywhere
-  .recent-notes > h3,
-  .graph.graph--preview > h3,
-  .backlinks > h3 {
+  // Section labels — same treatment everywhere (intentionally not headings;
+  // document headings belong to article content only)
+  .rail-label {
     margin: 0 0 var(--sidebar-section-gap) 0;
     font-size: var(--sidebar-section-size);
-    font-family: var(--headerFont);
+    font-family: var(--bodyFont);
     color: var(--dark);
-    font-weight: revert;
+    font-weight: $mediumWeight;
     line-height: 1.3;
   }
 
-  button.toc-header h3 {
+  button .rail-label {
+    display: inline-block;
     margin: 0;
-    font-size: var(--sidebar-section-size);
-    font-family: var(--headerFont);
     color: inherit;
-    font-weight: revert;
-    line-height: 1.3;
   }
 
   button.category-links-header {
@@ -77,16 +71,6 @@
 
     &:hover {
       color: var(--secondary);
-    }
-
-    h3 {
-      display: inline-block;
-      margin: 0;
-      font-size: var(--sidebar-section-size);
-      font-family: var(--headerFont);
-      color: inherit;
-      font-weight: revert;
-      line-height: 1.3;
     }
 
     .fold {
@@ -151,21 +135,11 @@
     color: var(--secondary);
   }
 
-  // Recent posts: flatten nested h3 so it doesn't pick up article styles
-  .recent-ul .desc > h3 {
-    margin: 0;
-    font-size: inherit;
-    font-family: inherit;
-    font-weight: inherit;
-    line-height: inherit;
-    color: inherit;
-  }
-
   .recent-notes .meta {
     margin: 0.2rem 0 0;
     font-size: var(--sidebar-meta-size);
     line-height: 1.4;
-    color: var(--darkgray);
+    @include meta-muted;
   }
 
   // Contents toggle — section title lives in a button
@@ -183,10 +157,6 @@
 
     &:hover {
       color: var(--secondary);
-    }
-
-    h3 {
-      display: inline-block;
     }
 
     .fold {
@@ -213,7 +183,7 @@
 
     &:hover,
     &:focus {
-      color: var(--dark);
+      color: var(--secondary);
     }
   }
 }

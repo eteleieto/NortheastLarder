@@ -33,10 +33,10 @@
     line-height: normal;
     font-size: initial;
     font-family: var(--bodyFont);
-    border: 1px solid var(--lightgray);
+    border: 1px solid var(--gray);
     background-color: var(--light);
-    border-radius: $radius-sm;
-    box-shadow: 6px 6px 36px 0 rgba(0, 0, 0, 0.25);
+    border-radius: $radius-md;
+    box-shadow: $shadow-popover;
     overflow: auto;
     overscroll-behavior: contain;
     white-space: normal;
@@ -73,8 +73,8 @@
   visibility: hidden;
   opacity: 0;
   transition:
-    opacity 0.3s ease,
-    visibility 0.3s ease;
+    opacity $transition-panel ease,
+    visibility $transition-panel ease;
 
   @media all and ($mobile) {
     display: none !important;
@@ -83,7 +83,7 @@
 
 .active-popover,
 .popover:hover {
-  animation: dropin 0.3s ease;
+  animation: dropin $transition-panel ease;
   animation-fill-mode: forwards;
-  animation-delay: 0.2s;
+  animation-delay: $transition-base;
 }

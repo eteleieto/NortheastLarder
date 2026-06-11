@@ -1,4 +1,9 @@
 @use "../../styles/variables.scss" as *;
+@use "../../styles/panels.scss" as panels;
+
+body.search-active {
+  overflow: hidden;
+}
 
 .search {
   display: flex;
@@ -13,7 +18,7 @@
     border-radius: $radius-md;
     color: var(--secondary);
     font-family: inherit;
-    font-size: 0.95rem;
+    font-size: $meta-md;
     height: 2.25rem;
     padding: 0;
     display: flex;
@@ -24,9 +29,9 @@
     width: 100%;
     justify-content: space-between;
     transition:
-      background-color 0.2s ease,
-      border-color 0.2s ease,
-      color 0.2s ease;
+      background-color $transition-base,
+      border-color $transition-base,
+      color $transition-base;
 
     & > p {
       display: inline;
@@ -42,8 +47,8 @@
 
       .search-path {
         stroke: currentColor;
-        stroke-width: 2px;
-        transition: stroke 0.5s ease;
+        stroke-width: var(--icon-stroke-width);
+        transition: stroke $transition-base;
       }
     }
 
@@ -51,8 +56,13 @@
     &:focus {
       background-color: var(--light);
       border-color: var(--gray);
-      color: var(--dark);
+      color: var(--secondary);
       outline: none;
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--secondary);
+      outline-offset: 2px;
     }
   }
 
@@ -78,7 +88,6 @@
       &:focus,
       &:focus-visible,
       &:active {
-        outline: none;
         box-shadow: none;
         border: none;
         background: transparent;
@@ -96,50 +105,34 @@
     height: 100vh;
     overflow-y: auto;
     display: none;
-    background-color: color-mix(in srgb, var(--dark) 36%, transparent);
-    backdrop-filter: blur(4px);
+    padding: 0.75rem;
+    box-sizing: border-box;
+    @include panels.overlay-backdrop;
 
     &.active {
-      display: inline-block;
+      display: block;
     }
 
     & > .search-space {
+      position: relative;
       width: 65%;
       margin-top: 12vh;
       margin-left: auto;
       margin-right: auto;
-      border: 1px solid var(--gray);
-      border-radius: $radius-md;
-      background: var(--lightgray);
-      box-shadow:
-        0 14px 50px rgba(27, 33, 48, 0.12),
-        0 10px 30px rgba(27, 33, 48, 0.16);
       overflow: hidden;
+      @include panels.overlay-panel;
 
       @media all and not ($desktop) {
         width: 90%;
       }
 
-      & > * {
-        width: 100%;
-        background: transparent;
-        border: none;
-        border-radius: 0;
-        box-shadow: none;
-        margin-bottom: 0;
-      }
+      .search-header {
+        .search-bar {
+          @include panels.panel-header-field;
+        }
 
-      & > input {
-        box-sizing: border-box;
-        padding: 0.5em 1em;
-        font-family: var(--bodyFont);
-        color: var(--dark);
-        font-size: 1.1em;
-        background: var(--lightgray);
-        border-bottom: 1px solid var(--gray);
-
-        &:focus {
-          outline: none;
+        .search-close {
+          @include panels.panel-close-inline;
         }
       }
 
@@ -147,8 +140,13 @@
         display: none;
         flex-direction: row;
         flex: 0 0 100%;
+        width: 100%;
         box-sizing: border-box;
-        background: var(--lightgray);
+        background: var(--light);
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        margin-bottom: 0;
 
         &.display-results {
           display: flex;
@@ -213,11 +211,16 @@
           line-height: 1.5em;
           font-weight: $normalWeight;
           overflow-y: auto;
-          padding: 0 2rem;
+          padding: 1.5rem 2rem 2rem;
+          background: var(--light);
 
           & .preview-inner {
             margin: 0 auto;
             width: min($pageWidth, 100%);
+
+            & > *:first-child {
+              margin-top: 0;
+            }
           }
 
           a[role="anchor"] {
@@ -227,12 +230,13 @@
 
         & > .results-container {
           overflow-y: auto;
+          background: var(--light);
 
           & .result-card {
             overflow: hidden;
             padding: 1em;
             cursor: pointer;
-            transition: background 0.2s ease;
+            transition: background $transition-base;
             border-bottom: 1px solid var(--gray);
             width: 100%;
             display: block;
@@ -251,7 +255,12 @@
             &:hover,
             &:focus,
             &.focus {
-              background: color-mix(in srgb, var(--gray) 22%, var(--lightgray));
+              background: color-mix(in srgb, var(--gray) 22%, var(--light));
+            }
+
+            &:focus-visible {
+              outline: 2px solid var(--secondary);
+              outline-offset: -2px;
             }
 
             & > h3 {

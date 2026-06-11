@@ -8,9 +8,11 @@ const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
 
   return (
     <article class="popover-hint">
-      <h1>This page has not been made yet.<br/><br/>It will still appear in the graph view.</h1>
-      <br/><br/>
-      <a href={baseDir}>{i18n(cfg.locale).pages.error.home}</a>
+      <h1>This page has not been made yet.</h1>
+      <p>It will still appear in the graph view.</p>
+      <p>
+        <a href={baseDir} class="internal">{i18n(cfg.locale).pages.error.home}</a>
+      </p>
     </article>
   )
 }

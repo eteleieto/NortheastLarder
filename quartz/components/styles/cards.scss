@@ -13,7 +13,7 @@
   margin: 2rem 0;
 }
 
-@media all and (max-width: 1200px) {
+@media all and ($tablet) {
   .card-list-container,
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
@@ -21,7 +21,7 @@
   }
 }
 
-@media all and (max-width: 800px) {
+@media all and ($mobile) {
   .card-list-container,
   .grid-container {
     grid-template-columns: 1fr;
@@ -35,7 +35,6 @@
   color: inherit;
   background-color: transparent;
   display: block;
-  outline: none;
 
   &:focus,
   &:focus-visible {
@@ -49,12 +48,9 @@
   border-radius: $radius-md;
   overflow: hidden;
   background-color: var(--light);
-  transition:
-    border-color 0.2s ease,
-    box-shadow 0.2s ease;
+  transition: border-color $transition-base;
   cursor: pointer;
   height: 100%;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
   border: 1px solid var(--gray);
   isolation: isolate;
 }
@@ -70,14 +66,13 @@
     z-index: 1;
     background: color-mix(in srgb, var(--light) 72%, transparent);
     pointer-events: none;
-    transition: background 0.2s ease;
+    transition: background $transition-base;
   }
 }
 
 .card-item-link:hover .card-item,
 .grid-item-link:hover .grid-item {
   border-color: var(--secondary);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card-item-link:hover .card-item.has-bg::after,
@@ -95,7 +90,7 @@
   background-repeat: no-repeat;
   opacity: 0.45;
   pointer-events: none;
-  transition: opacity 0.2s ease;
+  transition: opacity $transition-base;
 }
 
 .card-item-link:hover .card-item-bg,
@@ -112,17 +107,17 @@
 
 .card-item-meta,
 .grid-item-meta {
-  color: var(--gray);
-  font-size: 0.85rem;
+  @include meta-muted;
+  font-size: $meta-sm;
   margin-bottom: 0.5rem;
 }
 
 .card-item-title,
 .grid-item-title {
   margin: 0 0 0.75rem 0;
-  font-family: var(--headerFont);
+  font-family: var(--bodyFont);
   font-size: 1.0625rem;
-  font-weight: 500;
+  font-weight: $mediumWeight;
   line-height: 1.35;
   color: var(--dark);
 }
@@ -134,8 +129,9 @@
 
 .card-item-description,
 .grid-item-description {
-  color: var(--darkgray);
-  font-size: 0.9rem;
+  // Mid-gray: --darkgray reads as bold as the title, --gray is too faint to read
+  color: color-mix(in srgb, var(--darkgray) 65%, var(--light));
+  font-size: $meta-md;
   line-height: 1.4;
   margin: 0;
   overflow: hidden;

@@ -6,11 +6,11 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const baseDir = pathToRoot(fileData.slug!)
   const logoPath = joinSegments(baseDir, "static/logo.png")
   return (
-    <h2 class={classNames(displayClass, "page-title")}>
+    <div class={classNames(displayClass, "page-title")}>
       <a href={baseDir} aria-label={cfg?.pageTitle} style={{ display: "flex", alignItems: "center" }}>
         <img src={logoPath} alt="" class="site-logo" />
       </a>
-    </h2>
+    </div>
   )
 }
 
@@ -35,7 +35,6 @@ PageTitle.css = `
     height: 2.6em;
     width: auto;
     max-height: 2.6em;
-    max-width: 2.6em;
     margin: 0;
     object-fit: contain;
   }
@@ -55,7 +54,6 @@ PageTitle.css = `
       .site-logo {
         height: 2.25rem;
         max-height: 2.25rem;
-        max-width: 2.25rem;
         width: auto;
       }
     }

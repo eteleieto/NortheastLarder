@@ -1,0 +1,112 @@
+@use "./variables.scss" as *;
+
+// Shared overlay panel chrome (search, graph, popovers)
+@mixin overlay-backdrop {
+  background-color: color-mix(in srgb, var(--dark) 36%, transparent);
+  backdrop-filter: blur(4px);
+}
+
+@mixin overlay-panel {
+  border: 1px solid var(--gray);
+  border-radius: $radius-md;
+  background: var(--light);
+  box-shadow: $shadow-overlay;
+}
+
+@mixin panel-header {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-bottom: 1px solid var(--gray);
+  background: var(--light);
+  min-height: 3rem;
+}
+
+@mixin panel-header-title {
+  flex: 1;
+  min-width: 0;
+  padding: 0.65rem 1em;
+  font-family: var(--bodyFont);
+  font-size: 1.1em;
+  font-weight: $mediumWeight;
+  color: var(--dark);
+  line-height: 1.2;
+}
+
+@mixin panel-header-field {
+  flex: 1;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 0.65rem 0.5rem 0.65rem 1em;
+  font-family: var(--bodyFont);
+  color: var(--dark);
+  font-size: 1.1em;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0;
+
+  &:focus,
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+@mixin panel-close-inline {
+  @include panel-close-button;
+  position: static;
+  flex-shrink: 0;
+  margin: 0.5rem;
+  font-size: 0;
+
+  svg {
+    display: block;
+    width: 1.125rem;
+    height: 1.125rem;
+  }
+}
+
+@mixin panel-close-button {
+  position: absolute;
+  top: 0.65rem;
+  right: 0.65rem;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  cursor: pointer;
+  background: var(--light);
+  border: 1px solid var(--gray);
+  border-radius: $radius-md;
+  font-family: var(--bodyFont);
+  font-size: 1.35rem;
+  line-height: 1;
+  font-weight: $normalWeight;
+  color: var(--secondary);
+  transition:
+    background-color $transition-base,
+    border-color $transition-base,
+    color $transition-base;
+
+  &:hover {
+    color: var(--dark);
+    border-color: var(--secondary);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--secondary);
+    outline-offset: 2px;
+  }
+}
+
+.panel-header {
+  @include panel-header;
+}
+
+.panel-header-title {
+  @include panel-header-title;
+}

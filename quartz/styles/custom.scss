@@ -3,7 +3,14 @@
 @use "../components/styles/cards.scss";
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Lucide-style UI icons: thinner strokes site-wide
+svg[stroke="currentColor"]:not(.readerIcon) {
+  stroke-width: var(--icon-stroke-width);
+}
+
+.search-path {
+  stroke-width: var(--icon-stroke-width);
+}
 
 // Footer links: base.scss loads in the bundle before component styles.
 footer .footer-row {
@@ -24,6 +31,7 @@ footer .footer-row {
 
 // Article wikilinks: underline only, no highlight pill or bold weight
 article a.internal:not(.card-item-link):not(.grid-item-link),
+.preview-inner a.internal:not(.card-item-link):not(.grid-item-link),
 .popover-inner a.internal {
   color: var(--darkgray);
   font-weight: $normalWeight;
@@ -84,29 +92,51 @@ a.tag-link[href*="IN-PROGRESS"],
   }
 }
 
-// Body copy — serif for reading
+// Body copy
 body, p, li, td, th, .popover-hint, article {
   font-size: 1.0625rem;
   line-height: 1.72;
   font-family: var(--bodyFont);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-// Headings and UI labels — sans for structure
+// Restore emphasis contrast now that body copy reads lighter
+// (strong weight set in base.scss)
+
+// Interactive focus for elements that suppress default outlines
+button:focus-visible,
+.card-item-link:focus-visible,
+.grid-item-link:focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 2px;
+}
+
+.card-item-link:focus-visible .card-item,
+.grid-item-link:focus-visible .grid-item {
+  border-color: var(--secondary);
+}
+
+// Headings and UI labels — Newsreader throughout
 h1,
-h2,
+h2 {
+  font-family: var(--headerFont);
+  font-weight: 400;
+}
+
 h3,
 h4,
 h5,
 h6,
-thead,
+thead {
+  font-family: var(--bodyFont);
+}
+
 .page-title,
-.sidebar button.category-links-header h3,
-.sidebar button.toc-header h3,
-.sidebar .recent-notes > h3,
-.sidebar .graph.graph--preview > h3,
-.sidebar .backlinks > h3 {
-  font-family: var(--headerFont);
-  font-weight: 500;
+.rail-label {
+  font-family: var(--bodyFont);
+  font-weight: $mediumWeight;
 }
 
 // Center column top inset — only when the title lives inside <article> (landing pages),
@@ -160,7 +190,7 @@ body[data-slug="index"] {
 
     > h1 {
       font-size: 1.875rem;
-      font-weight: 600;
+      font-weight: 400;
       line-height: 1.25;
       margin-top: 0;
       margin-bottom: 0;
@@ -190,7 +220,7 @@ body[data-slug="index"] {
         font-size: 1.25rem;
       }
 
-      &:first-of-type {
+      &:not(:last-of-type) {
         margin-bottom: 1.25rem;
       }
 
@@ -227,14 +257,14 @@ video[style*="width"] {
 
 // Footnotes / bibliography section typography
 .footnotes {
-  font-size: 0.95rem;
+  font-size: $meta-md;
   color: var(--darkgray);
 
   ol {
     padding-left: 1.75rem;
 
     li {
-      font-size: 0.95rem;
+      font-size: $meta-md;
       line-height: 1.65;
       margin-bottom: 0.6rem;
 
@@ -269,8 +299,8 @@ video[style*="width"] {
       height: 14px;
       vertical-align: middle;
       background-color: currentColor;
-      -webkit-mask: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 14L4 9l5-5'/%3E%3Cpath d='M20 20v-7a4 4 0 0 0-4-4H4'/%3E%3C/svg%3E") no-repeat center / 14px;
-      mask: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 14L4 9l5-5'/%3E%3Cpath d='M20 20v-7a4 4 0 0 0-4-4H4'/%3E%3C/svg%3E") no-repeat center / 14px;
+      -webkit-mask: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1' stroke-linecap='round' stroke-linejoin='round' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 14L4 9l5-5'/%3E%3Cpath d='M20 20v-7a4 4 0 0 0-4-4H4'/%3E%3C/svg%3E") no-repeat center / 14px;
+      mask: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1' stroke-linecap='round' stroke-linejoin='round' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 14L4 9l5-5'/%3E%3Cpath d='M20 20v-7a4 4 0 0 0-4-4H4'/%3E%3C/svg%3E") no-repeat center / 14px;
     }
   }
 

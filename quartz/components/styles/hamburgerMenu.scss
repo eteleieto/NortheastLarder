@@ -7,36 +7,69 @@
   cursor: pointer;
   padding: 0.5rem;
   flex-direction: column;
-  justify-content: space-around;
-  width: 2rem;
-  height: 2rem;
+  justify-content: center;
+  gap: 5px;
+  width: 2.5rem;
+  height: 2.5rem;
   z-index: 1001;
   position: relative;
+  flex-shrink: 0;
+  -webkit-tap-highlight-color: transparent;
 
   @media all and ($mobile) {
     display: flex;
   }
 
+  &:focus-visible {
+    outline: 2px solid var(--secondary);
+    outline-offset: 2px;
+  }
+
   .hamburger-line {
-    width: 100%;
+    display: block;
+    width: 1.25rem;
     height: 2px;
     background-color: var(--darkgray);
     border-radius: 1px;
+    transition:
+      transform $transition-base,
+      opacity $transition-base;
+    transform-origin: center;
+  }
+
+  &.open {
+    .hamburger-line:nth-child(1) {
+      transform: translateY(7px) rotate(45deg);
+    }
+
+    .hamburger-line:nth-child(2) {
+      opacity: 0;
+    }
+
+    .hamburger-line:nth-child(3) {
+      transform: translateY(-7px) rotate(-45deg);
+    }
   }
 }
 
-.hamburger-overlay {
+.hamburger-menu {
   display: none;
   position: fixed;
-  top: 0;
-  left: 0;
+  inset: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 999;
+  height: 100dvh;
+  background-color: var(--light);
+  z-index: 1000;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
   opacity: 0;
-  transition: opacity 0.3s ease;
   pointer-events: none;
+  visibility: hidden;
+  transition:
+    opacity $transition-panel ease,
+    visibility $transition-panel ease;
 
   @media all and ($mobile) {
     display: block;
@@ -45,37 +78,18 @@
   &.open {
     opacity: 1;
     pointer-events: auto;
-  }
-}
-
-.hamburger-menu {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: -320px;
-  width: 300px;
-  height: 100vh;
-  background-color: var(--light);
-  z-index: 1000;
-  transition: left 0.3s ease;
-  overflow-y: auto;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
-
-  @media all and ($mobile) {
-    display: block;
+    visibility: visible;
   }
 
-  &.open {
-    left: 0;
-  }
-
+  // Drawer layout — same section model as sidebar rails
   .hamburger-content {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
-    padding: 1.5rem 1.5rem 2rem 1.5rem;
+    gap: 1.75rem;
+    padding: 4rem 1.5rem 3rem;
+    min-height: 100%;
+    box-sizing: border-box;
 
-    // Match desktop sidebar typography in the mobile drawer
     --sidebar-section-size: 1.05rem;
     --sidebar-link-size: 1rem;
     --sidebar-meta-size: 0.8125rem;
@@ -83,12 +97,40 @@
     --sidebar-section-gap: 0.75rem;
     --sidebar-item-gap: 0.55rem;
 
-    // Subtle separator between adjacent nav sections inside the drawer
+    & > .category-links,
+    & > .recent-notes {
+      margin: 0;
+      min-height: 0;
+      flex: 0 0 auto;
+    }
+
+    // Section labels only — lists stay open in the drawer
+    .category-links-header {
+      pointer-events: none;
+      cursor: default;
+
+      .fold {
+        display: none;
+      }
+    }
+
+    .category-list.collapsed {
+      display: flex;
+    }
+
+    & > .category-links + .category-links,
     & > .category-links + .recent-notes,
     & > .recent-notes + .recent-notes,
     & > .recent-notes + .category-links {
       border-top: 1px solid var(--lightgray);
-      padding-top: 1.5rem;
+      padding-top: 1.75rem;
     }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hamburger-toggle .hamburger-line,
+  .hamburger-menu {
+    transition: none;
   }
 }

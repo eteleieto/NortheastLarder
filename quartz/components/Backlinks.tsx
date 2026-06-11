@@ -30,7 +30,7 @@ export default ((opts?: Partial<BacklinksOptions>) => {
     }
     return (
       <div class={classNames(displayClass, "backlinks")}>
-        <h3>{i18n(cfg.locale).components.backlinks.title}</h3>
+        <div class="rail-label">{i18n(cfg.locale).components.backlinks.title}</div>
         <OverflowList>
           {backlinkFiles.length > 0 ? (
             backlinkFiles.map((f) => (

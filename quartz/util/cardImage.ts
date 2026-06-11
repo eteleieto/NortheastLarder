@@ -59,11 +59,14 @@ export function extractFirstImageFromText(content: string): string | null {
 }
 
 export function getCardImage(source: {
+  cardImage?: string
   htmlAst?: unknown
   text?: string
   content?: string
   description?: string
 }): string | null {
+  if (source.cardImage) return source.cardImage
+
   const fromAst = extractFirstImageFromAST(source.htmlAst)
   if (fromAst) return fromAst
 

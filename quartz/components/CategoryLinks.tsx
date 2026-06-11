@@ -43,16 +43,18 @@ export default ((userOpts?: Partial<Options>) => {
   }: QuartzComponentProps) => {
     const opts = { ...defaultOptions(cfg), ...userOpts }
     const title = opts.title ?? "Browse"
+    // Several instances can coexist (right rail + mobile drawer sections)
+    const listId = `category-list-${title.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`
 
     return (
       <nav class={classNames(displayClass, "category-links")} aria-label={title}>
         <button
           type="button"
           class="category-links-header"
-          aria-controls="category-list"
+          aria-controls={listId}
           aria-expanded={true}
         >
-          <h3>{title}</h3>
+          <span class="rail-label">{title}</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -60,7 +62,7 @@ export default ((userOpts?: Partial<Options>) => {
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            stroke-width="2"
+            stroke-width="1"
             stroke-linecap="round"
             stroke-linejoin="round"
             class="fold"
@@ -69,7 +71,7 @@ export default ((userOpts?: Partial<Options>) => {
             <polyline points="6 9 12 15 18 9"></polyline>
           </svg>
         </button>
-        <ul class="category-list" id="category-list">
+        <ul class="category-list" id={listId}>
           {opts.categories.map((category) => (
             <li class="category-item">
               {isActionItem(category) ? (

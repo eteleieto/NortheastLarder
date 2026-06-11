@@ -1,4 +1,5 @@
 @use "../../styles/variables.scss" as *;
+@use "../../styles/panels.scss" as panels;
 
 body.global-graph-active {
   overflow: hidden;
@@ -34,21 +35,31 @@ body.global-graph-active {
         display: flex;
         align-items: center;
         justify-content: center;
-        transition:
-          background-color 0.2s ease,
-          border-color 0.2s ease,
-          color 0.2s ease;
+        transition: background-color 0.5s ease;
 
         &:hover {
           background-color: var(--light);
           border-color: var(--gray);
-          color: var(--dark);
+          color: var(--secondary);
+        }
+
+        &:focus-visible {
+          outline: 2px solid var(--secondary);
+          outline-offset: 2px;
         }
       }
 
       > .graph-container {
         width: 100%;
         height: 100%;
+      }
+    }
+
+    @media all and ($mobile) {
+      width: 100%;
+
+      > .graph-outer {
+        height: 16rem;
       }
     }
   }
@@ -69,8 +80,7 @@ body.global-graph-active {
   box-sizing: border-box;
   overflow: hidden;
   display: none;
-  background-color: color-mix(in srgb, var(--dark) 36%, transparent);
-  backdrop-filter: blur(4px);
+  @include panels.overlay-backdrop;
 
   &.active {
     display: block;
@@ -88,53 +98,20 @@ body.global-graph-active {
     position: relative;
     width: 100%;
     height: 100%;
-    border: 1px solid var(--gray);
-    border-radius: $radius-md;
-    background: var(--lightgray);
-    box-shadow:
-      0 14px 50px rgba(27, 33, 48, 0.12),
-      0 10px 30px rgba(27, 33, 48, 0.16);
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    @include panels.overlay-panel;
   }
 
   .global-graph-close {
-    position: absolute;
-    top: 0.65rem;
-    right: 0.65rem;
-    z-index: 2;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 2rem;
-    height: 2rem;
-    padding: 0;
-    background: var(--light);
-    border: 1px solid var(--gray);
-    border-radius: $radius-md;
-    font-family: var(--bodyFont);
-    font-size: 1.35rem;
-    line-height: 1;
-    font-weight: $normalWeight;
-    color: var(--secondary);
-    transition:
-      background-color 0.2s ease,
-      border-color 0.2s ease,
-      color 0.2s ease;
-
-    &:hover {
-      background-color: var(--light);
-      border-color: var(--gray);
-      color: var(--dark);
-    }
+    @include panels.panel-close-inline;
   }
 
   .global-graph-container {
     flex: 1;
     min-height: 0;
-    background-color: var(--lightgray);
+    background-color: var(--light);
     box-sizing: border-box;
     width: 100%;
   }

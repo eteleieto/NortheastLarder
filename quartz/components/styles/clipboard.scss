@@ -7,28 +7,30 @@
   right: 0;
   padding: 0.4rem;
   margin: 0.3rem;
-  color: var(--gray);
-  border-color: var(--dark);
+  color: var(--secondary);
   background-color: var(--light);
-  border: 1px solid;
+  border: 1px solid var(--gray);
   border-radius: $radius-sm;
   opacity: 0;
   transition:
-    border-color 0.2s ease,
-    opacity 0.2s ease;
+    border-color $transition-base,
+    opacity $transition-base,
+    color $transition-base;
 
   & > svg {
-    fill: var(--light);
-    filter: contrast(0.3);
+    fill: currentColor;
   }
 
   &:hover {
     cursor: pointer;
     border-color: var(--secondary);
+    color: var(--dark);
   }
 
-  &:focus {
-    outline: 0;
+  &:focus-visible {
+    opacity: 1;
+    outline: 2px solid var(--secondary);
+    outline-offset: 2px;
   }
 }
 

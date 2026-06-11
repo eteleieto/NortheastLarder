@@ -19,6 +19,7 @@ export type ContentDetails = {
   richContent?: string
   date?: Date
   description?: string
+  cardImage?: string
   htmlAst?: any
 }
 
@@ -116,6 +117,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
               : undefined,
             date: date,
             description: file.data.description ?? "",
+            cardImage: file.data.cardImage,
             htmlAst: tree,
           })
         }
@@ -142,10 +144,10 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       const fp = joinSegments("static", "contentIndex") as FullSlug
       const simplifiedIndex = Object.fromEntries(
         Array.from(linkIndex).map(([slug, content]) => {
-          // remove description and from content index as nothing downstream
-          // actually uses it. we only keep it in the index as we need it
-          // for the RSS feed
+          // remove description and htmlAst from content index — nothing downstream
+          // uses them. we only keep description in the index for the RSS feed.
           delete content.description
+          delete content.htmlAst
           return [slug, content]
         }),
       )

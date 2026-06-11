@@ -11,10 +11,10 @@ export default (() => {
     )
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <div class="footer-row">
-          {link("About-Us", "About")}
+        <nav class="footer-row footer-nav" aria-label="Site">
+          {link("About-Us", "About Us")}
           <span class="footer-sep" aria-hidden="true">·</span>
-          {link("For-Restaurants", "Contact")}
+          {link("For-Restaurants", "For Restaurants")}
           <span class="footer-sep" aria-hidden="true">·</span>
           {link("Documentation", "Documentation")}
           <span class="footer-sep" aria-hidden="true">·</span>
@@ -23,7 +23,8 @@ export default (() => {
           <button type="button" class="graph-open footer-link">
             Graph
           </button>
-          <span class="footer-sep" aria-hidden="true">·</span>
+        </nav>
+        <div class="footer-row footer-meta-row">
           <a
             class="footer-icon-link"
             href="https://www.instagram.com/northeastlarder/"
@@ -37,7 +38,7 @@ export default (() => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
+              stroke-width="1"
               stroke-linecap="round"
               stroke-linejoin="round"
             >

@@ -30,6 +30,18 @@ const browseNavHome = Component.CategoryLinks({
   categories: browseCategories,
 })
 
+// Primary site pages — surfaced in the mobile drawer (desktop reaches them
+// via the home intro links and the footer).
+const pagesNav = Component.CategoryLinks({
+  title: "Pages",
+  categories: [
+    { name: "About Us", slug: "About-Us" as SimpleSlug },
+    { name: "For Restaurants", slug: "For-Restaurants" as SimpleSlug },
+    { name: "Documentation", slug: "Documentation" as SimpleSlug },
+    { name: "Bookshelf", slug: "Bookshelf" as SimpleSlug },
+  ],
+})
+
 const recentBlogPosts = Component.RecentNotes({
   title: "Recent Blog Posts",
   showTags: false,
@@ -63,7 +75,8 @@ const leftSidebar = [
   Component.MobileOnly(Component.Search()),
   Component.MobileOnly(
     Component.HamburgerMenu({
-      children: [recentBlogPosts, recentNotes],
+      // Hierarchy: site pages first, then content categories, then recency
+      children: [pagesNav, browseNavHome, recentBlogPosts, recentNotes],
     }),
   ),
   Component.DesktopOnly(recentBlogPosts),
@@ -73,12 +86,13 @@ const leftSidebar = [
 // Right rail: browse and page-contextual tools.
 const rightSidebar = [
   Component.DesktopOnly(Component.Search()),
+  // Desktop/tablet only — the mobile drawer carries Browse instead
   Component.ConditionalRender({
-    component: browseNavHome,
+    component: Component.DesktopOnly(browseNavHome),
     condition: (page) => isHomePage(page.fileData.slug),
   }),
   Component.ConditionalRender({
-    component: browseNav,
+    component: Component.DesktopOnly(browseNav),
     condition: (page) => !isHomePage(page.fileData.slug),
   }),
   Component.ConditionalRender({
@@ -86,7 +100,7 @@ const rightSidebar = [
     condition: (page) => !isLandingPage(page.fileData.slug),
   }),
   Component.ConditionalRender({
-    component: Component.Backlinks(),
+    component: Component.DesktopOnly(Component.Backlinks()),
     condition: (page) => !isLandingPage(page.fileData.slug),
   }),
   Component.ConditionalRender({
@@ -98,7 +112,8 @@ const rightSidebar = [
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [Component.Graph()],
+  // fitView: start the overlay zoomed so every node is visible
+  afterBody: [Component.Graph({ globalGraph: { fitView: true } })],
   footer: Component.Footer(),
 }
 
@@ -121,5 +136,5 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.ContentMeta()],
   left: leftSidebar,
-  right: [Component.DesktopOnly(Component.Search()), browseNav],
+  right: [Component.DesktopOnly(Component.Search()), Component.DesktopOnly(browseNav)],
 }

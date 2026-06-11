@@ -1,6 +1,6 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 // @ts-ignore
-import script from "./scripts/graph.inline"
+import script from "./scripts/graph.loader.inline"
 import style from "./styles/graph.scss"
 import { i18n } from "../i18n"
 import { classNames } from "../util/lang"
@@ -75,7 +75,7 @@ export default ((opts?: Partial<GraphOptions>) => {
       <div class={classNames(displayClass, "graph", showPreview && "graph--preview")}>
         {showPreview && (
           <>
-            <h3>{i18n(cfg.locale).components.graph.title}</h3>
+            <div class="rail-label">{i18n(cfg.locale).components.graph.title}</div>
             <div class="graph-outer">
               <button
                 type="button"
@@ -88,7 +88,7 @@ export default ((opts?: Partial<GraphOptions>) => {
                   width="16"
                   height="16"
                   viewBox="0 0 24 24"
-                  stroke-width="2"
+                  stroke-width="1"
                   stroke="currentColor"
                   fill="none"
                   stroke-linecap="round"
@@ -109,9 +109,26 @@ export default ((opts?: Partial<GraphOptions>) => {
           <div class="global-graph-outer" aria-hidden="true">
             <div class="global-graph-space">
               <div class="global-graph-panel">
-                <button type="button" class="global-graph-close" aria-label="Close">
-                  ×
-                </button>
+                <div class="panel-header global-graph-header">
+                  <span class="panel-header-title">{i18n(cfg.locale).components.graph.title}</span>
+                  <button type="button" class="global-graph-close" aria-label="Close">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <line x1="18" y1="6" x2="6" y2="18"></line>
+                      <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                  </button>
+                </div>
                 <div class="global-graph-container" data-cfg={JSON.stringify(globalGraph)}></div>
               </div>
             </div>

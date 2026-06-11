@@ -2,14 +2,16 @@
 
 footer {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
   align-self: stretch;
   text-align: left;
   margin: 2rem 0 3rem 0;
   padding: 1.5rem 0;
   border-top: 1px solid var(--lightgray);
   opacity: 0.75;
-  font-size: 0.95rem;
+  font-size: $meta-md;
   line-height: 1.6;
   box-sizing: border-box;
 
@@ -60,6 +62,15 @@ footer {
     }
   }
 
+  // Meta row sits below the nav row, smaller and muted
+  .footer-meta-row {
+    font-size: $meta-sm;
+
+    a {
+      color: var(--darkgray);
+    }
+  }
+
   .footer-sep {
     color: var(--gray);
     user-select: none;
@@ -67,13 +78,13 @@ footer {
 
   .footer-meta {
     color: var(--darkgray);
-    font-size: 0.9rem;
+    font-size: inherit;
   }
 
   @media all and ($mobile) {
     margin: 1.5rem 0 2rem 0;
     padding: 1.25rem 0;
-    font-size: 0.9rem;
+    font-size: $meta-sm;
 
     .footer-row {
       gap: 0.4rem;

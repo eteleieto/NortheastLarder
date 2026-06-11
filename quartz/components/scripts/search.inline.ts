@@ -158,6 +158,8 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
   const searchLayout = searchElement.querySelector(".search-layout") as HTMLElement
   if (!searchLayout) return
 
+  const searchClose = searchElement.querySelector(".search-close") as HTMLButtonElement
+
   const idDataMap = Object.keys(data) as FullSlug[]
   const appendLayout = (el: HTMLElement) => {
     searchLayout.appendChild(el)
@@ -176,8 +178,17 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
     appendLayout(preview)
   }
 
+  function focusSearchInput() {
+    // Defer until after display toggle so the input is focusable
+    requestAnimationFrame(() => {
+      searchBar.focus({ preventScroll: true })
+    })
+  }
+
   function hideSearch() {
     container.classList.remove("active")
+    container.setAttribute("aria-hidden", "true")
+    document.body.classList.remove("search-active")
     searchBar.value = "" // clear the input when we dismiss the search
     if (sidebar) sidebar.style.zIndex = ""
     removeAllChildren(results)
@@ -193,7 +204,9 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
     searchType = searchTypeNew
     if (sidebar) sidebar.style.zIndex = "1"
     container.classList.add("active")
-    searchBar.focus()
+    container.setAttribute("aria-hidden", "false")
+    document.body.classList.add("search-active")
+    focusSearchInput()
   }
 
   let currentHover: HTMLInputElement | null = null
@@ -211,6 +224,7 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
 
       // add "#" prefix for tag search
       searchBar.value = "#"
+      focusSearchInput()
       return
     }
 
@@ -451,12 +465,24 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
 
   document.addEventListener("keydown", shortcutHandler)
   window.addCleanup(() => document.removeEventListener("keydown", shortcutHandler))
-  searchButton.addEventListener("click", () => showSearch("basic"))
-  window.addCleanup(() => searchButton.removeEventListener("click", () => showSearch("basic")))
+  const openSearch = () => showSearch("basic")
+  searchButton.addEventListener("click", openSearch)
+  window.addCleanup(() => searchButton.removeEventListener("click", openSearch))
+  searchClose?.addEventListener("click", hideSearch)
+  window.addCleanup(() => searchClose?.removeEventListener("click", hideSearch))
   searchBar.addEventListener("input", onType)
   window.addCleanup(() => searchBar.removeEventListener("input", onType))
 
   registerEscapeHandler(container, hideSearch)
+
+  const onBackdropClick = (e: MouseEvent) => {
+    if (e.target === container) {
+      hideSearch()
+    }
+  }
+  container.addEventListener("click", onBackdropClick)
+  window.addCleanup(() => container.removeEventListener("click", onBackdropClick))
+
   await fillDocument(data)
 }
 

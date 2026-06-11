@@ -411,6 +411,8 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   for (const n of graphData.nodes) {
     const nodeId = n.id
+    const isTagNode = nodeId.startsWith("tags/")
+    const isUnresolved = unresolvedNodes.has(nodeId)
 
     const label = new Text({
       interactive: false,
@@ -420,7 +422,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       anchor: { x: 0.5, y: 1.2 },
       style: {
         fontSize: fontSize * 15,
-        fill: computedStyleMap["--dark"],
+        fill: isUnresolved ? computedStyleMap["--gray"] : computedStyleMap["--dark"],
         fontFamily: computedStyleMap["--bodyFont"],
       },
       resolution: window.devicePixelRatio * 4,
@@ -428,14 +430,13 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     label.scale.set(1 / scale)
 
     let oldLabelOpacity = 0
-    const isTagNode = nodeId.startsWith("tags/")
-    const isUnresolved = unresolvedNodes.has(nodeId)
     const gfx = new Graphics({
       interactive: true,
       label: nodeId,
       eventMode: "static",
       hitArea: new Circle(0, 0, nodeRadius(n)),
-      cursor: "pointer",
+      // Unresolved pages have nothing to navigate to
+      cursor: isUnresolved ? "default" : "pointer",
     })
       .circle(0, 0, nodeRadius(n))
       .fill({ color: isTagNode ? computedStyleMap["--light"] : color(n), alpha: isUnresolved ? 0 : 1 })
@@ -569,6 +570,8 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
           // if the time between mousedown and mouseup is short, we consider it a click
           if (Date.now() - dragStartTime < 500) {
             const node = graphData.nodes.find((n) => n.id === event.subject.id) as NodeData
+            // unresolved pages would 404
+            if (unresolvedNodes.has(node.id)) return
             const targ = resolveRelative(fullSlug, node.id)
             window.spaNavigate(new URL(targ, window.location.toString()))
           }
@@ -576,6 +579,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     )
   } else {
     for (const node of nodeRenderData) {
+      if (unresolvedNodes.has(node.simulationData.id)) continue
       node.gfx.on("click", () => {
         const targ = resolveRelative(fullSlug, node.simulationData.id)
         window.spaNavigate(new URL(targ, window.location.toString()))

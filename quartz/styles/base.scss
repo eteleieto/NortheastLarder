@@ -9,6 +9,7 @@ html {
   text-size-adjust: none;
   overflow-x: hidden;
   width: 100vw;
+  --icon-stroke-width: 1;
 }
 
 body,
@@ -21,7 +22,7 @@ section {
 }
 
 .text-highlight {
-  background-color: var(--textHighlight);
+  background-color: color-mix(in srgb, var(--tertiary) 45%, rgba(255, 255, 255, 0));
   padding: 0 0.1rem;
   border-radius: $radius-sm;
 }
@@ -81,17 +82,22 @@ article {
 }
 
 strong {
-  font-weight: 500;
+  font-weight: $mediumWeight;
 }
 
 a {
   font-weight: $normalWeight;
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: color $transition-base;
   color: var(--secondary);
 
   &:hover {
-    color: var(--tertiary) !important;
+    color: var(--dark) !important;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--secondary);
+    outline-offset: 2px;
   }
 
   &.internal {
@@ -130,7 +136,7 @@ a {
     margin: 0 0.15em;
 
     > path {
-      fill: var(--dark);
+      fill: currentColor;
     }
   }
 }
@@ -405,15 +411,28 @@ h4,
 h5,
 h6,
 thead {
-  font-family: var(--headerFont);
   color: var(--dark);
-  font-weight: 500;
   margin-bottom: 0;
 
   article > & > a[role="anchor"] {
     color: var(--dark);
     background-color: transparent;
   }
+}
+
+h1,
+h2 {
+  font-family: var(--headerFont);
+  font-weight: 400;
+}
+
+h3,
+h4,
+h5,
+h6,
+thead {
+  font-family: var(--bodyFont);
+  font-weight: $mediumWeight;
 }
 
 h1,
@@ -443,7 +462,6 @@ h6 {
 // typography improvements
 h1 {
   font-size: 1.875rem;
-  font-weight: 600;
   margin-top: 2.25rem;
   margin-bottom: 1rem;
 }
@@ -534,7 +552,7 @@ pre {
         margin-right: 1rem;
         display: inline-block;
         text-align: right;
-        color: rgba(115, 138, 148, 0.6);
+        color: color-mix(in srgb, var(--gray) 75%, var(--darkgray));
       }
     }
 
@@ -560,7 +578,7 @@ code {
 tbody,
 li,
 p {
-  line-height: 1.6rem;
+  line-height: 1.72;
 }
 
 .table-container {
@@ -577,7 +595,7 @@ p {
     }
 
     & > * {
-      line-height: 2rem;
+      line-height: 1.72;
     }
   }
 }

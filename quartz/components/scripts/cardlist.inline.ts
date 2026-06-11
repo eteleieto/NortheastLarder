@@ -1,5 +1,3 @@
-import { getCardImage } from "../../util/cardImage"
-
 document.addEventListener("nav", () => {
   renderCardLists()
 })
@@ -86,7 +84,7 @@ function renderCardLists() {
               const title = data.title || slug
               const description = data.description || ""
               const date = data.date ? formatDate(data.date) : ""
-              const firstImage = noImages ? null : getCardImage({ ...data, slug })
+              const firstImage = noImages ? null : data.cardImage ?? null
 
               const bgHtml =
                 firstImage ?

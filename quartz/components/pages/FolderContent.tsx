@@ -1,13 +1,12 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"
 
 import style from "../styles/listPage.scss"
-import { PageList, SortFn } from "../PageList"
+import { GridPageList, SortFn } from "../PageList"
 import { Root } from "hast"
 import { htmlToJsx } from "../../util/jsx"
 import { i18n } from "../../i18n"
 import { QuartzPluginData } from "../../plugins/vfile"
 import { ComponentChildren } from "preact"
-import { concatenateResources } from "../../util/resources"
 import { trieFromAllFiles } from "../../util/ctx"
 
 interface FolderContentOptions {
@@ -114,13 +113,13 @@ export default ((opts?: Partial<FolderContentOptions>) => {
             </p>
           )}
           <div>
-            <PageList {...listProps} />
+            <GridPageList {...listProps} />
           </div>
         </div>
       </div>
     )
   }
 
-  FolderContent.css = concatenateResources(style, PageList.css)
+  FolderContent.css = style
   return FolderContent
 }) satisfies QuartzComponentConstructor

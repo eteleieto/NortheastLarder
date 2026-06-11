@@ -16,8 +16,11 @@ import {
   processGoogleFonts,
 } from "../../util/theme"
 import { Features, transform } from "lightningcss"
-import { transform as transpile } from "esbuild"
+import { build as esbuildBuild, transform as transpile } from "esbuild"
+import path from "path"
 import { write } from "./helpers"
+
+const graphBundlePath = path.join(process.cwd(), "quartz/components/scripts/graph.bundle.ts")
 
 type ComponentResources = {
   css: string[]
@@ -280,9 +283,18 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
         styles,
       )
 
-      const [prescript, postscript] = await Promise.all([
+      const [prescript, postscript, graphBundle] = await Promise.all([
         joinScripts(componentResources.beforeDOMLoaded),
         joinScripts(componentResources.afterDOMLoaded),
+        esbuildBuild({
+          entryPoints: [graphBundlePath],
+          bundle: true,
+          minify: true,
+          format: "esm",
+          platform: "browser",
+          write: false,
+          target: ["safari15", "chrome109", "firefox102", "edge115"],
+        }),
       ])
 
       yield write({
@@ -316,6 +328,13 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
         slug: "postscript" as FullSlug,
         ext: ".js",
         content: postscript,
+      })
+
+      yield write({
+        ctx,
+        slug: "graph" as FullSlug,
+        ext: ".js",
+        content: graphBundle.outputFiles[0].text,
       })
     },
     async *partialEmit() {},

@@ -9,13 +9,19 @@ export default ((opts: HamburgerMenuOptions) => {
   const HamburgerMenu: QuartzComponent = (props: QuartzComponentProps) => {
     return (
       <>
-        <button id="hamburger-toggle" class="hamburger-toggle" aria-label="Toggle menu">
+        <button
+          id="hamburger-toggle"
+          class="hamburger-toggle"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="hamburger-menu"
+        >
           <span class="hamburger-line"></span>
           <span class="hamburger-line"></span>
           <span class="hamburger-line"></span>
         </button>
-        <div id="hamburger-overlay" class="hamburger-overlay"></div>
-        <nav id="hamburger-menu" class="hamburger-menu">
+        <nav id="hamburger-menu" class="hamburger-menu" aria-hidden="true">
           <div class="hamburger-content">
             {opts.children.map((Child) => (
               <Child {...props} />
@@ -27,51 +33,37 @@ export default ((opts: HamburgerMenuOptions) => {
   }
 
   HamburgerMenu.afterDOMLoaded = `
-    // Initialize hamburger behavior on each SPA navigation
     document.addEventListener('nav', () => {
       const hamburgerToggle = document.getElementById('hamburger-toggle');
       const hamburgerMenu = document.getElementById('hamburger-menu');
-      const hamburgerOverlay = document.getElementById('hamburger-overlay');
 
-      // On pages like 404, the hamburger may not be present
-      if (!hamburgerToggle || !hamburgerMenu || !hamburgerOverlay) {
+      if (!hamburgerToggle || !hamburgerMenu) {
         return;
+      }
+
+      function setMenuOpen(isOpen) {
+        hamburgerMenu.classList.toggle('open', isOpen);
+        hamburgerToggle.classList.toggle('open', isOpen);
+        hamburgerToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        hamburgerToggle.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+        hamburgerMenu.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+        document.documentElement.classList.toggle('mobile-no-scroll', isOpen);
       }
 
       function toggleMenu(event) {
         if (event) {
           event.stopPropagation();
         }
-        const isOpen = hamburgerMenu.classList.contains('open');
-        if (isOpen) {
-          hamburgerMenu.classList.remove('open');
-          hamburgerOverlay.classList.remove('open');
-          hamburgerToggle.classList.remove('open');
-          document.body.style.overflow = '';
-          document.documentElement.classList.remove('mobile-no-scroll');
-        } else {
-          hamburgerMenu.classList.add('open');
-          hamburgerOverlay.classList.add('open');
-          hamburgerToggle.classList.add('open');
-          document.body.style.overflow = 'hidden';
-          document.documentElement.classList.add('mobile-no-scroll');
-        }
+        setMenuOpen(!hamburgerMenu.classList.contains('open'));
       }
 
       function closeMenu() {
-        hamburgerMenu.classList.remove('open');
-        hamburgerOverlay.classList.remove('open');
-        hamburgerToggle.classList.remove('open');
-        document.body.style.overflow = '';
-        document.documentElement.classList.remove('mobile-no-scroll');
+        setMenuOpen(false);
       }
 
-      // Ensure menu is closed on nav
       closeMenu();
 
       const onToggleClick = (e) => toggleMenu(e);
-      const onOverlayClick = () => closeMenu();
-      const onMenuClick = (e) => { e.stopPropagation(); };
       const onKeydown = (e) => {
         if (e.key === 'Escape' && hamburgerMenu.classList.contains('open')) {
           closeMenu();
@@ -79,16 +71,10 @@ export default ((opts: HamburgerMenuOptions) => {
       };
 
       hamburgerToggle.addEventListener('click', onToggleClick);
-      hamburgerOverlay.addEventListener('click', onOverlayClick);
-      // Prevent menu content clicks from closing the menu
-      hamburgerMenu.addEventListener('click', onMenuClick);
       document.addEventListener('keydown', onKeydown);
 
-      // Cleanup listeners before the next SPA navigation
       window.addCleanup(() => {
         hamburgerToggle.removeEventListener('click', onToggleClick);
-        hamburgerOverlay.removeEventListener('click', onOverlayClick);
-        hamburgerMenu.removeEventListener('click', onMenuClick);
         document.removeEventListener('keydown', onKeydown);
       });
     });
@@ -96,4 +82,4 @@ export default ((opts: HamburgerMenuOptions) => {
 
   HamburgerMenu.css = style
   return HamburgerMenu
-}) satisfies QuartzComponentConstructor<HamburgerMenuOptions> 
+}) satisfies QuartzComponentConstructor<HamburgerMenuOptions>

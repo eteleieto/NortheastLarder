@@ -25,19 +25,20 @@ const config: QuartzConfig = {
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
-      cdnCaching: true,
-      // Lora for reading; Source Sans 3 for headings and UI; mono for code
+      cdnCaching: false,
+      // Newsreader throughout; mono for code
       typography: {
         title: {
-          name: "Source Sans 3",
-          weights: [500, 600],
+          name: "Newsreader",
+          weights: [400, 500],
         },
         header: {
-          name: "Source Sans 3",
-          weights: [400, 500, 600, 700],
+          name: "Newsreader",
+          weights: [400, 500, 600],
+          includeItalic: true,
         },
         body: {
-          name: "Lora",
+          name: "Newsreader",
           weights: [400, 500, 600],
           includeItalic: true,
         },
@@ -45,10 +46,10 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#fffefa",
+          light: "#ffffff",
           lightgray: "#f8f5ef",
           gray: "#d8cbb8",
-          darkgray: "#000000",
+          darkgray: "#3a3430",
           dark: "#000000",
           secondary: "#473d33",
           tertiary: "#a1887f",
