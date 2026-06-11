@@ -3,6 +3,13 @@
 
 body.search-active {
   overflow: hidden;
+
+  @media all and ($mobile) {
+    // Sit below the search overlay so backdrop blur applies to the icon too
+    .hamburger-toggle {
+      z-index: 0;
+    }
+  }
 }
 
 .search {
