@@ -1,5 +1,6 @@
 @use "./base.scss";
 @use "./sidebar.scss";
+@use "./motion.scss";
 @use "../components/styles/cards.scss";
 @use "./variables.scss" as *;
 
@@ -139,8 +140,32 @@ thead {
   font-weight: $mediumWeight;
 }
 
-// Center column top inset — only when the title lives inside <article> (landing pages),
-// not when title/meta are in .page-header (articles, tag listings).
+// Header-row chrome — logo wordmark, page title, and search share one offset + title band
+@media all and not ($mobile) {
+  #quartz-body {
+    --chrome-offset: #{$topSpacing};
+    --chrome-title-size: #{$chromeTitleSize};
+    --chrome-title-leading: #{$chromeTitleLeading};
+    --chrome-title-band: calc(var(--chrome-title-size) * var(--chrome-title-leading));
+    --chrome-search-height: #{$chromeSearchHeight};
+  }
+
+  #quartz-body .page-header {
+    margin-top: var(--chrome-offset);
+    margin-bottom: 0;
+    align-self: start;
+  }
+
+  // Match search to the page-title line box (not the sidebar padding edge alone)
+  #quartz-body .sidebar.right > .search {
+    flex-shrink: 0;
+    margin-top: 0;
+    min-height: var(--chrome-title-band);
+    align-items: center;
+  }
+}
+
+// Center column top inset — only when the title lives inside <article> (not in .page-header)
 .page .center > article {
   @media all and not ($mobile) {
     padding-top: $topSpacing;
@@ -169,8 +194,12 @@ thead {
   display: none;
 }
 
-// Homepage top area — two sizes only: title + intro
-body[data-slug="index"] {
+// Landing pages: body h1 in the header row beside logo + search (same as home)
+body[data-slug="index"],
+body[data-slug="About-Us"],
+body[data-slug="For-Restaurants"],
+body[data-slug="Documentation"],
+body[data-slug="Bookshelf"] {
   .page-header {
     display: none;
   }
@@ -178,21 +207,33 @@ body[data-slug="index"] {
   article {
     margin-top: 0;
 
-    @media all and ($mobile) {
-      padding-top: 1rem;
-    }
-
-    // Start in the header row so the title aligns with the logo, not below the search bar row
     @media all and not ($mobile) {
       grid-row: 1 / span 2;
       grid-column: 2;
+      padding-top: 0;
+
+      > :is(h1, h2, h3, h4, h5, h6):first-child {
+        margin-top: var(--chrome-offset, #{$topSpacing});
+        font-size: $chromeTitleSize;
+        font-weight: 400;
+        line-height: $chromeTitleLeading;
+      }
+    }
+  }
+}
+
+// Homepage top area — two sizes only: title + intro
+body[data-slug="index"] {
+  article {
+    @media all and ($mobile) {
+      padding-top: 1rem;
+
+      > h1 {
+        margin-top: 0;
+      }
     }
 
     > h1 {
-      font-size: 1.875rem;
-      font-weight: 400;
-      line-height: 1.25;
-      margin-top: 0;
       margin-bottom: 0;
     }
 

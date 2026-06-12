@@ -46,17 +46,13 @@ body.search-active {
       padding: 0 0.8rem;
     }
 
-    & svg {
+    & > svg {
       cursor: pointer;
       width: 18px;
-      min-width: 18px;
+      height: 18px;
+      flex: 0 0 18px;
       margin: 0 0.65rem 0 0.35rem;
-
-      .search-path {
-        stroke: currentColor;
-        stroke-width: var(--icon-stroke-width);
-        transition: stroke $transition-base;
-      }
+      display: block;
     }
 
     &:hover,
@@ -87,7 +83,7 @@ body.search-active {
         display: none;
       }
 
-      & svg {
+      & > svg {
         margin: 0;
       }
 
@@ -111,13 +107,21 @@ body.search-active {
     width: 100vw;
     height: 100vh;
     overflow-y: auto;
-    display: none;
+    display: block;
     padding: 0.75rem;
     box-sizing: border-box;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
     @include panels.overlay-backdrop;
+    transition:
+      opacity $motion-panel $motion-ease,
+      visibility $motion-panel $motion-ease;
 
     &.active {
-      display: block;
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
     }
 
     & > .search-space {
@@ -306,5 +310,6 @@ body.search-active {
         }
       }
     }
+
   }
 }

@@ -705,17 +705,32 @@ function getGlobalGraphContainers() {
   return [...document.getElementsByClassName("global-graph-outer")] as HTMLElement[]
 }
 
+const GRAPH_PANEL_MS = 150
+let hideGlobalGraphTimer: ReturnType<typeof setTimeout> | null = null
+
 function hideGlobalGraph() {
-  cleanupGlobalGraphs()
   for (const container of getGlobalGraphContainers()) {
     container.classList.remove("active")
     container.setAttribute("aria-hidden", "true")
   }
+  document.body.classList.remove("global-graph-active")
+
+  if (hideGlobalGraphTimer) clearTimeout(hideGlobalGraphTimer)
+  hideGlobalGraphTimer = setTimeout(() => {
+    cleanupGlobalGraphs()
+    hideGlobalGraphTimer = null
+  }, GRAPH_PANEL_MS)
 }
 
 export async function openGlobalGraph() {
   const containers = getGlobalGraphContainers()
   if (containers.length === 0) return
+
+  if (hideGlobalGraphTimer) {
+    clearTimeout(hideGlobalGraphTimer)
+    hideGlobalGraphTimer = null
+    cleanupGlobalGraphs()
+  }
 
   const currentSlug = getFullSlug(window)
   document.body.classList.add("global-graph-active")

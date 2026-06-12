@@ -19,6 +19,9 @@ $desktop: "(min-width: #{map.get($breakpoints, desktop)})";
 $pageWidth: #{map.get($breakpoints, mobile)};
 $sidePanelWidth: 240px;
 $topSpacing: 3.5rem;
+$chromeTitleSize: 1.875rem;
+$chromeTitleLeading: 1.25;
+$chromeSearchHeight: 2.25rem;
 $boldWeight: 700;
 $semiBoldWeight: 600;
 $mediumWeight: 500;
@@ -33,9 +36,13 @@ $shadow-overlay: none;
 $shadow-popover: none;
 
 // Motion
+$motion-ease: cubic-bezier(0.4, 0, 0.2, 1);
+$motion-fast: 0.12s;
+$motion-base: 0.15s;
+$motion-panel: 0.18s;
 $transition-fast: 0.15s ease;
 $transition-base: 0.2s ease;
-$transition-panel: 0.25s ease;
+$transition-panel: $motion-panel ease;
 
 // Meta / secondary text scale (3 sizes)
 $meta-sm: 0.875rem;

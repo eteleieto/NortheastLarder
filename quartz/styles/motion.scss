@@ -1,0 +1,36 @@
+@use "./variables.scss" as *;
+
+// Navigation progress — quick complete + fade out
+.navigation-progress {
+  transition:
+    width $motion-fast $motion-ease,
+    opacity $motion-fast ease;
+
+  &.navigation-progress--complete {
+    opacity: 0;
+  }
+}
+
+// Article images — soften load pop only
+article img {
+  transition: opacity $motion-fast $motion-ease;
+}
+
+article img.media-loading {
+  opacity: 0.94;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .navigation-progress {
+    transition: width $motion-fast ease;
+  }
+
+  article img {
+    transition: none;
+  }
+
+  .search > .search-container,
+  .global-graph-outer {
+    transition: none;
+  }
+}

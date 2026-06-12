@@ -18,8 +18,9 @@
     opacity 0.2s ease;
 
   & > svg {
-    fill: var(--light);
-    filter: contrast(0.3);
+    display: block;
+    width: 1rem;
+    height: 1rem;
   }
 
   &:hover {

@@ -43,15 +43,36 @@ function notifyNav(url: FullSlug) {
 const cleanupFns: Set<(...args: any[]) => void> = new Set()
 window.addCleanup = (fn) => cleanupFns.add(fn)
 
+const LOADING_COMPLETE_MS = 120
+
+function finishLoadingBar() {
+  const loadingBar = document.querySelector(".navigation-progress") as HTMLElement | null
+  if (!loadingBar) return
+  loadingBar.style.width = "100%"
+  loadingBar.classList.add("navigation-progress--complete")
+  window.setTimeout(() => loadingBar.remove(), LOADING_COMPLETE_MS)
+}
+
+function setupArticleMediaFade() {
+  document.querySelectorAll("article img").forEach((img) => {
+    if (!(img instanceof HTMLImageElement) || img.complete) return
+    img.classList.add("media-loading")
+    const onDone = () => img.classList.remove("media-loading")
+    img.addEventListener("load", onDone, { once: true })
+    img.addEventListener("error", onDone, { once: true })
+  })
+}
+
 function startLoading() {
+  const existing = document.querySelector(".navigation-progress") as HTMLElement | null
+  if (existing) existing.remove()
+
   const loadingBar = document.createElement("div")
   loadingBar.className = "navigation-progress"
   loadingBar.style.width = "0"
-  if (!document.body.contains(loadingBar)) {
-    document.body.appendChild(loadingBar)
-  }
+  document.body.appendChild(loadingBar)
 
-  setTimeout(() => {
+  window.setTimeout(() => {
     loadingBar.style.width = "80%"
   }, 100)
 }
@@ -103,6 +124,9 @@ async function _navigate(url: URL, isBack: boolean = false) {
 
   // morph body
   micromorph(document.body, html.body)
+
+  finishLoadingBar()
+  setupArticleMediaFade()
 
   // scroll into place and add history
   if (!isBack) {
@@ -189,6 +213,7 @@ function createRouter() {
 
 createRouter()
 notifyNav(getFullSlug(window))
+setupArticleMediaFade()
 
 if (!customElements.get("route-announcer")) {
   const attrs = {

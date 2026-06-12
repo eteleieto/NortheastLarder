@@ -83,22 +83,21 @@ export default ((opts?: Partial<GraphOptions>) => {
                 aria-label="Open full graph"
               >
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
                   viewBox="0 0 24 24"
-                  stroke-width="1"
-                  stroke="currentColor"
                   fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M15 3h6v6" />
-                  <path d="M9 21H3v-6" />
-                  <path d="M21 3l-7 7" />
-                  <path d="M3 21l7-7" />
+                  <path d="M15 3h6v6"></path>
+                  <path d="M9 21H3v-6"></path>
+                  <path d="m21 3-7 7"></path>
+                  <path d="m3 21 7-7"></path>
                 </svg>
               </button>
               <div class="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
@@ -113,19 +112,19 @@ export default ((opts?: Partial<GraphOptions>) => {
                   <span class="panel-header-title">{i18n(cfg.locale).components.graph.title}</span>
                   <button type="button" class="global-graph-close" aria-label="Close">
                     <svg
+                      aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       width="18"
                       height="18"
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="1"
+                      stroke-width="1.5"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      aria-hidden="true"
                     >
-                      <line x1="18" y1="6" x2="6" y2="18"></line>
-                      <line x1="6" y1="6" x2="18" y2="18"></line>
+                      <path d="M18 6 6 18"></path>
+                      <path d="m6 6 12 12"></path>
                     </svg>
                   </button>
                 </div>

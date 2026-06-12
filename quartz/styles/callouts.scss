@@ -11,7 +11,7 @@
 
   & > .callout-content {
     display: grid;
-    transition: grid-template-rows 0.3s ease;
+    transition: grid-template-rows $motion-panel $motion-ease;
 
     & > .callout-content-inner {
       overflow: hidden;
@@ -136,7 +136,7 @@
   --icon-size: 18px;
 
   & .fold-callout-icon {
-    transition: transform 0.15s ease;
+    transition: transform $motion-fast $motion-ease;
     opacity: 0.8;
     cursor: pointer;
     --callout-icon: var(--callout-icon-fold);

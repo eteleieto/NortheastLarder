@@ -132,12 +132,11 @@ a {
   }
 
   &.external .external-icon {
-    height: 1ex;
+    display: inline-block;
+    width: 0.85em;
+    height: 0.85em;
     margin: 0 0.15em;
-
-    > path {
-      fill: currentColor;
-    }
+    vertical-align: -0.1em;
   }
 }
 
@@ -713,6 +712,5 @@ iframe.pdf {
   width: 0;
   height: 3px;
   background: var(--secondary);
-  transition: width 0.2s ease;
   z-index: 9999;
 }

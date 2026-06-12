@@ -18,9 +18,11 @@ ul.toc-content.overflow {
   overscroll-behavior: contain;
 
   & > li > a {
-    transition:
-      opacity 0.2s ease,
-      color 0.2s ease;
+    transition: color $motion-fast $motion-ease;
+
+    &.in-view {
+      color: var(--secondary);
+    }
   }
 
   @for $i from 0 through 6 {
