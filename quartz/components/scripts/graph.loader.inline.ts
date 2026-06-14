@@ -6,7 +6,7 @@ function importGraphModule() {
 }
 
 function needsGraph() {
-  return !!document.querySelector(".graph-container, .global-graph-container, .graph-open")
+  return !!document.querySelector(".graph-container")
 }
 
 function loadGraph() {

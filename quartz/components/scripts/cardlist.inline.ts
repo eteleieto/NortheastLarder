@@ -23,9 +23,10 @@ function renderCardLists() {
     try {
       const pageLinks = JSON.parse(pagesData)
 
-      if (!(window as any).fetchData) return
+      if (typeof (window as any).getFetchData !== "function") return
 
-      ;(window as any).fetchData
+      ;(window as any)
+        .getFetchData()
         .then((contentIndex: any) => {
           const lowercaseIndex: Record<string, { slug: string; data: any }> = {}
           Object.entries(contentIndex).forEach(([slug, data]: [string, any]) => {

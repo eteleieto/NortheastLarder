@@ -143,7 +143,18 @@ function highlightHTML(searchTerm: string, el: HTMLElement) {
   return html.body
 }
 
-async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: ContentIndex) {
+let searchData: ContentIndex | null = null
+const slugById: FullSlug[] = []
+
+async function ensureSearchData(): Promise<ContentIndex> {
+  if (!searchData) {
+    searchData = await getFetchData()
+    await fillDocument(searchData)
+  }
+  return searchData
+}
+
+async function setupSearch(searchElement: Element, currentSlug: FullSlug) {
   const container = searchElement.querySelector(".search-container") as HTMLElement
   if (!container) return
 
@@ -160,7 +171,7 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
 
   const searchClose = searchElement.querySelector(".search-close") as HTMLButtonElement
 
-  const idDataMap = Object.keys(data) as FullSlug[]
+  const idDataMap = slugById
   const appendLayout = (el: HTMLElement) => {
     searchLayout.appendChild(el)
   }
@@ -214,13 +225,23 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
     if (e.key === "k" && (e.ctrlKey || e.metaKey) && !e.shiftKey) {
       e.preventDefault()
       const searchBarOpen = container.classList.contains("active")
-      searchBarOpen ? hideSearch() : showSearch("basic")
+      if (searchBarOpen) {
+        hideSearch()
+      } else {
+        await ensureSearchData()
+        showSearch("basic")
+      }
       return
     } else if (e.shiftKey && (e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
       // Hotkey to open tag search
       e.preventDefault()
       const searchBarOpen = container.classList.contains("active")
-      searchBarOpen ? hideSearch() : showSearch("tags")
+      if (searchBarOpen) {
+        hideSearch()
+      } else {
+        await ensureSearchData()
+        showSearch("tags")
+      }
 
       // add "#" prefix for tag search
       searchBar.value = "#"
@@ -279,6 +300,7 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
 
   const formatForDisplay = (term: string, id: number) => {
     const slug = idDataMap[id]
+    const data = searchData!
     return {
       id,
       slug,
@@ -407,6 +429,7 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
 
   async function onType(e: HTMLElementEventMap["input"]) {
     if (!searchLayout || !index) return
+    await ensureSearchData()
     currentSearchTerm = (e.target as HTMLInputElement).value
     searchLayout.classList.toggle("display-results", currentSearchTerm !== "")
     searchType = currentSearchTerm.startsWith("#") ? "tags" : "basic"
@@ -465,7 +488,10 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
 
   document.addEventListener("keydown", shortcutHandler)
   window.addCleanup(() => document.removeEventListener("keydown", shortcutHandler))
-  const openSearch = () => showSearch("basic")
+  async function openSearch() {
+    await ensureSearchData()
+    showSearch("basic")
+  }
   searchButton.addEventListener("click", openSearch)
   window.addCleanup(() => searchButton.removeEventListener("click", openSearch))
   searchClose?.addEventListener("click", hideSearch)
@@ -482,8 +508,6 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug, data: 
   }
   container.addEventListener("click", onBackdropClick)
   window.addCleanup(() => container.removeEventListener("click", onBackdropClick))
-
-  await fillDocument(data)
 }
 
 /**
@@ -497,6 +521,7 @@ async function fillDocument(data: ContentIndex) {
   let id = 0
   const promises: Array<Promise<unknown>> = []
   for (const [slug, fileData] of Object.entries<ContentDetails>(data)) {
+    slugById.push(slug as FullSlug)
     promises.push(
       index.addAsync(id++, {
         id,
@@ -514,9 +539,8 @@ async function fillDocument(data: ContentIndex) {
 
 document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   const currentSlug = e.detail.url
-  const data = await fetchData
   const searchElement = document.getElementsByClassName("search")
   for (const element of searchElement) {
-    await setupSearch(element, currentSlug, data)
+    await setupSearch(element, currentSlug)
   }
 })

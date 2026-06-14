@@ -32,9 +32,8 @@ export function pageResources(
   // `/New-Blog/index.html`) as well as direct `.html` files. A leading slash ensures we
   // always fetch from the site root regardless of current page depth.
   const contentIndexPath = "/static/contentIndex.json"
-  // Expose the promise on the global object so inline client scripts (e.g., card list)
-  // can access it via `window.fetchData`.
-  const contentIndexScript = `const fetchData = window.fetchData = fetch("${contentIndexPath}").then(data => data.json())`
+  // Lazy-load content index — only fetched when search, cards, graph, or explorer need it.
+  const contentIndexScript = `window.getFetchData=function(){if(!window.__fetchDataPromise){window.__fetchDataPromise=fetch("${contentIndexPath}").then(r=>r.json())}return window.__fetchDataPromise}`
 
   const resources: StaticResources = {
     css: [

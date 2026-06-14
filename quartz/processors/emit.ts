@@ -5,6 +5,7 @@ import { QuartzLogger } from "../util/log"
 import { trace } from "../util/trace"
 import { BuildCtx } from "../util/ctx"
 import { prepareCardThumbnails } from "../util/prepareCardThumbnails"
+import { prepareArticleImages } from "../util/prepareArticleImages"
 import chalk from "chalk"
 
 export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
@@ -14,6 +15,7 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
 
   log.start(`Emitting files`)
   await prepareCardThumbnails(ctx, content)
+  await prepareArticleImages(ctx, content)
 
   let emittedFiles = 0
   const staticResources = getStaticResourcesFromPlugins(ctx)

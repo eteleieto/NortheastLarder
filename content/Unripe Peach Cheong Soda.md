@@ -53,4 +53,4 @@ Kitchen Scale
 -   Given the active starter, this should ferment into a pleasant soda within 24 to 48 hours. The progress will be monitored for signs of carbonation.
 - After 48 hours, the soda is nicely carbonated. The taste is unique and hard to describe, somewhat like candy and dried fruit. It is somewhat acidic since the cheong lacto-fermented before being added to the soda. In some ways, the taste was reminiscent of suanmeitong (smoked plum drink).
 
-![[Unripe Peach Cheong Soda.mp4|200|9:9]]
+![[Unripe Peach Cheong Soda.web.mp4|200|9:9]]

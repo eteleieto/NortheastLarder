@@ -73,6 +73,8 @@ const NODE_ANIM_MS = 200
 const LABEL_ANIM_MS = 100
 const HOVER_DIM_ALPHA = 0.2
 const HOVER_LABEL_SCALE = 1.1
+const DRAG_ALPHA_TARGET = 0.2
+const CLICK_DISTANCE_PX = 6
 
 /** Exponential ease toward target — frame-rate independent, no tween allocations. */
 function approach(current: number, target: number, dtMs: number, durationMs: number): number {
@@ -97,7 +99,7 @@ function addToVisited(slug: SimpleSlug) {
 
 async function getGraphData(): Promise<Map<SimpleSlug, ContentDetails>> {
   if (!cachedGraphData) {
-    const raw = await fetchData
+    const raw = await getFetchData()
     cachedGraphData = new Map(
       Object.entries<ContentDetails>(raw).map(([k, v]) => [simplifySlug(k as FullSlug), v]),
     )
@@ -218,7 +220,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     .force("charge", forceManyBody().strength(-100 * repelForce))
     .force("center", forceCenter().strength(centerForce))
     .force("link", forceLink(graphData.links).distance(linkDistance))
-    .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(3))
+    .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(1))
 
   const radius = (Math.min(width, height) / 2) * 0.8
   if (enableRadial) simulation.force("radial", forceRadial(radius).strength(0.2))
@@ -250,8 +252,9 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   let hoveredNodeId: string | null = null
   let hoveredNeighbours: Set<string> = new Set()
   let currentScaleOpacity = 0
-  let dragStartTime = 0
   let dragging = false
+  let dragStartPointer: { x: number; y: number } | null = null
+  let maxDragDistanceSq = 0
   const linkRenderData: LinkRenderData[] = []
   const nodeRenderData: NodeRenderData[] = []
 
@@ -549,7 +552,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
         .container(() => app.canvas)
         .subject(() => graphData.nodes.find((n) => n.id === hoveredNodeId))
         .on("start", function dragstarted(event) {
-          if (!event.active) simulation.alphaTarget(1).restart()
+          if (!event.active) simulation.alphaTarget(DRAG_ALPHA_TARGET).restart()
           event.subject.fx = event.subject.x
           event.subject.fy = event.subject.y
           event.subject.__initialDragPos = {
@@ -558,12 +561,18 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
             fx: event.subject.fx,
             fy: event.subject.fy,
           }
-          dragStartTime = Date.now()
+          dragStartPointer = { x: event.x, y: event.y }
+          maxDragDistanceSq = 0
           dragging = true
           requestRender()
         })
         .on("drag", function dragged(event) {
           const initPos = event.subject.__initialDragPos
+          if (dragStartPointer) {
+            const dx = event.x - dragStartPointer.x
+            const dy = event.y - dragStartPointer.y
+            maxDragDistanceSq = Math.max(maxDragDistanceSq, dx * dx + dy * dy)
+          }
           event.subject.fx = initPos.x + (event.x - initPos.x) / currentTransform.k
           event.subject.fy = initPos.y + (event.y - initPos.y) / currentTransform.k
         })
@@ -573,12 +582,20 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
           event.subject.fy = null
           dragging = false
 
-          if (Date.now() - dragStartTime < 500) {
-            const node = graphData.nodes.find((n) => n.id === event.subject.id) as NodeData
-            if (unresolvedNodes.has(node.id)) return
-            const targ = resolveRelative(fullSlug, node.id)
-            window.spaNavigate(new URL(targ, window.location.toString()))
+          const isClick = maxDragDistanceSq <= CLICK_DISTANCE_PX * CLICK_DISTANCE_PX
+          dragStartPointer = null
+          maxDragDistanceSq = 0
+
+          if (!isClick) {
+            updateHoverInfo(null)
+            setVisualTargets()
+            return
           }
+
+          const node = graphData.nodes.find((n) => n.id === event.subject.id) as NodeData
+          if (unresolvedNodes.has(node.id)) return
+          const targ = resolveRelative(fullSlug, node.id)
+          window.spaNavigate(new URL(targ, window.location.toString()))
         }),
     )
   } else {

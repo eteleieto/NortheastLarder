@@ -79,6 +79,10 @@ async function joinScripts(scripts: string[]): Promise<string> {
   return res.code
 }
 
+function stripInlineSourceMaps(css: string): string {
+  return css.replace(/\/\*#\s*sourceMappingURL=data:[^*]+\*\/\s*/g, "")
+}
+
 function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentResources) {
   const cfg = ctx.cfg.configuration
 
@@ -279,8 +283,8 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
       const stylesheet = joinStyles(
         ctx.cfg.configuration.theme,
         googleFontsStyleSheet,
-        ...componentResources.css,
-        styles,
+        ...componentResources.css.map(stripInlineSourceMaps),
+        stripInlineSourceMaps(styles),
       )
 
       const [prescript, postscript, graphBundle] = await Promise.all([

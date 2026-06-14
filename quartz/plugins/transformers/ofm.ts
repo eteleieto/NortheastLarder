@@ -13,6 +13,7 @@ import { ReplaceFunction, findAndReplace as mdastFindReplace } from "mdast-util-
 import rehypeRaw from "rehype-raw"
 import { SKIP, visit } from "unist-util-visit"
 import path from "path"
+import fs from "fs"
 import { splitAnchor } from "../../util/path"
 import { JSResource, CSSResource } from "../../util/resources"
 // @ts-ignore
@@ -211,7 +212,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
 
       return src
     },
-    markdownPlugins(_ctx) {
+    markdownPlugins(ctx) {
       const plugins: PluggableList = []
 
       // regex replacements
@@ -257,7 +258,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                     const aspectRatio = match?.groups?.aspectRatio
                     
                     let videoStyle = ""
-                    let videoAttributes = `controls`
+                    let videoAttributes = `controls preload="none"`
                     
                     if (width) {
                       if (height) {
@@ -273,10 +274,27 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                         videoStyle = `width: ${width}px;`
                       }
                     }
-                    
+
+                    const contentDir = path.isAbsolute(ctx.argv.directory)
+                      ? ctx.argv.directory
+                      : path.join(process.cwd(), ctx.argv.directory)
+                    const posterName = fp.replace(/\.(web\.)?(mp4|webm|ogv|mov|mkv)$/i, ".poster.webp")
+                    let posterAttr = ""
+                    for (const candidate of [
+                      path.join(contentDir, posterName),
+                      path.join(contentDir, "Assets/Attachments", posterName),
+                      path.join(contentDir, "Assets", posterName),
+                    ]) {
+                      if (fs.existsSync(candidate)) {
+                        const rel = path.relative(contentDir, candidate).replace(/\\/g, "/") as FilePath
+                        posterAttr = ` poster="./${slugifyFilePath(rel)}"`
+                        break
+                      }
+                    }
+
                     return {
                       type: "html",
-                      value: `<video src="${url}" ${videoAttributes}${videoStyle ? ` style="${videoStyle}"` : ''}${alt ? ` title="${alt}"` : ''}></video>`,
+                      value: `<video src="${url}" ${videoAttributes}${posterAttr}${videoStyle ? ` style="${videoStyle}"` : ''}${alt ? ` title="${alt}"` : ''}></video>`,
                     }
                   } else if (
                     [".mp3", ".webm", ".wav", ".m4a", ".ogg", ".3gp", ".flac"].includes(ext)
@@ -415,7 +433,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
               if (parent && index != undefined && videoExtensionRegex.test(node.url)) {
                 const newNode: Html = {
                   type: "html",
-                  value: `<video controls src="${node.url}"></video>`,
+                  value: `<video controls preload="none" src="${node.url}"></video>`,
                 }
 
                 parent.children.splice(index, 1, newNode)

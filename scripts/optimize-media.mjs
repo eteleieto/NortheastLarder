@@ -81,6 +81,16 @@ const videoJobs = [
     from: "Unripe Peach Cheong Soda.mov",
     to: "Unripe Peach Cheong Soda.mp4",
   },
+  {
+    file: "Unripe Peach Cheong Soda.mp4",
+    inPlace: false,
+    out: "Unripe Peach Cheong Soda.web.mp4",
+    poster: "Unripe Peach Cheong Soda.poster.webp",
+    width: 400,
+    markdown: ["Unripe Peach Cheong Soda.md"],
+    from: "Unripe Peach Cheong Soda.mp4",
+    to: "Unripe Peach Cheong Soda.web.mp4",
+  },
 ]
 
 async function optimizeImage(job) {
@@ -99,13 +109,19 @@ async function optimizeImage(job) {
 
   if (outputName.endsWith(".webp")) {
     await pipeline.webp({ quality: job.quality }).toFile(temp)
+  } else if (/\.jpe?g$/i.test(outputName)) {
+    await pipeline.jpeg({ quality: job.quality, mozjpeg: true }).toFile(temp)
+  } else if (outputName.endsWith(".png")) {
+    await pipeline.png({ compressionLevel: 9 }).toFile(temp)
   } else {
-    await pipeline.png({ quality: job.quality, compressionLevel: 9 }).toFile(temp)
+    await pipeline.toFile(temp)
   }
 
   fs.renameSync(temp, output)
   const after = fs.statSync(output).size
-  console.log(`${job.file} -> ${outputName}: ${(before / 1024 / 1024).toFixed(2)}MB -> ${(after / 1024 / 1024).toFixed(2)}MB`)
+  console.log(
+    `${job.file} -> ${outputName}: ${(before / 1024 / 1024).toFixed(2)}MB -> ${(after / 1024 / 1024).toFixed(2)}MB`,
+  )
 
   if (!job.inPlace && job.file !== outputName) {
     fs.unlinkSync(input)
@@ -131,23 +147,54 @@ function optimizeVideo(job) {
 
   const output = path.join(attachmentsDir, job.out)
   const before = fs.statSync(input).size
-
-  execFileSync(
-    "ffmpeg",
-    ["-y", "-i", input, "-c:v", "libx264", "-crf", "28", "-preset", "slow", "-movflags", "+faststart", "-an", output],
-    { stdio: "inherit" },
+  const scaleFilter = job.width ? `scale=${job.width}:-2` : null
+  const videoArgs = ["-y", "-i", input]
+  if (scaleFilter) {
+    videoArgs.push("-vf", scaleFilter)
+  }
+  videoArgs.push(
+    "-c:v",
+    "libx264",
+    "-crf",
+    "28",
+    "-preset",
+    "slow",
+    "-movflags",
+    "+faststart",
+    "-an",
+    output,
   )
 
-  const after = fs.statSync(output).size
-  console.log(`${job.file} -> ${job.out}: ${(before / 1024 / 1024).toFixed(2)}MB -> ${(after / 1024 / 1024).toFixed(2)}MB`)
-  fs.unlinkSync(input)
+  execFileSync("ffmpeg", videoArgs, { stdio: "inherit" })
 
-  for (const mdFile of job.markdown) {
-    const mdPath = path.join(contentDir, mdFile)
-    let text = fs.readFileSync(mdPath, "utf8")
-    text = text.replaceAll(`[[${job.from}`, `[[${job.to}`)
-    fs.writeFileSync(mdPath, text)
-    console.log(`updated reference in ${mdFile}`)
+  const after = fs.statSync(output).size
+  console.log(
+    `${job.file} -> ${job.out}: ${(before / 1024 / 1024).toFixed(2)}MB -> ${(after / 1024 / 1024).toFixed(2)}MB`,
+  )
+
+  if (job.poster) {
+    const posterPath = path.join(attachmentsDir, job.poster)
+    const posterArgs = ["-y", "-i", output, "-vframes", "1"]
+    if (scaleFilter) {
+      posterArgs.push("-vf", scaleFilter)
+    }
+    posterArgs.push(posterPath)
+    execFileSync("ffmpeg", posterArgs, { stdio: "inherit" })
+    console.log(`poster -> ${job.poster}`)
+  }
+
+  if (!job.inPlace) {
+    fs.unlinkSync(input)
+  }
+
+  if (job.markdown) {
+    for (const mdFile of job.markdown) {
+      const mdPath = path.join(contentDir, mdFile)
+      let text = fs.readFileSync(mdPath, "utf8")
+      text = text.replaceAll(`[[${job.from}`, `[[${job.to}`)
+      fs.writeFileSync(mdPath, text)
+      console.log(`updated reference in ${mdFile}`)
+    }
   }
 }
 
