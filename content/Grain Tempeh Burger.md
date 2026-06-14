@@ -4,7 +4,8 @@ tags:
   - EXPERIMENT
 pairing:
 date: 2026-01-28
-project: "[[Meat-Like]]"
+project:
+description: This first iteration uses spelt and tempeh to explore a grain-based burger with meaty texture.
 ---
 ## Background
 

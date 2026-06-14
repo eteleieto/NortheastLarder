@@ -2,9 +2,11 @@
 title: Malted Grain Milks
 tags:
   - EXPERIMENT
+  - MALT
 pairing: 
 date: 2025-12-18
-project:
+project: "[[Plant-Dairy]]"
+description: This experiment uses malt to convert grain starches into sugars for plant-based milk alternatives.
 ---
 ## Background
 

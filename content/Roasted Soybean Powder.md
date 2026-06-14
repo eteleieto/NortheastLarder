@@ -5,6 +5,7 @@ tags:
 pairing: 
 date: 2026-02-11
 project:
+description: This experiment roasts soybeans to test different paths toward a kinako-style powder.
 ---
 ## Background
 

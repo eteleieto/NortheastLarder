@@ -3,6 +3,7 @@ title: Coffee & Chocolate Substitutes
 tags:
   - PROJECT
 date: 2025-06-18
+description: A project exploring Northeastern coffee and chocolate substitutes through fermentation, roasting, and enzymatic blackening.
 ---
 ## Background
 

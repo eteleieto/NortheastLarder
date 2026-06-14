@@ -5,6 +5,7 @@ tags:
 pairing:
 date: 2026-01-28
 project: "[[Ice Cream]]"
+description: This experiment develops a dairy-free soy ice cream base for the Ninja Creami.
 ---
 ## Background
 
@@ -91,4 +92,3 @@ sorghum syrup
 honey
 malt sugar
 koji sugar
-

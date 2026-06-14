@@ -2,8 +2,8 @@
 title: Amazake
 tags:
   - PROJECT
-  - Fermentation
 date: 2025-06-12
+description: A project exploring amazake across substrates, upcycled ingredients, secondary ferments, and new larder applications.
 ---
 ## Background
 

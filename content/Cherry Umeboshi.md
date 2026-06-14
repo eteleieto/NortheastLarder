@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2025-08-04
 project:
+description: This experiment uses cherries in place of plums to make an umeboshi-style lacto-fermented preserve.
 ---
 ## Background
 

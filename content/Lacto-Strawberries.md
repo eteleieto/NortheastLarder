@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2025-07-31
 project:
+description: This experiment lacto-ferments strawberries in their own juices with a 2% salt brine.
 ---
 ## Background
 

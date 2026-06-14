@@ -2,9 +2,11 @@
 title: Grits Miso
 tags:
   - EXPERIMENT
+  - MISO
 pairing:
 date: 2025-12-10
 project: "[[Umami]]"
+description: This experiment turns toasted grits and fresh koji into a fermented paste with a toasty, corny flavor.
 ---
 ## Background
 
@@ -26,7 +28,7 @@ Largest Column: standard
 
 500g Water
 
-300g Fresh Koji ([[Koji (Pearled Barley)]])
+300g Fresh Koji
 
 45g Salt (5%)
 

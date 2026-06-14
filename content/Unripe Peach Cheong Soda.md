@@ -4,6 +4,7 @@ tags:
   - RECIPE
   - SODA
 date: 2025-07-30
+description: This recipe ferments unripe peach cheong with a carrot bug to make a naturally carbonated soda.
 ---
 ![[Unripe Peach Cheong Soda.webp|200x267]]
 ## Background

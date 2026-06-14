@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2025-06-20
 project: "[[Amazake Project]]"
+description: This experiment uses freeze clarification to turn cloudy amazake into a clear, wine-like liquid.
 ---
 ## Notes and Observations
 

@@ -3,6 +3,7 @@ title: Sweeteners
 tags:
   - PROJECT
 date: 2025-07-24
+description: A project focused on making sweeteners from Northeastern grains, fruits, vegetables, syrups, and ferments.
 ---
 This project is centered on creating sweeteners using solely products from the Northeast. This is a significant challenge, as it excludes traditional sweeteners like [[Cane Sugar|cane sugar]] or [[Sugar Beet|sugar beet]]-derived sugars. We also cannot use [[Corn Syrup|corn syrups]], which are primarily grown in the Midwest, or refined products like [[Dextrose|dextrose]], especially without access to a lab-like setting.
 

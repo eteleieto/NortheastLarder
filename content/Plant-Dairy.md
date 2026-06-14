@@ -3,6 +3,7 @@ title: Plant-Dairy
 tags:
   - PROJECT
 date: 2025-05-30
+description: A project exploring regional plant-based milks, yoghurts, ice creams, and cheeses.
 ---
 **Detailed Variables**: [Dairy](https://docs.google.com/spreadsheets/d/120eFrSRv_a2lM_dCaewBKHQZIAZRgMDYocsVsXYRt9I/edit?usp=sharing)
 

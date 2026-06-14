@@ -1,9 +1,12 @@
 ---
 tags:
   - EXPERIMENT
+  - AMAZAKE
+pairing:
 date: 2025-02-25
 title: Frozen Amazakes
 project: "[[Amazake Project]]"
+description: Amazake's high glucose content makes it a compelling base for frozen desserts like sorbet, granita, and ice cream.
 ---
 ## Background
 

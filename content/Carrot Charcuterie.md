@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2025-11-28
 project:
+description: This trial uses leftover carrots to explore a koji-inoculated charcuterie-style preparation.
 ---
 ## Background
 

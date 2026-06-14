@@ -3,9 +3,11 @@ title: Oat Malt Garum
 tags:
   - EXPERIMENT
   - GARUM
+  - MALT
 pairing:
 date: 2025-07-21
 project: "[[Malt-Umami]]"
+description: This garum combines oats, light Munich malt, and koji for a long, high-temperature enzymatic ferment.
 ---
 ## Background
 
@@ -64,5 +66,4 @@ Cheesecloth
 - After straining, the final yield was 287g of liquid and 192g of solids.
 - The resulting liquid is deeply savory and umami-forward, with some sweetness.
 - The flavor is reminiscent of an artificial beef ramen broth.
-- 
 - ![[Oat Malt Garum-1.webp|200x267]]

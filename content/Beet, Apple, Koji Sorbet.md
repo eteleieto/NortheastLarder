@@ -4,6 +4,7 @@ tags:
   - RECIPE
 date: 2026-01-28
 project:
+description: This recipe combines golden beets, apple, and rice koji into a reduced sorbet base.
 ---
 ## Background
 

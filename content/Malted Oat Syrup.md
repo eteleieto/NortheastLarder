@@ -2,13 +2,15 @@
 title: Malted Oat Syrup
 tags:
   - EXPERIMENT
+  - MALT
 pairing:
 date: 2026-01-28
 project: "[[Sweeteners]]"
+description: This experiment uses diastatic malt to convert rolled oats into a distinctive grain syrup.
 ---
 ## Background
 
-This experiment applies a technique similar to traditional Korean [[Brown Rice Syrup|brown rice syrup]] to [[Rolled Oat|rolled oats]] sourced from [[River Valley]]. The process involves using [[Diastatic Malt Powder|diastatic malt powder]] to convert the starches in the oats into fermentable sugars, creating a unique grain syrup.
+This experiment applies a technique similar to traditional Korean [[Brown Rice Syrup|brown rice syrup]] to [[Rolled Oat|rolled oats]] sourced from [[River Valley Community Grains|River Valley]]. The process involves using [[Diastatic Malt Powder|diastatic malt powder]] to convert the starches in the oats into fermentable sugars, creating a unique grain syrup.
 
 ---
 ## Recipe

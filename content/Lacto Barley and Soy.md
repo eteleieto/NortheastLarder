@@ -2,9 +2,11 @@
 title: Lacto Barley and Soy
 tags:
   - EXPERIMENT
+  - LACTO-FERMENT
 pairing: 
 date: 2026-01-28
 project:
+description: This experiment uses blended cooked barley and soybeans in a salty lacto-fermentation to explore both the liquid and solid results.
 ---
 ## Background
 

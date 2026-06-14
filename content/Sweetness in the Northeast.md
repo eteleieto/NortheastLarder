@@ -4,6 +4,7 @@ tags:
   - BLOG
 author: Joe Laufer
 date: 2026-02-27
+description: A blog post on how Northeastern sweeteners evolved historically and what a regional future might look like.
 ---
 ## Sweeteners in Cuisine
 

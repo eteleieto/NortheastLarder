@@ -3,6 +3,7 @@ title: Drinks
 tags:
   - PROJECT
 date: 2025-07-24
+description: A project exploring sweet, sour, creamy, and carbonated drinks made from Northeastern ingredients.
 ---
 ## Background
 

@@ -3,6 +3,7 @@ title: Tofu Sheet Krupuk
 tags:
   - RECIPE
 date: 2025-07-21
+description: This recipe tests tofu sheet as the base for a krupuk-style cracker.
 ---
 ## Background
 

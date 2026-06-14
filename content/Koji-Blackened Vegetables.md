@@ -2,9 +2,11 @@
 title: Koji-Blackened Vegetables
 tags:
   - EXPERIMENT
+  - BLACKENED
 pairing: 
 date: 2026-01-28
-project:
+project: "[[Blackening (Enzymatic)]]"
+description: This experiment blackens several koji-inoculated vegetables to compare how each substrate develops under the same process.
 ---
 ## Background
 

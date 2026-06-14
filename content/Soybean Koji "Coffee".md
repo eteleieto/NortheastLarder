@@ -2,9 +2,11 @@
 title: Soybean Koji "Coffee"
 tags:
   - EXPERIMENT
+  - BLACKENED
 pairing:
 date: 2025-07-30
 project: "[[(WIP) Coffee & Chocolate Substitutes]]"
+description: This experiment blackens soybeans with koji to test them as a coffee or chocolate substitute.
 ---
 ## Background
 
@@ -71,4 +73,3 @@ After one week of blackening...
 After the full month:
 
 ![[Soybean Koji "Coffee"-1.webp|200x267]]
-

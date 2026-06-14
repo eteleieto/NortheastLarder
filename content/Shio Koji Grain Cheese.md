@@ -2,9 +2,11 @@
 title: Shio Koji Grain Cheese
 tags:
   - EXPERIMENT
+  - SHIO-KOJI
 pairing: 
 date: 2025-12-06
-project:
+project: "[[Plant-Dairy]]"
+description: This experiment ferments grains in shio koji to mimic the lactic, cheesy qualities of fresh mozzarella.
 ---
 ## Background
 
@@ -28,7 +30,7 @@ Boiled [[Barley|barley]]
 
 [[Bread Flour|bread flour]] (sourced from [[Wild Hive Farm]])
 
-[[Koji|koji]]
+Koji
 
 Water
 

@@ -3,6 +3,7 @@ title: Umami
 tags:
   - PROJECT
 date: 2025-07-24
+description: A project focused on building Northeastern umami through garums, misos, tamaris, and related techniques.
 ---
 ## Umami Project
 

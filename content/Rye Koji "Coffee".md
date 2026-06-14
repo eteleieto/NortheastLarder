@@ -2,9 +2,11 @@
 title: Rye Koji "Coffee"
 tags:
   - EXPERIMENT
+  - BLACKENED
 pairing:
 date: 2025-06-19
 project: "[[(WIP) Coffee & Chocolate Substitutes]]"
+description: This experiment blackens koji-treated rye berries, then roasts them to test coffee- and chocolate-like flavors.
 ---
 ## Background
 
@@ -38,7 +40,7 @@ Kitchen Scale
 
 --- end-multi-column
 
-![[Rye Koji "Coffee".webp | 200]]
+![[Rye Koji "Coffee".webp|200]]
 
 ## Instructions
 
@@ -76,4 +78,3 @@ Kitchen Scale
 - The result was not like chocolate but was delicious and intensely fruity, with strong notes of [[Prune|prune]], raisin, and [[Dried Currant|dried currants]]. There were also subtle chocolate notes and hints of a stone fruit like [[Cherry|cherry]], with very little bitterness.
 - When blended with milk, the mixture tasted remarkably like Ovaltine or a mild chocolate milk with blended raisins. It was very satisfying and comforting.
 - This base would be excellent as a warm drink or as an ice cream, perhaps with the addition of something punchy like dried, [[Lacto-Fermentation|lacto]]-fermented fruit.
-

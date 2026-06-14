@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2025-06-19
 project: "[[Amazake Project]]"
+description: This experiment uses rye berries and dried koji to make an overnight amazake.
 ---
 ## Background
 

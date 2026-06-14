@@ -5,6 +5,7 @@ tags:
   - SODA
 date: 2025-08-04
 project: "[[Drinks]]"
+description: This naturally fermented soda uses plums and a carrot bug starter for carbonation.
 ---
 ## Background
 

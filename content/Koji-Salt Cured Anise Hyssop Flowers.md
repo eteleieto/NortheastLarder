@@ -2,9 +2,11 @@
 title: Koji-Salt Cured Anise Hyssop Flowers
 tags:
   - EXPERIMENT
+  - SHIO-KOJI
 pairing:
 date: 2025-07-31
 project:
+description: This experiment preserves anise hyssop flowers with salt and koji to build a fragrant cured condiment.
 ---
 ## Background
 

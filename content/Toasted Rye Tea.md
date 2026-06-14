@@ -1,10 +1,12 @@
 ---
 title: Toasted Rye Tea
 tags:
-  - RECIPE/DRINK
+  - RECIPE
   - TEA
+date: 2025-06-20
 ingredients:
   - "[[Rye]]"
+description: A simple toasted rye tea served hot or cold, with room to explore sweeter and more aromatic variations.
 ---
 ## Recipe
 

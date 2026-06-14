@@ -3,6 +3,7 @@ title: Red Cabbage, Apricot, Rye
 tags:
   - RECIPE
 date: 2025-07-24
+description: A composed dish built around red cabbage, apricot puree, rye breadcrumbs, and hazelnuts.
 ---
 ## Background
 

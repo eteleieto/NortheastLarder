@@ -4,6 +4,7 @@ tags:
   - RECIPE
 date: 2026-01-28
 project: "[[Ice Cream]]"
+description: This recipe reduces a soy ice cream base and adds kinako to deepen its texture and flavor.
 ---
 ## Background
 

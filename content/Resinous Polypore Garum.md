@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2025-10-02
 project: "[[Mushroom Garum]]"
+description: This experiment turns the woody parts of resinous polypore into a savory garum.
 ---
 ## Background
 
@@ -42,7 +43,7 @@ Fermentation Chamber
 ## Instructions
 
 1.  **Preparation**  
-    Trim the foraged polypore, separating the tender flesh from the woodier parts. The tender flesh can be dehydrated at 135°F to make a [[Mushroom Seasoning]].
+    Trim the foraged polypore, separating the tender flesh from the woodier parts. The tender flesh can be dehydrated at 135°F to make a mushroom seasoning.
 
 2.  **Cooking**  
     Cook down the woody parts of the mushroom in a pan over low heat.

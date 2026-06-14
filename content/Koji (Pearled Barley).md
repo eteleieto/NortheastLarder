@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2025-11-28
 project:
+description: This process outlines how to grow koji on pearled barley for later experiments.
 ---
 ## Background
 

@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2025-11-28
 project: "[[Tempeh]]"
+description: This first scratch-made soybean tempeh establishes a baseline for later substrate experiments.
 ---
 ## Background
 

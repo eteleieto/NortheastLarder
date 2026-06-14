@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2025-11-28
 project: "[[Umami]]"
+description: This experiment combines barley and soybeans into an awase-style miso with a distinctly grain-based character.
 ---
 ## Background
 
@@ -66,4 +67,3 @@ Fermentation Vessel
 - The salt is calculated at 5% of the total weight of the substrate and koji combined.
 - The final flavor is great, miso-like but distinctively nutty. Preditably, it shares many characteristics with a Doenjang.
 - It is sweeter than a traditional miso owing to the digestion of starches from the amylase enzymes - you can dial in the sweetness and nutiness by adusting the ratio of soybean (for more umami) and barley (for more sweetness).
-

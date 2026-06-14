@@ -2,7 +2,9 @@
 title: Toasted Barley Kombucha
 tags:
   - RECIPE
+  - KOMBUCHA
 date: 2026-01-23
+description: This recipe uses toasted barley tea as the base for a kombucha-style fermentation.
 ---
 ## Background
 

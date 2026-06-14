@@ -5,6 +5,8 @@ tags:
   - SYRUP
 pairing:
 date: 2025-06-17
+project:
+description: This experiment makes cheong from unripe peaches to test whether they yield a compelling sweet-tart syrup.
 ---
 ## Background
 
@@ -33,7 +35,7 @@ Kitchen Scale
 
 --- end-multi-column
 
-![[Unripe Peach Cheong.jpeg |300]]
+![[Unripe Peach Cheong.jpeg|300]]
 
 ## Instructions
 
@@ -52,7 +54,7 @@ Kitchen Scale
 5.  **Sealing**  
     Seal the jar and store at room temperature.
 
-![[Unripe Peach Cheong-1.jpeg | 300]] ![[Unripe Peach Cheong-2.jpeg | 300]]
+![[Unripe Peach Cheong-1.jpeg|300]] ![[Unripe Peach Cheong-2.jpeg|300]]
 ## Notes and Observations
 
 - The peaches used were small, about the size of a golf ball. Some had a dried, gum-like substance on the skin, likely from stink bugs.
@@ -62,4 +64,4 @@ Kitchen Scale
 - The process will be monitored over the coming weeks, first for syrup formation and the dissolution of all sugar. Following that, we will monitor for signs of slight [[Lacto-Fermentation|lacto-fermentation]].
 - After 2 months the syrup has concentrated, the peaches have shriveled up completely, and some lacto-fermentation has occurred. The resulting flavor is sweet, sour, candy-like, and slightly funky.
 
- ![[Unripe Peach Cheong.webp | 300]]
+![[Unripe Peach Cheong.webp|300]]

@@ -7,9 +7,10 @@ ingredients:
   - Rye Berry
 pairing:
   - Rhubarb
-date: 05-26-25
+date: 2025-05-26
+description: This experiment infuses vinegar with toasted rye berries to capture the grain's roasted flavor.
+project:
 ---
-
 ## Recipe
 
 * [[Rye Berry|rye berries]] were toasted on low-medium heat.
