@@ -4,7 +4,7 @@ tags:
   - EXPERIMENT
 pairing:
 date: 2025-12-10
-project:
+project: "[[Umami]]"
 ---
 ## Background
 

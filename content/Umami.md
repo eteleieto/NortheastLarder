@@ -16,18 +16,4 @@ This project focuses on creating umami-rich foods like [[Garum|garums]], [[Miso|
 *   **Technique Integration:** Exploring how techniques like [[Smoking|smoking]] and [[Roasting|roasting]] can add complexity, as well as using combined substrates to create novel flavor profiles.
 *   **Process Variation:** Investigating different fermentation timelines, including both traditional long-term aging and expedited methods. We will also explore combining these processes with other ferments, such as [[Lacto-Fermentation|lacto-fermentation]].
 
-## Some Current Projects:
-
-|||
-
-[[Malt-Umami]]
-
-[[Tops Garum]]
-
-[[Mushroom Garum]]
-
-[[Mushroom Seasoning]]
-
-|||
-
 ![[Umami.webp|1]]

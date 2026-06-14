@@ -5,7 +5,7 @@ tags:
   - AMAZAKE
 pairing:
 date: 2025-07-31
-project:
+project: "[[Amazake Project]]"
 ---
 ## Background
 

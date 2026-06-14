@@ -116,7 +116,7 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   // fitView: start the overlay zoomed so every node is visible
-  afterBody: [Component.Graph({ globalGraph: { fitView: true } })],
+  afterBody: [Component.ProjectGallery(), Component.Graph({ globalGraph: { fitView: true } })],
   footer: Component.Footer(),
 }
 

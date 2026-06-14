@@ -4,8 +4,3 @@ tags:
   - PROJECT
 date: 2025-11-29
 ---
-|||
-
-[[Einkorn Pasta]]
-
-|||

@@ -5,7 +5,7 @@ tags:
   - BLACKENED
 pairing:
 date: 2025-07-31
-project:
+project: "[[(WIP) Coffee & Chocolate Substitutes]]"
 ---
 ## Dried
 

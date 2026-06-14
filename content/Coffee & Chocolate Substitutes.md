@@ -4,18 +4,6 @@ tags:
   - PROJECT
 date: 2025-06-18
 ---
-## Active Explorations
-
-||| 
-
-[[Rye Koji "Coffee"]]
-
-[[Blackened Tempeh "Chocolate"]]
-
-[[Soybean Koji "Coffee"]]
-
-|||
-
 ## Background
 
 Much of the flavor of coffee is developed during **roasting**, which involves:

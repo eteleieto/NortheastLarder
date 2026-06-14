@@ -29,6 +29,7 @@ import HamburgerMenu from "./HamburgerMenu"
 import Newsletter from "./Newsletter"
 import { CardList } from "./CardList"
 import ProjectLink from "./ProjectLink"
+import ProjectGallery from "./ProjectGallery"
 
 export {
   ArticleTitle,
@@ -62,4 +63,5 @@ export {
   Newsletter,
   CardList,
   ProjectLink,
+  ProjectGallery,
 }

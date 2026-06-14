@@ -5,7 +5,7 @@ tags:
   - GARUM
 pairing:
 date: 2025-10-02
-project:
+project: "[[Mushroom Garum]]"
 ---
 ## Background
 

@@ -5,7 +5,7 @@ tags:
   - GARUM
 pairing:
 date: 2025-07-30
-project:
+project: "[[Umami]]"
 ---
 ## Background
 

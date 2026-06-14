@@ -327,7 +327,9 @@ Avoid bouncy or large-scale motion; the site should feel stable.
 
 - Use **`[[wikilinks]]`** for internal references; unresolved links appear in the graph as hollow nodes.
 - Tag pages drive Browse categories: `RECIPE`, `BLOG`, `EXPERIMENT`, `PROJECT`, etc.
-- Card rows in markdown: `||` (with images) or `|||` (no images) — see home page projects grid.
+- **Project galleries:** pages tagged `PROJECT` automatically render a scrollable card gallery at the bottom, populated from any page whose `project:` frontmatter links to that project. Do not add manual card blocks to project pages.
+- Card rows in markdown: `||` (with images) or `|||` (no images) — used on the home page and some technique pages, not on project pages.
+- `(WIP)`-prefixed filenames render an under-construction layout instead of the article body.
 - Landing pages (`index`, About-Us, For-Restaurants, Documentation, Bookshelf): provide own h1 in body; auto title suppressed.
 
 ### Home intro links
@@ -351,6 +353,7 @@ Frontmatter dates flow to all meta surfaces automatically; no extra styling need
 | Sidebar & rails | [`sidebar.scss`](../quartz/styles/sidebar.scss) |
 | Layout wiring | [`quartz.layout.ts`](../quartz.layout.ts) |
 | Cards | [`components/styles/cards.scss`](../quartz/components/styles/cards.scss) |
+| Project galleries | [`components/ProjectGallery.tsx`](../quartz/components/ProjectGallery.tsx), [`util/projectMatch.ts`](../quartz/util/projectMatch.ts) |
 | Footer | [`components/styles/footer.scss`](../quartz/components/styles/footer.scss) |
 | Search | [`components/styles/search.scss`](../quartz/components/styles/search.scss) |
 | Mobile menu | [`components/styles/hamburgerMenu.scss`](../quartz/components/styles/hamburgerMenu.scss) |
@@ -391,4 +394,4 @@ These were reviewed during the style audit; keep them in mind when extending the
 
 ---
 
-*Last updated to reflect the site after navigation, typography, graph, search, and 404 layout work. Regenerate or extend this doc when changing `quartz.config.ts` or the custom SCSS layer.*
+*Last updated to reflect project auto-galleries, EXPERIMENT tag, WIP pages, and navigation/graph work. Regenerate or extend this doc when changing `quartz.config.ts` or the custom SCSS layer.*
