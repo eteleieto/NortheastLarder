@@ -1,8 +1,7 @@
 ---
 title: Blackened Squash
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
   - BLACKENED
 pairing:
 date: 2025-11-28

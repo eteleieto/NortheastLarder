@@ -2,7 +2,6 @@
 title: Toasted Barley Kombucha
 tags:
   - RECIPE
-  - IN-PROGRESS
 date: 2026-01-23
 ---
 ## Background

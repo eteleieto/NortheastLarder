@@ -1,11 +1,10 @@
 ---
 title: Rye Koji "Coffee"
 tags:
-  - LARDER
-  - IN-PROGRESS
-pairing: 
+  - EXPERIMENT
+pairing:
 date: 2025-06-19
-project: "[[Coffee & Chocolate Substitutes]]"
+project: "[[(WIP) Coffee & Chocolate Substitutes]]"
 ---
 ## Background
 

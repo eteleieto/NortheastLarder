@@ -1,8 +1,7 @@
 ---
 title: Grits Miso
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
 pairing:
 date: 2025-12-10
 project:

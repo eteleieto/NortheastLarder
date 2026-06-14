@@ -1,8 +1,7 @@
 ---
 title: Koji-Salt Cured Anise Hyssop Flowers
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
 pairing:
 date: 2025-07-31
 project:

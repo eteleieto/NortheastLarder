@@ -1,8 +1,7 @@
 ---
 title: Roasted Soybean Powder
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
 pairing: 
 date: 2026-02-11
 project:

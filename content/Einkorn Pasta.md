@@ -1,8 +1,7 @@
 ---
 title: Einkorn Pasta
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
 pairing:
 date: 2025-11-29
 project: "[[Pasta]]"

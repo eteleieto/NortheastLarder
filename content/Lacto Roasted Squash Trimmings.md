@@ -1,8 +1,7 @@
 ---
 title: Lacto Roasted Squash Trimmings
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
 pairing: 
 date: 2026-02-11
 project:

@@ -2,7 +2,6 @@
 title: Red Cabbage, Apricot, Rye
 tags:
   - RECIPE
-  - IN-PROGRESS
 date: 2025-07-24
 ---
 ## Background

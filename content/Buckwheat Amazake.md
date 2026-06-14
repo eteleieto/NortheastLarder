@@ -1,8 +1,7 @@
 ---
 title: Buckwheat Amazake
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
   - AMAZAKE
 pairing:
 date: 2025-06-20

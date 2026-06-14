@@ -1,8 +1,7 @@
 ---
 title: Resinous Polypore Garum
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
   - GARUM
 pairing:
 date: 2025-10-02
@@ -57,10 +56,6 @@ Fermentation Chamber
 ## Notes and Observations
 
 - The fermentation is being conducted at 140°F with an 8% salt concentration.
-
-
-
-
 
 ## Updates
 

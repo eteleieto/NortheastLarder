@@ -1,8 +1,7 @@
 ---
 title: Shio Koji Grain Cheese
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
 pairing: 
 date: 2025-12-06
 project:

@@ -1,8 +1,7 @@
 ---
 title: Soy Ice Cream Base
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
 pairing:
 date: 2026-01-28
 project: "[[Ice Cream]]"
@@ -68,19 +67,11 @@ Blender
 - A future iteration may explore a mixture between soy and [[Peanut|peanut]].
 - We may also test a "freeze, churn, freeze" method to improve the structure.
 
-
-
-
-
-
-
 Plain Soymilk:
 a lot lkike snow when frozen and blended through creamy - dry and notn very creamy
 
 sorghum:
 respin nee
-
-
 
 A few more thoughts on improvement: soluble fibers like inulin can improve ice cream texture (look into other soluble fibers -- beta glucans in oat is one, maybe doing a combo between soy) - and potentially starch in the ice cream base -- so maybe some gelatinized oat mixed with soy for protein and fat with some emulsified oils (?) -- the kinako helped a lot, so maybe any fiber (think dark chocolate gelato) so what about grinding kinako plus oil in the wet grinder maybe with something else and doing that as a base - what about okara
 
@@ -93,7 +84,6 @@ potential new recipe:
 soymilk, some gelatinized oatmilk, potentially some pulverized fiber
 
 https://www.icecreamscience.com/vegan-ice-cream-selecting-a-non-dairy-fat/
-
 
 sweeteners:
 maple syrup

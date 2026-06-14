@@ -2,7 +2,6 @@
 title: Drinks
 tags:
   - PROJECT
-  - IN-PROGRESS
 date: 2025-07-24
 ---
 ## Background
@@ -31,7 +30,5 @@ Crafting complex non-alcoholic beverages that can be sipped over longer periods 
 
 #### Infusions
 Working with infusions, such as herbal and grain-based [[Tea|teas]].
-
-
 
 ![[Drinks.webp|1x1]]

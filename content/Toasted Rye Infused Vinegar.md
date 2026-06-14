@@ -1,8 +1,7 @@
 ---
 title: Toasted Rye Infused Vinegar
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
   - VINEGAR
 ingredients:
   - Rye Berry

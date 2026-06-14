@@ -2,7 +2,6 @@
 title: Malted Oat Milk
 tags:
   - RECIPE
-  - IN-PROGRESS
   - MILK
 date: 2025-07-31
 ---

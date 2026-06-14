@@ -1,8 +1,7 @@
 ---
 title: Lacto-Wineberries
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
   - LACTO-FERMENT
 pairing:
 date: 2025-11-28

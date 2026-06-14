@@ -1,8 +1,7 @@
 ---
 title: Lacto Barley and Soy
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
 pairing: 
 date: 2026-01-28
 project:

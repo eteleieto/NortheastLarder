@@ -1,6 +1,6 @@
 ---
 tags:
-  - LARDER
+  - EXPERIMENT
 date: 2025-02-25
 title: Frozen Amazakes
 project: "[[Amazake Project]]"

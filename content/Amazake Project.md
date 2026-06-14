@@ -2,7 +2,6 @@
 title: Amazake
 tags:
   - PROJECT
-  - IN-PROGRESS
   - Fermentation
 date: 2025-06-12
 ---

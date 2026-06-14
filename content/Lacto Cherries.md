@@ -1,8 +1,7 @@
 ---
 title: Lacto Cherries
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
   - LACTO-FERMENT
 pairing:
 date: 2025-07-28

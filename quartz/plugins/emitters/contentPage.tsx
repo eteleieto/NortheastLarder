@@ -7,13 +7,14 @@ import { pageResources, renderPage } from "../../components/renderPage"
 import { FullPageLayout } from "../../cfg"
 import { pathToRoot } from "../../util/path"
 import { defaultContentPageLayout, sharedPageComponents } from "../../../quartz.layout"
-import { Content } from "../../components"
+import { Content, UnderConstruction } from "../../components"
 import chalk from "chalk"
 import { write } from "./helpers"
 import { BuildCtx } from "../../util/ctx"
 import { Node } from "unist"
 import { StaticResources } from "../../util/resources"
 import { QuartzPluginData } from "../vfile"
+import { isWipPage } from "../../util/wip"
 
 async function processContent(
   ctx: BuildCtx,
@@ -21,6 +22,7 @@ async function processContent(
   fileData: QuartzPluginData,
   allFiles: QuartzPluginData[],
   opts: FullPageLayout,
+  wipPageLayout: FullPageLayout,
   resources: StaticResources,
 ) {
   const slug = fileData.slug!
@@ -36,7 +38,13 @@ async function processContent(
     allFiles,
   }
 
-  const content = renderPage(cfg, slug, componentData, opts, externalResources)
+  const content = renderPage(
+    cfg,
+    slug,
+    componentData,
+    isWipPage(fileData) ? wipPageLayout : opts,
+    externalResources,
+  )
   return write({
     ctx,
     content,
@@ -53,7 +61,14 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
     ...userOpts,
   }
 
+  const wipPageLayout: FullPageLayout = {
+    ...opts,
+    pageBody: UnderConstruction(),
+    beforeBody: [],
+  }
+
   const { head: Head, header, beforeBody, pageBody, afterBody, left, right, footer: Footer } = opts
+  const WipBody = wipPageLayout.pageBody
   const Header = HeaderConstructor()
   const Body = BodyConstructor()
 
@@ -67,6 +82,7 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
         ...header,
         ...beforeBody,
         pageBody,
+        WipBody,
         ...afterBody,
         ...left,
         ...right,
@@ -85,7 +101,7 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
 
         // only process home page, non-tag pages, and non-index pages
         if (slug.endsWith("/index") || slug.startsWith("tags/")) continue
-        yield processContent(ctx, tree, file.data, allFiles, opts, resources)
+        yield processContent(ctx, tree, file.data, allFiles, opts, wipPageLayout, resources)
       }
 
       if (!containsIndex) {
@@ -113,7 +129,7 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
         if (!changedSlugs.has(slug)) continue
         if (slug.endsWith("/index") || slug.startsWith("tags/")) continue
 
-        yield processContent(ctx, tree, file.data, allFiles, opts, resources)
+        yield processContent(ctx, tree, file.data, allFiles, opts, wipPageLayout, resources)
       }
     },
   }

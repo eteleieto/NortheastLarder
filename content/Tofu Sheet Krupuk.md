@@ -2,7 +2,6 @@
 title: Tofu Sheet Krupuk
 tags:
   - RECIPE
-  - IN-PROGRESS
 date: 2025-07-21
 ---
 ## Background

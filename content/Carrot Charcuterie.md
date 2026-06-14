@@ -1,8 +1,7 @@
 ---
 title: Carrot Charcuterie
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
   - KOJI-INOCULATED
 pairing:
 date: 2025-11-28
@@ -62,6 +61,5 @@ Vacuum Sealer
 - The taste still is strongly of carrot, but with a neutral 'cheese' funk, similar to a brie or camembert rind but without their characteristic flavor. It is umami and slightly floral, with some of the characteristic aromas of koji.
 - The carrot charcuterie when cooked has the taste of a carrot which has been rendered in the fat of pork or chicken with quite a full-bodied roasted meat flavor in a way that's quite distinct from it just after it was inoculated.
 - Afterwards, I dried them at 95 degrees Fahrenheit in a dehydrator for 6 hours, after which the flavor became concentrated and the texture improved.
-
 
 ![[Carrot Charcuterie-3.webp|200x267]]![[Carrot Charcuterie-2.webp|200x267]]

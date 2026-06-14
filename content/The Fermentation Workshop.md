@@ -21,7 +21,6 @@ Of course, we will make sure all ferments are done properly and safe to consume.
 
 ## More Information
 
-
 The workshop is designed to be a 2-part workshop, where participants make, take-care of, and share their ferments over lunch and through conversation.
 
 We understand that two consecutive weekends might not be possible for everyone, so for the first weekend, we’re offering a limited number of standalone tickets. These tickets will be just for the workshop, and not include the gathering the following weekend.

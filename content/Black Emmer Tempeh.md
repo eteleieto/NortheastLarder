@@ -1,8 +1,7 @@
 ---
 title: Black Emmer Tempeh
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
   - TEMPEH
 pairing:
 date: 2025-10-27

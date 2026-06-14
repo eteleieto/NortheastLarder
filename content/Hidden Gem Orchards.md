@@ -5,5 +5,3 @@ tags:
 location:
 ---
 
-
-

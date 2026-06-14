@@ -1,8 +1,7 @@
 ---
 title: Cherry Umeboshi
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
   - LACTO-FERMENT
 pairing:
 date: 2025-08-04

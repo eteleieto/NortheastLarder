@@ -1,8 +1,7 @@
 ---
 title: Emmer Tempeh
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
   - TEMPEH
 pairing:
   - "[[Soy Sauce]]"

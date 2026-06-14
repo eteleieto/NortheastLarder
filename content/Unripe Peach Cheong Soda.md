@@ -2,7 +2,6 @@
 title: Unripe Peach Cheong Soda
 tags:
   - RECIPE
-  - IN-PROGRESS
   - SODA
 date: 2025-07-30
 ---

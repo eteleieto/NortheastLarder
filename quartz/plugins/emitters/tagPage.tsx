@@ -21,7 +21,7 @@ interface TagPageOptions extends FullPageLayout {
 const getCustomTitle = (tag: string): string => {
   const customTitles: Record<string, string> = {
     'PROJECT': 'Projects',
-    'LARDER': 'Larders',
+    'EXPERIMENT': 'Experiments',
     'INGREDIENT': 'Ingredients',
     'TECHNIQUE': 'Techniques',
     'BLOG': 'Blogs',
@@ -35,7 +35,7 @@ const getCustomTitle = (tag: string): string => {
 const getCustomDescription = (tag: string): string => {
   const descriptions: Record<string, string> = {
     'PROJECT': 'Explore our ongoing food research projects focusing on Northeast ingredients, fermentation, and sustainable practices.',
-    'LARDER': 'Discover preserved foods and ingredients that form the backbone of Northeast regional cuisine.',
+    'EXPERIMENT': 'Explore fermentation and preservation experiments from the Northeast Larder lab.',
     'INGREDIENT': 'Learn about unique ingredients sourced from the Northeast region and their culinary applications.',
     'TECHNIQUE': 'Master traditional and modern food preservation and fermentation techniques.',
     'BLOG': 'Read our latest thoughts on food culture, sustainability, and regional cuisine development.',
@@ -43,7 +43,6 @@ const getCustomDescription = (tag: string): string => {
     'IDEA': 'Explore experimental concepts and early-stage food research ideas.',
     'SOURCE': 'Find trusted sources for Northeast ingredients, equipment, and further learning.',
     'FERMENTATION': 'Dive deep into fermentation science and traditional preservation methods.',
-    'IN-PROGRESS': 'Follow along with our current experiments and works in development.'
   }
   return descriptions[tag] || `Explore content related to ${tag.toLowerCase()} in Northeast regional cuisine.`
 }

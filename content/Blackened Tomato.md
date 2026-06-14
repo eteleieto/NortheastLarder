@@ -1,8 +1,7 @@
 ---
 title: Blackened Tomato
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
   - BLACKENED
 pairing:
 date: 2025-07-22

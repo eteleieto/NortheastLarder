@@ -1,8 +1,7 @@
 ---
 title: Oat Malt Garum
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
   - GARUM
 pairing:
 date: 2025-07-21

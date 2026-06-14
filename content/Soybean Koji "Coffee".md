@@ -1,11 +1,10 @@
 ---
 title: Soybean Koji "Coffee"
 tags:
-  - LARDER
-  - IN-PROGRESS
-pairing: 
+  - EXPERIMENT
+pairing:
 date: 2025-07-30
-project: "[[Coffee & Chocolate Substitutes]]"
+project: "[[(WIP) Coffee & Chocolate Substitutes]]"
 ---
 ## Background
 
@@ -65,7 +64,6 @@ Coffee Grinder
 - The roasted version was compared to [[Rye Koji "Coffee"]] and found to be less complex and more one-dimensional, suggesting it may have been slightly over-roasted.
 - The blackened soybeans seem more promising as a chocolate substitute than as a coffee one.
 
-
 After one week of blackening...
 
 ![[Soybean Koji "Coffee".webp|200x267]]
@@ -73,7 +71,4 @@ After one week of blackening...
 After the full month:
 
 ![[Soybean Koji "Coffee"-1.webp|200x267]]
-
-
-
 

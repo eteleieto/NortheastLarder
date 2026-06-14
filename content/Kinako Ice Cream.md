@@ -2,7 +2,6 @@
 title: Kinako Ice Cream
 tags:
   - RECIPE
-  - IN-PROGRESS
 date: 2026-01-28
 project: "[[Ice Cream]]"
 ---

@@ -1,6 +1,7 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { SimpleSlug } from "./quartz/util/path"
+import { isWipPage } from "./quartz/util/wip"
 
 // Static landing-style pages: no Table of Contents or Backlinks in the right rail.
 const LANDING_SLUGS = ["index", "About-Us", "For-Restaurants", "Documentation", "Bookshelf"]
@@ -10,13 +11,15 @@ const isLandingPage = (slug: string | undefined) => !!slug && LANDING_SLUGS.incl
 // ArticleTitle/ContentMeta so the title doesn't render twice.
 const suppressArticleHeader = (slug: string | undefined) => isLandingPage(slug)
 const isHomePage = (slug: string | undefined) => slug === "index"
+const showArticleSidebar = (slug: string | undefined, fileData: { relativePath?: string }) =>
+  !isLandingPage(slug) && !isWipPage(fileData)
 
 const graphPreview = Component.Graph({ preview: true })
 
 const browseCategories = [
   { name: "Recipes", slug: "tags/RECIPE" as SimpleSlug },
   { name: "Blogs", slug: "tags/BLOG" as SimpleSlug },
-  { name: "Larders", slug: "tags/LARDER" as SimpleSlug },
+  { name: "Experiments", slug: "tags/EXPERIMENT" as SimpleSlug },
   { name: "Projects", slug: "tags/PROJECT" as SimpleSlug },
 ]
 
@@ -61,7 +64,7 @@ const recentNotes = Component.RecentNotes({
   limit: 3,
   filter: (page) => {
     const tags = page.frontmatter?.tags
-    const allowedTags = ["PROJECT", "LARDER", "RECIPE", "IDEA"]
+    const allowedTags = ["PROJECT", "EXPERIMENT", "RECIPE", "IDEA"]
     if (!tags) return false
     if (typeof tags === "string") return allowedTags.includes(tags)
     if (Array.isArray(tags)) return tags.some((tag) => allowedTags.includes(tag))
@@ -97,11 +100,11 @@ const rightSidebar = [
   }),
   Component.ConditionalRender({
     component: Component.DesktopOnly(Component.TableOfContents()),
-    condition: (page) => !isLandingPage(page.fileData.slug),
+    condition: (page) => showArticleSidebar(page.fileData.slug, page.fileData),
   }),
   Component.ConditionalRender({
     component: Component.DesktopOnly(Component.Backlinks()),
-    condition: (page) => !isLandingPage(page.fileData.slug),
+    condition: (page) => showArticleSidebar(page.fileData.slug, page.fileData),
   }),
   Component.ConditionalRender({
     component: graphPreview,

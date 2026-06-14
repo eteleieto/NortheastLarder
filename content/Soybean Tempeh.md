@@ -1,8 +1,7 @@
 ---
 title: Soybean Tempeh
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
   - TEMPEH
 pairing:
 date: 2025-11-28

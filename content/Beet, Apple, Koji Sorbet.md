@@ -2,7 +2,6 @@
 title: Beet, Apple, Koji Sorbet
 tags:
   - RECIPE
-  - IN-PROGRESS
 date: 2026-01-28
 project:
 ---
@@ -75,4 +74,4 @@ Ice Cream Machine
 - The byproduct of the beet pulp can be utilized for baking, crackers, or a "koji beet pulp."
 - Future iterations might involve adding [[Kombu|kombu]], using different koji substrates (such as oats), or experimenting with sweeteners like [[Amazake|amazake]], malt, or [[Beet Molasses|beet molasses]].
 - It may be interesting to use [[Lacto-Fermentation|lacto-fermented]] beets for 25% of the mixture to add complexity.
-- Emulsifying [[Soy Milk|soy milk]] or oil into the mixture could improve the texture and add a fatty mouthfeel to more closely mimic gelato.
+- Emulsifying [[Content/Soy Milk|soy milk]] or oil into the mixture could improve the texture and add a fatty mouthfeel to more closely mimic gelato.

@@ -29,8 +29,8 @@ export default (() => {
         titleContext = "Recipe"
       } else if (tags.includes('PROJECT')) {
         titleContext = "Project"
-      } else if (tags.includes('LARDER')) {
-        titleContext = "Ingredient Guide"
+      } else if (tags.includes('EXPERIMENT')) {
+        titleContext = "Experiment"
       } else if (tags.includes('TECHNIQUE')) {
         titleContext = "Technique"
       } else if (tags.includes('BLOG')) {

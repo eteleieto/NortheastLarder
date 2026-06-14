@@ -1,8 +1,7 @@
 ---
 title: Barley Soy Miso
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
   - MISO
 pairing:
 date: 2025-11-28

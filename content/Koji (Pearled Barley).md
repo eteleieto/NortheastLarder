@@ -1,8 +1,7 @@
 ---
 title: Koji (Pearled Barley)
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
   - KOJI-INOCULATED
 pairing:
 date: 2025-11-28

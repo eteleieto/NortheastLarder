@@ -1,8 +1,7 @@
 ---
 title: Tops Garum
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
   - GARUM
 pairing:
 date: 2025-07-30
@@ -50,7 +49,6 @@ Kitchen Scale
 
 3.  **Ferment**  
     Seal the vessel and store at room temperature.
-
 
 ![[Tops Garum.webp|200x267]]
 

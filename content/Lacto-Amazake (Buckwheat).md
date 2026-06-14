@@ -1,8 +1,7 @@
 ---
 title: Lacto-Amazake (Buckwheat)
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
   - LACTO-FERMENT
   - AMAZAKE
 pairing:

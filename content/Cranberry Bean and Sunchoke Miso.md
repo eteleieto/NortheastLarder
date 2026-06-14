@@ -1,8 +1,7 @@
 ---
 title: Cranberry Bean and Sunchoke Miso
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
 pairing:
 date: 2026-01-28
 project: "[[Umami]]"

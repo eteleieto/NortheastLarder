@@ -181,5 +181,29 @@ Largest Column: standard
 4. Fat and sugar sources
 5. To roast or not?
 
+doing a test right now with black bean, Anasazi beans, soybeans, and sorghum, all of which have been inoculated with goji. I'm going to take them and try two different things:
+
+1. I'm just going to straight up roast them, which I'm going to do at 140°C for 25 minutes.
+2. I'm going to take them and just blacken them at 140°C, kind of like black garlic, with the theory being that those enzymes will then start to break down the proteins and we'll get something interesting.
+
+I'm doing a test to make coffee and chocolate alternatives by growing koji on stuff and then roasting or blackening them. Right now I have three substrates:
+
+- Pearl
+- Darin
+- Wheat
+
+I have light malt that's unroasted, diastatic malt, and then I have a black rye roasted malt. They're all from Valley Malt.  
+  
+In order to regulate the moisture what I did with all of them was I soaked overnight. I steamed for 30 min and then to the malts I added in some okara. Now I am going to do two different trials with each of them. I'm going to roast and I'm going to blacken. The theory is that with blackening at 140 the enzymes will break down some of the proteins, which will create precursors for coffee and chocolate flavors. We are going to
+
+The other shochu starters I want to try like this are the sunflower seeds and pumpkin seeds. The theory behind the malts is that because the starch stores are no longer as abundant, being more fibrous than just the protein, you won't end up with some of the kind of sweet taste that we got when we did blackened tempeh and koji experiments using the straight-up grains. This also maybe you could get around by using seeds rather than grains instead. 
+
+I'm going to do two roasting experiments with them. I'm going to take 
+
+ the Koji grew quite well on the Pearl Faro and it grew quite well on the light malt and on the dark malt that had already been roasted. It didn't grow quite as well. My guess is probably because a lot of the proteins were already broken down in that process of the roasting  now I'm going to take 50 g of each and I'm going to do a test roasting them. I'm going to take half of each 50 g portion and I'm going to do two different roasting length tests. I'm going to do a low-temperature roast at around 140°C. This is based on some stuff written in the Nordic Food Lab. I will do a roast at the same temperature for a slightly longer period of time 
+https://nordicfoodlab.org/blog/2013/12/roasting-koji/
+
+ the two roasting times I'm going to do are a 20-minute and a 30-minute roast, both at 140°C around 280°F
+
 ![[Coffee & Chocolate Substitutes-3.webp|1]]
 _Cover image courtesy of [Faenum](https://faenum.com)_

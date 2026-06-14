@@ -50,7 +50,6 @@ Dark mode inverts the warm palette (deep brown backgrounds, cream text). Typogra
 
 | Use | Value | Where |
 |-----|-------|-------|
-| IN-PROGRESS tags | `#c47a7a` (hover `#a85f5f`) | Tag links containing `IN-PROGRESS` |
 | Card description | `color-mix(in srgb, var(--darkgray) 65%, var(--light))` | Tag grid previews (~`#7f7a77` in light mode) |
 | Hamburger overlay | `rgba(0, 0, 0, 0.5)` | Mobile menu backdrop |
 | Card shadow | `0 1px 4px rgba(0,0,0,0.07)` | Default; stronger on hover |
@@ -164,7 +163,7 @@ Navigation is **distributed**, not a single top bar. Know which surface owns whi
 | Location | Contents |
 |----------|----------|
 | **Left rail** | Logo, Recent Blog Posts, Recent Notes |
-| **Right rail** | Search, Browse (Recipes / Blogs / Larders / Projects [+ Graph on non-home pages]), Table of Contents, Backlinks; **Graph preview on home only** |
+| **Right rail** | Search, Browse (Recipes / Blogs / Experiments / Projects [+ Graph on non-home pages]), Table of Contents, Backlinks; **Graph preview on home only** |
 | **Home intro** | Inline links: about us, for restaurants, the documentation |
 | **Footer (row 1)** | About Us · For Restaurants · Documentation · Bookshelf · Graph |
 | **Footer (row 2)** | Instagram · email · copyright |
@@ -222,7 +221,6 @@ Base [`base.scss`](../quartz/styles/base.scss): `color: var(--secondary)`, no un
 ### Tags
 
 - In content meta: `#` prefix via CSS, `0.82rem`, `var(--darkgray)`, no pill
-- **IN-PROGRESS:** red text only (`#c47a7a`), no background
 
 ---
 
@@ -328,7 +326,7 @@ Avoid bouncy or large-scale motion; the site should feel stable.
 ### Markdown / Obsidian
 
 - Use **`[[wikilinks]]`** for internal references; unresolved links appear in the graph as hollow nodes.
-- Tag pages drive Browse categories: `RECIPE`, `BLOG`, `LARDER`, `PROJECT`, etc.
+- Tag pages drive Browse categories: `RECIPE`, `BLOG`, `EXPERIMENT`, `PROJECT`, etc.
 - Card rows in markdown: `||` (with images) or `|||` (no images) — see home page projects grid.
 - Landing pages (`index`, About-Us, For-Restaurants, Documentation, Bookshelf): provide own h1 in body; auto title suppressed.
 

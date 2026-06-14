@@ -1,8 +1,7 @@
 ---
 title: Malted Grain Milks
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
 pairing: 
 date: 2025-12-18
 project:
