@@ -6,7 +6,7 @@ tags:
   - MALT
 pairing:
 date: 2025-07-21
-project: "[[Malt-Umami]]"
+project:
 description: This garum combines oats, light Munich malt, and koji for a long, high-temperature enzymatic ferment.
 ---
 ## Background

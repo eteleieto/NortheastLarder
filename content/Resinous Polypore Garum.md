@@ -5,7 +5,7 @@ tags:
   - GARUM
 pairing:
 date: 2025-10-02
-project: "[[Mushroom Garum]]"
+project:
 description: This experiment turns the woody parts of resinous polypore into a savory garum.
 ---
 ## Background

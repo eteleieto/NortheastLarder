@@ -6,7 +6,7 @@ tags:
   - MALT
 pairing:
 date: 2025-07-21
-project: "[[Malt-Umami]]"
+project:
 description: This experiment uses light Munich malt and koji to make a malty, high-temperature garum.
 ---
 ![[Screenshot 2025-07-22 at 3.18.26 PM.webp|200]]
