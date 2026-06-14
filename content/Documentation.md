@@ -13,10 +13,10 @@ This site is our open lab notebook. Every page can link to others, and together 
 
 Pages are mostly experiments, recipes, blog posts, and larger projects. You can browse by type from the sidebar:
 
-- **Experiments** — individual tests, trials, and iterations
-- **Projects** — broader research threads that group related experiments
 - **Recipes** — finished or in-development dishes
 - **Blogs** — longer notes and write-ups
+- **Experiments** — individual tests, trials, and iterations
+- **Projects** — broader research threads that group related experiments
 
 ## Projects
 
