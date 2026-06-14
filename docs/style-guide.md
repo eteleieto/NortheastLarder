@@ -327,7 +327,7 @@ Avoid bouncy or large-scale motion; the site should feel stable.
 
 - Use **`[[wikilinks]]`** for internal references; unresolved links appear in the graph as hollow nodes.
 - Tag pages drive Browse categories: `RECIPE`, `BLOG`, `EXPERIMENT`, `PROJECT`, etc.
-- **Project galleries:** pages tagged `PROJECT` automatically render a scrollable card gallery at the bottom, populated from any page whose `project:` frontmatter links to that project. Do not add manual card blocks to project pages.
+- **Project galleries:** pages tagged `PROJECT` automatically render a card grid at the bottom, populated from any page whose `project:` frontmatter links to that project. Large sets use a load-more button. Do not add manual card blocks to project pages. Hidden on `(WIP)` project pages.
 - Card rows in markdown: `||` (with images) or `|||` (no images) — used on the home page and some technique pages, not on project pages.
 - `(WIP)`-prefixed filenames render an under-construction layout instead of the article body.
 - Landing pages (`index`, About-Us, For-Restaurants, Documentation, Bookshelf): provide own h1 in body; auto title suppressed.

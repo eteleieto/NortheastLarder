@@ -8,29 +8,37 @@ window.addEventListener("DOMContentLoaded", () => {
 
 function setupProjectGalleries() {
   document.querySelectorAll(".project-gallery").forEach((gallery) => {
-    const track = gallery.querySelector(".project-gallery-track") as HTMLElement | null
-    const prev = gallery.querySelector(".project-gallery-nav-prev") as HTMLButtonElement | null
-    const next = gallery.querySelector(".project-gallery-nav-next") as HTMLButtonElement | null
-    if (!track || !prev || !next) return
+    const container = gallery.querySelector(".project-gallery-cards") as HTMLElement | null
+    const button = gallery.querySelector(".project-gallery-load-more") as HTMLButtonElement | null
+    if (!container || !button) return
 
-    const scrollAmount = () => Math.max(track.clientWidth * 0.85, 240)
+    const initial = Number(container.dataset.initial) || 6
+    const step = Number(container.dataset.step) || 6
+    const cards = Array.from(container.querySelectorAll<HTMLElement>(".card-item-link"))
+    let visible = initial
 
-    const updateButtons = () => {
-      const maxScroll = track.scrollWidth - track.clientWidth
-      prev.disabled = track.scrollLeft <= 4
-      next.disabled = track.scrollLeft >= maxScroll - 4
+    const update = () => {
+      cards.forEach((card, index) => {
+        card.classList.toggle("project-gallery-card-hidden", index >= visible)
+      })
+
+      if (visible >= cards.length) {
+        button.hidden = true
+        return
+      }
+
+      const remaining = cards.length - visible
+      button.textContent =
+        remaining <= step ? `Load ${remaining} more` : "Load more"
     }
 
-    prev.addEventListener("click", () => {
-      track.scrollBy({ left: -scrollAmount(), behavior: "smooth" })
-    })
+    const onClick = () => {
+      visible = Math.min(visible + step, cards.length)
+      update()
+    }
 
-    next.addEventListener("click", () => {
-      track.scrollBy({ left: scrollAmount(), behavior: "smooth" })
-    })
-
-    track.addEventListener("scroll", updateButtons, { passive: true })
-    window.addEventListener("resize", updateButtons)
-    updateButtons()
+    button.addEventListener("click", onClick)
+    window.addCleanup?.(() => button.removeEventListener("click", onClick))
+    update()
   })
 }
