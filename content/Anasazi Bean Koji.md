@@ -14,5 +14,5 @@ The incubation occurred at 86f and 80% relative humidity.
 
 The blackening experiment is ongoing.
 
-![[Content/Assets/Attachments/Anasazi Bean Koji.webp|200x200]]
+![[Anasazi Bean Koji.webp|200x200]]
 *The koji after 48 hours of incubation.*

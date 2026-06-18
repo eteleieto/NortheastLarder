@@ -14,5 +14,5 @@ The incubation occurred at 86f and 80% relative humidity.
 
 The blackening experiment is ongoing.
 
-![[Content/Assets/Attachments/Black Bean Koji.webp|200x200]]
+![[Black Bean Koji.webp|200x200]]
 *The black bean koji after 48 hours of incubation.*
