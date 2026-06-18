@@ -31,7 +31,7 @@ interface GraphOptions {
 const defaultOptions: GraphOptions = {
   preview: false,
   localGraph: {
-    drag: true,
+    drag: false,
     zoom: true,
     depth: -1,
     scale: 0.55,
@@ -72,7 +72,7 @@ export default ((opts?: Partial<GraphOptions>) => {
     const globalGraph = { ...defaultOptions.globalGraph, ...options.globalGraph }
 
     return (
-      <div class={classNames(displayClass, "graph", showPreview && "graph--preview")}>
+      <div class={classNames(displayClass, "graph", showPreview ? "graph--preview" : "")}>
         {showPreview && (
           <>
             <div class="rail-label">{i18n(cfg.locale).components.graph.title}</div>

@@ -92,3 +92,91 @@ sorghum syrup
 honey
 malt sugar
 koji sugar
+
+
+
+oing a bunch more tests on this. I'm going to do the following tests  I'm going to do two different levels of fiber inclusion using Okara that's been blended: one part oil to about eight parts Okara to about two parts soy milk I'm going to do two different inclusions of that then I'm going to do:
+
+- an oat inclusion
+- an oil inclusion
+- a koji inclusion blended in
+- a base made from sultan soy milk
+- a base made from no-blanched soy milk
+
+Whereas the base sort of control is going to be from a 5-minute blanched soy milk, which we'll be more about in the soy milk page. I'm going to do all of those with a honey base and then I'll do one with a maple base with the same amount and then yes
+
+
+ so in total this would be eight tests plus the control and we're going to see based on  this is what sort of factor direction so that, based on the speed, we combine one thing I miss leaving out, just like a generally wet ground. One thing you can mind that I'm using Okara that was from a mix of connection and then so much so that it has some flavor. The ones with the fiber inclusion Okara could necessarily need it, basically flavorless Okara, so the flavor can be kind of discounted there if bad 
+as a control for all of these I'm using Apple blossom honey from Howland's Honey  actually I'm going to use clover honey from Cutix
+
+and I'm going to do a ratio of one part sweetener to six parts soy milk (not including any inclusions etc.), basically one part sweetener to base 
+
+and all of these will get blended again 
+
+ doing 500 g of base as a base for all of these 
+ also as a control we're doing 0.25% salt 
+
+Control:
+
+500g soy milk blanched
+.25 percent salt
+70g honey
+
+Fiber Inclusion 1
+
+for this one ill do 450g soy milk and 50 grams of the wet ground fiber mixture
+
+Fiber Inclusion 2
+
+350g soy milk and 150g fiber mixture
+
+Oil Inclusion
+
+450g soymilk 50g oil
+
+Silken Base
+
+500g silken
+
+No-Blanch
+
+Maple Base
+
+Oat Inclusion
+
+ here I'm going to do 400 g of soy milk and 100 g of oats 
+
+and I'm actually going to add in another test where I'm going to do equal parts soy milk and oats, 250-250.  the oats here I'm using are more of an oat ridge or a cream of oat  I'm going to be sure to blend very smoothly before freezing or not going to strain 
+
+
+ first we are turning the control 
+ the control is icy, kind of like a honey gelato. It's whatever sorbet 
+
+ the next one we tried was the unblend, which is definitely a bit creamier but still quite icy 
+
+
+ adding in 20% of card in how much  didnt help much
+ 20% oats definitely helped the texture but it gave it kind of that xanthan gummy creaminess rather than like an actual real body.
+ 
+50 percent oat was thick and creammy, but lacking the real melt in your mouth mouthfeel and mostly just thick
+
+some amount of oats definitely could help
+
+the one with 50% pulp had a stick to your tongue kind of texture somewhat reminsicent of dairy, but too strong and offputting
+
+ the oil made it creamier but there were definitely a lot of ice crystals. Some amount of oil probably makes sense 
+
+ we spun these all after they were at negative four and then these are creamy. Probably should be a bit warmer 
+
+I think a few of the problems were:
+
+- It didn't have just enough protein and fat cooked down into it so I just think it needed to be thicker.
+- I think one thing I wasn't accounting for is that the extraction on the blanched soy milk is lower even though you do get that neutral flavor, the extraction of proteins that is.
+- I also think it just didn't have enough sweetener.
+
+I'm doing another version where I'm going to start with 2000 g. There's no sweetener in this because we need maple syrup. There's 4 g of salt, 100 g of oat, 36 g of oil, and 100 g of Okara mix (that Okara mixture). I'm going to take that all with 1500 g of soy milk so 2000 in total. This is the 1:2 ratio of cooked soybean to water (blanched/pre-blanch plus baking soda soy milk), and then I'm going to take that and we're going to cook it down to 40% of the weight so I'll bring it down to 1200 g total.  
+  
+I'm going to take that and divide it into two portions:
+
+1. I'm going to add some additional ground soybean powder that I'm going to make by roasting soybeans for about 10 minutes at 350 degrees in the oven. This is sort of like a less roasted version of Kinako, something a bit more neutral, but that can then add in a bit more thickness and body into the ice cream base.
+2. Part of what I'm trying to do here is consider how can we add in body and thickness? How can we add in body and thickness without having to resort to using a whirly grinder, for example? How can we make the soy milk that's otherwise quite a normal soy milk that we could use for other things? That's easy to make. That's also pre-blanch and then introduce some of that thickness later into that sort of custard for making the ice cream.

@@ -56,3 +56,7 @@ Pot
 - The 1:2.5 ratio of soaked beans to water yields a beverage with a superior flavor profile.
 - The milk is viscous enough to be creamy and satisfying on the palate.
 - This consistency remains easy to stir during the boiling phase, mitigating the risk of burning or excessive thickening.
+
+
+
+
