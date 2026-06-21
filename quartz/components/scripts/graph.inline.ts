@@ -19,6 +19,7 @@ import { Group as TweenGroup, Tween as Tweened } from "@tweenjs/tween.js"
 import { registerEscapeHandler, removeAllChildren } from "./util"
 import { FullSlug, SimpleSlug, getFullSlug, resolveRelative, simplifySlug } from "../../util/path"
 import { D3Config } from "../Graph"
+import { stripWipPrefix } from "../../util/wip"
 
 type GraphicsInfo = {
   color: string
@@ -172,7 +173,9 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
 
   const nodes = [...neighbourhood].map((url) => {
-    const text = url.startsWith("tags/") ? "#" + url.substring(5) : (data.get(url)?.title ?? url)
+    const text = url.startsWith("tags/")
+      ? "#" + url.substring(5)
+      : stripWipPrefix(data.get(url)?.title ?? url)
     return {
       id: url,
       text,
@@ -439,7 +442,10 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       cursor: isUnresolved ? "default" : "pointer",
     })
       .circle(0, 0, nodeRadius(n))
-      .fill({ color: isTagNode ? computedStyleMap["--light"] : color(n), alpha: isUnresolved ? 0 : 1 })
+      .fill({
+        color: isTagNode ? computedStyleMap["--light"] : color(n),
+        alpha: isUnresolved ? 0 : 1,
+      })
       .on("pointerover", (e) => {
         updateHoverInfo(e.target.label)
         oldLabelOpacity = label.alpha

@@ -28,6 +28,7 @@ import { toHast } from "mdast-util-to-hast"
 import { toHtml } from "hast-util-to-html"
 import { capitalize } from "../../util/lang"
 import { PluggableList } from "unified"
+import { stripWipPrefix } from "../../util/wip"
 
 export interface Options {
   comments: boolean
@@ -256,17 +257,17 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                     const width = match?.groups?.width
                     const height = match?.groups?.height
                     const aspectRatio = match?.groups?.aspectRatio
-                    
+
                     let videoStyle = ""
                     let videoAttributes = `controls preload="none"`
-                    
+
                     if (width) {
                       if (height) {
                         // Explicit width and height
                         videoStyle = `width: ${width}px; height: ${height}px;`
                       } else if (aspectRatio) {
                         // Width with aspect ratio
-                        const [ratioW, ratioH] = aspectRatio.split(':').map(Number)
+                        const [ratioW, ratioH] = aspectRatio.split(":").map(Number)
                         const calculatedHeight = Math.round((parseInt(width) * ratioH) / ratioW)
                         videoStyle = `width: ${width}px; height: ${calculatedHeight}px; object-fit: cover;`
                       } else {
@@ -278,7 +279,10 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                     const contentDir = path.isAbsolute(ctx.argv.directory)
                       ? ctx.argv.directory
                       : path.join(process.cwd(), ctx.argv.directory)
-                    const posterName = fp.replace(/\.(web\.)?(mp4|webm|ogv|mov|mkv)$/i, ".poster.webp")
+                    const posterName = fp.replace(
+                      /\.(web\.)?(mp4|webm|ogv|mov|mkv)$/i,
+                      ".poster.webp",
+                    )
                     let posterAttr = ""
                     for (const candidate of [
                       path.join(contentDir, posterName),
@@ -286,7 +290,9 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                       path.join(contentDir, "Assets", posterName),
                     ]) {
                       if (fs.existsSync(candidate)) {
-                        const rel = path.relative(contentDir, candidate).replace(/\\/g, "/") as FilePath
+                        const rel = path
+                          .relative(contentDir, candidate)
+                          .replace(/\\/g, "/") as FilePath
                         posterAttr = ` poster="./${slugifyFilePath(rel)}"`
                         break
                       }
@@ -294,7 +300,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
 
                     return {
                       type: "html",
-                      value: `<video src="${url}" ${videoAttributes}${posterAttr}${videoStyle ? ` style="${videoStyle}"` : ''}${alt ? ` title="${alt}"` : ''}></video>`,
+                      value: `<video src="${url}" ${videoAttributes}${posterAttr}${videoStyle ? ` style="${videoStyle}"` : ""}${alt ? ` title="${alt}"` : ""}></video>`,
                     }
                   } else if (
                     [".mp3", ".webm", ".wav", ".m4a", ".ogg", ".3gp", ".flac"].includes(ext)
@@ -331,7 +337,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                   children: [
                     {
                       type: "text",
-                      value: alias ?? fp,
+                      value: stripWipPrefix(alias ?? fp),
                     },
                   ],
                 }
