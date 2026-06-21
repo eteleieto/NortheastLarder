@@ -190,10 +190,16 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug) {
   }
 
   function focusSearchInput() {
-    // Defer until after display toggle so the input is focusable
-    requestAnimationFrame(() => {
+    const focus = () => {
+      if (!container.classList.contains("active")) return
       searchBar.focus({ preventScroll: true })
-    })
+      const valueLength = searchBar.value.length
+      searchBar.setSelectionRange(valueLength, valueLength)
+    }
+
+    focus()
+    // Retry after display/class updates have painted, especially on mobile browsers.
+    requestAnimationFrame(focus)
   }
 
   function hideSearch() {
@@ -228,8 +234,8 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug) {
       if (searchBarOpen) {
         hideSearch()
       } else {
-        await ensureSearchData()
         showSearch("basic")
+        void ensureSearchData()
       }
       return
     } else if (e.shiftKey && (e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
@@ -239,8 +245,8 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug) {
       if (searchBarOpen) {
         hideSearch()
       } else {
-        await ensureSearchData()
         showSearch("tags")
+        void ensureSearchData()
       }
 
       // add "#" prefix for tag search
@@ -488,9 +494,9 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug) {
 
   document.addEventListener("keydown", shortcutHandler)
   window.addCleanup(() => document.removeEventListener("keydown", shortcutHandler))
-  async function openSearch() {
-    await ensureSearchData()
+  function openSearch() {
     showSearch("basic")
+    void ensureSearchData()
   }
   searchButton.addEventListener("click", openSearch)
   window.addCleanup(() => searchButton.removeEventListener("click", openSearch))
