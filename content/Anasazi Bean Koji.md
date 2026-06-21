@@ -5,12 +5,15 @@ tags:
 pairing:
 date: 2026-06-18
 project: "[[(WIP) Coffee & Chocolate Substitutes]]"
+description: This experiment inoculates anasazi beans with koji, then tests roasting and blackening them as coffee or chocolate substitutes.
 ---
-We inoculated anasazi beans with Koji over 48 hours to test its viability as a chocolate or coffee alternative for [[(WIP) Coffee & Chocolate Substitutes|alternative chocolate tests]]. 
+## Background
 
-After doing so, we're testing two different approaches: roasting and blackening at 140f. After the roasting, they developed a strong fruity aroma and rich smell, but tasted hardly different from roasted beans. More work is needed here to figure out how the smell of roasted bean koji (or any koji for that matter) can be utilized. 
+We inoculated anasazi beans with [[(WIP) Koji|koji]] over 48 hours to test their viability as a chocolate or coffee alternative for [[(WIP) Coffee & Chocolate Substitutes|alternative chocolate tests]].
 
-The incubation occurred at 86f and 80% relative humidity.
+After doing so, we're testing two different approaches: roasting and blackening at 140°F. After roasting, they developed a strong fruity aroma and rich smell, but tasted hardly different from roasted beans. More work is needed here to figure out how the smell of roasted bean koji, or any koji for that matter, can be utilized.
+
+The incubation occurred at 86°F and 80% relative humidity.
 
 The blackening experiment is ongoing.
 

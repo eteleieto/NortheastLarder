@@ -24,7 +24,7 @@ Largest Column: standard
 
 Woody parts of Resinous Polypore
 
-[[Koji|koji]]
+[[(WIP) Koji|koji]]
 
 Water
 

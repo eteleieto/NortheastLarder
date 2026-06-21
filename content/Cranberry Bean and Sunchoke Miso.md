@@ -28,7 +28,7 @@ Largest Column: standard
 
 413g Cranberry Bean
 
-400g [[Koji|koji]]
+400g [[(WIP) Koji|koji]]
 
 65g Salt
 

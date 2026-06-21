@@ -10,7 +10,7 @@ description: This experiment blackens soybeans with koji to test them as a coffe
 ---
 ## Background
 
-This experiment uses the [[Blackening (Enzymatic)|blackening]] technique on [[Soybean|soybeans]] with [[Koji|koji]] to create a potential coffee or chocolate substitute. The process involves incubating the soybeans with 10% of their weight in koji in a vacuum-sealed bag for 28 days. The resulting product was then evaluated in both a dried and a roasted state.
+This experiment uses the [[Blackening (Enzymatic)|blackening]] technique on [[Soybean|soybeans]] with [[(WIP) Koji|koji]] to create a potential coffee or chocolate substitute. The process involves incubating the soybeans with 10% of their weight in koji in a vacuum-sealed bag for 28 days. The resulting product was then evaluated in both a dried and a roasted state.
 
 ![[Soybean Koji "Coffee"-2.webp|200x267]]
 

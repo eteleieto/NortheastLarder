@@ -26,4 +26,4 @@ pairing:
 1.  Flower Koji
     *   59g flowers
     *   2g leaves
-    *   2g [[Koji|koji]]
+    *   2g [[(WIP) Koji|koji]]

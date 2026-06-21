@@ -59,13 +59,15 @@ async function buildSourcePathIndex(ctx: BuildCtx): Promise<Map<string, string>>
 }
 
 function slugFromImageSrc(pageSlug: FullSlug, imageSrc: string): string {
+  const stripContentPrefix = (src: string) => src.replace(/^[Cc]ontent\//, "")
+
   if (imageSrc.startsWith("/")) {
-    return imageSrc.slice(1)
+    return stripContentPrefix(imageSrc.slice(1))
   }
   if (imageSrc.startsWith("../") || imageSrc.startsWith("./")) {
-    return imageSrc.replace(/^(\.\.\/)+/, "").replace(/^\.\//, "")
+    return stripContentPrefix(imageSrc.replace(/^(\.\.\/)+/, "").replace(/^\.\//, ""))
   }
-  return imageSrc
+  return stripContentPrefix(imageSrc)
 }
 
 export async function resolveImageSourcePath(

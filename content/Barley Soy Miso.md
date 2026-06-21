@@ -10,7 +10,7 @@ description: This experiment combines barley and soybeans into an awase-style mi
 ---
 ## Background
 
-This is an [[Awase Miso|awase]]-style [[Miso|miso]], using a mix of [[Barley|barley]] from [[River Valley Community Grains]] and [[Soybean|soybeans]] as the substrate. The process involves cooking the grains and beans, combining them with [[Koji|koji]], and allowing the mixture to ferment. We want to develop a miso with additional depth and nutiness, with a characteristically grain-based flavor.
+This is an [[Awase Miso|awase]]-style [[Miso|miso]], using a mix of [[Barley|barley]] from [[River Valley Community Grains]] and [[Soybean|soybeans]] as the substrate. The process involves cooking the grains and beans, combining them with [[(WIP) Koji|koji]], and allowing the mixture to ferment. We want to develop a miso with additional depth and nutiness, with a characteristically grain-based flavor.
 
 ![[Barley Soy Miso.webp|200x267]]
 
