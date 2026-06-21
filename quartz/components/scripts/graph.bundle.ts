@@ -17,6 +17,7 @@ import {
 import { Text, Graphics, Application, Container, Circle } from "pixi.js"
 import { registerEscapeHandler, removeAllChildren } from "./util"
 import { FullSlug, SimpleSlug, getFullSlug, resolveRelative, simplifySlug } from "../../util/path"
+import { stripWipPrefix } from "../../util/wip"
 
 type D3Config = {
   drag: boolean
@@ -187,7 +188,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
 
   const nodes = [...neighbourhood].map((url) => {
-    const text = url.startsWith("tags/") ? "#" + url.substring(5) : (data.get(url)?.title ?? url)
+    const text = url.startsWith("tags/") ? "#" + url.substring(5) : stripWipPrefix(data.get(url)?.title ?? url)
     return { id: url, text, tags: data.get(url)?.tags ?? [] }
   })
 
