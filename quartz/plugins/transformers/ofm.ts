@@ -329,7 +329,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                 }
 
                 // internal link
-                const url = fp + anchor
+                const url = (fp ? stripWipPrefix(fp) : fp) + anchor
 
                 return {
                   type: "link",

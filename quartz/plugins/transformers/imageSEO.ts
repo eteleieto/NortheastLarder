@@ -5,6 +5,7 @@ import fs from "fs"
 import path from "path"
 import { BuildCtx } from "../util/ctx"
 import { FilePath, slugifyFilePath } from "../../util/path"
+import { stripWipMarkers } from "../../util/wip"
 
 function contentRoot(ctx: BuildCtx): string {
   return path.isAbsolute(ctx.argv.directory)
@@ -56,7 +57,7 @@ export const ImageSEO: QuartzTransformerPlugin = () => {
                   // Generate better alt text from filename
                   const filename = src?.split("/").pop()?.split(".")[0]
                   if (filename) {
-                    const betterAlt = filename
+                    const betterAlt = stripWipMarkers(filename)
                       .replace(/[-_]/g, " ")
                       .replace(/\b\w/g, (l) => l.toUpperCase())
                     node.properties = { ...node.properties, alt: betterAlt }

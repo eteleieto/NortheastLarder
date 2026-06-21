@@ -1,5 +1,6 @@
 import { QuartzTransformerPlugin } from "../types"
 import { transformInternalLink } from "../../util/path"
+import { stripWipPrefix } from "../../util/wip"
 import { visit } from "unist-util-visit"
 // @ts-ignore
 import cardListScript from "../../components/scripts/cardlist.inline"
@@ -30,6 +31,7 @@ export const CardListTransformer: QuartzTransformerPlugin<Partial<Options>> = (u
         const wikiLinkRegex = /\[\[([^\]]+)\]\]/g
         const pageLinks = Array.from(content.matchAll(wikiLinkRegex))
           .map(linkMatch => linkMatch[1].trim())
+          .map((link) => stripWipPrefix(link))
           .filter(link => link.length > 0)
 
         if (pageLinks.length > 0) {

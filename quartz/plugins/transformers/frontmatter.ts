@@ -98,6 +98,17 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
               allSlugs.push(data.permalink)
             }
 
+            const relativePath = file.data.relativePath
+            if (relativePath) {
+              const legacyWipSlug = slugifyFilePath(relativePath, false, true)
+              if (legacyWipSlug !== file.data.slug) {
+                const aliases = file.data.aliases ?? []
+                aliases.push(legacyWipSlug)
+                file.data.aliases = aliases
+                allSlugs.push(legacyWipSlug)
+              }
+            }
+
             const cssclasses = coerceToArray(coalesceAliases(data, ["cssclasses", "cssclass"]))
             if (cssclasses) data.cssclasses = cssclasses
 

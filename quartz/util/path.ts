@@ -71,7 +71,18 @@ function sluggify(s: string): string {
     .replace(/\/$/, "")
 }
 
-export function slugifyFilePath(fp: FilePath, excludeExt?: boolean): FullSlug {
+function stripWipSlugPrefix(slug: string): string {
+  return slug
+    .split("/")
+    .map((segment) => segment.replace(/^\(WIP\)-*/i, ""))
+    .join("/")
+}
+
+export function slugifyFilePath(
+  fp: FilePath,
+  excludeExt?: boolean,
+  preserveWipPrefix = false,
+): FullSlug {
   fp = stripSlashes(fp) as FilePath
   let ext = getFileExtension(fp)
   const withoutFileExt = fp.replace(new RegExp(ext + "$"), "")
@@ -80,6 +91,9 @@ export function slugifyFilePath(fp: FilePath, excludeExt?: boolean): FullSlug {
   }
 
   let slug = sluggify(withoutFileExt)
+  if (!preserveWipPrefix) {
+    slug = stripWipSlugPrefix(slug)
+  }
 
   // treat _index as index
   if (endsWith(slug, "_index")) {

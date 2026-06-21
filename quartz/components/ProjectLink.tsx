@@ -10,8 +10,8 @@ const ProjectLink: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
   const cleanProject = project.replace(/[\[\]]/g, "")
   const displayProject = stripWipPrefix(cleanProject)
 
-  // Use cleaned project name (without braces) to generate the link
-  const projectSlug = slugTag(cleanProject) as FullSlug
+  // Use the public project name for URLs while allowing backend `(WIP)` filenames.
+  const projectSlug = slugTag(displayProject) as FullSlug
   const href = resolveRelative(fileData.slug!, projectSlug)
 
   return (
