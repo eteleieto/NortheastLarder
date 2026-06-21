@@ -179,6 +179,8 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug) {
   const enablePreview = searchLayout.dataset.preview === "true"
   let preview: HTMLDivElement | undefined = undefined
   let previewInner: HTMLDivElement | undefined = undefined
+  let sidebarZIndexResetTimer: ReturnType<typeof setTimeout> | undefined = undefined
+  let sidebarZIndexTransitionId = 0
   const results = document.createElement("div")
   results.className = "results-container"
   appendLayout(results)
@@ -207,7 +209,21 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug) {
     container.setAttribute("aria-hidden", "true")
     document.body.classList.remove("search-active")
     searchBar.value = "" // clear the input when we dismiss the search
-    if (sidebar) sidebar.style.zIndex = ""
+    if (sidebar) {
+      const transitionId = ++sidebarZIndexTransitionId
+      clearTimeout(sidebarZIndexResetTimer)
+      const resetSidebarZIndex = () => {
+        if (transitionId !== sidebarZIndexTransitionId) return
+        sidebar.style.zIndex = ""
+      }
+      const onContainerFadeEnd = (event: TransitionEvent) => {
+        if (event.target !== container || event.propertyName !== "opacity") return
+        container.removeEventListener("transitionend", onContainerFadeEnd)
+        resetSidebarZIndex()
+      }
+      container.addEventListener("transitionend", onContainerFadeEnd)
+      sidebarZIndexResetTimer = setTimeout(resetSidebarZIndex, 350)
+    }
     removeAllChildren(results)
     if (preview) {
       removeAllChildren(preview)
@@ -219,7 +235,11 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug) {
 
   function showSearch(searchTypeNew: SearchType) {
     searchType = searchTypeNew
-    if (sidebar) sidebar.style.zIndex = "1"
+    if (sidebar) {
+      sidebarZIndexTransitionId++
+      clearTimeout(sidebarZIndexResetTimer)
+      sidebar.style.zIndex = "1"
+    }
     container.classList.add("active")
     container.setAttribute("aria-hidden", "false")
     document.body.classList.add("search-active")
