@@ -5,7 +5,7 @@ tags:
   - SYRUP
 pairing:
 date: 2025-06-17
-project:
+project: "[[Cheong]]"
 description: This experiment makes cheong from unripe peaches to test whether they yield a compelling sweet-tart syrup.
 ---
 ## Background

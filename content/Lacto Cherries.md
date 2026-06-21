@@ -5,7 +5,7 @@ tags:
   - LACTO-FERMENT
 pairing:
 date: 2025-07-28
-project:
+project: "[[Lacto-Fermentation]]"
 description: This experiment lacto-ferments cherries in a light salt brine.
 ---
 ## Background

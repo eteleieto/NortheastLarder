@@ -5,7 +5,7 @@ tags:
   - LACTO-FERMENT
 pairing: 
 date: 2026-02-11
-project:
+project: "[[Lacto-Fermentation]]"
 description: This experiment ferments roasted honeynut squash trim to see how lacto-fermentation changes both the liquid and dried solids.
 ---
 ## Background

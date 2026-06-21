@@ -5,7 +5,7 @@ tags:
   - LACTO-FERMENT
 pairing:
 date: 2025-11-28
-project:
+project: "[[Lacto-Fermentation]]"
 description: This experiment lacto-ferments foraged wineberries with salt to draw out their own brine.
 ---
 ## Background

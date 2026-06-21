@@ -39,7 +39,7 @@ Scale
 
 --- end-multi-column
 
-![[Content/Assets/Attachments/Canola Presscake Garum.webp|200x267]]
+![[Canola Presscake Garum.webp|200x267]]
 *The unfermented presscakes.*
 ## Instructions
 
