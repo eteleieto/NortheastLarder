@@ -188,7 +188,9 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
 
   const nodes = [...neighbourhood].map((url) => {
-    const text = url.startsWith("tags/") ? "#" + url.substring(5) : stripWipPrefix(data.get(url)?.title ?? url)
+    const text = url.startsWith("tags/")
+      ? "#" + url.substring(5)
+      : stripWipPrefix(data.get(url)?.title ?? url)
     return { id: url, text, tags: data.get(url)?.tags ?? [] }
   })
 
@@ -656,9 +658,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
     if (simulationActive || dragging) {
       syncNodePositions()
-      drawLinks()
-    } else if (visualAnimating) {
+    }
+
+    if (visualAnimating) {
       visualAnimating = stepVisualAnimation(dtMs)
+    } else if (simulationActive || dragging) {
+      drawLinks()
     }
 
     app.renderer.render(stage)
