@@ -5,6 +5,7 @@ tags:
 pairing: 
 date: 2026-06-21
 project:
+description: This experiment refines a process for growing koji on oats by balancing hydration, grain cracking, and post-steam flouring.
 ---
 ## Background
 

@@ -5,6 +5,7 @@ tags:
 pairing: 
 date: 2026-06-21
 project:
+description: This experiment tests a no-salt miso held at high heat to prevent spoilage while enzymatically breaking down the substrate.
 ---
 ## Background
 

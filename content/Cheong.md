@@ -17,15 +17,10 @@ If water activity drops slowly, **lactic acid bacteria** may proliferate, creati
 
 ---
 
-## **Projects**:
+## Experiments
 
-|||
-
-[[Rhubarb Cheong]]
-
-[[Unripe Peach Cheong]]
-
-|||
+- [[Rhubarb Cheong]]
+- [[Unripe Peach Cheong]]
 
 ---
 
