@@ -8,7 +8,7 @@ pairing:
 ---
 # Processing Broad Bean Pods via Nixtamalization
 
- [[Broad Bean|Fava bean]] pods contain a significant amount of [[Pectin|pectin]], making them an excellent candidate for structural reinforcement and subsequent preservation.
+ [[Broad Bean|Fava bean]] pods contain a significant amount of [[(WPectin|pectin]], making them an excellent candidate for structural reinforcement and subsequent preservation.
 
 > **Source:** Fazio, A.; La Torre, C.; Dalena, F.; Plastina, P. “Screening of glucan and pectin contents in broad bean (_Vicia faba_ L.) pods during maturation.” _European Food Research and Technology_ 246, 333–347 (2020). DOI: 10.1007/s00217-019-03347-4.
 
