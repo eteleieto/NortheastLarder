@@ -2,6 +2,7 @@
 title: Oat Garum
 tags:
   - EXPERIMENT
+  - GARUM
 pairing: 
 date: 2026-06-21
 project:
