@@ -13,7 +13,7 @@ Finding non-obtrusive forms of sweetness is a key challenge. Our options include
 - [[Malt Syrup|malt syrups]], both flavored and unflavored, and [[Malt Powder|malt powder]].
 - [[Fruit|fruits]] and [[Fruit Syrup|fruit-based syrups]].
 - [[Vegetable|vegetables]] like [[Corn|corn]] and [[Squash|squash]].
-- [[Amazake|amazake]]
+- [[(ONG) Amazake|amazake]]
 - [[Maple Syrup|maple syrup]] and other tree syrups.
 
 ![[Sweeteners-1.webp|1]]
