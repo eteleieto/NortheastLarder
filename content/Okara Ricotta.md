@@ -9,7 +9,7 @@ description: This experiment tests okara as the base for a cultured, plant-based
 ---
 ## Background
 
-This experiment explores creating a non-dairy ricotta alternative using [[Okara|okara]], a byproduct of [[(WIP) Soy Milk|soy milk]] and [[Tofu|tofu]] production. To prevent the activation of lipoxygenase enzymes, which can cause an undesirable "beany" flavor, the [[Soybean|soybeans]] used for this batch were pre-blanched. The goal is to steam, wet-grind, and culture the okara to achieve a creamy, spreadable texture and a flavor profile that approximates traditional ricotta.
+This experiment explores creating a non-dairy ricotta alternative using [[Okara|okara]], a byproduct of [[Soy Milk|soy milk]] and [[Tofu|tofu]] production. To prevent the activation of lipoxygenase enzymes, which can cause an undesirable "beany" flavor, the [[Soybean|soybeans]] used for this batch were pre-blanched. The goal is to steam, wet-grind, and culture the okara to achieve a creamy, spreadable texture and a flavor profile that approximates traditional ricotta.
 
 ---
 ## Recipe

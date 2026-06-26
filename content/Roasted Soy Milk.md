@@ -9,7 +9,7 @@ description: This experiment compares soy milk pre-treatments to reduce beanines
 ---
 ## Background
 
-This experiment explores methods for producing a less beany-flavored [[(WIP) Soy Milk|soy milk]] by pre-heating [[Soybean|soybeans]] to denature lipoxygenase enzymes. Five batches of soybeans (100g each) were tested using different pre-treatment methods: dry [[Roasting|roasting]] for varying durations, [[Blanching|blanching]] in boiling water, and blanching with the addition of [[Baking Soda|baking soda]] to help neutralize flavors and break down the hulls.
+This experiment explores methods for producing a less beany-flavored [[Soy Milk|soy milk]] by pre-heating [[Soybean|soybeans]] to denature lipoxygenase enzymes. Five batches of soybeans (100g each) were tested using different pre-treatment methods: dry [[Roasting|roasting]] for varying durations, [[Blanching|blanching]] in boiling water, and blanching with the addition of [[Baking Soda|baking soda]] to help neutralize flavors and break down the hulls.
 
 ---
 ## Recipe
