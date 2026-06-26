@@ -7,7 +7,7 @@ description: A project exploring regional plant-based milks, yoghurts, ice cream
 ---
 **Detailed Variables**: [Dairy](https://docs.google.com/spreadsheets/d/120eFrSRv_a2lM_dCaewBKHQZIAZRgMDYocsVsXYRt9I/edit?usp=sharing)
 
-**Ingredients**: [[Peanut|peanut]], [[Soy|soy]]
+**Ingredients**: [[Peanut|peanut]], [[Soybean|soy]]
 
 **Possible Ingredients**: [[Butternut|butternut]], [[American Hazelnut|american hazelnut]], [[Black Walnut|black walnut]], [[Hickory Nut|hickory nut]], [[Squash Seed|squash seeds]], [[Sunflower Seed|sunflower seeds]]
 
