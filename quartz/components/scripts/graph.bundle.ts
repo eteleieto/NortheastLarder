@@ -40,6 +40,7 @@ type NodeData = {
   id: SimpleSlug
   text: string
   tags: string[]
+  development: number
 } & SimulationNodeDatum
 
 type SimpleLinkData = {
@@ -106,6 +107,25 @@ async function getGraphData(): Promise<Map<SimpleSlug, ContentDetails>> {
     )
   }
   return cachedGraphData
+}
+
+function noteDevelopmentScore(details: ContentDetails | undefined): number {
+  if (!details?.content) return 0
+
+  const content = details.content.trim()
+  if (!content) return 0
+
+  const wordCount = content.split(/\s+/).filter(Boolean).length
+  const headingCount = content.match(/^#{1,6}\s+\S+/gm)?.length ?? 0
+  const mediaCount =
+    (content.match(/!\[[^\]]*\]\([^)]+\)/g)?.length ?? 0) +
+    (content.match(/!\[\[[^\]]+\]\]/g)?.length ?? 0)
+
+  const wordScore = Math.min(Math.log1p(wordCount) / Math.log1p(1200), 1)
+  const headingScore = Math.min(headingCount / 6, 1)
+  const mediaScore = Math.min(mediaCount / 3, 1)
+
+  return wordScore * 0.75 + headingScore * 0.15 + mediaScore * 0.1
 }
 
 async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
@@ -188,10 +208,11 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
 
   const nodes = [...neighbourhood].map((url) => {
+    const details = data.get(url)
     const text = url.startsWith("tags/")
       ? "#" + url.substring(5)
-      : stripWipPrefix(data.get(url)?.title ?? url)
-    return { id: url, text, tags: data.get(url)?.tags ?? [] }
+      : stripWipPrefix(details?.title ?? url)
+    return { id: url, text, tags: details?.tags ?? [], development: noteDevelopmentScore(details) }
   })
 
   const nodeMap = new Map(nodes.map((n) => [n.id, n]))
@@ -213,7 +234,8 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   function nodeRadius(d: NodeData) {
     const numLinks = linkDegree.get(d.id) ?? 0
-    return 2 + Math.sqrt(numLinks) + (d.id === slug ? 4 : 0)
+    const developmentRadius = d.id.startsWith("tags/") ? 0 : d.development * 5
+    return 2 + Math.sqrt(numLinks) * 0.7 + developmentRadius + (d.id === slug ? 4 : 0)
   }
 
   const width = graph.offsetWidth
