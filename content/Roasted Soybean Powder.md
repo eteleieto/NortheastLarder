@@ -60,4 +60,4 @@ Grinder or Blender
 - The 22-minute roast achieved a classic kinako flavor, though it introduced a slight burnt bitterness. An 18-minute roast might offer a better balance, though this depends heavily on the specific oven used.
 - Future experiments could involve a [[Lacto-Fermentation|lacto-fermentation]] of the soybeans prior to roasting and grinding.
 - Another avenue for exploration is roasting the beans, powdering them into kinako, and then hydrating that powder to create a [[Miso|miso]] or [[Garum|garum]].
-- We might also try roasting the beans to help hull and split them, then soaking and boiling them to make [[Tempeh|tempeh]].
+- We might also try roasting the beans to help hull and split them, then soaking and boiling them to make [[Meat Alternatives|tempeh]].

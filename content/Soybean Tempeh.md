@@ -5,12 +5,12 @@ tags:
   - TEMPEH
 pairing:
 date: 2025-11-28
-project: "[[Tempeh]]"
+project: "[[Meat Alternatives]]"
 description: This first scratch-made soybean tempeh establishes a baseline for later substrate experiments.
 ---
 ## Background
 
-This is a first attempt at making [[Tempeh|tempeh]] from scratch. The goal is to compare the flavor and texture of a homemade version with commercial products and to establish a baseline process for future experiments with other substrates. This is a traditional version using [[Soybean|soybeans]].
+This is a first attempt at making [[Meat Alternatives|tempeh]] from scratch. The goal is to compare the flavor and texture of a homemade version with commercial products and to establish a baseline process for future experiments with other substrates. This is a traditional version using [[Soybean|soybeans]].
 
 ![[Soybean Tempeh.webp|200x150]]
 

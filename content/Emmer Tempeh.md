@@ -6,7 +6,7 @@ tags:
 pairing:
   - "[[Soy Sauce]]"
 date: 2025-08-08
-project: "[[Tempeh]]"
+project: "[[Meat Alternatives]]"
 description: This experiment makes tempeh from black emmer using the soybean version as a baseline.
 ---
 ## Background

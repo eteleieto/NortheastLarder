@@ -180,3 +180,17 @@ I'm going to take that and divide it into two portions:
 
 1. I'm going to add some additional ground soybean powder that I'm going to make by roasting soybeans for about 10 minutes at 350 degrees in the oven. This is sort of like a less roasted version of Kinako, something a bit more neutral, but that can then add in a bit more thickness and body into the ice cream base.
 2. Part of what I'm trying to do here is consider how can we add in body and thickness? How can we add in body and thickness without having to resort to using a whirly grinder, for example? How can we make the soy milk that's otherwise quite a normal soy milk that we could use for other things? That's easy to make. That's also pre-blanch and then introduce some of that thickness later into that sort of custard for making the ice cream.
+
+
+
+now doing a version 
+
+900g of soy milk made in a 1:1 ratio, with a postsoak blanch and baking soda at .33% in the postsoak blanch
+
+240 sweetener (in this case maple syrup) -- adapt quantity to adjust for water content if using sugar or maple sugar
+
+36g oil (neutral oil, here canola oil)
+
+4g salt
+
+10g oat porridge

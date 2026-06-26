@@ -4,12 +4,12 @@ tags:
   - EXPERIMENT
 pairing:
 date: 2026-01-28
-project:
+project: "[[Meat Alternatives]]"
 description: This first iteration uses spelt and tempeh to explore a grain-based burger with meaty texture.
 ---
 ## Background
 
-This first iteration uses [[Spelt|spelt]] and is a play on the [[Noma]] quinoa burger. The concept involves slightly grinding the dry grains, steaming them until just cooked through, and forming them into a burger mold. The intention is for the [[Tempeh|tempeh]] to bind the mixture, creating a meaty juiciness and density. Finally, the patty is grilled with a small amount of mushroom garum.
+This first iteration uses [[Spelt|spelt]] and is a play on the [[Noma]] quinoa burger. The concept involves slightly grinding the dry grains, steaming them until just cooked through, and forming them into a burger mold. The intention is for the [[Meat Alternatives|tempeh]] to bind the mixture, creating a meaty juiciness and density. Finally, the patty is grilled with a small amount of mushroom garum.
 
 ---
 ## Recipe
