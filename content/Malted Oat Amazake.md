@@ -6,7 +6,7 @@ tags:
   - MALT
 pairing:
 date: 2025-07-31
-project: "[[Amazake Project]]"
+project: "[[Amazake]]"
 description: This experiment combines malt and koji to make a less-sweet oat amazake with a more pronounced malty flavor.
 ---
 ## Background

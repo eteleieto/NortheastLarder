@@ -1,7 +1,7 @@
 ---
 title: Amazake
 tags:
-  - PROJECT
+  - INGREDIENT
 date: 2025-06-12
 description: A project exploring amazake across substrates, upcycled ingredients, secondary ferments, and new larder applications.
 ---
@@ -24,11 +24,5 @@ Why does amazake, and amazake-variants, excite us?
 3. **Amazake can be incredibly delicious and interesting.** Blend strained amazake with poached rhubarb and you have a delicious drink that is akin to a drinkable yogurt. Toast rye berries, combine with rye koji, fermented, and then reduce down, and the outcome is a warm and dulce de leche like caramel that is made from just a single grain – no dairy, no sugar.  
 
 4. **Amazake is relatively easy to make and replicate at home.** Amazake is typically made from just two ingredients – rice and koji – and requires no special equipment. In most of our amazake experiments, we use a dehydrator set to 135°F-140°F to produce in Amazake in 12 to 16 hours. Without a dehydrator, an amazake can still be made at room temperature over several days. 
-
----
-
-## Future Explorations
-
-**Ideas:** charred amazake, amazake caramel
 
 ![[Amazake Project.webp|1]]

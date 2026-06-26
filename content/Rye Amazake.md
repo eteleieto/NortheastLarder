@@ -5,12 +5,12 @@ tags:
   - AMAZAKE
 pairing:
 date: 2025-06-19
-project: "[[Amazake Project]]"
+project: "[[Amazake]]"
 description: This experiment uses rye berries and dried koji to make an overnight amazake.
 ---
 ## Background
 
-This experiment focuses on making [[Amazake Project|amazake]] using [[Rye Berry|rye berries]]. The process involves boiling the rye berries and then adding dried [[(WIP) Koji|koji]]. The mixture will be left overnight in a fermentation chamber, held at a constant temperature.
+This experiment focuses on making [[Amazake|amazake]] using [[Rye Berry|rye berries]]. The process involves boiling the rye berries and then adding dried [[(WIP) Koji|koji]]. The mixture will be left overnight in a fermentation chamber, held at a constant temperature.
 
 ![[Rye Amazake.webp|200x267]]
 

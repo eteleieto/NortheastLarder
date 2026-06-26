@@ -5,7 +5,7 @@ tags:
   - AMAZAKE
 pairing:
 date: 2026-06-20
-project: "[[Amazake Project]]"
+project: "[[Amazake]]"
 description: This experiment tests whether nixtamalized Bloody Butcher corn can be saccharified into an amazake-style drink with wheat koji.
 ---
 ## Background
