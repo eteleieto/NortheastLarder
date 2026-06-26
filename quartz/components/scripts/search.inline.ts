@@ -202,6 +202,7 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug) {
     focus()
     // Retry after display/class updates have painted, especially on mobile browsers.
     requestAnimationFrame(focus)
+    setTimeout(focus, 75)
   }
 
   function hideSearch() {
