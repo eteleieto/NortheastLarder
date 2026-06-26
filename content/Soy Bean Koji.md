@@ -5,6 +5,7 @@ tags:
 pairing: 
 date: 2026-06-23
 project:
+description: This experiment grows koji on soybeans to assess mycelium growth and drying needs.
 ---
 ## Background
 

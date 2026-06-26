@@ -5,6 +5,7 @@ tags:
 pairing: 
 date: 2026-06-23
 project:
+description: This experiment tests sorghum koji while focusing on moisture control during incubation.
 ---
 ## Background
 

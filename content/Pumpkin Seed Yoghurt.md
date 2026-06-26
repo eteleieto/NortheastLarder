@@ -4,7 +4,8 @@ tags:
   - EXPERIMENT
 pairing: 
 date: 2026-06-23
-project:
+project: "[[Plant-Dairy]]"
+description: This experiment tests whether pumpkin seed milk can ferment into a thick, plant-based yoghurt.
 ---
 ## Background
 
