@@ -10,7 +10,7 @@ description: This process outlines how to grow koji on pearled barley for later 
 ---
 ## Background
 
-This process outlines the steps for making [[(WIP) Koji|koji]] using [[Barley|barley]] as the substrate. To ensure even distribution, the spores are first mixed with toasted [[Barley Flour|barley flour]] before being used for inoculation.
+This process outlines the steps for making [[Koji|koji]] using [[Barley|barley]] as the substrate. To ensure even distribution, the spores are first mixed with toasted [[Barley Flour|barley flour]] before being used for inoculation.
 
 ![[Koji (Pearled Barley).webp|200x267]]
 

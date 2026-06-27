@@ -10,7 +10,7 @@ description: This experiment blackens koji-treated rye berries, then roasts them
 ---
 ## Background
 
-This is a test to create alternative coffee and chocolate-like varieties using a combination of [[(WIP) Koji|koji]] and slow [[Blackening (Enzymatic)|blackening]] at 140°F. This approach leverages the similarity between Koji enzymes and the enzymes that develop during coffee and chocolate fermentation. For this initial test, a small amount of dried [[Rye Berry|rye berries]] from [[Castle Valley Mill]] will be used.
+This is a test to create alternative coffee and chocolate-like varieties using a combination of [[Koji|koji]] and slow [[Blackening (Enzymatic)|blackening]] at 140°F. This approach leverages the similarity between Koji enzymes and the enzymes that develop during coffee and chocolate fermentation. For this initial test, a small amount of dried [[Rye Berry|rye berries]] from [[Castle Valley Mill]] will be used.
 
 ![[Rye Koji "Coffee"-1.webp|200x267]]
 

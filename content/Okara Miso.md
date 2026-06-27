@@ -4,7 +4,7 @@ tags:
   - EXPERIMENT
 pairing:
 date: 2026-06-21
-project: "[[(WIP) Presscakes and Biproducts]]"
+project: "[[Presscakes and Biproducts]]"
 description: This experiment combines okara and koji to turn a dry soy byproduct into a rich fermented paste.
 ---
 ## Background

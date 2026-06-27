@@ -57,6 +57,6 @@ Grain Mill or Mortar and Pestle
 ## Notes and Observations
 
 - The final batch showed promising growth, though there is still room for improvement in coverage and density.
-- The resulting oat koji will be tested in various applications, including [[Blackening (Enzymatic)|blackening]], [[(ONG) Shio Koji|shio koji]], and [[(ONG) Amazake|amazake]], to assess its enzymatic strength.
+- The resulting oat koji will be tested in various applications, including [[Blackening (Enzymatic)|blackening]], [[Shio Koji|shio koji]], and [[Amazake|amazake]], to assess its enzymatic strength.
 - 
 ![[Assets/Attachments/IMG_1897.webp|200x435]]

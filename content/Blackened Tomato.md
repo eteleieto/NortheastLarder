@@ -10,7 +10,7 @@ description: This experiment compares three blackened tomato variations to see h
 ---
 ## Background
 
-This experiment, started on July 22, 2025, documents three variations of [[Blackening (Enzymatic)|blackened]] [[Tomato|tomatoes]]. The tomatoes are seconds from [[Maple Bank Farm]]. Being riper, they contain more sugars, which is likely beneficial for the blackening process. The goal is to compare the results of three preparations: one with salt and [[(WIP) Koji|koji]], one with just koji, and a control batch with only tomatoes.
+This experiment, started on July 22, 2025, documents three variations of [[Blackening (Enzymatic)|blackened]] [[Tomato|tomatoes]]. The tomatoes are seconds from [[Maple Bank Farm]]. Being riper, they contain more sugars, which is likely beneficial for the blackening process. The goal is to compare the results of three preparations: one with salt and [[Koji|koji]], one with just koji, and a control batch with only tomatoes.
 
 ---
 ## Recipe

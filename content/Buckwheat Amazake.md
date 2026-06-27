@@ -10,7 +10,7 @@ description: This experiment uses buckwheat and koji to make a variation on trad
 ---
 ## Background
 
-This experiment explores a variation on traditional [[Amazake|amazake]], a fermented rice drink, by using [[Buckwheat|buckwheat]] and [[(WIP) Koji|koji]] from [[Rhapsody Foods]].
+This experiment explores a variation on traditional [[Amazake|amazake]], a fermented rice drink, by using [[Buckwheat|buckwheat]] and [[Koji|koji]] from [[Rhapsody Foods]].
 
 ---
 ## Recipe

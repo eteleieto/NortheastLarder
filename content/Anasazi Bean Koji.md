@@ -9,7 +9,7 @@ description: This experiment inoculates anasazi beans with koji, then tests roas
 ---
 ## Background
 
-We inoculated anasazi beans with [[(WIP) Koji|koji]] over 48 hours to test their viability as a chocolate or coffee alternative for [[(WIP) Coffee & Chocolate Substitutes|alternative chocolate tests]].
+We inoculated anasazi beans with [[Koji|koji]] over 48 hours to test their viability as a chocolate or coffee alternative for [[(WIP) Coffee & Chocolate Substitutes|alternative chocolate tests]].
 
 After doing so, we're testing two different approaches: roasting and blackening at 140°F. After roasting, they developed a strong fruity aroma and rich smell, but tasted hardly different from roasted beans. More work is needed here to figure out how the smell of roasted bean koji, or any koji for that matter, can be utilized.
 

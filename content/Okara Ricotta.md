@@ -54,7 +54,7 @@ Kitchen Scale
     Divide the finished base to test different fermentation methods:
     - **Yogurt Culture**: Combine 100 g of the okara base with 0.04 g of [[Yogurt Starter|yogurt starter]] and culture at 110°F (43°C) for 12 hours.
     - **Lacto-Ferment Culture**: Combine 100 g of the okara base with 10 g of liquid from a previous [[Lacto-Fermentation|lacto-ferment]].
-    - **Shio Koji**: Mix a portion of the base with [[(ONG) Shio Koji]] liquid to introduce savory depth.
+    - **Shio Koji**: Mix a portion of the base with [[Shio Koji]] liquid to introduce savory depth.
 
 ## Notes and Observations
 

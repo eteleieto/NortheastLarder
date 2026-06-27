@@ -5,12 +5,12 @@ tags:
   - GARUM
 pairing:
 date: 2026-06-20
-project:
+project: "[[Mushroom Garum]]"
 description: This experiment turns roasted mushroom trim into a garum by combining it with koji for a long enzymatic ferment.
 ---
 ## Background
 
-This experiment explores making a [[Garum|garum]] utilizing leftover mushroom butts from a variety of mushrooms. For this iteration, the batch uses the discarded ends of [[Enoki Mushroom|enoki]], [[Oyster Mushroom|oyster]], and [[Shiitake Mushroom|shiitake]] mushrooms. The mushroom butts are first subjected to [[Roasting|roasting]] to develop deep, browned flavors before being combined with [[(WIP) Koji|koji]] to undergo enzymatic breakdown.
+This experiment explores making a [[Garum|garum]] utilizing leftover mushroom butts from a variety of mushrooms. For this iteration, the batch uses the discarded ends of [[Enoki Mushroom|enoki]], [[Oyster Mushroom|oyster]], and [[Shiitake Mushroom|shiitake]] mushrooms. The mushroom butts are first subjected to [[Roasting|roasting]] to develop deep, browned flavors before being combined with [[Koji|koji]] to undergo enzymatic breakdown.
 
 ---
 ## Recipe

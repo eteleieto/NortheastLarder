@@ -6,12 +6,12 @@ tags:
   - MALT
 pairing:
 date: 2025-07-21
-project:
+project: "[[Malt-Umami]]"
 description: This garum combines oats, light Munich malt, and koji for a long, high-temperature enzymatic ferment.
 ---
 ## Background
 
-This is a garum using [[Oat|oats]], [[Light Munich Malt|Light Munich malt]] from Valley Malt, and [[(WIP) Koji|koji]]. The oats and malt were lightly blended before being combined with the other ingredients and held at a high temperature for an extended period to break down.
+This is a garum using [[Oat|oats]], [[Light Munich Malt|Light Munich malt]] from Valley Malt, and [[Koji|koji]]. The oats and malt were lightly blended before being combined with the other ingredients and held at a high temperature for an extended period to break down.
 
 ![[Oat Malt Garum.webp|200x267]]
 

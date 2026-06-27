@@ -4,7 +4,7 @@ tags:
   - EXPERIMENT
 pairing:
 date: 2026-06-18
-project: "[[(WIP) Presscakes and Biproducts]]"
+project: "[[Presscakes and Biproducts]]"
 description: This experiment compares roasted and unroasted canola presscake garums to evaluate their protein-derived umami potential.
 ---
 ## Background

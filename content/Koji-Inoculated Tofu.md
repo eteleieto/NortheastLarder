@@ -10,7 +10,7 @@ description: This experiment tests whether salted tofu inoculated with koji can 
 ---
 ## Background
 
-This experiment explores the potential of transforming [[Tofu|tofu]] into a cheese-like product using [[(WIP) Koji|koji]]. The process involves salting the tofu, inoculating it, and allowing the mold to grow, followed by drying. The goal is to replicate the texture and umami profile of cheese, specifically looking at variables like smoking, drying conditions, and aging environments.
+This experiment explores the potential of transforming [[Tofu|tofu]] into a cheese-like product using [[Koji|koji]]. The process involves salting the tofu, inoculating it, and allowing the mold to grow, followed by drying. The goal is to replicate the texture and umami profile of cheese, specifically looking at variables like smoking, drying conditions, and aging environments.
 
 ---
 ## Recipe
