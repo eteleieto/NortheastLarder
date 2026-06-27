@@ -1,8 +1,9 @@
 ---
-title: (WIP) Teas & Tisanes
+title: Teas & Tisanes
 tags:
   - PROJECT
 date: 2026-06-21
+description: A project exploring Northeast teas and tisanes through local plants, processing, and fermentation.
 ---
 ## Background
 

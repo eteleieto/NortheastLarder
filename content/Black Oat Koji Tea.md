@@ -5,6 +5,7 @@ tags:
 pairing:
 date: 2026-06-26
 project: "[[Teas & Tisanes]]"
+description: This note records a cold brew of black oat koji with cherry-like, fruity, and chocolatey flavors.
 ---
 ## Notes and Observations
 

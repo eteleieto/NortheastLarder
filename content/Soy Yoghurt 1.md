@@ -5,6 +5,7 @@ tags:
 pairing: 
 date: 2026-06-23
 project:
+description: This experiment compares several soy yogurt ratios and additions to refine texture and flavor.
 ---
 ## Process
 

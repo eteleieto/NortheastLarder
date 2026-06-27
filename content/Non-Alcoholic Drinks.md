@@ -3,8 +3,9 @@ title: Non-Alcoholic Drinks
 tags:
   - PROJECT
 date: 2026-06-13
+description: A project exploring Northeast-grown alternatives to alcohol, from teas and sodas to fermented and milk-based drinks.
 ---
-### Background
+## Background
 
 Alcohol consumption in the U.S. is at its lowest in nearly the past century of polling. As demand for non-alcoholic drinks increases, this presents an opportunity to find delicious and satisfying alternatives to alcohol using ingredients that grow well in the Northeast. While coffee and chocolate are discussed more at length [[(WIP) Coffee & Chocolate Substitutes|elsewhere]], we'll also entertain drinks that don't directly supplant alcohol.
 
@@ -31,17 +32,12 @@ Here's a brief oversimplified taxonomy of non-alcoholic drinks as we conceive of
 
 **Coffee & Cacao Drinks** - These are roasted, bitter, aromatic drinks with stimulant, dessert, or ritual qualities. They can be hot or cold, infused or blended.
 
-### Interesting Drinks & Inspirations
+## Interesting Drinks & Inspirations
 
 Rhizome (Blue Hill at Stone Barns)
 	buckwheat soda
-### Some Past & Current Experiments
-
-|||
+## Some Past & Current Experiments
 
 [[Toasted Barley Kombucha]]
 
 [[Clarified Amazake]]
-
-|||
-

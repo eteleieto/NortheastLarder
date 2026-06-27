@@ -1,11 +1,12 @@
 ---
-title: (WIP) Vegetable Bushi
+title: Vegetable Bushi
 tags:
   - EXPERIMENT
 pairing:
 date: 2026-06-01
 project:
 aliases:
+description: This experiment adapts katsuobushi-style preservation to vegetables and maps a simplified first trial.
 ---
 ## Background
 
