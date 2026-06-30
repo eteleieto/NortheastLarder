@@ -17,4 +17,4 @@ This experiment is being conducted in two parallel batches to compare the effect
 Both variations are mixed with equal parts [[Farro Koji|pearled farro koji]] and incubated at 140°F.
 
 ## Notes and Observations
-* **Goal:** Holding the mixture at 140°F targets optimal enzyme activity, allowing the koji enzymes to break down the proteins in the base ingredient to develop [[Umami|umami]].
+* **Goal:** Holding the mixture at 140°F targets optimal enzyme activity, allowing the koji enzymes to break down the proteins in the base ingredient to develop [[(WIP) Umami|umami]].

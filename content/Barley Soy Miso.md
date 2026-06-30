@@ -5,7 +5,7 @@ tags:
   - MISO
 pairing:
 date: 2025-11-28
-project: "[[Umami]]"
+project: "[[(WIP) Umami]]"
 description: This experiment combines barley and soybeans into an awase-style miso with a distinctly grain-based character.
 ---
 ## Background

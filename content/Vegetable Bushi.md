@@ -10,7 +10,7 @@ description: This experiment adapts katsuobushi-style preservation to vegetables
 ---
 ## Background
 
-[[Katsuobushi]]-style preservation can be adapted to many raw materials—as [[Noma]] has shown with [pumpkin-bushi](https://nomaprojects.com/products/pumpkin-bushi?srsltid=AfmBOop-rHnW5q16BLNdLguRPXSgaoR3EcKPFkyT_uRsgidHreXdYj_F&variant=50637296042324) and — but every stage needs ingredient-specific tuning. 
+[[Katsuobushi]]-style preservation can be adapted to many raw materials, as [[Noma]] has shown with [pumpkin-bushi](https://nomaprojects.com/products/pumpkin-bushi?srsltid=AfmBOop-rHnW5q16BLNdLguRPXSgaoR3EcKPFkyT_uRsgidHreXdYj_F&variant=50637296042324), but every stage needs ingredient-specific tuning.
 
 The baseline process involves:
 1. **Steaming:** Steam the prepared pieces at 90–100 °C until their core stays above 90 °C for 20–30 minutes to gelatinize starches, set proteins, and drive off surface moisture without letting soft vegetables collapse.
@@ -23,7 +23,7 @@ The baseline process involves:
 To adapt this process for a simplified trial, I am going to run the following experiment:
 
 1. **Prep and Salt:** Vacuum-seal the vegetables with 2% salt by weight. This will prevent excess fermentation and inhibit undesirable microorganisms during the incubation period. Leave for a few days.
-2. **Inoculation:** Remove the vegetables from the bags, pat them dry, and inoculate them with [[Koji]].
+2. **Inoculation:** Remove the vegetables from the bags, pat them dry, and inoculate them with koji.
 3. **Incubation:** Incubate for 24–48 hours.
 4. **Finishing:** Dry the inoculated vegetables, smoke them, and then dry-age them in the fridge for a few days.
 

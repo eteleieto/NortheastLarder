@@ -5,7 +5,7 @@ tags:
   - MISO
 pairing:
 date: 2025-12-10
-project: "[[Umami]]"
+project: "[[(WIP) Umami]]"
 description: This experiment turns toasted grits and fresh koji into a fermented paste with a toasty, corny flavor.
 ---
 ## Background

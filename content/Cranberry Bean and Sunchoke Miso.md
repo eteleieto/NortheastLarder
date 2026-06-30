@@ -5,7 +5,7 @@ tags:
   - MISO
 pairing:
 date: 2026-01-28
-project: "[[Umami]]"
+project: "[[(WIP) Umami]]"
 description: This experiment combines cranberry beans, soybeans, and roasted sunchokes into a composite miso paste.
 ---
 ## Background

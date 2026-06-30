@@ -5,7 +5,7 @@ tags:
   - MALT
 pairing:
 date: 2025-12-18
-project: "[[Sweeteners]]"
+project: "[[(WIP) Sweeteners]]"
 description: This experiment uses malt enzymes to turn stale sourdough bread into a caramel-like syrup.
 ---
 ## Background

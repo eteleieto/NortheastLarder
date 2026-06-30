@@ -5,7 +5,7 @@ tags:
   - MISO
 pairing:
 date: 2026-06-05
-project: "[[Umami]]"
+project: "[[(WIP) Umami]]"
 description: This experiment tests a no-salt miso held at high heat to prevent spoilage while enzymatically breaking down the substrate.
 ---
 ## Background

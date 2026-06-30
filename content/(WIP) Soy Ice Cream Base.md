@@ -194,3 +194,53 @@ now doing a version
 4g salt
 
 10g oat porridge
+
+
+
+New tests:
+
+	invert maple sugar
+	oil emulsion level
+	additions
+		more oat
+		rice
+		white bean
+		wheat
+		camelina presscake
+
+
+
+
+**Denser + Maple Sugar** (wet ground v not wet ground)
+
+potential new test, based on a previously successful kinako test, compensating the soy milk with suitable solids to replace the kinako and using maple sugar as a replacement sweetener: Per **100 g finished base**:
+
+| Ingredient      | Amount         |
+| --------------- | -------------- |
+| Soaked soybeans | **42.3 g**     |
+| Added water     | **35.1 g**     |
+| Maple sugar     | **19.6 g**     |
+| Neutral oil     | **3.0 g**      |
+| Kinako          | **0 g**        |
+| Salt            | **0.1–0.25 g** |
+
+attempt different oil emulsions
+
+|                               |                                         |
+| ----------------------------- | --------------------------------------- |
+| **Dry soybeans**              | **19.1 g**                              |
+| Water absorbed during soaking | ~23.3 g                                 |
+| Added blending water          | **35.1 g**                              |
+| Maple sugar                   | **19.6 g**                              |
+| Neutral oil                   | **3.0 g**                               |
+| Salt                          | **0.15–0.25 g**, adjust down from water |
+
+Per **100 g finished base**:
+
+| Ingredient       | Amount          |
+| ---------------- | --------------- |
+| **Dry soybeans** | **19.1 g**      |
+| **Water**        | **58.2–58.4 g** |
+| Maple sugar      | **19.6 g**      |
+| Neutral oil      | **3.0 g**       |
+| Salt             | **0.15–0.25 g** |

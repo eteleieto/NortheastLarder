@@ -70,3 +70,6 @@ Ninja Creami
 - Because the peanuts were raw, the flavor is not like roasted peanuts; it retains a light grassiness but is overall very tasty.
 - The fat level feels comparable to an ice cream or a fatty gelato.
 - Future iterations should explore using roasted peanuts to observe the difference in flavor.
+
+
+done another test measuring equal parts peanut soaked then boiled along with water, blended and strainer to a thick milk (1000g total) with 150g of sweetener (maple syrup) and some salt and it worked quite well, but would still be able to get thicker, creamier and nicer (adding stabilizer, more protein?) -- seems fatty enough

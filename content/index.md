@@ -16,9 +16,9 @@ title: Northeast Larder
 
 [[(WIP) Coffee & Chocolate Substitutes]]
 
-[[Sweeteners]]
+[[(WIP) Sweeteners]]
 
-[[Umami]]
+[[(WIP) Umami]]
 
 ||
 

@@ -8,7 +8,7 @@ description: This recipe reduces a soy ice cream base and adds kinako to deepen 
 ---
 ## Background
 
-This iteration builds upon the previous [[Soy Ice Cream Base|soy base]] but introduces a reduction step and the addition of [[Roasted Soy Milk|kinako]] (roasted soybean flour). Starting with 559 g of the base mixture, we cooked it down to 415 g—removing approximately 144 g of water—before incorporating the kinako. This test explores how lower water content and the addition of roasted flour affect the texture and flavor profile when processed on the "Sorbet" setting.
+This iteration builds upon the previous [[(WIP) Soy Ice Cream Base|soy base]] but introduces a reduction step and the addition of [[Roasted Soy Milk|kinako]] (roasted soybean flour). Starting with 559 g of the base mixture, we cooked it down to 415 g—removing approximately 144 g of water—before incorporating the kinako. This test explores how lower water content and the addition of roasted flour affect the texture and flavor profile when processed on the "Sorbet" setting.
 
 ---
 ## Recipe
@@ -22,7 +22,7 @@ Largest Column: standard
 
 559g Soy Base (Reduced to 415g)
 
-13g [[Roasted Soy Milk|kinako]]
+13g kinako
 
 --- column-break ---
 

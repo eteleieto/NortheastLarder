@@ -5,7 +5,7 @@ tags:
   - MALT
 pairing:
 date: 2026-01-28
-project: "[[Sweeteners]]"
+project: "[[(WIP) Sweeteners]]"
 description: This experiment uses diastatic malt to convert rolled oats into a distinctive grain syrup.
 ---
 ## Background
