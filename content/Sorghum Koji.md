@@ -2,6 +2,7 @@
 title: Sorghum Koji
 tags:
   - EXPERIMENT
+  - KOJI-INOCULATED
 pairing: 
 date: 2026-06-23
 project:

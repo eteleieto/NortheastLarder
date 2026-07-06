@@ -2,6 +2,7 @@
 title: Oat Koji
 tags:
   - EXPERIMENT
+  - KOJI-INOCULATED
 pairing: 
 date: 2026-06-21
 project:

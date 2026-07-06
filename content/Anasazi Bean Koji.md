@@ -2,6 +2,7 @@
 title: Anasazi Bean Koji
 tags:
   - EXPERIMENT
+  - KOJI-INOCULATED
 pairing:
 date: 2026-06-18
 project: "[[(WIP) Coffee & Chocolate Substitutes]]"

@@ -2,6 +2,7 @@
 title: Black Oat Koji Tea
 tags:
   - EXPERIMENT
+  - TEA
 pairing:
 date: 2026-06-26
 project: "[[Teas & Tisanes]]"
