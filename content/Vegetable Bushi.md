@@ -5,7 +5,6 @@ tags:
 pairing:
 date: 2026-06-01
 project:
-aliases:
 description: This experiment adapts katsuobushi-style preservation to vegetables and maps a simplified first trial.
 ---
 ## Background
@@ -15,7 +14,7 @@ description: This experiment adapts katsuobushi-style preservation to vegetables
 The baseline process involves:
 1. **Steaming:** Steam the prepared pieces at 90–100 °C until their core stays above 90 °C for 20–30 minutes to gelatinize starches, set proteins, and drive off surface moisture without letting soft vegetables collapse.
 2. **Smoking and Drying:** Dry and smoke in repeated hot-smoke cycles. Hold the blocks at 60–75 °C for 6–8 hours per session using a mild hardwood (such as cherry or oak), with overnight rest periods to allow internal moisture to migrate outward. Total smoke time can range from 24 hours for delicate produce up to 100 hours for fish. Humidity must be kept below ~60%; move racks to a dehydrator or ventilated room if damp weather stalls drying.
-3. **Inoculation:** When moisture content falls below ~25%, inoculate the surface with a light mist of [[Koji|koji]] mold (traditionally *Aspergillus glaucus* for fish, but [[Koji|aspergillus oryzae]] performs reliably on vegetables).
+3. **Inoculation:** When moisture content falls below ~25%, inoculate the surface with a light mist of [[Koji|koji]] mold (traditionally *Aspergillus glaucus* for fish, but aspergillus oryzae performs reliably on vegetables).
 4. **Aging:** Age the blocks at 15–20 °C and ~65% relative humidity for one to three months, brushing off the mold bloom, re-smoking briefly, and re-inoculating between cycles. Three to four rounds leave the product rock-hard, shelf-stable (water activity < 0.75), and intensely savory.
 
 ## Method

@@ -1,6 +1,3 @@
----
-tags: []
----
 Here is some of our inspiration for the project:
 
 ## Blogs

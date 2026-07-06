@@ -8,7 +8,7 @@ date: 2026-06-23
 project: "[[Presscakes and Biproducts]]"
 description: This experiment compares roasted and unroasted sunflower presscake in a garum-style ferment.
 ---
-## Process
+## Background
 
 This experiment is being conducted in two parallel batches to compare the effects of pre-treatment:
 * **Batch 1:** Roasted

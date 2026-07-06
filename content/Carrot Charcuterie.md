@@ -5,7 +5,7 @@ tags:
   - KOJI-INOCULATED
 pairing:
 date: 2025-11-28
-project:
+project: "[[Carrot Bug]]"
 description: This trial uses leftover carrots to explore a koji-inoculated charcuterie-style preparation.
 ---
 ## Background

@@ -6,7 +6,7 @@ tags:
   - BLACKENED
 pairing:
 date: 2025-10-27
-project:
+project: "[[Blackening (Enzymatic)]]"
 description: This experiment blackens emmer tempeh over a month to explore sweeter, chocolate-like flavors.
 ---
 ## Background

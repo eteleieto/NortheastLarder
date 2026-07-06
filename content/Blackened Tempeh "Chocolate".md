@@ -8,6 +8,10 @@ date: 2025-07-31
 project: "[[(WIP) Coffee & Chocolate Substitutes]]"
 description: This experiment dries and grinds blackened tempeh into a chocolate-like paste.
 ---
+## Background
+
+This experiment takes already-blackened tempeh and processes it into a chocolate-like paste to test its flavor in a more confectionary form.
+
 ## Dried
 
 The [[Blackened Tempeh|blackened tempeh]] was dehydrated for approximately four hours and then ground into a powder. This powder was mixed with vegetable oil and sugar to create a paste with a texture comparable to chocolate paste.

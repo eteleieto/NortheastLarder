@@ -8,6 +8,10 @@ ingredients:
   - "[[Rye]]"
 description: A simple toasted rye tea served hot or cold, with room to explore sweeter and more aromatic variations.
 ---
+## Background
+
+This recipe uses toasted rye berries to make a simple grain tea that can be served hot or cold.
+
 ## Recipe
 
 This is as simple as it is delicious. 

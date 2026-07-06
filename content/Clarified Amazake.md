@@ -8,6 +8,8 @@ date: 2025-06-20
 project: "[[Amazake]]"
 description: This experiment uses freeze clarification to turn cloudy amazake into a clear, wine-like liquid.
 ---
+## Background
+
 ## Notes and Observations
 
 By using [[Freeze Clarification|freeze clarification]], a technique where a frozen substance's components (which have different melting temperatures) slowly drain through a cheese cloth over a bowl, a cloudy liquid can be turned into a clear one. This process can be applied to amazake to get rid of cloudiness and the additional starch.

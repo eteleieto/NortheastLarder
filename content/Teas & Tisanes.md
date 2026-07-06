@@ -46,7 +46,7 @@ Many local plants are traditionally used fresh or simply dried, which limits the
 
 A common challenge in non-alcoholic pairings is the lack of body, astringency, and length on the palate. By manipulating tannin extraction, enzymatic browning, and roasting (such as toasting or char-roasting), we can build additional mouthfeel and complexity.
 
-This framework allows us to utilize invasive species like [[Japanese Knotweed]] or underutilized agricultural byproducts (such as the leaves of [[Red Raspberry]] or orchard prunings) to create high-value pantry items. It shifts the focus from imported commodities to a resilient, hyper-local beverage culture.
+This framework allows us to utilize invasive species like Japanese knotweed or underutilized agricultural byproducts (such as the leaves of red raspberry or orchard prunings) to create high-value pantry items. It shifts the focus from imported commodities to a resilient, hyper-local beverage culture.
 
 ### Tea Classifications
 
@@ -127,7 +127,7 @@ Brewing techniques dictate which volatile compounds enter solution. Temperature 
 *   **Solvent Extraction:** While water is the standard solvent, other mediums can capture different aromatic profiles. As Harold Mcgee notes in *On Food and Cooking*: *"They do infuse herbs in watery vinegar and in alcohols, but both alcohol and vinegar’s acetic acid are small cousins of fat molecules, and help dissolve more aromatics than plain water could."* This principle is highly relevant when managing flavor extraction in ferments like [[Kombucha|kombucha]], wherein acetic acid contributes to the dissolution of flavor compounds.
 
 ### Enzymatic "Fermentation" and Oxidation
-In traditional tea-making, the term "fermentation" historically refers to enzymatic [[Oxidation]] rather than microbial activity. 
+In traditional tea-making, the term "fermentation" historically refers to enzymatic oxidation rather than microbial activity. 
 *   **The Process:** Tea makers bruise or press the leaves to rupture cell walls, exposing cell contents to oxygen and activating polyphenoloxidase.
 *   **The Chemistry:** Polyphenoloxidase links simple polyphenols into longer chains, which progressively darken the leaves and reduce bitterness and astringency. This oxidation process liberates complex aromas from their sugar-bound precursors.
 *   **Temperature Tolerance:** Because black tea has undergone this extensive enzymatic oxidation, it can tolerate high-temperature brewing without becoming overly bitter. Green tea, which is unoxidized, retains its highly reactive, bitter compounds and must be brewed at lower temperatures to prevent harshness.
@@ -135,8 +135,8 @@ In traditional tea-making, the term "fermentation" historically refers to enzyma
 Tea is naturally mildly acidic, slightly bitter, and contains trace salts. It is also rich in theanine, a unique amino acid that contributes sweet and savory (umami) notes. During processing, theanine partially breaks down into glutamic acid, further enhancing the savory character of the brew.
 
 Herbal teas can often be elevated by borrowing processing methods from traditional tea production:
-*   **Oxidation:** Bruising and oxidizing non-tea leaves to alter their flavor profile (e.g., [[Blue Hill]]'s Apple Blossom Tea).
-*   **Fungal Fermentation:** Utilizing microbes to age and transform botanicals, mimicking the [[Pu'er]] tea process (e.g., [[Nordic Food Lab]]'s research into non-tea fermentations).
+*   **Oxidation:** Bruising and oxidizing non-tea leaves to alter their flavor profile (e.g., Blue Hill's Apple Blossom Tea).
+*   **Fungal Fermentation:** Utilizing microbes to age and transform botanicals, mimicking the [[Pu'er]] tea process (e.g., Nordic Food Lab's research into non-tea fermentations).
 
 ### Processing Techniques
 Traditional tea processing is generally understood as a sequence of steps. For example, black tea quality is highly dependent on plucking, withering, rolling, oxidation parameters (time, temperature, humidity), drying, and storage. We can adapt these steps into a reusable processing vocabulary for local botanicals:

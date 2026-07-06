@@ -4,10 +4,10 @@ tags:
   - EXPERIMENT
 pairing: 
 date: 2026-06-23
-project:
+project: "[[Plant-Dairy]]"
 description: This experiment compares several soy yogurt ratios and additions to refine texture and flavor.
 ---
-## Process
+## Background
 
 We are running five test trials (four variants documented) to evaluate different ratios and additions:
 
@@ -21,7 +21,7 @@ For each trial, the base formulation is:
 *   100 g substrate
 *   0.04 g dried starter from [[Coles Ridge]]
 
-### Method
+## Method
 1. Combine the substrate and starter for each trial.
 2. Place the mixtures in a yogurt incubator.
 3. Incubate at 110°F for 12 hours overnight.

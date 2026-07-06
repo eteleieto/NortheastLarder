@@ -7,6 +7,8 @@ date: 2026-06-26
 project: "[[Teas & Tisanes]]"
 description: This note records a cold brew of black oat koji with cherry-like, fruity, and chocolatey flavors.
 ---
+## Background
+
 ## Notes and Observations
 
 The [[Cold Brew|cold-brewed]] [[Black Oat Koji|black oat koji]] has a slightly cherry-like, fruity, and chocolatey taste, which extracted nicely. The oats have lost all of their black color, and the liquid is brown.
