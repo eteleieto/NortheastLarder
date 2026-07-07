@@ -5,12 +5,12 @@ tags:
   - AMAZAKE
 pairing:
 date: 2025-06-20
-project: "[[Amazake]]"
+project: "[[Content/Amazake]]"
 description: This experiment uses buckwheat and koji to make a variation on traditional amazake.
 ---
 ## Background
 
-This experiment explores a variation on traditional [[Amazake|amazake]], a fermented rice drink, by using [[Buckwheat|buckwheat]] and [[Koji|koji]] from [[Rhapsody Foods]].
+This experiment explores a variation on traditional [[Content/Amazake|amazake]], a fermented rice drink, by using [[Buckwheat|buckwheat]] and [[Koji|koji]] from [[Rhapsody Foods]].
 
 ---
 ## Recipe

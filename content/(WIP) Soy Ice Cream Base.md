@@ -244,3 +244,123 @@ Per **100 g finished base**:
 | Maple sugar      | **19.6 g**      |
 | Neutral oil      | **3.0 g**       |
 | Salt             | **0.15–0.25 g** |
+
+
+
+okay, new tests
+
+
+blended to shreds:
+
+1: 400g soymilk mixture, 101g maple sugar, 15g oil -- very thick, creamy, no noticeable iciness, a little bit stick to your tongue-y from lack of saturate fats, very stable
+2: 400g soymilk mixture, 101g maple sugar, 40g oil -- a little bit more smooth and creamy
+
+
+wet ground:
+
+3: 400g soymilk, 101g maple sugar, 15g oil: slightly better texture than 1, otehrwise same, more melt in mouthy a bit, still a little 'sticky' - maybe more hulls need to be taken out beforehand
+4: 400g soymilk mixture, 101g maple sugar, 40g oil -- again, maybe slightly better but not suuper noticeable
+5: 400g soymilk mixture, 101g maple sugar, 100g oil -- definitely more melty in mouth, but still a bit sticky, not as differnet as expected
+6: 400g soymilk mixture, 101g honey, 15g oil -- best texture, thick but still melts in mouth -- maybe inverting the maple sugar would be better if u want to stick with that maple taste
+7: 400g soymilk mixture, 101g maple sugar, 15g oil, 20g polenta
+8: 400g soymilk mixture, 101g maple sugar, 15g oil, 80g malt 'choc'
+
+
+
+Monday. when they were blended the next day, the texture changed a little bit.
+
+1. The blended one was a lot more like milk tea in taste and also way more Dolce DiLecce-like in texture.
+2. The wet ground had a much smoother texture, a little bit more like ice cream and less Dolce DiLecce-y and slightly more odd flavor.
+
+
+immediate thoughts: too much fiber causign gumminess, too many solids, also maybe too thick generally -- maybe the reduction method is the best way to do it
+
+or maybe a combination of soymilk and the blended method with fibers -- fiber too much of stabilizer
+
+REDUCTION METHOD -- thickems
+
+
+
+## Maple sugar version, 500 g final
+
+| Ingredient               | Amount                  |
+| ------------------------ | ----------------------- |
+| Reduced strained soymilk | **387.5 g (from 525g)** |
+| Maple sugar              | **95 g**                |
+| Neutral oil              | **16.5 g**              |
+| Salt                     | **1 g**                 |
+| **Total**                | **500 g**               |
+
+
+# 2. Double-extracted strained-soymilk version
+
+This is the no-reduction workaround.
+
+Instead of boiling off water, you use already-made soymilk as the grinding liquid for a second batch of soybeans.
+
+Conceptually:
+
+**soybeans + water → strained soymilk**  
+then  
+**more soybeans + that soymilk → stronger strained soymilk**
+
+This should give you higher soy solids without retaining fiber.
+
+---
+
+## Double-extracted maple sugar version, 500 g final
+
+|Ingredient|Amount|
+|---|---|
+|Double-extracted strained soymilk|**387.5 g**|
+|Maple sugar|**95 g**|
+|Neutral oil|**16.5 g**|
+|Salt|**1 g**|
+|**Total**|**500 g**|
+
+### Round 1: make first-extraction soymilk
+
+|Ingredient|Amount|
+|---|---|
+|Dry soybeans|**100 g**|
+|Grinding water|**500 g**|
+
+Process:
+
+1. Cold soak overnight.
+2. Drain.
+3. Short baking-soda blanch.
+4. Drain/rinse.
+5. Grind with **500 g fresh water**.
+6. Cook slurry.
+7. Strain thoroughly.
+
+You need at least **375 g first-extraction soymilk** for round 2.
+
+### Round 2: double extraction
+
+|Ingredient|Amount|
+|---|---|
+|Dry soybeans|**125 g**|
+|First-extraction soymilk|**375 g**|
+
+Process:
+
+1. Cold soak a second **125 g dry soybeans** overnight.
+2. Drain.
+3. Short baking-soda blanch.
+4. Drain/rinse.
+5. Grind with **375 g first-extraction soymilk**.
+6. Cook slurry.
+7. Strain thoroughly.
+8. Use **387.5 g** of the resulting double-extracted soymilk.
+
+Then blend in:
+
+|Ingredient|Amount|
+|---|---|
+|Maple sugar|**95 g**|
+|Oil|**16.5 g**|
+|Salt|**1 g**|
+
+If the double-extracted soymilk yield is slightly short, top up with first-extraction soymilk. If it is very thin, reduce it just 5–10%.

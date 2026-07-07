@@ -5,12 +5,12 @@ tags:
   - AMAZAKE
 pairing:
 date: 2026-06-20
-project: "[[Amazake]]"
+project: "[[Content/Amazake]]"
 description: This experiment tests whether nixtamalized Bloody Butcher corn can be saccharified into an amazake-style drink with wheat koji.
 ---
 ## Background
 
-This experiment explores the saccharification of [[Bloody Butcher Corn|Bloody Butcher corn]] using [[Wheat Koji|wheat koji]] to create an [[Amazake|amazake]]-style beverage. The goal is to determine how effectively the starches in [[Nixtamalization|nixtamalized]] maize can be converted into sugars using non-traditional koji substrates.
+This experiment explores the saccharification of [[Bloody Butcher Corn|Bloody Butcher corn]] using [[Wheat Koji|wheat koji]] to create an [[Content/Amazake|amazake]]-style beverage. The goal is to determine how effectively the starches in [[Nixtamalization|nixtamalized]] maize can be converted into sugars using non-traditional koji substrates.
 
 ---
 ## Recipe

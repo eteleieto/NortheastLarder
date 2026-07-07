@@ -6,12 +6,12 @@ tags:
   - MALT
 pairing:
 date: 2025-07-31
-project: "[[Amazake]]"
+project: "[[Content/Amazake]]"
 description: This experiment combines malt and koji to make a less-sweet oat amazake with a more pronounced malty flavor.
 ---
 ## Background
 
-This experiment is a test to see how the enzymes from [[Malt|malt]] and [[Koji|koji]] combine to make a hybrid [[Amazake|amazake]]. Traditional amazake made with koji produces glucose, a sugar that is about two-thirds as sweet as sucrose (table sugar). Malt, on the other hand, primarily produces maltose, which is only about one-third as sweet as sucrose. By combining these two, the goal is to create an amazake that has a malty flavor but is significantly less sweet than a traditional version, potentially making it more palatable and versatile in non-alcoholic drinks.
+This experiment is a test to see how the enzymes from [[Malt|malt]] and [[Koji|koji]] combine to make a hybrid [[Content/Amazake|amazake]]. Traditional amazake made with koji produces glucose, a sugar that is about two-thirds as sweet as sucrose (table sugar). Malt, on the other hand, primarily produces maltose, which is only about one-third as sweet as sucrose. By combining these two, the goal is to create an amazake that has a malty flavor but is significantly less sweet than a traditional version, potentially making it more palatable and versatile in non-alcoholic drinks.
 
 ---
 ## Recipe
