@@ -6,6 +6,7 @@ tags:
 pairing: 
 date: 2026-06-28
 project: "[[Non-Alcoholic Drinks]]"
+description: This experiment ferments Concord grape juice with mugwort to test a more bitter, herbal kombucha profile.
 ---
 ## Formula
 

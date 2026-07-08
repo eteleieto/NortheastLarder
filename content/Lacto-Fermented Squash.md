@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2026-06-26
 project: "[[Lacto-Fermentation]]"
+description: A fast lacto-fermented squash that turned sharply acidic within a few days and likely needs a shorter fermentation.
 ---
 ## Formula
 

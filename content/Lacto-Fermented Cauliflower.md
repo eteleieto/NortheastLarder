@@ -6,6 +6,7 @@ tags:
 pairing: 
 date: 2026-06-20
 project: "[[Lacto-Fermentation]]"
+description: A simple lacto-fermented cauliflower with a clean, acidic flavor and a straightforward lactic profile.
 ---
 ## Notes and Observations
 

@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2026-06-14
 project: "[[Lacto-Fermentation]]"
+description: A quick lacto-fermented asparagus with crunchy texture, pickle-like acidity, and better flavor after chilling.
 ---
 ## Notes and Observations
 

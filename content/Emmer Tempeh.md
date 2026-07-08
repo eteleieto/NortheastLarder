@@ -38,4 +38,4 @@ This was prepared similarly to [[Soybean Tempeh|soybean tempeh]], using [[Black 
 - The resulting tempeh is somewhat crumbly and falls apart in the mouth. In the future, breaking apart the grains before inoculation might result in a more solid block.
 - The taste is much different from that of the soybean tempeh. It is not very earthy or mushroom-like. The taste is more like a mixture between grain and the fruitiness of wine, with a slight acidity and fair bit of meatiness.
 
-![[Assets/Attachments/Emmer Tempeh-1.webp| 250]]
+![[Assets/Attachments/Emmer Tempeh-1.webp|250]]
