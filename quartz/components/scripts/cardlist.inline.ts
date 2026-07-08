@@ -17,7 +17,7 @@ function renderCardLists() {
   cardListContainers.forEach((container) => {
     const pagesData = container.getAttribute("data-pages")
     const noImages = container.getAttribute("data-no-images") === "true"
-    const hideDate = noImages && isIndexPage
+    const hideDate = isIndexPage
     if (!pagesData) return
 
     try {
