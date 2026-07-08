@@ -2,9 +2,11 @@
 title: Lacto Snap Peas
 tags:
   - EXPERIMENT
+  - LACTO-FERMENT
 pairing: 
 date: 2026-06-22
-project:
+project: "[[Lacto-Fermentation]]"
+description: This experiment lacto-ferments snap peas in snap pea juice to preserve texture and deepen pea flavor.
 ---
 ## Background
 

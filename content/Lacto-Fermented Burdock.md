@@ -2,9 +2,11 @@
 title: Lacto-Fermented Burdock
 tags:
   - EXPERIMENT
+  - LACTO-FERMENT
 pairing: 
 date: 2026-06-20
-project:
+project: "[[Lacto-Fermentation]]"
+description: This experiment lacto-ferments burdock root to test its texture and how it carries smoky heat.
 ---
 ## Background
 

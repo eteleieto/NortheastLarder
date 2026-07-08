@@ -5,7 +5,8 @@ tags:
   - LACTO-FERMENT
 pairing:
 date: 2026-06-26
-project:
+project: "[[Lacto-Fermentation]]"
+description: This experiment lacto-ferments shiitake mushrooms to preserve them and capture a savory acidic brine.
 ---
 ## Background
 

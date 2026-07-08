@@ -2,9 +2,11 @@
 title: Lacto Blueberries
 tags:
   - EXPERIMENT
+  - LACTO-FERMENT
 pairing:
 date: 2026-06-30
-project:
+project: "[[Lacto-Fermentation]]"
+description: This experiment lacto-ferments blueberries to compare acidity, funk, and temperature-driven flavor differences.
 ---
 ## Background
 

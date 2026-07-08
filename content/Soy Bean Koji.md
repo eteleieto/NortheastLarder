@@ -5,7 +5,7 @@ tags:
   - KOJI-INOCULATED
 pairing: 
 date: 2026-06-23
-project:
+project: "[[Koji]]"
 description: This experiment grows koji on soybeans to assess mycelium growth and drying needs.
 ---
 ## Background

@@ -8,7 +8,7 @@ pairing:
 ---
 ### Notes
 
-Koji is made by cultivating a mold on a cooked grain or legume substrate. It is central to traditional Japanese fermented foods like [[Miso]], [[Soy Sauce]], [[Sake]], [[Content/Amazake]], [[Shochu]], and [[Mirin]]. This exploration focuses on using koji to transform regional ingredients from the Northeast into complex sources of flavor, sweetness, and umami, with an additional goal of developing a gluten-free option.
+Koji is made by cultivating a mold on a cooked grain or legume substrate. It is central to traditional Japanese fermented foods like [[Miso]], [[Soy Sauce]], [[Sake]], [[Amazake]], [[Shochu]], and [[Mirin]]. This exploration focuses on using koji to transform regional ingredients from the Northeast into complex sources of flavor, sweetness, and umami, with an additional goal of developing a gluten-free option.
 
 **Microbiology & Enzymes**
 * **[[Aspergillus Oryzae|Aspergillus oryzae]]**: The most common koji variety. Strains are selected either for high protease activity (ideal for miso and soy sauce) or high amylase activity (ideal for sake and amazake).

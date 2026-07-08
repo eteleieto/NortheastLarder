@@ -5,7 +5,7 @@ tags:
   - KOJI-INOCULATED
 pairing: 
 date: 2026-06-21
-project:
+project: "[[Koji]]"
 description: This experiment refines a process for growing koji on oats by balancing hydration, grain cracking, and post-steam flouring.
 ---
 ## Background
@@ -58,6 +58,6 @@ Grain Mill or Mortar and Pestle
 ## Notes and Observations
 
 - The final batch showed promising growth, though there is still room for improvement in coverage and density.
-- The resulting oat koji will be tested in various applications, including [[Blackening (Enzymatic)|blackening]], [[Shio Koji|shio koji]], and [[Content/Amazake|amazake]], to assess its enzymatic strength.
+- The resulting oat koji will be tested in various applications, including [[Blackening (Enzymatic)|blackening]], [[Shio Koji|shio koji]], and [[Amazake|amazake]], to assess its enzymatic strength.
 - 
 ![[Assets/Attachments/IMG_1897.webp|200x435]]

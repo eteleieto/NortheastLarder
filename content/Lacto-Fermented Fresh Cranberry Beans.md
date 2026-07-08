@@ -2,9 +2,11 @@
 title: Lacto-Fermented Fresh Cranberry Beans
 tags:
   - EXPERIMENT
+  - LACTO-FERMENT
 pairing: 
 date: 2026-06-20
-project:
+project: "[[Lacto-Fermentation]]"
+description: This experiment lacto-ferments fresh cranberry beans to test texture after a brief pre-boil.
 ---
 ## Background
 

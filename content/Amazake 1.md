@@ -2,13 +2,15 @@
 title: Amazake
 tags:
   - EXPERIMENT
+  - AMAZAKE
 pairing: 
 date: 2026-06-23
-project:
+project: "[[Amazake]]"
+description: This experiment compares parallel amazake trials across different koji substrates and incubation setups.
 ---
 ## Background
 
-The goal of this experiment is to run four parallel [[Content/Amazake]] tests using different koji substrates and equipment setups to evaluate sweetness, sourness, and overall enzymatic activity. 
+The goal of this experiment is to run four parallel [[Amazake]] tests using different koji substrates and equipment setups to evaluate sweetness, sourness, and overall enzymatic activity. 
 
 The standard trials were conducted in the Alto-Shaam, with an additional duplicate rice trial run in a dehydrator to compare temperature consistency and heating rates.
 
@@ -37,7 +39,7 @@ Four distinct batches were prepared using a 1:1:2 ratio (1 part koji, 1 part wat
 * **Rice Koji (Dehydrator):** This trial yielded the sweetest result. While still not quite as sweet as desired, it was noticeably superior to the Alto-Shaam batch.
 
 ### Equipment and Temperature Analysis
-The dehydrator performed significantly better than the Alto-Shaam for [[Content/Amazake]] production. There are two primary hypotheses for why the dehydrator prevents the souring associated with lactic acid bacteria (LAB) activity:
+The dehydrator performed significantly better than the Alto-Shaam for [[Amazake]] production. There are two primary hypotheses for why the dehydrator prevents the souring associated with lactic acid bacteria (LAB) activity:
 1. **Heating Rate:** The Alto-Shaam may take too long to bring the substrate up to temperature, allowing a window of lactic activity to occur before the heat kills off or inhibits the bacteria.
 2. **Temperature Consistency:** The dehydrator may hold a consistent 140°F (60°C) more reliably than the Alto-Shaam. 
 

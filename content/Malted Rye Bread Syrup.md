@@ -2,9 +2,11 @@
 title: Malted Rye Bread Syrup
 tags:
   - EXPERIMENT
+  - MALT
 pairing: 
 date: 2026-07-03
-project:
+project: "[[(WIP) Sweeteners]]"
+description: This experiment uses diastatic malt to turn stale rye bread into a sweet fermentable syrup base.
 ---
 ## Background
 An experiment to convert staled, leftover [[Rye Bread|rye bread]] into a sweet, fermentable base using diastatic malt powder, exploring the enzymatic breakdown of starches in a two-stage mash.

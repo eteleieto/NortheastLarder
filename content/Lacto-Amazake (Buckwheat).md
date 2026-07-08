@@ -6,7 +6,7 @@ tags:
   - AMAZAKE
 pairing:
 date: 2025-06-23
-project: "[[Content/Amazake]]"
+project: "[[Amazake]]"
 description: This experiment lacto-ferments diluted buckwheat amazake to turn some sweetness into acidity while building carbonation.
 ---
 ## Background

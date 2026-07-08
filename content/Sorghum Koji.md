@@ -5,7 +5,7 @@ tags:
   - KOJI-INOCULATED
 pairing: 
 date: 2026-06-23
-project:
+project: "[[Koji]]"
 description: This experiment tests sorghum koji while focusing on moisture control during incubation.
 ---
 ## Background

@@ -2,9 +2,11 @@
 title: Lacto-Fermented Celtuce
 tags:
   - EXPERIMENT
+  - LACTO-FERMENT
 pairing: 
 date: 2026-06-20
-project:
+project: "[[Lacto-Fermentation]]"
+description: This experiment lacto-ferments celtuce to see how a simple 2% salt ferment changes its flavor.
 ---
 ## Background
 

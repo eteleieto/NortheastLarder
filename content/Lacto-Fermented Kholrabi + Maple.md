@@ -2,9 +2,11 @@
 title: Lacto-Fermented Kholrabi + Maple
 tags:
   - EXPERIMENT
+  - LACTO-FERMENT
 pairing: 
 date: 2026-06-20
-project:
+project: "[[Lacto-Fermentation]]"
+description: This experiment ferments kohlrabi with maple syrup to compare flavor and texture against a standard lacto ferment.
 ---
 ## Background
 

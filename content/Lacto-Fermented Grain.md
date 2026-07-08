@@ -2,9 +2,11 @@
 title: Lacto-Fermented Grain
 tags:
   - EXPERIMENT
+  - LACTO-FERMENT
 pairing:
 date: 2026-07-07
-project:
+project: "[[Lacto-Fermentation]]"
+description: This experiment compares standard and nixtamalized lacto-fermented grain to study flavor and fermentation behavior.
 ---
 ## Background
 

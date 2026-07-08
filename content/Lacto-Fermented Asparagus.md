@@ -5,7 +5,7 @@ tags:
   - LACTO-FERMENT
 pairing:
 date: 2026-06-14
-project:
+project: "[[Lacto-Fermentation]]"
 ---
 ## Notes and Observations
 

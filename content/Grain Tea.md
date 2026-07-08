@@ -2,9 +2,11 @@
 title: Grain Tea
 tags:
   - EXPERIMENT
+  - TEA
 pairing: 
 date: 2026-06-30
-project:
+project: "[[Teas & Tisanes]]"
+description: This experiment compares roasted grains, brew methods, and roast profiles for a grain-based tea.
 ---
 ## Background
 

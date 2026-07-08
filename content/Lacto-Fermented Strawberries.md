@@ -2,9 +2,11 @@
 title: Lacto-Fermented Strawberries
 tags:
   - EXPERIMENT
+  - LACTO-FERMENT
 pairing: 
 date: 2026-06-20
-project:
+project: "[[Lacto-Fermentation]]"
+description: This experiment compares whole-brined and sliced dry-salted lacto-fermented strawberries.
 ---
 ## Background
 

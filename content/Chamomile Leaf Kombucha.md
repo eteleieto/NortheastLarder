@@ -2,10 +2,11 @@
 title: Chamomile Leaf Kombucha
 tags:
   - EXPERIMENT
-  - DRINK
+  - KOMBUCHA
 pairing:
 date: 2026-06-20
-project:
+project: "[[Non-Alcoholic Drinks]]"
+description: This experiment ferments a chamomile leaf infusion with honey and starter liquid into a herbal kombucha.
 ---
 ## Background
 

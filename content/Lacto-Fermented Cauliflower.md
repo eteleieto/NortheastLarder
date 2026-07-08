@@ -2,9 +2,10 @@
 title: Lacto-Fermented Cauliflower
 tags:
   - EXPERIMENT
+  - LACTO-FERMENT
 pairing: 
 date: 2026-06-20
-project:
+project: "[[Lacto-Fermentation]]"
 ---
 ## Notes and Observations
 

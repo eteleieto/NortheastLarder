@@ -1,10 +1,11 @@
 ---
-title: (ONG) Concord Grape & Mugwort Kombucha
+title: Concord Grape & Mugwort Kombucha
 tags:
   - EXPERIMENT
+  - KOMBUCHA
 pairing: 
 date: 2026-06-28
-project:
+project: "[[Non-Alcoholic Drinks]]"
 ---
 ## Formula
 
