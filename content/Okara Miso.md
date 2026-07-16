@@ -2,6 +2,7 @@
 title: Okara Miso
 tags:
   - EXPERIMENT
+  - MISO
 pairing:
 date: 2026-06-21
 project: "[[Presscakes and Biproducts]]"

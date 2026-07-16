@@ -3,6 +3,7 @@ title: Malted Oat Milk
 tags:
   - RECIPE
   - MILK
+  - MALT
 date: 2025-07-31
 description: This recipe uses light Munich malt to make a smoother, less starchy oat milk.
 ---
