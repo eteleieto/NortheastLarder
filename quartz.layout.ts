@@ -52,9 +52,10 @@ const recentBlogPosts = Component.RecentNotes({
   limit: 3,
   filter: (page) => {
     const tags = page.frontmatter?.tags
+    const allowedTags = ["PROJECT", "BLOG"]
     if (!tags) return false
-    if (typeof tags === "string") return tags === "BLOG"
-    if (Array.isArray(tags)) return tags.includes("BLOG")
+    if (typeof tags === "string") return allowedTags.includes(tags)
+    if (Array.isArray(tags)) return tags.some((tag) => allowedTags.includes(tag))
     return false
   },
 })
@@ -65,10 +66,9 @@ const recentNotes = Component.RecentNotes({
   limit: 3,
   filter: (page) => {
     const tags = page.frontmatter?.tags
-    const allowedTags = ["PROJECT", "EXPERIMENT", "RECIPE", "EVENT", "IDEA"]
     if (!tags) return false
-    if (typeof tags === "string") return allowedTags.includes(tags)
-    if (Array.isArray(tags)) return tags.some((tag) => allowedTags.includes(tag))
+    if (typeof tags === "string") return tags === "EXPERIMENT"
+    if (Array.isArray(tags)) return tags.includes("EXPERIMENT")
     return false
   },
 })
