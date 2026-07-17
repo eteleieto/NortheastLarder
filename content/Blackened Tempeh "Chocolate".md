@@ -5,7 +5,7 @@ tags:
   - BLACKENED
 pairing:
 date: 2025-07-31
-project: "[[(WIP) Coffee & Chocolate Substitutes]]"
+project: "[[(A) Coffee & Chocolate Substitutes]]"
 description: This experiment dries and grinds blackened tempeh into a chocolate-like paste.
 ---
 ## Background

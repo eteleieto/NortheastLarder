@@ -5,7 +5,7 @@ tags:
   - BLACKENED
 pairing:
 date: 2025-07-30
-project: "[[(WIP) Coffee & Chocolate Substitutes]]"
+project: "[[(A) Coffee & Chocolate Substitutes]]"
 description: This experiment blackens soybeans with koji to test them as a coffee or chocolate substitute.
 ---
 ## Background

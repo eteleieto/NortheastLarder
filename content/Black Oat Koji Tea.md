@@ -5,7 +5,7 @@ tags:
   - TEA
 pairing:
 date: 2026-06-26
-project: "[[Northeastern Teas & Tisanes]]"
+project: "[[(A) Northeastern Teas & Tisanes]]"
 description: This note records a cold brew of black oat koji with cherry-like, fruity, and chocolatey flavors.
 ---
 ## Background

@@ -45,4 +45,4 @@ Testing two different methods for [[Lacto-Fermentation|lacto-fermenting]] strawb
     *   Let it run longer to yield a sharp, acidic liquid similar to a lacto-vinegar.
 *   **Applications:** 
     *   The fermented fruit and juice pair exceptionally well with honey.
-    *   If fermented with a lower salt percentage, the resulting juice makes an excellent acid/flavor modifier for [[Non-Alcoholic Drinks|drinks]].
+    *   If fermented with a lower salt percentage, the resulting juice makes an excellent acid/flavor modifier for [[(A) Non-Alcoholic Drinks|drinks]].

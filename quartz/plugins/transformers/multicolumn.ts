@@ -110,7 +110,7 @@ function parseColumnSettings(settingsBlock: string): ColumnSettings {
 function processMultiColumnRegions(src: string): string {
   // Regex to match multi-column regions
   const multiColumnRegex =
-    /--- start-multi-column:\s*([^\n]+)\n(```column-settings\n([\s\S]*?)\n```)?\n?([\s\S]*?)--- end-multi-column/g
+    /--- start-multi-column:\s*([^\n]+)\n(?:[ \t]*\n)*(```column-settings\n([\s\S]*?)\n```)?\n?([\s\S]*?)--- end-multi-column/g
 
   return src.replace(
     multiColumnRegex,

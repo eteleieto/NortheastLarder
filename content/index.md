@@ -14,11 +14,11 @@ title: Northeast Larder
 
 ||
 
-[[(WIP) Coffee & Chocolate Substitutes]]
+[[(A) Coffee & Chocolate Substitutes]]
 
 [[(WIP) Sweeteners]]
 
-[[(WIP) Umami]]
+[[(A) Umami]]
 
 ||
 
