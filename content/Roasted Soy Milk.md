@@ -4,7 +4,7 @@ tags:
   - EXPERIMENT
 pairing:
 date: 2026-06-23
-project: "[[Plant-Based Dairy]]"
+project: "[[(A) Plant-Based Dairy]]"
 description: This experiment compares soy milk pre-treatments to reduce beaniness without sacrificing yield.
 ---
 ## Background

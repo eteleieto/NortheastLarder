@@ -5,7 +5,7 @@ tags:
   - MALT
 pairing:
 date: 2025-12-18
-project: "[[Plant-Based Dairy]]"
+project: "[[(A) Plant-Based Dairy]]"
 description: This experiment uses malt to convert grain starches into sugars for plant-based milk alternatives.
 ---
 ## Background

@@ -4,7 +4,7 @@ tags:
   - EXPERIMENT
 pairing:
 date: 2026-01-28
-project: "[[Plant-Based Dairy]]"
+project: "[[(A) Plant-Based Dairy]]"
 description: This experiment tests whether soybeans can produce a neutral yogurt suitable for fermentation.
 ---
 ## Background

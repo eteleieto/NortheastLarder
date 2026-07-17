@@ -5,7 +5,7 @@ tags:
   - SHIO-KOJI
 pairing:
 date: 2026-06-20
-project: "[[Plant-Based Dairy]]"
+project: "[[(A) Plant-Based Dairy]]"
 description: This experiment cures tofu in a salty koji paste to test a shio-koji-adjacent approach without an extended fermentation.
 ---
 ## Background

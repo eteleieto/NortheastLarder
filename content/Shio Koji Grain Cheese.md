@@ -5,7 +5,7 @@ tags:
   - SHIO-KOJI
 pairing:
 date: 2025-12-06
-project: "[[Plant-Based Dairy]]"
+project: "[[(A) Plant-Based Dairy]]"
 description: This experiment ferments grains in shio koji to mimic the lactic, cheesy qualities of fresh mozzarella.
 ---
 ## Background

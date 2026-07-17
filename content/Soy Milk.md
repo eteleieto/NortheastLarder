@@ -4,7 +4,7 @@ tags:
   - EXPERIMENT
 pairing:
 date: 2025-12-10
-project: "[[Plant-Based Dairy]]"
+project: "[[(A) Plant-Based Dairy]]"
 description: This experiment produces a drinkable soy milk as part of the broader plant-dairy project.
 ---
 ## Background
