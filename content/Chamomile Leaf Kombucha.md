@@ -10,13 +10,13 @@ description: This experiment ferments a chamomile leaf infusion with honey and s
 ---
 ## Background
 
-This experiment uses a 3-day [[Chamomile|chamomile]] leaf infusion as the base for a new ferment, combined with apple blossom honey and a winter starter liquid.
+This experiment uses a 3-day [[Chamomile 1|chamomile]] leaf infusion as the base for a new ferment, combined with apple blossom honey and a winter starter liquid.
 
 ## Formula
 
 ### Ingredients
 
-- 3-day [[Chamomile|chamomile]] leaf infusion (base)
+- 3-day [[Chamomile 1|chamomile]] leaf infusion (base)
 - 9% Apple blossom honey (by weight of the infusion)
 - 15% Beacon winter starter liquid (by weight of the total mixture)
 

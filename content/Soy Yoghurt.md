@@ -9,64 +9,73 @@ description: This experiment tests whether soybeans can produce a neutral yogurt
 ---
 ## Background
 
-This project represents the first batch of trials in an attempt to create a sustainable alternative to dairy [[Yogurt|yogurt]]. The goal is to explore ingredients that are cheaper, easier to grow, and potentially extensible enough to fill various culinary niches. This specific experiment utilizes [[Soybean|soybeans]] to determine if we can achieve a neutral flavor profile suitable for fermentation.
+This project serves as an attempt to create a sustainable alternative to dairy, utilizing ingredients that are cost-effective, easy to grow, and extensible enough to fill various culinary niches. While the broader exploration focused on yogurt production, this specific trial using [[Soybean]]s resulted in an exceptional drinking milk.
+
+We are also running five test trials (four variants documented) to evaluate different ratios and additions for fermentation:
+
+*   **Trial 1:** 1:3 ratio, 10% oil
+*   **Trial 2:** 1:3 ratio with 20% [[Okara]] mixture
+*   **Trial 3:** 1:1.5 ratio
+*   **Trial 4:** 1:2 ratio
 
 ---
-## Recipe
---- start-multi-column: ID_soy_yogurt
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
+
+## Recipe: Soy Milk Base
 
 ### Ingredients 
 
-300g Soaked Soybeans (per batch)
-
-450g - 750g Water (variable ratios)
-
-0.2g Yogurt Starter
-
-Sugar (optional)
-
---- column-break ---
+*   300g soaked [[Soybean]]s
+*   750g water
 
 ### Equipment
 
-High-speed Blender
+*   Vitamix
+*   Nut milk bag
+*   Pot
 
-Nut Milk Bag
-
-Saucepan
-
-Kitchen Scale
-
---- end-multi-column
-
-## Instructions
+### Instructions
 
 1.  **Soaking**  
-    Soak the soybeans overnight, then rinse them thoroughly.
+    Soak the beans overnight, then rinse them thoroughly.
 
-2.  **Blanching (Variable)**  
-    For specific trials, blanch the beans prior to blending. The logic is that the enzymes responsible for the "beany" flavor become especially active when exposed to oxygen and high surface area during blending; blanching aims to deactivate these enzymes early.
+2.  **Blending**  
+    Combine the soaked beans and water in a blender. Process on high for 60 seconds.
 
-3.  **Blending**  
-    Blend the beans with water in a high-speed blender for 60 seconds. Two ratios are being tested: a low water quantity (1:1.5) and a higher water quantity (1:2.5).
+3.  **Straining**  
+    Strain the mixture through a nut milk bag to remove the solids.
 
-4.  **Straining**  
-    Strain the mixture through a nut milk bag to separate the milk from the pulp.
+4.  **Cooking**  
+    Boil the milk over medium-high heat, stirring constantly. Cook for 20 minutes until the raw, beany flavor has dissipated.
 
-5.  **Cooking**  
-    Boil the soy milk on medium-high heat, stirring constantly, for approximately 20 minutes or until the raw flavor dissipates.
+---
 
-6.  **Fermentation**  
-    Allow the milk to cool, then add the starter. Incubate overnight.
+## Process: Yogurt Fermentation Trials
+
+### Ingredients & Inoculation
+For each trial, the base formulation is:
+*   100g substrate (prepared [[Soy Milk]])
+*   0.04g dried starter from [[Coles Ridge]]
+
+### Method
+1. Combine the substrate and starter for each trial.
+2. Place the mixtures in a yogurt incubator.
+3. Incubate at 110°F for 12 hours overnight.
+
+---
 
 ## Notes and Observations
 
--   **Water Ratios:** The 1:2.5 ratio (300g beans to 750g water) produced an excellent drinking soy milk. It is viscous enough to be satisfying and creamy, yet fluid enough to stir easily without burning.
--   **Sugar Variation:** A portion of the non-blanched, high-water batch was split in half. Sugar was added to one half to observe its influence on the fermentation process.
--   **Results:** After sitting overnight, the cooked and densest batch yielded the best results. The flavor is relatively neutral with a light [[Lacto-Fermentation|lactic funk]], very similar to traditional yogurt.
--   **Flavor Issues:** There is a slight bitterness derived from the soy that is unpleasant. We need to investigate methods to mitigate this in future trials.
--   **Status:** This is an ongoing project.
+### Soy Milk Base
+*   The 1:2.5 ratio of soaked beans to water yields a beverage with a superior flavor profile.
+*   The milk is viscous enough to be creamy and satisfying on the palate.
+*   This consistency remains easy to stir during the boiling phase, mitigating the risk of burning or excessive thickening.
+
+### Yogurt Trials
+*   **1:2 Ratio:** This batch produced the best results texturally.
+*   **1:3 Ratio:** This batch maintained the best overall flavor.
+
+---
+
+## Future Adjustments
+
+We will continue testing with different [[Soy Milk]] varieties. Future experiments will incorporate different blanching steps to better control the protein content and final taste.
