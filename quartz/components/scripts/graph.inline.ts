@@ -741,7 +741,6 @@ async function renderGlobalGraph(trigger?: HTMLElement) {
     if (closeButton) {
       closeButton.addEventListener("click", hideGlobalGraph)
       globalGraphCleanups.push(() => closeButton.removeEventListener("click", hideGlobalGraph))
-      closeButton.focus()
     }
 
     const onBackdropClick = (e: MouseEvent) => {
@@ -756,6 +755,8 @@ async function renderGlobalGraph(trigger?: HTMLElement) {
     if (graphContainer) {
       globalGraphCleanups.push(await renderGraph(graphContainer, currentSlug))
     }
+
+    closeButton?.focus()
   }
 }
 

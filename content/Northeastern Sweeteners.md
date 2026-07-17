@@ -1,5 +1,5 @@
 ---
-title: Sweeteners
+title: Northeastern Sweeteners
 tags:
   - PROJECT
 date: 2025-07-24
