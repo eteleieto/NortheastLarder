@@ -2,8 +2,7 @@
 title: Amazake
 tags:
   - EXPERIMENT
-  - AMAZAKE
-pairing: 
+pairing:
 date: 2026-06-23
 project: "[[Amazake]]"
 description: This experiment compares parallel amazake trials across different koji substrates and incubation setups.

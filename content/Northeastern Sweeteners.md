@@ -5,7 +5,6 @@ tags:
 date: 2025-07-24
 description: This project is centered on creating sweeteners using solely products from the Northeast.
 ---
-
 ## Background
 
 About 13% of U.S. caloric intake is added sugar.[^1] Of that, about half is table sugar (sucrose) from sugar cane or sugar beets, and about another half is corn syrup. Only about 2% of sweetener intake is honey, maple syrup, and other edible syrups.[^2]
