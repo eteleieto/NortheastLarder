@@ -4,6 +4,12 @@
   margin-top: 2.75rem;
 }
 
+// Hide controls left in the DOM by an older SPA session after a live deployment.
+.featured-projects-controls,
+.featured-projects-button {
+  display: none !important;
+}
+
 .featured-projects-heading {
   margin-bottom: 1rem;
 
