@@ -120,6 +120,10 @@
   font-weight: $mediumWeight;
   line-height: 1.35;
   color: var(--dark);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, currentColor 35%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
 }
 
 .card-item-link:hover .card-item-title,

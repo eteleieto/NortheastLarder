@@ -3,8 +3,6 @@ import { resolveRelative } from "../util/path"
 import { getCardImage } from "../util/cardImage"
 import { getProjectPages, isProjectPage } from "../util/projectMatch"
 import { isWipPage } from "../util/wip"
-// @ts-ignore
-import script from "./scripts/featuredprojects.inline"
 import style from "./styles/featuredProjects.scss"
 
 const MAX_PROJECTS = 6
@@ -51,28 +49,11 @@ const FeaturedProjects: QuartzComponent = ({ fileData, allFiles }: QuartzCompone
     <section class="featured-projects" aria-labelledby="featured-projects-title">
       <div class="featured-projects-heading">
         <h2 id="featured-projects-title">Current projects</h2>
-        <div class="featured-projects-controls" aria-label="Project carousel controls">
-          <button
-            type="button"
-            class="featured-projects-button featured-projects-previous"
-            aria-label="Show previous projects"
-          >
-            <span aria-hidden="true">←</span>
-          </button>
-          <button
-            type="button"
-            class="featured-projects-button featured-projects-next"
-            aria-label="Show next projects"
-          >
-            <span aria-hidden="true">→</span>
-          </button>
-        </div>
       </div>
 
       <div class="featured-projects-track" tabindex={0} aria-label="Most developed projects">
         {projects.map(({ page }) => {
           const title = page.frontmatter?.title ?? "Untitled project"
-          const description = page.frontmatter?.description || page.description || ""
           const image = getCardImage(page)
 
           return (
@@ -91,7 +72,6 @@ const FeaturedProjects: QuartzComponent = ({ fileData, allFiles }: QuartzCompone
                 )}
                 <div class="card-item-content">
                   <h3 class="card-item-title">{title}</h3>
-                  {description && <p class="card-item-description">{description}</p>}
                 </div>
               </div>
             </a>
@@ -103,6 +83,5 @@ const FeaturedProjects: QuartzComponent = ({ fileData, allFiles }: QuartzCompone
 }
 
 FeaturedProjects.css = style
-FeaturedProjects.afterDOMLoaded = script
 
 export default (() => FeaturedProjects) satisfies QuartzComponentConstructor

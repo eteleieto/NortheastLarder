@@ -5,10 +5,6 @@
 }
 
 .featured-projects-heading {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
   margin-bottom: 1rem;
 
   h2 {
@@ -16,48 +12,10 @@
   }
 }
 
-.featured-projects-controls {
-  display: flex;
-  gap: 0.45rem;
-}
-
-.featured-projects-button {
-  display: grid;
-  place-items: center;
-  width: 2.15rem;
-  height: 2.15rem;
-  padding: 0;
-  border: 1px solid var(--gray);
-  border-radius: 999px;
-  background: var(--light);
-  color: var(--dark);
-  font: inherit;
-  cursor: pointer;
-  transition:
-    border-color $transition-base,
-    color $transition-base,
-    opacity $transition-base;
-
-  &:hover:not(:disabled) {
-    border-color: var(--secondary);
-    color: var(--secondary);
-  }
-
-  &:focus-visible {
-    outline: 2px solid var(--secondary);
-    outline-offset: 2px;
-  }
-
-  &:disabled {
-    cursor: default;
-    opacity: 0.35;
-  }
-}
-
 .featured-projects-track {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: minmax(15rem, calc((100% - 1.25rem) / 2));
+  grid-auto-columns: minmax(13rem, 42%);
   column-gap: 1.25rem;
   overflow-x: auto;
   padding: 0.15rem 0 0.75rem;
@@ -75,7 +33,11 @@
   scroll-snap-align: start;
 
   .card-item {
-    min-height: 9.5rem;
+    min-height: 7.5rem;
+  }
+
+  .card-item-title {
+    margin-bottom: 0;
   }
 
   &:hover .card-item {
@@ -101,11 +63,5 @@
   .featured-projects-track {
     grid-auto-columns: 86%;
     column-gap: 0.85rem;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .featured-projects-track {
-    scroll-behavior: auto;
   }
 }
