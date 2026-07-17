@@ -1,11 +1,11 @@
 ---
 title: Peanut Ice Cream Base
 tags:
-  - LARDER
-  - IN-PROGRESS
+  - EXPERIMENT
 pairing:
 date: 2026-01-28
 project: "[[Ice Cream]]"
+description: This experiment builds a non-dairy ice cream base from raw peanuts.
 ---
 ## Background
 

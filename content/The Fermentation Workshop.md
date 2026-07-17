@@ -2,7 +2,6 @@
 title: The Fermentation Workshop
 tags:
   - EVENT
-author:
 date: 2025-09-09
 description: A two-part workshop on lacto-fermentation, shared tasting, and collaborative documentation.
 ---

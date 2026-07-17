@@ -4,7 +4,7 @@ tags:
   - EXPERIMENT
 pairing:
 date: 2025-11-29
-project:
+project: "[[Pasta]]"
 description: This experiment tests multiple approaches to making pasta with einkorn flour and cornmeal.
 ---
 ## Background
