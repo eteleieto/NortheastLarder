@@ -2,9 +2,9 @@
 title: Roasted Soy Milk
 tags:
   - EXPERIMENT
-pairing: 
+pairing:
 date: 2026-06-23
-project: "[[Plant-Dairy]]"
+project: "[[Plant-Based Dairy]]"
 description: This experiment compares soy milk pre-treatments to reduce beaniness without sacrificing yield.
 ---
 ## Background

@@ -35,6 +35,8 @@ export default (() => {
         titleContext = "Technique"
       } else if (tags.includes('BLOG')) {
         titleContext = "Blog"
+      } else if (tags.includes('EVENT')) {
+        titleContext = "Event"
       }
       
       if (titleContext) {

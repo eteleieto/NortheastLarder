@@ -3,9 +3,9 @@ title: Shio Koji Grain Cheese
 tags:
   - EXPERIMENT
   - SHIO-KOJI
-pairing: 
+pairing:
 date: 2025-12-06
-project: "[[Plant-Dairy]]"
+project: "[[Plant-Based Dairy]]"
 description: This experiment ferments grains in shio koji to mimic the lactic, cheesy qualities of fresh mozzarella.
 ---
 ## Background

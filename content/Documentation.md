@@ -5,7 +5,7 @@ This site is our open lab notebook. Every page can link to others, and together 
 ## Getting around
 
 - **Search**: find anything on the site
-- **Browse** (right sidebar): Recipes, Blogs, Experiments, Projects, and the **Graph**, a full map of every page and how they connect
+- **Browse** (right sidebar): Recipes, Blogs, Events, Experiments, Projects, and the **Graph**, a full map of every page and how they connect
 - **Left sidebar**: recent blog posts and notes
 - **Contents** and **Backlinks** (right sidebar, on article pages): jump within a page or see what links here
 
@@ -15,6 +15,7 @@ Pages are mostly experiments, recipes, blog posts, and larger projects. You can 
 
 - **Recipes** — finished or in-development dishes
 - **Blogs** — longer notes and write-ups
+- **Events** — workshops, gatherings, and public events
 - **Experiments** — individual tests, trials, and iterations
 - **Projects** — broader research threads that group related experiments
 

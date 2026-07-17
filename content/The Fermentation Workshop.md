@@ -1,7 +1,7 @@
 ---
 title: The Fermentation Workshop
 tags:
-  - BLOG
+  - EVENT
 author:
 date: 2025-09-09
 description: A two-part workshop on lacto-fermentation, shared tasting, and collaborative documentation.
@@ -12,7 +12,7 @@ description: A two-part workshop on lacto-fermentation, shared tasting, and coll
 
 Together with the [Garnet](http://www.garnet.nyc) and with the generous support of [Ambrook](http://www.ambrook.com), we will be hosting lacto-fermentation workshops Saturday, Sept 13th at 10:00am and 1:00pm in SoHo, NYC.
 
-Everyone will receive their own bell jar, fermentation weight, an abountiful table of fruits and vegetables to play with, along with all the necessary equipment to make their ferments. We'll taste, discuss, and document all of our ferments jointly, considering practically and philosophically the many variables which impact the qualities of fermented food. Everyone will take home their ferments and tend to them for the week.
+Everyone will receive their own bell jar, fermentation weight, a bountiful table of fruits and vegetables to play with, along with all the necessary equipment to make their ferments. We'll taste, discuss, and document all of our ferments jointly, considering practically and philosophically the many variables which impact the qualities of fermented food. Everyone will take home their ferments and tend to them for the week.
 
 We will then gather again (optionally) the following Saturday for a lunch. Everyone will bring their ferments and we'll savor our collective efforts through a lunch consisting of rice, fresh tofu from Fong On, some garums and misos that we've been crafting, hot tea from regional grains, and of course: everyone's ferments.
 

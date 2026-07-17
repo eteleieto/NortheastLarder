@@ -2,9 +2,9 @@
 title: Okara Ricotta
 tags:
   - EXPERIMENT
-pairing: 
+pairing:
 date: 2026-06-23
-project: "[[Plant-Dairy]]"
+project: "[[Plant-Based Dairy]]"
 description: This experiment tests okara as the base for a cultured, plant-based ricotta alternative.
 ---
 ## Background

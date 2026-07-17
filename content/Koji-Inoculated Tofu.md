@@ -3,9 +3,9 @@ title: Koji-Inoculated Tofu
 tags:
   - EXPERIMENT
   - KOJI-INOCULATED
-pairing: 
+pairing:
 date: 2026-01-28
-project: "[[Plant-Dairy]]"
+project: "[[Plant-Based Dairy]]"
 description: This experiment tests whether salted tofu inoculated with koji can develop a cheese-like texture and umami profile.
 ---
 ## Background

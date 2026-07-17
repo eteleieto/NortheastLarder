@@ -25,6 +25,7 @@ const getCustomTitle = (tag: string): string => {
     'INGREDIENT': 'Ingredients',
     'TECHNIQUE': 'Techniques',
     'BLOG': 'Blogs',
+    'EVENT': 'Events',
     'RECIPE': 'Recipes',
     'IDEA': 'Ideas',
     'SOURCE': 'Sources'
@@ -39,6 +40,7 @@ const getCustomDescription = (tag: string): string => {
     'INGREDIENT': 'Learn about unique ingredients sourced from the Northeast region and their culinary applications.',
     'TECHNIQUE': 'Master traditional and modern food preservation and fermentation techniques.',
     'BLOG': 'Read our latest thoughts on food culture, sustainability, and regional cuisine development.',
+    'EVENT': 'Find Northeast Larder workshops, gatherings, and public events.',
     'RECIPE': 'Try our tested recipes featuring Northeast ingredients and fermentation techniques.',
     'IDEA': 'Explore experimental concepts and early-stage food research ideas.',
     'SOURCE': 'Find trusted sources for Northeast ingredients, equipment, and further learning.',

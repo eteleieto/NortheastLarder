@@ -2,9 +2,9 @@
 title: Pumpkin Seed Yoghurt
 tags:
   - EXPERIMENT
-pairing: 
+pairing:
 date: 2026-06-23
-project: "[[Plant-Dairy]]"
+project: "[[Plant-Based Dairy]]"
 description: This experiment tests whether pumpkin seed milk can ferment into a thick, plant-based yoghurt.
 ---
 ## Background

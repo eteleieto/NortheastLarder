@@ -10,12 +10,12 @@ description: This experiment compares standard and nixtamalized lacto-fermented 
 ---
 ## Background
 
-Testing the effects of [[Lacto-Fermentation]] on whole grains, comparing a standard lacto-fermented grain prep against a nixtamalized version. The goal is to observe differences in fermentation speed, safety (via pH adjustment), and final flavor profile. Grains like barley have previously developed complex, cheesy flavors, and this trial explores how rye behaves under similar conditions.
+Testing the effects of [[Lacto-Fermentation]] on whole grains, comparing a standard lacto-fermented grain prep against a nixtamalized version. The goal is to observe differences in final flavor profile. Grains like barley have previously developed complex, cheesy flavors, and this trial explores how rye behaves under similar conditions.
 
 ## Process
 
 ### Ingredients
-* Pearled [[Rye]] (sourced from [[Brooklyn Greenery and Mill]])
+* Pearled [[Wheat|wheat]]
 * Water (equal parts by weight to the grain)
 * Salt (4% of total weight)
 * [[Apple Cider Vinegar]] (for the nixtamalized trial: 6% of the grain weight)
@@ -24,7 +24,7 @@ Testing the effects of [[Lacto-Fermentation]] on whole grains, comparing a stand
 Two parallel trials were set up:
 
 1. **Standard Trial:** Equal parts pearled rye and water with 4% salt, covered.
-2. **Nixtamalized Trial:** Equal parts nixtamalized pearled rye and water with 4% salt. Apple cider vinegar (6% of the grain weight) was mixed in to lower the initial pH, helping the *[[Lactobacillus]]* outcompete other bacterial strains in the early stages of fermentation.
+2. **Nixtamalized Trial:** Equal parts nixtamalized pearled rye and water with 4% salt. Apple cider vinegar (6% of the grain weight) was mixed in to lower the initial pH, helping the lactobacillus outcompete other bacterial strains in the early stages of fermentation.
 
 ---
 
@@ -32,7 +32,7 @@ Two parallel trials were set up:
 
 * **Nixtamalized Trial:** Developed a distinct sulfuriness very reminiscent of egg. 
 * **Standard Trial:** Resulted in a clean, lactic, and grainy profile. While it did not develop the expected cheesy notes, it had a pleasant funk that shows a lot of culinary potential.
-* **Liquid Yield:** The fermentation liquid from both trials is highly flavorful and could be used to great effect in dressings, mayonnasises, or blended into [[Miso]].
+* **Liquid Yield:** The fermentation liquid from both trials is highly flavorful and could be used to great effect in dressings, mayonnasises, or blended into [[Miso|miso]].
 * **Grain Solids:** The leftover fermented solids could work as a highly interesting bread inclusion to introduce acidity and funk to a dough. There is also potential in blending the solids to create smooth, savory grain creams.
 
 ---

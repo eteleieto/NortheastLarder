@@ -2,9 +2,9 @@
 title: Soy Yoghurt
 tags:
   - EXPERIMENT
-pairing: 
+pairing:
 date: 2026-06-23
-project: "[[Plant-Dairy]]"
+project: "[[Plant-Based Dairy]]"
 description: This experiment compares several soy yogurt ratios and additions to refine texture and flavor.
 ---
 ## Background

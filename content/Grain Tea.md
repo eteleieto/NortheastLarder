@@ -3,9 +3,9 @@ title: Grain Tea
 tags:
   - EXPERIMENT
   - TEA
-pairing: 
+pairing:
 date: 2026-06-30
-project: "[[Teas & Tisanes]]"
+project: "[[Northeastern Teas & Tisanes]]"
 description: This experiment compares roasted grains, brew methods, and roast profiles for a grain-based tea.
 ---
 ## Background
@@ -79,6 +79,25 @@ The more darkly roasted rye samples developed a distinct coffee-like aroma. High
 #### Extraction: Cold Brew vs. Hot Brew
 *   **Cold Brew:** Generally preferred for clean flavor extraction, though it yields almost no aroma on the nose.
 *   **Hot Brew:** Tastes much more like buttered grain crackers and Werther's Original caramel. It is sweeter and more neutral on the palate, but lacks the complexity of the cold brew. 
+
+---
+
+## Trial 3: Six-Grain Roasting & Cold Brew Matrix
+
+A new trial was conducted to evaluate six specific grains under standardized roasting and cold-steeping conditions.
+
+### Ingredients
+*   [[Sorghum]]
+*   [[Rye]]
+*   Black rice
+*   Sweet white rice
+*   Brown rice
+*   Pearled farro
+
+### Process
+*   **Roasting (Hulled Grains):** Sorghum, rye, black rice, sweet white rice, and brown rice were dry-roasted at 350°F for 20 minutes in a high-power convection oven. (Note: Roasting times may vary depending on the oven; convection runs faster).
+*   **Roasting (Pearled Grains):** Pearled farro roasts much faster due to the lack of hulls. It was dry-roasted at 350°F for 10 minutes.
+*   **Brewing:** All roasted grains were cold-steeped overnight.
 
 ---
 

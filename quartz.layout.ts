@@ -19,6 +19,7 @@ const graphPreview = Component.Graph({ preview: true })
 const browseCategories = [
   { name: "Recipes", slug: "tags/RECIPE" as SimpleSlug },
   { name: "Blogs", slug: "tags/BLOG" as SimpleSlug },
+  { name: "Events", slug: "tags/EVENT" as SimpleSlug },
   { name: "Experiments", slug: "tags/EXPERIMENT" as SimpleSlug },
   { name: "Projects", slug: "tags/PROJECT" as SimpleSlug },
 ]
@@ -64,7 +65,7 @@ const recentNotes = Component.RecentNotes({
   limit: 3,
   filter: (page) => {
     const tags = page.frontmatter?.tags
-    const allowedTags = ["PROJECT", "EXPERIMENT", "RECIPE", "IDEA"]
+    const allowedTags = ["PROJECT", "EXPERIMENT", "RECIPE", "EVENT", "IDEA"]
     if (!tags) return false
     if (typeof tags === "string") return allowedTags.includes(tags)
     if (Array.isArray(tags)) return tags.some((tag) => allowedTags.includes(tag))

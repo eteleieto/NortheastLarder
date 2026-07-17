@@ -1,5 +1,5 @@
 ---
-title: Plant-Dairy
+title: Plant-Based Dairy
 tags:
   - PROJECT
 date: 2025-05-30
@@ -27,3 +27,6 @@ description: A project exploring regional plant-based milks, yoghurts, ice cream
 notes
 - shio koji
 - koji aged cheeses
+
+
+[[(ONG) Plant Milks]]
