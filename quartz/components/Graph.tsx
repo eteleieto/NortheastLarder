@@ -110,31 +110,6 @@ export default ((opts?: Partial<GraphOptions>) => {
               <div class="global-graph-panel">
                 <div class="panel-header global-graph-header">
                   <span class="panel-header-title">{i18n(cfg.locale).components.graph.title}</span>
-                  <div class="global-graph-search">
-                    <svg
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="15"
-                      height="15"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="1.75"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <circle cx="11" cy="11" r="8"></circle>
-                      <path d="m21 21-4.3-4.3"></path>
-                    </svg>
-                    <input
-                      type="search"
-                      class="global-graph-search-input"
-                      aria-label="Search graph"
-                      placeholder="Search graph"
-                      autocomplete="off"
-                    />
-                    <span class="global-graph-search-count" aria-live="polite"></span>
-                  </div>
                   <button type="button" class="global-graph-close" aria-label="Close">
                     <svg
                       aria-hidden="true"

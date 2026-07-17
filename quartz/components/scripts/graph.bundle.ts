@@ -74,8 +74,6 @@ type NodeRenderData = {
 const NODE_ANIM_MS = 200
 const LABEL_ANIM_MS = 100
 const HOVER_DIM_ALPHA = 0.2
-const SEARCH_DIM_ALPHA = 0.08
-const SEARCH_LINK_ALPHA = 0.06
 const HOVER_LABEL_SCALE = 1.1
 const DRAG_ALPHA_TARGET = 0.2
 const CLICK_DISTANCE_PX = 6
@@ -278,7 +276,6 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   let hoveredNodeId: string | null = null
   let hoveredNeighbours: Set<string> = new Set()
-  let searchMatches: Set<SimpleSlug> | null = null
   let currentScaleOpacity = 0
   let dragging = false
   let dragStartPointer: { x: number; y: number } | null = null
@@ -386,17 +383,8 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     for (const n of nodeRenderData) {
       const nodeId = n.simulationData.id
 
-      const matchesSearch = searchMatches?.has(nodeId) ?? false
       n.targetGfxAlpha =
-        hoveredNodeId !== null && focusOnHover
-          ? n.active
-            ? 1
-            : HOVER_DIM_ALPHA
-          : searchMatches
-            ? matchesSearch
-              ? 1
-              : SEARCH_DIM_ALPHA
-            : 1
+        hoveredNodeId !== null && focusOnHover ? (n.active ? 1 : HOVER_DIM_ALPHA) : 1
 
       if (hoveredNodeId === nodeId) {
         n.targetLabelAlpha = 1
@@ -407,9 +395,6 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       } else if (hoveredNodeId !== null) {
         n.targetLabelAlpha = 0
         n.targetLabelScale = defaultScale
-      } else if (searchMatches) {
-        n.targetLabelAlpha = matchesSearch ? 1 : 0
-        n.targetLabelScale = matchesSearch ? activeScale : defaultScale
       } else {
         n.targetLabelAlpha = currentScaleOpacity
         n.targetLabelScale = defaultScale
@@ -417,18 +402,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     }
 
     for (const l of linkRenderData) {
-      const connectsMatches =
-        searchMatches?.has(l.simulationData.source.id) &&
-        searchMatches.has(l.simulationData.target.id)
-      l.targetAlpha = hoveredNodeId
-        ? l.active
-          ? 1
-          : HOVER_DIM_ALPHA
-        : searchMatches
-          ? connectsMatches
-            ? HOVER_DIM_ALPHA
-            : SEARCH_LINK_ALPHA
-          : 1
+      l.targetAlpha = hoveredNodeId ? (l.active ? 1 : HOVER_DIM_ALPHA) : 1
       l.color = l.active ? computedStyleMap["--gray"] : computedStyleMap["--lightgray"]
     }
 
@@ -549,51 +523,6 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       color: computedStyleMap["--lightgray"],
     })
   }
-
-  const searchInput = graph
-    .closest(".global-graph-panel")
-    ?.querySelector<HTMLInputElement>(".global-graph-search-input")
-  const searchCount = graph
-    .closest(".global-graph-panel")
-    ?.querySelector<HTMLElement>(".global-graph-search-count")
-
-  const updateSearch = () => {
-    const terms = (searchInput?.value ?? "").trim().toLocaleLowerCase().split(/\s+/).filter(Boolean)
-
-    if (terms.length === 0) {
-      searchMatches = null
-      if (searchCount) searchCount.textContent = ""
-      setVisualTargets()
-      return
-    }
-
-    searchMatches = new Set(
-      graphData.nodes
-        .filter((node) => {
-          const details = data.get(node.id)
-          const searchable = [
-            node.text,
-            details?.description,
-            details?.content,
-            ...(details?.tags ?? []),
-          ]
-            .filter(Boolean)
-            .join(" ")
-            .toLocaleLowerCase()
-          return terms.every((term) => searchable.includes(term))
-        })
-        .map((node) => node.id),
-    )
-
-    if (searchCount) {
-      const count = searchMatches.size
-      searchCount.textContent = `${count} ${count === 1 ? "match" : "matches"}`
-    }
-    setVisualTargets()
-  }
-
-  searchInput?.addEventListener("input", updateSearch)
-  updateSearch()
 
   let currentTransform = zoomIdentity
   let zoomBehavior: ReturnType<typeof zoom<HTMLCanvasElement, NodeData>> | null = null
@@ -789,7 +718,6 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       animFrameId = null
     }
     simulation.stop()
-    searchInput?.removeEventListener("input", updateSearch)
     app.destroy()
   }
 }
