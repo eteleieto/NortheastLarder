@@ -10,7 +10,7 @@ description: This experiment combines cranberry beans, soybeans, and roasted sun
 ---
 ## Background
 
-This experiment involves the creation of a composite miso paste using a blend of legumes and tubers. We are utilizing [[Cranberry Bean|cranberry beans]], [[Soybean|soybeans]], and roasted [[Jerusalem Artichoke|Jerusalem artichokes]] (sunchokes) as the substrate. The aim is to observe how the earthiness of the sunchokes interacts with the legumes during fermentation.
+This experiment involves the creation of a composite miso paste using a blend of legumes and tubers. We are utilizing [[Cranberry Bean|cranberry beans]], [[Soybean 1|soybeans]], and roasted [[Jerusalem Artichoke 1|Jerusalem artichokes]] (sunchokes) as the substrate. The aim is to observe how the earthiness of the sunchokes interacts with the legumes during fermentation.
 
 ---
 ## Recipe

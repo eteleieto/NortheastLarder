@@ -10,7 +10,7 @@ description: This experiment refines a process for growing koji on oats by balan
 ---
 ## Background
 
-Making [[Oat|oat]] [[Koji|koji]] can be challenging because the koji hyphae must penetrate the tough outer hulls of the grain. After several unsuccessful trials using only steaming, a refined method was developed. This approach relies on three key factors: a brief soaking window to prevent over-hydration, manual cracking of the grains prior to steaming to expose the starches, and the addition of [[Buckwheat Flour|buckwheat flour]] (or [[Oat Flour|oat flour]]) post-steaming to balance moisture.
+Making [[Oat 1|oat]] [[Koji|koji]] can be challenging because the koji hyphae must penetrate the tough outer hulls of the grain. After several unsuccessful trials using only steaming, a refined method was developed. This approach relies on three key factors: a brief soaking window to prevent over-hydration, manual cracking of the grains prior to steaming to expose the starches, and the addition of [[Buckwheat Flour|buckwheat flour]] (or [[Oat Flour|oat flour]]) post-steaming to balance moisture.
 
 ---
 ## Recipe

@@ -8,4 +8,4 @@ pairing:
 ---
 Blended celtuce leaves with a small amount of white vinegar to help slow oxidation and 5% water. After straining, the resulting juice still oxidized relatively quickly.
 
-The result is grassy with notes of [[Apple|apple]].
+The result is grassy with notes of [[Apple 1|apple]].

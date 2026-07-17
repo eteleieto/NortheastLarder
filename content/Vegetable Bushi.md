@@ -36,7 +36,7 @@ To adapt this process for a simplified trial, I am going to run the following ex
 
 * [[Cucumber]]
 * [[Zucchini]]
-* [[Carrot]]
+* [[Carrot 1]]
 
 ## Future Adjustments
 If these initial trials prove successful, we can expand the experiment to include [[Mushroom|mushrooms]] or various grain varieties.

@@ -10,7 +10,7 @@ description: This first scratch-made soybean tempeh establishes a baseline for l
 ---
 ## Background
 
-This is a first attempt at making [[Meat Alternatives|tempeh]] from scratch. The goal is to compare the flavor and texture of a homemade version with commercial products and to establish a baseline process for future experiments with other substrates. This is a traditional version using [[Soybean|soybeans]].
+This is a first attempt at making [[Meat Alternatives|tempeh]] from scratch. The goal is to compare the flavor and texture of a homemade version with commercial products and to establish a baseline process for future experiments with other substrates. This is a traditional version using [[Soybean 1|soybeans]].
 
 ![[Soybean Tempeh.webp|200x150]]
 

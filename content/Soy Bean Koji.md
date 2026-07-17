@@ -10,7 +10,7 @@ description: This experiment grows koji on soybeans to assess mycelium growth an
 ---
 ## Background
 
-This experiment involved the [[Inoculation|inoculation]] of [[Soybean|soybeans]] with [[Aspergillus Oryzae|Aspergillus oryzae]] (koji) over a 48-hour period to observe mycelium growth. 
+This experiment involved the [[Inoculation|inoculation]] of [[Soybean 1|soybeans]] with [[Aspergillus Oryzae|Aspergillus oryzae]] (koji) over a 48-hour period to observe mycelium growth. 
 
 ---
 ## Recipe

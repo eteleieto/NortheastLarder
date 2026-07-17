@@ -10,7 +10,7 @@ description: This experiment uses blended cooked barley and soybeans in a salty 
 ---
 ## Background
 
-This experiment involves using 400 g of blended, cooked [[Barley|barley]] and [[Soybean|soybeans]]. The mixture is combined with water and salt to undergo [[Lacto-Fermentation|lacto-fermentation]].
+This experiment involves using 400 g of blended, cooked [[Barley 1|barley]] and [[Soybean 1|soybeans]]. The mixture is combined with water and salt to undergo [[Lacto-Fermentation|lacto-fermentation]].
 
 ---
 ## Recipe

@@ -7,7 +7,7 @@ date: 2026-06-23
 project:
 ---
 ## Background
-We are experimenting with different grain kojis—specifically [[Oat|oat]], [[Rice|rice]], [[Wheat|wheat]], and nixtamalized [[Sorghum|sorghum]]—to see how they produce different [[Content/Shio Koji|shio koji]] tastes and functionalities. 
+We are experimenting with different grain kojis—specifically [[Oat 1|oat]], [[Rice|rice]], [[Wheat|wheat]], and nixtamalized [[Sorghum 1|sorghum]]—to see how they produce different [[Content/Shio Koji|shio koji]] tastes and functionalities. 
 
 ## Process
 

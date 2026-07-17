@@ -29,7 +29,7 @@ For the initial screening, the following grains and preparations were tested:
 *   Black rice
 *   Bloody Butcher [[Corn|corn]]
 *   Field [[Corn|corn]]
-*   [[Sorghum]]
+*   [[Sorghum 1]]
 *   Flaked oat
 *   Light malt (diastatic and unroasted malt)
 
@@ -87,7 +87,7 @@ The more darkly roasted rye samples developed a distinct coffee-like aroma. High
 A new trial was conducted to evaluate six specific grains under standardized roasting and cold-steeping conditions.
 
 ### Ingredients
-*   [[Sorghum]]
+*   [[Sorghum 1]]
 *   [[Rye]]
 *   Black rice
 *   Sweet white rice

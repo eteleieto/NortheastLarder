@@ -9,7 +9,7 @@ description: This first iteration uses spelt and tempeh to explore a grain-based
 ---
 ## Background
 
-This first iteration uses [[Spelt|spelt]] and is a play on the [[Noma]] quinoa burger. The concept involves slightly grinding the dry grains, steaming them until just cooked through, and forming them into a burger mold. The intention is for the [[Meat Alternatives|tempeh]] to bind the mixture, creating a meaty juiciness and density. Finally, the patty is grilled with a small amount of mushroom garum.
+This first iteration uses [[Spelt 1|spelt]] and is a play on the [[Noma]] quinoa burger. The concept involves slightly grinding the dry grains, steaming them until just cooked through, and forming them into a burger mold. The intention is for the [[Meat Alternatives|tempeh]] to bind the mixture, creating a meaty juiciness and density. Finally, the patty is grilled with a small amount of mushroom garum.
 
 ---
 ## Recipe
@@ -60,4 +60,4 @@ Burger Mold
 - The resulting texture and mouthfeel were excellent, providing a bouncy consistency with some give.
 - Future tests should explore different grains and combinations.
 - A finer grind on the grain might help, though this should likely be done post-cooking to avoid excess water absorption.
-- We will experiment with different ferments, such as [[Oat|oat]]-based garums (see [[Oat Malt Garum]]), to approach a more beefy, burger-like flavor.
+- We will experiment with different ferments, such as [[Oat 1|oat]]-based garums (see [[Oat Malt Garum]]), to approach a more beefy, burger-like flavor.

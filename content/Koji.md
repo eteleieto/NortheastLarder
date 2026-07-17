@@ -27,7 +27,7 @@ While polished rice is the traditional substrate, regional grains are being eval
 * **[[Renan Wheat]]** (pearled)
 * **[[Farro]]** (pearled)
 * **[[Oats]]**
-* **[[Sorghum]]**
+* **[[Sorghum 1]]**
 ### Preparations
 
 **Grain Substrate Trial**

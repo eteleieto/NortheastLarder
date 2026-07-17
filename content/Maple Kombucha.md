@@ -9,7 +9,7 @@ project:
 ---
 ## Background
 
-Testing a new fermentation batch using [[Maple Syrup|maple syrup]] as the primary sugar source to compare its fermentation rate and flavor profile against previous trials with [[Birch Syrup|birch syrup]] and [[Sorghum Syrup|sorghum syrup]].
+Testing a new fermentation batch using [[Maple Syrup 1|maple syrup]] as the primary sugar source to compare its fermentation rate and flavor profile against previous trials with [[Birch Syrup|birch syrup]] and [[Sorghum Syrup|sorghum syrup]].
 
 ## Formula
 
@@ -24,4 +24,4 @@ Testing a new fermentation batch using [[Maple Syrup|maple syrup]] as the primar
 ## Notes and Observations
 
 - **Day 4 Tasting:** The flavor is pleasant, tasting remarkably like apple juice sweetened with a touch of maple syrup. 
-- **Fermentation Rate:** The mixture does not seem to have fermented as fully or vigorously as past experiments utilizing other sugars like [[Birch Syrup]] and [[Sorghum]].
+- **Fermentation Rate:** The mixture does not seem to have fermented as fully or vigorously as past experiments utilizing other sugars like [[Birch Syrup]] and [[Sorghum 1]].
