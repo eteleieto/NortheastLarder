@@ -3,7 +3,7 @@ import { Root } from "hast"
 import { visit } from "unist-util-visit"
 import fs from "fs"
 import path from "path"
-import { BuildCtx } from "../util/ctx"
+import { BuildCtx } from "../../util/ctx"
 import { FilePath, slugifyFilePath } from "../../util/path"
 import { stripWipMarkers } from "../../util/wip"
 
@@ -75,13 +75,14 @@ export const ImageSEO: QuartzTransformerPlugin = () => {
                 const src = node.properties?.src as string | undefined
                 if (src && !node.properties?.poster) {
                   const assetSlug = src.replace(/^\.\//, "").replace(/^\//, "")
-                  const posterSlug = assetSlug.replace(/\.(web\.)?(mp4|webm|ogv|mov|mkv)$/i, ".poster.webp")
+                  const posterSlug = assetSlug.replace(
+                    /\.(web\.)?(mp4|webm|ogv|mov|mkv)$/i,
+                    ".poster.webp",
+                  )
                   if (posterIndex.has(posterSlug as FilePath)) {
                     node.properties = {
                       ...node.properties,
-                      poster: src.startsWith("/")
-                        ? `/${posterSlug}`
-                        : `./${posterSlug}`,
+                      poster: src.startsWith("/") ? `/${posterSlug}` : `./${posterSlug}`,
                     }
                   }
                 }

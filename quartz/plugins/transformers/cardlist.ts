@@ -5,50 +5,48 @@ import { visit } from "unist-util-visit"
 // @ts-ignore
 import cardListScript from "../../components/scripts/cardlist.inline"
 
-export interface Options {
-  delimiter: string
-}
-
-const defaultOptions: Options = {
-  delimiter: "||",
-}
-
-export const CardListTransformer: QuartzTransformerPlugin<Partial<Options>> = (userOpts) => {
-  const opts = { ...defaultOptions, ...userOpts }
-
+export const CardListTransformer: QuartzTransformerPlugin = () => {
   return {
     name: "CardListTransformer",
     textTransform(_ctx, src) {
       // Process the raw markdown text before parsing
       // Support both || and ||| patterns
       const cardListRegex = /^(\|\|\||\|\|)\s*\n([\s\S]*?)\n\s*(\|\|\||\|\|)$/gm
-      
-      return src.replace(cardListRegex, (match: string, openPipes: string, content: string, closePipes: string) => {
-        // Check if both opening and closing use triple pipes (no images)
-        const noImages = openPipes === "|||" && closePipes === "|||"
-        
-        // Extract wikilinks from the content
-        const wikiLinkRegex = /\[\[([^\]]+)\]\]/g
-        const pageLinks = Array.from(content.matchAll(wikiLinkRegex))
-          .map(linkMatch => linkMatch[1].trim())
-          .map((link) => stripWipPrefix(link))
-          .filter(link => link.length > 0)
 
-        if (pageLinks.length > 0) {
-          // Return HTML that will be processed later
-          const hiddenLinks = pageLinks.map(p => `<a href="${p}"></a>`).join("\n")
-          return `<div class="grid-container" data-pages='${JSON.stringify(pageLinks)}' ${noImages ? 'data-no-images="true"' : ''}>
+      return src.replace(
+        cardListRegex,
+        (match: string, openPipes: string, content: string, closePipes: string) => {
+          // Check if both opening and closing use triple pipes (no images)
+          const noImages = openPipes === "|||" && closePipes === "|||"
+
+          // Extract wikilinks from the content
+          const wikiLinkRegex = /\[\[([^\]]+)\]\]/g
+          const pageLinks = Array.from(content.matchAll(wikiLinkRegex))
+            .map((linkMatch) => linkMatch[1].trim())
+            .map((link) => stripWipPrefix(link))
+            .filter((link) => link.length > 0)
+
+          if (pageLinks.length > 0) {
+            // Return HTML that will be processed later
+            const hiddenLinks = pageLinks.map((p) => `<a href="${p}"></a>`).join("\n")
+            const fallbackLinks = pageLinks
+              .map((p) => `<li><a href="${transformInternalLink(p)}">${p}</a></li>`)
+              .join("\n")
+            return `<div class="grid-container" data-pages='${JSON.stringify(pageLinks)}' ${noImages ? 'data-no-images="true"' : ""}>
   <div class="card-list-loading">Loading cards...</div>
 </div>
+
+<ul class="card-list-fallback">${fallbackLinks}</ul>
 
 <div class="card-list-hidden-links" style="display:none">
 ${hiddenLinks}
 </div>`
-        }
-        
-        // If no valid links found, return original content
-        return match
-      })
+          }
+
+          // If no valid links found, return original content
+          return match
+        },
+      )
     },
     externalResources() {
       return {
@@ -98,6 +96,6 @@ ${hiddenLinks}
           }
         },
       ]
-    }
+    },
   }
-} 
+}

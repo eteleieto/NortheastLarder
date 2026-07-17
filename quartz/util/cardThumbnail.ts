@@ -58,7 +58,7 @@ async function buildSourcePathIndex(ctx: BuildCtx): Promise<Map<string, string>>
   return index
 }
 
-function slugFromImageSrc(pageSlug: FullSlug, imageSrc: string): string {
+function slugFromImageSrc(_pageSlug: FullSlug, imageSrc: string): string {
   const stripContentPrefix = (src: string) => src.replace(/^[Cc]ontent\//, "")
 
   if (imageSrc.startsWith("/")) {

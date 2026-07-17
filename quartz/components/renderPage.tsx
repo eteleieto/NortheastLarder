@@ -21,8 +21,6 @@ interface RenderComponents {
   footer: QuartzComponent
 }
 
-
-
 const headerRegex = new RegExp(/h[1-6]/)
 export function pageResources(
   baseDir: FullSlug | RelativeURL,

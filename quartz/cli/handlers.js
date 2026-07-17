@@ -543,7 +543,7 @@ export async function handleSync(argv) {
   console.log("Backing up your content")
 
   let assetsWasSymlink = false
-  let assetsSymlinkTarget = ''
+  let assetsSymlinkTarget = ""
 
   if (argv.commit) {
     // Handle Assets symlink
@@ -552,7 +552,11 @@ export async function handleSync(argv) {
       if (assetsStat.isSymbolicLink()) {
         assetsWasSymlink = true
         assetsSymlinkTarget = await fs.promises.readlink(assetsFolder)
-        console.log(chalk.yellow(`Detected symlink for ${assetsFolder}, trying to dereference before committing`))
+        console.log(
+          chalk.yellow(
+            `Detected symlink for ${assetsFolder}, trying to dereference before committing`,
+          ),
+        )
 
         // Remove symlink
         await fs.promises.unlink(assetsFolder)
@@ -565,8 +569,10 @@ export async function handleSync(argv) {
       }
     } catch (e) {
       // Ignore error if Assets folder doesn't exist or is not a symlink
-      if (e.code !== 'ENOENT') {
-        console.error(chalk.red(`Error checking/handling symlink for ${assetsFolder}: ${e.message}`));
+      if (e.code !== "ENOENT") {
+        console.error(
+          chalk.red(`Error checking/handling symlink for ${assetsFolder}: ${e.message}`),
+        )
         // Depending on desired strictness, you might want to exit here
       }
     }
@@ -606,10 +612,10 @@ export async function handleSync(argv) {
         await rimraf(assetsFolder)
 
         // Recreate the symlink
-        await fs.promises.symlink(assetsSymlinkTarget, assetsFolder, 'dir')
-        console.log(chalk.yellow(`Restored symlink for ${assetsFolder}`))        
+        await fs.promises.symlink(assetsSymlinkTarget, assetsFolder, "dir")
+        console.log(chalk.yellow(`Restored symlink for ${assetsFolder}`))
       } catch (e) {
-        console.error(chalk.red(`Error restoring symlink for ${assetsFolder}: ${e.message}`));
+        console.error(chalk.red(`Error restoring symlink for ${assetsFolder}: ${e.message}`))
         // Depending on desired strictness, you might want to exit here
       }
     }

@@ -47,9 +47,7 @@ export default ((userOpts?: Partial<Options>) => {
               <li class="recent-li">
                 <div class="section">
                   <div class="desc">
-                    <a href={resolveRelative(fileData.slug!, page.slug!)}>
-                      {title}
-                    </a>
+                    <a href={resolveRelative(fileData.slug!, page.slug!)}>{title}</a>
                   </div>
                   {page.dates && (
                     <p class="meta">

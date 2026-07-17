@@ -13,38 +13,38 @@ export default (() => {
     ctx,
   }: QuartzComponentProps) => {
     const titleSuffix = cfg.pageTitleSuffix ?? ""
-    
+
     // Create SEO-optimized titles
     const baseTitle = fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
     const tags = fileData.frontmatter?.tags || []
-    
+
     let title: string
     if (fileData.slug === "index") {
       title = "Northeast Larder - Open Source Food Research Notebook"
     } else {
       // Create descriptive titles based on content type and tags
       let titleContext = ""
-      
-      if (tags.includes('RECIPE')) {
+
+      if (tags.includes("RECIPE")) {
         titleContext = "Recipe"
-      } else if (tags.includes('PROJECT')) {
+      } else if (tags.includes("PROJECT")) {
         titleContext = "Project"
-      } else if (tags.includes('EXPERIMENT')) {
+      } else if (tags.includes("EXPERIMENT")) {
         titleContext = "Experiment"
-      } else if (tags.includes('TECHNIQUE')) {
+      } else if (tags.includes("TECHNIQUE")) {
         titleContext = "Technique"
-      } else if (tags.includes('BLOG')) {
+      } else if (tags.includes("BLOG")) {
         titleContext = "Blog"
-      } else if (tags.includes('EVENT')) {
+      } else if (tags.includes("EVENT")) {
         titleContext = "Event"
       }
-      
+
       if (titleContext) {
         title = `${baseTitle} ${titleContext}${titleSuffix}`
       } else {
         title = `${baseTitle}${titleSuffix}`
       }
-      
+
       // Ensure title is within optimal SEO length (50-60 chars) while being descriptive
       if (title.length > 60) {
         title = baseTitle + titleSuffix
@@ -106,7 +106,7 @@ export default (() => {
             <meta name="twitter:image" content={ogImageDefaultPath} />
             <meta
               property="og:image:type"
-              content={`image/${getFileExtension(ogImageDefaultPath) ?? "png"}`}
+              content={`image/${(getFileExtension(ogImageDefaultPath) ?? ".png").slice(1)}`}
             />
           </>
         )}
@@ -128,37 +128,37 @@ export default (() => {
         {/* Structured Data for Recipes */}
         {(() => {
           const tags = fileData.frontmatter?.tags || []
-          const isRecipe = tags.includes('RECIPE')
-          
+          const isRecipe = tags.includes("RECIPE")
+
           if (!isRecipe) return null
 
-          const frontmatter = fileData.frontmatter || {} as any
+          const frontmatter = fileData.frontmatter || ({} as any)
           const recipeData = {
             "@context": "https://schema.org/",
             "@type": "Recipe",
-            "name": title,
-            "description": description,
-            "author": {
+            name: title,
+            description: description,
+            author: {
               "@type": "Organization",
-              "name": "Northeast Larder",
-              "url": "https://northeastlarder.com"
+              name: "Northeast Larder",
+              url: "https://northeastlarder.com",
             },
-            "publisher": {
+            publisher: {
               "@type": "Organization",
-              "name": "Northeast Larder",
-              "url": "https://northeastlarder.com"
+              name: "Northeast Larder",
+              url: "https://northeastlarder.com",
             },
-            "datePublished": frontmatter.date || new Date().toISOString().split('T')[0],
-            "recipeCategory": frontmatter.category || "Fermentation",
-            "keywords": frontmatter.keywords || tags.join(', '),
-            ...(frontmatter.prep_time && { "prepTime": `PT${frontmatter.prep_time}` }),
-            ...(frontmatter.cook_time && { "cookTime": `PT${frontmatter.cook_time}` }),
-            ...(frontmatter.servings && { "recipeYield": frontmatter.servings }),
-            ...(frontmatter.difficulty && { "difficulty": frontmatter.difficulty })
+            datePublished: frontmatter.date || new Date().toISOString().split("T")[0],
+            recipeCategory: frontmatter.category || "Fermentation",
+            keywords: frontmatter.keywords || tags.join(", "),
+            ...(frontmatter.prep_time && { prepTime: `PT${frontmatter.prep_time}` }),
+            ...(frontmatter.cook_time && { cookTime: `PT${frontmatter.cook_time}` }),
+            ...(frontmatter.servings && { recipeYield: frontmatter.servings }),
+            ...(frontmatter.difficulty && { difficulty: frontmatter.difficulty }),
           }
 
           return (
-            <script 
+            <script
               type="application/ld+json"
               dangerouslySetInnerHTML={{ __html: JSON.stringify(recipeData, null, 2) }}
             />

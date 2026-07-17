@@ -2,17 +2,17 @@
 
 ## Northeastern Cuisine
 
-We believe that great food cultures are born out of constraints: limitations, especially regional ones, that force creativity. 
+We believe that great food cultures are born out of constraints: limitations, especially regional ones, that force creativity.
 
 Garum, the fermented fish sauce of the Roman Empire, transformed fish guts into a shelf-stable source of umami. In the Alps, milk couldn't travel down into the valleys from mountainous pastures before it spoiled, so it was fermented into hard, long-aged cheeses like Comté and Gruyère. The vegetarian constraints of Japanese Buddhist cuisine shaped the flavorful larder items - shoyu, miso, and more - of modern Japanese cuisine.
 
 The Northeast USA developed largely post-abundance. It wasn't long after the colonization of New England, for example, that sugar-cane based sweeteners came to supplant tree syrups, fruit, and honey. Only a little bit over a century after the founding of the USA, refrigeration became popularized, so preserving food became less important. Trade and importing became easier and cheaper, and ingredients became less localized. Soon after came refined sugar. Strict regional and technological limitations have played a significantly smaller role in the development of the cuisine of the Northeast. As a result, ask someone what the cuisine of the Northeast US is, and they will hardly have an answer.
 
-This is a unique opportunity. Cuisine determines consumption, and consumption shapes the economy - and our environment and culture - for better or worse. The purpose of this project is to build techniques and larder items around the vegetables, grains, fruits, and funghi of the Northeast, that is, to work towards building its cuisine that is good for our econonomy, environment, and culture. 
+This is a unique opportunity. Cuisine determines consumption, and consumption shapes the economy—and our environment and culture—for better or worse. The purpose of this project is to build techniques and larder items around the vegetables, grains, fruits, and fungi of the Northeast, and to help build a cuisine that is good for its economy, environment, and culture.
 
-So, how cuisine can be built intentionally to benefit farmers, the economy, the environment. How can we create demand for agriculturally important cover crops like rye? How can we make people crave efficient and nutritious crops like help? How can we turn wastestreams like oil presscakes, brewer's spent grain, and stale bread into economically viable food products? Above all, taste determines acceptance; no amount of marketing can make bad food taste good.
+So how can cuisine be built intentionally to benefit farmers, the economy, and the environment? How can we create demand for agriculturally important cover crops like rye? How can we make people crave efficient and nutritious crops like hemp? How can we turn waste streams like oil presscakes, brewer's spent grain, and stale bread into economically viable food products? Above all, taste determines acceptance; no amount of marketing can make bad food taste good.
 
-Toward that end, we develop ways to make food that we should eat food that we'd like to eat. We collaborate with restaurants to create novel products and research taste. We seek to make new, delicious food a part of a new, delicious, and ever-developing cuisine of the Northeast US.
+Toward that end, we develop ways to make the food we should eat into food we want to eat. We collaborate with restaurants to create novel products and research taste. We seek to make new, delicious food part of an ever-developing cuisine of the Northeast US.
 
 ## Independent Research
 

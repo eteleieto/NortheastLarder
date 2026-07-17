@@ -18,13 +18,15 @@ function renderCardLists() {
     const pagesData = container.getAttribute("data-pages")
     const noImages = container.getAttribute("data-no-images") === "true"
     const hideDate = isIndexPage
+    const fallback = container.nextElementSibling?.classList.contains("card-list-fallback")
+      ? container.nextElementSibling
+      : null
     if (!pagesData) return
 
     try {
       const pageLinks = JSON.parse(pagesData)
 
       if (typeof (window as any).getFetchData !== "function") return
-
       ;(window as any)
         .getFetchData()
         .then((contentIndex: any) => {
@@ -44,20 +46,18 @@ function renderCardLists() {
               }
 
               if (!data) {
-                const entry = Object.entries(contentIndex).find(
-                  ([, pageData]: [string, any]) => {
-                    const title = pageData.title?.toLowerCase() || ""
-                    const targetName = pageName.toLowerCase()
-                    const filePath = pageData.filePath?.toLowerCase() || ""
-                    const fileNameWithoutExt = filePath.replace(/\.md$/, "")
-                    return (
-                      title === targetName ||
-                      title.includes(targetName) ||
-                      fileNameWithoutExt === targetName.replace(/\s+/g, " ") ||
-                      fileNameWithoutExt === targetName.replace(/\s+/g, "-")
-                    )
-                  },
-                )
+                const entry = Object.entries(contentIndex).find(([, pageData]: [string, any]) => {
+                  const title = pageData.title?.toLowerCase() || ""
+                  const targetName = pageName.toLowerCase()
+                  const filePath = pageData.filePath?.toLowerCase() || ""
+                  const fileNameWithoutExt = filePath.replace(/\.md$/, "")
+                  return (
+                    title === targetName ||
+                    title.includes(targetName) ||
+                    fileNameWithoutExt === targetName.replace(/\s+/g, " ") ||
+                    fileNameWithoutExt === targetName.replace(/\s+/g, "-")
+                  )
+                })
                 if (entry) {
                   matchedSlug = entry[0]
                   data = entry[1]
@@ -85,16 +85,16 @@ function renderCardLists() {
               const title = data.title || slug
               const description = data.description || ""
               const date = data.date ? formatDate(data.date) : ""
-              const firstImage = noImages ? null : data.cardImage ?? null
+              const firstImage = noImages ? null : (data.cardImage ?? null)
 
-              const bgHtml =
-                firstImage ?
-                  `<div class="grid-item-bg" style="background-image: url('${firstImage}')" aria-hidden="true"></div>`
+              const bgHtml = firstImage
+                ? `<div class="grid-item-bg" style="background-image: url('${firstImage}')" aria-hidden="true"></div>`
                 : ""
 
               const dateHtml = hideDate || !date ? "" : `<div class="grid-item-meta">${date}</div>`
-              const descriptionHtml =
-                description ? `<p class="grid-item-description">${description}</p>` : ""
+              const descriptionHtml = description
+                ? `<p class="grid-item-description">${description}</p>`
+                : ""
 
               return `
             <a href="${slug}" class="internal grid-item-link" data-no-popover="true">
@@ -113,6 +113,7 @@ function renderCardLists() {
 
           container.innerHTML = cardsHtml
           container.classList.add("cards-loaded")
+          fallback?.setAttribute("hidden", "")
         })
         .catch((error: any) => {
           console.warn("Failed to load card list data:", error)

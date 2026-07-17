@@ -20,33 +20,38 @@ interface TagPageOptions extends FullPageLayout {
 // Custom titles and descriptions for specific tags
 const getCustomTitle = (tag: string): string => {
   const customTitles: Record<string, string> = {
-    'PROJECT': 'Projects',
-    'EXPERIMENT': 'Experiments',
-    'INGREDIENT': 'Ingredients',
-    'TECHNIQUE': 'Techniques',
-    'BLOG': 'Blogs',
-    'EVENT': 'Events',
-    'RECIPE': 'Recipes',
-    'IDEA': 'Ideas',
-    'SOURCE': 'Sources'
+    PROJECT: "Projects",
+    EXPERIMENT: "Experiments",
+    INGREDIENT: "Ingredients",
+    TECHNIQUE: "Techniques",
+    BLOG: "Blogs",
+    EVENT: "Events",
+    RECIPE: "Recipes",
+    IDEA: "Ideas",
+    SOURCE: "Sources",
   }
   return customTitles[tag] || tag
 }
 
 const getCustomDescription = (tag: string): string => {
   const descriptions: Record<string, string> = {
-    'PROJECT': 'Explore our ongoing food research projects focusing on Northeast ingredients, fermentation, and sustainable practices.',
-    'EXPERIMENT': 'Explore fermentation and preservation experiments from the Northeast Larder lab.',
-    'INGREDIENT': 'Learn about unique ingredients sourced from the Northeast region and their culinary applications.',
-    'TECHNIQUE': 'Master traditional and modern food preservation and fermentation techniques.',
-    'BLOG': 'Read our latest thoughts on food culture, sustainability, and regional cuisine development.',
-    'EVENT': 'Find Northeast Larder workshops, gatherings, and public events.',
-    'RECIPE': 'Try our tested recipes featuring Northeast ingredients and fermentation techniques.',
-    'IDEA': 'Explore experimental concepts and early-stage food research ideas.',
-    'SOURCE': 'Find trusted sources for Northeast ingredients, equipment, and further learning.',
-    'FERMENTATION': 'Dive deep into fermentation science and traditional preservation methods.',
+    PROJECT:
+      "Explore our ongoing food research projects focusing on Northeast ingredients, fermentation, and sustainable practices.",
+    EXPERIMENT: "Explore fermentation and preservation experiments from the Northeast Larder lab.",
+    INGREDIENT:
+      "Learn about unique ingredients sourced from the Northeast region and their culinary applications.",
+    TECHNIQUE: "Master traditional and modern food preservation and fermentation techniques.",
+    BLOG: "Read our latest thoughts on food culture, sustainability, and regional cuisine development.",
+    EVENT: "Find Northeast Larder workshops, gatherings, and public events.",
+    RECIPE: "Try our tested recipes featuring Northeast ingredients and fermentation techniques.",
+    IDEA: "Explore experimental concepts and early-stage food research ideas.",
+    SOURCE: "Find trusted sources for Northeast ingredients, equipment, and further learning.",
+    FERMENTATION: "Dive deep into fermentation science and traditional preservation methods.",
   }
-  return descriptions[tag] || `Explore content related to ${tag.toLowerCase()} in Northeast regional cuisine.`
+  return (
+    descriptions[tag] ||
+    `Explore content related to ${tag.toLowerCase()} in Northeast regional cuisine.`
+  )
 }
 
 function computeTagInfo(
@@ -64,18 +69,15 @@ function computeTagInfo(
   const tagDescriptions: Record<string, ProcessedContent> = Object.fromEntries(
     [...tags].map((tag) => {
       // Using the top-level getCustomTitle function
-      const title =
-        tag === "index"
-          ? i18n(locale).pages.tagContent.tagIndex
-          : getCustomTitle(tag)
+      const title = tag === "index" ? i18n(locale).pages.tagContent.tagIndex : getCustomTitle(tag)
       return [
         tag,
         defaultProcessedContent({
           slug: joinSegments("tags", tag) as FullSlug,
-          frontmatter: { 
-            title, 
+          frontmatter: {
+            title,
             tags: [],
-            description: getCustomDescription(tag)
+            description: getCustomDescription(tag),
           },
         }),
       ]

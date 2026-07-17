@@ -1,14 +1,14 @@
-import { FullSlug, resolveRelative } from "../util/path"
+import { resolveRelative } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 import { Date, getDate } from "./Date"
-import { QuartzComponent, QuartzComponentProps } from "./types"
+import { QuartzComponentProps } from "./types"
 import { getCardImage } from "../util/cardImage"
 
 type Props = {
   pages: string[] // Array of page slugs/titles to render
 } & QuartzComponentProps
 
-export const CardList: QuartzComponent = ({ cfg, fileData, allFiles, pages }: Props) => {
+export const CardList = ({ cfg, fileData, allFiles, pages }: Props) => {
   const filteredPages = allFiles.filter((page) => {
     const title = page.frontmatter?.title?.toLowerCase()
     const slug = page.slug?.toLowerCase()
@@ -16,10 +16,7 @@ export const CardList: QuartzComponent = ({ cfg, fileData, allFiles, pages }: Pr
     return pages.some((targetPage) => {
       const target = targetPage.toLowerCase()
       return (
-        title === target ||
-        slug === target ||
-        title?.includes(target) ||
-        slug?.includes(target)
+        title === target || slug === target || title?.includes(target) || slug?.includes(target)
       )
     })
   })
@@ -43,7 +40,7 @@ export const CardList: QuartzComponent = ({ cfg, fileData, allFiles, pages }: Pr
       {sortedPages.map((page) => {
         const title = page.frontmatter?.title
         const description = page.frontmatter?.description || page.description || ""
-        const firstImage = getCardImage({ ...(page as QuartzPluginData), slug: page.slug })
+        const firstImage = getCardImage(page as QuartzPluginData)
 
         return (
           <a

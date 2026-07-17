@@ -28,8 +28,7 @@ function setupProjectGalleries() {
       }
 
       const remaining = cards.length - visible
-      button.textContent =
-        remaining <= step ? `Load ${remaining} more` : "Load more"
+      button.textContent = remaining <= step ? `Load ${remaining} more` : "Load more"
     }
 
     const onClick = () => {

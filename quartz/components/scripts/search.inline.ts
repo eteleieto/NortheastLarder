@@ -1,9 +1,9 @@
-import FlexSearch from "flexsearch"
+import FlexSearch, { type DefaultDocumentSearchResults, type DocumentData } from "flexsearch"
 import { ContentDetails } from "../../plugins/emitters/contentIndex"
 import { registerEscapeHandler, removeAllChildren } from "./util"
 import { FullSlug, normalizeRelativeURLs, resolveRelative } from "../../util/path"
 
-interface Item {
+interface Item extends DocumentData {
   id: number
   slug: FullSlug
   title: string
@@ -37,7 +37,7 @@ let index = new FlexSearch.Document<Item>({
       },
     ],
   },
-})
+} as any)
 
 const p = new DOMParser()
 const fetchContentCache: Map<FullSlug, Element[]> = new Map()
@@ -461,7 +461,7 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug) {
     searchLayout.classList.toggle("display-results", currentSearchTerm !== "")
     searchType = currentSearchTerm.startsWith("#") ? "tags" : "basic"
 
-    let searchResults: FlexSearch.SimpleDocumentSearchResultSetUnit[]
+    let searchResults: DefaultDocumentSearchResults<Item>
     if (searchType === "tags") {
       currentSearchTerm = currentSearchTerm.substring(1).trim()
       const separatorIndex = currentSearchTerm.indexOf(" ")
@@ -469,7 +469,7 @@ async function setupSearch(searchElement: Element, currentSlug: FullSlug) {
         // search by title and content index and then filter by tag (implemented in flexsearch)
         const tag = currentSearchTerm.substring(0, separatorIndex)
         const query = currentSearchTerm.substring(separatorIndex + 1).trim()
-        searchResults = await index.searchAsync({
+        searchResults = await (index.searchAsync as any)({
           query: query,
           // return at least 10000 documents, so it is enough to filter them by tag (implemented in flexsearch)
           limit: Math.max(numSearchResults, 10000),

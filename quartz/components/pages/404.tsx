@@ -11,7 +11,9 @@ const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
       <h1>This page has not been made yet.</h1>
       <p>It will still appear in the graph view.</p>
       <p>
-        <a href={baseDir} class="internal">{i18n(cfg.locale).pages.error.home}</a>
+        <a href={baseDir} class="internal">
+          {i18n(cfg.locale).pages.error.home}
+        </a>
       </p>
     </article>
   )

@@ -18,7 +18,12 @@ function loadGraph() {
   return graphReady
 }
 
-function withGraph(action: (module: { openGlobalGraph: () => Promise<void>; toggleGlobalGraph: () => Promise<void> }) => void | Promise<void>) {
+function withGraph(
+  action: (module: {
+    openGlobalGraph: () => Promise<void>
+    toggleGlobalGraph: () => Promise<void>
+  }) => void | Promise<void>,
+) {
   void loadGraph().then(() => importGraphModule().then(action))
 }
 

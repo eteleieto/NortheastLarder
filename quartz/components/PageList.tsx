@@ -125,13 +125,16 @@ export const GridPageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, 
           (page as any).content ||
           ""
 
-        const cleanedDescription =
-          frontmatterDescription || cleanDescriptionText(rawContent, title)
-        
-        const firstImage = getCardImage({ ...(page as QuartzPluginData), slug: page.slug })
+        const cleanedDescription = frontmatterDescription || cleanDescriptionText(rawContent, title)
+
+        const firstImage = getCardImage(page as QuartzPluginData)
 
         return (
-          <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal grid-item-link" data-no-popover="true">
+          <a
+            href={resolveRelative(fileData.slug!, page.slug!)}
+            class="internal grid-item-link"
+            data-no-popover="true"
+          >
             <div class={firstImage ? "grid-item has-bg" : "grid-item"}>
               {firstImage && (
                 <div
@@ -144,12 +147,8 @@ export const GridPageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, 
                 <div class="grid-item-meta">
                   {page.dates && <Date date={getDate(cfg, page)!} locale={cfg.locale} />}
                 </div>
-                <h3 class="grid-item-title">
-                  {title}
-                </h3>
-                {cleanedDescription && (
-                  <p class="grid-item-description">{cleanedDescription}</p>
-                )}
+                <h3 class="grid-item-title">{title}</h3>
+                {cleanedDescription && <p class="grid-item-description">{cleanedDescription}</p>}
               </div>
             </div>
           </a>
@@ -168,4 +167,3 @@ PageList.css = `
   margin: 0;
 }
 `
-

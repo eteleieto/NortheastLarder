@@ -171,3 +171,8 @@
   border-radius: $radius-md;
   grid-column: 1 / -1;
 }
+
+.card-list-fallback {
+  margin: 1rem 0 0;
+  padding-left: 1.25rem;
+}

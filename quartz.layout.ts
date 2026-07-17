@@ -2,6 +2,7 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import { SimpleSlug } from "./quartz/util/path"
 import { isWipPage } from "./quartz/util/wip"
+import { QuartzPluginData } from "./quartz/plugins/vfile"
 
 // Static landing-style pages: no Table of Contents or Backlinks in the right rail.
 const LANDING_SLUGS = ["index", "About-Us", "For-Restaurants", "Documentation", "Bookshelf"]
@@ -11,7 +12,7 @@ const isLandingPage = (slug: string | undefined) => !!slug && LANDING_SLUGS.incl
 // ArticleTitle/ContentMeta so the title doesn't render twice.
 const suppressArticleHeader = (slug: string | undefined) => isLandingPage(slug)
 const isHomePage = (slug: string | undefined) => slug === "index"
-const showArticleSidebar = (slug: string | undefined, fileData: { relativePath?: string }) =>
+const showArticleSidebar = (slug: string | undefined, fileData: QuartzPluginData) =>
   !isLandingPage(slug) && !isWipPage(fileData)
 
 const graphPreview = Component.Graph({ preview: true })

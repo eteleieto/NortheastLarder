@@ -86,14 +86,14 @@
     .form-message {
       font-size: 0.75rem;
       margin-top: 0.25rem;
-      
+
       &.success {
         color: var(--secondary);
       }
-      
+
       &.error {
         color: var(--red);
       }
     }
   }
-} 
+}

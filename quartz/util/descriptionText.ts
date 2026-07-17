@@ -155,11 +155,7 @@ export function extractBodyText(tree: HTMLRoot): string {
 }
 
 /** Pick the first substantial prose snippet for card/list previews. */
-export function cleanDescriptionText(
-  content: string,
-  pageTitle?: string,
-  maxLength = 200,
-): string {
+export function cleanDescriptionText(content: string, pageTitle?: string, maxLength = 200): string {
   if (!content) return ""
 
   const stripped = stripLeadingHeaderPhrases(content, pageTitle)

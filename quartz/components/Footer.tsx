@@ -13,13 +13,21 @@ export default (() => {
       <footer class={`${displayClass ?? ""}`}>
         <nav class="footer-row footer-nav" aria-label="Site">
           {link("About-Us", "About Us")}
-          <span class="footer-sep" aria-hidden="true">·</span>
+          <span class="footer-sep" aria-hidden="true">
+            ·
+          </span>
           {link("For-Restaurants", "For Restaurants")}
-          <span class="footer-sep" aria-hidden="true">·</span>
+          <span class="footer-sep" aria-hidden="true">
+            ·
+          </span>
           {link("Documentation", "Documentation")}
-          <span class="footer-sep" aria-hidden="true">·</span>
+          <span class="footer-sep" aria-hidden="true">
+            ·
+          </span>
           {link("Bookshelf", "Bookshelf")}
-          <span class="footer-sep" aria-hidden="true">·</span>
+          <span class="footer-sep" aria-hidden="true">
+            ·
+          </span>
           <button type="button" class="graph-open footer-link">
             Graph
           </button>
@@ -49,9 +57,13 @@ export default (() => {
               <path d="M17.5 6.5h.01"></path>
             </svg>
           </a>
-          <span class="footer-sep" aria-hidden="true">·</span>
+          <span class="footer-sep" aria-hidden="true">
+            ·
+          </span>
           <a href="mailto:info@northeastlarder.com">info@northeastlarder.com</a>
-          <span class="footer-sep footer-sep-copy" aria-hidden="true">·</span>
+          <span class="footer-sep footer-sep-copy" aria-hidden="true">
+            ·
+          </span>
           <span class="footer-meta">
             © {new Date().getFullYear()} · Built with{" "}
             <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noopener noreferrer">

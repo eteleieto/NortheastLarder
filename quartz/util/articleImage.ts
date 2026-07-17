@@ -28,10 +28,7 @@ function targetPixelWidth(displayWidth: number): number {
 }
 
 export function displayPathForSource(sourcePath: string, pixelWidth: number): string {
-  const hash = createHash("sha256")
-    .update(`${sourcePath}:${pixelWidth}`)
-    .digest("hex")
-    .slice(0, 16)
+  const hash = createHash("sha256").update(`${sourcePath}:${pixelWidth}`).digest("hex").slice(0, 16)
   return `/static/display/${hash}.webp`
 }
 

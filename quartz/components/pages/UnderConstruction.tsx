@@ -8,7 +8,9 @@ const UnderConstruction: QuartzComponent = ({ cfg, fileData }: QuartzComponentPr
 
   return (
     <article class="popover-hint under-construction">
-      <h1>{pageTitle ? `${pageTitle} is under construction` : "This page is under construction"}</h1>
+      <h1>
+        {pageTitle ? `${pageTitle} is under construction` : "This page is under construction"}
+      </h1>
       <p>
         This note is being edited right now. We&apos;ll usually update this within a day. It exists
         in the notebook and still appears in the graph, but the write-up is not ready to read yet.
