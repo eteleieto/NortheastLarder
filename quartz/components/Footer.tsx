@@ -1,13 +1,13 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/footer.scss"
-import { resolveRelative, SimpleSlug } from "../util/path"
+import { resolveSiteLink, SimpleSlug } from "../util/path"
 // @ts-ignore
 import script from "./scripts/newsletter.inline"
 
 export default (() => {
   const Footer: QuartzComponent = ({ displayClass, fileData }: QuartzComponentProps) => {
     const link = (slug: string, label: string) => (
-      <a href={resolveRelative(fileData.slug!, slug as SimpleSlug)}>{label}</a>
+      <a href={resolveSiteLink(fileData.slug!, slug as SimpleSlug)}>{label}</a>
     )
     return (
       <footer class={`${displayClass ?? ""}`}>

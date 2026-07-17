@@ -189,6 +189,22 @@ export function resolveRelative(current: FullSlug, target: FullSlug | SimpleSlug
   return res
 }
 
+/**
+ * Resolve navigation that appears in the shared site chrome.
+ *
+ * The static 404 document can be served for an arbitrarily deep missing URL. Relative links
+ * generated from its build-time `404` slug would then resolve beneath that missing URL, so the
+ * 404 chrome must use root-absolute paths instead.
+ */
+export function resolveSiteLink(current: FullSlug, target: FullSlug | SimpleSlug): string {
+  if (current === "404") {
+    const simplified = simplifySlug(target as FullSlug)
+    return simplified === "" || simplified === "/" ? "/" : `/${simplified}`
+  }
+
+  return resolveRelative(current, target)
+}
+
 export function splitAnchor(link: string): [string, string] {
   let [fp, anchor] = link.split("#", 2)
   if (fp.endsWith(".pdf")) {

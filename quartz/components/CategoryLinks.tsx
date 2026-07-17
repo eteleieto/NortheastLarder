@@ -1,5 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { resolveRelative, SimpleSlug } from "../util/path"
+import { resolveSiteLink, SimpleSlug } from "../util/path"
 import style from "./styles/categoryLinks.scss"
 import { GlobalConfiguration } from "../cfg"
 import { classNames } from "../util/lang"
@@ -80,7 +80,7 @@ export default ((userOpts?: Partial<Options>) => {
                   {category.name}
                 </button>
               ) : (
-                <a href={resolveRelative(fileData.slug!, category.slug)} class="category-link">
+                <a href={resolveSiteLink(fileData.slug!, category.slug)} class="category-link">
                   {category.name}
                 </a>
               )}

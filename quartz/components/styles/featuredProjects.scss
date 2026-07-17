@@ -1,0 +1,111 @@
+@use "../../styles/variables.scss" as *;
+
+.featured-projects {
+  margin-top: 2.75rem;
+}
+
+.featured-projects-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  h2 {
+    margin: 0;
+  }
+}
+
+.featured-projects-controls {
+  display: flex;
+  gap: 0.45rem;
+}
+
+.featured-projects-button {
+  display: grid;
+  place-items: center;
+  width: 2.15rem;
+  height: 2.15rem;
+  padding: 0;
+  border: 1px solid var(--gray);
+  border-radius: 999px;
+  background: var(--light);
+  color: var(--dark);
+  font: inherit;
+  cursor: pointer;
+  transition:
+    border-color $transition-base,
+    color $transition-base,
+    opacity $transition-base;
+
+  &:hover:not(:disabled) {
+    border-color: var(--secondary);
+    color: var(--secondary);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--secondary);
+    outline-offset: 2px;
+  }
+
+  &:disabled {
+    cursor: default;
+    opacity: 0.35;
+  }
+}
+
+.featured-projects-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(15rem, calc((100% - 1.25rem) / 2));
+  column-gap: 1.25rem;
+  overflow-x: auto;
+  padding: 0.15rem 0 0.75rem;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: var(--gray) transparent;
+  overscroll-behavior-inline: contain;
+}
+
+.featured-project-card {
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+  scroll-snap-align: start;
+
+  .card-item {
+    min-height: 9.5rem;
+  }
+
+  &:hover .card-item {
+    border-color: var(--secondary);
+  }
+
+  &:hover .card-item-title {
+    color: var(--secondary);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--secondary);
+    outline-offset: 3px;
+    border-radius: $radius-md;
+  }
+}
+
+@media all and ($mobile) {
+  .featured-projects {
+    margin-top: 2.25rem;
+  }
+
+  .featured-projects-track {
+    grid-auto-columns: 86%;
+    column-gap: 0.85rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .featured-projects-track {
+    scroll-behavior: auto;
+  }
+}

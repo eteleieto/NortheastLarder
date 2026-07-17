@@ -30,6 +30,7 @@ import Newsletter from "./Newsletter"
 import { CardList } from "./CardList"
 import ProjectLink from "./ProjectLink"
 import ProjectGallery from "./ProjectGallery"
+import FeaturedProjects from "./FeaturedProjects"
 
 export {
   ArticleTitle,
@@ -64,4 +65,5 @@ export {
   CardList,
   ProjectLink,
   ProjectGallery,
+  FeaturedProjects,
 }

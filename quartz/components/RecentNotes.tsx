@@ -1,5 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { FullSlug, SimpleSlug, resolveRelative } from "../util/path"
+import { FullSlug, SimpleSlug, resolveSiteLink } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 import { byDateAndAlphabetical } from "./PageList"
 import style from "./styles/recentNotes.scss"
@@ -47,7 +47,7 @@ export default ((userOpts?: Partial<Options>) => {
               <li class="recent-li">
                 <div class="section">
                   <div class="desc">
-                    <a href={resolveRelative(fileData.slug!, page.slug!)}>{title}</a>
+                    <a href={resolveSiteLink(fileData.slug!, page.slug!)}>{title}</a>
                   </div>
                   {page.dates && (
                     <p class="meta">
@@ -60,7 +60,7 @@ export default ((userOpts?: Partial<Options>) => {
                         <li>
                           <a
                             class="internal tag-link"
-                            href={resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)}
+                            href={resolveSiteLink(fileData.slug!, `tags/${tag}` as FullSlug)}
                           >
                             {tag}
                           </a>
@@ -75,7 +75,7 @@ export default ((userOpts?: Partial<Options>) => {
         </ul>
         {opts.linkToMore && remaining > 0 && (
           <p>
-            <a href={resolveRelative(fileData.slug!, opts.linkToMore)}>
+            <a href={resolveSiteLink(fileData.slug!, opts.linkToMore)}>
               {i18n(cfg.locale).components.recentNotes.seeRemainingMore({ remaining })}
             </a>
           </p>

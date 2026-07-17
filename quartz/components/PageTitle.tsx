@@ -1,10 +1,14 @@
-import { pathToRoot, joinSegments } from "../util/path"
+import { FullSlug, pathToRoot, joinSegments, resolveSiteLink } from "../util/path"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
 
 const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzComponentProps) => {
-  const baseDir = pathToRoot(fileData.slug!)
-  const logoPath = joinSegments(baseDir, "static/ornament-j.png")
+  const slug = fileData.slug!
+  const baseDir = resolveSiteLink(slug, "index" as FullSlug)
+  const logoPath =
+    slug === "404"
+      ? "/static/ornament-j.png"
+      : joinSegments(pathToRoot(slug), "static/ornament-j.png")
   const isHomePage = fileData.slug === "index"
 
   return (

@@ -361,3 +361,20 @@ describe("resolveRelative", () => {
     assert.strictEqual(path.resolveRelative("abc/def" as FullSlug, "ghi/" as SimpleSlug), "../ghi/")
   })
 })
+
+describe("resolveSiteLink", () => {
+  test("uses root-absolute paths for the static 404 page", () => {
+    assert.strictEqual(path.resolveSiteLink("404" as FullSlug, "index" as FullSlug), "/")
+    assert.strictEqual(
+      path.resolveSiteLink("404" as FullSlug, "tags/PROJECT" as FullSlug),
+      "/tags/PROJECT",
+    )
+  })
+
+  test("keeps relative paths on regular pages", () => {
+    assert.strictEqual(
+      path.resolveSiteLink("tags/RECIPE" as FullSlug, "tags/PROJECT" as FullSlug),
+      "../tags/PROJECT",
+    )
+  })
+})

@@ -9,16 +9,3 @@ title: Northeast Larder
 <p class="home-intro">This is our open source notebook.</p>
 
 <p class="home-intro">Learn more <a href="./About-Us" class="internal">about us</a>, see what we can do <a href="./For-Restaurants" class="internal">for restaurants</a>, or dig into <a href="./Documentation" class="internal">the documentation</a>.</p>
-
-## Current Projects
-
-||
-
-[[(A) Coffee & Chocolate Substitutes]]
-
-[[(WIP) Sweeteners]]
-
-[[(A) Umami]]
-
-||
-
