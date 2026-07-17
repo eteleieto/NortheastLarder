@@ -18,6 +18,9 @@ Let’s take a brief look at these three byproducts, which we believe can be mad
 
 Brewers’ spent grain is the leftover malt and grain produced after beer is brewed. During brewing, sugars are extracted from malted grains for fermentation, and the wet grain that remains becomes BSG. It is often fairly neutral, malty, and grain-like in flavor, though some streams can be darker, roasted, or bitter depending on the brewing process and whether hop residues are mixed in.[^2]
 
+![[Brewers Spent Grain.webp|600|600]]
+_Wet grain hulls left after brewing. Photo: Neil916 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spent_grain.jpg), [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/); resized and converted to WebP._
+
 BSG is the largest solid by-product of brewing, representing about 85% of beer-specific waste by weight. About 20 kg of wet BSG is produced for every 100 liters of beer. It is usually 70–80% water, which makes it heavy, perishable, and difficult to transport. On a dry basis, it contains roughly 20–22% protein, along with a large amount of fiber.[^2]
 
 Most BSG is currently used as animal feed, with smaller amounts going to biogas or landfill. That is useful, but it is often still a low-value use.[^14]
@@ -26,6 +29,9 @@ Most BSG is currently used as animal feed, with smaller amounts going to biogas 
 
 Oilseed presscakes are the solid materials left after oil is removed from seeds. The main examples here are canola/rapeseed presscake and sunflower presscake, though peanut, camelina, sesame, flax, coconut, and other oilseed cakes are also important in different regions. Once much of the oil is removed, the remaining material is mostly protein, dietary fiber, carbohydrates, minerals, and plant compounds.[^15]
 
+![[Canola Presscake Garum.webp|600|600]]
+_Pelleted canola presscake, the starting material for our [[Canola Presscake Garum|canola presscake garum]] experiment._
+
 Canola/rapeseed and sunflower are especially important because they are produced at huge scale. USDA data project about 53.26 million tonnes of rapeseed meal and 24.76 million tonnes of sunflower seed meal globally in 2026/27.[^1] Rapeseed oil cake can contain around 42.8% crude protein, while sunflower oilseed cake can contain around 35.6% crude protein.[^15] Together, those two meals alone contain roughly 31.6 million tonnes of protein per year, enough in theory to meet the baseline annual protein needs of about 1.7 billion adults.[^4][^5]
 
 The challenge is that these presscakes are not automatically delicious or easy to use. Canola and rapeseed can contain bitter or pungent compounds, especially glucosinolates, along with other compounds that affect flavor and digestibility. Sunflower presscake can be more approachable, but its valorization is non-trivial.[^15][^16]
@@ -33,6 +39,9 @@ The challenge is that these presscakes are not automatically delicious or easy t
 ## 3. Lees from Plant-Based Milk and Similar Products
 
 Plant-based milk and tofu production also create leftover pulp, often called lees, okara, or plant-based milk residue. This happens when soybeans, oats, almonds, rice, peas, or other plant materials are soaked, ground, and filtered. The liquid becomes the milk or tofu base, while the leftover pulp still contains protein, fiber, fat, minerals, and carbohydrates.[^3]
+
+![[Okara Filtering.webp|600|600]]
+_Fresh okara being strained from soy milk. Photo: Pax Ahimsa Gethen via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Okara_(soybean_pulp).jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); resized and converted to WebP._
 
 Soy okara is the best-studied example. Fresh okara is about 70–80% water, but on a dry basis it contains around 25–30% protein and 40–60% dietary fiber. About 1.1 kg of okara can be produced for every 1 kg of soymilk or tofu, with global production estimated at about 14 million tonnes per year. In protein-equivalent terms, soy okara alone may contain enough protein to meet the baseline annual needs of about 40–70 million adults.[^3][^4][^5]
 
