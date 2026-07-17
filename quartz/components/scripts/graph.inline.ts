@@ -756,7 +756,7 @@ async function renderGlobalGraph(trigger?: HTMLElement) {
       globalGraphCleanups.push(await renderGraph(graphContainer, currentSlug))
     }
 
-    closeButton?.focus()
+    window.setTimeout(() => closeButton?.focus(), 250)
   }
 }
 

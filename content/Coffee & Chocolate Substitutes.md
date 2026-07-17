@@ -153,5 +153,5 @@ Largest Column: standard
 4. Fat and sugar sources
 5. To roast or not?
 
-![[Coffee & Chocolate Substitutes-3.webp|A tray of fermented grain and bean coffee-and-chocolate substitute trials]]
+![[Coffee & Chocolate Substitutes-3.webp|1]]
 _Cover image courtesy of [Faenum](https://faenum.com)_

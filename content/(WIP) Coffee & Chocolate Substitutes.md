@@ -171,5 +171,5 @@ https://nordicfoodlab.org/blog/2013/12/roasting-koji/
 
 the two roasting times I'm going to do are a 20-minute and a 30-minute roast, both at 140°C around 280°F
 
-![[Coffee & Chocolate Substitutes-3.webp|A tray of fermented grain and bean coffee-and-chocolate substitute trials]]
+![[Coffee & Chocolate Substitutes-3.webp|1]]
 _Cover image courtesy of [Faenum](https://faenum.com)_

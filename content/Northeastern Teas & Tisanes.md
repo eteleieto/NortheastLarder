@@ -1,5 +1,5 @@
 ---
-title: Teas & Tisanes
+title: Northeastern Teas & Tisanes
 tags:
   - PROJECT
 date: 2026-06-21
