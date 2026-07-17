@@ -696,6 +696,7 @@ function getGlobalGraphContainers() {
 
 const GRAPH_PANEL_MS = 150
 let hideGlobalGraphTimer: ReturnType<typeof setTimeout> | null = null
+let graphReturnFocus: HTMLElement | null = null
 
 function hideGlobalGraph() {
   for (const container of getGlobalGraphContainers()) {
@@ -703,6 +704,8 @@ function hideGlobalGraph() {
     container.setAttribute("aria-hidden", "true")
   }
   document.body.classList.remove("global-graph-active")
+  graphReturnFocus?.focus()
+  graphReturnFocus = null
 
   if (hideGlobalGraphTimer) clearTimeout(hideGlobalGraphTimer)
   hideGlobalGraphTimer = setTimeout(() => {
@@ -711,7 +714,7 @@ function hideGlobalGraph() {
   }, GRAPH_PANEL_MS)
 }
 
-async function renderGlobalGraph() {
+async function renderGlobalGraph(trigger?: HTMLElement) {
   const containers = getGlobalGraphContainers()
   if (containers.length === 0) return
 
@@ -722,6 +725,8 @@ async function renderGlobalGraph() {
   }
 
   const currentSlug = getFullSlug(window)
+  graphReturnFocus =
+    trigger ?? (document.activeElement instanceof HTMLElement ? document.activeElement : null)
   document.body.classList.add("global-graph-active")
   globalGraphCleanups.push(() => document.body.classList.remove("global-graph-active"))
 
@@ -736,6 +741,7 @@ async function renderGlobalGraph() {
     if (closeButton) {
       closeButton.addEventListener("click", hideGlobalGraph)
       globalGraphCleanups.push(() => closeButton.removeEventListener("click", hideGlobalGraph))
+      closeButton.focus()
     }
 
     const onBackdropClick = (e: MouseEvent) => {
@@ -757,7 +763,7 @@ document.addEventListener("click", (e) => {
   const trigger = (e.target as Element | null)?.closest(".graph-open")
   if (!trigger) return
   e.preventDefault()
-  void renderGlobalGraph()
+  void renderGlobalGraph(trigger as HTMLElement)
 })
 
 document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {

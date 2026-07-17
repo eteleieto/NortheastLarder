@@ -105,11 +105,25 @@ export default ((opts?: Partial<GraphOptions>) => {
           </>
         )}
         {!showPreview && (
-          <div class="global-graph-outer" aria-hidden="true">
+          <div
+            class="global-graph-outer"
+            aria-hidden="true"
+            aria-labelledby="global-graph-title"
+            aria-modal="true"
+            role="dialog"
+            tabIndex={-1}
+          >
             <div class="global-graph-space">
               <div class="global-graph-panel">
                 <div class="panel-header global-graph-header">
-                  <span class="panel-header-title">{i18n(cfg.locale).components.graph.title}</span>
+                  <div class="global-graph-heading">
+                    <span class="panel-header-title" id="global-graph-title">
+                      {i18n(cfg.locale).components.graph.title}
+                    </span>
+                    <span class="global-graph-help">
+                      Explore connections; drag to move and scroll to zoom.
+                    </span>
+                  </div>
                   <button type="button" class="global-graph-close" aria-label="Close">
                     <svg
                       aria-hidden="true"

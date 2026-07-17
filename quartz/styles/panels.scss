@@ -2,8 +2,8 @@
 
 // Shared overlay panel chrome (search, graph, popovers)
 @mixin overlay-backdrop {
-  background-color: color-mix(in srgb, var(--dark) 36%, transparent);
-  backdrop-filter: blur(4px);
+  background-color: color-mix(in srgb, var(--dark) 62%, transparent);
+  backdrop-filter: blur(10px);
 }
 
 @mixin overlay-panel {

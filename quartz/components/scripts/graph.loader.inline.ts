@@ -20,7 +20,7 @@ function loadGraph() {
 
 function withGraph(
   action: (module: {
-    openGlobalGraph: () => Promise<void>
+    openGlobalGraph: (trigger?: HTMLElement) => Promise<void>
     toggleGlobalGraph: () => Promise<void>
   }) => void | Promise<void>,
 ) {
@@ -31,7 +31,7 @@ document.addEventListener("click", (e) => {
   const trigger = (e.target as Element | null)?.closest(".graph-open")
   if (!trigger) return
   e.preventDefault()
-  withGraph((m) => m.openGlobalGraph())
+  withGraph((m) => m.openGlobalGraph(trigger as HTMLElement))
 })
 
 document.addEventListener("nav", () => {

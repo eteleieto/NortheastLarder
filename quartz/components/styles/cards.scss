@@ -130,7 +130,7 @@
 .card-item-description,
 .grid-item-description {
   // Mid-gray: --darkgray reads as bold as the title, --gray is too faint to read
-  color: color-mix(in srgb, var(--darkgray) 65%, var(--light));
+  color: color-mix(in srgb, var(--darkgray) 82%, var(--light));
   font-size: $meta-md;
   line-height: 1.4;
   margin: 0;

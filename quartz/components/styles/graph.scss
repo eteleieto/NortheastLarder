@@ -112,6 +112,25 @@ body.global-graph-active {
     @include panels.overlay-panel;
   }
 
+  .global-graph-heading {
+    flex: 1;
+    min-width: 0;
+    padding: 0.45rem 0 0.45rem 1em;
+  }
+
+  .global-graph-heading .panel-header-title {
+    display: block;
+    padding: 0;
+  }
+
+  .global-graph-help {
+    display: block;
+    margin-top: 0.15rem;
+    color: var(--darkgray);
+    font-size: 0.78rem;
+    line-height: 1.3;
+  }
+
   .global-graph-close {
     @include panels.panel-close-inline;
   }
