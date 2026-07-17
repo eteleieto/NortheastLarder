@@ -47,7 +47,7 @@ const pagesNav = Component.CategoryLinks({
 })
 
 const recentBlogPosts = Component.RecentNotes({
-  title: "Recent Blog Posts",
+  title: "Recent Projects & Blogs",
   showTags: false,
   limit: 3,
   filter: (page) => {
