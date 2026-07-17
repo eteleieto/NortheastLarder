@@ -1,27 +1,24 @@
 ---
 title: Honeynut Squash
-aliases:
-  - honeynut squash
-tags:
-  - INGREDIENT
-source:
-pairing:
+aliases: [honeynut squash]
+tags: [INGREDIENT]
 ---
 
-*Cucurbita* hybrid
+*Cucurbita moschata* ‘Honeynut’
 
-Honeynut is a personal-sized winter squash developed at Cornell from butternut breeding. It is compact, intensely sweet, and especially useful roasted whole or halved, puréed, or folded into doughs and desserts.[^1]
+Honeynut is a small butternut-type squash developed through Cornell’s vegetable breeding program in New York. It is a modern cultivar, not an old miniature squash rediscovered under a new name.[^1]
 
-### Kitchen notes
+### History
 
-- Its rind changes from dark green to rich caramel as it ripens, providing a visible harvest and purchasing cue.[^1]
-- Cornell advises eating it at peak flavor one to two months after harvest.[^2]
+Its ancestry goes back to a 1980s Cornell cross between buttercup and butternut squash. Plant breeder Michael Mazourek later refined the line with feedback from Northeast growers and chef Dan Barber, putting flavor and a compact size near the center of the breeding goal.[^2]
 
-### Northeast notes
+### A useful oddity
 
-Honeynut was developed through Cornell’s vegetable-breeding program, making it a particularly useful Northeast variety. The color change was selected to make ripeness easier to judge in a winter squash.[^1]
+Honeynut begins dark green and turns caramel-orange as it ripens. Cornell selected that visible color shift as an outside signal of changes happening inside the fruit; the squash continues developing its best flavor for a time after harvest.[^1]
 
-### Sources
+### Connections
 
-[^1]: Cornell University, “[Color-changing squash reveals ripeness](https://cals.cornell.edu/news/2016/10/color-changing-squash-reveals-ripeness),” accessed July 17, 2026.
-[^2]: Cornell University Center for Technology Licensing, “[Vegetables: Honeynut](https://ctl.cornell.edu/plant-varieties-catalog/vegetables/),” accessed July 17, 2026.
+Honeynut is a *C. moschata* squash, while [[Buttercup Squash 1|buttercup]] is *C. maxima*. The cultivar’s history nevertheless joins the two through breeding.
+
+[^1]: Cornell University Center for Technology Licensing, “[Plant Varieties Catalog: Vegetables](https://ctl.cornell.edu/plant-varieties-catalog/vegetables/),” accessed July 17, 2026.
+[^2]: Cornell Chronicle, “[Color-Changing Squash Reveals Ripeness](https://news.cornell.edu/stories/2016/10/color-changing-squash-reveals-ripeness),” 2016.

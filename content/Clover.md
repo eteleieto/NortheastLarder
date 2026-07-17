@@ -1,22 +1,19 @@
 ---
 title: Clover
-aliases:
-  - red clover
-tags:
-  - INGREDIENT
-source:
-pairing:
+tags: [INGREDIENT]
 ---
 
-*Trifolium pratense*
+*Trifolium* spp.
 
-For kitchen use, this page means red clover. The flower heads are mildly sweet and work best as a small accent—fresh in a salad, dried in a tea blend, or used to lightly scent syrup.[^1]
+Clover is a legume, placing it in the same broad family as [[Pea|peas]], [[Dry Bean|beans]], and [[Soybean 1|soybean]]. Red and white clover are both familiar in Northeast fields and lawns.[^1]
 
-Red clover is all over Maine meadows and fields. It’s a cool-season perennial, generally flowering from June into September.[^2]
+### Food notes
 
-Use flowers from a clean site and go easy: they are not especially easy to digest in large amounts.[^1]
+Red clover flowers are mildly sweet and sometimes infused, but UMN Extension advises moderation because the flowers are not easily digested.[^2]
 
-### Sources
+### A useful oddity
 
-[^1]: University of Minnesota Extension, “[Edible Flowers](https://ocean.njaes.rutgers.edu/wp-content/uploads/2022/11/Edible-flowers-_-UMN-Extension.pdf),” accessed July 17, 2026.
-[^2]: University of Maine Cooperative Extension, “[Red clover](https://extension.umaine.edu/blueberries/weed-images/herbaceous-broadleaf-weeds/pink-flowers/red-clover/),” accessed July 17, 2026.
+Like other legumes, clover hosts nitrogen-fixing bacteria in root nodules. That plant-microbe relationship is why clover often appears in soil-building cover-crop mixtures.[^1]
+
+[^1]: University of Maine Cooperative Extension, “[Plant Families for Gardeners](https://extension.umaine.edu/gardening/2021/04/01/maine-home-garden-news-april-2021/),” 2021.
+[^2]: University of Minnesota Extension, “[Edible Flowers](https://extension.umn.edu/gardening-minnesota/edible-flowers),” accessed July 17, 2026.

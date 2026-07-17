@@ -1,25 +1,22 @@
 ---
 title: Sorghum
-tags:
-  - INGREDIENT
-source:
-pairing:
+tags: [INGREDIENT]
 ---
 
 *Sorghum bicolor*
 
-Sorghum is a cereal grain used whole, milled, malted, or fermented. Depending on type, the crop is grown for grain, sweet stalk juice, or forage.[^1]
+Sorghum is a warm-season grass with distinct grain, sweet-stem, and forage types. Grain sorghum is often called milo; sweet sorghum is grown for sugary stalk juice.
 
-### History
+### Northeast notes
 
-Sorghum appears to have been domesticated in Ethiopia about 5,000 years ago and is now cultivated widely in dry regions of Africa, Asia, the Americas, Europe, and Australia.[^2]
+Sorghum originated in East Africa and needs warmer soil than Maine’s small grains. UMaine recommends planting after soil exceeds about 65°F, generally in early June.[^1]
 
-### Useful facts
+### A useful oddity
 
-- The crop is drought-resistant and extensively grown under rainfed conditions for grain and forage.[^2]
-- “Sorghum” covers several food-relevant types: grain sorghum, sweet sorghum, and forage sorghum. Sweet sorghum has taller, juicier, higher-sugar stalks than grain types.[^1]
+Young or stressed sorghum plants can accumulate dhurrin, which can release hydrogen cyanide in livestock digestion. The trait is mainly a forage-management issue, but it is a striking example of plant defense chemistry.[^1]
 
-### Sources
+### Connections
 
-[^1]: FAO AGROVOC, “[Sorghum](https://agrovoc.fao.org/browse/agrovoc/en/page/c_435824c5),” accessed July 17, 2026.
-[^2]: Food and Agriculture Organization of the United Nations, “[Sorghum](https://www.fao.org/land-water/databases-and-software/crop-information/sorghum/en/),” accessed July 17, 2026.
+As a cereal grass it is related to [[Sweet Corn|corn]], [[Wheat|wheat]], [[Barley 1|barley]], [[Oat 1|oats]], and [[Rye|rye]].
+
+[^1]: University of Maine Cooperative Extension, “[Maine Forage Facts: Sorghum, Sudangrass and Sorghum-Sudangrass](https://extension.umaine.edu/publications/2271e/),” accessed July 17, 2026.

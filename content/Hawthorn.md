@@ -1,24 +1,24 @@
 ---
 title: Hawthorn
-tags:
-  - INGREDIENT
-source:
-pairing:
+aliases: [haws]
+tags: [INGREDIENT]
 ---
 
 *Crataegus* spp.
 
-Hawthorn fruits, often called haws, are small tart fruits used in jams, jellies, preserves, wine, and other cooked preparations. The flavor holds well when preserved.[^1]
-
-### Kitchen notes
-
-- Cook or preserve haws to soften their texture and concentrate their tart, apple-like character.
-- Strain out the seeds when making smooth preserves or syrups.
+Hawthorns are thorny members of the rose family with small apple-like fruits called haws. Depending on the species, the fruit can be red, orange, yellow, or nearly black and ranges from dry and mealy to fairly juicy.[^1]
 
 ### Northeast notes
 
-Hawthorns are thorny trees or shrubs in the rose family. They grow across the Northeast, but *Crataegus* species are easy to confuse—use only fruit from a confidently identified edible hawthorn.[^1]
+New England has a confusing number of native and introduced hawthorns, and even botanists have disagreed over where one species ends and another begins. Fireberry hawthorn, *Crataegus chrysocarpa*, is one northern species whose range reaches from Newfoundland south into the United States.[^1]
 
-### Sources
+### More parts of the plant
 
-[^1]: Yale Nature Walk, “[Hawthorn](https://naturewalk.yale.edu/trees/rosaceae/cratageus/hawthorn-47),” accessed July 17, 2026.
+Young leaves, flower buds, and young flowers also have a history as food. The fruits are pomes, putting them in the same structural neighborhood as [[Apple 1|apple]].[^2]
+
+### A useful oddity
+
+The name *Crataegus* comes from a Greek word associated with strength, while “haw” is an old word for the fruit. A hawthorn hedge is therefore not named after the modern fruit haw flakes, though those sweets are made from hawthorn fruit.
+
+[^1]: Penn State Extension, “[Hawthorn: A Flowering Ornamental Tree](https://extension.psu.edu/hawthorn-a-flowering-ornamental-tree),” 2025.
+[^2]: Royal Botanic Gardens, Kew, “[Sensory Therapeutic Garden Plants](https://growwild.kew.org/blog/sensory-therapeutic-garden-plants),” accessed July 17, 2026.

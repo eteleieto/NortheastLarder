@@ -1,25 +1,22 @@
 ---
 title: Spicebush
-tags:
-  - INGREDIENT
-source:
-pairing:
+tags: [INGREDIENT]
 ---
 
 *Lindera benzoin*
 
-Spicebush is an aromatic eastern North American shrub. Its leaves, twigs, and red fruits have a sweet, peppery fragrance; the dried, ground fruits can stand in for allspice.[^1]
+Spicebush is a native shrub at the northern edge of its range in Maine. It has aromatic leaves, twigs, bark, and red fall berries; the berries are sometimes used as a local spice.[^1]
 
-### Useful facts
+### Plant notes
 
-- All parts of the plant have a history of use in flavoring foods and teas.[^1]
-- Female plants produce the red fruits; fruit set requires male and female plants growing near one another.[^2]
+Spicebush is dioecious: male and female flowers occur on separate plants, so both are needed for berry production.[^1]
+
+### More parts of the plant
+
+The red berries can be dried and ground as a local allspice-like seasoning; leaves, twigs, and bark are aromatic as well.[^1]
 
 ### Northeast notes
 
-Spicebush is native across Pennsylvania and much of the eastern United States. It favors moist, rich soils and partial shade, making it well suited to the Northeast woodland edge or a damp garden.[^1][^2]
+In Maine it is considered uncommon and favors protected, evenly moist sites. Its presence is therefore more local and particular than that of common garden herbs.[^1]
 
-### Sources
-
-[^1]: Penn State Extension, “[Native Plants of PA: Spicebush (*Lindera benzoin*)](https://extension.psu.edu/native-plants-of-pa-spicebush-lindera-benzoin),” accessed July 17, 2026.
-[^2]: Penn State Extension, “[Native Plant Spotlights for Wildlife-Friendly Landscaping](https://extension.psu.edu/native-plant-spotlights-for-wildlife-friendly-landscaping),” accessed July 17, 2026.
+[^1]: University of Maine Cooperative Extension, “[Maine Home Garden News — October 2018](https://extension.umaine.edu/gardening/2018/10/01/maine-home-garden-news-october-2018/),” 2018.

@@ -1,25 +1,21 @@
 ---
 title: Apple
-tags:
-  - INGREDIENT
-source:
-pairing:
+tags: [INGREDIENT]
 ---
 
 *Malus domestica*
 
-The cultivated apple is a temperate fruit with a broad range of sweetness, acidity, aroma, and texture across cultivars. In the kitchen, variety selection matters: apples may be chosen for fresh eating, sauce, baking, or cider.[^1]
+Apple is a temperate tree fruit with deep roots in Northeast orchards. Different varieties are grown for sharply different balances of sugar, acid, aroma, tannin, texture, and storage life.[^1]
 
-### History
+### Northeast notes
 
-Cultivated apples trace principally to wild *Malus sieversii* from Central Asia, with later genetic contribution from the European crabapple, *M. sylvestris*. Centuries of selection and clonal propagation produced the large diversity of named cultivars grown today.[^2]
+The region’s cool nights help preserve acidity and color in apples. Variety choice matters especially in northern areas, where winter hardiness and ripening time are practical limits.[^1]
 
-### Useful facts
+### Connections
 
-- Apple trees and their wild relatives are largely self-incompatible and can hybridize across species, a source of substantial genetic diversity.[^2]
-- Firmness, texture, and flavor vary by cultivar; storage life does too. For home storage, University of Minnesota Extension recommends refrigeration.[^1]
+Apple belongs to the rose family, along with [[Strawberry|strawberry]], [[Red Raspberry 1|raspberry]], [[Blackberry|blackberry]], peaches, cherries, and [[Rose Hip 1|rose hips]]. The family resemblance is easier to see in the five-petaled flowers than in the finished fruits.[^2]
 
-### Sources
+Apples also connect readily with [[Cranberry|cranberry]], [[Parsnip|parsnip]], and [[Cabbage|cabbage]] through a shared cool-climate, storage-crop character.
 
-[^1]: University of Minnesota Extension, “[Growing apples in the home garden](https://extension.umn.edu/gardening-minnesota/growing-apples),” accessed July 17, 2026.
-[^2]: USDA Agricultural Research Service, “[USDA Apple (*Malus*) Collection](https://www.ars.usda.gov/northeast-area/geneva-ny/plant-genetic-resources-unit-pgru/apple-collection/apple-collection/),” accessed July 17, 2026.
+[^1]: University of Maine Cooperative Extension, “[Vegetables and Fruits for Health: Apples](https://extension.umaine.edu/publications/4262e/),” accessed July 17, 2026.
+[^2]: Smithsonian Gardens, “[An Apple Is a Rose?](https://gardens.si.edu/gardens/folger-rose-garden/an-apple-is-a-rose/),” accessed July 17, 2026.

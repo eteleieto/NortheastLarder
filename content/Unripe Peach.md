@@ -1,20 +1,25 @@
 ---
 title: Unripe Peach
-tags:
-  - INGREDIENT
-source:
-pairing:
+aliases: [green peach, unripe peaches]
+tags: [INGREDIENT]
 ---
 
-*Prunus persica*
+*Prunus persica*, harvested before ordinary eating ripeness
 
-A peach used before full ripeness, valued for its firm texture and fresh acidity rather than the perfume and sweetness of a fully ripe fruit. It can bring a sharp stone-fruit note to savory preparations, pickles, and preserves.[^1]
+An unripe peach is a developmental stage rather than a separate variety. The flesh is firm, sour, and only faintly peach-scented because much of the sugar accumulation, softening, and volatile aroma development associated with ripeness has not happened yet.[^1]
 
-### Useful facts
+### What changes during ripening
 
-- As peaches mature, soluble solids continue to increase on the tree while organic acids decrease.[^1]
-- Acidity varies considerably by cultivar: the University of Maryland Extension groups peaches as low-, standard-, or high-acid according to titratable acidity.[^1]
+Peach is a climacteric fruit: ethylene rises as the fruit ripens and helps coordinate softening. Cell-wall pectins break down, acidity generally falls, and lactones become a larger part of the recognizable peach aroma.[^1]
 
-### Sources
+### Northeast notes
 
-[^1]: University of Maryland Extension, “[Determining peach fruit maturity](https://extension.umd.edu/resource/determining-peach-fruit-maturity),” accessed July 17, 2026.
+Peaches can be grown in Maine, but winter cold and spring frost make them less dependable than [[Apple 1|apples]] or sour cherries. Redhaven and other relatively hardy cultivars are familiar in Northeast orchards; “unripe,” however, describes when the fruit was picked, not which cultivar it came from.[^2]
+
+### Connections
+
+Unripe [[Unripe Plum 1|plums]] and peaches share the firm, high-acid character of immature stone fruit. Slightly underripe fruit also tends to contain more functional pectin than overripe fruit, although the amount varies by species and cultivar.[^3]
+
+[^1]: U.S. Department of Agriculture Agricultural Research Service, “[The Commercial Storage of Fruits, Vegetables, and Florist and Nursery Stocks](https://www.ars.usda.gov/is/np/CommercialStorage/CommercialStorage.pdf),” Agriculture Handbook 66, accessed July 17, 2026.
+[^2]: University of Maine Cooperative Extension, “[Growing Fruit Trees in Maine](https://extension.umaine.edu/fruit/growing-fruit-trees-in-maine/),” accessed July 17, 2026.
+[^3]: Penn State Extension, “[Key Ingredients for the Perfect Jam or Jelly](https://extension.psu.edu/key-ingredients-for-the-perfect-jam-or-jelly),” accessed July 17, 2026.

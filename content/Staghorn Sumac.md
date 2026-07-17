@@ -1,26 +1,18 @@
 ---
 title: Staghorn Sumac
-tags:
-  - INGREDIENT
-source:
-pairing:
+tags: [INGREDIENT]
 ---
 
 *Rhus typhina*
 
-Staghorn sumac is a native shrub or small tree with tart, fuzzy red fruit clusters. The fruits can be infused in water for a pink, lemonade-like drink or dried and used as a sour seasoning.[^1]
+Staghorn sumac is a native Northeast shrub recognizable by its velvet-covered young branches and upright clusters of deep red fruit. The fruit’s tart surface gives it its food interest.[^1]
 
-### Useful facts
+### Plant notes
 
-- The edible fruit clusters are crimson red and fuzzy. Do not confuse them with poison sumac, which bears white fruit and grows in wetlands.[^2]
-- Sumac is in the cashew family; people with cashew or mango allergies should use caution.[^1]
+The red fruit clusters persist into winter and are not the same thing as the white berries of poisonous sumac, a different plant associated with wet habitats.[^1]
 
 ### Northeast notes
 
-In Maine, staghorn sumac grows in sunny forest edges and open fields, forming colonies. It tolerates drought and a broad range of soils, but is not suited to shade or wet sites.[^3]
+Staghorn sumac is among the native Maine shrubs documented by UMaine Extension; identification remains essential when gathering any wild food plant.[^1]
 
-### Sources
-
-[^1]: Washington College, “[Staghorn Sumac](https://www.washcoll.edu/learn-by-doing/ces/plants/anacardiaceae/rhus-typhina.php),” accessed July 17, 2026.
-[^2]: Michigan State University Extension, “[Making sumac tea](https://www.canr.msu.edu/news/making_sumac_tea),” accessed July 17, 2026.
-[^3]: University of Maine Cooperative Extension, “[Staghorn Sumac (*Rhus typhina*)](https://extension.umaine.edu/publications/2579e/),” accessed July 17, 2026.
+[^1]: University of Maine Cooperative Extension, “[Plants for the Maine Landscape](https://extension.umaine.edu/gardening/manual/plants-for-the-maine-landscape/),” accessed July 17, 2026.

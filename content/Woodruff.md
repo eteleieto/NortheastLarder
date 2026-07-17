@@ -1,26 +1,20 @@
 ---
 title: Woodruff
-aliases:
-  - sweet woodruff
-tags:
-  - INGREDIENT
-source:
-pairing:
+aliases: [sweet woodruff]
+tags: [INGREDIENT]
 ---
 
 *Galium odoratum*
 
-Woodruff here means sweet woodruff, an herb whose dried leaves smell of hay, almond, and vanilla. Use it sparingly to scent wine, simple syrup, ice cream, sorbet, and tea.[^1]
+Sweet woodruff is a low, shade-tolerant perennial with whorled leaves and small white flowers. Its characteristic hay-and-vanilla aroma becomes more apparent as the leaves wilt or dry.[^1]
 
-### Kitchen notes
+### Food notes
 
-- Drying develops the distinctive aroma; fresh woodruff has far less scent.[^1]
-- Strip leaves from the bitter stems after drying, then store the leaves airtight in a cool, dark place.[^1]
+The aroma is associated with coumarin, the same broad flavor compound family that gives tonka bean and fresh-cut hay some of their character. This is a small-quantity flavoring plant, not a bulk herb.[^1]
 
-### Northeast notes
+### A useful oddity
 
-Sweet woodruff grows readily in partial to full shade and moist, well-drained soil. It spreads by slender rhizomes, so keep it contained in a garden setting.[^1]
+Sweet woodruff spreads by rhizomes and can form a continuous woodland groundcover. In Germany it is strongly associated with *Waldmeister* flavoring.[^2]
 
-### Sources
-
-[^1]: Penn State Extension, “[Sweet Woodruff in the Garden and the Kitchen](https://extension.psu.edu/sweet-woodruff-in-the-garden-and-the-kitchen),” accessed July 17, 2026.
+[^1]: University of Minnesota Extension, “[Edible Flowers](https://extension.umn.edu/gardening-minnesota/edible-flowers),” accessed July 17, 2026.
+[^2]: Penn State Extension, “[Sweet Woodruff in the Garden and the Kitchen](https://extension.psu.edu/sweet-woodruff-in-the-garden-and-the-kitchen),” 2026.

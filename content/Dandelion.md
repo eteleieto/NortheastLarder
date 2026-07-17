@@ -1,25 +1,23 @@
 ---
 title: Dandelion
-tags:
-  - INGREDIENT
-source:
-pairing:
+tags: [INGREDIENT]
 ---
 
 *Taraxacum officinale*
 
-Dandelion provides strong, tangy greens and lightly floral yellow petals. The young leaves are good raw in salads or cooked like other bitter greens; the flowers can flavor syrups and jelly.[^1][^2]
+Dandelion is an introduced perennial now deeply familiar in Northeast fields, lawns, and disturbed ground. Its greens are among the earliest edible wild leaves in Maine, often appearing while snow still lingers nearby.[^1]
 
-### Kitchen notes
+### Plant notes
 
-- For cooked greens, boiling until tender and changing the water once mellows their tangy flavor.[^1]
-- Keep the green base out of dandelion-flower preparations when possible: UMaine notes that it adds bitterness to jelly.[^2]
+The plant forms a basal rosette and sends up leafless flower stems. Its bitterness increases as leaves mature; the yellow flower heads and young greens are both food traditions.[^1]
 
-### Northeast notes
+### More parts of the plant
 
-Dandelion is widespread across Maine and New England. Harvest only clean, unsprayed plants away from roads and other contaminated sites.[^1]
+Unopened flower buds can be brined or pickled as “dandelion capers.” Open flowers, leaves, and roots are also used; the root is sometimes dried and roasted for a caffeine-free coffee-like drink.[^2]
 
-### Sources
+### Connections
+
+Like [[Lamb's Quarters|lamb’s-quarters]] and [[Purslane|purslane]], dandelion is often treated as a weed but is also a food plant. Positive identification and avoidance of chemically treated ground matter more than romantic ideas about “wild” food.[^1]
 
 [^1]: University of Maine Cooperative Extension, “[Facts on Edible Wild Greens in Maine](https://extension.umaine.edu/publications/4060e/),” accessed July 17, 2026.
-[^2]: University of Maine Cooperative Extension, “[How to Make Flower Petal Jelly Safely](https://extension.umaine.edu/food-health/2026/02/12/flower-petal-jelly/),” accessed July 17, 2026.
+[^2]: Royal Horticultural Society, “[Dandelion](https://www.rhs.org.uk/weeds/dandelion),” accessed July 17, 2026.

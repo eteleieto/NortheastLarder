@@ -1,24 +1,18 @@
 ---
 title: Buttercup Squash
-tags:
-  - INGREDIENT
-source:
-pairing:
+tags: [INGREDIENT]
 ---
+
 *Cucurbita maxima*
 
-Buttercup is a type of winter squash, valued for dense, orange flesh and a sweet, nutty flavor when cooked.[^1]
+Buttercup is a dense-fleshed winter squash, commonly recognized by the small button or “cup” on its blossom end. It is one of the winter squash types grown and stored in Maine.[^1]
 
-### Useful facts
+### Plant notes
 
-- Buttercup belongs to *C. maxima*, the same species group that includes Hubbard and kabocha squashes.[^2]
-- Choose mature fruits with hard, tough rinds and store them in a cool, dry place; winter squash can keep for months under good conditions.[^1]
+“Winter squash” does not mean the fruit grows in winter. It means the mature fruit has a hardened rind and can be stored well beyond harvest.[^1]
 
-### Northeast notes
+### Connections
 
-Buttercup is among the winter-squash types grown and sold in Maine. UMaine reports local winter squash availability from September through February.[^1]
-
-### Sources
+Buttercup shares the cucurbit family with [[Zucchini|zucchini]], [[Cucumber|cucumber]], [[Pumpkin Seed 1|pumpkins]], and [[Squash Blossom|squash blossoms]].
 
 [^1]: University of Maine Cooperative Extension, “[Vegetables and Fruits for Health: Winter Squash and Pumpkins](https://extension.umaine.edu/publications/4176e/),” accessed July 17, 2026.
-[^2]: University of Minnesota Extension, “[Growing pumpkins and winter squash in home gardens](https://extension.umn.edu/vegetables/pumpkins-and-winter-squash),” accessed July 17, 2026.

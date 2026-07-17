@@ -1,24 +1,19 @@
 ---
 title: Fireweed
-tags:
-  - INGREDIENT
-source:
-pairing:
+tags: [INGREDIENT]
 ---
 
-*Chamerion angustifolium*
+*Chamaenerion angustifolium* (also *Epilobium angustifolium*)
 
-Fireweed is a tall, pink-flowered perennial of northern disturbed places. Its young stems can be steamed or boiled as a vegetable; use only confidently identified, tender growth.[^1]
+Fireweed is a tall northern perennial associated with roadsides, clearings, and recently burned ground. Its name comes from its habit of colonizing burned-over areas.[^1]
 
-### Kitchen notes
+### Food notes
 
-- Treat the young stems as a brief-cooked green vegetable rather than a long-cooked root or grain.
-- Avoid older stems, which become fibrous, and use only clean material from uncontaminated sites.
+Young shoots, leaves, unopened buds, and flowers all appear in northern food traditions, but the plant changes quickly as it matures: older foliage becomes tougher and more bitter.[^2]
 
-### Northeast notes
+### A useful oddity
 
-Fireweed is widespread in northern climates and common in Maine meadows, moist places, and recently burned or logged ground. In Maine it commonly flowers from late spring through August.[^1]
+Its flowers open progressively up the stem rather than all at once. Maine’s flowering period is generally July into August, and the flowers draw bumblebees, hummingbirds, and hummingbird moths.[^1]
 
-### Sources
-
-[^1]: University of Maine Cooperative Extension, “[Fireweed](https://extension.umaine.edu/blueberries/weed-images/herbaceous-broadleaf-weeds/pink-flowers/fireweed/),” accessed July 17, 2026.
+[^1]: University of Maine Cooperative Extension, “[Fireweed](https://extension.umaine.edu/cranberries/grower-services/weeds/fireweed/),” accessed July 17, 2026.
+[^2]: University of Alaska Fairbanks Cooperative Extension Service, “[Fireweed](https://www.uaf.edu/ces/publications/database/food/fireweed.php),” accessed July 17, 2026.

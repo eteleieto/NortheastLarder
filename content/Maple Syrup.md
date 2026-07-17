@@ -1,26 +1,22 @@
 ---
 title: Maple Syrup
-tags:
-  - INGREDIENT
-source:
-pairing:
+tags: [INGREDIENT]
 ---
-Primarily from sugar maple (*Acer saccharum*) sap.
 
-A concentrated maple-sap sweetener with a rounded caramel, woodsy flavor and a light acidity. It is made during the late-winter-to-spring sap run, when freeze–thaw conditions move sap through the trees.[^1]
+Maple syrup is concentrated maple sap, most often from sugar maple (*Acer saccharum*) and sometimes red maple (*Acer rubrum*). Maine law defines finished syrup as 66–69% soluble solids by weight (degrees Brix).[^1]
 
-### History
+### Northeast notes
 
-Indigenous peoples in northeastern North America were making maple products before European settlement; settlers subsequently adopted sap collection and processing. Maple sugar was an important early-settler staple, while syrup later became the more familiar form.[^2]
+Maple sap products were an essential part of many Native American communities long before European colonization. In Maine, sap flow depends on late-winter freeze–thaw cycles; starch stored in the tree is converted largely to sucrose as the wood warms.[^2]
 
-### Useful facts
+### A useful oddity
 
-- Sap averages about 2% sugar, so roughly 43 gallons of sap are needed for one gallon of standard-density syrup; the exact yield varies with the sap’s starting sugar concentration.[^1]
-- Heat concentrates the sap and develops maple syrup’s characteristic color and flavor. Reverse osmosis may reduce water before final evaporation in commercial production.[^1]
-- Canada and the United States are the only countries producing maple syrup at commercial scale. In 2024, Canada accounted for about 73% of world production, with Québec contributing 90.7% of Canadian output.[^3]
+“Sugar sand” is the common maple term for the pale mineral sediment that can form during syrup making. It is mostly calcium malate, not actual sand.[^3]
 
-### Sources
+### Connections
 
-[^1]: University of Minnesota Extension, “[Homemade maple syrup](https://extension.umn.edu/gathering-wild-grown-plants-and-fungi/homemade-maple-syrup),” accessed July 17, 2026.
-[^2]: Natural Resources Canada, “[Maple syrup production and climate change: Does the future taste as sweet?](https://natural-resources.canada.ca/forests-forestry/state-canada-forests/maple-syrup-production-climate-change-does-future-taste-sweet),” accessed July 17, 2026.
-[^3]: Agriculture and Agri-Food Canada, “[Statistical overview of the Canadian maple industry, 2024](https://agriculture.canada.ca/en/sector/horticulture/reports/statistical-overview-canadian-maple-industry-2024),” accessed July 17, 2026.
+[[Cranberry]] and [[Wild Blueberry|wild blueberry]] share maple syrup’s strong Northeast identity, but their chemistry is very different: maple’s characteristic flavor starts in sap, alongside sucrose and amino acids, then concentrates during evaporation.[^2]
+
+[^1]: University of Maine Cooperative Extension, “[Maple Syrup Quality Control Manual](https://extension.umaine.edu/publications/7038e/),” accessed July 17, 2026.
+[^2]: University of Maine Cooperative Extension, “[How to Tap Maple Trees and Make Maple Syrup](https://extension.umaine.edu/publications/7036e/),” updated 2025.
+[^3]: University of Maine Cooperative Extension, “[Maple Syrup Quality Control Manual](https://extension.umaine.edu/publications/7038e/appendix/),” accessed July 17, 2026.

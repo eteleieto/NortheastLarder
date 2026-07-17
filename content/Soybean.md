@@ -1,27 +1,20 @@
 ---
 title: Soybean
-aliases:
-  - soybeans
-tags:
-  - INGREDIENT
-source:
-pairing:
+aliases: [soybeans]
+tags: [INGREDIENT]
 ---
 
 *Glycine max*
 
-Soybean is a legume used as a whole bean and as the basis for foods including soy milk, tofu, miso, shoyu, and tempeh. Its seeds are important sources of protein and oil.[^1]
+Soybean is a legume grown for protein- and oil-rich seeds. It is botanically related to [[Dry Bean|dry beans]], [[Pea|peas]], and [[Peanut 1|peanuts]], though its food role is distinct.[^1]
 
-### History
+### Northeast notes
 
-The cultivated soybean was domesticated in East Asia from its wild relative, *Glycine soja*; USDA documentation places this domestication between the seventeenth and eleventh centuries BCE.[^2]
+Soybean is among the crops used in Maine farm rotations and oilseed work, including local experiments with sunflower and soybean oil.[^1]
 
-### Useful facts
+### A useful distinction
 
-- Commercial soybeans contain roughly 38% protein and 18% oil, though composition varies by cultivar and growing conditions.[^2]
-- Soy milk and tofu begin with soaked, ground soybeans; fermentation further transforms soybean foods such as miso and shoyu.[^1]
+Edamame is an immature green soybean harvested while the seed is still tender. Dry soybeans are the mature form used for oil, flour, soy milk, tofu, and fermented foods. [[Okara]] is the pulp left when ground beans are filtered during soy-milk production.[^2]
 
-### Sources
-
-[^1]: K. Gomi, “Japanese Traditional Miso and Koji Making,” *Journal of Fungi* 7, no. 7 (2021): 579, [https://doi.org/10.3390/jof7070579](https://doi.org/10.3390/jof7070579).
-[^2]: USDA Animal and Plant Health Inspection Service, “[Petition for Determination of Nonregulated Status: GMB151 soybean](https://www.aphis.usda.gov/sites/default/files/19-317-01p-dppra.pdf),” pp. 8–9, accessed July 17, 2026.
+[^1]: University of Maine Cooperative Extension, “[Growing and Pressing Sunflowers for Organic Livestock Protein Supplements](https://extension.umaine.edu/agriculture/sustainable-agriculture/profile-sunflowers/),” accessed July 17, 2026.
+[^2]: Food and Agriculture Organization of the United Nations, “[Soybeans: Post-Harvest Operations](https://www.fao.org/fileadmin/user_upload/inpho/docs/Post_Harvest_Compendium_-_SOYBEAN.pdf),” accessed July 17, 2026.

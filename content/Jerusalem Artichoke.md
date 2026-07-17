@@ -1,29 +1,20 @@
 ---
 title: Jerusalem Artichoke
-aliases:
-  - sunchoke
-  - sunchokes
-tags:
-  - INGREDIENT
-source:
-pairing:
+aliases: [sunchoke, sunchokes]
+tags: [INGREDIENT]
 ---
 
 *Helianthus tuberosus*
 
-Also called sunchoke, Jerusalem artichoke is the edible tuber of a North American sunflower relative. Its crisp flesh and inulin-rich carbohydrate profile make it useful raw, roasted, puréed, or fermented.[^1]
+Jerusalem artichoke is a sunflower-family perennial grown for its knobbly underground tubers. It is native to North America and has a long Northeast food history.[^1]
 
-### History
+### Connections
 
-The plant is native to North America and was cultivated for its edible tubers in pre-Columbian times. The tubers reached Europe in the early seventeenth century.[^2]
+It is more closely related to [[Sunflower Seed 1|sunflower]] than to the globe artichoke. In some Indigenous “Seven Sisters” accounts from the Northeast, it appears alongside corn, beans, squash, sunflower, and other regional crops.[^1]
 
-### Useful facts
+### A useful oddity
 
-- “Jerusalem artichoke” and “sunchoke” name the same product, *Helianthus tuberosus*.[^3]
-- The tubers naturally contain inulin; its presence can affect digestibility for some people.[^1]
+Neither half of the English name is botanically helpful: the plant is native to North America rather than Jerusalem, and the food part is a tuber rather than the flower bud eaten from a globe artichoke.[^2]
 
-### Sources
-
-[^1]: N. S. Dias et al., “[Jerusalem artichoke (*Helianthus tuberosus*, L.) maintains high inulin, tuber yield, and antioxidant capacity under moderately-saline irrigation waters](https://doi.org/10.1016/j.indcrop.2016.09.029),” *Industrial Crops and Products* 94 (2016): 1009–1024.
-[^2]: M. C. Shannon and C. M. Grieve, “[Tolerance of vegetable crops to salinity](https://www.ars.usda.gov/arsuserfiles/20361500/pdf_pubs/P1567.pdf),” *Scientia Horticulturae* 78 (1999): 5–38.
-[^3]: USDA National Agricultural Library, “[Jerusalem artichokes](https://lod.nal.usda.gov/nalt/en/page/12573),” accessed July 17, 2026.
+[^1]: University of Maine Cooperative Extension, “[Maine Home Garden News — October 2024](https://extension.umaine.edu/gardening/2024/09/27/maine-home-garden-news-october-2024/),” 2024.
+[^2]: North Carolina Cooperative Extension, “[Jerusalem Artichoke](https://plants.ces.ncsu.edu/plants/helianthus-tuberosus/common-name/jerusalem-artichoke/),” accessed July 17, 2026.

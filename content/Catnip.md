@@ -1,25 +1,22 @@
 ---
 title: Catnip
-tags:
-  - INGREDIENT
-source:
-pairing:
+tags: [INGREDIENT]
 ---
 
 *Nepeta cataria*
 
-Catnip is an aromatic mint-family herb. In food use, its leaves and flowers are most often steeped as a simple herbal infusion; use it gently, as the flavor is grassy, minty, and somewhat bitter.[^1]
+Catnip is a hardy perennial in the mint family, with gray-green scalloped leaves and a spreading habit familiar from many other mints.[^1]
 
-### Kitchen notes
+### Food notes
 
-- Use fresh or dried leaves for tea and blends rather than treating catnip as a major cooked green.
-- Harvest clean, unsprayed material and dry it thoroughly before long storage.
+The leaves have a long history as an infusion herb. Lemon catnip is a form selected for a distinct lemon aroma.[^1]
 
-### Northeast notes
+### A useful distinction
 
-Catnip is included among the common herbs suitable for home gardens in Pennsylvania, and many culinary herbs can be grown outdoors across the Northeast.[^1][^2]
+Catnip and ornamental catmint are related but not necessarily interchangeable names. *Nepeta cataria* is the species most strongly associated with the characteristic feline response.
 
-### Sources
+### Connections
 
-[^1]: Penn State Extension, “[Herbs for the Home Gardener](https://extension.psu.edu/herbs-for-the-home-gardener),” accessed July 17, 2026.
-[^2]: Penn State Extension, “[Growing Herbs in the Garden](https://extension.psu.edu/growing-herbs-in-the-garden),” accessed July 17, 2026.
+It is related to [[Mint 1|mint]], [[Bee Balm|bee balm]], and [[Lemon Balm 1|lemon balm]].
+
+[^1]: University of Illinois Extension, “[Catnip](https://extension.illinois.edu/herbs/catnip),” accessed July 17, 2026.

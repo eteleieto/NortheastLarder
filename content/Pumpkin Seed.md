@@ -1,25 +1,16 @@
 ---
 title: Pumpkin Seed
-aliases:
-  - pumpkin seeds
-tags:
-  - INGREDIENT
-source:
-pairing:
+aliases: [pumpkin seeds, pepitas]
+tags: [INGREDIENT]
 ---
 
-The edible seed removed from a pumpkin or other winter squash. It can be roasted directly or dried for later use; hulless-seeded cultivars produce seeds without the hard shell that usually needs cracking.[^1]
+Pumpkin seeds are the mature seeds of *Cucurbita* fruits. Hull-less “pepita” types and ordinary hulled pumpkin seeds are related but visually quite different.[^1]
 
-### Useful facts
+### Plant notes
 
-- Pumpkins belong to two *Cucurbita* species, while edible winter squash—including buttercup types—span three species.[^1]
-- The flavor and texture of the seed vary with its cultivar and whether it has a hull; “naked” or hulless types are particularly suited to roasting.[^1]
+The seed sits inside the fibrous cavity of a mature squash or pumpkin. Its relationship to [[Squash Blossom|squash blossoms]] is direct: both are parts of the same cucurbit plant.
 
-### Northeast notes
+The white part around an ordinary pumpkin seed is a tough hull; the green kernel lies inside it. Hull-less or “naked-seeded” pumpkins carry a mutation that reduces cellulose and lignin in the seed coat, leaving only a thin covering around the kernel.[^2]
 
-UMaine lists roasted pumpkin seeds as a practical use for winter squash and pumpkins. Maine-grown pumpkins are generally available in September and October.[^2]
-
-### Sources
-
-[^1]: University of Minnesota Extension, “[Growing pumpkins and winter squash in home gardens](https://extension.umn.edu/vegetables/pumpkins-and-winter-squash),” accessed July 17, 2026.
-[^2]: University of Maine Cooperative Extension, “[Winter Squash](https://extension.umaine.edu/harvest-for-hunger/vegetable-basics/winter-squash/),” accessed July 17, 2026.
+[^1]: University of Maine Cooperative Extension, “[Pumpkin Seeds, Roasted](https://extension.umaine.edu/food-health/recipes/roasted-pumpkin-seeds/),” accessed July 17, 2026.
+[^2]: Todd N. Bezold et al., “[Molecular Analysis of the Hull-Less Seed Trait in Pumpkin](https://scholars.unh.edu/nhaes/231/),” University of New Hampshire Agricultural Experiment Station, 2005.

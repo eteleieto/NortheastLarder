@@ -1,24 +1,20 @@
 ---
 title: Caraway
-tags:
-  - INGREDIENT
-source:
-pairing:
+tags: [INGREDIENT]
 ---
 
 *Carum carvi*
 
-Caraway is a warm, anise-like spice whose dried fruits are commonly called seeds. Use it whole or ground in rye breads, cabbage dishes, pickles, cheeses, aquavit, and savory baked goods.[^1]
+Caraway is a biennial in the carrot family. What is commonly called the “seed” is botanically a dry fruit containing the seed.[^1]
 
-### Kitchen notes
+### Connections
 
-- Toast whole caraway briefly before grinding or steeping to intensify its aroma.
-- Its assertive flavor pairs especially well with rye, potato, cabbage, apple, and rich dairy.
+It is related to [[Carrot 1|carrot]], [[Parsnip|parsnip]], celery, dill, and parsley. Its warm, anise-like aroma is chemically and botanically distinct from the mustardy compounds of [[Cabbage|cabbage]] and [[Radish|radish]].[^2]
 
-### Northeast notes
+### A useful oddity
 
-Caraway is a biennial herb and can be grown in outdoor Northeast herb gardens. Penn State lists it among herbs suited to cultivation in the region.[^1]
+Because caraway is biennial, it generally makes leafy growth in its first year and flowers and sets its aromatic fruits in the second. The young root and leaves are edible too, so the familiar “seed” is only one food part of the plant.[^3]
 
-### Sources
-
-[^1]: Penn State Extension, “[Growing Herbs in the Garden](https://extension.psu.edu/growing-herbs-in-the-garden),” accessed July 17, 2026.
+[^1]: Penn State Extension, “[Growing Herbs in the Garden](https://extension.psu.edu/growing-herbs-in-the-garden),” 2026.
+[^2]: University of Maine Cooperative Extension, “[Plant Families for Gardeners](https://extension.umaine.edu/gardening/2021/04/01/maine-home-garden-news-april-2021/),” 2021.
+[^3]: University of Illinois Extension, “[Caraway](https://extension.illinois.edu/herbs/caraway),” accessed July 17, 2026.

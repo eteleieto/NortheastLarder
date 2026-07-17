@@ -1,25 +1,24 @@
 ---
 title: Spruce
-tags:
-  - INGREDIENT
-source:
-pairing:
+aliases: [spruce tips]
+tags: [INGREDIENT]
 ---
 
 *Picea* spp.
 
-Spruce tips are the tender new growth at the ends of spruce branches. They bring a bright resinous, citrus-like forest flavor to syrups, sugar, salt, ferments, and cures.[^1]
-
-### Kitchen notes
-
-- Use only the soft, newly emerged tips; their flavor is fresher and less woody than mature needles.
-- Excellent uses include syrup, a light infusion, sugar, salt, or a cure for fish and meat.[^1]
+Spruce tips are the soft, pale new shoots at the ends of branches. At that stage their flavor is brighter and less woody than mature needles, often reading as resin, citrus peel, and green fruit.
 
 ### Northeast notes
 
-Spruce is a familiar part of Maine forests. Correct identification matters: UMaine distinguishes spruce’s short, pointed, prickly needles from the blunter needles of balsam fir.[^2]
+Red, white, and black spruce all occur in Maine, and spruce-fir forest is especially characteristic of the state’s cooler coast and north. Spruce needles are short, sharp, and attached singly rather than in the bundles seen on [[Pine 1|pine]].[^1]
 
-### Sources
+### Food history
 
-[^1]: Cornell Maple Program, “[About Birch Syrup](https://blogs.cornell.edu/cornellmaple/about-birch-syrup/),” accessed July 17, 2026.
-[^2]: University of Maine Cooperative Extension, “[Balsam Fir Tip Harvesting](https://extension.umaine.edu/publications/7011e/),” accessed July 17, 2026.
+Young spruce growth has a long food and drink history in northern regions. Newly grown tips have been used to flavor spruce beer, while Indigenous peoples in spruce country also ate young shoots and inner bark.[^2]
+
+### A useful oddity
+
+The common field test for a spruce needle is that it rolls between the fingers: unlike a flat fir or hemlock needle, it is roughly four-sided. Careful identification still matters around any wild needled evergreen.
+
+[^1]: University of Maine Cooperative Extension, “[Balsam Fir Tip Harvesting](https://extension.umaine.edu/publications/7011e/),” accessed July 17, 2026; National Park Service, “[Sea to Trees](https://www.nps.gov/podcasts/sea-to-trees.htm),” 2024.
+[^2]: National Park Service, “[Battle of the Bark](https://www.nps.gov/articles/000/battle-of-the-bark.htm),” 2022.

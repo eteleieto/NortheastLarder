@@ -1,27 +1,22 @@
 ---
 title: Red Raspberry
-aliases:
-  - red raspberries
-tags:
-  - INGREDIENT
-source:
-pairing:
+tags: [INGREDIENT]
 ---
 
-*Rubus idaeus*
+*Rubus idaeus* and hybrids
 
-Red raspberry is an aggregate berry borne on biennial canes. It is suited to fresh eating, freezing, preserves, and fermentation.[^1]
-
-### Useful facts
-
-- The pale receptacle, or “rasp,” remains on the plant when a raspberry is picked; in blackberries it stays with the fruit.[^2]
-- Red raspberries are generally the hardiest commonly grown raspberry type.[^1]
+Red raspberries are aggregate fruits made of many drupelets. Unlike blackberries, ripe raspberries separate from their core, leaving a hollow center.[^1]
 
 ### Northeast notes
 
-Red raspberries are readily adaptable across New England. For northern New England, UMaine recommends very hardy varieties with early or mid-season ripening; black and purple raspberries are less cold-hardy and need more protected sites.[^1]
+Raspberries and blackberries are both brambles, but red raspberry is generally the more familiar hardy garden fruit across northern New England.[^1]
 
-### Sources
+### Connections
 
-[^1]: University of Maine Cooperative Extension, “[Growing Raspberries and Blackberries](https://extension.umaine.edu/publications/2066e/),” accessed July 17, 2026.
-[^2]: University of Maine Cooperative Extension, “[Red raspberry](https://extension.umaine.edu/blueberries/weed-images/woody-weeds/red-raspberry/),” accessed July 17, 2026.
+[[Blackberry|Blackberries]] and raspberries share the genus *Rubus*. Their clustered drupelets explain the similar look, even though the fruit separates differently.
+
+### A useful distinction
+
+The hollow center of a picked raspberry is not damage: it is the ordinary result of its fruit separating from the receptacle.[^1]
+
+[^1]: University of Maine Cooperative Extension, “[Raspberries and Blackberries](https://extension.umaine.edu/publications/4267e/),” accessed July 17, 2026.
