@@ -116,11 +116,78 @@ body.global-graph-active {
     @include panels.panel-close-inline;
   }
 
+  .global-graph-header {
+    gap: 0.75rem;
+  }
+
+  .global-graph-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: min(22rem, 48vw);
+    margin-left: auto;
+    color: var(--darkgray);
+
+    > svg {
+      position: absolute;
+      left: 0.65rem;
+      pointer-events: none;
+    }
+  }
+
+  .global-graph-search-input {
+    width: 100%;
+    height: 2rem;
+    padding: 0 4.5rem 0 2rem;
+    border: 1px solid var(--lightgray);
+    border-radius: $radius-sm;
+    background: var(--light);
+    color: var(--dark);
+    font: inherit;
+    font-size: 0.85rem;
+
+    &:focus {
+      border-color: var(--secondary);
+      outline: 2px solid color-mix(in srgb, var(--secondary) 24%, transparent);
+      outline-offset: 1px;
+    }
+
+    &::placeholder {
+      color: var(--gray);
+    }
+  }
+
+  .global-graph-search-count {
+    position: absolute;
+    right: 0.65rem;
+    font-size: 0.75rem;
+    color: var(--gray);
+    pointer-events: none;
+  }
+
   .global-graph-container {
     flex: 1;
     min-height: 0;
     background-color: var(--light);
     box-sizing: border-box;
     width: 100%;
+  }
+
+  @media all and ($mobile) {
+    padding: 0.35rem;
+
+    .global-graph-header {
+      gap: 0.4rem;
+    }
+
+    .panel-header-title {
+      display: none;
+    }
+
+    .global-graph-search {
+      width: auto;
+      flex: 1;
+      margin-left: 0;
+    }
   }
 }

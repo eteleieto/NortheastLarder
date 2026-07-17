@@ -60,7 +60,7 @@ const recentBlogPosts = Component.RecentNotes({
 })
 
 const recentNotes = Component.RecentNotes({
-  title: "Recent Notes",
+  title: "Recent Experiments",
   showTags: false,
   limit: 3,
   filter: (page) => {

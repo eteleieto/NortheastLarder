@@ -8,6 +8,7 @@ import { htmlToJsx } from "../../util/jsx"
 import { i18n } from "../../i18n"
 import { ComponentChildren } from "preact"
 import { concatenateResources } from "../../util/resources"
+import { isWipPage } from "../../util/wip"
 
 interface TagContentOptions {
   sort?: SortFn
@@ -30,10 +31,25 @@ export default ((opts?: Partial<TagContentOptions>) => {
     }
 
     const tag = simplifySlug(slug.slice("tags/".length) as FullSlug)
-    const allPagesWithTag = (tag: string) =>
-      allFiles.filter((file) =>
+    const allPagesWithTag = (tag: string) => {
+      const matches = allFiles.filter((file) =>
         (file.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes).includes(tag),
       )
+      const uniquePages = new Map<string, QuartzPluginData>()
+
+      for (const page of matches) {
+        const title = page.frontmatter?.title?.trim().toLocaleLowerCase()
+        const key = title || page.slug || page.relativePath
+        if (!key) continue
+
+        const existing = uniquePages.get(key)
+        if (!existing || (isWipPage(existing) && !isWipPage(page))) {
+          uniquePages.set(key, page)
+        }
+      }
+
+      return [...uniquePages.values()]
+    }
 
     const content = (
       (tree as Root).children.length === 0
