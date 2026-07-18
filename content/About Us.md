@@ -39,3 +39,5 @@ We're currently working with a restaurant set to open in the Fall of 2026 in Bro
 ## Contact
 
 Are you a restaurant or individual looking to collaborate? Does any of this resonate with you? Do you strongly disagree? Email [info@northeastlarder.com](mailto:info@northeastlarder.com). We love to chat.
+
+You can also follow us on [Instagram](https://www.instagram.com/northeastlarder/?hl=en), where we regularly post more visual content from our research, along with occasional short-form videos.
