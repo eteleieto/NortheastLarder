@@ -11,7 +11,7 @@ Violets are sweet, perfumed spring flowers with a delicate flavor and a deep pur
 
 Common blue violet leaves are edible as well as the flowers; the roots are not. With edible flowers, identification and growing conditions matter: UMaine cautions against flowers from florists, nurseries, roadsides, or plants treated with pesticides not approved for food crops.[^2][^3]
 
-The flower’s blue-purple is produced by anthocyanins, the same broad pigment group found in [[Wild Blueberry|blueberries]], [[Blackberry|blackberries]], and red-purple [[Grape|grapes]].[^4]
+The flower’s blue-purple is produced by anthocyanins, a broad pigment group found across many red, blue, and purple plants.[^4]
 
 [^1]: University of Maine Cooperative Extension, “[Edible Flowers: Pretty in Your Garden and a Culinary Delight](https://extension.umaine.edu/gardening/2012/06/05/maine-home-garden-news-june-2012/),” accessed July 17, 2026.
 [^2]: University of Maine Cooperative Extension, “[Edible Flowers: Pretty in Your Garden and a Culinary Delight](https://extension.umaine.edu/gardening/2012/06/05/maine-home-garden-news-june-2012/),” accessed July 17, 2026.

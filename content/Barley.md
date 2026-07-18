@@ -17,7 +17,7 @@ In U.S. grain standards, ordinary barley and malting barley are separate classes
 
 ### Barley already in the larder
 
-Barley keeps showing up across the notebook in [[Koji (Pearled Barley)]], [[Lacto Barley and Soy]], [[Toasted Barley Kombucha]], and [[Barley Soy Miso]]. It also belongs to the same small-grain conversation as [[Oat]], [[Rye]], and [[Wheat]].
+Current work with the grain includes [[Koji (Pearled Barley)]], [[Toasted Barley Kombucha]], and [[Barley Soy Miso]]. Each preparation leans on a different part of barley's character: its starch, its response to malting, or its affinity for fermentation.
 
 [^1]: University of Maine Cooperative Extension, “[Spring Barley Variety Trials](https://extension.umaine.edu/grains-oilseeds/topics/spring-barley-variety-trials/),” accessed July 18, 2026.
 [^2]: U.S. Department of Agriculture Agricultural Marketing Service, “[United States Standards for Barley](https://www.ams.usda.gov/sites/default/files/media/BarleyStandards.pdf),” accessed July 18, 2026.

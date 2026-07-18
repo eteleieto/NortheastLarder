@@ -10,7 +10,7 @@ Turnips are crisp and peppery when young, becoming sweeter and more earthy as th
 
 ### The chemistry behind the brassica bite
 
-Turnip’s brassica bite links it to [[Cabbage|cabbage]], [[Kale|kale]], and [[Radish|radish]]. The shared family chemistry includes glucosinolates, sulfur-rich defense compounds.[^2]
+Turnip’s brassica bite comes partly from glucosinolates, sulfur-rich defense compounds found across the mustard family.[^2]
 
 ### Two sowing windows
 

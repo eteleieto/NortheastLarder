@@ -15,7 +15,7 @@ Maple sap products were an essential part of many Native American communities lo
 
 ### Flavor made during evaporation
 
-[[Cranberry]] and [[Wild Blueberry|wild blueberry]] share maple syrup’s strong Northeast identity, but their chemistry is very different: maple’s characteristic flavor starts in sap, alongside sucrose and amino acids, then concentrates during evaporation.[^2]
+Fresh sap is only faintly sweet. Maple's characteristic flavor develops as sucrose, amino acids, and other dissolved material concentrate and react during evaporation.[^2]
 
 [^1]: University of Maine Cooperative Extension, “[Maple Syrup Quality Control Manual](https://extension.umaine.edu/publications/7038e/),” accessed July 17, 2026.
 [^2]: University of Maine Cooperative Extension, “[How to Tap Maple Trees and Make Maple Syrup](https://extension.umaine.edu/publications/7036e/),” updated 2025.

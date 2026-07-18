@@ -13,9 +13,7 @@ The region’s cool nights help preserve acidity and color in apples. Variety ch
 
 ### An apple is a rose
 
-Apple belongs to the rose family, along with [[Strawberry|strawberry]], [[Red Raspberry|raspberry]], [[Blackberry|blackberry]], peaches, cherries, and [[Rose Hip|rose hips]]. The family resemblance is easier to see in the five-petaled flowers than in the finished fruits.[^2]
-
-Apples also connect readily with [[Cranberry|cranberry]], [[Parsnip|parsnip]], and [[Cabbage|cabbage]] through a shared cool-climate, storage-crop character.
+Apple is a member of the rose family, though the finished fruit gives little sign of it. The relationship is much easier to see in the tree's five-petaled flowers.[^2]
 
 [^1]: University of Maine Cooperative Extension, “[Vegetables and Fruits for Health: Apples](https://extension.umaine.edu/publications/4262e/),” accessed July 17, 2026.
 [^2]: Smithsonian Gardens, “[An Apple Is a Rose?](https://gardens.si.edu/gardens/folger-rose-garden/an-apple-is-a-rose/),” accessed July 17, 2026.

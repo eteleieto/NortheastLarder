@@ -73,13 +73,6 @@ type NodeRenderData = {
 
 type SearchMatchKind = "title" | "content"
 
-type GraphSearchResult = {
-  id: SimpleSlug
-  kind: SearchMatchKind
-  title: string
-  excerpt?: string
-}
-
 const NODE_ANIM_MS = 200
 const LABEL_ANIM_MS = 100
 const HOVER_DIM_ALPHA = 0.2
@@ -92,45 +85,6 @@ function normalizeGraphSearch(value: string): string {
   return value.trim().toLocaleLowerCase()
 }
 
-function parseGraphSearch(value: string): string[] {
-  return [...value.matchAll(/"([^"]+)"|(\S+)/g)]
-    .map((match) => normalizeGraphSearch(match[1] ?? match[2] ?? ""))
-    .filter(Boolean)
-}
-
-function escapeGraphSearchRegex(value: string): string {
-  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
-}
-
-function matchesGraphSearch(value: string, terms: string[], wholeWords: boolean): boolean {
-  const normalized = normalizeGraphSearch(value)
-  return terms.every((term) => {
-    if (!wholeWords) return normalized.includes(term)
-    const escaped = escapeGraphSearchRegex(term)
-    return new RegExp(`(^|[^\\p{L}\\p{N}])${escaped}(?=$|[^\\p{L}\\p{N}])`, "iu").test(normalized)
-  })
-}
-
-function graphContentExcerpt(content: string, terms: string[]): string {
-  const plain = content
-    .replace(/```[\s\S]*?```/g, " ")
-    .replace(/!\[([^\]]*)\]\([^)]+\)/g, "$1")
-    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/[#*_>`~|]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim()
-  const normalized = plain.toLocaleLowerCase()
-  const firstMatch = Math.min(
-    ...terms.map((term) => normalized.indexOf(term)).filter((index) => index >= 0),
-  )
-  const matchIndex = Number.isFinite(firstMatch) ? firstMatch : 0
-  const start = Math.max(0, matchIndex - 48)
-  const end = Math.min(plain.length, matchIndex + 112)
-  const excerpt = plain.slice(start, end).trim()
-  return `${start > 0 ? "…" : ""}${excerpt}${end < plain.length ? "…" : ""}`
-}
-
 /** Exponential ease toward target — frame-rate independent, no tween allocations. */
 function approach(current: number, target: number, dtMs: number, durationMs: number): number {
   if (durationMs <= 0) return target
@@ -141,11 +95,6 @@ function approach(current: number, target: number, dtMs: number, durationMs: num
 
 const localStorageKey = "graph-visited"
 let cachedGraphData: Map<SimpleSlug, ContentDetails> | null = null
-const savedGraphSearch = {
-  query: "",
-  wholeWords: false,
-  selectedSlug: null as SimpleSlug | null,
-}
 
 function getVisited(): Set<SimpleSlug> {
   return new Set(JSON.parse(localStorage.getItem(localStorageKey) ?? "[]"))
@@ -337,8 +286,6 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   let hoveredNodeId: string | null = null
   let hoveredNeighbours: Set<string> = new Set()
   let searchMatches: Map<string, SearchMatchKind> | null = null
-  let searchResults: GraphSearchResult[] = []
-  let selectedSearchIndex = -1
   let currentScaleOpacity = 0
   let dragging = false
   let dragStartPointer: { x: number; y: number } | null = null
@@ -625,189 +572,47 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   const searchClear = graphOverlay?.querySelector<HTMLButtonElement>(".global-graph-search-clear")
   const searchStatus = graphOverlay?.querySelector<HTMLElement>(".global-graph-search-status")
   const searchLegend = graphOverlay?.querySelector<HTMLElement>(".global-graph-search-legend")
-  const titleCountLabel = graphOverlay?.querySelector<HTMLElement>(".global-graph-title-count")
-  const contentCountLabel = graphOverlay?.querySelector<HTMLElement>(".global-graph-content-count")
-  const resultsPanel = graphOverlay?.querySelector<HTMLElement>(".global-graph-search-results")
-  const resultsTotal = graphOverlay?.querySelector<HTMLElement>(".global-graph-results-total")
-  const resultsList = graphOverlay?.querySelector<HTMLElement>(".global-graph-results-list")
-  const resultPosition = graphOverlay?.querySelector<HTMLElement>(".global-graph-result-position")
-  const previousResult = graphOverlay?.querySelector<HTMLButtonElement>(".global-graph-result-prev")
-  const nextResult = graphOverlay?.querySelector<HTMLButtonElement>(".global-graph-result-next")
-  const wholeWordsButton = graphOverlay?.querySelector<HTMLButtonElement>(
-    ".global-graph-whole-words",
-  )
-  const resetSearch = graphOverlay?.querySelector<HTMLButtonElement>(".global-graph-search-reset")
-
-  function renderSearchResults() {
-    if (!resultsList) return
-    removeAllChildren(resultsList)
-
-    if (resultsTotal) {
-      resultsTotal.textContent = `${searchResults.length} ${searchResults.length === 1 ? "result" : "results"}`
-    }
-    if (resultPosition) {
-      resultPosition.textContent =
-        selectedSearchIndex >= 0
-          ? `${selectedSearchIndex + 1} of ${searchResults.length}`
-          : searchResults.length > 0
-            ? "Enter to browse"
-            : "No results"
-    }
-    if (previousResult) previousResult.disabled = searchResults.length === 0
-    if (nextResult) nextResult.disabled = searchResults.length === 0
-
-    if (searchResults.length === 0) {
-      const empty = document.createElement("p")
-      empty.className = "global-graph-results-empty"
-      empty.textContent = "No matching pages"
-      resultsList.appendChild(empty)
-      return
-    }
-
-    for (const kind of ["title", "content"] as const) {
-      const group = searchResults.filter((result) => result.kind === kind)
-      if (group.length === 0) continue
-
-      const label = document.createElement("p")
-      label.className = "global-graph-result-group-label"
-      label.textContent = `${kind === "title" ? "Title" : "Content"} matches · ${group.length}`
-      resultsList.appendChild(label)
-
-      for (const result of group) {
-        const index = searchResults.indexOf(result)
-        const button = document.createElement("button")
-        button.type = "button"
-        button.className = "global-graph-result-item"
-        button.dataset.searchIndex = index.toString()
-        if (index === selectedSearchIndex) {
-          button.classList.add("active")
-          button.setAttribute("aria-current", "true")
-        }
-
-        const title = document.createElement("span")
-        title.className = "global-graph-result-title"
-        title.textContent = result.title
-        button.appendChild(title)
-
-        if (result.excerpt) {
-          const excerpt = document.createElement("span")
-          excerpt.className = "global-graph-result-excerpt"
-          excerpt.textContent = result.excerpt
-          button.appendChild(excerpt)
-        }
-
-        resultsList.appendChild(button)
-      }
-    }
-
-    if (selectedSearchIndex >= 0) {
-      resultsList
-        .querySelector<HTMLElement>(".global-graph-result-item.active")
-        ?.scrollIntoView({ block: "nearest" })
-    }
-  }
-
-  function focusGraphNode(nodeId: SimpleSlug) {
-    const node = graphData.nodes.find((candidate) => candidate.id === nodeId)
-    if (!node || node.x === undefined || node.y === undefined) return
-
-    const nodeX = node.x + width / 2
-    const nodeY = node.y + height / 2
-    const panelWidth = resultsPanel?.offsetWidth ?? 0
-    const panelHeight = resultsPanel?.offsetHeight ?? 0
-    const panelIsBelow = panelWidth > width * 0.7
-    const centerX = panelIsBelow ? width / 2 : (width - panelWidth) / 2
-    const centerY = panelIsBelow ? (height - panelHeight) / 2 : height / 2
-    const focusScale = Math.max(1.05, Math.min(currentTransform.k, 1.5))
-    applyTransform(focusScale, centerX - focusScale * nodeX, centerY - focusScale * nodeY)
-  }
-
-  function selectSearchResult(direction: 1 | -1, requestedIndex?: number) {
-    if (searchResults.length === 0) return
-    selectedSearchIndex =
-      requestedIndex ??
-      (selectedSearchIndex < 0
-        ? direction === 1
-          ? 0
-          : searchResults.length - 1
-        : (selectedSearchIndex + direction + searchResults.length) % searchResults.length)
-    const result = searchResults[selectedSearchIndex]
-    savedGraphSearch.selectedSlug = result.id
-    renderSearchResults()
-    focusGraphNode(result.id)
-    if (searchStatus) {
-      searchStatus.textContent = `${selectedSearchIndex + 1} of ${searchResults.length}: ${result.title}`
-    }
-  }
-
-  const applySearch = (preserveSelection = false) => {
+  const applySearch = () => {
     if (!searchInput) return
 
-    const terms = parseGraphSearch(searchInput.value)
-    const hasQuery = terms.length > 0
-    const previousSelection = preserveSelection ? savedGraphSearch.selectedSlug : null
-    savedGraphSearch.query = searchInput.value
-    searchMatches = hasQuery ? new Map<string, SearchMatchKind>() : null
-    const titleResults: GraphSearchResult[] = []
-    const contentResults: GraphSearchResult[] = []
+    const query = normalizeGraphSearch(searchInput.value)
+    searchMatches = query ? new Map<string, SearchMatchKind>() : null
 
-    if (hasQuery && searchMatches) {
+    if (query && searchMatches) {
       for (const node of graphData.nodes) {
         const details = data.get(node.id)
         if (!details) continue
 
-        if (matchesGraphSearch(details.title, terms, savedGraphSearch.wholeWords)) {
+        if (normalizeGraphSearch(details.title).includes(query)) {
           searchMatches.set(node.id, "title")
-          titleResults.push({ id: node.id, kind: "title", title: details.title })
-        } else if (matchesGraphSearch(details.content, terms, savedGraphSearch.wholeWords)) {
+        } else if (normalizeGraphSearch(details.content).includes(query)) {
           searchMatches.set(node.id, "content")
-          contentResults.push({
-            id: node.id,
-            kind: "content",
-            title: details.title,
-            excerpt: graphContentExcerpt(details.content, terms),
-          })
         }
       }
     }
-
-    const byTitle = (a: GraphSearchResult, b: GraphSearchResult) => a.title.localeCompare(b.title)
-    searchResults = [...titleResults.sort(byTitle), ...contentResults.sort(byTitle)]
-    selectedSearchIndex = previousSelection
-      ? searchResults.findIndex((result) => result.id === previousSelection)
-      : -1
-    savedGraphSearch.selectedSlug =
-      selectedSearchIndex >= 0 ? searchResults[selectedSearchIndex].id : null
 
     for (const node of nodeRenderData) {
       drawNode(node, searchMatches?.get(node.simulationData.id))
     }
 
     if (searchClear) searchClear.hidden = searchInput.value.length === 0
-    if (searchLegend) searchLegend.hidden = !hasQuery
-    if (resultsPanel) resultsPanel.hidden = !hasQuery
-    if (wholeWordsButton) {
-      wholeWordsButton.setAttribute("aria-pressed", savedGraphSearch.wholeWords.toString())
-    }
-    const titleCount = titleResults.length
-    const contentCount = contentResults.length
-    if (titleCountLabel) titleCountLabel.textContent = titleCount.toString()
-    if (contentCountLabel) contentCountLabel.textContent = contentCount.toString()
+    if (searchLegend) searchLegend.hidden = !query
     if (searchStatus) {
-      searchStatus.textContent = hasQuery
+      const titleCount = [...(searchMatches?.values() ?? [])].filter(
+        (kind) => kind === "title",
+      ).length
+      const contentCount = (searchMatches?.size ?? 0) - titleCount
+      searchStatus.textContent = query
         ? `${titleCount} title ${titleCount === 1 ? "match" : "matches"} and ${contentCount} content ${contentCount === 1 ? "match" : "matches"}`
         : ""
     }
 
-    renderSearchResults()
     setVisualTargets()
   }
 
   const clearSearch = () => {
     if (!searchInput) return
     searchInput.value = ""
-    savedGraphSearch.query = ""
-    savedGraphSearch.selectedSlug = null
     applySearch()
     searchInput.focus()
   }
@@ -817,40 +622,13 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       event.preventDefault()
       event.stopPropagation()
       clearSearch()
-    } else if (event.key === "Enter" && searchResults.length > 0) {
-      event.preventDefault()
-      selectSearchResult(event.shiftKey ? -1 : 1)
     }
   }
 
-  const handleWholeWords = () => {
-    savedGraphSearch.wholeWords = !savedGraphSearch.wholeWords
-    applySearch(true)
-  }
-
-  const handleSearchInput = () => applySearch()
-  const handlePreviousResult = () => selectSearchResult(-1)
-  const handleNextResult = () => selectSearchResult(1)
-
-  const handleResultClick = (event: MouseEvent) => {
-    const button = (event.target as Element | null)?.closest<HTMLButtonElement>(
-      ".global-graph-result-item",
-    )
-    if (!button?.dataset.searchIndex) return
-    selectSearchResult(1, Number(button.dataset.searchIndex))
-  }
-
-  searchInput?.addEventListener("input", handleSearchInput)
+  searchInput?.addEventListener("input", applySearch)
   searchInput?.addEventListener("keydown", handleSearchKeydown)
   searchClear?.addEventListener("click", clearSearch)
-  resetSearch?.addEventListener("click", clearSearch)
-  wholeWordsButton?.addEventListener("click", handleWholeWords)
-  previousResult?.addEventListener("click", handlePreviousResult)
-  nextResult?.addEventListener("click", handleNextResult)
-  resultsList?.addEventListener("click", handleResultClick)
-
-  searchInput && (searchInput.value = savedGraphSearch.query)
-  applySearch(true)
+  applySearch()
 
   let currentTransform = zoomIdentity
   let zoomBehavior: ReturnType<typeof zoom<HTMLCanvasElement, NodeData>> | null = null
@@ -1040,14 +818,9 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
 
   return () => {
-    searchInput?.removeEventListener("input", handleSearchInput)
+    searchInput?.removeEventListener("input", applySearch)
     searchInput?.removeEventListener("keydown", handleSearchKeydown)
     searchClear?.removeEventListener("click", clearSearch)
-    resetSearch?.removeEventListener("click", clearSearch)
-    wholeWordsButton?.removeEventListener("click", handleWholeWords)
-    previousResult?.removeEventListener("click", handlePreviousResult)
-    nextResult?.removeEventListener("click", handleNextResult)
-    resultsList?.removeEventListener("click", handleResultClick)
     stopAnimation = true
     if (animFrameId !== null) {
       cancelAnimationFrame(animFrameId)

@@ -10,7 +10,7 @@ Peanut is a legume, not a tree nut. Its seed develops underground after the flow
 
 ### A legume mistaken for a nut
 
-Peanut belongs with [[Soybean 1|soybean]], [[Dry Bean|dry beans]], and [[Pea|peas]] in the legume family, despite its culinary association with nuts.[^1]
+Peanut is a legume, despite its culinary association with nuts.[^1]
 
 ### Flowers above ground, pods below
 

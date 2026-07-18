@@ -252,11 +252,6 @@ body.global-graph-active {
       gap: 0.35rem;
       white-space: nowrap;
     }
-
-    strong {
-      color: var(--dark);
-      font-weight: $mediumWeight;
-    }
   }
 
   .global-graph-search-swatch {
@@ -272,173 +267,6 @@ body.global-graph-active {
     &.content-match {
       background: var(--graph-content-match);
     }
-  }
-
-  .global-graph-search-results {
-    position: absolute;
-    z-index: 3;
-    top: 6.6rem;
-    right: 0.75rem;
-    display: flex;
-    flex-direction: column;
-    width: min(17.5rem, calc(100% - 1.5rem));
-    max-height: min(20rem, calc(100% - 7.35rem));
-    min-height: 0;
-    overflow: hidden;
-    color: var(--dark);
-    background: var(--light);
-    border: 1px solid var(--lightgray);
-    border-radius: $radius-md;
-
-    &[hidden] {
-      display: none;
-    }
-  }
-
-  .global-graph-results-toolbar,
-  .global-graph-results-nav {
-    display: flex;
-    align-items: center;
-    flex-shrink: 0;
-    min-height: 2.25rem;
-    padding: 0 0.55rem;
-    border-bottom: 1px solid var(--lightgray);
-  }
-
-  .global-graph-results-total {
-    flex: 1;
-    font-size: 0.8rem;
-    font-weight: $mediumWeight;
-  }
-
-  .global-graph-whole-words,
-  .global-graph-search-reset,
-  .global-graph-result-prev,
-  .global-graph-result-next {
-    margin: 0;
-    padding: 0.25rem 0.4rem;
-    color: var(--darkgray);
-    background: transparent;
-    border: 0;
-    border-radius: $radius-sm;
-    font: inherit;
-    font-size: 0.72rem;
-    cursor: pointer;
-
-    &:hover,
-    &[aria-pressed="true"] {
-      color: var(--dark);
-      background: var(--lightgray);
-    }
-
-    &:focus-visible {
-      outline: 2px solid var(--secondary);
-      outline-offset: 1px;
-    }
-  }
-
-  .global-graph-search-reset {
-    margin-left: 0.15rem;
-  }
-
-  .global-graph-results-nav {
-    justify-content: center;
-    min-height: 2rem;
-    padding: 0 0.35rem;
-  }
-
-  .global-graph-result-prev,
-  .global-graph-result-next {
-    width: 1.65rem;
-    height: 1.5rem;
-    padding: 0;
-    font-size: 0.95rem;
-
-    &:disabled {
-      opacity: 0.35;
-      cursor: default;
-    }
-  }
-
-  .global-graph-result-position {
-    min-width: 7rem;
-    color: var(--darkgray);
-    font-size: 0.72rem;
-    text-align: center;
-  }
-
-  .global-graph-results-list {
-    min-height: 0;
-    overflow-y: auto;
-    overscroll-behavior: contain;
-    scrollbar-width: thin;
-  }
-
-  .global-graph-result-group-label {
-    position: sticky;
-    z-index: 1;
-    top: 0;
-    margin: 0;
-    padding: 0.5rem 0.65rem 0.3rem;
-    color: var(--darkgray);
-    background: color-mix(in srgb, var(--light) 96%, transparent);
-    font-size: 0.7rem;
-    font-weight: $mediumWeight;
-  }
-
-  .global-graph-result-item {
-    display: block;
-    width: 100%;
-    margin: 0;
-    padding: 0.5rem 0.65rem;
-    color: var(--dark);
-    background: transparent;
-    border: 0;
-    border-left: 2px solid transparent;
-    border-radius: 0;
-    font: inherit;
-    text-align: left;
-    cursor: pointer;
-
-    &:hover,
-    &.active {
-      background: var(--lightgray);
-    }
-
-    &.active {
-      border-left-color: var(--secondary);
-    }
-
-    &:focus-visible {
-      outline: 2px solid var(--secondary);
-      outline-offset: -2px;
-    }
-  }
-
-  .global-graph-result-title {
-    display: block;
-    font-size: 0.84rem;
-    font-weight: $mediumWeight;
-    line-height: 1.2;
-  }
-
-  .global-graph-result-excerpt {
-    display: -webkit-box;
-    margin-top: 0.2rem;
-    overflow: hidden;
-    color: color-mix(in srgb, var(--gray) 35%, var(--darkgray));
-    font-size: 0.73rem;
-    line-height: 1.3;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-  }
-
-  .global-graph-results-empty {
-    margin: 0;
-    padding: 1rem;
-    color: var(--darkgray);
-    font-size: 0.8rem;
-    text-align: center;
   }
 
   .global-graph-close {
@@ -461,19 +289,6 @@ body.global-graph-active {
     .global-graph-search {
       flex: 1;
       margin-left: 0.6rem;
-    }
-
-    .global-graph-search-legend {
-      top: 3.55rem;
-    }
-
-    .global-graph-search-results {
-      top: auto;
-      right: 0.5rem;
-      bottom: 0.5rem;
-      left: 0.5rem;
-      width: auto;
-      max-height: min(34vh, 18rem);
     }
   }
 }

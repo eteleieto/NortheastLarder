@@ -1,6 +1,6 @@
 import { Root as HTMLRoot, Element } from "hast"
 import { toString } from "hast-util-to-string"
-import { visit } from "unist-util-visit"
+import { SKIP, visit } from "unist-util-visit"
 
 const loadingCardsRegex = /\s*Loading cards\.{0,3}\s*/gi
 
@@ -125,30 +125,19 @@ function truncate(text: string, maxLength: number): string {
 
 /** Extract readable body text from HTML, skipping headings and card-list placeholders. */
 export function extractBodyText(tree: HTMLRoot): string {
-  const paragraphs: string[] = []
-
-  visit(tree, "element", (node: Element) => {
-    if (node.tagName === "p") {
-      const text = toString(node).replace(/\s+/g, " ").trim()
-      if (text && !/^Loading cards\.{0,3}$/i.test(text)) {
-        paragraphs.push(text)
-      }
-    }
-  })
-
-  if (paragraphs.length > 0) {
-    return paragraphs.join("\n")
-  }
-
   const parts: string[] = []
+
   visit(tree, "element", (node: Element) => {
-    if (/^h[1-6]$/.test(node.tagName)) return
-    if (node.tagName === "li") {
-      const text = toString(node).replace(/\s+/g, " ").trim()
-      if (text && !/^Loading cards\.{0,3}$/i.test(text)) {
-        parts.push(text)
-      }
+    if (node.tagName !== "p" && node.tagName !== "li") return
+
+    const text = toString(node).replace(/\s+/g, " ").trim()
+    if (text && !/^Loading cards\.{0,3}$/i.test(text)) {
+      parts.push(text)
     }
+
+    // A loose list item can contain paragraphs. Its complete text is already
+    // captured here, so skip descendants to avoid indexing it twice.
+    return SKIP
   })
 
   return parts.join("\n")

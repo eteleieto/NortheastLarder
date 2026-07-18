@@ -10,15 +10,12 @@ Strawberries are fragrant, sweet-tart aggregate fruits with a short, delicate po
 
 ### The seeds are on the outside—sort of
 
-[[Rhubarb]] and strawberry are a familiar Northeast preserve connection, but botanically they are unrelated. Strawberry belongs to the rose family with [[Apple|apple]], [[Red Raspberry|raspberry]], and [[Blackberry|blackberry]].[^3]
+The red, fleshy part is enlarged receptacle tissue rather than a botanical berry. The dots on its surface are achenes—small dry fruits, each formed from a separately pollinated ovule. Incomplete pollination is one reason a strawberry can develop misshapen areas.[^4]
 
 ### Cultivars for Maine gardens
 
-Maine Extension includes both cultivated and day-neutral strawberries among varieties suited to the state’s gardens.[^2]
-
-The red, fleshy part is enlarged receptacle tissue rather than a botanical berry. The dots on its surface are achenes—small dry fruits, each formed from a separately pollinated ovule. Incomplete pollination is one reason a strawberry can develop misshapen areas.[^4]
+Maine Extension includes both traditional June-bearing cultivars and day-neutral strawberries among varieties suited to the state’s gardens.[^2]
 
 [^1]: University of Maine Cooperative Extension, “[Food & Nutrition for the Home Gardener](https://extension.umaine.edu/gardening/manual/food-nutrition/),” accessed July 17, 2026.
 [^2]: University of Maine Cooperative Extension, “[Vegetable Varieties for Maine Gardens](https://extension.umaine.edu/publications/2190e/),” accessed July 17, 2026.
-[^3]: Smithsonian Gardens, “[An Apple Is a Rose?](https://gardens.si.edu/gardens/folger-rose-garden/an-apple-is-a-rose/),” accessed July 17, 2026.
 [^4]: University of Minnesota Extension, “[Small or Misshapen Strawberries](https://extension.umn.edu/strawberry-farming/small-or-misshapen-strawberries),” accessed July 17, 2026.

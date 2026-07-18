@@ -5,7 +5,6 @@ tags:
   - BLACKENED
 pairing:
 date: 2025-07-22
-project: "[[Blackening (Enzymatic)]]"
 description: This experiment compares three blackened tomato variations to see how salt and koji affect the outcome.
 ---
 ## Background

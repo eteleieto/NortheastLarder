@@ -5,7 +5,7 @@ tags: [INGREDIENT]
 
 *Mentha* spp.
 
-Mint is a group of strongly aromatic herbs in the same family as [[Bee Balm|bee balm]] and [[Lemon Balm 1|lemon balm]]. Many cultivated mints spread by runners, which explains both their persistence and their tendency to escape a small planting.[^1]
+Mint is a group of strongly aromatic herbs, not a single flavor or species. Many cultivated mints spread by runners, which explains both their persistence and their tendency to escape a small planting.[^1]
 
 ### Where the cooling sensation comes from
 

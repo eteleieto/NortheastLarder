@@ -10,7 +10,7 @@ Leeks are the gentler, sweeter allium, with white and pale-green layered stalks.
 
 ### Leaves layered in place of a bulb
 
-They are close relatives of [[Onion|onion]] and [[Garlic|garlic]], all members of the genus *Allium*. Leeks are grown for their long layered leaf bases rather than a round bulb.[^1]
+Leeks are alliums grown for long, layered leaf bases rather than a round bulb. Blanching the lower stem keeps that portion pale and tender.[^1]
 
 ### Start them early
 

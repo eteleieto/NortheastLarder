@@ -18,7 +18,7 @@ The flower cluster hangs from the middle of a narrow papery bract. Later, that b
 
 ### Honey scent before there is honey
 
-The honeylike scent makes linden an obvious link to [[Clover|clover]] and [[Buckwheat Honey|buckwheat honey]], but the aroma begins in the flower rather than in a finished honey.
+The honeylike aroma is already present in the flower. An infusion can suggest honey even when it contains no sweetener at all.
 
 [^1]: University of Minnesota Extension, “[Edible Flowers](https://extension.umn.edu/gardening-minnesota/edible-flowers),” accessed July 17, 2026.
 [^2]: Native Plant Trust, “[Tilia americana — American Linden](https://gobotany.nativeplanttrust.org/species/tilia/americana/),” accessed July 17, 2026.

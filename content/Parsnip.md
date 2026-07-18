@@ -10,7 +10,7 @@ Parsnips are sweet, fragrant roots with a flavor between carrot, celery root, an
 
 ### A pale root in the carrot family
 
-Parsnip is in the carrot family, Apiaceae, alongside [[Carrot 1|carrots]], celery, parsley, and dill. It is unrelated to [[Potato|potatoes]], despite their similar storage-root role.
+Parsnip is in the carrot family, Apiaceae. The pale storage root is botanically and aromatically closer to carrot, celery, parsley, and dill than to a potato.
 
 ### A long season in cool soil
 

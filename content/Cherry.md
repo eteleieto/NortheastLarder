@@ -21,7 +21,7 @@ Cherry skin and flesh surround the pit as a classic drupe, the same basic fruit 
 
 ### Sweet, sour, and unripe fruit
 
-Cherry sits with [[Unripe Peach|unripe peaches]], [[Unripe Plum|unripe plums]], and [[Sour Cherry|sour cherries]] inside *Prunus*. In flavor it often overlaps with [[Red Currant|red currants]] and [[Raspberry|raspberries]], which is part of why it keeps turning up in Northeast Larder ferments and fruit preserves.
+Sweet cherry, [[Sour Cherry|sour cherry]], peach, and plum all belong to *Prunus*. The shared stone-fruit structure matters in the kitchen, but sweetness, acidity, tannin, and firmness still vary sharply by species and cultivar.
 
 [^1]: University of Maine Cooperative Extension, “[Types of Fruit Trees](https://extension.umaine.edu/fruit/growing-fruit-trees-in-maine/varieties/),” accessed July 18, 2026.
 [^2]: National Park Service, “[Orchard History: Orchard Specialization and Industrialization, 1881–1945](https://www.nps.gov/articles/000/historic-context-orchards-1881-to-1945.htm),” 2022.

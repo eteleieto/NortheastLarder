@@ -17,7 +17,7 @@ University of Maine notes that winter squash is always eaten cooked, with sweet,
 
 ### The squash used here
 
-Buttercup shares the cucurbit family with [[Zucchini|zucchini]], [[Cucumber|cucumber]], and [[Squash Blossom|squash blossoms]]. In this notebook it is the squash behind [[Blackened Squash]], while [[Honeynut Squash]] fills a similar role in sweeter or more trim-driven experiments.
+Buttercup is the squash used in [[Blackened Squash]], where its dense flesh and high dry-matter content are more important than the cultivar name alone.
 
 [^1]: University of Maine Cooperative Extension, “[Bulletin #4176, Vegetables and Fruits for Health: Winter Squash and Pumpkins](https://extension.umaine.edu/publications/4176e/),” accessed July 18, 2026.
 [^2]: Cornell Cooperative Extension Eastern New York Commercial Horticulture, “[Squash- Winter](https://enych.cce.cornell.edu/crop.php?id=32),” accessed July 18, 2026.

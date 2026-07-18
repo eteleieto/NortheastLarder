@@ -10,7 +10,7 @@ Onions are a long-keeping Northeast storage vegetable with a balance of sweetnes
 
 ### Why cutting an onion changes it
 
-Onion, [[Garlic|garlic]], and [[Leek|leek]] share the allium family. When onion tissue is cut or crushed, thiosulfinates and related sulfur compounds shape its pungency and eye-watering effect.[^2]
+Cutting an onion breaks cells and allows previously separated chemicals to react. Thiosulfinates and related sulfur compounds shape both its pungency and its eye-watering effect.[^2]
 
 ### A long seedling season
 

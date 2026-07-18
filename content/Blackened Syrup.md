@@ -5,7 +5,6 @@ tags:
   - BLACKENED
 pairing:
 date: 2026-06-18
-project: "[[Blackening (Enzymatic)]]"
 description: This experiment tests how sorghum, honey, and maple syrup behave under a long blackening process.
 ---
 ## Background
@@ -17,4 +16,4 @@ Because of the lack of proteins for the Maillard reaction to occur, we expect th
 Reference point: [Noma Black Honey](https://www.instagram.com/p/CbkJJICIxEi/)
 
 
-Honey, after two weeks, definitely noticeably darker. 
+Honey, after two weeks, definitely noticeably darker.
