@@ -7,11 +7,11 @@ tags: [INGREDIENT]
 
 Staghorn sumac is a native Northeast shrub recognizable by its velvet-covered young branches and upright clusters of deep red fruit. The fruit’s tart surface gives it its food interest.[^1]
 
-### Plant notes
+### Red fruit is not poison sumac
 
 The red fruit clusters persist into winter and are not the same thing as the white berries of poisonous sumac, a different plant associated with wet habitats.[^1]
 
-### Northeast notes
+### A native shrub that still demands identification
 
 Staghorn sumac is among the native Maine shrubs documented by UMaine Extension; identification remains essential when gathering any wild food plant.[^1]
 

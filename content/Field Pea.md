@@ -8,11 +8,11 @@ tags: [INGREDIENT]
 
 Field peas are the dried, starchy side of the pea family. They have a nuttier, more substantial character than fresh garden peas and store well.[^1]
 
-### Northeast notes
+### A pulse in Maine grain trials
 
 Field peas are included in UMaine’s local grain-and-pulse research and variety-trial work.[^1]
 
-### Further notes
+### Field pea after drying
 
 Like dry beans and lentils, field peas are pulses when harvested as mature dried seeds.[^2]
 

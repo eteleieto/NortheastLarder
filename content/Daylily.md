@@ -7,7 +7,7 @@ tags: [INGREDIENT]
 
 Daylily buds and flowers have a soft asparagus-zucchini character. Only some people tolerate them well, so they are worth trying in a small amount first.[^1]
 
-### Further notes
+### One flower, one day
 
 Daylily is a perennial; UMaine recommends dividing crowded clumps during the cool, moist part of spring.[^2]
 

@@ -7,11 +7,11 @@ tags: [INGREDIENT]
 
 Clover is a legume, placing it in the same broad family as [[Pea|peas]], [[Dry Bean|beans]], and [[Soybean 1|soybean]]. Red and white clover are both familiar in Northeast fields and lawns.[^1]
 
-### Food notes
+### A flower to use lightly
 
 Red clover flowers are mildly sweet and sometimes infused, but UMN Extension advises moderation because the flowers are not easily digested.[^2]
 
-### A useful oddity
+### Nitrogen made at the roots
 
 Like other legumes, clover hosts nitrogen-fixing bacteria in root nodules. That plant-microbe relationship is why clover often appears in soil-building cover-crop mixtures.[^1]
 

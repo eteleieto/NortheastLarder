@@ -8,11 +8,11 @@ tags: [INGREDIENT]
 
 Soybean is a legume grown for protein- and oil-rich seeds. It is botanically related to [[Dry Bean|dry beans]], [[Pea|peas]], and [[Peanut 1|peanuts]], though its food role is distinct.[^1]
 
-### Northeast notes
+### Soybeans in a Maine rotation
 
 Soybean is among the crops used in Maine farm rotations and oilseed work, including local experiments with sunflower and soybean oil.[^1]
 
-### A useful distinction
+### Edamame is a harvest stage
 
 Edamame is an immature green soybean harvested while the seed is still tender. Dry soybeans are the mature form used for oil, flour, soy milk, tofu, and fermented foods. [[Okara]] is the pulp left when ground beans are filtered during soy-milk production.[^2]
 

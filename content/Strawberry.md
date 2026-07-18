@@ -8,11 +8,11 @@ tags: [INGREDIENT]
 
 Strawberries are fragrant, sweet-tart aggregate fruits with a short, delicate post-harvest life. Fully ripe fruit is aromatic and soft, two traits that also make it quick to bruise and decay.[^1]
 
-### Connections
+### The seeds are on the outside—sort of
 
 [[Rhubarb]] and strawberry are a familiar Northeast preserve connection, but botanically they are unrelated. Strawberry belongs to the rose family with [[Apple|apple]], [[Red Raspberry|raspberry]], and [[Blackberry|blackberry]].[^3]
 
-### Further notes
+### Cultivars for Maine gardens
 
 Maine Extension includes both cultivated and day-neutral strawberries among varieties suited to the state’s gardens.[^2]
 

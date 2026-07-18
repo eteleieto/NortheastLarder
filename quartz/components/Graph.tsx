@@ -186,6 +186,45 @@ export default ((opts?: Partial<GraphOptions>) => {
                     </svg>
                   </button>
                 </div>
+                <div class="global-graph-search-legend" hidden aria-hidden="true">
+                  <span>
+                    <span class="global-graph-search-swatch title-match"></span>
+                    <strong class="global-graph-title-count">0</strong> title
+                  </span>
+                  <span>
+                    <span class="global-graph-search-swatch content-match"></span>
+                    <strong class="global-graph-content-count">0</strong> content
+                  </span>
+                </div>
+                <aside class="global-graph-search-results" aria-label="Graph search results" hidden>
+                  <div class="global-graph-results-toolbar">
+                    <span class="global-graph-results-total"></span>
+                    <button type="button" class="global-graph-whole-words" aria-pressed="false">
+                      Whole words
+                    </button>
+                    <button type="button" class="global-graph-search-reset">
+                      Reset
+                    </button>
+                  </div>
+                  <div class="global-graph-results-nav">
+                    <button
+                      type="button"
+                      class="global-graph-result-prev"
+                      aria-label="Previous graph search result"
+                    >
+                      ←
+                    </button>
+                    <span class="global-graph-result-position">Enter to browse</span>
+                    <button
+                      type="button"
+                      class="global-graph-result-next"
+                      aria-label="Next graph search result"
+                    >
+                      →
+                    </button>
+                  </div>
+                  <div class="global-graph-results-list"></div>
+                </aside>
                 <div class="global-graph-container" data-cfg={JSON.stringify(globalGraph)}></div>
               </div>
             </div>

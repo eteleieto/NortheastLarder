@@ -7,11 +7,11 @@ tags: [INGREDIENT]
 
 Wheat is the grain most closely associated with flour and bread. Its gluten-forming proteins are what give wheat dough its characteristic stretch and structure.
 
-### Northeast notes
+### Food-grade wheat in Maine
 
 Maine Extension runs wheat variety trials and supports local food-grade grain production, including baking markets.[^1]
 
-### Further notes
+### The small-grain economy around it
 
 Wheat, barley, oats, and rye are the core small-grain group in Maine’s expanding specialty-grain economy.[^2]
 

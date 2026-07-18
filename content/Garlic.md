@@ -7,11 +7,11 @@ tags: [INGREDIENT]
 
 Garlic is the most pungent common allium, with a sharp heat that mellows dramatically with age or heat. Its early-season scapes are also an important Northeast market ingredient.[^1]
 
-### Connections
+### What happens when a clove is crushed
 
 Garlic is an allium alongside [[Onion|onion]] and [[Leek|leek]]. Crushing its tissue releases sulfur compounds called thiosulfinates, which account for much of the familiar pungent aroma.[^2]
 
-### Further notes
+### Five thousand years of cloves, rarely seed
 
 Garlic originated in central Asia and has been cultivated for roughly 5,000 years. It is usually propagated from cloves because it rarely produces true seed.[^3]
 

@@ -8,11 +8,11 @@ tags: [INGREDIENT]
 
 Rose hips are the fruits that remain after rose flowers are pollinated. Depending on species, they range from small and firm to the large orange-red hips of beach rose.[^1]
 
-### Food notes
+### Fruit, seeds, and irritating hairs
 
 The fleshy outer part is tart and aromatic. Inside are hard seeds surrounded by irritating hairs, which need to be removed or carefully strained out.[^2]
 
-### Northeast notes
+### The abundant but invasive beach rose
 
 Beach rose (*Rosa rugosa*) is common along the Maine coast but is introduced and can spread aggressively. Its hips may be locally abundant even though the plant is not native.[^1]
 

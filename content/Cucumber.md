@@ -8,11 +8,11 @@ tags: [INGREDIENT]
 
 Cucumber is clean, watery, and crisp, with a mild green flavor. It is a warm-season cucurbit whose high water content makes it feel especially refreshing.[^1]
 
-### Connections
+### The watery side of the squash family
 
 It shares the cucurbit family with [[Zucchini|zucchini]], [[Squash Blossom|squash blossoms]], and winter squash. Cucumbers are usually selected for a watery fruit rather than the denser flesh of squash.
 
-### Further notes
+### Pickling and slicing are different jobs
 
 Maine growers distinguish pickling types from slicing types partly by skin thickness and water content; those traits affect texture after preservation.[^2]
 

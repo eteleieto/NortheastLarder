@@ -8,7 +8,7 @@ tags: [INGREDIENT]
 
 Potatoes are starchy tubers and a longstanding Maine field and storage crop. Aroostook County became especially closely associated with commercial potato production.[^1]
 
-### Further notes
+### An Andean nightshade in northern soil
 
 Potato is a New World crop, domesticated in the Andes before spreading worldwide; it belongs to the nightshade family with [[Tomato|tomato]].[^2]
 

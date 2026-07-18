@@ -7,7 +7,7 @@ tags: [INGREDIENT]
 
 Nasturtium is an edible garden plant whose leaves, flowers, stems, and young seed pods all have a peppery, watercress-like bite. It grows easily in Northeast gardens.[^1]
 
-### Further notes
+### Peppery, but not a mustard
 
 The plant is not a true watercress or mustard, despite that familiar peppery flavor. Its unopened buds and young seed pods are the parts usually compared to capers; the round leaves and flowers are milder versions of the same peppery plant.[^2]
 

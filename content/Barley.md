@@ -7,15 +7,15 @@ tags: [INGREDIENT]
 
 Barley is a chewy grain with a mild, malty sweetness. In the Northeast it matters both as a food grain and as one of the region's core malting crops, so it sits at the overlap between porridge, bread, koji, and brewing.[^1]
 
-### Northeast notes
+### Two crops under one name
 
 University of Maine runs variety trials for both malting barley and hulless barley, which makes the crop's two Northeast identities easy to see: one aimed at malt quality, the other at direct food use.[^1]
 
-### Food notes
+### Malt barley and eating barley
 
 In U.S. grain standards, ordinary barley and malting barley are separate classes, and hulless barley is handled separately again.[^2] That bureaucratic distinction mirrors a useful kitchen one: some barley is grown for sprouting and enzyme development, while some is grown because it cooks well as a grain in its own right.
 
-### Connections
+### Barley already in the larder
 
 Barley keeps showing up across the notebook in [[Koji (Pearled Barley)]], [[Lacto Barley and Soy]], [[Toasted Barley Kombucha]], and [[Barley Soy Miso]]. It also belongs to the same small-grain conversation as [[Oat]], [[Rye]], and [[Wheat]].
 

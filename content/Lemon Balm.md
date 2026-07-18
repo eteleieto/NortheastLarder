@@ -7,7 +7,7 @@ tags: [INGREDIENT]
 
 Lemon balm is a lemon-scented mint-family herb. Its soft leaves have a volatile citrus-herbal aroma that fades with prolonged drying and storage.[^1]
 
-### Connections
+### Lemon aroma from a mint leaf
 
 It is related to [[Mint 1|mint]] and shares the family’s square stems and aromatic oils, but its characteristic note is lemon rather than menthol.
 

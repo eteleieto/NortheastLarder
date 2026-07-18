@@ -8,11 +8,11 @@ tags: [INGREDIENT]
 
 Zucchini is a tender summer squash, usually harvested young while its skin is thin and its seeds are small. It is productive in Northeast gardens and shares a plant with edible squash blossoms.[^1]
 
-### Connections
+### The blossom and the fruit
 
 The plant’s [[Squash Blossom|blossoms]] are edible too. Zucchini and many pumpkins are cultivars of *Cucurbita pepo*, even though their mature fruits look quite different.
 
-### Further notes
+### Full sun for a warm-season squash
 
 Zucchini is a warm-season cucurbit; UMaine groups it with tomatoes and cucumbers among fruiting crops that need at least eight hours of direct sun for good production.[^2]
 

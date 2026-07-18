@@ -12,13 +12,13 @@ pairing:
 
 Fiddleheads are the tightly coiled young fronds of the ostrich fern, a classic Northeast spring vegetable with a green, vegetal flavor often compared with asparagus.[^1]
 
-### Kitchen notes
+### Identify, cook, then season
 
 - Use only properly identified ostrich-fern fiddleheads: they have a smooth stem, a deep U-shaped groove, and brown papery scales. Not all fern fiddleheads are edible.[^2]
 - Never eat them raw or lightly cooked. Boil for 15 minutes or steam for 10–12 minutes before using in other preparations.[^2]
 - After cooking, pair simply with butter, vinegar, olive oil, salt, and pepper, or chill them for a salad.[^2]
 
-### Northeast notes
+### A short spring harvest
 
 Fiddleheads are an early-spring delicacy throughout the Northeast and Canadian Maritimes. They grow along riverbanks, streams, brooks, and woods; get landowner permission and harvest responsibly.[^2]
 

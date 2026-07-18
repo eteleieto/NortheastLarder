@@ -7,15 +7,15 @@ tags: [INGREDIENT]
 
 Red raspberries are aggregate fruits made of many drupelets. Unlike blackberries, ripe raspberries separate from their core, leaving a hollow center.[^1]
 
-### Northeast notes
+### The hardier familiar bramble
 
 Raspberries and blackberries are both brambles, but red raspberry is generally the more familiar hardy garden fruit across northern New England.[^1]
 
-### Connections
+### Why raspberries pull away hollow
 
 [[Blackberry|Blackberries]] and raspberries share the genus *Rubus*. Their clustered drupelets explain the similar look, even though the fruit separates differently.
 
-### A useful distinction
+### The hollow center is not damage
 
 The hollow center of a picked raspberry is not damage: it is the ordinary result of its fruit separating from the receptacle.[^1]
 

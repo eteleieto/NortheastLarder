@@ -7,11 +7,11 @@ tags: [INGREDIENT]
 
 New Jersey tea is a deciduous shrub native across New England. It has unusually deep roots and is adapted to persist after fire.[^1]
 
-### History
+### How it became “tea”
 
 The common name refers to the historical use of its leaves as a colonial tea substitute. A 1768 Boston newspaper even described Maine-grown material offered as an alternative to imported Bohea tea.[^2] It is not related to tea, *Camellia sinensis*.
 
-### Northeast notes
+### A shrub native across New England
 
 Native Plant Trust documents it in every New England state, including Maine.[^1]
 

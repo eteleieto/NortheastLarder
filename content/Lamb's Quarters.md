@@ -7,7 +7,7 @@ tags: [INGREDIENT]
 
 Lamb’s-quarters is a mild, tender wild green, often treated as a local spinach stand-in. It is common in Maine gardens and disturbed ground.[^1]
 
-### Further notes
+### The pale dusting on a young leaf
 
 The powdery, pale coating on young leaves is one practical clue that distinguishes lamb’s-quarters from the coastal orache described below.[^1]
 

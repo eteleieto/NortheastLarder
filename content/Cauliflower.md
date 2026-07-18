@@ -7,11 +7,11 @@ tags: [INGREDIENT]
 
 Cauliflower is a mild, dense brassica grown for its compact white curd: proliferating, undeveloped flowering tissue that has stopped before forming an ordinary loose flower head.[^1]
 
-### Plant notes
+### The brassica bite
 
 Cauliflower contains glucosinolates, sulfur-rich compounds shared across the brassica family.[^2]
 
-### Further notes
+### An arrested flower head
 
 Cauliflower, like broccoli, is a flowering member of the cabbage family and can be grown as a spring or fall crop in Maine.[^3]
 

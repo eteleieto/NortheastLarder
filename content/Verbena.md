@@ -12,12 +12,12 @@ pairing:
 
 For culinary use, “verbena” usually means lemon verbena: a powerful lemon-scented leaf used in tea, cold drinks, fruit, sauces, fish, sweets, and creams.[^1]
 
-### Kitchen notes
+### Aroma without lemon acidity
 
 - Its leaves are more intensely lemony than lemon balm; infuse them in dairy, syrup, sugar, or tea rather than expecting lemon-like acidity.[^2]
 - Dried leaves retain their flavor well and make a strong hot infusion.[^2]
 
-### Northeast notes
+### Overwinter it or lose it
 
 Lemon verbena is frost-sensitive. In the Northeast, treat it as an annual or overwinter it in a bright, cool indoor spot before frost.[^1][^2]
 

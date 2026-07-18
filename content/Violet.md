@@ -7,7 +7,7 @@ tags: [INGREDIENT]
 
 Violets are sweet, perfumed spring flowers with a delicate flavor and a deep purple-blue color. They are a small, distinctly seasonal accent rather than a main ingredient.[^1]
 
-### More parts of the plant
+### Flowers and leaves, never roots
 
 Common blue violet leaves are edible as well as the flowers; the roots are not. With edible flowers, identification and growing conditions matter: UMaine cautions against flowers from florists, nurseries, roadsides, or plants treated with pesticides not approved for food crops.[^2][^3]
 

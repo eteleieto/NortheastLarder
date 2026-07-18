@@ -7,11 +7,11 @@ tags: [INGREDIENT]
 
 Brussels sprouts are small, dense cabbage buds that grow along a tall stalk. Their flavor is more assertive and nuttier than head cabbage.[^1]
 
-### Connections
+### One cabbage species, many vegetables
 
 They are close relatives of [[Cabbage|cabbage]], [[Kale|kale]], [[Broccoli|broccoli]], and [[Cauliflower|cauliflower]]—all different cultivated forms of *Brassica oleracea*. Like those vegetables, they contain glucosinolates, sulfur-rich compounds involved in brassica defense chemistry.[^2]
 
-### Further notes
+### Buds all the way down the stalk
 
 The individual sprouts are axillary buds: compact heads that form where leaves meet the main stalk. They tolerate several moderate freezes in Maine.[^3]
 

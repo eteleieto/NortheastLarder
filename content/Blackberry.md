@@ -8,11 +8,11 @@ tags: [INGREDIENT]
 
 Blackberries are juicy, dark, and a little tannic. Cultivated and wild brambles both grow in the Northeast, with wild berries often having a more concentrated flavor.[^1]
 
-### Connections
+### Why the core stays with the fruit
 
 Blackberries are aggregate fruits made of many small drupelets. They are closely related to raspberries, though ripe blackberries keep their central core when picked.
 
-### Further notes
+### One fruit made from many
 
 The fruit is not a botanical berry: each drupelet is a small fruit with its own seed, attached together on a single receptacle.[^1]
 

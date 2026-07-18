@@ -7,7 +7,7 @@ tags: [INGREDIENT]
 
 Nettle is a vigorous perennial green whose hollow hairs deliver the familiar sting. Once handled with care and processed, its young shoots are an established spring food in northern climates.[^1]
 
-### Plant notes
+### The sting is part of the identification
 
 The sting is a physical and chemical defense, so positive identification and careful handling are central to its use as a food plant.[^1]
 

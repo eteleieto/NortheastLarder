@@ -19,7 +19,7 @@ Let’s take a brief look at these three byproducts, which we believe can be mad
 Brewers’ spent grain is the leftover malt and grain produced during beer production. In taste it is somewhat neutral, with predictably malty and grain-like undertones, though some can be darker, roasted, or bitter depending on the brewing process and the hopping process used, if applicable.[^2]
 
 ![[Brewers Spent Grain.webp|600|600]]
-*Wet grain hulls left after brewing. Photo: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spent_grain.jpg)
+*Wet grain hulls left after brewing. Photo: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spent_grain.jpg)*
 
 BSG represents about 85% of brewing waste by weight. About 20 kg of wet BSG is produced for every 100 liters of beer. The primarily difficulty upcycling BSG is that It is usually 70–80% water, which makes it highly perishable. On a dry basis, it contains roughly 20–22% protein, along with a large amount of fiber.[^2] With suitable drying mechanisms, the upcycling potential would be much greater.
 

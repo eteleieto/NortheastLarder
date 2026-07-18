@@ -8,15 +8,15 @@ tags: [INGREDIENT]
 
 Japanese knotweed is an invasive perennial from eastern Asia whose young spring shoots have a tart, rhubarb-like character. UMaine describes it as widespread and extremely difficult to control in Maine.[^1]
 
-### Food notes
+### Eat the shoots, contain the plant
 
 The edible stage is the youngest, most tender shoot. Mature stems become woody and the plant’s ecological behavior matters: harvesting should never involve deliberately spreading or transplanting it.[^1]
 
-### A useful oddity
+### A hollow stem with a persistent rhizome
 
 Its hollow, jointed stems explain the old nickname “Mexican bamboo,” though it is unrelated to bamboo. Tiny fragments of its underground rhizomes can produce new plants, making careless disposal a real propagation risk.[^2]
 
-### Connections
+### Why it tastes a little like rhubarb
 
 The tartness links it to [[Rhubarb 1|rhubarb]], and the two are relatives in the knotweed family, Polygonaceae.[^3]
 

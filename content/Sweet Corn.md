@@ -8,11 +8,11 @@ tags: [INGREDIENT]
 
 Sweet corn is a high-summer crop with notably sugary kernels. Its sweetness begins converting to starch after harvest, which is why local corn tastes so different from corn that has traveled.[^1]
 
-### Connections
+### Corn, beans, and squash before colonization
 
 Corn and [[Dry Bean|dry beans]] are a classic regional connection: both are important Northeast crops, with corn grown for its starchy kernels and beans for their mature seeds.
 
-### Further notes
+### The Northeast field behind the familiar trio
 
 Corn, beans, and squash were the principal crops of Native American farmers in the Northeast for centuries before Europeans arrived; they are often called the Three Sisters.[^2]
 

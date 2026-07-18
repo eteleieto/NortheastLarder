@@ -7,7 +7,7 @@ tags: [INGREDIENT]
 
 Orache is a soft, mild leafy green with leaves that may be green, red, or purple. Garden orache is an old cultivated vegetable; several wild *Atriplex* species also occur around saline ground.[^1]
 
-### Further notes
+### Saltbush at the edge of the tide
 
 The coastal orache described by UMaine also goes by saltbush: it grows in salty soils around Maine’s marshy inlets and tidal rivers.[^1]
 

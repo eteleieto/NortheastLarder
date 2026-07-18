@@ -8,15 +8,15 @@ tags: [INGREDIENT]
 
 An unripe peach is a developmental stage rather than a separate variety. The flesh is firm, sour, and only faintly peach-scented because much of the sugar accumulation, softening, and volatile aroma development associated with ripeness has not happened yet.[^1]
 
-### What changes during ripening
+### Before the flesh softens
 
 Peach is a climacteric fruit: ethylene rises as the fruit ripens and helps coordinate softening. Cell-wall pectins break down, acidity generally falls, and lactones become a larger part of the recognizable peach aroma.[^1]
 
-### Northeast notes
+### A marginal orchard fruit in Maine
 
 Peaches can be grown in Maine, but winter cold and spring frost make them less dependable than [[Apple 1|apples]] or sour cherries. Redhaven and other relatively hardy cultivars are familiar in Northeast orchards; “unripe,” however, describes when the fruit was picked, not which cultivar it came from.[^2]
 
-### Connections
+### Firm fruit, acid, and pectin
 
 Unripe [[Unripe Plum 1|plums]] and peaches share the firm, high-acid character of immature stone fruit. Slightly underripe fruit also tends to contain more functional pectin than overripe fruit, although the amount varies by species and cultivar.[^3]
 

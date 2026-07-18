@@ -7,11 +7,11 @@ tags: [INGREDIENT]
 
 Caraway is a biennial in the carrot family. What is commonly called the “seed” is botanically a dry fruit containing the seed.[^1]
 
-### Connections
+### A fruit from the carrot family
 
 It is related to [[Carrot 1|carrot]], [[Parsnip|parsnip]], celery, dill, and parsley. Its warm, anise-like aroma is chemically and botanically distinct from the mustardy compounds of [[Cabbage|cabbage]] and [[Radish|radish]].[^2]
 
-### A useful oddity
+### The second-year harvest
 
 Because caraway is biennial, it generally makes leafy growth in its first year and flowers and sets its aromatic fruits in the second. The young root and leaves are edible too, so the familiar “seed” is only one food part of the plant.[^3]
 

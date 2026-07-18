@@ -8,15 +8,15 @@ tags: [INGREDIENT]
 
 Tomatoes range from bright and sharp to deeply sweet, depending on variety and ripeness. In the Northeast, they are a frost-tender crop whose fruit quality changes quickly with maturity.[^1]
 
-### Plant notes
+### More colors than lycopene red
 
 Lycopene is the red pigment most associated with ripe red tomatoes; yellow and orange varieties have different pigment profiles.[^2]
 
-### Connections
+### A fruit from the nightshade family
 
 Tomatoes belong to the nightshade family, alongside [[Potato|potatoes]] and peppers. Their fruit ripens from green through a variety-specific range of red, yellow, orange, purple, or striped colors.
 
-### Further notes
+### Start indoors, ripen before frost
 
 Tomato is another New World crop. In Maine it generally needs to be started as a seedling so fruit can ripen before fall frost.[^3]
 

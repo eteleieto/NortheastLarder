@@ -14,12 +14,12 @@ pairing:
 
 The leaves of the tea plant make true tea: white, green, oolong, black, yellow, and related styles. The many categories come from leaf handling and oxidation, not from different tea species.[^1]
 
-### Kitchen notes
+### Tea beyond the teapot
 
 - Tea is both a drink and an ingredient: steeped liquid can season syrups, custards, broths, sauces, grains, and baked goods.
 - Store tea away from strongly scented foods; it readily absorbs odors.[^2]
 
-### Northeast notes
+### A subtropical shrub this far north
 
 True tea prefers tropical to subtropical conditions, so it is not a routine field crop in the Northeast. Small-scale experimentation is possible in protected settings, but local tisanes are often more practical.[^3]
 

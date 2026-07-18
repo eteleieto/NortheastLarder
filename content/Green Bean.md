@@ -8,7 +8,7 @@ tags: [INGREDIENT]
 
 Green beans are crisp, tender pods, including green and yellow wax types. They are an easy Northeast garden crop and a familiar summer preserve.[^1]
 
-### Further notes
+### One bean, several harvest stages
 
 Green snap beans, wax beans, pole beans, shell beans, and dry beans are all forms of the same species, *Phaseolus vulgaris*; the difference is largely the stage and part harvested.[^2]
 

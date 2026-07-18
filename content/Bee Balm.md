@@ -8,7 +8,7 @@ tags: [INGREDIENT]
 
 Bee balm has a fresh citrus-mint aroma and flavor. It is a Northeast-native garden herb also known as Oswego tea.[^1]
 
-### Further notes
+### Oswego tea, not bergamot orange
 
 The name “Oswego tea” is linked to the Oswego Nation’s use of the plant for fragrant teas before early botanists documented it.[^2]
 
