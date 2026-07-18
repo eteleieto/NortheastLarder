@@ -7,7 +7,6 @@ tags: [INGREDIENT]
 
 Lilac blossoms are perfumed and faintly bitter. Their aroma is striking but can turn soapy or heavy quickly, so they read best as a small accent.[^1]
 
-### An ornamental flower, used carefully
 
 Lilac is an ornamental rather than a traditional food crop; only correctly identified, unsprayed flowers should be considered for eating.[^1]
 

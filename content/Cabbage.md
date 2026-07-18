@@ -8,11 +8,9 @@ tags: [INGREDIENT]
 
 Cabbage is a long-keeping Northeast vegetable with a mild, mineral-sweet character. Dense heads give it good storage life after harvest.[^1]
 
-### The source of its sulfurous edge
 
 Like other brassicas, cabbage contains glucosinolates: sulfur-rich plant compounds involved in the plant’s chemical defense system.[^2]
 
-### A head for cool weather
 
 Maine Extension lists cabbage as an early spring transplant and a late-summer planting, reflecting its preference for cool conditions.[^3]
 

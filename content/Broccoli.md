@@ -7,11 +7,9 @@ tags: [INGREDIENT]
 
 Broccoli is a brassica grown for its flower buds, but its stems and leaves are edible too. It has a clean green flavor that becomes more sulfurous and sweet with heat.[^1]
 
-### Where the sulfur comes from
 
 Broccoli contains glucosinolates, sulfur-rich compounds common in brassicas and part of the plant’s defense chemistry.[^2]
 
-### A flower crop for both ends of the season
 
 Broccoli is a flowering member of the cabbage family and can be grown as both a spring and fall crop in Maine.[^3]
 

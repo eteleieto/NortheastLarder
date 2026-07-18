@@ -8,15 +8,12 @@ tags: [INGREDIENT]
 
 Meadowsweet is a damp-ground perennial with frothy cream flowers and a powerful sweet-almond, haylike scent. It is European rather than Northeast-native, but is hardy enough to grow in the region and has escaped cultivation in parts of North America.[^1]
 
-### Meadwort and the scented floor
 
 The older name “meadwort” is literal: the flowers were used in Anglo-Saxon England to scent mead. They also served as a strewing herb, scattered on floors for their lingering fragrance.[^2]
 
-### The plant name hiding inside “aspirin”
 
 Meadowsweet used to sit in the genus *Spiraea*. That old botanical name is part of the history behind the word “aspirin,” a connection that outlasted the plant’s taxonomic move into *Filipendula*.[^3]
 
-### A rose-family herb
 
 Despite its herbaceous form, meadowsweet belongs to the rose family. The loose flower clusters make the relationship easier to imagine than the leaves do.
 

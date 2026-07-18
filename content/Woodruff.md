@@ -8,11 +8,9 @@ tags: [INGREDIENT]
 
 Sweet woodruff is a low, shade-tolerant perennial with whorled leaves and small white flowers. Its characteristic hay-and-vanilla aroma becomes more apparent as the leaves wilt or dry.[^1]
 
-### Coumarin and the fresh-hay aroma
 
 The aroma is associated with coumarin, the same broad flavor compound family that gives tonka bean and fresh-cut hay some of their character. This is a small-quantity flavoring plant, not a bulk herb.[^1]
 
-### The German taste of *Waldmeister*
 
 Sweet woodruff spreads by rhizomes and can form a continuous woodland groundcover. In Germany it is strongly associated with *Waldmeister* flavoring.[^2]
 

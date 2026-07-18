@@ -5,7 +5,6 @@ tags:
 source: "[[Furnace Creek Farm]]"
 pairing:
 ---
-### Ideas:
 
 *   Toss the flowers into [[Miso|miso]] at the last minute.
 *   Dry the flowers to make a tea. Could the leaves be oxidized as well?
@@ -20,7 +19,6 @@ pairing:
 *   Use the flowers to make an [[Amazake|amazake]].
 *   Salt-cure the flowers and then preserve them in oil.
 
-### Preparations:
 
 1.  Flower Koji
     *   59g flowers

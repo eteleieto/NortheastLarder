@@ -8,11 +8,9 @@ tags: [INGREDIENT]
 
 Peanut is a legume, not a tree nut. Its seed develops underground after the flower stalk bends into the soil, which makes its growth habit unusually different from other familiar beans.[^1]
 
-### A legume mistaken for a nut
 
 Peanut is a legume, despite its culinary association with nuts.[^1]
 
-### Flowers above ground, pods below
 
 The yellow flower opens above ground. After pollination, a stalk called a peg lengthens downward and pushes the young ovary into the soil, where the pod develops. The peanut is therefore not a root or tuber even though it is dug from the ground.[^1]
 

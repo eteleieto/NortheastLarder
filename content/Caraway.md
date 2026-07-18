@@ -7,11 +7,9 @@ tags: [INGREDIENT]
 
 Caraway is a biennial in the carrot family. What is commonly called the “seed” is botanically a dry fruit containing the seed.[^1]
 
-### A fruit from the carrot family
 
 Caraway is a member of the carrot family, but its warm, anise-like aroma comes from the dry fruit rather than a root. That aroma is chemically distinct from the mustardy heat of a radish or cabbage.[^2]
 
-### The second-year harvest
 
 Because caraway is biennial, it generally makes leafy growth in its first year and flowers and sets its aromatic fruits in the second. The young root and leaves are edible too, so the familiar “seed” is only one food part of the plant.[^3]
 

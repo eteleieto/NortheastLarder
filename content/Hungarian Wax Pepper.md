@@ -8,15 +8,12 @@ tags: [INGREDIENT]
 
 Hungarian wax is a long, tapered pepper that begins pale yellow and ripens through orange to red. It resembles a banana pepper, but many strains carry appreciable chile heat.[^1]
 
-### Early enough for northern summers
 
 Like other peppers it is a frost-tender crop, but its relatively early maturity lets it fit a Northeast growing season when plants are started ahead. The pale fruit is not necessarily unripe in the everyday market sense: yellow is a normal harvest stage, while further ripening changes color and flavor.[^2]
 
-### What “wax” means
 
 “Wax” refers to the smooth, waxy-looking skin and the yellow-wax pepper type, not to a coating added after harvest. Heat can vary between seed strains and individual fruits, so the name describes a cultivar family more reliably than an exact Scoville number.
 
-### Similar-looking, differently bred
 
 Hungarian wax and [[Santa Fe Pepper|Santa Fe]] peppers are both yellow-wax forms of *C. annuum*. Their similarity is visual as well as culinary, but they come from different regional breeding histories.
 

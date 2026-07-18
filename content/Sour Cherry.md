@@ -8,15 +8,12 @@ tags: [INGREDIENT]
 
 Sour cherries are smaller, softer, and much more acidic than familiar supermarket sweet cherries. They are a separate species, not simply sweet cherries picked before ripening.
 
-### Better suited to cold than sweet cherry
 
 Sour cherry trees are naturally smaller and generally more winter-hardy than sweet cherry trees. Maine growers still contend with tender flower buds and spring freezes, but cultivars such as North Star, Meteor, Mesabi, and Evans can reach into Zone 4 conditions.[^1]
 
-### One tree may be enough
 
 Many sour cherries are self-fertile, so one tree can set fruit on its own. Many sweet-cherry cultivars are self-incompatible and need compatible pollen from another cultivar—an important biological difference hidden behind two similar fruits.[^2]
 
-### How Montmorency came to dominate
 
 Montmorency became the dominant North American sour-cherry cultivar as commercial orchard production specialized in the late nineteenth and early twentieth centuries.[^3]
 

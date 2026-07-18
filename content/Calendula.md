@@ -7,7 +7,6 @@ tags: [INGREDIENT]
 
 Calendula petals bring warm yellow-orange color and a lightly tangy, peppery note. They are sometimes called “poor man’s saffron” for their color rather than for matching saffron’s flavor.[^1]
 
-### Use the petals, not the whole head
 
 Only the ray florets—the petal-like outer parts of the flower—are generally used as the edible portion.[^2]
 

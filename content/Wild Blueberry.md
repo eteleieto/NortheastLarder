@@ -8,11 +8,9 @@ tags: [INGREDIENT]
 
 Maine wild blueberries are small, sweet-tart berries with concentrated flavor. Their lowbush plants spread naturally across barrens and fields.[^1]
 
-### Fields that were never planted in rows
 
 Lowbush blueberry is native to northern New England and Atlantic Canada; Maine’s crop grows in naturally occurring fields rather than conventional planted rows.[^1]
 
-### Wabanaki management and a wartime trade
 
 Wabanaki people managed and harvested wild blueberry fields at scale, including through burn-pruning. During the Civil War, Maine blueberries were sent by sea to the Union Army.[^2]
 

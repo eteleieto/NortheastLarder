@@ -7,11 +7,9 @@ tags: [INGREDIENT]
 
 Fireweed is a tall northern perennial associated with roadsides, clearings, and recently burned ground. Its name comes from its habit of colonizing burned-over areas.[^1]
 
-### Tender only for a short while
 
 Young shoots, leaves, unopened buds, and flowers all appear in northern food traditions, but the plant changes quickly as it matures: older foliage becomes tougher and more bitter.[^2]
 
-### Flowers that climb the stalk
 
 Its flowers open progressively up the stem rather than all at once. Maine’s flowering period is generally July into August, and the flowers draw bumblebees, hummingbirds, and hummingbird moths.[^1]
 

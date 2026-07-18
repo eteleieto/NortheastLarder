@@ -8,11 +8,9 @@ tags: [INGREDIENT]
 
 Strawberries are fragrant, sweet-tart aggregate fruits with a short, delicate post-harvest life. Fully ripe fruit is aromatic and soft, two traits that also make it quick to bruise and decay.[^1]
 
-### The seeds are on the outside—sort of
 
 The red, fleshy part is enlarged receptacle tissue rather than a botanical berry. The dots on its surface are achenes—small dry fruits, each formed from a separately pollinated ovule. Incomplete pollination is one reason a strawberry can develop misshapen areas.[^4]
 
-### Cultivars for Maine gardens
 
 Maine Extension includes both traditional June-bearing cultivars and day-neutral strawberries among varieties suited to the state’s gardens.[^2]
 

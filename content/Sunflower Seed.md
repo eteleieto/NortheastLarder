@@ -8,11 +8,9 @@ tags: [INGREDIENT]
 
 Sunflower seed comes from a flower head that is actually a dense inflorescence of many tiny flowers. Each fertilized disk flower can develop into one seed.[^1]
 
-### An American oilseed in Maine
 
 Sunflowers can be grown in Maine for seed and oil. Their American origin is reflected in many cultivar names and in their place within Indigenous food traditions.[^1]
 
-### One head made of hundreds of flowers
 
 What reads as one sunflower is a head made of two flower types: showy ray flowers around the edge and seed-forming disk flowers in the center.[^1]
 

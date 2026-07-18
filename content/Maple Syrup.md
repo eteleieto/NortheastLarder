@@ -5,15 +5,12 @@ tags: [INGREDIENT]
 
 Maple syrup is concentrated maple sap, most often from sugar maple (*Acer saccharum*) and sometimes red maple (*Acer rubrum*). Maine law defines finished syrup as 66–69% soluble solids by weight (degrees Brix).[^1]
 
-### Freeze, thaw, and the sugaring season
 
 Maple sap products were an essential part of many Native American communities long before European colonization. In Maine, sap flow depends on late-winter freeze–thaw cycles; starch stored in the tree is converted largely to sucrose as the wood warms.[^2]
 
-### Sugar sand is not sand
 
 “Sugar sand” is the common maple term for the pale mineral sediment that can form during syrup making. It is mostly calcium malate, not actual sand.[^3]
 
-### Flavor made during evaporation
 
 Fresh sap is only faintly sweet. Maple's characteristic flavor develops as sucrose, amino acids, and other dissolved material concentrate and react during evaporation.[^2]
 

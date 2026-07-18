@@ -8,7 +8,6 @@ tags: [INGREDIENT]
 
 Beet roots are sweet and earthy, while the leaves have the mineral character of a cooking green. Root colors range from deep red to gold, white, and striped pink.[^1]
 
-### Chard, beet, and the pigments between them
 
 Swiss chard is the same species as beet, selected for large leaves and stems rather than an enlarged root.[^2]
 

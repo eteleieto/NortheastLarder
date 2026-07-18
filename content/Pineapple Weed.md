@@ -8,11 +8,9 @@ tags: [INGREDIENT]
 
 Pineapple weed is a low-growing aromatic relative of [[Chamomile 2|chamomile]]. Crushing the yellow-green flower heads releases the pineapple-like scent behind its common name.[^1]
 
-### Flowers and leaves in the cup
 
 Both flowers and leaves are edible, and the flowers are used as an infusion plant.[^1]
 
-### Chamomile without white petals
 
 Unlike familiar daisy-like chamomile flowers, pineapple weed lacks white ray petals. Its rounded greenish-yellow head often appears almost petalless.[^1]
 

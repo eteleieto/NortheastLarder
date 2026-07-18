@@ -5,15 +5,12 @@ tags: [INGREDIENT]
 
 Buckwheat honey is a dark honey produced when bees forage heavily on flowering [[Buckwheat|buckwheat]]. Its flavor is usually stronger, maltier, and more earthy than pale clover-style honeys.[^1]
 
-### A late-season nectar flow
 
 Buckwheat is a familiar Northeast cover crop and bee plant. In Maine it flowers quickly enough to become a late-season nectar source, and Cornell's Northeast buckwheat newsletter notes that the resulting honey is notably dark.[^1][^2]
 
-### What the name actually means
 
 “Buckwheat honey” names the nectar source, not an ingredient blended into finished honey. As with other varietal honeys, the label describes what the bees were primarily visiting.
 
-### Darker than the usual flower honey
 
 Its malt, molasses, and toasted-grain notes can read almost savory. It is a poor stand-in for a pale, delicate honey, but a useful sweetener when the darker flavor is the point.
 

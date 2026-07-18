@@ -10,11 +10,9 @@ pairing:
 
 Corn is a grass grown for large, starchy kernels borne on a cob. In the Northeast it spans fresh [[Sweet Corn|sweet corn]], dry grain, nixtamalized preparations, and historically much older Indigenous food systems.[^1][^2]
 
-### A warm-season crop at the edge of its range
 
 University of Maine Extension describes sweet corn as one of Maine's late-summer staples, widely sold through local farm stands and markets.[^1] In colder parts of the region, variety choice matters because corn is a warm-season crop and earlier cultivars are more dependable before frost.[^3]
 
-### Fresh kernel or dry grain
 
 The kernel changes character depending on when it is harvested. Sweet corn is picked while sugars are still high; dry corn is left to harden and becomes useful for milling, roasting, and long storage. That split helps explain why one plant can lead to fresh ears, cornmeal, grits, masa-style preparations, and toasted grain drinks.[^1][^4]
 

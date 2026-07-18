@@ -8,11 +8,9 @@ tags: [INGREDIENT]
 
 Onions are a long-keeping Northeast storage vegetable with a balance of sweetness, sharpness, and sulfurous aroma. Variety and maturity make a real difference: spring onions are green and mild, while cured onions are denser and sweeter.[^1]
 
-### Why cutting an onion changes it
 
 Cutting an onion breaks cells and allows previously separated chemicals to react. Thiosulfinates and related sulfur compounds shape both its pungency and its eye-watering effect.[^2]
 
-### A long seedling season
 
 Onion and leek both need a long seedling phase in Maine: Extension lists globe onions at 6–8 weeks indoors and leeks at 10–12 weeks.[^3]
 

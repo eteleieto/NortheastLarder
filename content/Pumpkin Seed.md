@@ -6,7 +6,6 @@ tags: [INGREDIENT]
 
 Pumpkin seeds are the mature seeds of *Cucurbita* fruits. Hull-less “pepita” types and ordinary hulled pumpkin seeds are related but visually quite different.[^1]
 
-### The seed inside the squash
 
 The seed sits inside the fibrous cavity of a mature squash or pumpkin. Its relationship to [[Squash Blossom|squash blossoms]] is direct: both are parts of the same cucurbit plant.
 

@@ -8,11 +8,9 @@ tags: [INGREDIENT]
 
 Radishes are quick-growing, peppery roots in the mustard family. The roots and greens are edible, and varieties range from mild breakfast radishes to dense winter storage radishes.[^1]
 
-### What makes a radish hot
 
 The familiar mustardy bite comes from the same broad glucosinolate-based defense chemistry found in brassicas.[^2]
 
-### Fast enough for spring and fall
 
 Radish can be sown both very early and again later in Maine, so it works as a short-cycle crop at either end of the garden year.[^3]
 

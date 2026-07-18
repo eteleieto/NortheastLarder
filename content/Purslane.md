@@ -7,7 +7,6 @@ tags: [INGREDIENT]
 
 Purslane is a juicy, lightly tart green with crisp stems and fleshy leaves. Its texture is more succulent than spinach, even after heat.[^1]
 
-### A succulent weed with useful field marks
 
 Purslane is one of Maine’s best-known garden weeds; its fleshy leaves, reddish stems, and low mat-forming habit are useful field marks.[^1]
 

@@ -8,7 +8,6 @@ tags: [INGREDIENT]
 
 Dry beans are mature, dried seeds valued for their long storage life and rich, creamy texture. Maine-grown types include Yellow Eye, Jacob’s Cattle, Soldier, Navy, Black Turtle, and Vermont Cranberry beans.[^1]
 
-### When a bean becomes a pulse
 
 Dry beans, peas, and lentils are the mature seed forms of legumes and are collectively called pulses.[^2]
 

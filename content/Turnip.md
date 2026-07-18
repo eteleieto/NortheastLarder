@@ -8,11 +8,9 @@ tags: [INGREDIENT]
 
 Turnips are crisp and peppery when young, becoming sweeter and more earthy as they mature. Their roots and greens are both edible, and they are well suited to cool Northeast growing conditions.[^1]
 
-### The chemistry behind the brassica bite
 
 Turnip’s brassica bite comes partly from glucosinolates, sulfur-rich defense compounds found across the mustard family.[^2]
 
-### Two sowing windows
 
 Turnips are another crop that can be planted both early and in late summer in Maine, a reflection of their cool-weather tolerance.[^3]
 

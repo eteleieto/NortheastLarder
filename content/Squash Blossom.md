@@ -8,11 +8,9 @@ tags: [INGREDIENT]
 
 Squash blossoms are lightly floral, soft, and edible; both male and female flowers can be eaten. They are the flower of the same plants that give us summer and winter squash.[^1]
 
-### Male flowers, female flowers
 
 Female flowers have a small, fleshy ovary behind the bloom; this is the beginning of the squash fruit. Male flowers supply pollen.[^2]
 
-### Look for the miniature squash
 
 The female flower is the one already carrying a miniature squash. That small swelling is the simplest way to tell the two flower types apart.[^2]
 

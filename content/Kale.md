@@ -7,11 +7,9 @@ tags: [INGREDIENT]
 
 Kale is a sturdy, slightly bitter brassica green. It tolerates cool Northeast conditions and remains structurally leafy rather than forming the dense head seen in [[Cabbage|cabbage]].[^1]
 
-### The sulfur chemistry of kale
 
 Kale contains glucosinolates, sulfur-rich plant compounds characteristic of the brassica family.[^2]
 
-### Cabbage without the head
 
 Kale is one of the non-heading forms of *Brassica oleracea*: a species also selected into cabbage, broccoli, cauliflower, and Brussels sprouts.[^3]
 

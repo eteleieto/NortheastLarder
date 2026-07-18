@@ -7,7 +7,6 @@ tags: [INGREDIENT]
 
 Mint is a group of strongly aromatic herbs, not a single flavor or species. Many cultivated mints spread by runners, which explains both their persistence and their tendency to escape a small planting.[^1]
 
-### Where the cooling sensation comes from
 
 Mint’s signature cooling aroma comes largely from volatile compounds such as menthol, although the exact profile varies by species and cultivar.[^2]
 

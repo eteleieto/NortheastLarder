@@ -8,15 +8,12 @@ tags: [INGREDIENT]
 
 Santa Fe peppers are thick-walled yellow-wax chiles that ripen from pale yellow through orange to red. They are generally mild to moderately hot, with a fruity pepper aroma behind the capsaicin.[^1]
 
-### Why it is also called chile güero
 
 In Spanish, *güero* can mean blond or fair-haired, which makes sense of the pale-yellow fruit and the alternate name “chile güero.” The changing colors can all appear on one plant because each fruit is at a different stage of ripening.
 
-### A glossy skin that slows water loss
 
 The glossy surface is a real part of how the pepper holds water. New Mexico State researchers compared the fruit’s cuticle and epicuticular wax with other pepper cultivars while studying post-harvest moisture loss.[^2]
 
-### Heat in the pepper, smoke on the pepper
 
 Santa Fe peppers and [[Hungarian Wax Pepper|Hungarian wax peppers]] are similar-looking *C. annuum* wax types. Smoking either adds a separate layer of phenolic smoke aroma; it does not create the chile’s underlying heat.
 

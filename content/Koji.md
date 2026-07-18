@@ -5,7 +5,6 @@ tags:
 source: 
 pairing:
 ---
-### Notes
 
 Koji is made by cultivating a mold on a cooked grain or legume substrate. It is central to traditional Japanese fermented foods like [[Miso]], [[Soy Sauce]], [[Sake]], [[Amazake]], [[Shochu]], and [[Mirin]]. This exploration focuses on using koji to transform regional ingredients from the Northeast into complex sources of flavor, sweetness, and umami, with an additional goal of developing a gluten-free option.
 
@@ -27,14 +26,12 @@ While polished rice is the traditional substrate, regional grains are being eval
 * **[[Farro]]** (pearled)
 * **[[Oats]]**
 * **[[Sorghum 1]]**
-### Preparations
 
 **Grain Substrate Trial**
 * **Pearled Renan Wheat, Pearled Farro, and Oats**: Soaked overnight, then steamed for 30 minutes. 
   * *Results*: Strong, successful koji growth on all three.
 * **Sorghum**: Boiled until soft enough to press easily between the fingers. 
   * *Results*: Poor growth. The dense grain structure and intact hull made penetration difficult for the mold.
-### Ideas
 
 * **Mechanical Processing**: Test cracked versions of the grains or lightly blitz them in a food processor prior to inoculation to expose the starch-rich interior and bypass the fibrous hull.
 * **[[Nixtamalization]]**: Explore nixtamalizing sorghum to help break down its tough outer hull and improve mold penetration.

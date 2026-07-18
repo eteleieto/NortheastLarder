@@ -8,7 +8,6 @@ tags: [INGREDIENT]
 
 Peas range from sweet shelling peas to crisp snap peas and starchy dried peas. They are all forms of the same cool-weather crop, but with very different textures.[^1]
 
-### First into the spring garden
 
 In Maine, peas are among the crops sown as soon as the ground can be worked, making them one of the first annual food plants into the garden.[^2]
 

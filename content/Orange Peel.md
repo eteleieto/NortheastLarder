@@ -5,7 +5,6 @@ tags:
 source: 
 pairing:
 ---
-## Ideas:
 
 * orange peel sugar
 * candied orange peel

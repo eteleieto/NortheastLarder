@@ -7,11 +7,9 @@ tags: [INGREDIENT]
 
 Garlic is the most pungent common allium, with a sharp heat that mellows dramatically with age or heat. Its early-season scapes are also an important Northeast market ingredient.[^1]
 
-### What happens when a clove is crushed
 
 An intact garlic clove is comparatively quiet. Crushing it brings enzymes and sulfur-containing precursors together, producing thiosulfinates responsible for much of the familiar pungent aroma.[^2]
 
-### Five thousand years of cloves, rarely seed
 
 Garlic originated in central Asia and has been cultivated for roughly 5,000 years. It is usually propagated from cloves because it rarely produces true seed.[^3]
 

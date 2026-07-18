@@ -8,11 +8,9 @@ tags: [INGREDIENT]
 
 Daikon is a long-rooted East Asian radish. It is the same species as small red and breakfast [[Radish|radishes]], selected into a very different root shape and size.
 
-### Long white radishes for a short northern season
 
 UMaine’s recommended “Oriental” radishes include Minowase Summer Cross and Miyashige, both long white daikon types suited to northern New England gardens.[^1]
 
-### The whole radish is food
 
 The root is only one food part: the greens, flowers, and young seed pods are edible as well.[^2] All carry some version of the peppery, mustard-like character associated with the plant.
 

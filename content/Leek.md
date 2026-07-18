@@ -8,11 +8,9 @@ tags: [INGREDIENT]
 
 Leeks are the gentler, sweeter allium, with white and pale-green layered stalks. Their mildness comes between onion and garlic, without either ingredient’s sharpest edge.[^1]
 
-### Leaves layered in place of a bulb
 
 Leeks are alliums grown for long, layered leaf bases rather than a round bulb. Blanching the lower stem keeps that portion pale and tender.[^1]
 
-### Start them early
 
 Leeks need a long head start in Maine: Extension lists them at 10–12 weeks indoors before planting out in mid-to-late spring.[^2]
 

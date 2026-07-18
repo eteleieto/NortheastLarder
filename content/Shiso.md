@@ -5,7 +5,6 @@ tags:
 source: "[[Furnace Creek Farm]]"
 pairing:
 ---
-### Notes:
 
 Two kinds of shiso: green (more sturdy and spinach-like) and purple (more flimsy and slightly more acidic - somewhat like sorrel). 
 
@@ -13,7 +12,6 @@ Shiso no ha refers to fermented red shiso leaf.
 
 Red shiso (akajiso) is used as a coloring agent for umeboshi.
 
-### Ideas:
 
 [Here](https://www.culturedpickleshop.com/blog/2018/4/15/shibazuke ) is a version where they make **Shibazuke**, which is traditional ferment of eggplant, shiso, and ginger. 
 
@@ -29,7 +27,6 @@ Could make an umeboshi with peach or cherry or other stone fruit, preserving in 
 
 [Shiso infused vinegar.](https://tartvinegar.com/products/shiso-aka-perilla-aka-beefsteak-vinegar)
 
-### Preparations:
 
 1. nectarine shiso lacto -> chutney with chilis
 	* 147g nectarine

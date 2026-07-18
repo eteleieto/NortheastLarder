@@ -8,15 +8,12 @@ tags: [INGREDIENT]
 
 Oats are a mild, creamy grain. Steel-cut, rolled, and quick oats all begin as the same whole grain, then are processed differently for texture and preparation time.[^1]
 
-### Food oats grown in Maine
 
 Maine grows oats, and food-grade oat production is part of the state’s local-grain work.[^2]
 
-### The grain’s creamy beta-glucan
 
 Oats contain beta-glucan, a soluble fiber that is part of the grain’s distinctive creamy texture.[^3]
 
-### Oats as a nurse crop
 
 In Maine, oats are also planted as a nurse crop for other forage seedlings, so their role extends beyond the food-grain harvest.[^4]
 

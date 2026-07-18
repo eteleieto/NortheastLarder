@@ -7,11 +7,9 @@ tags: [INGREDIENT]
 
 Chamomile is an aromatic flower best known as an infusion plant. The name covers more than one species, with German chamomile and Roman chamomile being the most familiar food and garden types.[^1]
 
-### Chamomile in a Maine garden
 
 Chamomile can be grown in Maine gardens, and its flowers are among the edible herb blooms noted by UMaine Extension.[^1]
 
-### German or Roman?
 
 German chamomile is a taller annual, while Roman chamomile is a low perennial. Slicing a German chamomile flower head reveals a hollow receptacle, one useful detail for separating it from some similar-looking plants. Both familiar chamomiles are described as apple-scented.[^2]
 
