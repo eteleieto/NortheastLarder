@@ -2,7 +2,7 @@
 title: Northeastern Sweeteners
 tags:
   - PROJECT
-date: 2025-06-05
+date: 2026-06-05
 description: This project is centered on creating sweeteners using solely products from the Northeast.
 ---
 
