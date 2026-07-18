@@ -6,7 +6,11 @@ source: "[[Furnace Creek Farm]]"
 pairing:
 ---
 
-Two kinds of shiso: green (more sturdy and spinach-like) and purple (more flimsy and slightly more acidic - somewhat like sorrel). 
+*Perilla frutescens*
+
+Shiso is a mint-family leaf native to China and India and established in Japanese food culture by the eighth or ninth century. Its defining fatty, herbaceous, spicy aroma comes from perillaldehyde, though some varieties lack that compound and lean toward dill or lemon instead.[^1] Green and red-purple forms differ in more than color: the purple is carried by anthocyanins, while the leaves can also vary substantially in texture and aroma. New England records treat perilla as an introduced plant of roadsides, waste areas, and gardens in Connecticut and Massachusetts.[^2]
+
+In our handling, green shiso has been sturdier and more spinach-like, while purple shiso has been flimsier and slightly more acidic, somewhat like sorrel.
 
 Shiso no ha refers to fermented red shiso leaf.
 
@@ -42,3 +46,6 @@ Could make an umeboshi with peach or cherry or other stone fruit, preserving in 
 	* 26g salt
 3. Dried Shiso
 	- Question - to wash or not?
+
+[^1]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF pp. 418–419.
+[^2]: Arthur Haines, *New England Wild Flower Society's Flora Novae Angliae* (Yale University Press, 2011), PDF p. 680.

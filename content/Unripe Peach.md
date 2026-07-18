@@ -17,6 +17,9 @@ Peaches can be grown in Maine, but winter cold and spring frost make them less d
 
 Unripe [[Unripe Plum 1|plums]] and peaches share the firm, high-acid character of immature stone fruit. Slightly underripe fruit also tends to contain more functional pectin than overripe fruit, although the amount varies by species and cultivar.[^3]
 
+The drying, puckering sensation of an unripe peach is astringency rather than sourness. Tannins bind saliva proteins together, reducing lubrication and increasing friction in the mouth; ripening weakens that defense as the fruit becomes attractive to seed-dispersing animals.[^4]
+
 [^1]: U.S. Department of Agriculture Agricultural Research Service, “[The Commercial Storage of Fruits, Vegetables, and Florist and Nursery Stocks](https://www.ars.usda.gov/is/np/CommercialStorage/CommercialStorage.pdf),” Agriculture Handbook 66, accessed July 17, 2026.
 [^2]: University of Maine Cooperative Extension, “[Growing Fruit Trees in Maine](https://extension.umaine.edu/fruit/growing-fruit-trees-in-maine/),” accessed July 17, 2026.
 [^3]: Penn State Extension, “[Key Ingredients for the Perfect Jam or Jelly](https://extension.psu.edu/key-ingredients-for-the-perfect-jam-or-jelly),” accessed July 17, 2026.
+[^4]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF p. 285.

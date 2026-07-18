@@ -13,6 +13,9 @@ Potato is a New World crop, domesticated in the Andes before spreading worldwide
 
 The tuber is a swollen underground stem, not a root. Its “eyes” are buds, which is why a piece of potato can grow into a new plant when it includes a live eye.[^3]
 
+Cooking behavior follows dry matter. Mealy potatoes pack more starch into their cells, which swell and separate into a dry, fluffy texture; waxy types hold together more firmly.[^4] Cold storage complicates that distinction because some starch converts to sugars below the ideal range of about 45–50°F, making fried potatoes brown too quickly and sometimes taste bitter.[^4]
+
 [^1]: University of Maine Cooperative Extension, “[Food & Nutrition for the Home Gardener](https://extension.umaine.edu/gardening/manual/food-nutrition/),” accessed July 17, 2026.
 [^2]: National Park Service, “[American Latino Theme Study: Food](https://www.nps.gov/articles/latinothemefood.htm),” accessed July 17, 2026.
 [^3]: Penn State Extension, “[Potatoes in the Garden and the Kitchen](https://extension.psu.edu/potatoes-in-the-garden-and-the-kitchen),” accessed July 17, 2026.
+[^4]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF p. 316.

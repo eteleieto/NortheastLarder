@@ -6,27 +6,8 @@ source:
 pairing:
 ---
 
- [[Broad Bean|Fava bean]] pods contain a significant amount of [[(WPectin|pectin]], making them an excellent candidate for structural reinforcement and subsequent preservation.
+[[Broad Bean|Fava bean]] pods contain substantial [[Pectin|pectin]], making them candidates for structural reinforcement and subsequent preservation. Reported pectin content reaches about 17% at peak maturation, comparable to [[Orange Peel|orange peel]].[^1]
 
-> **Source:** Fazio, A.; La Torre, C.; Dalena, F.; Plastina, P. “Screening of glucan and pectin contents in broad bean (_Vicia faba_ L.) pods during maturation.” _European Food Research and Technology_ 246, 333–347 (2020). DOI: 10.1007/s00217-019-03347-4.
+Treating the pods with [[Calcium Hydroxide|calcium hydroxide]] (pickling lime) may cross-link pectin and reinforce the cellulose structure before [[Pickling|pickling]] or [[Candying|candying]]. In the current trial, 550 g of pods are covered with water and steeped with calcium hydroxide equal to 0.75% of the water's weight.
 
----
-
-
-At peak maturation, broad bean pods contain up to 17% pectin, a level comparable to [[Orange Peel|orange peels]]. By treating the pods with [[Calcium Hydroxide|calcium hydroxide]] (pickling lime), we can cross-link the pectin and reinforce the cellulose structure. 
-
-This process of [[Nixtamalization|nixtamalizing]] the pods prepares them for further culinary applications, such as:
-
-- [[Pickling|Pickling]]
-
-- [[Candying|Candying]]
-
-
----
-
-
-1. **Prepare the Substrate**  
-    Weigh out 550 g of broad bean pods.
-
-2. **Alkaline Steep**  
-    Cover the pods with water. Add 0.75% calcium hydroxide by weight of the water to initiate the structural reinforcement.
+[^1]: A. Fazio, C. La Torre, F. Dalena, and P. Plastina, “Screening of Glucan and Pectin Contents in Broad Bean (*Vicia faba* L.) Pods During Maturation,” *European Food Research and Technology* 246 (2020): 333–347, https://doi.org/10.1007/s00217-019-03347-4.

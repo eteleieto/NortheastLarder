@@ -12,5 +12,8 @@ Purslane is one of Maine’s best-known garden weeds; its fleshy leaves, reddish
 
 The entire above-ground plant is edible, including the tiny black seeds. Crushed leaves feel slippery because the plant contains mucilage—the same broad sort of texture-making plant material found in okra.[^1][^2]
 
+That mucilage is not merely a raw-leaf oddity. It persists as a soothing, thickening quality when purslane is added near the end of cooking, balancing the plant's natural tartness.[^3]
+
 [^1]: University of Maine Cooperative Extension, “[Facts on Edible Wild Greens in Maine](https://extension.umaine.edu/publications/4060e/),” accessed July 17, 2026.
 [^2]: University of Illinois Extension, “[Purslane: Weed It or Eat It?](https://extension.illinois.edu/blogs/extensions-greatest-hits/2003-07-26-purslane-weed-it-or-eat-it),” 2003.
+[^3]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF p. 339.

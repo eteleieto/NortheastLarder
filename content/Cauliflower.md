@@ -13,6 +13,9 @@ Cauliflower contains glucosinolates, sulfur-rich compounds shared across the bra
 
 Cauliflower, like broccoli, is a flowering member of the cabbage family and can be grown as a spring or fall crop in Maine.[^3]
 
+The curd remains developmentally young and therefore relatively low in fiber but rich in pectins and hemicelluloses. That is why it can puree so smoothly—and why prolonged cooking turns the same structure mushy.[^4]
+
 [^1]: University of Maine Cooperative Extension, “[Food & Nutrition for the Home Gardener](https://extension.umaine.edu/gardening/manual/food-nutrition/),” accessed July 17, 2026.
 [^2]: U.S. Department of Agriculture Agricultural Research Service, “[Glucosinolates](https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/methods-and-application-of-food-composition-laboratory/mafcl-site-pages/glucosinolates/),” accessed July 17, 2026.
 [^3]: University of Maine Cooperative Extension, “[Vegetables and Fruits for Health: Broccoli and Cauliflower](https://extension.umaine.edu/publications/4177e/),” accessed July 17, 2026.
+[^4]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF p. 342.

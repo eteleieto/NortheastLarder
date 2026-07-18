@@ -8,10 +8,10 @@ project: "[[Presscakes & Byproducts]]"
 ---
 As part of our exploration of [[Presscakes & Byproducts|presscakes and byproducts]], we've been exploring the utilization of oil presscakes. We received these presscakes from [[Hudson Valley Hops and Grains]].
 
-Camelina (*camelina sativa*) is primarily an oilseed, pressed for a rich, chemically stable non-neutral oil. It is also being studied for its use as a carbon emission reducing biofuel. It is also known as false flax.
+Camelina (*Camelina sativa*), also known as false flax, is primarily an oilseed, pressed for a rich, chemically stable, non-neutral oil. It is also being studied as a lower-carbon biofuel.
 
-Like flax, camelina seeds produce a hydrocolloid mucilage. In our testing, the presscakes produce a less strong mucilage than flax, but is noticeable nevertheless. 
+Like flax, camelina seeds produce a hydrocolloid mucilage. In our testing, the presscake produces a weaker mucilage than flax, but the effect is noticeable nevertheless.
 
-In addition to - like other presscakes - its high protein and fiber content, which can be utilized for protein-based enzymatic processing and fermentation, such as the creation miso and garum, the potential of this mucilage in culinary applications is of note.
+Like other presscakes, it retains substantial protein and fiber that may suit enzymatic processing and fermentation into products such as miso and garum. The mucilage suggests a separate set of culinary uses.
 
 We've begun to explore its potential as a stabilizer in ice cream, an egg substitute in plant-based cakes and baked goods, and for thickening sauces and stocks.

@@ -17,6 +17,9 @@ Many sour cherries are self-fertile, so one tree can set fruit on its own. Many 
 
 Montmorency became the dominant North American sour-cherry cultivar as commercial orchard production specialized in the late nineteenth and early twentieth centuries.[^3]
 
+Sweet and sour cherries differ most fundamentally in how much sugar they can accumulate; sour cherries are not simply harvested earlier.[^4] Much of cherry aroma comes from almond-like benzaldehyde, floral linalool, and clove-like eugenol. Heating strengthens the almond and floral notes, especially when pits remain present.[^4]
+
 [^1]: University of Maine Cooperative Extension, “[Types of Fruit Trees](https://extension.umaine.edu/fruit/growing-fruit-trees-in-maine/varieties/),” accessed July 17, 2026.
 [^2]: University of Maine Cooperative Extension, “[What Are Some Best Practices When Planting a Cherry Tree?](https://extension.umaine.edu/gardening/2023/03/07/what-are-some-best-practices-when-planting-a-cherry-tree/),” 2023.
 [^3]: National Park Service, “[Orchard History: Orchard Specialization and Industrialization, 1881–1945](https://www.nps.gov/articles/000/historic-context-orchards-1881-to-1945.htm),” 2022.
+[^4]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF p. 373.

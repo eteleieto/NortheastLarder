@@ -16,5 +16,8 @@ American cranberry is native to northeastern North America. Cape Cod cultivation
 
 Cranberry pollen is too heavy to travel effectively on the wind. Bumblebees and honeybees do most of the crop’s pollination, tying fruit set closely to insect activity during bloom.[^2]
 
+Cranberries keep unusually well for a small berry because their acidity and phenolic compounds suppress spoilage. They are also rich in pectin, so a barely cooked puree can set into a sauce; the same pectin can unexpectedly gel an alcoholic infusion.[^3]
+
 [^1]: University of Maine Cooperative Extension, “[Food & Nutrition for the Home Gardener](https://extension.umaine.edu/gardening/manual/food-nutrition/),” accessed July 17, 2026.
 [^2]: University of Maine Cooperative Extension, “[Cranberry Facts and History](https://extension.umaine.edu/cranberries/cranberry-facts-and-history/),” accessed July 17, 2026.
+[^3]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF p. 376.

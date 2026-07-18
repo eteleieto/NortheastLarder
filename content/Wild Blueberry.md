@@ -16,6 +16,9 @@ Wabanaki people managed and harvested wild blueberry fields at scale, including 
 
 A wild blueberry field is not one uniform planting. The plants spread underground into patches called clones, and each patch is genetically different; a single field can hold hundreds or thousands of them. That mosaic is one reason berries from the same field can differ in color, size, ripening time, and flavor.[^3]
 
+Blueberry skin holds much of the fruit's anthocyanin color, while spicy terpenes contribute to its aroma. Those pigments are sensitive to alkalinity, which is why baking soda can push blueberries in muffins toward an unexpected green.[^4]
+
 [^1]: University of Maine Cooperative Extension, “[Maine’s Native Berry](https://extension.umaine.edu/blueberries/maines_native_berry/),” accessed July 17, 2026.
 [^2]: University of Maine Cooperative Extension, “[About the Maine Wild Blueberry](https://extension.umaine.edu/blueberries/about/),” accessed July 17, 2026.
 [^3]: University of Maine Cooperative Extension, “[Organic Wild Blueberry Production](https://extension.umaine.edu/blueberries/resources/production/304-organic-wild-blueberry-production/),” accessed July 17, 2026.
+[^4]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF p. 376.
