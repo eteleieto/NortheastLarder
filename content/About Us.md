@@ -10,7 +10,7 @@ The Northeast USA developed largely post-abundance. It wasn't long after the col
 
 This is a unique opportunity. Cuisine determines consumption, and consumption shapes the economy—and our environment and culture—for better or worse. The purpose of this project is to build techniques and larder items around the vegetables, grains, fruits, and fungi of the Northeast, and to help build a cuisine that is good for its economy, environment, and culture.
 
-So how can cuisine be built intentionally to benefit farmers, the economy, and the environment? How can we create demand for agriculturally important cover crops like rye? How can we make people crave efficient and nutritious crops like hemp? How can we turn waste streams like oil presscakes, brewer's spent grain, and stale bread into economically viable food products? Above all, taste determines acceptance; no amount of marketing can make bad food taste good.
+So how can cuisine be built intentionally to benefit farmers, the economy, and the environment? How can we create demand for agriculturally important cover crops like rye? How can we make people crave efficient and nutritious crops like kelp? How can we turn waste streams like oil presscakes, brewer's spent grain, and stale bread into economically viable food products? Above all, taste determines acceptance; no amount of marketing can make bad food taste good.
 
 Toward that end, we develop ways to make the food we should eat into food we want to eat. We collaborate with restaurants to create novel products and research taste. We seek to make new, delicious food part of an ever-developing cuisine of the Northeast US.
 
