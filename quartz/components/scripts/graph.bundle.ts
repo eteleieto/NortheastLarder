@@ -508,14 +508,12 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
     if (matchKind === "title") {
       node.gfx
-        .circle(0, 0, radius + 0.75)
-        .stroke({ width: 1.2, color: computedStyleMap["--graph-search-match"], alpha: 0.82 })
-        .circle(0, 0, radius + 3.25)
-        .stroke({ width: 1.2, color: computedStyleMap["--graph-search-match"], alpha: 0.82 })
+        .circle(0, 0, radius + 2.25)
+        .stroke({ width: 3.5, color: computedStyleMap["--graph-search-match"], alpha: 0.9 })
     } else if (matchKind === "content") {
       node.gfx
         .circle(0, 0, radius + 1.5)
-        .stroke({ width: 1.3, color: computedStyleMap["--graph-search-match"], alpha: 0.68 })
+        .stroke({ width: 1.15, color: computedStyleMap["--graph-search-match"], alpha: 0.68 })
     } else if (isTagNode) {
       node.gfx.stroke({ width: 2, color: computedStyleMap["--tertiary"] })
     } else if (nodeData.id === slug) {
