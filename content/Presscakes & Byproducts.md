@@ -41,7 +41,7 @@ Both require attention, and are not without caveats. Canola and rapeseed can con
 Plant-based milk and tofu production also create leftover pulp (okara, in the case of soy milk production). This is the biproduct of filtering blended soybeans, oats, almonds, rice, peas or other plant materials. The liquid becomes the milk or tofu base, while the leftover pulp still contains protein, fiber, fat, minerals, and carbohydrates.[^3]
 
 ![[Okara Filtering.webp|600|600]]
-*Fresh okara being strained from soy milk. Photo: Pax Ahimsa Gethen via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Okara_(soybean_pulp).jpg)*
+*Fresh okara being strained from soy milk. Photo: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Okara_(soybean_pulp).jpg)*
 
 Like BSG, fresh okara is about 70–80% water, but on a dry basis it contains around 25–30% protein and 40–60% dietary fiber. About 1.1 kg of okara can be produced for every 1 kg of soymilk or tofu, with global production estimated at about 14 million tonnes per year. Soy okara alone may contain enough protein to meet the baseline annual needs of about 40–70 million adults.[^3][^4][^5]
 
