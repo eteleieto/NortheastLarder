@@ -18,4 +18,3 @@ Here is some of our inspiration for the project:
 3. [Noma Projects](https://nomaprojects.com/)
 4. [Nordic Food Lab](https://nordicfoodlab.org/)
 
-## Online Resources https://fermentor.org/library/

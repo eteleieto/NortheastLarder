@@ -5,10 +5,9 @@ tags:
 date: 2026-06-05
 description: This project is centered on creating sweeteners using solely products from the Northeast.
 ---
-
 ## Background
 
-About 13% of U.S. caloric intake is added sugar.[^1] Of that, about half is table sugar (sucrose) from sugar cane or sugar beets, and about another half is corn syrup. Only about 2% of sweetener intake is honey, maple syrup, and other edible syrups.[^2]
+About 13% of U.S. caloric intake is added sugar.[^1] Of that, about half is table sugar (sucrose) from sugar cane or sugar beets, and another half is corn syrup. Only about 2% of sweetener intake is honey, maple syrup, and other edible syrups.[^2]
 
 But highly-refined sugars and corn syrup are recent inventions – most cuisines began developing far earlier. So, how did cuisines sweeten before? It was varied. In Korea, rice was malted to create syrup, _ssal-jocheong_; a similar malted syrup, _mizuame_, was used in Japan; the Incas boiled down sugar from the root of a tuber, the _yacón_; for much of North Africa, molasses was made from the sugary stalks of sorghum; in the Middle East, there was date syrup and pomegranate molasses; in the Mediterranean, there was honey – pick up an Ancient Roman cookbook, Apicius’ _De Re Coquinaria_, and you’ll realize quickly that honey was the sweetener; in Southeast Asia, there was palm jaggery and coconut sugar; in New Guinea, then India, then Persia, there was cane sugar, which Christopher Columbus later introduced to the Caribbean and South America; in Biblical accounts, there was manna – some sort of tree syrup, perhaps – a sweetener of even more ancient times.[^3][^4]
 
