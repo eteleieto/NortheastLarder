@@ -4,9 +4,9 @@ tags:
   - INGREDIENT
 source:
 pairing:
-project: "[[Presscakes and Biproducts]]"
+project: "[[Presscakes & Byproducts]]"
 ---
-As part of our exploration of [[Presscakes and Biproducts|presscakes and biproducts]], we've been exploring the utilization of oil presscakes. We received these presscakes from [[Hudson Valley Hops and Grains]]. 
+As part of our exploration of [[Presscakes & Byproducts|presscakes and byproducts]], we've been exploring the utilization of oil presscakes. We received these presscakes from [[Hudson Valley Hops and Grains]].
 
 Camelina (*camelina sativa*) is primarily an oilseed, pressed for a rich, chemically stable non-neutral oil. It is also being studied for its use as a carbon emission reducing biofuel. It is also known as false flax.
 

@@ -5,7 +5,7 @@ tags:
   - GARUM
 pairing:
 date: 2026-06-23
-project: "[[Presscakes and Biproducts]]"
+project: "[[Presscakes & Byproducts]]"
 description: This experiment compares roasted and unroasted sunflower presscake in a garum-style ferment.
 ---
 ## Background
