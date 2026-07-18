@@ -77,6 +77,11 @@ const HOVER_DIM_ALPHA = 0.2
 const HOVER_LABEL_SCALE = 1.1
 const DRAG_ALPHA_TARGET = 0.2
 const CLICK_DISTANCE_PX = 6
+const SEARCH_DIM_ALPHA = 0.12
+
+function normalizeGraphSearch(value: string): string {
+  return value.trim().toLocaleLowerCase()
+}
 
 /** Exponential ease toward target — frame-rate independent, no tween allocations. */
 function approach(current: number, target: number, dtMs: number, durationMs: number): number {
@@ -276,6 +281,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   let hoveredNodeId: string | null = null
   let hoveredNeighbours: Set<string> = new Set()
+  let searchMatchedNodeIds: Set<string> | null = null
   let currentScaleOpacity = 0
   let dragging = false
   let dragStartPointer: { x: number; y: number } | null = null
@@ -379,14 +385,24 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   function setVisualTargets() {
     const defaultScale = 1 / scale
     const activeScale = defaultScale * HOVER_LABEL_SCALE
+    const searchMatches = searchMatchedNodeIds
+    const hasSearch = searchMatches !== null
 
     for (const n of nodeRenderData) {
       const nodeId = n.simulationData.id
+      const isSearchMatch = searchMatches?.has(nodeId) ?? false
 
-      n.targetGfxAlpha =
-        hoveredNodeId !== null && focusOnHover ? (n.active ? 1 : HOVER_DIM_ALPHA) : 1
+      if (hasSearch) {
+        n.targetGfxAlpha = isSearchMatch ? 1 : SEARCH_DIM_ALPHA
+      } else {
+        n.targetGfxAlpha =
+          hoveredNodeId !== null && focusOnHover ? (n.active ? 1 : HOVER_DIM_ALPHA) : 1
+      }
 
-      if (hoveredNodeId === nodeId) {
+      if (hasSearch) {
+        n.targetLabelAlpha = isSearchMatch ? 1 : 0
+        n.targetLabelScale = isSearchMatch ? activeScale : defaultScale
+      } else if (hoveredNodeId === nodeId) {
         n.targetLabelAlpha = 1
         n.targetLabelScale = activeScale
       } else if (hoveredNodeId !== null && hoveredNeighbours.has(nodeId)) {
@@ -402,7 +418,14 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     }
 
     for (const l of linkRenderData) {
-      l.targetAlpha = hoveredNodeId ? (l.active ? 1 : HOVER_DIM_ALPHA) : 1
+      if (hasSearch) {
+        const sourceMatches = searchMatches.has(l.simulationData.source.id)
+        const targetMatches = searchMatches.has(l.simulationData.target.id)
+        l.targetAlpha =
+          sourceMatches && targetMatches ? 0.55 : sourceMatches || targetMatches ? 0.18 : 0.05
+      } else {
+        l.targetAlpha = hoveredNodeId ? (l.active ? 1 : HOVER_DIM_ALPHA) : 1
+      }
       l.color = l.active ? computedStyleMap["--gray"] : computedStyleMap["--lightgray"]
     }
 
@@ -523,6 +546,54 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       color: computedStyleMap["--lightgray"],
     })
   }
+
+  const graphOverlay = graph.closest(".global-graph-outer")
+  const searchInput = graphOverlay?.querySelector<HTMLInputElement>(".global-graph-search-input")
+  const searchClear = graphOverlay?.querySelector<HTMLButtonElement>(".global-graph-search-clear")
+  const searchStatus = graphOverlay?.querySelector<HTMLElement>(".global-graph-search-status")
+
+  const applySearch = () => {
+    if (!searchInput) return
+
+    const query = normalizeGraphSearch(searchInput.value)
+    searchMatchedNodeIds = query
+      ? new Set(
+          graphData.nodes
+            .filter((node) => normalizeGraphSearch(node.text).includes(query))
+            .map((node) => node.id),
+        )
+      : null
+
+    if (searchClear) searchClear.hidden = searchInput.value.length === 0
+    if (searchStatus) {
+      const count = searchMatchedNodeIds?.size ?? 0
+      searchStatus.textContent = query
+        ? `${count} graph ${count === 1 ? "node" : "nodes"} matched`
+        : ""
+    }
+
+    setVisualTargets()
+  }
+
+  const clearSearch = () => {
+    if (!searchInput) return
+    searchInput.value = ""
+    applySearch()
+    searchInput.focus()
+  }
+
+  const handleSearchKeydown = (event: KeyboardEvent) => {
+    if (event.key === "Escape" && searchInput?.value) {
+      event.preventDefault()
+      event.stopPropagation()
+      clearSearch()
+    }
+  }
+
+  searchInput?.addEventListener("input", applySearch)
+  searchInput?.addEventListener("keydown", handleSearchKeydown)
+  searchClear?.addEventListener("click", clearSearch)
+  applySearch()
 
   let currentTransform = zoomIdentity
   let zoomBehavior: ReturnType<typeof zoom<HTMLCanvasElement, NodeData>> | null = null
@@ -647,7 +718,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
         const zoomScale = transform.k * opacityScale
         currentScaleOpacity = Math.max((zoomScale - 1) / 3.75, 0)
-        if (hoveredNodeId === null) {
+        if (hoveredNodeId === null || searchMatchedNodeIds !== null) {
           setVisualTargets()
         } else {
           for (const n of nodeRenderData) {
@@ -712,6 +783,9 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
 
   return () => {
+    searchInput?.removeEventListener("input", applySearch)
+    searchInput?.removeEventListener("keydown", handleSearchKeydown)
+    searchClear?.removeEventListener("click", clearSearch)
     stopAnimation = true
     if (animFrameId !== null) {
       cancelAnimationFrame(animFrameId)
@@ -792,6 +866,7 @@ export async function openGlobalGraph(trigger?: HTMLElement) {
 
     const graphContainer = container.querySelector(".global-graph-container") as HTMLElement
     const closeButton = container.querySelector(".global-graph-close") as HTMLElement
+    const searchInput = container.querySelector(".global-graph-search-input") as HTMLInputElement
     registerEscapeHandler(container, hideGlobalGraph)
 
     if (closeButton) {
@@ -812,7 +887,7 @@ export async function openGlobalGraph(trigger?: HTMLElement) {
       globalGraphCleanups.push(await renderGraph(graphContainer, currentSlug))
     }
 
-    window.setTimeout(() => closeButton?.focus(), 250)
+    window.setTimeout(() => (searchInput ?? closeButton)?.focus(), 250)
   }
 }
 

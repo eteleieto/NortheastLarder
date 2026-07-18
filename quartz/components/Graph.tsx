@@ -120,9 +120,53 @@ export default ((opts?: Partial<GraphOptions>) => {
                     <span class="panel-header-title" id="global-graph-title">
                       {i18n(cfg.locale).components.graph.title}
                     </span>
-                    <span class="global-graph-help">
-                      Explore connections; drag to move and scroll to zoom.
-                    </span>
+                  </div>
+                  <div class="global-graph-search">
+                    <svg
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <circle cx="11" cy="11" r="7"></circle>
+                      <path d="m20 20-3.5-3.5"></path>
+                    </svg>
+                    <input
+                      autocomplete="off"
+                      class="global-graph-search-input"
+                      type="search"
+                      aria-label="Search graph nodes"
+                      placeholder="Search graph"
+                      spellcheck={false}
+                    />
+                    <button
+                      type="button"
+                      class="global-graph-search-clear"
+                      aria-label="Clear graph search"
+                      hidden
+                    >
+                      <svg
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.75"
+                        stroke-linecap="round"
+                      >
+                        <path d="M18 6 6 18"></path>
+                        <path d="m6 6 12 12"></path>
+                      </svg>
+                    </button>
+                    <span class="global-graph-search-status" aria-live="polite"></span>
                   </div>
                   <button type="button" class="global-graph-close" aria-label="Close">
                     <svg
