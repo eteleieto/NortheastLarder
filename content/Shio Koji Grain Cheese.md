@@ -26,7 +26,7 @@ Largest Column: standard
 
 Boiled [[Wheat Berry|wheat berries]]
 
-Boiled [[Barley 1|barley]]
+Boiled [[Barley|barley]]
 
 [[Bread Flour|bread flour]] (sourced from [[Wild Hive Farm]])
 

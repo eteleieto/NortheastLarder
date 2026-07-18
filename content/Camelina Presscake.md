@@ -3,7 +3,6 @@ title: Camelina Presscake
 tags:
   - INGREDIENT
 source:
-season:
 pairing:
 project: "[[Presscakes and Biproducts]]"
 ---

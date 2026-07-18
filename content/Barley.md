@@ -5,14 +5,19 @@ tags: [INGREDIENT]
 
 *Hordeum vulgare*
 
-Barley is a chewy grain with a mild, malty sweetness. It is grown for food and for malting, linking it closely to brewing and distilling.[^1]
+Barley is a chewy grain with a mild, malty sweetness. In the Northeast it matters both as a food grain and as one of the region's core malting crops, so it sits at the overlap between porridge, bread, koji, and brewing.[^1]
 
 ### Northeast notes
 
-Barley is part of Maine’s local-grain economy, including food, brewing, and distilling markets.[^1]
+University of Maine runs variety trials for both malting barley and hulless barley, which makes the crop's two Northeast identities easy to see: one aimed at malt quality, the other at direct food use.[^1]
 
-### Further notes
+### Food notes
 
-Barley is one of several small grains being developed for Maine’s specialty grain markets alongside oats, rye, and wheat.[^1]
+In U.S. grain standards, ordinary barley and malting barley are separate classes, and hulless barley is handled separately again.[^2] That bureaucratic distinction mirrors a useful kitchen one: some barley is grown for sprouting and enzyme development, while some is grown because it cooks well as a grain in its own right.
 
-[^1]: University of Maine Cooperative Extension, “[Spring Barley Variety Trials](https://extension.umaine.edu/grains-oilseeds/topics/spring-barley-variety-trials/),” accessed July 17, 2026.
+### Connections
+
+Barley keeps showing up across the notebook in [[Koji (Pearled Barley)]], [[Lacto Barley and Soy]], [[Toasted Barley Kombucha]], and [[Barley Soy Miso]]. It also belongs to the same small-grain conversation as [[Oat]], [[Rye]], and [[Wheat]].
+
+[^1]: University of Maine Cooperative Extension, “[Spring Barley Variety Trials](https://extension.umaine.edu/grains-oilseeds/topics/spring-barley-variety-trials/),” accessed July 18, 2026.
+[^2]: U.S. Department of Agriculture Agricultural Marketing Service, “[United States Standards for Barley](https://www.ams.usda.gov/sites/default/files/media/BarleyStandards.pdf),” accessed July 18, 2026.

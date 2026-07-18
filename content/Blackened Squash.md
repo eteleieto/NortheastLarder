@@ -10,7 +10,7 @@ description: This experiment blackens buttercup squash to see how the technique 
 ---
 ## Background
 
-This experiment uses [[Buttercup Squash 1|buttercup squash]], which was peeled and cut into wedges. The goal is to transform the squash using the [[Blackening (Enzymatic)|blackening]] technique, a process similar to making [[Black Garlic|black garlic]].
+This experiment uses [[Buttercup Squash|buttercup squash]], which was peeled and cut into wedges. The goal is to transform the squash using the [[Blackening (Enzymatic)|blackening]] technique, a process similar to making [[Black Garlic|black garlic]].
 
 ![[Blackened Squash.webp|200x267]]
 

@@ -18,7 +18,7 @@ Honeynut begins dark green and turns caramel-orange as it ripens. Cornell select
 
 ### Connections
 
-Honeynut is a *C. moschata* squash, while [[Buttercup Squash 1|buttercup]] is *C. maxima*. The cultivar’s history nevertheless joins the two through breeding.
+Honeynut is a *C. moschata* squash, while [[Buttercup Squash|buttercup]] is *C. maxima*. The cultivar’s history nevertheless joins the two through breeding.
 
 [^1]: Cornell University Center for Technology Licensing, “[Plant Varieties Catalog: Vegetables](https://ctl.cornell.edu/plant-varieties-catalog/vegetables/),” accessed July 17, 2026.
 [^2]: Cornell Chronicle, “[Color-Changing Squash Reveals Ripeness](https://news.cornell.edu/stories/2016/10/color-changing-squash-reveals-ripeness),” 2016.

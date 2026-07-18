@@ -8,7 +8,7 @@ description: This recipe uses toasted barley tea as the base for a kombucha-styl
 ---
 ## Background
 
-This experiment explores a fermentation process using a barley tea similar to [[Mugicha|mugicha]]. It utilizes toasted [[Barley 1|barley]] to create a base tea, which is then inoculated with a starter culture and a piece of the kombucha mother.
+This experiment explores a fermentation process using a barley tea similar to [[Mugicha|mugicha]]. It utilizes toasted [[Barley|barley]] to create a base tea, which is then inoculated with a starter culture and a piece of the kombucha mother.
 
 ---
 ## Recipe

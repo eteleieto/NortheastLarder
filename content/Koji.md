@@ -3,7 +3,6 @@ title: (A) Koji
 tags:
   - INGREDIENT
 source: 
-season: 
 pairing:
 ---
 ### Notes

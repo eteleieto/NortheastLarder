@@ -4,7 +4,6 @@ tags:
   - INGREDIENT
   - FORAGED
 source:
-season:
 pairing:
 ---
 ### Notes:

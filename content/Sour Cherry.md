@@ -18,7 +18,7 @@ Many sour cherries are self-fertile, so one tree can set fruit on its own. Many 
 
 ### Connections
 
-Cherry is a stone fruit in the rose family with plums and peaches, and a more distant relative of [[Apple 1|apple]], [[Hawthorn 1|hawthorn]], and [[Strawberry|strawberry]]. Montmorency became the dominant North American sour-cherry cultivar as commercial orchard production specialized in the late nineteenth and early twentieth centuries.[^3]
+Cherry is a stone fruit in the rose family with plums and peaches, and a more distant relative of [[Apple|apple]], [[Hawthorn|hawthorn]], and [[Strawberry|strawberry]]. Montmorency became the dominant North American sour-cherry cultivar as commercial orchard production specialized in the late nineteenth and early twentieth centuries.[^3]
 
 [^1]: University of Maine Cooperative Extension, “[Types of Fruit Trees](https://extension.umaine.edu/fruit/growing-fruit-trees-in-maine/varieties/),” accessed July 17, 2026.
 [^2]: University of Maine Cooperative Extension, “[What Are Some Best Practices When Planting a Cherry Tree?](https://extension.umaine.edu/gardening/2023/03/07/what-are-some-best-practices-when-planting-a-cherry-tree/),” 2023.

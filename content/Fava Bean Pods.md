@@ -3,7 +3,6 @@ title: Fava Bean Pods
 tags:
   - INGREDIENT
 source:
-season: June 2
 pairing:
 ---
 # Processing Broad Bean Pods via Nixtamalization

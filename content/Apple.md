@@ -13,7 +13,7 @@ The region’s cool nights help preserve acidity and color in apples. Variety ch
 
 ### Connections
 
-Apple belongs to the rose family, along with [[Strawberry|strawberry]], [[Red Raspberry 1|raspberry]], [[Blackberry|blackberry]], peaches, cherries, and [[Rose Hip 1|rose hips]]. The family resemblance is easier to see in the five-petaled flowers than in the finished fruits.[^2]
+Apple belongs to the rose family, along with [[Strawberry|strawberry]], [[Red Raspberry|raspberry]], [[Blackberry|blackberry]], peaches, cherries, and [[Rose Hip|rose hips]]. The family resemblance is easier to see in the five-petaled flowers than in the finished fruits.[^2]
 
 Apples also connect readily with [[Cranberry|cranberry]], [[Parsnip|parsnip]], and [[Cabbage|cabbage]] through a shared cool-climate, storage-crop character.
 

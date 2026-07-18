@@ -3,7 +3,6 @@ title: Shiso
 tags:
   - INGREDIENT
 source: "[[Furnace Creek Farm]]"
-season: 
 pairing:
 ---
 ### Notes:

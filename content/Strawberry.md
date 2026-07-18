@@ -10,7 +10,7 @@ Strawberries are fragrant, sweet-tart aggregate fruits with a short, delicate po
 
 ### Connections
 
-[[Rhubarb 1]] and strawberry are a familiar Northeast preserve connection, but botanically they are unrelated. Strawberry belongs to the rose family with [[Apple 1|apple]], [[Red Raspberry 1|raspberry]], and [[Blackberry|blackberry]].[^3]
+[[Rhubarb]] and strawberry are a familiar Northeast preserve connection, but botanically they are unrelated. Strawberry belongs to the rose family with [[Apple|apple]], [[Red Raspberry|raspberry]], and [[Blackberry|blackberry]].[^3]
 
 ### Further notes
 
