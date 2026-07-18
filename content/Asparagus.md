@@ -13,6 +13,6 @@ The edible spear is a rapidly growing shoot. If left alone, it develops into a t
 
 ### A bed planted for the long term
 
-Unlike annual vegetables, a well-kept asparagus bed is a long-lived planting. That permanence gives it a different role in a Northeast garden from quick annual crops such as [[Radish|radish]] or [[Pea|pea]].[^1]
+Unlike an annual vegetable, a well-kept asparagus bed is a long-lived planting. The first seasons are an investment in the crown; established plants can then return for years.[^1]
 
 [^1]: University of Maine Cooperative Extension, “[Growing Asparagus in Maine](https://extension.umaine.edu/publications/2071e/),” accessed July 17, 2026.

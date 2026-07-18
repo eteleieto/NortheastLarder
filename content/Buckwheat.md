@@ -17,6 +17,6 @@ The living plant and its residue can suppress some weed germination through alle
 
 ### The flowers make a very dark honey
 
-Its flowers support a strongly flavored [[Buckwheat Honey|buckwheat honey]]. The grain-like seeds explain its culinary grouping with [[Oat 1|oats]] and [[Rye|rye]], despite the botanical distance.
+Its flowers support a strongly flavored [[Buckwheat Honey|buckwheat honey]]. The dark color and malty flavor come from the bees' nectar source, not from ground buckwheat mixed into the finished honey.
 
 [^1]: University of Maine Cooperative Extension, “[Maine Forage Facts: Small Grains Crops](https://extension.umaine.edu/publications/2270e/),” accessed July 17, 2026.

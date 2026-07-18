@@ -6,12 +6,11 @@ tags:
   - TEMPEH
 pairing:
 date: 2025-07-31
-project: "[[Blackening (Enzymatic)]]"
 description: This experiment holds tempeh at high heat for an extended blackening to develop deep savory and chocolate-like flavors.
 ---
 ## Background
 
-This project is an attempt to create a savory, chocolate-like product from [[(A) Meat Alternatives|tempeh]] using [[Blackening (Enzymatic)|blackening]]. By holding the tempeh at a constant high temperature for an extended period, the goal is to develop deep, complex flavors through Maillard reactions, caramelization, and the breakdown of proteins from the enzymes present from the tempeh fermentation.
+This experiment is an attempt to create a savory, chocolate-like product from [[(A) Meat Alternatives|tempeh]] using [[Blackening (Enzymatic)|blackening]]. By holding the tempeh at a constant high temperature for an extended period, the goal is to develop deep, complex flavors through Maillard reactions, caramelization, and the breakdown of proteins from the enzymes present from the tempeh fermentation.
 
 ---
 ## Recipe

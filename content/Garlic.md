@@ -9,7 +9,7 @@ Garlic is the most pungent common allium, with a sharp heat that mellows dramati
 
 ### What happens when a clove is crushed
 
-Garlic is an allium alongside [[Onion|onion]] and [[Leek|leek]]. Crushing its tissue releases sulfur compounds called thiosulfinates, which account for much of the familiar pungent aroma.[^2]
+An intact garlic clove is comparatively quiet. Crushing it brings enzymes and sulfur-containing precursors together, producing thiosulfinates responsible for much of the familiar pungent aroma.[^2]
 
 ### Five thousand years of cloves, rarely seed
 

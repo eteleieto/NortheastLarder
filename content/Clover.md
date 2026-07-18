@@ -5,7 +5,7 @@ tags: [INGREDIENT]
 
 *Trifolium* spp.
 
-Clover is a legume, placing it in the same broad family as [[Pea|peas]], [[Dry Bean|beans]], and [[Soybean 1|soybean]]. Red and white clover are both familiar in Northeast fields and lawns.[^1]
+Clover is a legume. Red and white clover are both familiar in Northeast fields and lawns, where the plant's low growth can hide how important its roots are to the surrounding soil.[^1]
 
 ### A flower to use lightly
 

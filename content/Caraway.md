@@ -9,7 +9,7 @@ Caraway is a biennial in the carrot family. What is commonly called the â€œseedâ
 
 ### A fruit from the carrot family
 
-It is related to [[Carrot 1|carrot]], [[Parsnip|parsnip]], celery, dill, and parsley. Its warm, anise-like aroma is chemically and botanically distinct from the mustardy compounds of [[Cabbage|cabbage]] and [[Radish|radish]].[^2]
+Caraway is a member of the carrot family, but its warm, anise-like aroma comes from the dry fruit rather than a root. That aroma is chemically distinct from the mustardy heat of a radish or cabbage.[^2]
 
 ### The second-year harvest
 

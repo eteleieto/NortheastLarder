@@ -17,7 +17,7 @@ Unopened flower buds can be brined or pickled as “dandelion capers.” Open fl
 
 ### Gathering from imperfect ground
 
-Like [[Lamb's Quarters|lamb’s-quarters]] and [[Purslane|purslane]], dandelion is often treated as a weed but is also a food plant. Positive identification and avoidance of chemically treated ground matter more than romantic ideas about “wild” food.[^1]
+Dandelion's familiarity can make it seem foolproof, but the ground matters as much as the plant. Positive identification and avoidance of chemically treated or contaminated sites come before any kitchen use.[^1]
 
 [^1]: University of Maine Cooperative Extension, “[Facts on Edible Wild Greens in Maine](https://extension.umaine.edu/publications/4060e/),” accessed July 17, 2026.
 [^2]: Royal Horticultural Society, “[Dandelion](https://www.rhs.org.uk/weeds/dandelion),” accessed July 17, 2026.

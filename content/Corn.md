@@ -18,10 +18,6 @@ University of Maine Extension describes sweet corn as one of Maine's late-summer
 
 The kernel changes character depending on when it is harvested. Sweet corn is picked while sugars are still high; dry corn is left to harden and becomes useful for milling, roasting, and long storage. That split helps explain why one plant can lead to fresh ears, cornmeal, grits, masa-style preparations, and toasted grain drinks.[^1][^4]
 
-### Corn already in the larder
-
-Corn belongs with [[Bloody Butcher Corn]] and [[Sweet Corn]] as specific Northeast corn threads already in the notebook. It also fits naturally beside [[Buckwheat]], [[Rye]], and [[Barley]] whenever the site moves from fresh vegetables into dried-grain experiments.
-
 [^1]: University of Maine Cooperative Extension, “[Bulletin #4253, Vegetables and Fruits for Health: Sweet Corn](https://extension.umaine.edu/publications/4253e/),” accessed July 18, 2026.
 [^2]: National Park Service, “[New England Archeological Time Periods](https://www.nps.gov/articles/000/archeological-time-periods.htm),” accessed July 18, 2026.
 [^3]: University of Maine Cooperative Extension, “[Bulletin #2190, Vegetable Varieties for Maine Gardens](https://extension.umaine.edu/publications/2190e/),” accessed July 18, 2026.

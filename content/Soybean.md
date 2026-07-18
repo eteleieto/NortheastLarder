@@ -6,7 +6,7 @@ tags: [INGREDIENT]
 
 *Glycine max*
 
-Soybean is a legume grown for protein- and oil-rich seeds. It is botanically related to [[Dry Bean|dry beans]], [[Pea|peas]], and [[Peanut 1|peanuts]], though its food role is distinct.[^1]
+Soybean is a legume grown for protein- and oil-rich seeds. Its food role is unusually broad: the same mature bean can become oil, flour, milk, curd, meal, or a fermentation substrate.[^1]
 
 ### Soybeans in a Maine rotation
 

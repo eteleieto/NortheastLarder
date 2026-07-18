@@ -5,7 +5,6 @@ tags:
   - BLACKENED
 pairing:
 date: 2025-07-23
-project: "[[Blackening (Enzymatic)]]"
 description: This experiment compares two blackened beet variations to see how koji changes the process and flavor.
 ---
 ## Background

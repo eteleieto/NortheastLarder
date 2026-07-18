@@ -10,7 +10,7 @@ Cucumber is clean, watery, and crisp, with a mild green flavor. It is a warm-sea
 
 ### The watery side of the squash family
 
-It shares the cucurbit family with [[Zucchini|zucchini]], [[Squash Blossom|squash blossoms]], and winter squash. Cucumbers are usually selected for a watery fruit rather than the denser flesh of squash.
+Cucumber is a cucurbit selected for watery, crisp fruit rather than the dense flesh and long storage of a winter squash.
 
 ### Pickling and slicing are different jobs
 

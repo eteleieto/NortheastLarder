@@ -10,10 +10,6 @@ Sweet corn is a high-summer crop with notably sugary kernels. Its sweetness begi
 
 ### Corn, beans, and squash before colonization
 
-Corn and [[Dry Bean|dry beans]] are a classic regional connection: both are important Northeast crops, with corn grown for its starchy kernels and beans for their mature seeds.
-
-### The Northeast field behind the familiar trio
-
 Corn, beans, and squash were the principal crops of Native American farmers in the Northeast for centuries before Europeans arrived; they are often called the Three Sisters.[^2]
 
 [^1]: University of Maine Cooperative Extension, “[Food & Nutrition for the Home Gardener](https://extension.umaine.edu/gardening/manual/food-nutrition/),” accessed July 17, 2026.

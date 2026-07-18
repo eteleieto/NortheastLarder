@@ -12,7 +12,7 @@ Beet roots are sweet and earthy, while the leaves have the mineral character of 
 
 Swiss chard is the same species as beet, selected for large leaves and stems rather than an enlarged root.[^2]
 
-Red beet color comes from betalain pigments rather than the anthocyanins that color [[Red Currant|currants]], [[Wild Blueberry|blueberries]], and many other red-purple plants. Yellow beets carry a different balance of the same pigment family.[^3]
+Red beet color comes from betalain pigments rather than the anthocyanins responsible for many other red and purple fruits. Yellow beets carry a different balance of the same pigment family.[^3]
 
 [^1]: University of Maine Cooperative Extension, “[Food & Nutrition for the Home Gardener](https://extension.umaine.edu/gardening/manual/food-nutrition/),” accessed July 17, 2026.
 [^2]: University of Maine Cooperative Extension, “[Maine Harvest for Hunger: Produce Tips](https://extension.umaine.edu/kennebec/maine-harvest-for-hunger/produce-tips/),” accessed July 17, 2026.

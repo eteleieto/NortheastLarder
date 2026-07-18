@@ -15,7 +15,7 @@ Buckwheat is a familiar Northeast cover crop and bee plant. In Maine it flowers 
 
 ### Darker than the usual flower honey
 
-Buckwheat honey links [[Buckwheat]] to the region's beekeeping and sweetener traditions. In flavor it sits closer to molasses, malt, and toasted grain than to delicate spring honey, which is why it makes sense beside pages like [[Maple Syrup]] and heavier ferments or pickles.
+Its malt, molasses, and toasted-grain notes can read almost savory. It is a poor stand-in for a pale, delicate honey, but a useful sweetener when the darker flavor is the point.
 
 [^1]: University of Maine Cooperative Extension, “[Bulletin #2076, Selecting Plants to Support Bees in Maine](https://extension.umaine.edu/publications/2076e/),” accessed July 18, 2026.
 [^2]: Cornell University, “[Northeast Buckwheat Growers Newsletter, June 2004](https://www.hort.cornell.edu/bjorkman/lab/buck/NL/june04.php),” accessed July 18, 2026.

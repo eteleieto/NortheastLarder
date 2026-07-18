@@ -18,7 +18,7 @@ Meadowsweet used to sit in the genus *Spiraea*. That old botanical name is part 
 
 ### A rose-family herb
 
-Despite its herbaceous form, meadowsweet belongs to the rose family with [[Apple 1|apple]], [[Strawberry|strawberry]], [[Red Raspberry 1|raspberry]], and [[Hawthorn 1|hawthorn]].
+Despite its herbaceous form, meadowsweet belongs to the rose family. The loose flower clusters make the relationship easier to imagine than the leaves do.
 
 [^1]: Royal Horticultural Society, “[Filipendula ulmaria](https://www.rhs.org.uk/plants/32871/filipendula-ulmaria/details),” accessed July 17, 2026; U.S. Geological Survey, “[Species Profile: Filipendula ulmaria](https://nas.er.usgs.gov/queries/GreatLakes/FactSheet.aspx?Species_ID=3810),” accessed July 17, 2026.
 [^2]: Woodland Trust, “[Meadowsweet](https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/plants/wild-flowers/meadowsweet/),” accessed July 17, 2026.
