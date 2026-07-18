@@ -20,6 +20,9 @@ Green skin does not always mean unripe: greengage plums remain greenish at full 
 
 Plums, [[Unripe Peach 1|peaches]], and [[Sour Cherry|cherries]] are *Prunus* stone fruits. Slightly underripe plums can contribute more natural pectin than overripe fruit; some plum types are naturally high-pectin even at ordinary ripeness.[^3]
 
+European plums, *Prunus domestica*, tend toward meaty, semifreestone flesh and include prune plums and greengages. Asian plums, *P. salicina*, are commonly larger, rounder, clingstone, and melting. Their aroma is a variable mixture that can include almond-like benzaldehyde, floral linalool, peach-like lactones, and spicy methyl cinnamate.[^4]
+
 [^1]: University of Maine Cooperative Extension, “[Types of Fruit Trees](https://extension.umaine.edu/fruit/growing-fruit-trees-in-maine/varieties/),” accessed July 17, 2026.
 [^2]: U.S. Department of Agriculture Agricultural Research Service, “[Effects of a Peach Antisense ACC Oxidase Gene on Plum Fruit Quality](https://www.ars.usda.gov/research/publications/publication/?seqNo115=183314),” 2005.
 [^3]: University of Minnesota Extension, “[Preserving Food at Home: Fruit Spreads](https://extension.umn.edu/preserve-your-own-food/fruit-spreads),” accessed July 17, 2026.
+[^4]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF p. 374.

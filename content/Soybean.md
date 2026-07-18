@@ -14,5 +14,8 @@ Soybean is among the crops used in Maine farm rotations and oilseed work, includ
 
 Edamame is an immature green soybean harvested while the seed is still tender. Dry soybeans are the mature form used for oil, flour, soy milk, tofu, and fermented foods. [[Okara]] is the pulp left when ground beans are filtered during soy-milk production.[^2]
 
+Edamame is harvested at roughly four-fifths maturity, while the beans are still green, crisp, and sweeter, with less of the characteristic mature-soy aroma. That “beany” aroma develops when damaged cells bring highly unsaturated oil together with oil-breaking enzymes and oxygen, producing volatile fragments reminiscent of grass, paint, cardboard, and rancid fat. Rapid heating inactivates the enzymes before they generate as much of that flavor.[^3]
+
 [^1]: University of Maine Cooperative Extension, “[Growing and Pressing Sunflowers for Organic Livestock Protein Supplements](https://extension.umaine.edu/agriculture/sustainable-agriculture/profile-sunflowers/),” accessed July 17, 2026.
 [^2]: Food and Agriculture Organization of the United Nations, “[Soybeans: Post-Harvest Operations](https://www.fao.org/fileadmin/user_upload/inpho/docs/Post_Harvest_Compendium_-_SOYBEAN.pdf),” accessed July 17, 2026.
+[^3]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF p. 508.

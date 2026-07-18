@@ -20,5 +20,8 @@ Cherry skin and flesh surround the pit as a classic drupe, the same basic fruit 
 
 Sweet cherry, [[Sour Cherry|sour cherry]], peach, and plum all belong to *Prunus*. The shared stone-fruit structure matters in the kitchen, but sweetness, acidity, tannin, and firmness still vary sharply by species and cultivar.
 
+Sweet and sour cherries differ most conspicuously in how much sugar they can accumulate, rather than in possessing wholly different aroma systems. Both draw much of their characteristic scent from almond-like benzaldehyde, floral linalool, and clove-like eugenol. Heating strengthens the almond and floral notes, especially when the pits remain present.[^3]
+
 [^1]: University of Maine Cooperative Extension, “[Types of Fruit Trees](https://extension.umaine.edu/fruit/growing-fruit-trees-in-maine/varieties/),” accessed July 18, 2026.
 [^2]: National Park Service, “[Orchard History: Orchard Specialization and Industrialization, 1881–1945](https://www.nps.gov/articles/000/historic-context-orchards-1881-to-1945.htm),” 2022.
+[^3]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF p. 373.

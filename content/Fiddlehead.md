@@ -20,4 +20,7 @@ The coiled tip follows the same spiral form seen on a violin scroll, which expla
 
 UMaine and CDC guidance treats thorough cooking as necessary because raw or undercooked fiddleheads have caused foodborne illness. That is an ingredient-specific safety fact rather than a general rule about fern texture.[^1]
 
+Species identification is also a chemical safety issue. Bracken fern fiddleheads contain a DNA-damaging toxin and should be avoided; ostrich fern is regarded as the safer food species, though the evidence on fern safety as a whole remains limited.[^2]
+
 [^1]: University of Maine Cooperative Extension, “[Facts on Fiddleheads](https://extension.umaine.edu/publications/4198e/),” accessed July 17, 2026.
+[^2]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF pp. 273, 331.

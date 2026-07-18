@@ -10,9 +10,7 @@ pairing:
 
 Yarrow is a strong, aromatic herb used in small amounts in tea blends and occasional savory cooking. Its leaves and flowers are often described as tarragon-like, mildly sweet, and bitter.[^1]
 
-
-- Use sparingly: yarrow’s flavor becomes dominant quickly.
-- The flowers can be dried for tea; remove the woody stems and dry out of direct sun.[^2]
+Its flavor becomes dominant quickly, so it is normally used sparingly. The flowers can be dried for infusions after the woody stems are removed.[^2]
 
 
 Yarrow tolerates a wide range of climates and soils and grows well in full sun. It can spread by rhizomes, so treat it as a small, deliberate patch rather than a contained annual herb.[^2]
