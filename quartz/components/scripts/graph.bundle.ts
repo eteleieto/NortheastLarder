@@ -266,8 +266,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     "--dark",
     "--darkgray",
     "--bodyFont",
-    "--graph-title-match",
-    "--graph-content-match",
+    "--graph-search-match",
   ] as const
   const computedStyleMap = cssVars.reduce(
     (acc, key) => {
@@ -496,21 +495,27 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     const nodeData = node.simulationData
     const isTagNode = nodeData.id.startsWith("tags/")
     const isUnresolved = unresolvedNodes.has(nodeData.id)
-    const matchColor =
-      matchKind === "title"
-        ? computedStyleMap["--graph-title-match"]
-        : computedStyleMap["--graph-content-match"]
+    const radius = nodeRadius(nodeData)
+    const nodeColor = isTagNode ? computedStyleMap["--light"] : color(nodeData)
 
     node.gfx
       .clear()
-      .circle(0, 0, nodeRadius(nodeData))
+      .circle(0, 0, radius)
       .fill({
-        color: matchKind ? matchColor : isTagNode ? computedStyleMap["--light"] : color(nodeData),
+        color: nodeColor,
         alpha: isUnresolved ? 0 : 1,
       })
 
-    if (matchKind) {
-      node.gfx.stroke({ width: 2.5, color: matchColor })
+    if (matchKind === "title") {
+      node.gfx
+        .circle(0, 0, radius + 0.75)
+        .stroke({ width: 1.2, color: computedStyleMap["--graph-search-match"], alpha: 0.82 })
+        .circle(0, 0, radius + 3.25)
+        .stroke({ width: 1.2, color: computedStyleMap["--graph-search-match"], alpha: 0.82 })
+    } else if (matchKind === "content") {
+      node.gfx
+        .circle(0, 0, radius + 1.5)
+        .stroke({ width: 1.3, color: computedStyleMap["--graph-search-match"], alpha: 0.68 })
     } else if (isTagNode) {
       node.gfx.stroke({ width: 2, color: computedStyleMap["--tertiary"] })
     } else if (nodeData.id === slug) {
