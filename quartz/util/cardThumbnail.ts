@@ -77,7 +77,8 @@ export async function resolveImageSourcePath(
 ): Promise<string | null> {
   const index = await buildSourcePathIndex(ctx)
   const key = slugFromImageSrc(pageSlug, imageSrc)
-  return index.get(key) ?? null
+  const slugifiedKey = slugifyFilePath(key as FilePath)
+  return index.get(key) ?? index.get(slugifiedKey) ?? null
 }
 
 export async function ensureCardThumbnail(
