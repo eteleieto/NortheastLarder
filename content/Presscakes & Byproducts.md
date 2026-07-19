@@ -3,14 +3,14 @@ title: Presscakes & Byproducts
 tags:
   - PROJECT
 date: 2026-07-08
-cardImage: Assets/Attachments/Maine Herring Oil Press.webp
+cardImage: Assets/Attachments/Flaxseed Oil Grinders.webp
 ---
 # Background
 
 The world’s largest food industries create excesses of plant material – byproducts – during their production processes. The macronutrient profile of many of these byproducts is similar and ripe for valorization: primarily fiber and protein. Take the oil industry as an example. Canola/rapeseed and sunflower oil production alone are projected to generate about 78.3 million tonnes of meal and presscake co-products globally in 2026/2027.[^1] The brewing industry, likewise, produces about 37.8 million tonnes of spent grain annually.[^2] Soy okara alone – a byproduct of soymilk and tofu production – is estimated at about 14 million tonnes per year.[^3] Many such examples exist, but these three industries alone produce byproducts estimated to contain roughly 34–35.5 million tonnes of crude protein annually.[^4] Not taking into account projected growth – as newly industrializing countries increase consumption of refined products – the opportunity for upcycling these byproducts is enormous.
 
-![[Maine Herring Oil Press.webp|600|600]]
-*An early kettle and press used to render herring oil on the Maine coast. Photo: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:FMIB_34004_Primitive_Form_of_Kettle_and_Press_for_Rendering_Oil_from_Herring_on_the_Maine_Coast.jpeg)*
+![[Flaxseed Oil Grinders.webp|600|600]]
+*Workers feed flaxseed into roller grinders, the first step in extracting linseed oil, circa 1945. Photo: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Flaxseed_is_fed_into_a_battery_of_five-roller_grinders,_the_first_step_in_extracting_linseed_oil_-_NARA_-_283916.jpg)*
 
 To focus only on protein, let’s reframe the opportunity in terms of per capita consumption. Using the FDA’s reference Daily Value of 50 grams of protein per person per day, or 18.25 kg per year, that amount of protein contained in just these three byproduct streams is equivalent to about 1.8–2.0 billion annual Daily Values.[^5] A rough market comparison makes the point even clearer. If this same amount of protein were replaced with a low-cost commodity protein such as soybean meal, it would have an illustrative gross commodity value of roughly $22 billion at recent global prices.[^6] This does not mean all of these byproducts can immediately become human food, nor are these gross comparisons realizable market values. Processing losses, food safety, protein quality, digestibility, and regulations are important. But of utmost importance is consumer acceptability, that is, deliciousness. To underscore this point, take the equivalent economic impact of replacing protein for which there is additional demand. At explicitly stated protein-content assumptions, the gross commodity equivalent would be about $600 billion for poultry[^7] and could exceed $1.4 trillion for beef.[^8]
 
