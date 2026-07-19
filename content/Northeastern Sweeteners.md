@@ -5,6 +5,9 @@ tags:
 date: 2026-06-05
 description: This project is centered on creating sweeteners using solely products from the Northeast.
 ---
+![[Maple Sap Buckets.webp|600|600]]
+*Maple sap buckets at Beaver Meadow Audubon Center in western New York. Photo: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Maple_sap_buckets_-_Beaver_Meadow_Audubon_Center.jpg)*
+
 ## Background
 
 Federal dietary guidance estimates that added sugars account for more than 13% of calories consumed in the United States.[^1] A separate USDA supply measure shows that, in 2021, about 55% of the caloric sweeteners available for consumption were refined cane and beet sugars, about 43% were corn sweeteners, and about 2% were honey and other edible syrups.[^2]

@@ -5,6 +5,9 @@ tags:
 date: 2026-06-21
 description: An exploration of teas and tisanes made entirely from Northeastern plants, grains, fruits, and fungi.
 ---
+![[New Jersey Tea Flowers.webp|600|600]]
+*Flowering New Jersey tea, a native shrub whose leaves were historically used as a tea substitute. Photo: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:New_Jersey_Tea_(35268197676).jpg)*
+
 ## Background
 
 Tea, strictly speaking, is the *camellia sinensis* plant. All types of tea (grean tea, white tea, oolong, black tea, and fermented dark teas like pu'er), begin with teh same plant. Besides varying cultivars, their differences come purely from treatment: growing conditions, harvesting techniques, and processing. Tisanes, or 'herbal teas', are a much broader group of drinks made by infusing practically anything else: leaves, flowers, fruits, roots bark, seeds, grains, fungi, seaweeds, and more.[^1] 
@@ -14,6 +17,9 @@ In the Northeast US, tea cultivation is limited to practically non-existant, wit
 Of course, there are many historical reference points for herbal teas, including in the Northeast. [[New Jersey Tea|New Jersey tea]] (*Ceanothus americanus*) was used in place of imported tea during the American Revolution.[^2] Other leaves and flowers used for herbal teas include [[Fireweed|fireweed]], [[Red Raspberry|red raspberry leaf]], [[Nettle|nettle]], [[Bee Balm|bee balm]], [[Anise Hyssop|anise hyssop]], [[Lemon Balm|lemon balm]], [[Mint|mint]], [[Chamomile|chamomile]], [[Linden|linden]], [[Lilac|lilac]], [[Violet|violet]], and [[Pineapple Weed|pineapple weed]]. Fruit, berry, and sour-plant preparations include [[Staghorn Sumac|staghorn sumac]], [[Cranberry|cranberry]], [[Sour Cherry|sour cherry]], [[Apple|apple]], [[Rose Hip|rose hip]], and [[Rhubarb|rhubarb]]. One plant, [[Yaupon Holly|yaupon holly]], even has its own caffeine, the only such native North American plant.
 
 Other preparations draw from aromatic seeds, berries, twigs, bark, and needles, including [[Spicebush|spicebush]], [[Caraway|caraway]], [[Spruce|spruce]], and [[Pine|pine]]. Roasted grain and root teas include [[Rye|rye]], [[Barley|barley]], [[Buckwheat|buckwheat]], [[Corn|corn]], [[Oat|oat]], [[Sorghum|sorghum]], [[Dandelion|dandelion root]], and [[Burdock|burdock root]]. Fungi form another category of infusions. [[Maple Syrup|Maple syrup]], honey, fruit reductions, [[Amazake|amazake]], and malted-grain syrups are possible Northeastern additions to any of these preparations.
+
+![[Spicebush Berries.webp|600|600]]
+*Native spicebush with ripe berries, one of several aromatic Northeastern plants suited to infusion. Photo: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spicebush_(Lindera_benzoin)_branch_with_berries.jpg)*
 
 Byproducts may also be germaine for herbal teas. Fruit skins and pomace, raspberry leaves, strawberry tops, herb stems, spent grain, corn silk, and grain screenings all have flavor even after their primary product has been processed or harvested. Because the solids are strained out in herbal teas, an infusion can sometimes make use of fibrous materials that would be unpleasant to eat. 
 
@@ -26,6 +32,9 @@ The key reaction in black tea processing is oxidation. Oxidation is a primarily 
 For green tea, these reactions are avoided, which affects the flavor but also informs the brewing process. Longer and hotter steeps draw out more of these bitter compounds, and so gentler techniques must be used for green teas (in contrast with black teas) to prevent over-extraction.
 
 Beyond being composed of different plant material, herbal teas (leafs, shoots, grains, and so on) contain different endogenous enzymes which affect the viability of oxidation. Fireweed, raspberry, nettle, and *Camellia sinensis* will therefore develop quite differently than traditional tea, though these techniques can often still be effectual, depending on such compounds and enzymes (for example, Nordic Food Lab found that rolled and oxidized fireweed developed fruitier, more tea-like aromas).[^4]
+
+![[Fireweed Flowers.webp|600|600]]
+*Fireweed in flower near Thunder Bay, Ontario. Photo: [Ryan Hodnett, Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fireweed_(Chamaenerion_angustifolium)_-_Thunder_Bay,_Ontario_01.jpg) (CC BY-SA 4.0)*
 
 Roasting can also contribute to complexity, especially for grains, roots, and seeds. The existing [[Grain Tea|grain tea]] and [[Toasted Rye Tea|rye tea]] trials show the range from sweet and cereal-like to bitter, smoky, and burnt. Different reactions like the Maillard reaction contribute to flavor development as they do during many cooking processes.
 
