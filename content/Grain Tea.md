@@ -5,7 +5,7 @@ tags:
   - TEA
 pairing:
 date: 2026-06-30
-project: "[[(A) Northeastern Teas & Tisanes]]"
+project: "[[Northeastern Teas & Tisanes]]"
 description: This experiment compares roasted grains, brew methods, and roast profiles for a grain-based tea.
 ---
 ## Background
