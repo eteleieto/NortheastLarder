@@ -4,7 +4,7 @@ tags:
   - EXPERIMENT
 pairing:
 date: 2026-06-26
-project: "[[(A) Vegetable 'Anchovies']]"
+project: "[[(b) Vegetable 'Anchovies']]"
 ---
 ## Background
 

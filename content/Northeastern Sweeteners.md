@@ -51,7 +51,7 @@ So – in our unique place and time – what do sweeteners of the Northeast look
   - Industrial starch sweeteners, made by hydrolyzing starch into glucose and, for high-fructose corn syrup, enzymatically converting some glucose to fructose; amylase treatment can likewise increase the sweetness of oat milk.[^15]
   - Culinary saccharified sweeteners, using enzymes from koji (_Aspergillus oryzae_), tempeh-related _Rhizopus_ molds, or malted grain to release sugars from starch (cf. amazake, Korean rice syrup, or beer wort).[^7][^8][^16]
 
-Each of these sweeteners – like palm jaggery or date syrup – has a unique flavor that demands creativity; in other words, it pushes us to consider cuisine. These are the primary sweeteners we experiment with. What the future of sweetness in the Northeast may look like, we do not know!
+Each of these sweeteners – like palm jaggery or date syrup – has a unique flavor that demands creativity; in other words, it pushes us to consider cuisine. These are the primary sweeteners we experiment with.
 
 _If you have corrections, comments, or additions to the above information, please send us a note at info@northeastlarder.com._
 
