@@ -4,10 +4,8 @@ tags:
   - PROJECT
 date: 2026-06-21
 description: An exploration of teas and tisanes made entirely from Northeastern plants, grains, fruits, and fungi.
+cardImage: Assets/Attachments/New Jersey Tea Flowers.webp
 ---
-![[New Jersey Tea Flowers.webp|600|600]]
-*Flowering New Jersey tea, a native shrub whose leaves were historically used as a tea substitute. Photo: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:New_Jersey_Tea_(35268197676).jpg)*
-
 ## Background
 
 Tea, strictly speaking, is the *camellia sinensis* plant. All types of tea (grean tea, white tea, oolong, black tea, and fermented dark teas like pu'er), begin with teh same plant. Besides varying cultivars, their differences come purely from treatment: growing conditions, harvesting techniques, and processing. Tisanes, or 'herbal teas', are a much broader group of drinks made by infusing practically anything else: leaves, flowers, fruits, roots bark, seeds, grains, fungi, seaweeds, and more.[^1] 
@@ -15,6 +13,9 @@ Tea, strictly speaking, is the *camellia sinensis* plant. All types of tea (grea
 In the Northeast US, tea cultivation is limited to practically non-existant, with the exception of some [individual attempts](https://fingerlakestea.com/). The techniques of tea oxidation, fermentation, drying, roasting, smoking, and brewing, however, can offer a foundation for the development of satisyfing herbal teas of the Northeast.
 
 Of course, there are many historical reference points for herbal teas, including in the Northeast. [[New Jersey Tea|New Jersey tea]] (*Ceanothus americanus*) was used in place of imported tea during the American Revolution.[^2] Other leaves and flowers used for herbal teas include [[Fireweed|fireweed]], [[Red Raspberry|red raspberry leaf]], [[Nettle|nettle]], [[Bee Balm|bee balm]], [[Anise Hyssop|anise hyssop]], [[Lemon Balm|lemon balm]], [[Mint|mint]], [[Chamomile|chamomile]], [[Linden|linden]], [[Lilac|lilac]], [[Violet|violet]], and [[Pineapple Weed|pineapple weed]]. Fruit, berry, and sour-plant preparations include [[Staghorn Sumac|staghorn sumac]], [[Cranberry|cranberry]], [[Sour Cherry|sour cherry]], [[Apple|apple]], [[Rose Hip|rose hip]], and [[Rhubarb|rhubarb]]. One plant, [[Yaupon Holly|yaupon holly]], even has its own caffeine, the only such native North American plant.
+
+![[New Jersey Tea Flowers.webp|600|600]]
+*Flowering New Jersey tea, a native shrub whose leaves were historically used as a tea substitute. Photo: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:New_Jersey_Tea_(35268197676).jpg)*
 
 Other preparations draw from aromatic seeds, berries, twigs, bark, and needles, including [[Spicebush|spicebush]], [[Caraway|caraway]], [[Spruce|spruce]], and [[Pine|pine]]. Roasted grain and root teas include [[Rye|rye]], [[Barley|barley]], [[Buckwheat|buckwheat]], [[Corn|corn]], [[Oat|oat]], [[Sorghum|sorghum]], [[Dandelion|dandelion root]], and [[Burdock|burdock root]]. Fungi form another category of infusions. [[Maple Syrup|Maple syrup]], honey, fruit reductions, [[Amazake|amazake]], and malted-grain syrups are possible Northeastern additions to any of these preparations.
 

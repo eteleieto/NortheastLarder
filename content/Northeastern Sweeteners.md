@@ -4,10 +4,8 @@ tags:
   - PROJECT
 date: 2026-06-05
 description: This project is centered on creating sweeteners using solely products from the Northeast.
+cardImage: Assets/Attachments/Maple Sap Buckets.webp
 ---
-![[Maple Sap Buckets.webp|600|600]]
-*Maple sap buckets at Beaver Meadow Audubon Center in western New York. Photo: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Maple_sap_buckets_-_Beaver_Meadow_Audubon_Center.jpg)*
-
 ## Background
 
 Federal dietary guidance estimates that added sugars account for more than 13% of calories consumed in the United States.[^1] A separate USDA supply measure shows that, in 2021, about 55% of the caloric sweeteners available for consumption were refined cane and beet sugars, about 43% were corn sweeteners, and about 2% were honey and other edible syrups.[^2]
@@ -22,6 +20,9 @@ Humans have a broadly shared, evolutionarily rooted attraction to sweetness, alt
 ## A Brief History of Sweetness in the Northeast
 
 Before the U.S. was colonized, Native American tribes in the Northeast had a few options for sweetness – that is for sure – though we have limited records of the cuisine. Without a doubt, they used maple sugar and syrup.[^19] Accounts also describe other tree saps and, elsewhere in the Americas, preparations made from the sweet juice of young corn stalks.[^4] Of course, there was also naturally occurring sweetness in fruits and tubers, some of which may have been cooked or concentrated. English colonists first imported European honeybees to Jamestown, Virginia, in 1622; historical records imply separate introductions to Plymouth in the 1630s and Long Island in the 1670s.[^11] The bee was later described in some accounts as the “white man’s fly.” These early colonists had the aforementioned sweeteners, such as tree syrups and fruits, as well as the newly introduced honey.[^4]
+
+![[Maple Sap Buckets.webp|600|600]]
+*Maple sap buckets at Beaver Meadow Audubon Center in western New York. Photo: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Maple_sap_buckets_-_Beaver_Meadow_Audubon_Center.jpg)*
 
 But around the same time, sugarcane-derived sugar imported from South America (Brazil) and the Caribbean (Barbados) was becoming popular ‘at home’ in England. As of around 1650, it became a household item.[^4] Soon, the same trend followed in the colonies, and sugar – especially, molasses, for the lower class – became the standard sweetener. Over the course of just a century and a half, from when Columbus first brought sugarcane to the Americas on his second voyage (1493), it had begun to transform the agricultural landscape of the Caribbean and parts of South America.[^3] As demand increased in Europe and the nascent United States, production dramatically increased. By the 1850s, the _New York Times_ described sugar – also becoming increasingly refined – as second only to salt as a necessity for the American people.[^3] For the Englishman, as of 1900, it was about a fifth of their caloric intake.[^4] Poor people continued to rely on molasses; along with bread and tea, it formed the bulk of the diet of the lower class.[^4]
 

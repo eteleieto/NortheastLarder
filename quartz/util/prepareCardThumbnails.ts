@@ -8,7 +8,9 @@ export async function prepareCardThumbnails(ctx: BuildCtx, content: ProcessedCon
   for (const [tree, file] of content) {
     if (!file.data.slug) continue
 
+    const configuredCardImage = file.data.frontmatter?.cardImage
     const imageSrc = getCardImage({
+      cardImage: typeof configuredCardImage === "string" ? configuredCardImage : undefined,
       htmlAst: tree as Root,
       content: file.data.text,
       description: file.data.description,

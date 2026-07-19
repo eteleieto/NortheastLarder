@@ -161,6 +161,7 @@ declare module "vfile" {
         enableToc: string
         cssclasses: string[]
         socialImage: string
+        cardImage: string
         comments: boolean | string
       }>
   }
