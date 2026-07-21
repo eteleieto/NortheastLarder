@@ -16,7 +16,7 @@ Testing the addition of maple syrup to a lacto-fermented brassica to evaluate ho
 
 ### Ingredients
 - 817 g [[Kohlrabi]]
-- 70 g Maple syrup
+- 70 g [[Maple Syrup|maple syrup]]
 
 ## Notes and Observations
 

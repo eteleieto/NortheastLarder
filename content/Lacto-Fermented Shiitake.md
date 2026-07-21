@@ -15,7 +15,7 @@ An experiment to preserve extra [[Shiitake|shiitake mushrooms]] using [[Lacto-Fe
 ## Process
 
 ### Ingredients
-- [[Shiitake|Shiitake mushrooms]]
+- [[Shiitake|shiitake mushrooms]]
 - Salt (calculated at 2% of total weight)
 - Water (just enough to cover as brine)
 
