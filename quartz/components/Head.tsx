@@ -20,7 +20,7 @@ export default (() => {
 
     let title: string
     if (fileData.slug === "index") {
-      title = "Northeast Larder - Open Source Food Research Notebook"
+      title = "The Northeast Larder - Regional Food Lab"
     } else {
       // Create descriptive titles based on content type and tags
       let titleContext = ""
