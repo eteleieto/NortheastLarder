@@ -9,7 +9,7 @@ tags: [INGREDIENT]
 Spruce tips are the soft, pale new shoots at the ends of branches. At that stage their flavor is brighter and less woody than mature needles, often reading as resin, citrus peel, and green fruit.
 
 
-Red, white, and black spruce all occur in Maine, and spruce-fir forest is especially characteristic of the state’s cooler coast and north. Spruce needles are short, sharp, and attached singly rather than in the bundles seen on [[Pine 1|pine]].[^1]
+Red, white, and black spruce all occur in Maine, and spruce-fir forest is especially characteristic of the state’s cooler coast and north. Spruce needles are short, sharp, and attached singly rather than in the bundles seen on [[Pine|pine]].[^1]
 
 
 Young spruce growth has a long food and drink history in northern regions. Newly grown tips have been used to flavor spruce beer, while Indigenous peoples in spruce country also ate young shoots and inner bark.[^2]

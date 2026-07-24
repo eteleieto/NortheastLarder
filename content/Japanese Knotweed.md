@@ -15,7 +15,7 @@ The edible stage is the youngest, most tender shoot. Mature stems become woody a
 Its hollow, jointed stems explain the old nickname “Mexican bamboo,” though it is unrelated to bamboo. Tiny fragments of its underground rhizomes can produce new plants, making careless disposal a real propagation risk.[^2]
 
 
-The tartness links it to [[Rhubarb 1|rhubarb]], and the two are relatives in the knotweed family, Polygonaceae.[^3]
+The tartness links it to [[Rhubarb|rhubarb]], and the two are relatives in the knotweed family, Polygonaceae.[^3]
 
 [^1]: University of Maine Cooperative Extension, “[Maine Home Garden News — April 2023](https://extension.umaine.edu/gardening/2023/04/02/maine-home-garden-news-april-2023/),” 2023.
 [^2]: University of Maine Cooperative Extension, “[Managing Japanese Knotweed](https://extension.umaine.edu/gardening/blog/2013/05/03/maine-home-garden-news-may-2013/),” 2013.

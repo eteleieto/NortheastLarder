@@ -9,7 +9,7 @@ tags: [INGREDIENT]
 Jerusalem artichoke is a sunflower-family perennial grown for its knobbly underground tubers. It is native to North America and has a long Northeast food history.[^1]
 
 
-It is more closely related to [[Sunflower Seed 1|sunflower]] than to the globe artichoke. In some Indigenous “Seven Sisters” accounts from the Northeast, it appears alongside corn, beans, squash, sunflower, and other regional crops.[^1]
+It is more closely related to [[Sunflower Seed|sunflower]] than to the globe artichoke. In some Indigenous “Seven Sisters” accounts from the Northeast, it appears alongside corn, beans, squash, sunflower, and other regional crops.[^1]
 
 
 Neither half of the English name is botanically helpful: the plant is native to North America rather than Jerusalem, and the food part is a tuber rather than the flower bud eaten from a globe artichoke.[^2]

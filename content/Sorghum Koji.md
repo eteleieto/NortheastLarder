@@ -10,7 +10,7 @@ description: This experiment tests sorghum koji while focusing on moisture contr
 ---
 ## Background
 
-This experiment explores the inoculation of [[Sorghum 1|sorghum]] with [[Koji|koji]] (specifically [[Aspergillus Oryzae|Aspergillus oryzae]]) over a 48-hour incubation period. The primary focus is to resolve moisture retention issues observed during incubation. A subsequent trial was also conducted incorporating [[Nixtamalization|nixtamalization]], using toasted [[Buckwheat|buckwheat]] starch to balance the liquid content and keep the kernels dry to the touch.
+This experiment explores the inoculation of [[Sorghum|sorghum]] with [[Koji|koji]] (specifically [[Aspergillus Oryzae|Aspergillus oryzae]]) over a 48-hour incubation period. The primary focus is to resolve moisture retention issues observed during incubation. A subsequent trial was also conducted incorporating [[Nixtamalization|nixtamalization]], using toasted [[Buckwheat|buckwheat]] starch to balance the liquid content and keep the kernels dry to the touch.
 
 ---
 ## Recipe

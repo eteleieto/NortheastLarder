@@ -10,7 +10,7 @@ description: This experiment uses malt to convert grain starches into sugars for
 ---
 ## Background
 
-This experiment utilizes [[Malt|malt]], similar to how it is used to provide amylase in industrial [[(ONG) Oat Milk|oat milk]] production, to break down starches in grains into sugars. This technique allows for the creation of a variety of plant-based milk alternatives using almost any grain, such as [[Emmer|emmer]], [[Rye|rye]], or [[Spelt 1|spelt]]. While protein and fat content vary by substrate, the milk can be enriched or emulsified with added fat to achieve parity with store-bought options.
+This experiment utilizes [[Malt|malt]], similar to how it is used to provide amylase in industrial [[(ONG) Oat Milk|oat milk]] production, to break down starches in grains into sugars. This technique allows for the creation of a variety of plant-based milk alternatives using almost any grain, such as [[Emmer|emmer]], [[Rye|rye]], or [[Spelt|spelt]]. While protein and fat content vary by substrate, the milk can be enriched or emulsified with added fat to achieve parity with store-bought options.
 
 ---
 ## Recipe

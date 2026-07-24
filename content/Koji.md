@@ -18,7 +18,7 @@ While polished rice is a traditional substrate, regional grains are being evalua
 * **[[Renan Wheat]]** (pearled)
 * **[[Farro]]** (pearled)
 * **[[Oats]]**
-* **[[Sorghum 1]]**
+* **[[Sorghum]]**
 
 In one grain-substrate trial, pearled Renan wheat, pearled farro, and oats were soaked overnight and steamed for 30 minutes; all three supported strong growth. Sorghum was boiled until soft enough to press between the fingers but supported poor growth, apparently because its dense structure and intact hull limited penetration.
 

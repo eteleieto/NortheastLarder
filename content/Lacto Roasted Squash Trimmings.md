@@ -10,7 +10,7 @@ description: This experiment ferments roasted honeynut squash trim to see how la
 ---
 ## Background
 
-This project utilizes the guts, trim, and skin of [[Honeynut Squash 1|honeynut squash]] that was roasted without oil. The squash was cooked through fully, developing a small amount of color, before being subjected to [[Lacto-Fermentation|lacto-fermentation]]. The goal is to explore how the fermentation process alters the profile of the roasted vegetable scraps, creating both a liquid and a dried powder.
+This project utilizes the guts, trim, and skin of [[Honeynut Squash|honeynut squash]] that was roasted without oil. The squash was cooked through fully, developing a small amount of color, before being subjected to [[Lacto-Fermentation|lacto-fermentation]]. The goal is to explore how the fermentation process alters the profile of the roasted vegetable scraps, creating both a liquid and a dried powder.
 
 ---
 ## Recipe

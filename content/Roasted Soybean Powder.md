@@ -9,7 +9,7 @@ description: This experiment roasts soybeans to test different paths toward a ki
 ---
 ## Background
 
-This project explores kinako, a roasted [[Soybean 1|soybean]] flour commonly used in Japanese cuisine. Traditionally, it is produced by roasting soybeans, peeling them, and grinding them into a fine powder, resulting in a nutty, toasted flavor profile. This experiment utilizes soybeans sourced from [[Lani's Farm]] to test how different roasting times affect the final flavor.
+This project explores kinako, a roasted [[Soybean|soybean]] flour commonly used in Japanese cuisine. Traditionally, it is produced by roasting soybeans, peeling them, and grinding them into a fine powder, resulting in a nutty, toasted flavor profile. This experiment utilizes soybeans sourced from [[Lani's Farm]] to test how different roasting times affect the final flavor.
 
 ---
 ## Recipe

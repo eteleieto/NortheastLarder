@@ -23,7 +23,7 @@ Largest Column: standard
 
 ### Ingredients 
 
-90g [[Oat 1|oats]]
+90g [[Oat|oats]]
 
 45g Light Munich Malt (from [[Valley Malt]])
 

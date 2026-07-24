@@ -10,7 +10,7 @@ description: This trial uses leftover carrots to explore a koji-inoculated charc
 ---
 ## Background
 
-This is a trial run using peeled [[Carrot 1|carrots]] leftover from the [[Carrot Bug]] project. A small amount of salt was added to have them release a little bit of moisture before being vacuum-sealed and chilled in preparation for inoculation.
+This is a trial run using peeled [[Carrot|carrots]] leftover from the [[Carrot Bug]] project. A small amount of salt was added to have them release a little bit of moisture before being vacuum-sealed and chilled in preparation for inoculation.
 
 ![[Carrot Charcuterie.webp|200x267]]
 

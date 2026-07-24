@@ -5,6 +5,7 @@ tags:
 pairing: 
 date: 2026-06-20
 project:
+description: This experiment tests how wine, lactose, and salt change tofu over a short fermentation.
 ---
 ## Background
 

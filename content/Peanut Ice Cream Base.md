@@ -9,7 +9,7 @@ description: This experiment builds a non-dairy ice cream base from raw peanuts.
 ---
 ## Background
 
-This experiment explores the creation of a frozen dessert using raw [[Peanut 1|peanuts]]. The process involves creating a base by cooking down the nuts with water and sweeteners, then processing the mixture using the sorbet function on the Ninja Creami. The goal is to evaluate the texture and flavor profile of a non-dairy, nut-based frozen treat.
+This experiment explores the creation of a frozen dessert using raw [[Peanut|peanuts]]. The process involves creating a base by cooking down the nuts with water and sweeteners, then processing the mixture using the sorbet function on the Ninja Creami. The goal is to evaluate the texture and flavor profile of a non-dairy, nut-based frozen treat.
 
 ---
 ## Recipe
@@ -27,7 +27,7 @@ Largest Column: standard
 
 100g Sugar
 
-50g [[Maple Syrup 1|maple syrup]]
+50g [[Maple Syrup|maple syrup]]
 
 Pinch of Salt
 

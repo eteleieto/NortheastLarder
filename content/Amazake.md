@@ -39,8 +39,8 @@ The standard trials were conducted in the Alto-Shaam, with an additional duplica
 Four distinct batches were prepared using a 1:1:2 ratio (1 part koji, 1 part water, 2 parts secondary substrate):
 
 1. **Wheat Koji:** Prepared with [[Wheat]] koji.
-2. **Oat Koji:** Prepared with [[Oat 1]] koji.
-3. **Sorghum Koji:** Prepared with [[Sorghum 1]] koji.
+2. **Oat Koji:** Prepared with [[Oat]] koji.
+3. **Sorghum Koji:** Prepared with [[Sorghum]] koji.
 4. **Rice Koji:** Prepared with [[Rice]] koji and a secondary substrate.
 
 ### Equipment

@@ -18,7 +18,7 @@ Maine orchards can grow European, Japanese, hybrid, and native-derived plums, bu
 Green skin does not always mean unripe: greengage plums remain greenish at full ripeness. A developmental description therefore needs more than color—firmness, seed development, aroma, and cultivar all matter.
 
 
-Plums, [[Unripe Peach 1|peaches]], and [[Sour Cherry|cherries]] are *Prunus* stone fruits. Slightly underripe plums can contribute more natural pectin than overripe fruit; some plum types are naturally high-pectin even at ordinary ripeness.[^3]
+Plums, [[Unripe Peach|peaches]], and [[Sour Cherry|cherries]] are *Prunus* stone fruits. Slightly underripe plums can contribute more natural pectin than overripe fruit; some plum types are naturally high-pectin even at ordinary ripeness.[^3]
 
 European plums, *Prunus domestica*, tend toward meaty, semifreestone flesh and include prune plums and greengages. Asian plums, *P. salicina*, are commonly larger, rounder, clingstone, and melting. Their aroma is a variable mixture that can include almond-like benzaldehyde, floral linalool, peach-like lactones, and spicy methyl cinnamate.[^4]
 

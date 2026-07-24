@@ -9,7 +9,7 @@ description: This recipe uses light Munich malt to make a smoother, less starchy
 ---
 ## Background
 
-In industrial oat milk production, commercial amylase is often used to break down starches for a smoother texture. This experiment is an attempt to use the enzymes naturally present in [[Light Munich Malt|Light Munich malt]] from [[Valley Malt]] to achieve a similar result. The goal is to break down the starches from the [[Oat 1|oats]] (from [[Wild Hive Farm]]), creating a smoother milk without a starchy mouthfeel, while simultaneously developing malty flavors.
+In industrial oat milk production, commercial amylase is often used to break down starches for a smoother texture. This experiment is an attempt to use the enzymes naturally present in [[Light Munich Malt|Light Munich malt]] from [[Valley Malt]] to achieve a similar result. The goal is to break down the starches from the [[Oat|oats]] (from [[Wild Hive Farm]]), creating a smoother milk without a starchy mouthfeel, while simultaneously developing malty flavors.
 
 ---
 ## Recipe
@@ -60,4 +60,4 @@ Cheesecloth or Nut Milk Bag
 - The final product has a nice mouthfeel, similar to a store-bought barista milk; it is relatively thick and concentrated.
 - It has a strong oat flavor with a malty aftertaste. It would be delicious on its own or used as a base for drinks.
 - It would be worth doing further testing using it as an ingredient in baked goods.
-- It would be interesting to try this malting technique with other starchy ingredients like other grains or [[Peanut 1|peanuts]].
+- It would be interesting to try this malting technique with other starchy ingredients like other grains or [[Peanut|peanuts]].

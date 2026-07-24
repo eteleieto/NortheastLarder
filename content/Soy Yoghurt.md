@@ -9,7 +9,7 @@ description: This experiment tests whether soybeans can produce a neutral yogurt
 ---
 ## Background
 
-This project serves as an attempt to create a sustainable alternative to dairy, utilizing ingredients that are cost-effective, easy to grow, and extensible enough to fill various culinary niches. While the broader exploration focused on yogurt production, this specific trial using [[Soybean 1]]s resulted in an exceptional drinking milk.
+This project serves as an attempt to create a sustainable alternative to dairy, utilizing ingredients that are cost-effective, easy to grow, and extensible enough to fill various culinary niches. While the broader exploration focused on yogurt production, this specific trial using [[Soybean|soybeans]] resulted in an exceptional drinking milk.
 
 We are also running five test trials (four variants documented) to evaluate different ratios and additions for fermentation:
 
@@ -24,7 +24,7 @@ We are also running five test trials (four variants documented) to evaluate diff
 
 ### Ingredients 
 
-*   300g soaked [[Soybean 1]]s
+*   300g soaked [[Soybean|soybeans]]
 *   750g water
 
 ### Equipment

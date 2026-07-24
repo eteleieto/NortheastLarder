@@ -5,6 +5,7 @@ tags:
 pairing: 
 date: 2026-06-23
 project:
+description: These trials test coagulants, milk thickness, and steaming variables for making set tofu.
 ---
 # Silken Tofu Experiments
 

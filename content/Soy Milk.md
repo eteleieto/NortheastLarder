@@ -9,7 +9,7 @@ description: This experiment produces a drinkable soy milk as part of the broade
 ---
 ## Background
 
-This project serves as an attempt to create a sustainable alternative to dairy, utilizing ingredients that are cost-effective, easy to grow, and extensible enough to fill various culinary niches. While the broader exploration focused on yogurt production, this specific trial using [[Soybean 1|soybeans]] resulted in an exceptional drinking milk.
+This project serves as an attempt to create a sustainable alternative to dairy, utilizing ingredients that are cost-effective, easy to grow, and extensible enough to fill various culinary niches. While the broader exploration focused on yogurt production, this specific trial using [[Soybean|soybeans]] resulted in an exceptional drinking milk.
 
 ---
 ## Recipe
@@ -84,7 +84,6 @@ For each trial, the base formulation is:
 ## Next Trial
 
 We will continue testing with different [[Soy Milk|soy milk]] varieties. Future experiments will incorporate different blanching steps to better control the protein content and final taste.
-
 
 
 

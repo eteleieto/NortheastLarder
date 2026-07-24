@@ -10,7 +10,7 @@ description: This experiment combines oats, sorghum, and kinako in a high-temper
 ---
 ## Background
 
-This experiment explores the creation of an [[Oat Garum]], incorporating [[Oat 1|oats]], [[Sorghum 1|sorghum]], and homemade [[Kinako|kinako]] to introduce additional protein and a deep, roasted flavor profile. The approach is inspired by the Noma coffee shoyu or a Noma-style [[Garum|garum]], held at 140°F (60°C). To expedite the iteration process, the fermentation will run directly at this high temperature, with the option to blend in a [[Lacto-Fermentation|lacto-fermented]] liquid at the end if more lactic acidity is desired.
+This experiment explores the creation of an [[Oat Garum]], incorporating [[Oat|oats]], [[Sorghum|sorghum]], and homemade [[Kinako|kinako]] to introduce additional protein and a deep, roasted flavor profile. The approach is inspired by the Noma coffee shoyu or a Noma-style [[Garum|garum]], held at 140°F (60°C). To expedite the iteration process, the fermentation will run directly at this high temperature, with the option to blend in a [[Lacto-Fermentation|lacto-fermented]] liquid at the end if more lactic acidity is desired.
 
 ---
 ## Recipe
