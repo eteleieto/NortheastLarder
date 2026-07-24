@@ -5,12 +5,12 @@ tags: [INGREDIENT]
 
 *Urtica dioica*
 
-Nettle is a vigorous perennial green whose hollow hairs deliver the familiar sting. Once handled with care and processed, its young shoots are an established spring food in northern climates.[^1]
+Nettle is a vigorous perennial green whose sting is the main reason it is remembered and the main reason it is often overlooked as food. In northern climates, though, the young tops are a standard spring edible, gathered before the plants turn coarse and bitter and then treated much like spinach.[^1][^2]
 
+The sting is both mechanical and chemical. McGee notes that each hair ends in a brittle silica tip above a small reservoir of irritants, including histamine, which is why rough handling matters and why a short blanch changes the plant so completely.[^3] Once those hairs collapse, nettle stops behaving like a warning and starts behaving like a cooking green.
 
-The sting is a physical and chemical defense, so positive identification and careful handling are central to its use as a food plant.[^1]
+That shift is what makes nettle so useful in a Northeast context. UMaine lists it among the edible wild greens of Maine, while Vaughan and Geissler describe the young tops as suitable for puree, soup, tea, and even beer, with older leaves becoming noticeably more bitter.[^1][^2] The result is a plant that has more culinary range than its reputation suggests: a strong spring green, yes, but also an ingredient that can move between savory cooking and infusion without losing its identity.
 
-Each stinging hair ends in a brittle silica tip above a gland of irritants, including histamine. A quick blanch breaks that system, releases and dilutes the irritants, and turns the guarded raw leaf into a usable cooking green.[^2]
-
-[^1]: University of Maine Cooperative Extension, “[Facts on Edible Wild Greens in Maine](https://extension.umaine.edu/publications/4060e/),” accessed July 17, 2026.
-[^2]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF p. 339.
+[^1]: University of Maine Cooperative Extension, “[Facts on Edible Wild Greens in Maine](https://extension.umaine.edu/publications/4060e/),” accessed July 24, 2026.
+[^2]: John Vaughan and Catherine Geissler, *The New Oxford Book of Food Plants*, 2nd ed. (Oxford University Press, 2009), p. 210 (PDF p. 245).
+[^3]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF page 339.
