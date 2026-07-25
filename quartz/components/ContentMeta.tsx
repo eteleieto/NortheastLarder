@@ -11,6 +11,13 @@ function normalizeTags(tags: unknown): string[] {
   return []
 }
 
+function formatTag(tag: string): string {
+  return tag
+    .replace(/[-_]+/g, " ")
+    .toLocaleLowerCase()
+    .replace(/\b\p{L}/gu, (letter) => letter.toLocaleUpperCase())
+}
+
 export default (() => {
   function ContentMetadata({ cfg, fileData, displayClass }: QuartzComponentProps) {
     const date = fileData.dates ? getDate(cfg, fileData) : undefined
@@ -28,18 +35,21 @@ export default (() => {
           <span class="content-meta-author">by {author}</span>
         )}
         {tags.length > 0 && (
-          <ul class="tags">
-            {tags.map((tag) => (
-              <li>
-                <a
-                  href={resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)}
-                  class="internal tag-link"
-                >
-                  {tag}
-                </a>
-              </li>
-            ))}
-          </ul>
+          <div class="content-meta-taxonomy">
+            <span class="content-meta-taxonomy-label">Filed under</span>
+            <ul class="tags" aria-label="Page categories">
+              {tags.map((tag) => (
+                <li>
+                  <a
+                    href={resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)}
+                    class="internal tag-link"
+                  >
+                    {formatTag(tag)}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
         )}
       </div>
     )

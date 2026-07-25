@@ -16,10 +16,22 @@
   }
 
   .content-meta-author:not(:first-child)::before,
-  .tags:not(:first-child)::before {
+  .content-meta-taxonomy:not(:first-child)::before {
     content: "·";
     margin-right: 0.35rem;
     color: var(--gray);
+  }
+
+  .content-meta-taxonomy {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.25rem;
+  }
+
+  .content-meta-taxonomy-label {
+    color: inherit;
+    font-style: italic;
   }
 
   .tags {
@@ -27,13 +39,19 @@
     display: inline-flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 0.35rem;
+    gap: 0;
     margin: 0;
     padding: 0;
 
     & > li {
       display: inline;
       margin: 0;
+
+      &:not(:last-child)::after {
+        content: ",";
+        margin-right: 0.25rem;
+        color: var(--gray);
+      }
     }
 
     a.internal.tag-link {
@@ -47,9 +65,17 @@
       border-radius: 0;
       text-decoration: none;
 
+      &::before {
+        content: none;
+      }
+
       &:hover {
         color: var(--secondary) !important;
         background-color: transparent !important;
+        text-decoration: underline;
+        text-underline-offset: 0.15em;
+        text-decoration-thickness: 1px;
+        text-decoration-color: color-mix(in srgb, var(--secondary) 45%, transparent);
       }
     }
   }
