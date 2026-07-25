@@ -1,5 +1,5 @@
 ---
-title: pent Coffee Ground Kombucha
+title: Spent Coffee Ground Kombucha
 tags:
   - EXPERIMENT
   - KOMBUCHA

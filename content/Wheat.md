@@ -7,9 +7,7 @@ tags: [INGREDIENT]
 
 Wheat is the grain most closely associated with flour and bread. Its gluten-forming proteins are what give wheat dough its characteristic stretch and structure, but wheat is also a set of grain classes with meaningfully different behavior in the kitchen.[^1]
 
-
 In New England, wheat is no longer just a historic staple remembered through old gristmills. University of Maine variety trials are explicitly aimed at identifying spring and winter wheats adapted to organic production in the region, which is one reason local grain projects now talk about wheat alongside rye, oats, and barley as a realistic food crop rather than a novelty.[^2]
-
 
 Hard and soft wheats behave differently before any baker touches them. McGee notes that hard wheats have stronger protein matrices and are preferred for bread, while soft wheats mill into finer particles and make weaker gluten better suited to cakes and pastries.[^1] The familiar winter-versus-spring distinction matters too: it is partly agronomic, but it also shapes which wheats fit a Northeast season and which end up in local trials.[^2]
 
