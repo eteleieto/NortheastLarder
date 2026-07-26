@@ -1,5 +1,5 @@
 ---
-title: (A) Koji
+title: Koji
 tags:
   - INGREDIENT
 source: 
