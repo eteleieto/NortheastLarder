@@ -1,6 +1,10 @@
 ---
 title: Buckwheat
-tags: [INGREDIENT]
+tags:
+  - INGREDIENT
+pairing:
+  - "[[Sorrel]]"
+  - "[[Rhubarb]]"
 ---
 
 *Fagopyrum esculentum*
