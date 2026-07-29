@@ -51,6 +51,6 @@ Fermentation Weight
 
 ## Notes and Observations
 
-- The resulting taste is like a mix between [[Raspberry|raspberry]], [[Cherry|cherry]], and wine.
+- The resulting taste is like a mix between [[Red Raspberry|raspberry]], [[Cherry|cherry]], and wine.
 - This would be nice mixed with [[Honey|honey]], perhaps in a BBQ-type sauce or on a dessert, like a sorbet.
 - It would be interesting to repeat this process without the salt for more dessert-focused applications or to make a soda.

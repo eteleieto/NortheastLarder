@@ -15,7 +15,7 @@ The goal of this experiment is to [[Lacto-Fermentation|lacto-ferment]] a large b
 ## Process
 
 ### Ingredients
-* 3 kg [[Blueberry|blueberries]] (approximately 12 pints)
+* 3 kg [[Wild Blueberry|blueberries]] (approximately 12 pints)
 * 2% salt by weight (dry salted or in a light brine solution)
 
 ## Notes and Observations

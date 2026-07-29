@@ -59,7 +59,7 @@ Kitchen Scale
 
 - The peaches used were small, about the size of a golf ball. Some had a dried, gum-like substance on the skin, likely from stink bugs.
 - The jar will be left at room temperature (approx. 70°F / 21°C).
-- The sugar is expected to draw moisture from the peaches via osmosis, slowly creating a syrup. This process will likely be slower than with more porous fruits like [[Raspberry|raspberries]].
+- The sugar is expected to draw moisture from the peaches via osmosis, slowly creating a syrup. This process will likely be slower than with more porous fruits like [[Red Raspberry|raspberries]].
 - Due to their density, the peaches required a surprisingly large volume of sugar to achieve a 1:1 weight ratio.
 - The process will be monitored over the coming weeks, first for syrup formation and the dissolution of all sugar. Following that, we will monitor for signs of slight [[Lacto-Fermentation|lacto-fermentation]].
 - After 2 months the syrup has concentrated, the peaches have shriveled up completely, and some lacto-fermentation has occurred. The resulting flavor is sweet, sour, candy-like, and slightly funky.
