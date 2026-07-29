@@ -5,7 +5,7 @@ tags:
   - BLACKENED
 pairing:
 date: 2026-06-20
-project: "[[(A) Coffee & Chocolate Substitutes]]"
+project: "[[(A)  Coffee & Chocolate Substitutes]]"
 description: This experiment blackens oat koji to test its bitterness and chocolate-like potential as part of the coffee project.
 ---
 ## Background
