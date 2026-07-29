@@ -88,6 +88,7 @@ const config: QuartzConfig = {
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.PairingLinks(),
       Plugin.Description(),
       Plugin.CardListTransformer(),
       Plugin.ImageSEO(),

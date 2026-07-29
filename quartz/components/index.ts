@@ -31,6 +31,7 @@ import { CardList } from "./CardList"
 import ProjectLink from "./ProjectLink"
 import ProjectGallery from "./ProjectGallery"
 import FeaturedProjects from "./FeaturedProjects"
+import Pairings from "./Pairings"
 
 export {
   ArticleTitle,
@@ -66,4 +67,5 @@ export {
   ProjectLink,
   ProjectGallery,
   FeaturedProjects,
+  Pairings,
 }

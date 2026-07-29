@@ -140,6 +140,7 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => !suppressArticleHeader(page.fileData.slug),
     }),
     Component.ProjectLink(),
+    Component.Pairings(),
   ],
   left: leftSidebar,
   right: rightSidebar,

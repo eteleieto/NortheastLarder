@@ -163,6 +163,7 @@ declare module "vfile" {
         socialImage: string
         cardImage: string
         comments: boolean | string
+        pairing: string | string[]
       }>
   }
 }
