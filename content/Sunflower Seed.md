@@ -6,15 +6,12 @@ tags: [INGREDIENT]
 
 *Helianthus annuus*
 
-Sunflower seed comes from a flower head that is actually a dense inflorescence of many tiny flowers. Each fertilized disk flower can develop into one seed.[^1]
+Sunflower seed comes from a flower head that is really a packed inflorescence of many florets. The big yellow rays at the edge are there for show, while the fertile disk florets in the center are the ones that set the striped or black "seeds" we eat.[^1] In New England the plant is familiar in gardens and roadside edges, and in the broader Northeast it is as much a historic North American food as it is a decorative flower.[^2]
 
+Those "seeds" are botanically achenes, complete fruits with the true seed enclosed inside a hull.[^1][^3] That structure matters in the kitchen: confectionery types are bred for large kernels and hulls that crack cleanly, while oilseed types are smaller and denser. Sunflower was used as food in North America long before modern oilseed breeding, and by the nineteenth century Russia had already turned it into a major commercial oil crop.[^1]
 
-Sunflowers can be grown in Maine for seed and oil. Their American origin is reflected in many cultivar names and in their place within Indigenous food traditions.[^1]
+The kernel is an unusually rich seed, carrying substantial oil, useful protein, and a high proportion of linoleic acid in conventional types, with high-oleic breeding developed later for a different fat profile.[^1] That richness helps explain why sunflower seed works equally well as snack, paste, milk, or pressed oil: it is closer to a compact energy store than to the dry cereal grains it sometimes stands beside in a pantry.
 
-
-What reads as one sunflower is a head made of two flower types: showy ray flowers around the edge and seed-forming disk flowers in the center.[^1]
-
-The familiar “seed” is botanically a small dry fruit with one true seed enclosed by a thin hull. Confectionery types have large, striped, easily removed hulls, while oilseed types are smaller. The kernels are notably rich in oil, vitamin E, and phenolic antioxidants.[^2]
-
-[^1]: University of Maine Cooperative Extension, “[Maine Home Garden News — June 2017](https://extension.umaine.edu/gardening/2017/06/02/maine-home-garden-news-june-2017/),” 2017.
-[^2]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF p. 528.
+[^1]: John Vaughan and Catherine Geissler, *The New Oxford Book of Food Plants*, 2nd ed. (Oxford University Press, 2009), p. 30 (PDF p. 65).
+[^2]: Arthur Haines, *New England Wild Flower Society's Flora Novae Angliae* (Yale University Press, 2011), PDF p. 441.
+[^3]: Owen R. Fennema, ed., *Food Chemistry*, 3rd ed. (Marcel Dekker, 1996), PDF p. 1110.
