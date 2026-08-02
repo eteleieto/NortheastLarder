@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2026-07-14
 project:
+description: This experiment combines cleaver juice, dark roasted rye, and honey in a jun-style ferment.
 ---
 ## Formula
 

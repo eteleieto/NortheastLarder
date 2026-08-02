@@ -2,9 +2,11 @@
 title: Shio Koji Tofu
 tags:
   - EXPERIMENT
+  - SHIO-KOJI
 pairing:
 date: 2026-07-02
 project: "[[(A) Plant-Based Dairy]]"
+description: This experiment tests multiple shio-koji and direct-koji tofu cures to push them toward cheese-like flavors.
 ---
 ## Background
 

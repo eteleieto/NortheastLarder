@@ -5,6 +5,7 @@ tags:
 pairing:
 date: 2026-06-26
 project: "[[(b) Vegetable 'Anchovies']]"
+description: This experiment roasts shiitakes and ferments them with koji to make a mushroomy, fish-sauce-like condiment.
 ---
 ## Background
 

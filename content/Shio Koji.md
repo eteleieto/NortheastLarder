@@ -2,9 +2,11 @@
 title: Shio Koji
 tags:
   - EXPERIMENT
+  - SHIO-KOJI
 pairing:
 date: 2026-06-23
 project:
+description: This experiment compares shio koji made from oat, rice, wheat, farro, and sorghum koji.
 ---
 ## Background
 We are experimenting with different grain kojis—specifically [[Oat|oat]], [[Rice|rice]], [[Wheat|wheat]], and nixtamalized [[Sorghum|sorghum]]—to see how they produce different [[Shio Koji|shio koji]] tastes and functionalities. 
