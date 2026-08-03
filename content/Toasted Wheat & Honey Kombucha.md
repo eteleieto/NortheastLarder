@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2026-06-28
 project:
+description: A trial evaluating the flavor of a toasted wheat and honey ferment, with wheat character stronger than the honey.
 ---
 ## Background
 

@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2026-06-01
 project:
+description: An enzymatic blackening trial that develops an intensely bitter, spicy daikon flavor over a month.
 ---
 ## Notes and Observations
 

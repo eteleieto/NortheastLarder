@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2026-06-28
 project:
+description: A kombucha experiment pairing Riesling grape juice with dried pineapple weed for a layered fruit and herbal profile.
 ---
 ## Formula
 

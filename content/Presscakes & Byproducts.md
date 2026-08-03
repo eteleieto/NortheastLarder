@@ -2,6 +2,7 @@
 title: Presscakes & Byproducts
 tags:
   - PROJECT
+description: A project exploring the culinary potential of plant-based byproducts from food production.
 date: 2026-07-08
 cardImage: Assets/Attachments/Flaxseed Oil Grinders.webp
 ---

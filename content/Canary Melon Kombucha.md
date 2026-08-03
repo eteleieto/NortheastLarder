@@ -2,9 +2,11 @@
 title: Canary Melon Kombucha
 tags:
   - EXPERIMENT
+  - KOMBUCHA
 pairing: 
 date: 2026-07-21
 project:
+description: A five-day kombucha trial using Canary melon trim, honey, and a kombucha starter.
 ---
 ## Formula
 

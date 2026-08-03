@@ -5,6 +5,7 @@ tags:
 pairing: 
 date: 2026-06-20
 project:
+description: A standard lacto-fermentation trial on daikon radish to compare flavor and pungency with traditional pickled daikon.
 ---
 ## Background
 Testing a standard [[Lacto-Fermentation|lacto-fermentation]] on daikon radish cut into small pieces to evaluate the flavor profile and pungency compared to traditional pickled daikon.

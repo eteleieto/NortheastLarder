@@ -2,9 +2,11 @@
 title: Pickled Daikon
 tags:
   - EXPERIMENT
+  - PICKLED
 pairing: 
 date: 2026-06-23
 project:
+description: A pickled daikon experiment infused with mint and inspired by Korean yellow pickled radish.
 ---
 ## Background
 

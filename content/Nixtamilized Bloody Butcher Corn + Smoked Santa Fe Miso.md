@@ -5,6 +5,7 @@ tags:
 pairing:
 date: 2026-06-05
 project:
+description: A smoky miso experiment combining nixtamalized Bloody Butcher corn, wheat koji, Santa Fe peppers, water, and salt.
 ---
 ## Formula
 

@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2026-07-02
 project:
+description: A fermentation batch using maple syrup as the primary sugar source, compared with honey and sorghum syrup trials.
 ---
 ## Background
 

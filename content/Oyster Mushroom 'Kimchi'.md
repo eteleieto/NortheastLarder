@@ -5,6 +5,7 @@ tags:
 pairing: 
 date: 2026-06-23
 project:
+description: A dry-salted oyster mushroom ferment inspired by kimchi and inoculated with previously fermented garlic.
 ---
 ## Background
 The goal of this experiment is to ferment [[Oyster Mushroom|oyster mushrooms]] using a dry-salting method to draw out moisture similar to kimchi, utilizing previously fermented garlic to help inoculate the batch with active microbes. Smoked Hungarian wax pepper is used as a local (albeit non-similar) substitute for gochugaru.

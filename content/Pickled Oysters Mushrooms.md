@@ -2,9 +2,11 @@
 title: Pickled Oysters Mushrooms
 tags:
   - EXPERIMENT
+  - PICKLED
 pairing: 
 date: 2026-06-23
 project:
+description: A vinegar-pickled oyster mushroom trial with apple cider syrup, water, and salt.
 ---
 ## Process
 

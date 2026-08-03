@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2026-07-01
 project:
+description: A wild-fermented strawberry beverage using Sichuan peppercorn honey to combine fresh fruit and herbal aromatics.
 ---
 ## Background
 

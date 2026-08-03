@@ -5,6 +5,7 @@ tags:
 pairing: 
 date: 2026-07-16
 project:
+description: An exploration of how amylase enzymes can improve oat milk texture by breaking down starches into sugars.
 ---
 ## Background
 

@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2026-07-05
 project:
+description: This experiment uses whole, yeast-heavy fruits to influence the fermentation profile of a kombucha-style beverage.
 ---
 ## Background
 

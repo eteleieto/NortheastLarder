@@ -5,6 +5,7 @@ tags:
 pairing:
 date: 2026-07-05
 project:
+description: A jun-style ferment combining rice koji, toasted rye, honey, water, and a jun starter.
 ---
 ## Formula
 

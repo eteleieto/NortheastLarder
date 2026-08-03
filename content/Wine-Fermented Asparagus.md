@@ -5,6 +5,7 @@ tags:
 pairing: 
 date: 2026-06-20
 project:
+description: A hybrid fermentation experiment using a diluted wine base and a measured salt brine for asparagus.
 ---
 ## Background
 The goal of this experiment is to evaluate the effects of a hybrid fermentation medium using a watered-down wine base, targeting a 2% salt concentration and a 5% total brine strength. 
