@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2026-06-01
 project:
+description: This experiment explores the blackening process of sunchokes (Jerusalem artichokes) at 140°F.
 ---
 ## Background
 

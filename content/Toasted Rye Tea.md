@@ -4,6 +4,7 @@ tags:
   - RECIPE
   - TEA
 date: 2025-06-20
+pairing:
 ingredients:
   - "[[Rye]]"
 description: A simple toasted rye tea served hot or cold, with room to explore sweeter and more aromatic variations.

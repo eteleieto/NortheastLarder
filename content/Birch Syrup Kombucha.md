@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2026-07-17
 project:
+description: Testing a simple dilution and fermentation of birch syrup to evaluate how the flavor profile shifts as the sugars ferment and acidity develops.
 ---
 ## Background
 

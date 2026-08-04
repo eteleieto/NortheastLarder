@@ -5,6 +5,7 @@ tags:
 pairing:
 date: 2026-07-01
 project:
+description: The goal of this experiment is to upcycle garlic scape trim—the woody bottoms and flowering tops—by fermenting them into a style of kosho.
 ---
 ## Background
 

@@ -4,6 +4,7 @@ tags:
   - RECIPE
   - KOMBUCHA
 date: 2026-01-23
+pairing:
 description: This recipe uses toasted barley tea as the base for a kombucha-style fermentation.
 ---
 ## Background

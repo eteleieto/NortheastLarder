@@ -3,6 +3,7 @@ title: Beet, Apple, Koji Sorbet
 tags:
   - RECIPE
 date: 2026-01-28
+pairing:
 project: "[[Ice Cream]]"
 description: This recipe combines golden beets, apple, and rice koji into a reduced sorbet base.
 ---

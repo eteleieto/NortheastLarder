@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2026-07-17
 project:
+description: Testing the viability of sorghum syrup as an alternative sweetener and fermentation substrate, replacing refined sugar in kombucha production.
 ---
 ## Background
 

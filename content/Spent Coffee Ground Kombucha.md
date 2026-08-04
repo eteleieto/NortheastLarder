@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2026-06-28
 project:
+description: The goal of this experiment is to evaluate a light, acidic beverage brewed from spent coffee grounds.
 ---
 ## Background
 

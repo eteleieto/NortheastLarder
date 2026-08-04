@@ -5,6 +5,7 @@ tags:
 pairing:
 date: 2026-06-23
 project:
+description: Experimenting with pickling currants in a sweet, sour, slightly salty brine using lacto-fermented fruit juice, vinegar, and honey.
 ---
 ## Background
 
