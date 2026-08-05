@@ -6,6 +6,7 @@ tags:
 pairing: 
 date: 2026-06-21
 project:
+  "[[Umami]]"
 description: This experiment combines oats, sorghum, and kinako in a high-temperature garum to explore a roasted, savory flavor profile.
 ---
 ## Background

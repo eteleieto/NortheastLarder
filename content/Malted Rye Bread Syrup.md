@@ -5,7 +5,7 @@ tags:
   - MALT
 pairing: 
 date: 2026-07-03
-project: "[[(WIP) Sweeteners]]"
+project: "[[Northeastern Sweeteners]]"
 description: This experiment uses diastatic malt to turn stale rye bread into a sweet fermentable syrup base.
 ---
 ## Background

@@ -5,7 +5,7 @@ tags:
   - MISO
 pairing:
 date: 2026-06-05
-project: "[[(A) Umami]]"
+project: "[[Umami]]"
 description: This experiment tests a no-salt miso held at high heat to prevent spoilage while enzymatically breaking down the substrate.
 ---
 ## Background
@@ -52,7 +52,6 @@ Glass Jar
 - The high-temperature environment serves to pasteurize the mixture, eliminating the need for salt as a preservative.
 - This technique relies entirely on active enzymes to break down the corn and koji.
 - Unlike garums, which are kept loose to facilitate liquid extraction, this mixture is kept thick to mimic the texture of traditional miso.
-
 
 
 

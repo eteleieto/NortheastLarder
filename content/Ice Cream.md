@@ -9,8 +9,8 @@ We normally use a Ninja Creami (or a Pacojet) on ice cream or sorbet setting to 
 
 ## Experiments
 
-- [[(b) Soy Ice Cream Base]]
-- [[(b) Peanut Ice Cream Base]]
+- [[Soy Ice Cream Base]]
+- [[Peanut Ice Cream Base]]
 
 ## Recipes
 

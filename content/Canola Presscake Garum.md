@@ -23,7 +23,7 @@ Largest Column: standard
 
 Equal parts Canola Press Cake (one batch roasted, one unroasted)
 
-Equal parts [[Wheat Koji|Pearled Wheat Koji]]
+Equal parts [[Koji|Pearled Wheat Koji]]
 
 8% Salt (by total weight)
 

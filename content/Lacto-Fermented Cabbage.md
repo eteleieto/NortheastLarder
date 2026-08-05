@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2026-06-26
 project:
+  "[[Lacto-Fermentation]]"
 description: A quick log for a new batch of fermented cabbage using a standard salt ratio and simple aromatics.
 ---
 ## Background

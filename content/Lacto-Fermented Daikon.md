@@ -5,6 +5,7 @@ tags:
 pairing: 
 date: 2026-06-20
 project:
+  "[[Lacto-Fermentation]]"
 description: A standard lacto-fermentation trial on daikon radish to compare flavor and pungency with traditional pickled daikon.
 ---
 ## Background

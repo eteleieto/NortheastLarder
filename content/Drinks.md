@@ -16,7 +16,7 @@ Developing warm and hearty beverages and drink-centered substitutes for coffee a
 
 ## Acidic Drinks
 Exploring acidity through various methods:
-- Lacto-fermented [[Amazake Project|amazakes]]
+- Lacto-fermented [[Amazake|amazakes]]
 - Naturally carbonated sodas
 - [[Kombucha|kombucha]]
 - [[Shrub|shrubs]]

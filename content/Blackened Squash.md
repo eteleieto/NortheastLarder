@@ -4,6 +4,7 @@ tags:
   - EXPERIMENT
   - BLACKENED
 pairing:
+project: "[[Blackening (Enzymatic)]]"
 date: 2025-11-28
 description: This experiment blackens buttercup squash to see how the technique reshapes its sweetness and savory depth.
 ---

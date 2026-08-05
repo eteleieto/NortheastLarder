@@ -5,13 +5,14 @@ tags:
 pairing:
 date: 2026-06-05
 project:
+  "[[Umami]]"
 description: A smoky miso experiment combining nixtamalized Bloody Butcher corn, wheat koji, Santa Fe peppers, water, and salt.
 ---
 ## Formula
 
 ### Ingredients
 * 400 g [[Nixtamalization|nixtamilized]] [[Bloody Butcher Corn|bloody butcher corn]]
-* 400 g [[Wheat Koji|wheat koji]]
+* 400 g [[Koji|wheat koji]]
 * 10 g smoked [[Santa Fe Pepper|Santa Fe peppers]]
 * 200 g water
 * Salt (6% of the total mixture weight, approx. 60 g)

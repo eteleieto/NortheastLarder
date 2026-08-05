@@ -10,7 +10,7 @@ description: This experiment tests whether nixtamalized Bloody Butcher corn can 
 ---
 ## Background
 
-This experiment explores the saccharification of [[Bloody Butcher Corn|Bloody Butcher corn]] using [[Wheat Koji|wheat koji]] to create an [[Amazake|amazake]]-style beverage. The goal is to determine how effectively the starches in [[Nixtamalization|nixtamalized]] maize can be converted into sugars using non-traditional koji substrates.
+This experiment explores the saccharification of [[Bloody Butcher Corn|Bloody Butcher corn]] using [[Koji|wheat koji]] to create an [[Amazake|amazake]]-style beverage. The goal is to determine how effectively the starches in [[Nixtamalization|nixtamalized]] maize can be converted into sugars using non-traditional koji substrates.
 
 ---
 ## Recipe
@@ -55,4 +55,4 @@ Fermentation Chamber
 - Despite showing good growth during cultivation, the wheat koji may not have produced a sufficient amount of amylase enzymes.
 - Alternatively, the starch within the nixtamal may not have been fully accessible for enzymatic breakdown.
 - Further experimentation is required to determine if maize starch is viable for amazake applications, which theoretically it should be.
-- A future control test will be conducted using [[Rice Koji|rice koji]] to better analyze and isolate the issue.
+- A future control test will be conducted using [[Koji|rice koji]] to better analyze and isolate the issue.

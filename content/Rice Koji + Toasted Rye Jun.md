@@ -10,7 +10,7 @@ description: A jun-style ferment combining rice koji, toasted rye, honey, water,
 ## Formula
 
 ### Ingredients
-* 100g [[Rice Koji|rice koji]]
+* 100g [[Koji|rice koji]]
 * 100g light toasted [[Rye|rye]]
 * 800g water
 * 200g [[Jun|jun]] starter
@@ -22,4 +22,4 @@ description: A jun-style ferment combining rice koji, toasted rye, honey, water,
 
 ## Future Adjustments
 
-* The funkiness and acidity could be mellowed out in the next trial by reducing the amount of [[Rice Koji|koji]] used in the initial mix.
+* The funkiness and acidity could be mellowed out in the next trial by reducing the amount of [[Koji|koji]] used in the initial mix.

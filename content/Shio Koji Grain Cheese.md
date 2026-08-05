@@ -24,7 +24,7 @@ Largest Column: standard
 
 ### Ingredients 
 
-Boiled [[Wheat Berry|wheat berries]]
+Boiled [[Wheat|wheat berries]]
 
 Boiled [[Barley|barley]]
 

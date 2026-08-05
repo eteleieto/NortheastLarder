@@ -4,6 +4,7 @@ tags:
   - EXPERIMENT
   - BLACKENED
 pairing:
+project: "[[Blackening (Enzymatic)]]"
 date: 2026-06-18
 description: This experiment tests how sorghum, honey, and maple syrup behave under a long blackening process.
 ---

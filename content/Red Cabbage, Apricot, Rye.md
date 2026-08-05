@@ -14,7 +14,7 @@ This dish was developed for a pop-up in June 2025.
 
 The dish is composed of several elements:
 
-*   Roasted [[Red Cabbage|red cabbage]]
+*   Roasted [[Cabbage|red cabbage]]
 *   A puree made from roasted [[Lacto-Apricot|lacto-apricot]], [[Apple|apple]], [[Mustard|mustard]], vinegar, and [[Agar|agar]]
 *   [[Rye|rye]] breadcrumbs
 *   [[Hazelnut|hazelnuts]]

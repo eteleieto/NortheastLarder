@@ -5,7 +5,7 @@ tags:
   - GARUM
 pairing:
 date: 2025-07-30
-project: "[[(A) Umami]]"
+project: "[[Umami]]"
 description: This experiment turns carrot greens and koji into a savory garum from what would otherwise be waste.
 ---
 ## Background

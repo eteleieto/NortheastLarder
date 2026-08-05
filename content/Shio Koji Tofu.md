@@ -16,7 +16,7 @@ Testing temperature variations and adding yogurt cultures to select for specific
 
 ### Treatments & Formulations
 
-* **Substrate Comparison (Shio Koji):** [[Tofu]] cured in three [[Shio Koji|shio koji]] bases ([[Renan Wheat|wheat]], [[Sorghum|sorghum]], [[Rice Koji|rice]]).
+* **Substrate Comparison (Shio Koji):** [[Tofu]] cured in three [[Shio Koji|shio koji]] bases ([[Renan Wheat|wheat]], [[Sorghum|sorghum]], [[Koji|rice]]).
 * **Direct Koji Cures (Overnight):** Tofu cured directly with rice koji, oat koji, and rye koji.
 * **High-Temperature & Yogurt Culture Ferment:**
   * 50 g tofu per batch (150 g total across three samples)

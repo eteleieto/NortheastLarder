@@ -6,6 +6,7 @@ tags:
 pairing:
 date: 2026-06-01
 project:
+  "[[Blackening (Enzymatic)]]"
 description: An enzymatic blackening trial of Hakurei turnips that has not yet developed a pleasant flavor.
 ---
 ## Notes and Observations

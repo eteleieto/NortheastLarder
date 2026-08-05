@@ -9,7 +9,7 @@ description: This recipe combines golden beets, apple, and rice koji into a redu
 ---
 ## Background
 
-This recipe involves juicing [[Golden Beet|golden beets]] alongside [[Apple|apple]], incorporating [[Rice Koji|rice koji]], and cooking the mixture down on the stovetop. We use [[Maple Syrup|maple syrup]] as the sweetener, along with the natural sugars from the beets, which concentrate during reduction.
+This recipe involves juicing [[Beet|golden beets]] alongside [[Apple|apple]], incorporating [[Koji|rice koji]], and cooking the mixture down on the stovetop. We use [[Maple Syrup|maple syrup]] as the sweetener, along with the natural sugars from the beets, which concentrate during reduction.
 
 ---
 ## Recipe

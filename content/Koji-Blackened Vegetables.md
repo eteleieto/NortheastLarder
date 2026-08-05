@@ -4,6 +4,7 @@ tags:
   - EXPERIMENT
   - BLACKENED
 pairing: 
+project: "[[Blackening (Enzymatic)]]"
 date: 2026-01-28
 description: This experiment blackens several koji-inoculated vegetables to compare how each substrate develops under the same process.
 ---

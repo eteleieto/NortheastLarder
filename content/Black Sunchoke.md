@@ -6,11 +6,12 @@ tags:
 pairing:
 date: 2026-06-01
 project:
+  "[[Blackening (Enzymatic)]]"
 description: This experiment explores the blackening process of sunchokes (Jerusalem artichokes) at 140°F.
 ---
 ## Background
 
-This experiment explores the [[Blackening (Enzymatic)|blackening]] process of [[Sunchoke|sunchokes]] (Jerusalem artichokes) at 140°F. Sunchokes are a particularly interesting candidate for this technique due to their high concentration of inulin, which breaks down over the course of a month into simpler sugars, yielding unique flavor byproducts.
+This experiment explores the [[Blackening (Enzymatic)|blackening]] process of [[Jerusalem Artichoke|sunchokes]] (Jerusalem artichokes) at 140°F. Sunchokes are a particularly interesting candidate for this technique due to their high concentration of inulin, which breaks down over the course of a month into simpler sugars, yielding unique flavor byproducts.
 
 ## Notes and Observations
 
@@ -22,4 +23,4 @@ This experiment explores the [[Blackening (Enzymatic)|blackening]] process of [[
 
 ## Future Adjustments
 
-* **Pre-cooking:** Try a variation where the sunchokes are cooked first before starting the [[Blackening]] process to see how it affects the final texture and sugar development.
+* **Pre-cooking:** Try a variation where the sunchokes are cooked first before starting the blackening process to see how it affects the final texture and sugar development.
