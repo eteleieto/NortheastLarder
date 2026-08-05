@@ -10,6 +10,8 @@ project:
 
 This is a one (or two, perhaps) ingredient veggie burger made by growing mycelium on cracked sorghum groats. The mycelium binds the groats together, forming a patty that absorbs fat and moisture, becoming juicy and bouncy very much like a beef patty.
 
+![[APC_0118.webp|200x267]]
+
 The mycelium also contributes to the umami taste of the patty, and in combination with additional savory sauces like shoyu, garum, or yeast extract, it truly begins to taste and feel like biting into meat!
 
 ### Ingredients
