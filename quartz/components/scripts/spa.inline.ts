@@ -180,6 +180,16 @@ function createRouter() {
       if (isSamePage(url) && url.hash) {
         const el = document.getElementById(decodeURIComponent(url.hash.substring(1)))
         el?.scrollIntoView()
+        // Scrolling alone moves the viewport but strands the keyboard user where
+        // they were — the next Tab continues from the old position. Skip links and
+        // table-of-contents entries only work if focus follows the scroll, so make
+        // the target programmatically focusable and move focus to it.
+        if (el instanceof HTMLElement) {
+          if (!el.hasAttribute("tabindex")) {
+            el.setAttribute("tabindex", "-1")
+          }
+          el.focus({ preventScroll: true })
+        }
         history.pushState({}, "", url)
         return
       }

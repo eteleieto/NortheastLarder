@@ -11,7 +11,18 @@ const RETINA_FACTOR = 2
 const MAX_OUTPUT_WIDTH = 1200
 const DISPLAY_QUALITY = 82
 
-const displayCache = new WeakMap<BuildCtx, Map<string, string>>()
+/**
+ * The emitted image plus its intrinsic pixel size. Callers need the dimensions
+ * to write real `width`/`height` attributes, which is what lets the browser
+ * reserve the right box before a lazy image decodes.
+ */
+export interface DisplayImage {
+  url: string
+  width?: number
+  height?: number
+}
+
+const displayCache = new WeakMap<BuildCtx, Map<string, DisplayImage>>()
 
 function getDisplayCache(ctx: BuildCtx) {
   let cache = displayCache.get(ctx)
@@ -32,14 +43,20 @@ export function displayPathForSource(sourcePath: string, pixelWidth: number): st
   return `/static/display/${hash}.webp`
 }
 
+// Fall back to the untouched source when we cannot produce a display variant;
+// no dimensions are known in that case, so callers leave the attributes alone.
+function passthrough(imageSrc: string): DisplayImage | null {
+  return imageSrc.startsWith("/") ? { url: imageSrc } : null
+}
+
 export async function ensureDisplayImage(
   ctx: BuildCtx,
   pageSlug: FullSlug,
   imageSrc: string,
   displayWidth?: number,
-): Promise<string | null> {
+): Promise<DisplayImage | null> {
   const sourcePath = await resolveImageSourcePath(ctx, pageSlug, imageSrc)
-  if (!sourcePath) return imageSrc.startsWith("/") ? imageSrc : null
+  if (!sourcePath) return passthrough(imageSrc)
 
   const pixelWidth = targetPixelWidth(displayWidth ?? DEFAULT_DISPLAY_WIDTH)
   const cacheKey = `${sourcePath}:${pixelWidth}`
@@ -55,18 +72,28 @@ export async function ensureDisplayImage(
 
   await fs.promises.mkdir(path.dirname(displayOut), { recursive: true })
 
+  let result: DisplayImage | null = null
+
   if (fs.existsSync(displayOut)) {
     const { size } = await fs.promises.stat(displayOut)
     if (size >= 200) {
-      cache.set(cacheKey, displayUrl)
-      return displayUrl
+      // Reused from a previous build — read the dimensions back off disk.
+      try {
+        const { width, height } = await sharp(displayOut).metadata()
+        result = { url: displayUrl, width, height }
+      } catch {
+        result = { url: displayUrl }
+      }
+    } else {
+      await fs.promises.unlink(displayOut)
     }
-    await fs.promises.unlink(displayOut)
   }
 
-  if (!fs.existsSync(displayOut)) {
+  if (!result) {
     try {
-      await sharp(sourcePath)
+      // `.rotate()` bakes in EXIF orientation, so the output dimensions can be
+      // transposed relative to the source. Trust what sharp actually wrote.
+      const info = await sharp(sourcePath)
         .rotate()
         .resize({ width: pixelWidth, withoutEnlargement: true })
         .webp({ quality: DISPLAY_QUALITY })
@@ -74,13 +101,14 @@ export async function ensureDisplayImage(
       const { size } = await fs.promises.stat(displayOut)
       if (size < 200) {
         await fs.promises.unlink(displayOut)
-        return imageSrc.startsWith("/") ? imageSrc : null
+        return passthrough(imageSrc)
       }
+      result = { url: displayUrl, width: info.width, height: info.height }
     } catch {
-      return imageSrc.startsWith("/") ? imageSrc : null
+      return passthrough(imageSrc)
     }
   }
 
-  cache.set(cacheKey, displayUrl)
-  return displayUrl
+  cache.set(cacheKey, result)
+  return result
 }

@@ -56,17 +56,6 @@ const config: QuartzConfig = {
           highlight: "rgba(188, 174, 153, 0.3)",
           textHighlight: "#fffacd88",
         },
-        darkMode: {
-          light: "#2c261e",
-          lightgray: "#4a3f34",
-          gray: "#68594a",
-          darkgray: "#bcae99",
-          dark: "#e5e0d6", // Made body text darker (less bright)
-          secondary: "#a1887f",
-          tertiary: "#bcae99",
-          highlight: "rgba(122, 108, 93, 0.3)",
-          textHighlight: "#b3aa0288",
-        },
       },
     },
   },

@@ -30,7 +30,10 @@ export const GitHubFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>> =
             {
               behavior: "append",
               properties: {
-                role: "anchor",
+                // `anchor` is not a valid ARIA role, and the link needs no role
+                // anyway: aria-hidden + tabindex=-1 already keep it out of the
+                // accessibility tree and the tab order. Style it via the class.
+                className: ["heading-anchor"],
                 ariaHidden: true,
                 tabIndex: -1,
                 "data-no-popover": true,

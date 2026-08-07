@@ -21,7 +21,7 @@ The goal of this experiment is to prepare a pickled [[Daikon|daikon]] infused wi
 * **Brine:**
     * 200 g apple cider vinegar
     * 200 g water
-    * 50 g [[Sorghum 1|sorghum molasses]]
+    * 50 g [[Sorghum Syrup|sorghum molasses]]
     * 25 g salt
 
 ## Notes and Observations
@@ -31,4 +31,4 @@ The goal of this experiment is to prepare a pickled [[Daikon|daikon]] infused wi
 
 ## Future Adjustments
 
-* Increase the amount of [[Sorghum 1|sorghum molasses]] or add another sweetener in the next trial to boost the sweetness.
+* Increase the amount of [[Sorghum Syrup|sorghum molasses]] or add another sweetener in the next trial to boost the sweetness.

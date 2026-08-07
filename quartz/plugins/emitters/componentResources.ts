@@ -10,11 +10,26 @@ import popoverStyle from "../../components/styles/popover.scss"
 import { BuildCtx } from "../../util/ctx"
 import { QuartzComponent } from "../../components/types"
 import {
+  getFontSpecificationName,
   googleFontHref,
   googleFontSubsetHref,
   joinStyles,
   processGoogleFonts,
 } from "../../util/theme"
+
+// Google Fonts content-negotiates on User-Agent: without one it falls back to
+// TTF, which is both unsubsetted and ~3x the bytes. A modern browser UA gets us
+// WOFF2 split by unicode-range, so the browser only pulls the ranges it needs.
+const FONT_FETCH_UA =
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+const fetchGoogleFontStylesheet = async (href: string): Promise<string> => {
+  const response = await fetch(href, { headers: { "User-Agent": FONT_FETCH_UA } })
+  if (!response.ok) {
+    throw new Error(`Failed to fetch Google Fonts stylesheet ${href}: ${response.status}`)
+  }
+  return await response.text()
+}
 import { Features, transform } from "lightningcss"
 import { build as esbuildBuild, transform as transpile } from "esbuild"
 import path from "path"
@@ -237,13 +252,26 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
       } else if (cfg.theme.fontOrigin === "googleFonts" && !cfg.theme.cdnCaching) {
         // when cdnCaching is true, we link to google fonts in Head.tsx
         const theme = ctx.cfg.configuration.theme
-        const response = await fetch(googleFontHref(theme))
-        googleFontsStyleSheet = await response.text()
+        googleFontsStyleSheet = await fetchGoogleFontStylesheet(googleFontHref(theme))
 
+        // The title subset is fetched with `&text=`, which Google returns *without*
+        // a unicode-range. If the title font is the same family as the header or
+        // body font, that subset @font-face collides with the full face already in
+        // the sheet — same family/weight/style, no range to disambiguate — so the
+        // browser downloads both and the tiny one can win the cascade. Only fetch
+        // the subset when the title genuinely uses a different family.
         if (theme.typography.title) {
-          const title = ctx.cfg.configuration.pageTitle
-          const response = await fetch(googleFontSubsetHref(theme, title))
-          googleFontsStyleSheet += `\n${await response.text()}`
+          const titleFont = getFontSpecificationName(theme.typography.title)
+          const alreadyLoaded = [theme.typography.header, theme.typography.body].some(
+            (spec) => getFontSpecificationName(spec) === titleFont,
+          )
+
+          if (!alreadyLoaded) {
+            const title = ctx.cfg.configuration.pageTitle
+            googleFontsStyleSheet += `\n${await fetchGoogleFontStylesheet(
+              googleFontSubsetHref(theme, title),
+            )}`
+          }
         }
 
         if (!cfg.baseUrl) {

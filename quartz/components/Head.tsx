@@ -87,7 +87,11 @@ export default (() => {
             )}
           </>
         )}
-        <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
+        {/*
+          No preconnect to cdnjs: the only thing that loads from it is the mermaid
+          bundle in mermaid.inline.ts, and mermaid is disabled in quartz.config.ts.
+          Re-add this if mermaid (or anything else on cdnjs) is ever turned back on.
+        */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <meta name="og:site_name" content={cfg.pageTitle}></meta>

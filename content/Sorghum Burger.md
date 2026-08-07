@@ -5,8 +5,9 @@ tags:
 pairing:
 date: 2026-08-02
 project:
+description: A veggie burger made by growing mycelium on cracked sorghum groats, which binds them into a juicy, bouncy patty.
 ---
-### Introduction
+## Background
 
 This is a one (or two, perhaps) ingredient veggie burger made by growing mycelium on cracked sorghum groats. The mycelium binds the groats together, forming a patty that absorbs fat and moisture, becoming juicy and bouncy very much like a beef patty.
 
@@ -40,7 +41,6 @@ When done, it should be bound tightly in mycelium. Then, grill in plenty of oil 
 This is a nuanced process and it's taken us lots of trial and error to optimize it. If you'd like to work with us to utilize this recipe, send us a note at info@northeastlarder.com or send us a DM on Instagram @northeastlarder. If you make it, please reach out to us and we'd love to share!
 
 If you're interested in a pop-up in NYC, please send us a note or engage with the Instagram post!
-
 
 
 

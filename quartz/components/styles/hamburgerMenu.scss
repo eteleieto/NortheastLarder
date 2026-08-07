@@ -111,6 +111,18 @@
       flex: 0 0 auto;
     }
 
+    // Drawer entries are the primary navigation on touch devices, where the
+    // inherited 17px line box falls short of the WCAG 2.2 24px target minimum.
+    // Pad to a comfortable thumb target without changing the visual rhythm much.
+    .category-link,
+    .recent-li .desc > a {
+      display: flex;
+      align-items: center;
+      // min-height rather than fixed padding so titles that wrap to two lines
+      // simply grow instead of overflowing the target box.
+      min-height: 44px;
+    }
+
     // Section labels only — lists stay open in the drawer
     .category-links-header {
       pointer-events: none;
