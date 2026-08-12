@@ -61,6 +61,12 @@
   }
 }
 
+@media all and ($desktop) {
+  .featured-projects-track {
+    grid-auto-columns: calc((100% - 2.5rem) / 3);
+  }
+}
+
 @media all and ($mobile) {
   .featured-projects {
     margin-top: 2.25rem;
