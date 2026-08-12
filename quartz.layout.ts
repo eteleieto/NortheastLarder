@@ -47,29 +47,28 @@ const pagesNav = Component.CategoryLinks({
   ],
 })
 
-const recentBlogPosts = Component.RecentNotes({
-  title: "Recent Projects & Blogs",
+const recentProjects = Component.RecentNotes({
+  title: "Recent Projects",
   showTags: false,
   limit: 3,
   filter: (page) => {
     const tags = page.frontmatter?.tags
-    const allowedTags = ["PROJECT", "BLOG"]
     if (!tags) return false
-    if (typeof tags === "string") return allowedTags.includes(tags)
-    if (Array.isArray(tags)) return tags.some((tag) => allowedTags.includes(tag))
+    if (typeof tags === "string") return tags === "PROJECT"
+    if (Array.isArray(tags)) return tags.includes("PROJECT")
     return false
   },
 })
 
-const recentNotes = Component.RecentNotes({
-  title: "Recent Experiments",
+const recentBlogs = Component.RecentNotes({
+  title: "Recent Blogs",
   showTags: false,
   limit: 3,
   filter: (page) => {
     const tags = page.frontmatter?.tags
     if (!tags) return false
-    if (typeof tags === "string") return tags === "EXPERIMENT"
-    if (Array.isArray(tags)) return tags.includes("EXPERIMENT")
+    if (typeof tags === "string") return tags === "BLOG"
+    if (Array.isArray(tags)) return tags.includes("BLOG")
     return false
   },
 })
@@ -81,11 +80,11 @@ const leftSidebar = [
   Component.MobileOnly(
     Component.HamburgerMenu({
       // Hierarchy: site pages first, then content categories, then recency
-      children: [pagesNav, browseNavHome, recentBlogPosts, recentNotes],
+      children: [pagesNav, browseNavHome, recentProjects, recentBlogs],
     }),
   ),
-  Component.DesktopOnly(recentBlogPosts),
-  Component.DesktopOnly(recentNotes),
+  Component.DesktopOnly(recentProjects),
+  Component.DesktopOnly(recentBlogs),
 ]
 
 // Right rail: browse and page-contextual tools.
