@@ -41,3 +41,25 @@ Two parallel trials were set up:
 
 * **Grain Varieties:** Test a wider variety of grains using this method.
 * **Co-Ferments:** Run trials combining grains and legumes, as well as hybrid grain mixes.
+
+
+
+
+Trials V2
+
+Lacto Cracked Wheat
+	3 day lacto-ferment + 3 day fridge
+		tastes like mozzarella liquid, but a bit saltier and more sour - cheesy aftertaste
+
+Lacto Malt
+	tastes like a sour beer, delicious, savory
+
+rolled oats
+	sour, cheesy, more goat cheesy and sharp than the wheat and less roudned
+
+fermented rye
+	like the oats but with the taste of rye also (but subtle)
+
+
+
+it is best here to use some 'starter' from another lacto-ferment, preferably a vegetable lacto-ferment. since toxic strains like bacillus cereus can be a concern with higher starch substrates, it is especialy important to ensure early acdification. this will help acidify early and supply the necessary glut of microbes to colonize the mixture (though this can be done spontaneously)

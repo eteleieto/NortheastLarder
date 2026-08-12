@@ -15,5 +15,10 @@ Catnip and ornamental catmint are related but not necessarily interchangeable na
 
 Although completely naturalized, catnip is introduced rather than native in New England. It is documented in all six states in fields, roadsides, waste ground, clearings, and deciduous woods.[^2]
 
+For food, catnip is a leafy infusion herb rather than a strongly savory seasoning. Illinois Extension notes that its flavor and aroma peak when the plant is in bloom, when the stems can be cut and dried; the coarse stems are usually separated from the leaves before storage.[^3] The lemon-scented form shows how much the aromatic profile can vary within the genus.[^3]
+
+Its mint-family habit also explains why it persists around gardens. Catnip tolerates full sun and light shade, prefers moist but well-drained soil, and can spread quickly if left unchecked.[^3] In the Northeast that combination makes it easy to cultivate, but not a reason to confuse a garden planting with a native wild herb.
+
 [^1]: University of Illinois Extension, “[Catnip](https://extension.illinois.edu/herbs/catnip),” accessed July 17, 2026.
 [^2]: Arthur Haines, *New England Wild Flower Society's Flora Novae Angliae* (Yale University Press, 2011), PDF p. 680.
+[^3]: University of Illinois Extension, “[Catnip](https://extension.illinois.edu/herbs/catnip),” accessed August 11, 2026.
