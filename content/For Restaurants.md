@@ -1,12 +1,10 @@
-# For Restaurants
+# For Restaurants & Collaborators
 
 Many restaurants don't have the time, space, or resources to pursue speculative culinary R&D. We act as an extension of your kitchen, developing early-stage ideas that could become foundational parts of your menu and larder.
 
-We also work with restaurants and food organizations to build intelligent internal knowledge hubs to track and connect ideas.
+We're currently working with a NYC restaurant set to open in Fall of 2026.
 
-We're currently working with a NYC plant-based restaurant set to open in 2026.
-
-If you're building something thoughtful, ambitious, and regionally minded, we'd love to hear from you.
+If you're building something thoughtful, ambitious, and regionally minded, we'd love to hear from you and are open to collaboration, restaurant or otherwise.
 
 ## Contact
 
