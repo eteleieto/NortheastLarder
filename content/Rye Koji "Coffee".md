@@ -5,7 +5,7 @@ tags:
   - BLACKENED
 pairing:
 date: 2025-06-19
-project: "[[(A)  Coffee & Chocolate Substitutes]]"
+project: "[[Chocolate Substitutes]]"
 description: This experiment blackens koji-treated rye berries, then roasts them to test coffee- and chocolate-like flavors.
 ---
 ## Background

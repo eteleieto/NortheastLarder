@@ -5,7 +5,7 @@ tags:
   - BLACKENED
 pairing:
 date: 2025-07-31
-project: "[[(A)  Coffee & Chocolate Substitutes]]"
+project: "[[Chocolate Substitutes]]"
 description: This experiment dries and grinds blackened tempeh into a chocolate-like paste.
 ---
 ## Background
@@ -26,7 +26,7 @@ The [[Blackened Tempeh|blackened tempeh]] was dehydrated for approximately four 
 
 - This could be interesting mixed into milk or ice cream, which might mellow the funk while retaining the rich, chocolatey, and nutty notes.
 - Further blending with a fat like [[Cocoa Butter|cocoa butter]] could improve the texture.
-- In the future, it would be interesting to experiment with different substrates for the [[(A)  Meat Alternatives|tempeh]] before [[Blackening (Enzymatic)|blackening]] it.
+- In the future, it would be interesting to experiment with different substrates for the [[(A) Meat Alternatives|tempeh]] before [[Blackening (Enzymatic)|blackening]] it.
 
 ## Roasted
 

@@ -5,12 +5,12 @@ tags:
   - KOJI-INOCULATED
 pairing:
 date: 2026-06-18
-project: "[[(A)  Coffee & Chocolate Substitutes]]"
+project: "[[Chocolate Substitutes]]"
 description: This experiment inoculates black beans with koji, then tests roasting and blackening them as coffee or chocolate substitutes.
 ---
 ## Background
 
-We inoculated black beans with [[Koji|koji]] over 48 hours to test their viability as a chocolate or coffee alternative for [[(A)  Coffee & Chocolate Substitutes|alternative chocolate tests]].
+We inoculated black beans with [[Koji|koji]] over 48 hours to test their viability as a chocolate or coffee alternative for [[Chocolate Substitutes|alternative chocolate tests]].
 
 After doing so, we're testing two different approaches: roasting and blackening at 140°F. After roasting, they developed a strong fruity aroma and rich smell, but tasted hardly different from roasted beans. More work is needed here to figure out how the smell of roasted bean koji, or any koji for that matter, can be utilized.
 
