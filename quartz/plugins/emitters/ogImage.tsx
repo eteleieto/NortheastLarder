@@ -11,6 +11,7 @@ import { write } from "./helpers"
 import { BuildCtx } from "../../util/ctx"
 import { QuartzPluginData } from "../vfile"
 import fs from "node:fs/promises"
+import path from "node:path"
 import chalk from "chalk"
 
 const defaultOptions: SocialImageOptions = {
@@ -28,15 +29,31 @@ const defaultOptions: SocialImageOptions = {
 async function generateSocialImage(
   { cfg, description, fonts, title, fileData }: ImageOptions,
   userOpts: SocialImageOptions,
+  outputDir: string,
 ): Promise<Readable> {
   const { width, height } = userOpts
-  const iconPath = joinSegments(QUARTZ, "static", "icon.png")
-  let iconBase64: string | undefined = undefined
+  const logoPath = joinSegments(QUARTZ, "static", "ornament-j.png")
+  let logoBase64: string | undefined = undefined
   try {
-    const iconData = await fs.readFile(iconPath)
-    iconBase64 = `data:image/png;base64,${iconData.toString("base64")}`
+    const logoData = await fs.readFile(logoPath)
+    logoBase64 = `data:image/png;base64,${logoData.toString("base64")}`
   } catch (err) {
-    console.warn(chalk.yellow(`Warning: Could not find icon at ${iconPath}`))
+    console.warn(chalk.yellow(`Warning: Could not find current site logo at ${logoPath}`))
+  }
+
+  let backgroundImageBase64: string | undefined
+  const cardImage = fileData.cardImage
+  if (cardImage?.startsWith("/")) {
+    try {
+      const imagePath = path.join(outputDir, cardImage.replace(/^\/+/, ""))
+      const imageData = await fs.readFile(imagePath)
+      // Satori needs intrinsic dimensions for inline raster images; normalize
+      // the generated WebP thumbnail to PNG before embedding it in the SVG.
+      const pngData = await sharp(imageData).png().toBuffer()
+      backgroundImageBase64 = `data:image/png;base64,${pngData.toString("base64")}`
+    } catch {
+      // Pages without a readable card image use the same off-white treatment.
+    }
   }
 
   const imageComponent = userOpts.imageStructure({
@@ -46,7 +63,8 @@ async function generateSocialImage(
     description,
     fonts,
     fileData,
-    iconBase64,
+    iconBase64: logoBase64,
+    backgroundImageBase64,
   })
 
   const svg = await satori(imageComponent, {
@@ -73,9 +91,7 @@ async function processOgImage(
 ) {
   const cfg = ctx.cfg.configuration
   const slug = fileData.slug!
-  const titleSuffix = cfg.pageTitleSuffix ?? ""
-  const title =
-    (fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title) + titleSuffix
+  const title = fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
   const description =
     fileData.frontmatter?.socialDescription ??
     fileData.frontmatter?.description ??
@@ -90,6 +106,7 @@ async function processOgImage(
       fileData,
     },
     fullOptions,
+    ctx.argv.output,
   )
 
   return write({
