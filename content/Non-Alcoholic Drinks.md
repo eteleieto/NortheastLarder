@@ -4,6 +4,7 @@ tags:
   - PROJECT
 date: 2026-06-13
 description: A project exploring Northeast-grown drinks that stand in for alcohol, built from teas, ferments, and milks.
+cardImage: Assets/Attachments/Hop Cones.webp
 ---
 ## Declining Drinking with Less Alternatives
 
@@ -17,13 +18,22 @@ Both the taste of the drink and the ability for the drink to replace the "sippab
 
 In the Northeast, we might consider where our local sources of sweetness, bitterness, and acidity can come from, all flavors which contribute to the balance of a well-executed non-alcoholic drink. Sweetness, which we elaborate on in [[Northeastern Sweeteners|our project on Northeastern sweeteners]], can come from maple sap and syrup, honey, malted grain,[^8] enzyme-saccharified starch,[^3] and more, each carrying its own aroma and taste. Acid is abundant: apples, verjus, grapes, aronia, crabapples, sumac, rhubarb, and vinegars and lacto-ferments.[^4] Tannins and bitterness can come from aronia, cider apples and crabapples, hops, roasted vegetables, and more. A number of these crops, many of which are native, such as aronia and honeyberry, are compelling new-yet-old additions to the Northeastern agricultural landscape.[^5] Body can be produced by the introduction of soluble fibers through oat and barley, amazake, and plant milks, or enzymatic breakdown into peptides and dextrins.
 
+![[Aronia Berries.webp|600|600]]
+*Aronia berries, a native cold-climate crop whose sourness and astringency make it better suited to blending than to standing alone. Photo: [MiraculixHB, Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aronia_berries.JPG) (public domain).*
+
 Hops are especially compelling, for both their diversity and the fact that New York produced most of the country's hop crop in 1880, and are now given much attention by Cornell and other breeders.[^6]
+
+![[Hop Cones.webp|600|600]]
+*Hop cones on the bine at a hop yard. Photo: [Mbrickn, Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hops_at_Schooner_Farms.jpg) (CC BY 4.0).*
 
 To give a drink sippability, we'll experiment with a number of flavors which in large amounts may be overwhelming, but in small amounts are pleasurable, not dissimilar from alcohol. These may include bitterness, smokiness, spice, cooling / numbing (as from mint or sichuan peppercorn), acidity, saltiness, and more. For similar historical processes, see the history of [gruit](https://en.wikipedia.org/wiki/Gruit).
 
 ## Fermented and Non-Fermented Routes
 
 Fermentation is an attractive route, because it both creates intense flavors such as acidity and contributes to the complexity of aroma. Now, there are a number of low alcoholic yeast strains (for [example](https://www.northernbrewer.com/products/white-labs-wlp618-na-all-day?srsltid=AfmBOooH8rTfhi-rtnv_rUefklycdgC27Rqu_hUj-IEAReRI6tzR5Bkq)) being developed that can contribute the flavors of beers, ciders, and wines without the development of significant amounts of alcohol. Of course, there are existing low alcoholic fermentation cultures and techniques, such as kombucha, jun, water kefir, lacto-fermentation, and more.[^7] Kombucha and jun, instead of being built on teas, can feed on mineral-dense alternatives, such as fireweed, chamomile, apple blossoms, and more.
+
+![[Kombucha Brewing.webp|600|600]]
+*A jar of kombucha mid-ferment, its SCOBY forming across the surface. Photo: [Shisma, Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kombucha_brewing.jpeg) (CC0).*
 
 ## Teas and Coffee-Like Drinks
 
