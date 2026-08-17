@@ -7,20 +7,26 @@ import { i18n } from "../i18n"
 
 export interface SearchOptions {
   enablePreview: boolean
+  // Render the title as a rail label above the trigger rather than inside it,
+  // matching the Browse/Graph sections in the desktop right rail.
+  labelAbove: boolean
 }
 
 const defaultOptions: SearchOptions = {
   enablePreview: true,
+  labelAbove: false,
 }
 
 export default ((userOpts?: Partial<SearchOptions>) => {
   const Search: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
     const opts = { ...defaultOptions, ...userOpts }
     const searchPlaceholder = i18n(cfg.locale).components.search.searchBarPlaceholder
+    const title = i18n(cfg.locale).components.search.title
     return (
-      <div class={classNames(displayClass, "search")}>
-        <button class="search-button" aria-label={i18n(cfg.locale).components.search.title}>
-          <p>{i18n(cfg.locale).components.search.title}</p>
+      <div class={classNames(displayClass, "search", opts.labelAbove ? "search--labelled" : "")}>
+        {opts.labelAbove && <div class="rail-label">{title}</div>}
+        <button class="search-button" aria-label={title}>
+          {!opts.labelAbove && <p>{title}</p>}
           <svg
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"

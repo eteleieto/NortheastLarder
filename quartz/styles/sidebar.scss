@@ -186,37 +186,4 @@
       color: var(--secondary);
     }
   }
-
-  // Desktop right rail: match the plain "Browse"/"Graph" bar treatment
-  // instead of the boxed text-input look used elsewhere.
-  &.right .search > .search-button {
-    background: none;
-    border: none;
-    border-radius: 0;
-    height: auto;
-    justify-content: flex-start;
-    margin: 0 0 var(--sidebar-section-gap) 0;
-    font-size: var(--sidebar-section-size);
-    font-weight: $mediumWeight;
-    color: var(--dark);
-
-    & > p {
-      padding: 0;
-      flex: 0 1 auto;
-    }
-
-    & > svg {
-      width: 14px;
-      height: 14px;
-      margin: 0 0 0 0.35rem;
-      opacity: 0.5;
-    }
-
-    &:hover,
-    &:focus {
-      background: none;
-      border: none;
-      color: var(--secondary);
-    }
-  }
 }

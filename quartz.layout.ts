@@ -17,6 +17,9 @@ const showArticleSidebar = (slug: string | undefined, fileData: QuartzPluginData
 
 const graphPreview = Component.Graph({ preview: true })
 
+// Right rail: title reads as a section label above the bar, like Browse/Graph
+const railSearch = Component.Search({ labelAbove: true })
+
 const browseCategories = [
   { name: "Recipes", slug: "tags/RECIPE" as SimpleSlug },
   { name: "Blogs", slug: "tags/BLOG" as SimpleSlug },
@@ -89,7 +92,7 @@ const leftSidebar = [
 
 // Right rail: browse and page-contextual tools.
 const rightSidebar = [
-  Component.DesktopOnly(Component.Search()),
+  Component.DesktopOnly(railSearch),
   // Desktop/tablet only — the mobile drawer carries Browse instead
   Component.ConditionalRender({
     component: Component.DesktopOnly(browseNavHome),
@@ -148,5 +151,5 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.ArticleTitle(), Component.ContentMeta()],
   left: leftSidebar,
-  right: [Component.DesktopOnly(Component.Search()), Component.DesktopOnly(browseNav)],
+  right: [Component.DesktopOnly(railSearch), Component.DesktopOnly(browseNav)],
 }

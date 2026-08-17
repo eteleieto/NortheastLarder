@@ -77,6 +77,28 @@ body.search-active {
     }
   }
 
+  // Rail variant: the title sits above as a section label (like Browse and
+  // Graph), leaving the bar itself as a plain iconic field.
+  &.search--labelled {
+    flex-direction: column;
+    align-items: stretch;
+
+    & > .search-button {
+      justify-content: flex-start;
+
+      // Inherits the button's color so hover/focus still reads on the icon,
+      // which is the only affordance left once the label moves out.
+      & > svg {
+        margin: 0 0.75rem;
+      }
+
+      &:hover,
+      &:focus-visible {
+        border-color: var(--darkgray);
+      }
+    }
+  }
+
   @media all and ($mobile) {
     .sidebar.left & > .search-button {
       width: 2rem;
