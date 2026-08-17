@@ -2,6 +2,7 @@
 title: Okara
 aliases: [soy pulp, tofu dregs]
 tags: [INGREDIENT]
+project: "[[Presscakes & Byproducts]]"
 ---
 
 Okara is the damp pulp left after ground [[Soybean|soybeans]] are filtered to make soy milk or tofu. It is mostly the insoluble part of the bean, so it carries fiber, some protein and fat, and a mild cooked-soy flavor.[^1]

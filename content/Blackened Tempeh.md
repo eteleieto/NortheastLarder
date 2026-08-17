@@ -6,6 +6,7 @@ tags:
   - TEMPEH
 pairing:
 date: 2025-07-31
+project: "[[Chocolate Substitutes]]"
 description: This experiment holds tempeh at high heat for an extended blackening to develop deep savory and chocolate-like flavors.
 ---
 ## Background

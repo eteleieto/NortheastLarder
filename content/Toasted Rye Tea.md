@@ -7,6 +7,7 @@ date: 2025-06-20
 pairing:
 ingredients:
   - "[[Rye]]"
+project: "[[Northeastern Teas & Tisanes]]"
 description: A simple toasted rye tea served hot or cold, with room to explore sweeter and more aromatic variations.
 ---
 ## Background
