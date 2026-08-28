@@ -15,5 +15,9 @@ Cucumber is mostly water, so drying changes it more radically than drying a dens
 
 The notebook's test is therefore best understood as a flavor experiment and a way to investigate trim, not as a general preservation recommendation. Peels may contribute more color and aromatic bitterness than the watery center, while seeds add a softer, faintly nutty note before they dry hard. The contrast between a pale, less-dark result and the deeper flavor described by Nordic Food Lab makes temperature, piece size, and final dryness important variables to record rather than assumptions to carry from one batch to the next.
 
+Cucumber's unusually high water content is the central food fact behind that transformation: raw cucumber is roughly 95% water, so a small amount of remaining dry matter carries most of the flavor after dehydration.[^3] The fruit is botanically a pepo, with a rind, fleshy interior, and seed-bearing center, which means the peel and seeds are not incidental waste but different materials with different drying behavior.[^4] For a future batch, the notebook's interest in peels is especially practical because thin peel dries more readily than thick pieces of flesh, while the center can remain leathery even after the exterior feels brittle.
+
 [^1]: University of Minnesota Extension, “[Drying food](https://extension.umn.edu/preserving-and-preparing/drying-food),” accessed August 10, 2026.
 [^2]: South Dakota State University Extension, “[Cucumbers: Preserve it](https://extension.sdstate.edu/sites/default/files/2024-04/S-0001-16-Cucumber-Preserve_It.pdf),” 2024.
+[^3]: ScienceDirect, “[Cucumber — an overview](https://www.sciencedirect.com/topics/food-science/cucumber),” *Fermented Foods in Health and Disease Prevention*, accessed August 28, 2026.
+[^4]: “A Comprehensive Review of the Nutritional and Health-Promoting Properties of Edible Parts of Selected Cucurbitaceae Plants,” *Foods*, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11989026/.
