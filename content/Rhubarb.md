@@ -15,5 +15,9 @@ Rhubarb is botanically a vegetable, although the kitchen usually treats the stal
 
 Its fruit-like culinary identity is relatively recent. The root circulated as a medicinal long before the stalk became popular; English cooks were making sweet rhubarb pies by the eighteenth century, and improved forcing methods plus cheaper sugar drove a wider boom in the nineteenth.[^2] Red stalk color is carried by anthocyanins and is best preserved with short cooking and little added liquid, which otherwise dilutes the pigment.[^2]
 
+Rhubarb's Northeast identity is unusually durable. The plant was already being grown in Maine by the 1790s, spread into Massachusetts, and was being sold in produce markets by 1822.[^1] Because it needs a real winter dormancy and grows best before hot weather arrives, an established crown can become a dependable early-season source of acidity long before tree fruit is ready.
+
+The stalk is a petiole—the leaf's supporting stem—not a fruiting structure. Its crispness comes from water-filled cells and fibrous support tissue, while its sharp flavor comes from organic acids, especially oxalic and malic acids. The leaves concentrate enough oxalic acid that they are not treated as food, a useful reminder that “edible plant” does not mean every part of the plant is edible.[^1][^2] Stalk color varies by cultivar and is not a reliable measure of sweetness or maturity.[^1]
+
 [^1]: University of Maine Cooperative Extension, “[Vegetables and Fruits for Health: Rhubarb](https://extension.umaine.edu/publications/4266e/),” accessed July 17, 2026.
 [^2]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF p. 381.
