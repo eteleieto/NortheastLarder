@@ -13,6 +13,8 @@ Caraway is a member of the carrot family, but its warm, anise-like aroma comes f
 
 Because caraway is biennial, it generally makes leafy growth in its first year and flowers and sets its aromatic fruits in the second. The young root and leaves are edible too, so the familiar “seed” is only one food part of the plant.[^3]
 
+That two-year rhythm matters in a Northeast garden: caraway is grown for a full season before its flowering stalk appears, and the dry fruits are collected only after they mature. The plant's fine leaves resemble carrot foliage, while the clustered flowers belong to the same umbel-forming family as dill and parsley. In food, the mature fruit is the durable part because its essential oils survive drying and carry the characteristic aroma into breads, cabbage preparations, and other grain- and vegetable-based foods.[^3]
+
 Caraway's defining aroma comes largely from one optical form of carvone. Its mirror-image form smells characteristically of spearmint instead—a useful reminder that molecules with the same atoms can smell entirely different when their three-dimensional arrangement changes.[^4]
 
 [^1]: Penn State Extension, “[Growing Herbs in the Garden](https://extension.psu.edu/growing-herbs-in-the-garden),” 2026.

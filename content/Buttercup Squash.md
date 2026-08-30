@@ -15,6 +15,8 @@ University of Maine notes that winter squash is always eaten cooked, with sweet,
 
 Mature winter squash keeps best outside the refrigerator at about 55°F, with relatively dry air around 50–70% humidity. Standard refrigerator temperatures are cold enough to cause chilling injury in cucurbits.[^4]
 
+Buttercup's keeping quality is not just a storage convenience; it changes the food over time. Maine Extension places buttercup among the varieties that can keep for roughly three to six months under warm, dry, ventilated conditions, giving the flesh a long season after the vines have disappeared.[^3] The hard rind protects the dense interior, but the fruit should still be harvested before frost and kept away from ripening apples and pears, whose ethylene can shorten squash storage life.[^3] Its edible identity is therefore a combination of cultivar, maturity, and the unusually durable structure of the whole fruit.
+
 
 Buttercup is the squash used in [[Blackened Squash]], where its dense flesh and high dry-matter content are more important than the cultivar name alone.
 

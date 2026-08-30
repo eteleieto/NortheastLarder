@@ -16,5 +16,7 @@ Dent corn gets the little depression at the crown of each dry kernel because its
 
 The red color sits mainly in the outer kernel tissues, so milling choices change how much color remains in the meal. [[Nixtamalization]] changes the texture and aroma of the same grain through alkaline treatment rather than through variety alone.
 
+Bloody Butcher is also a useful reminder that “corn” can mean a dry staple rather than a fresh vegetable. West Virginia University describes the plants as reaching about twelve feet and taking more than one hundred days to mature, traits that make wind, hard rain, and the length of a Northeast season part of the ingredient's identity.[^2] Once dry, the kernels can be kept as seed or ground into a meal whose dark flecks survive unevenly: a coarse grind leaves more of the colored outer layers visible, while finer or more heavily sifted flour becomes paler. The same grain has also been used for hominy, connecting this Appalachian heirloom to the alkaline processing documented in [[Nixtamalization]].[^2]
+
 [^1]: University of Wisconsin–Madison Extension, “[Indian Corn](https://hort.extension.wisc.edu/articles/indian-corn/),” accessed July 17, 2026.
 [^2]: West Virginia University Extension, “[Cultivating Rich and Unique Bloody Butcher Corn](https://extension.wvu.edu/lawn-gardening-pests/news/2024/11/01/cultivating-rich-and-unique-bloody-butcher-corn),” 2024.
