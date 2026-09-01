@@ -11,6 +11,8 @@ Cranberries are intensely tart berries native to North America. Their vivid acid
 
 They share the genus *Vaccinium* with [[Wild Blueberry|wild blueberries]], though cranberries grow on trailing vines in acidic bogs rather than upright lowbush plants.
 
+The plant is a mat of runners with short upright shoots that carry the flowers and fruit. A cranberry bed is wetland-like but not permanently flooded: the roots need a moist, acidic, oxygenated medium, usually sand or peat. That distinction matters in the Northeast, where a bog is a carefully managed growing system rather than simply a pond.[^2]
+
 
 American cranberry is native to northeastern North America. Cape Cod cultivation began in the early 1800s, and Maine cranberry production was an active industry through much of the twentieth century.[^2]
 

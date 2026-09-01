@@ -11,6 +11,8 @@ Potatoes are starchy tubers and a longstanding Maine field and storage crop. Aro
 
 Potato is a New World crop, domesticated in the Andes before spreading worldwide; it belongs to the nightshade family with [[Tomato|tomato]].[^2]
 
+Maine’s potato identity is partly a storage identity. The crop fits the state’s short growing season, then carries through winter when kept cool, dark, and well ventilated. Aroostook’s broad fields made the potato a commercial crop, while household cellars made it a dependable local staple.[^1]
+
 The tuber is a swollen underground stem, not a root. Its “eyes” are buds, which is why a piece of potato can grow into a new plant when it includes a live eye.[^3]
 
 Cooking behavior follows dry matter. Mealy potatoes pack more starch into their cells, which swell and separate into a dry, fluffy texture; waxy types hold together more firmly.[^4] Cold storage complicates that distinction because some starch converts to sugars below the ideal range of about 45–50°F, making fried potatoes brown too quickly and sometimes taste bitter.[^4]
