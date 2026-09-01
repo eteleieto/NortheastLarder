@@ -14,6 +14,9 @@ Cooking is more than a matter of taming tartness: elderberries contain lectins t
 
 American elder is native to Maine and supports many bird species, which is part of why fruit harvest can be competitive in the landscape.[^1] The plant's usefulness as both a native wildlife shrub and a food-bearing perennial is characteristic of elder: a patch can belong to the ecology of a wet field edge while also supplying a strongly flavored fruit for the kitchen.
 
+The flowers and berries arrive as two different foods from the same shrub. The flowers open in broad, pale clusters before the darker fruit develops, and their stems are worth separating because the later berry clusters are easiest to process when only ripe, deep-colored fruit remains.[^3] Elderberries also have a long human history: even the name points to the hollow stems, which were used like small tubes for blowing on kindling.[^4] That combination of edible flower, strongly pigmented fruit, and hollow-stemmed shrub gives elder a more layered identity than the word “berry” suggests.
+
 [^1]: University of Maine Cooperative Extension, “[Native Trees and Shrubs for Maine Landscapes: American Elder](https://extension.umaine.edu/publications/2580e/),” accessed July 17, 2026.
 [^2]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF p. 379.
 [^3]: University of Maine Cooperative Extension, “[How to Make and Preserve Elderberry Syrup Safely](https://extension.umaine.edu/food-health/2025/02/20/how-to-make-and-preserve-elderberry-syrup-safely/),” accessed August 13, 2026.
+[^4]: Penn State Extension, “[Elderberry in the Garden and the Kitchen](https://extension.psu.edu/elderberry-in-the-garden-and-the-kitchen),” accessed August 31, 2026.

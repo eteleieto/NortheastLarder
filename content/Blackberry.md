@@ -13,6 +13,8 @@ Blackberries are aggregate fruits made of many small drupelets. They are closely
 
 The fruit is not a botanical berry: each drupelet is a small fruit with its own seed, attached together on a single receptacle.[^1]
 
+That structure also explains why a blackberry can look ripe while still containing pale or red drupelets. Each unit develops on its own schedule, and uneven ripening is especially visible in fruit exposed to heat or picked before the whole cluster has darkened.[^3] Northeast growers work with both erect and trailing cane types, while wild plants occupy disturbed edges and woodland openings; either way, the fruiting canes are part of a perennial crown rather than a one-season plant.[^1]
+
 Blackberries have one of the highest respiration rates among fruits, and their thin skins offer little protection, so they are exceptionally perishable. Their anthocyanin pigments are also pH-sensitive: freezing can shift a dark purple blackberry toward red without indicating spoilage.[^2] The fruit also loses water quickly because it has no protective rind; that combination of respiration, transpiration, and fragile drupelets explains why a freshly picked berry can go from glossy to soft and leaky in a short time.[^3]
 
 [^2]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF p. 376.

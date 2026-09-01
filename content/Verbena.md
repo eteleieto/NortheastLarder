@@ -15,6 +15,8 @@ For culinary use, “verbena” usually means lemon verbena: a powerful lemon-sc
 
 Lemon verbena is frost-sensitive. In the Northeast, treat it as an annual or overwinter it in a bright, cool indoor spot before frost; container culture makes that change of place practical.[^1] Regular harvest keeps the plant producing fresh foliage, though older plants eventually become woody and less vigorous.[^2]
 
+That container habit is not a minor gardening detail: it determines whether lemon verbena behaves like a perennial in a Northeast kitchen. The plant grows quickly in full sun, responds well to pruning or frequent cutting, and can be renewed from tip cuttings before an old woody plant declines.[^1] The leaves can be used fresh through summer or dried in a sealed container, so a frost-sensitive plant can still supply an aromatic pantry ingredient after it leaves the garden.[^1]
+
 Its lemon character comes principally from citral—the same paired terpenes that define lemongrass—while other terpenes add a floral edge. The plant is South American and belongs to the same family as Mexican oregano, not to the citrus family.[^3]
 
 
