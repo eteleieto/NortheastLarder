@@ -11,6 +11,8 @@ The flowers are the showiest part, but they are not the only useful one. Univers
 
 Its flavor is sharper than many edible flowers, which is why nasturtium reads more like a leafy brassica than like perfume. McGee groups it among edible flowers, but the reason it remains useful in savory food is that the petals add color while the rest of the plant still tastes distinctly green and peppery.[^2] That combination makes it one of the rare ornamental annuals that can plausibly anchor an ingredient page rather than just decorate a plate.
 
+The plant's peppery character is not evenly distributed: the leaves and stems bring the most radish-like heat, while the flowers add aroma and color with a softer bite.[^1] The young seed pods are the stage before the seeds harden, so their use as a caper substitute is a food-preservation tradition built around harvesting the plant at the right developmental moment rather than treating every part as interchangeable.[^1][^3]
+
 [^1]: University of Maine Cooperative Extension, “[Maine Home Garden Newsletter — May 2026](https://extension.umaine.edu/gardening/2026/05/01/maine-home-garden-newsletter-may/),” accessed July 24, 2026.
 [^2]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF page 340.
 [^3]: University of Maine Cooperative Extension, “[Gardening in Small Spaces](https://extension.umaine.edu/publications/2761e/),” accessed July 24, 2026.
