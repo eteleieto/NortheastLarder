@@ -16,6 +16,8 @@ Northeast food use of “fiddlehead” normally means the young coiled frond of 
 
 Ostrich fern grows in colonies along rivers, brooks, and damp woodland. Maine’s gathering period falls around late April through early June, moving with latitude and weather.[^2]
 
+The plant spreads through underground rhizomes as well as spores, so a vigorous patch can occupy a broad floodplain. A crown with at least four emerging fiddleheads can support limited picking; removing every fiddlehead year after year weakens the crown because the remaining fronds are the plant’s solar panels for the next season.[^4]
+
 
 The stem is smooth rather than fuzzy and has a deep U-shaped groove along its inner face. A brown papery covering clings to the emerging coil. Those details matter because “fiddlehead” describes a growth stage and shape, not a species.[^2]
 
@@ -30,3 +32,4 @@ Species identification is also a chemical safety issue. Bracken fern fiddleheads
 [^1]: University of Maine Cooperative Extension, “[How to Prepare and Preserve Fiddleheads](https://extension.umaine.edu/food-health/2021/04/30/how-to-prepare-and-preserve-fiddleheads/),” accessed July 17, 2026.
 [^2]: University of Maine Cooperative Extension, “[Facts on Fiddleheads](https://extension.umaine.edu/publications/4198e/),” accessed July 17, 2026.
 [^3]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF pp. 273, 331.
+[^4]: University of Maine Cooperative Extension, “[Ostrich Fern Fiddleheads](https://extension.umaine.edu/publications/2540e/),” accessed September 13, 2026.

@@ -12,6 +12,8 @@ Common blue violet leaves are edible as well as the flowers; the roots are not. 
 
 The flower’s blue-purple is produced by anthocyanins, a broad pigment group found across many red, blue, and purple plants.[^4]
 
+Common blue violet is a low perennial rather than a fleeting annual: its heart-shaped leaves spread close to the ground, and the flowers rise just above them in spring. Both leaves and flowers are edible, but the roots are not; the leaves are mild enough to act as a green while the flowers contribute color and perfume.[^3]
+
 The perfumed European sweet violet, *Viola odorata*, is not the same species as the common blue violet of Northeast lawns and woods. The latter is usually *V. sororia*, a native recorded in every New England state across forests, fields, roadsides, clearings, and lawns. Naming the species matters because “violet” covers a large and variable genus.[^5]
 
 [^1]: University of Maine Cooperative Extension, “[Edible Flowers: Pretty in Your Garden and a Culinary Delight](https://extension.umaine.edu/gardening/2012/06/05/maine-home-garden-news-june-2012/),” accessed July 17, 2026.

@@ -17,6 +17,10 @@ Garlic originated in central Asia and has been cultivated for roughly 5,000 year
 
 A garlic clove is a single swollen storage leaf wrapped around a young shoot, rather than a miniature multilayered onion. It contains much less water than an onion scale and a higher concentration of fructose-based carbohydrates, helping account for garlic's density and ready browning.[^4]
 
+Hardneck garlic is particularly at home in the Northeast because it tolerates cold winters and reliably produces a scape in early summer. The scape is not just a stem to remove: it is an edible flowering stalk whose swollen tip would become an umbel of bulbils, and its mild garlic flavor gives the plant a second harvest before the bulb is ready.[^3]
+
+After harvest, curing dries the outer wrappers and neck so the bulb can hold through the winter. UMaine recommends a warm, dry, well-ventilated curing period of roughly three to four weeks, followed by cool, dry storage; refrigeration and sealed plastic encourage sprouting or decay.[^3]
+
 [^1]: University of Maine Cooperative Extension, “[Food & Nutrition for the Home Gardener](https://extension.umaine.edu/gardening/manual/food-nutrition/),” accessed July 17, 2026.
 [^2]: U.S. Department of Agriculture Agricultural Research Service, “[Boosting the Nutritional Bounty of Carrots and Onions](https://www.ars.usda.gov/news-events/news/research-news/2022/boosting-the-nutritional-bounty-of-carrots-and-onions/),” 2022.
 [^3]: University of Maine Cooperative Extension, “[Growing Garlic in Maine](https://extension.umaine.edu/publications/2063e/),” accessed July 17, 2026.
