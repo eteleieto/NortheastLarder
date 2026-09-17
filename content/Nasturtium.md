@@ -13,6 +13,11 @@ Its flavor is sharper than many edible flowers, which is why nasturtium reads mo
 
 The plant's peppery character is not evenly distributed: the leaves and stems bring the most radish-like heat, while the flowers add aroma and color with a softer bite.[^1] The young seed pods are the stage before the seeds harden, so their use as a caper substitute is a food-preservation tradition built around harvesting the plant at the right developmental moment rather than treating every part as interchangeable.[^1][^3]
 
+Botanically, nasturtium is not a mustard-family plant even though its bite can suggest radish or watercress. Its round, shield-like leaves and long petioles make it easy to recognize in a garden, and the flowers’ spurs hold the nectar that attracts pollinators. The peppery sensation comes from mustard-oil-like compounds released when plant tissue is chewed, while the flower contributes a more aromatic, floral layer than the leaf or stem.[^1][^4]
+
+That division of labor makes nasturtium unusually complete as a food plant. Leaves and stems supply green heat, flowers supply color and perfume, and immature pods supply a firm seed-bearing structure that can be preserved before the seeds become hard. The Northeast relevance is mostly horticultural rather than historical: it is a productive warm-season annual that can furnish several distinct ingredients from a small garden footprint.[^1][^2]
+
 [^1]: University of Maine Cooperative Extension, “[Maine Home Garden Newsletter — May 2026](https://extension.umaine.edu/gardening/2026/05/01/maine-home-garden-newsletter-may/),” accessed July 24, 2026.
 [^2]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF page 340.
 [^3]: University of Maine Cooperative Extension, “[Gardening in Small Spaces](https://extension.umaine.edu/publications/2761e/),” accessed July 24, 2026.
+[^4]: North Carolina Cooperative Extension, “Tropaeolum majus,” accessed September 17, 2026, https://plants.ces.ncsu.edu/plants/tropaeolum-majus/.
