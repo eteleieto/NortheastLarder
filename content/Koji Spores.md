@@ -14,9 +14,13 @@ Commercial tane-koji is not just raw mold dust. Traditional producers select str
 
 Once those spores land on a suitable cooked grain, they germinate into hyphae, spread into a white mycelial network, and turn the grain into sweet, fragrant koji over roughly two days.[^3] The mold's food value is enzymatic: it breaks large starch and protein molecules into smaller sugars, peptides, and amino acids that later fermentations can use. Japanese agricultural standards describe koji mold in those terms and distinguish *Aspergillus oryzae* from related strains used for soy sauce and other ferments.[^4]
 
+The starter is powerful because the grain is a temporary growing surface, not the finished flavor by itself. Steinkraus describes tane-koji as rice cultured until it is heavily sporulated, then used to seed cooled steamed rice; during growth, amylases convert starch toward dextrins, glucose, and maltose while proteases open proteins into peptides and amino acids.[^5] Hutkins likewise describes commercial spore cultures as selected strains with defined properties, which explains why a named starter gives more predictable food than an accidental mold bloom.[^6] The dusty ingredient is therefore a compact delivery system for a whole enzymatic ecology: its visible mass is tiny, but its later effect on grain, beans, and other substrates is large.
+
 When using the powdered form, it helps to dilute a very small dose with toasted flour or starch first so it can be sifted evenly across the substrate; otherwise it is easy to overconcentrate one patch and miss another.[^1] The distinction between a selected food strain and an unknown environmental mold matters: commercial koji starters are chosen for stable growth and useful enzyme production, while wild mold on cooked grain is not an equivalent ingredient. That is why spores belong in the pantry as a named culture with a known identity, not as a generic invitation to let any mold colonize food.
 
 [^1]: Rene Redzepi and David Zilber, *The Noma Guide to Fermentation* (Artisan, 2018), PDF p. 365.
 [^2]: Keith H. Steinkraus, *Handbook of Indigenous Fermented Foods*, 2nd ed. (Marcel Dekker, 1996), PDF p. 567.
 [^3]: Rene Redzepi and David Zilber, *The Noma Guide to Fermentation* (Artisan, 2018), PDF pp. 341, 530.
 [^4]: Japanese Agricultural Standards, “[Japanese Agricultural Standard for Fermented Foods](https://www.famic.go.jp/english/jas/_doc/jas0022.pdf),” accessed September 6, 2026.
+[^5]: Keith H. Steinkraus, *Handbook of Indigenous Fermented Foods*, 2nd ed. (Marcel Dekker, 1996), PDF p. 456.
+[^6]: Robert W. Hutkins, *Microbiology and Technology of Fermented Foods* (Blackwell Publishing, 2006), PDF p. 437.

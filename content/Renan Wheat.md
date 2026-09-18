@@ -12,8 +12,11 @@ Renan is a French winter [[Wheat|bread wheat]] variety created by AgriObtentions
 
 Its flour is prized for a subtly sweet aroma and a delicate, buttery crumb — Unified Mills describes Renan bread as tasting buttered even when it isn't — which suits naturally leavened loaves and French-style baking.[^3] In the Northeast it has found a home with regional grain projects: Unified Mills sells a bread flour made from Renan grown organically in New York's Finger Lakes and milled in small batches at Birkett Mills in upstate New York.[^3] Cornell’s directory also lists a Finger Lakes grower offering certified Renan seed, a small but concrete sign that the variety belongs to the region’s working grain system rather than only to imported-variety catalogs.[^2]
 
+Renan also fits the Northeast’s broader return to farmer-selected small grains. Cornell’s regional grain work has treated bread wheat, emmer, spelt, and einkorn as crops that need testing under local organic conditions rather than simply importing performance assumptions from the Plains or Europe.[^4] For a winter wheat such as Renan, that regional question includes surviving cold, wet establishment and spring disease pressure before the grain ever reaches a mill.
+
 In this notebook Renan appears as a koji substrate rather than a bread flour. Pearled Renan wheat grew strong mold growth in the grain-substrate trials in [[Koji]], and a three-day cure in Renan shio koji made the tofu in [[Shio Koji Tofu|shio koji tofu]] intensely sour, salty, and soft.
 
 [^1]: CNRGV, "[Assembly of a high-quality genome of the soft wheat cultivar Renan](https://cnrgv.toulouse.inrae.fr/en%20/News/2022/Assembly-of-a-high-quality-genome-of-the-soft-wheat-cultivar-Renan)," INRAE, April 28, 2022, accessed August 4, 2026.
 [^2]: Cornell University, “[New York Certified Grain Seed Directory](https://nyseed.cornell.edu/ny-certified-grain-seed-directory/),” accessed September 4, 2026.
 [^3]: [Unified Mills](https://unifiedmills.com/products/bread-flour), "Bread Flour" product page, accessed August 4, 2026.
+[^4]: Cornell Small Farms Program, "[Field Crops and Forages](https://smallfarms.cornell.edu/2013/08/field-crops-and-forages/)," August 7, 2013.

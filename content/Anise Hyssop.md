@@ -16,6 +16,8 @@ Anise hyssop is also a useful example of a food plant whose garden value and kit
 
 In New England it is not a deep old wild staple so much as a plant that has settled comfortably into gardens and disturbed ground while remaining very usable as food.[^2][^4] Native Plant Trust notes its long bloom season and strong attractiveness to pollinators, which is part of why it keeps getting planted even when the original intention is ornamental rather than culinary.[^3]
 
+The plant’s food identity is tied to its chemistry as much as to its shape. Crushing the foliage releases a concentrated aromatic oil, so the difference between a leaf and a flower is mostly one of intensity and texture rather than two unrelated flavors. That makes anise hyssop a useful Northeast-grown bridge between herb and blossom: the leaves read as a green seasoning, while the flowers contribute perfume and a little visual structure. Maine’s pollinator guidance places it among mid-season nectar plants, giving the same flowering stems a role in the field and garden beyond their culinary use.[^5]
+
 Because the flavor is volatile and easily overdone, anise hyssop usually makes the most sense as a late or cool addition rather than something cooked hard for a long time. The plant is useful precisely because it brings a Northeast-grown herbaceous sweetness that can freshen ferments, drinks, and dairy-like projects without needing citrus or imported spice to do the same work.[^1][^3]
 
 [^1]: John Vaughan and Catherine Geissler, *The New Oxford Book of Food Plants*, 2nd ed. (Oxford University Press, 2009), p. 201 (PDF p. 236).
