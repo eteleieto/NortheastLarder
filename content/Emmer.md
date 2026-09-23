@@ -13,7 +13,10 @@ In the Northeast, emmer is being reworked as a regional crop rather than a museu
 
 Because emmer keeps its hull until milling and its kernels stay firm when cooked, it behaves less like flour wheat and more like a whole grain with backbone. Penn State lists pasta, bread, pilafs, and flatbreads among its uses, and that firm texture is exactly what makes it a useful tempeh substrate, where the grain has to stay legible while mold knits through it.[^1] It also shows up in malt-based plant milks, where its starch breaks down alongside [[Rye|rye]] and [[Spelt|spelt]].
 
+The regional trial work matters because emmer is not merely an old name attached to imported farro. Penn State’s project evaluated spring emmer for three years in organic systems with sites in New York and Pennsylvania, alongside North Dakota trials and Cornell collaborators.[^5] That kind of testing treats emmer as a crop with agronomic questions—yield, adaptation, and processing—not just as a heritage novelty. Its hulled grain still asks more of a mill than modern free-threshing wheat, but that extra outer structure is part of the ingredient’s identity: the kernel arrives with a firmer, more durable texture that remains useful in whole-grain cooking and fermentation.
+
 [^1]: Penn State Plant Science, "[Ancient Grains: Emmer](https://plantscience.psu.edu/research/projects/grains/heritage-grains/emmer)", accessed August 5, 2026.
 [^2]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF p. 480.
 [^3]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF p. 481.
 [^4]: Northeast SARE, "[Participatory breeding of high-value wheat for the Northeast](https://projects.sare.org/project-reports/gne15-107/)", 2016, accessed August 5, 2026.
+[^5]: Penn State Plant Science, “[Ancient Grains: Emmer](https://plantscience.psu.edu/research/projects/grains/heritage-grains/emmer),” accessed September 23, 2026.

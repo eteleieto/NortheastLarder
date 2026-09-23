@@ -13,6 +13,8 @@ Botanically it is white goosefoot, *Chenopodium album*, and Arthur Haines record
 
 The plant is an annual, so its persistence comes from seed rather than a perennial root system. Its lower leaves may be toothed or lobed while the upper leaves are more entire, and the tiny green flowers are carried in clustered spikes; the mealy coating is variable, which is why identification should not rest on that one feature alone.[^4] The mature seeds have also been used as a grain, although their hard coats make them a different food from the tender summer greens.[^1][^4]
 
+That seed stage gives lamb’s-quarters a second identity beyond the summer pot herb. University of Maine describes the mature fruit as hard-coated and slippery, while the young plant is useful for its tender leaves and shoots; the same annual habit that makes it a persistent garden weed also keeps producing a new crop of edible greens in disturbed soil.[^1] The comparison with [[Orache|orache]] is especially helpful in the Northeast: both belong to the broad tradition of goosefoot greens, but orache is the more salt-influenced coastal plant, while lamb’s-quarters is the common inland garden volunteer.[^1] Its food value is therefore tied to place and stage—young leaves in summer, seeds later, and careful identification throughout.
+
 [^1]: University of Maine Cooperative Extension, “[Facts on Edible Wild Greens in Maine](https://extension.umaine.edu/publications/4060e/),” accessed July 24, 2026.
 [^2]: Arthur Haines, *New England Wild Flower Society's Flora Novae Angliae* (Yale University Press, 2011), PDF page 358.
 [^3]: John Vaughan and Catherine Geissler, *The New Oxford Book of Food Plants*, 2nd ed. (Oxford University Press, 2009), p. 210 (PDF p. 245).
