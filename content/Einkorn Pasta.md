@@ -63,4 +63,4 @@ Kitchen Scale
 - We tested both [[Orecchiette|orecchiette]] and [[Tagliatelle|tagliatelle]] shapes, and both worked fine, though further experimentation on the ideal shape is warranted.
 - The dough rested for 30 to 40 minutes, but a longer rest period might be beneficial.
 - A future iteration could involve adding [[Sourdough Starter|sourdough starter]] and allowing it to ferment overnight—perhaps resting out of the fridge for a few hours before refrigerating—to create a more flavorful dough.
-- The recipe utilizing ground raw cornmeal was not particularly good; using cooked [[Polenta|polenta]] would likely yield better results.
+- The recipe utilizing ground raw cornmeal was not particularly good; using cooked [[(ONG) Polenta|polenta]] would likely yield better results.

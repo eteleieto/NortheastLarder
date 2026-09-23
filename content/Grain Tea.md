@@ -112,3 +112,22 @@ A new trial was conducted to evaluate six specific grains under standardized roa
 ## Photos
 
 ![[Assets/Attachments/APC_0083 3.webp|200x267]]![[Assets/Attachments/APC_0071.webp|200x267]]![[Assets/Attachments/APC_0087 2.webp|200x267]]![[Assets/Attachments/APC_0086 2.webp|200x267]]![[Assets/Attachments/APC_0088 2.webp|200x267]]
+
+
+
+
+
+
+New Trial:
+
+mugwort, spicebush, spicebush leaves
+
+spicebush rye great
+spicebush mugworth great
+black rice great
+
+all sweetened with apple cider syrup
+
+for the plain rye, darker toast perhaps
+
+sorghum tea has a bit of a must, not necessarily bad

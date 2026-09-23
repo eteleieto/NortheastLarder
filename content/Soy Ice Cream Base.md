@@ -101,3 +101,7 @@ sorghum syrup
 honey
 malt sugar
 koji sugar
+
+
+
+oleogel!!!! it works wonders. you can decrease the amount of soy solids and it significantly reduces iciness
