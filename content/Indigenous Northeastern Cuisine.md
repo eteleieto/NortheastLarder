@@ -1,5 +1,5 @@
 ---
-title: The Northeast's First Larder
+title: Indigenous Northeastern Cuisine
 tags:
   - BLOG
 author: Joe Laufer
