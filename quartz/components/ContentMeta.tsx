@@ -3,19 +3,13 @@ import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
 import { FullSlug, resolveRelative } from "../util/path"
 import style from "./styles/contentMeta.scss"
+import { formatTag } from "../util/tagTitles"
 
 function normalizeTags(tags: unknown): string[] {
   if (!tags) return []
   if (typeof tags === "string") return [tags]
   if (Array.isArray(tags)) return tags.filter((tag): tag is string => typeof tag === "string")
   return []
-}
-
-function formatTag(tag: string): string {
-  return tag
-    .replace(/[-_]+/g, " ")
-    .toLocaleLowerCase()
-    .replace(/\b\p{L}/gu, (letter) => letter.toLocaleUpperCase())
 }
 
 export default (() => {

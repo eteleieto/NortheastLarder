@@ -4,7 +4,6 @@ tags:
   - EXPERIMENT
 pairing:
 date: 2026-06-23
-project: "[[Amazake]]"
 description: This experiment compares parallel amazake trials across different koji substrates and incubation setups.
 ---
 ## Background
@@ -28,7 +27,7 @@ Why does amazake, and amazake-variants, excite us?
 
 4. **Amazake is relatively easy to make and replicate at home.** Amazake is typically made from just two ingredients – rice and koji – and requires no special equipment. In most of our amazake experiments, we use a dehydrator set to 135°F-140°F to produce in Amazake in 12 to 16 hours. Without a dehydrator, an amazake can still be made at room temperature over several days. 
 
-## Background
+## Objective
 
 The goal of this experiment is to run four parallel [[Amazake]] tests using different koji substrates and equipment setups to evaluate sweetness, sourness, and overall enzymatic activity. 
 

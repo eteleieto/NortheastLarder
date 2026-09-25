@@ -1,5 +1,6 @@
 ---
-title: Nixtamilized Bloody Butcher Corn + Smoked Santa Fe Miso
+aliases: [Nixtamilized Bloody Butcher Corn + Smoked Santa Fe Miso]
+title: Nixtamalized Bloody Butcher Corn + Smoked Santa Fe Miso
 tags:
   - EXPERIMENT
 pairing:
@@ -11,7 +12,7 @@ description: A smoky miso experiment combining nixtamalized Bloody Butcher corn,
 ## Formula
 
 ### Ingredients
-* 400 g [[Nixtamalization|nixtamilized]] [[Bloody Butcher Corn|bloody butcher corn]]
+* 400 g [[Nixtamalization|nixtamalized]] [[Bloody Butcher Corn|bloody butcher corn]]
 * 400 g [[Koji|wheat koji]]
 * 10 g smoked [[Santa Fe Pepper|Santa Fe peppers]]
 * 200 g water

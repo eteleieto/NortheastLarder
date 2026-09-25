@@ -25,7 +25,10 @@ export default ((opts?: Partial<BacklinksOptions>) => {
   }: QuartzComponentProps) => {
     const slug = simplifySlug(fileData.slug!)
     const backlinkFiles = allFiles.filter(
-      (file) => file.links?.includes(slug) && simplifySlug(file.slug!) !== "/",
+      (file) =>
+        file.links?.includes(slug) &&
+        simplifySlug(file.slug!) !== "/" &&
+        simplifySlug(file.slug!) !== slug,
     )
     if (options.hideWhenEmpty && backlinkFiles.length == 0) {
       return null

@@ -137,12 +137,19 @@ export type SocialImageOptions = {
     options: ImageOptions & {
       userOpts: UserOpts
       iconBase64?: string
-      backgroundImageBase64?: string
+      photo?: SocialImagePhoto
     },
   ) => JSXInternal.Element
 }
 
 export type UserOpts = Omit<SocialImageOptions, "imageStructure">
+
+/** A page photo already resized (never cropped) to fit the card's photo panel. */
+export type SocialImagePhoto = {
+  src: string
+  width: number
+  height: number
+}
 
 export type ImageOptions = {
   /**
@@ -167,6 +174,42 @@ export type ImageOptions = {
   fileData: QuartzPluginData
 }
 
+// Card geometry shared by the template and the emitter (which sizes photos to
+// fit the panel before Satori sees them).
+export const CARD_PADDING_X = 64
+export const CARD_PADDING_Y = 56
+export const PHOTO_MAX_WIDTH = 400
+const PHOTO_GAP = 48
+
+// Newsreader's average advance width is ~0.43em; a little headroom keeps the
+// estimate from under-counting lines on wide-letter titles.
+const AVG_CHAR_WIDTH_EM = 0.46
+const TITLE_SIZES = [80, 68, 60]
+
+function estimateLines(text: string, fontSize: number, width: number): number {
+  const maxChars = Math.max(1, Math.floor(width / (fontSize * AVG_CHAR_WIDTH_EM)))
+  let lines = 1
+  let current = 0
+  for (const word of text.split(/\s+/)) {
+    const needed = current === 0 ? word.length : current + 1 + word.length
+    if (needed <= maxChars) {
+      current = needed
+    } else {
+      lines += 1
+      current = word.length
+    }
+  }
+  return lines
+}
+
+/** One title size for nearly every card; step down only when it can't fit. */
+export function pickTitleSize(title: string, width: number, maxLines: number): number {
+  return (
+    TITLE_SIZES.find((size) => estimateLines(title, size, width) <= maxLines) ??
+    TITLE_SIZES[TITLE_SIZES.length - 1]
+  )
+}
+
 // Social cards intentionally stay quieter than the page metadata: the card
 // should be recognizable at a glance when it is reduced inside a link preview.
 export const defaultImage: SocialImageOptions["imageStructure"] = ({
@@ -174,80 +217,41 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
   userOpts,
   title,
   iconBase64: logoBase64,
-  backgroundImageBase64,
+  photo,
 }) => {
-  const { colorScheme } = userOpts
+  const { colorScheme, width } = userOpts
   const colors = cfg.theme.colors[colorScheme]
-  const useSmallerFont = title.length > 34
   const bodyFont = getFontSpecificationName(cfg.theme.typography.body)
   const headerFont = getFontSpecificationName(cfg.theme.typography.header)
+
+  const contentWidth = width - CARD_PADDING_X * 2
+  const titleWidth = photo ? contentWidth - photo.width - PHOTO_GAP : contentWidth
+  const maxLines = photo ? 3 : 2
+  const titleSize = pickTitleSize(title, titleWidth, maxLines)
 
   return (
     <div
       style={{
         display: "flex",
-        flexDirection: "column",
         height: "100%",
         width: "100%",
         backgroundColor: colors.light,
-        border: `1px solid ${colors.lightgray}`,
-        padding: "3.5rem 4rem",
+        padding: `${CARD_PADDING_Y}px ${CARD_PADDING_X}px`,
         fontFamily: bodyFont,
-        position: "relative",
-        overflow: "hidden",
       }}
     >
-      {backgroundImageBase64 && (
-        <img
-          src={backgroundImageBase64}
-          width={1200}
-          height={630}
-          style={{
-            position: "absolute",
-            top: 0,
-            right: 0,
-            bottom: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-            opacity: 0.45,
-          }}
-        />
-      )}
-      {backgroundImageBase64 && (
-        <div
-          style={{
-            position: "absolute",
-            top: 0,
-            right: 0,
-            bottom: 0,
-            left: 0,
-            backgroundColor: "rgba(254, 253, 251, 0.72)",
-          }}
-        />
-      )}
-
-      {/* Current site mark and wordmark */}
       <div
         style={{
           display: "flex",
-          alignItems: "center",
+          flexDirection: "column",
           justifyContent: "space-between",
-          minHeight: 64,
-          position: "relative",
+          width: titleWidth,
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
+        {/* Site mark and wordmark, large enough to read in a reduced preview */}
+        <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
           {logoBase64 && (
-            <img
-              src={logoBase64}
-              width={72}
-              height={48}
-              style={{
-                objectFit: "contain",
-              }}
-            />
+            <img src={logoBase64} width={96} height={60} style={{ objectFit: "contain" }} />
           )}
           <div
             style={{
@@ -255,7 +259,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
               flexDirection: "column",
               color: colors.dark,
               fontFamily: headerFont,
-              fontSize: 28,
+              fontSize: 38,
               lineHeight: 0.95,
             }}
           >
@@ -263,29 +267,18 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
             <span>Larder</span>
           </div>
         </div>
-      </div>
 
-      {/* Page title, kept as spare as the site's own cards */}
-      <div
-        style={{
-          display: "flex",
-          flex: 1,
-          alignItems: "flex-end",
-          position: "relative",
-        }}
-      >
         <h1
           style={{
             margin: 0,
-            paddingBottom: 10,
-            fontSize: useSmallerFont ? 68 : 86,
+            fontSize: titleSize,
             fontFamily: bodyFont,
             fontWeight: 500,
             color: colors.dark,
             lineHeight: 1.08,
             display: "-webkit-box",
             WebkitBoxOrient: "vertical",
-            WebkitLineClamp: 2,
+            WebkitLineClamp: maxLines,
             overflow: "hidden",
             textOverflow: "ellipsis",
           }}
@@ -293,6 +286,26 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
           {title}
         </h1>
       </div>
+
+      {/* Page photo in its own panel, shown whole at its natural aspect ratio */}
+      {photo && (
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "flex-end",
+            marginLeft: PHOTO_GAP,
+            width: photo.width,
+          }}
+        >
+          <img
+            src={photo.src}
+            width={photo.width}
+            height={photo.height}
+            style={{ borderRadius: 6, border: `1px solid ${colors.lightgray}` }}
+          />
+        </div>
+      )}
     </div>
   )
 }

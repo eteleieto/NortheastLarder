@@ -206,6 +206,16 @@ body[data-slug="Bookshelf"] {
         line-height: $chromeTitleLeading;
       }
     }
+
+    // Match the article-title type on phones too, so a wrapped landing heading
+    // doesn't fall back to body leading and look like two separate lines.
+    @media all and ($mobile) {
+      > :is(h1, h2, h3, h4, h5, h6):first-child {
+        font-size: $chromeTitleSize;
+        font-weight: 400;
+        line-height: $chromeTitleLeading;
+      }
+    }
   }
 }
 

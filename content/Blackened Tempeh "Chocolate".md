@@ -1,5 +1,5 @@
 ---
-title: Blackened Tempeh "Chocolate"
+title: Blackened Tempeh “Chocolate”
 tags:
   - EXPERIMENT
   - BLACKENED

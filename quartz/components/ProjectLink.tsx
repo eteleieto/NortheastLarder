@@ -12,6 +12,8 @@ const ProjectLink: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
 
   // Use the public project name for URLs while allowing backend `(WIP)` filenames.
   const projectSlug = slugTag(displayProject) as FullSlug
+  // A project's own hub page shouldn't announce that it belongs to itself.
+  if (projectSlug === fileData.slug) return null
   const href = resolveRelative(fileData.slug!, projectSlug)
 
   return (

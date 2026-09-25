@@ -2,7 +2,7 @@
 title: Northeast Larder
 ---
 
-<h1>Welcome to the Northeast Larder Project</h1>
+<h1>Welcome to Northeast Larder</h1>
 
 <p class="home-intro">We're an <strong>independent regional food lab and research project</strong>.</p>
 

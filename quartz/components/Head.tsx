@@ -20,7 +20,8 @@ export default (() => {
 
     let title: string
     if (fileData.slug === "index") {
-      title = "The Northeast Larder - Regional Food Lab"
+      // Same wording as every other page's suffix, minus the leading " | ".
+      title = titleSuffix.replace(/^\s*\|\s*/, "") || cfg.pageTitle
     } else {
       // Create descriptive titles based on content type and tags
       let titleContext = ""
@@ -57,6 +58,12 @@ export default (() => {
 
     const { css, js, additionalHead } = externalResources
 
+    // Link previews already show the site name (og:site_name) and domain, so
+    // the social title is just the page name — the SEO suffix only gets it cut off.
+    const socialTitle = fileData.slug === "index" ? cfg.pageTitle : baseTitle
+    const articleTags = ["BLOG", "RECIPE", "EXPERIMENT", "PROJECT", "EVENT", "TECHNIQUE"]
+    const ogType = tags.some((tag: string) => articleTags.includes(tag)) ? "article" : "website"
+
     const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
     const path = url.pathname as FullSlug
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
@@ -69,7 +76,7 @@ export default (() => {
     const usesCustomOgImage = ctx.cfg.plugins.emitters.some(
       (e) => e.name === CustomOgImagesEmitterName,
     )
-    const ogImageDefaultPath = `https://${cfg.baseUrl}/static/og-image.png`
+    const ogImageDefaultPath = `https://${cfg.baseUrl}/static/og-image.webp`
 
     // (svgFavicon removed — we now use an external file)
 
@@ -94,11 +101,11 @@ export default (() => {
         */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <meta name="og:site_name" content={cfg.pageTitle}></meta>
-        <meta property="og:title" content={title} />
-        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content={cfg.pageTitle}></meta>
+        <meta property="og:title" content={socialTitle} />
+        <meta property="og:type" content={ogType} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={title} />
+        <meta name="twitter:title" content={socialTitle} />
         <meta name="twitter:description" content={description} />
         <meta property="og:description" content={description} />
         <meta property="og:image:alt" content={description} />

@@ -1,5 +1,5 @@
 ---
-title: Soybean Koji "Coffee"
+title: Soybean Koji “Coffee”
 tags:
   - EXPERIMENT
   - BLACKENED

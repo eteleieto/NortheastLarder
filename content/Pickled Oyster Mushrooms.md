@@ -1,5 +1,6 @@
 ---
-title: Pickled Oysters Mushrooms
+aliases: [Pickled Oysters Mushrooms]
+title: Pickled Oyster Mushrooms
 tags:
   - EXPERIMENT
   - PICKLED

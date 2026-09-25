@@ -1,4 +1,5 @@
 ---
+aliases: [Ground Up Grains]
 title: Ground Up Grain
 tags:
   - SOURCE

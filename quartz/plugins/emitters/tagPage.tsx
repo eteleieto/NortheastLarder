@@ -12,27 +12,13 @@ import { write } from "./helpers"
 import { i18n, TRANSLATIONS } from "../../i18n"
 import { BuildCtx } from "../../util/ctx"
 import { StaticResources } from "../../util/resources"
+import { getCustomTitle } from "../../util/tagTitles"
 
 interface TagPageOptions extends FullPageLayout {
   sort?: (f1: QuartzPluginData, f2: QuartzPluginData) => number
 }
 
-// Custom titles and descriptions for specific tags
-const getCustomTitle = (tag: string): string => {
-  const customTitles: Record<string, string> = {
-    PROJECT: "Projects",
-    EXPERIMENT: "Experiments",
-    INGREDIENT: "Ingredients",
-    TECHNIQUE: "Techniques",
-    BLOG: "Blogs",
-    EVENT: "Events",
-    RECIPE: "Recipes",
-    IDEA: "Ideas",
-    SOURCE: "Sources",
-  }
-  return customTitles[tag] || tag
-}
-
+// Custom descriptions for specific tags (titles live in util/tagTitles)
 const getCustomDescription = (tag: string): string => {
   const descriptions: Record<string, string> = {
     PROJECT:

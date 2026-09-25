@@ -1,5 +1,5 @@
 ---
-title: Oyster Mushroom 'Kimchi'
+title: Oyster Mushroom ‘Kimchi’
 tags:
   - EXPERIMENT
 pairing: 

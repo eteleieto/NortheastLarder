@@ -1,8 +1,24 @@
 import { QuartzEmitterPlugin } from "../types"
 import { i18n } from "../../i18n"
 import { unescapeHTML } from "../../util/escape"
-import { FullSlug, getFileExtension, isAbsoluteURL, joinSegments, QUARTZ } from "../../util/path"
-import { ImageOptions, SocialImageOptions, defaultImage, getSatoriFonts } from "../../util/og"
+import {
+  FullSlug,
+  getAllSegmentPrefixes,
+  getFileExtension,
+  isAbsoluteURL,
+  joinSegments,
+  QUARTZ,
+} from "../../util/path"
+import {
+  CARD_PADDING_Y,
+  ImageOptions,
+  PHOTO_MAX_WIDTH,
+  SocialImageOptions,
+  SocialImagePhoto,
+  defaultImage,
+  getSatoriFonts,
+} from "../../util/og"
+import { getCustomTitle } from "../../util/tagTitles"
 import sharp from "sharp"
 import satori, { SatoriOptions } from "satori"
 import { loadEmoji, getIconCode } from "../../util/emoji"
@@ -41,18 +57,30 @@ async function generateSocialImage(
     console.warn(chalk.yellow(`Warning: Could not find current site logo at ${logoPath}`))
   }
 
-  let backgroundImageBase64: string | undefined
+  let photo: SocialImagePhoto | undefined
   const cardImage = fileData.cardImage
   if (cardImage?.startsWith("/")) {
     try {
       const imagePath = path.join(outputDir, cardImage.replace(/^\/+/, ""))
       const imageData = await fs.readFile(imagePath)
-      // Satori needs intrinsic dimensions for inline raster images; normalize
-      // the generated WebP thumbnail to PNG before embedding it in the SVG.
-      const pngData = await sharp(imageData).png().toBuffer()
-      backgroundImageBase64 = `data:image/png;base64,${pngData.toString("base64")}`
+      // Satori's objectFit handling is unreliable, so size the photo to fit
+      // the panel here (whole image, never cropped) and hand Satori a PNG
+      // with exact intrinsic dimensions.
+      const { data, info } = await sharp(imageData)
+        .resize({
+          width: PHOTO_MAX_WIDTH,
+          height: height - CARD_PADDING_Y * 2,
+          fit: "inside",
+        })
+        .png()
+        .toBuffer({ resolveWithObject: true })
+      photo = {
+        src: `data:image/png;base64,${data.toString("base64")}`,
+        width: info.width,
+        height: info.height,
+      }
     } catch {
-      // Pages without a readable card image use the same off-white treatment.
+      // Pages without a readable card image get the text-only card.
     }
   }
 
@@ -64,7 +92,7 @@ async function generateSocialImage(
     fonts,
     fileData,
     iconBase64: logoBase64,
-    backgroundImageBase64,
+    photo,
   })
 
   const svg = await satori(imageComponent, {
@@ -80,7 +108,7 @@ async function generateSocialImage(
     },
   })
 
-  return sharp(Buffer.from(svg)).webp({ quality: 40 })
+  return sharp(Buffer.from(svg)).webp({ quality: 70 })
 }
 
 async function processOgImage(
@@ -91,7 +119,11 @@ async function processOgImage(
 ) {
   const cfg = ctx.cfg.configuration
   const slug = fileData.slug!
-  const title = fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
+  // The home card would otherwise just repeat the wordmark; use the tagline.
+  const title =
+    slug === "index"
+      ? (siteTagline(cfg.pageTitleSuffix) ?? cfg.pageTitle)
+      : (fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title)
   const description =
     fileData.frontmatter?.socialDescription ??
     fileData.frontmatter?.description ??
@@ -117,6 +149,50 @@ async function processOgImage(
   })
 }
 
+// " | Northeast Larder - Fermentation & Regional Food Lab" -> "Fermentation & Regional Food Lab"
+function siteTagline(suffix: string | undefined): string | undefined {
+  const tagline = suffix?.split(" - ").slice(1).join(" - ").trim()
+  return tagline || undefined
+}
+
+const DEFAULT_CARD_SLUG = "static/og-image"
+
+/**
+ * Cards for pages that have no source file: one per tag listing, plus a
+ * site-wide default used by folder listings and anything else virtual.
+ */
+async function* processVirtualOgImages(
+  ctx: BuildCtx,
+  allFiles: QuartzPluginData[],
+  fonts: SatoriOptions["fonts"],
+  fullOptions: SocialImageOptions,
+) {
+  const cfg = ctx.cfg.configuration
+  const tags = new Set(
+    allFiles.flatMap((data) => data.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes),
+  )
+  const cards: { slug: string; title: string }[] = [
+    { slug: DEFAULT_CARD_SLUG, title: siteTagline(cfg.pageTitleSuffix) ?? cfg.pageTitle },
+    { slug: "tags/index", title: i18n(cfg.locale).pages.tagContent.tagIndex },
+    ...[...tags].map((tag) => ({ slug: joinSegments("tags", tag), title: getCustomTitle(tag) })),
+  ]
+
+  for (const card of cards) {
+    const fileData = { slug: card.slug } as QuartzPluginData
+    const stream = await generateSocialImage(
+      { title: card.title, description: "", fonts, cfg, fileData },
+      fullOptions,
+      ctx.argv.output,
+    )
+    yield write({
+      ctx,
+      content: stream,
+      slug: (card.slug === DEFAULT_CARD_SLUG ? card.slug : `${card.slug}-og-image`) as FullSlug,
+      ext: ".webp",
+    })
+  }
+}
+
 export const CustomOgImagesEmitterName = "CustomOgImages"
 export const CustomOgImages: QuartzEmitterPlugin<Partial<SocialImageOptions>> = (userOpts) => {
   const fullOptions = { ...defaultOptions, ...userOpts }
@@ -136,6 +212,13 @@ export const CustomOgImages: QuartzEmitterPlugin<Partial<SocialImageOptions>> = 
         if (vfile.data.frontmatter?.socialImage !== undefined) continue
         yield processOgImage(ctx, vfile.data, fonts, fullOptions)
       }
+
+      yield* processVirtualOgImages(
+        ctx,
+        content.map(([_tree, vfile]) => vfile.data),
+        fonts,
+        fullOptions,
+      )
     },
     async *partialEmit(ctx, _content, _resources, changeEvents) {
       const cfg = ctx.cfg.configuration
@@ -170,10 +253,12 @@ export const CustomOgImages: QuartzEmitterPlugin<Partial<SocialImageOptions>> = 
                 : `https://${baseUrl}/static/${userDefinedOgImagePath}`
             }
 
-            const generatedOgImagePath = isRealFile
-              ? `https://${baseUrl}/${pageData.slug!}-og-image.webp`
-              : undefined
-            const defaultOgImagePath = `https://${baseUrl}/static/og-image.png`
+            const isTagPage = pageData.slug?.startsWith("tags/") ?? false
+            const generatedOgImagePath =
+              isRealFile || isTagPage
+                ? `https://${baseUrl}/${pageData.slug!}-og-image.webp`
+                : undefined
+            const defaultOgImagePath = `https://${baseUrl}/${DEFAULT_CARD_SLUG}.webp`
             const ogImagePath = userDefinedOgImagePath ?? generatedOgImagePath ?? defaultOgImagePath
             const ogImageMimeType = `image/${(getFileExtension(ogImagePath) ?? ".png").slice(1)}`
             return (

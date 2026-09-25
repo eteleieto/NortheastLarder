@@ -13,7 +13,7 @@ McGee describes kohlrabi as a version of the basic cabbage plant whose main stem
 
 Because it is a stem, texture matters more than sheer sweetness. Young bulbs are tender enough to eat raw or cook briefly, while oversized ones go woody.[^1] University of Minnesota extension also notes that kohlrabi keeps for months in cold, moist storage, though home refrigeration usually holds quality for only a couple of weeks.[^2] That balance of crispness, water, and storage life helps explain why it is so tempting in pickles and salt ferments.
 
-Here it enters the graph through [[Lacto-Fermented Kholrabi + Maple]], where its mild brassica flavor and high water content matter at least as much as its sugar level. The note title still carries the older misspelling, but the ingredient it points to is kohlrabi.
+Here it enters the graph through [[Lacto-Fermented Kohlrabi + Maple]], where its mild brassica flavor and high water content matter at least as much as its sugar level.
 
 [^1]: Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen*, rev. ed. (Scribner, 2004), PDF p. 330.
 [^2]: University of Minnesota Extension, "[Growing kohlrabi in home gardens](https://extension.umn.edu/vegetables/growing-kohlrabi)," accessed July 21, 2026.

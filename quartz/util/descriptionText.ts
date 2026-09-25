@@ -118,9 +118,22 @@ function isBodyLine(line: string): boolean {
   return true
 }
 
+// Cut at a sentence end when one lands late enough to keep most of the text,
+// otherwise at the last word boundary, so snippets never stop mid-word.
 function truncate(text: string, maxLength: number): string {
   if (text.length <= maxLength) return text
-  return text.substring(0, maxLength).trim() + "..."
+  const slice = text.substring(0, maxLength)
+
+  const sentenceEnd = Math.max(
+    slice.lastIndexOf(". "),
+    slice.lastIndexOf("? "),
+    slice.lastIndexOf("! "),
+  )
+  if (sentenceEnd >= maxLength * 0.6) return slice.substring(0, sentenceEnd + 1)
+
+  const wordEnd = slice.lastIndexOf(" ")
+  const cut = wordEnd > 0 ? slice.substring(0, wordEnd) : slice
+  return cut.replace(/[\s,;:–—-]+$/, "") + "…"
 }
 
 /** Extract readable body text from HTML, skipping headings and card-list placeholders. */

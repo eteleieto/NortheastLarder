@@ -1,5 +1,6 @@
 ---
-title: Lacto-Fermented Kholrabi + Maple
+aliases: [Lacto-Fermented Kholrabi + Maple]
+title: Lacto-Fermented Kohlrabi + Maple
 tags:
   - EXPERIMENT
   - LACTO-FERMENT
